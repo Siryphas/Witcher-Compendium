@@ -1,0 +1,97 @@
+{
+  "folder": "grgI02zxLzvkm7QC",
+  "name": "Lucky Token (+1 LUCK)",
+  "type": "valuable",
+  "_id": "d5aO7NE1LuMEEXZK",
+  "img": "icons/commodities/flowers/clover.webp",
+  "system": {
+    "description": "A small token of luck.\n+1 Luck",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "isConsumable": false,
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "appliesGlobalModifier": false,
+      "consumeGlobalModifiers": [],
+      "effects": []
+    }
+  },
+  "effects": [
+    {
+      "name": "Lucky Token",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.d5aO7NE1LuMEEXZK",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/commodities/flowers/clover.webp",
+      "_id": "GmnCV6lztnVqILp1",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.luck.totalModifiers",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!d5aO7NE1LuMEEXZK.GmnCV6lztnVqILp1"
+    }
+  ],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0d941ebb39f3a8a0a15ba22197bbe2c815812451"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_key": "!items!d5aO7NE1LuMEEXZK"
+}

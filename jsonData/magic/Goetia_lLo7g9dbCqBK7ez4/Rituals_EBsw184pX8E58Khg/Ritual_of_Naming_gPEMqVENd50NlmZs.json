@@ -1,0 +1,57 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Ritual of Naming",
+  "type": "spell",
+  "_id": "gPEMqVENd50NlmZs",
+  "img": "icons/magic/symbols/runes-star-orange-purple.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": false,
+    "effect": "Process: \nCreate a bonfire of beast bones, coal, and dry wood. This fire must be hot enough to burn bright orange. \nRub a mixture of coal, fifth essence, and your own blood onto your exposed skin to protect it. \nWhile holding a branch of hazel, submerge the treated skin into the fire. \nThe fire will be harmless to you, and should burn white hot for a while before going out. \nWhile the fire burns hot, think of a demon whose true name you wish to discover. \nWhen the fire expires, remove your skin from the fire. The true name of the demon should appear in the crust of the coal coating your skin.\n\nEffect: \nThis ritual allows the player to learn the true name of a specific demon. \nOnce removed from the fire, the name can be safely recorded to save for later. \nIf you fail the Ritual Crafting check, then upon removing your skin from the fire, you find the coal had burned off during the ritual and the true name of a demon has been burned into your skin, marking you with a Lucifuge. \nYou may have discovered the true name of a demon, but it will forever know where you are while you bear this mark, and may appear to you on it’s own terms, as it wishes.",
+    "range": "",
+    "duration": "Instant",
+    "defence": "",
+    "components": "Investment: 848\n\nCoal (x10), Hardened Timber (x20), Beast Bones (x10), Infused Dust (x3), Your Own Blood",
+    "alternateComponents": "",
+    "preparationTime": "20 Rounds",
+    "dificultyCheck": "18/24",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 225000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aec797fe2f0017b040e7fe547558dffa93ee3154"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "1.038",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gPEMqVENd50NlmZs"
+}

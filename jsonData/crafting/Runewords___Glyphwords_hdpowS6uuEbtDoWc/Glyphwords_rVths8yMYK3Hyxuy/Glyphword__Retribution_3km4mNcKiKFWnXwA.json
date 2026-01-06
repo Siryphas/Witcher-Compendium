@@ -1,0 +1,78 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Retribution",
+  "type": "diagrams",
+  "_id": "3km4mNcKiKFWnXwA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Any Armor:<br>While wearing this armor, if you take damage from an attack, the attacker takes 3 points of damage to their torso which cannot be blocked by armor.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2500,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 21,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "uXWvKdf9TrUpgT9I",
+        "name": "Glyph of Earth",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.bTpf0fq4I7pz7xU8"
+      },
+      {
+        "id": "eaiE3TYoG4YtvEri",
+        "name": "Glyph of Fire",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.RXnlG0Qh39Bu7QVH"
+      },
+      {
+        "id": "32Qx8VhW5ErAgTNV",
+        "name": "Glyph of Reinforcement",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.5g3gtaEniQHSeJ9j"
+      }
+    ],
+    "investment": 1250,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.O7bm1Io4UP73ykqq",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "66083f911269e5a2354a71d237b67200d84dabdd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!3km4mNcKiKFWnXwA"
+}

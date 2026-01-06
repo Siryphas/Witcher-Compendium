@@ -1,0 +1,66 @@
+{
+  "folder": "dNEWmbHLX50kbh79",
+  "name": "De Claudine's Substitution",
+  "type": "spell",
+  "_id": "AQ5TqqdbPEaq4kt3",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "8",
+    "staminaIsVar": false,
+    "effect": "Popular with Alchemists and useful when looking for rare substances in a region, De Claudine’s Substitution allows you to permanently change the Alchemical Substance of one Unit of an Alchemy ingredient to a different Alchemical Substance. \nOnly one Unit of any such transmuted Alchemical Substance can be used in an Alchemical Formula without ruining the concoction.",
+    "range": "2m",
+    "duration": "Permanent",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "338536f9aa29f5a57d78a9725c3e34684fb78770"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AQ5TqqdbPEaq4kt3"
+}

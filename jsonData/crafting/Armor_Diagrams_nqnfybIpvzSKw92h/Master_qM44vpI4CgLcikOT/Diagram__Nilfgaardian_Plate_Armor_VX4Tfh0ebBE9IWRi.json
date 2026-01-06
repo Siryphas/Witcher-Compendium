@@ -1,0 +1,96 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Nilfgaardian Plate Armor",
+  "type": "diagrams",
+  "_id": "VX4Tfh0ebBE9IWRi",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Nilfgaardian plate armor is tough black and gold plate armor with tall pauldrons and a lot of detail work. Have to admit it&rsquo;s a piece of work. It&rsquo;ll stop a crossbow bolt and barely show a scratch.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1274,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "12 H",
+    "craftingComponents": [
+      {
+        "id": "qlhIwHPsk3IVTBvX",
+        "name": "Dark Steel",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "SAkH0H1GYpY1TVOu",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "EWhINn05kUuPoT9o",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "5FLNe1dcp0CW5gYs",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "13nRW7epgrw1JP5X",
+        "name": "Linen",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "XwKyZyWtZMSR2AHD",
+        "name": "Ashes",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      }
+    ],
+    "investment": 637,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.0yBjwMQr7MFFrZ8R",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ce990e02b125fbaf0a3ed81a76c543fc58155a78"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!VX4Tfh0ebBE9IWRi"
+}

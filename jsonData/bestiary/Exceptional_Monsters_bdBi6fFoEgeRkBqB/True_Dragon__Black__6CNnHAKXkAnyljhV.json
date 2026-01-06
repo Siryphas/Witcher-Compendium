@@ -1,0 +1,1870 @@
+{
+  "folder": "bdBi6fFoEgeRkBqB",
+  "name": "True Dragon (Black)",
+  "type": "monster",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/11%20-%20Draconids/Dragon.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 14,
+        "current": 14,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 13,
+        "current": 13,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 20,
+        "current": 20,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 30,
+        "current": 30,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 200,
+        "current": 200,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 15,
+        "current": 15,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 15,
+        "current": 15,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 150,
+        "value": 150,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 150,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 80,
+        "value": 80,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 80
+      },
+      "resolve": {
+        "max": 40,
+        "value": 40,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 40
+      },
+      "focus": {
+        "max": 24,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 10,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 10,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 9,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 7,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 10,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 9,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 9,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 1,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 10,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 8,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 9,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 8,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 9,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 9,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 10,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 8,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 10,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 10,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "Draconid",
+    "threat": "easy",
+    "difficulty": "complex",
+    "bounty": 5000,
+    "armorHead": 25,
+    "armorUpper": 25,
+    "armorLower": 25,
+    "armorTailWing": 25,
+    "regen": 0,
+    "resistances": "Slashing, Piercing, Bludgeoning, Stun, Ablation",
+    "immunities": "Bleed, Knock-Down, Fire, Armor Piercing, Improved Armor Piercing",
+    "susceptibilities": "Draconid Oil",
+    "senses": "Night Vision",
+    "height": "6m",
+    "weight": "4000kg",
+    "environment": "Mountains and Forests",
+    "intelligence": "Sapient",
+    "organization": "Solitary or in pairs",
+    "common": "<p><em>There&rsquo;s been more talk of dragons recently, what with the dragon sightin&rsquo;s &lsquo;round the pontar. I even&nbsp;heard from a reliable source that the famed Virgin of Aedirn, Saskia was a dragon herself! And if&nbsp;that&rsquo;s the case we&rsquo;d better all be on our toes! I&rsquo;d heard of the tales of Queen Meve and the red dragon,&nbsp;Keltulis but I never knew dragons could take human form! Heh, thought they were dangerous enough&nbsp;when they just breathed gouts of flame hot enough to melt stone and knocked down castle walls with&nbsp;their claws! I don&rsquo;t doubt the kingdoms of the North&rsquo;ll be keepin&rsquo; their gold and jewels under a tight&nbsp;lock and key. After all, dragons live for two things: killin&rsquo; knights and collectin&rsquo; plunder, heh.</em><br>&mdash;Rodolf Kazmer</p>",
+    "commonSkillValue": "14",
+    "monsterLore": "<p>One of the grandest mistakes common folk&nbsp;make regarding monsters is to assume that&nbsp;draconids are dragons. While the assumption&nbsp;is tempting, it is entirely untrue and has&nbsp;caused trouble for dragons and humanoids&nbsp;alike for centuries. Draconids may be tangentially&nbsp;related to dragons, but not all draconids&nbsp;are dragons. True Dragons&mdash;as many&nbsp;scholars and monster slayers refer to them&mdash;&nbsp;are exceedingly rare and extremely powerful&nbsp;creatures with an intellect far exceeding that&nbsp;of most draconids.</p>\n<p>While not technically an elementa or a being of the elemental planes, true dragons are often thought of as representations of the forces of chaos themselves. Powerful, often unpredictable, and naturally bound to the forces of magic.</p>\n<p>The immense power of True Dragons leads the people of Zerrikania to worship them and name their country after a legendary gold dragon: Zerrikanterment. However, in the western half of the Continent, the story is much different. In the Northern Kingdoms, the territories of Nilfgaard and the Skellige isles, True Dragons are often thought of as devilish monsters. Long ago, humans dubbed them &ldquo;the single greatest threat to the human race.&rdquo; In some regards they were correct. However, true dragons are sapient beings with largely the same range of emotions and personalities as humans and can be harmless or even benevolent in the right circumstances.</p>",
+    "monsterLoreSkillValue": "20",
+    "customStat": true,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": true,
+      "willIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "craIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "14",
+      "punch": {
+        "value": "1d6+14",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+18",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "statusEffectImmunities": [
+      "fire",
+      "prone",
+      "bleed"
+    ],
+    "notes": [],
+    "showCommonerSuperstition": true,
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "showAcademicKnowledge": false,
+    "showMonsterLore": true,
+    "dontAddAttr": false,
+    "hasTailWing": true,
+    "resistantNonMeteorite": true
+  },
+  "prototypeToken": {
+    "name": "True Dragon (Black)",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/npc-images/true_dragon_black_.Token.webp?1708646634914",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 4,
+    "height": 4,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 17,
+      "angle": 180,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 17,
+        "enabled": true
+      },
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "Rideable": {
+        "issetRideableFlag": false,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "GrapplePlacementFlag": "RowBelow",
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      },
+      "tagger": {}
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "_id": "wYQVOZsDGrDJuPbB",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "10d6",
+        "reliable": 20,
+        "maxReliability": 20,
+        "hands": "none",
+        "range": "2m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Crushing Force",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_1twzkedl3",
+            "name": "Long Reach",
+            "statusEffect": null,
+            "percentage": 0
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "ablating": true,
+        "armorPiercing": true,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "improvedArmorPiercing": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "damageProperties": {
+          "crushingForce": true,
+          "ablating": true,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Crushing Force",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_1twzkedl3",
+              "name": "Long Reach",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "Mg0Hl08bhvt4LK11",
+              "name": "Armor Piercing",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "A8NT8HiMCSrmvtdY",
+              "name": "Ablating",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.wYQVOZsDGrDJuPbB"
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "_id": "lLPqysQjSHwE3V8p",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/claw-lizard-white-black.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Slashing",
+          "slashing": true,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "8d6",
+        "reliable": 20,
+        "maxReliability": 20,
+        "hands": "none",
+        "range": "2m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Crushing Force",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_jc6iwpnoq",
+            "name": "Long Reach",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_7hhjfvxv8",
+            "name": "Bleed",
+            "statusEffect": "bleed",
+            "percentage": 75
+          },
+          {
+            "id": "_pjf7r4bar",
+            "name": "Knock-Down",
+            "statusEffect": "prone",
+            "percentage": 46
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 3,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "ablating": true,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "damageProperties": {
+          "crushingForce": true,
+          "ablating": true,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Crushing Force",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_jc6iwpnoq",
+              "name": "Long Reach",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_7hhjfvxv8",
+              "name": "Bleed",
+              "statusEffect": "bleed",
+              "percentage": 75,
+              "varEffect": false
+            },
+            {
+              "id": "_pjf7r4bar",
+              "name": "Knock-Down",
+              "statusEffect": "prone",
+              "percentage": 46,
+              "varEffect": false
+            },
+            {
+              "id": "AzkkmB1lKlydFK3c",
+              "name": "Ablating",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.lLPqysQjSHwE3V8p"
+    },
+    {
+      "name": "Wing Buffet",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/wing-lizard-yellow.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Rare",
+        "damage": "5d6+3",
+        "reliable": 15,
+        "maxReliability": 15,
+        "hands": "none",
+        "range": "2m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Crushing Force",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_v5y3ty3mz",
+            "name": "Long Reach",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_8dvazmz4c",
+            "name": "Knock-Down",
+            "statusEffect": "prone",
+            "percentage": 75
+          },
+          {
+            "id": "_f9v0nn0p8",
+            "name": "Stun (-2)",
+            "statusEffect": null,
+            "percentage": 2
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 2,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "damageProperties": {
+          "crushingForce": true,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Crushing Force",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_v5y3ty3mz",
+              "name": "Long Reach",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_8dvazmz4c",
+              "name": "Knock-Down",
+              "statusEffect": "prone",
+              "percentage": 75,
+              "varEffect": false
+            },
+            {
+              "id": "_f9v0nn0p8",
+              "name": "Stun (-2)",
+              "statusEffect": "stun",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.0iTfVdEmhlOG7XOf.Item.dxAvUTGyatq8ti85",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "XJ3cmPxGvWa0K7BI",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.XJ3cmPxGvWa0K7BI"
+    },
+    {
+      "name": "Breath",
+      "type": "weapon",
+      "_id": "gXVx9DqO1t4VNdwD",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/dragon-fire-breath-orange.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Elemental",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": true
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": -3,
+        "avail": "Everywhere",
+        "damage": "7d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "10m Cone",
+        "effects": [
+          {
+            "id": "first",
+            "name": "All Locations",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_1tpmivt1f",
+            "name": "Ablation (2 SP)",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_agge3wjbr",
+            "name": "Fire",
+            "statusEffect": "fire",
+            "percentage": 100
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "ablating": true,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "damageProperties": {
+          "damageToAllLocations": true
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.gXVx9DqO1t4VNdwD"
+    },
+    {
+      "name": "Dragon Tears",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/sol.png",
+      "system": {
+        "description": "",
+        "quantity": "2d10",
+        "weight": 0.1,
+        "cost": 276,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "True Dragons",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "sol",
+        "isStored": false
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_kmtjzlqj03",
+          "color": "#d2ab1e"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.J7Yu2xUm7udZAnA9",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "y3m3V0JNcUJs7bH3",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.y3m3V0JNcUJs7bH3"
+    },
+    {
+      "name": "Dragon Teeth",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/fulgur.png",
+      "system": {
+        "description": "",
+        "quantity": "4d10",
+        "weight": 1,
+        "cost": 192,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "True Dragons",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "fulgur",
+        "isStored": false
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_jmpyik2v7b",
+          "color": "#ff0000"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.kXhMFc5sv8KdUBUy",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "GTKp0MK5dae4GP8N",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.GTKp0MK5dae4GP8N"
+    },
+    {
+      "name": "Dragon Blood",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/rebis.png",
+      "system": {
+        "description": "",
+        "quantity": "5d10",
+        "weight": 1,
+        "cost": 250,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "True Dragons",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "rebis",
+        "isStored": false
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_7o0sf1zhel4",
+          "color": "#f57600"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.IixrFjLscfeZsWsX",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "YG9lfKhnnN1qh7xR",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.YG9lfKhnnN1qh7xR"
+    },
+    {
+      "name": "Dragon Tail",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/hydragenum.png",
+      "system": {
+        "description": "",
+        "quantity": "2d10",
+        "weight": 4,
+        "cost": 310,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "True Dragons",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "hydragenum",
+        "isStored": false
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_lt8vyki9dr",
+          "color": "#5c65e6"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.eKmpgiLFutAdI1Io",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "LdKst45hax8UbaxB",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.LdKst45hax8UbaxB"
+    },
+    {
+      "name": "Dragon's Hoard",
+      "type": "valuable",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": "genera",
+        "avail": "",
+        "effect": "",
+        "conceal": "",
+        "quality": "",
+        "isStored": false
+      },
+      "_id": "ghX68JqnluiEjzxG",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.ghX68JqnluiEjzxG"
+    },
+    {
+      "name": "Ability: Pounce",
+      "type": "note",
+      "_id": "JiF7gbjBHGgw5y1J",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its movement action, a true dragon can leap 6m from a standing start. This leap can be made horizontally or vertically.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.JiF7gbjBHGgw5y1J"
+    },
+    {
+      "name": "Ability: Flight",
+      "type": "note",
+      "_id": "rZh8cVPrMefdTxqO",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "As long as its wings remain, a true dragon can take its movement action to move 30m either horizontally or vertically. While in the air, a true dragon must use repositions to defend. The true dragon can only be knocked out of the air by stunning it or doing more than 20 points of damage with an attack. If the true dragon is knocked out of the air it must make a DC:25 Athletics check or take falling damage based on how far it fell. While flying, a true dragon can split its movement, allowing it to fly a certain number of meters, make its attack, and then move the remaining number of meters in its movement.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.rZh8cVPrMefdTxqO"
+    },
+    {
+      "name": "Ability: Telepathy",
+      "type": "note",
+      "_id": "KwJRyhJX1iRDCQR8",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "A true dragon can communicate telepathically with any character it can see within a mile of itself. This telepathy crosses language barriers and allows the target to respond in their mind if they choose.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.KwJRyhJX1iRDCQR8"
+    },
+    {
+      "name": "Ability: Breath",
+      "type": "note",
+      "_id": "Cl0CcnkI0f4ZTevV",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its full turn, a true dragon can breath a 10m cone of magical fire. Anyone in this area must make a reposition roll (if they are able to either move behind cover, or get out of the area) against the dragon’s attack roll, which has a base 20. If a person in that area has a pavise, they can use a block defense to deploy their pavise as cover. However, the pavise takes 1d10 ablation damage. If anyone in the area of the true dragon’s fire fails to defend against the fire breath, they are lit on fire and take 7d6 damage to all body locations. Even if armor soaks this damage, the armor is ablated by 2 points. Once the true dragon has used its Fire Breath Ability it must cool down and cannot use this ability again for 5 rounds.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.Cl0CcnkI0f4ZTevV"
+    },
+    {
+      "name": "Ability: Impenetrable Scales",
+      "type": "note",
+      "_id": "ybz5JWFXSypI6XmJ",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "A black dragon has nearly impenetrable scales which give it resistance to Piercing, Slashing, Bludgeoning, Stun, and Fire. This armor and resistances also cannot be affected by Armor Piercing weapons or Improved Armor Piercing weapons and any armor ablation is halved (minimum 1).",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6CNnHAKXkAnyljhV.ybz5JWFXSypI6XmJ"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Flight",
+      "origin": "Compendium.wtrpg-complete-compendium.bestiary.Actor.6CNnHAKXkAnyljhV",
+      "duration": {
+        "rounds": null,
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "icons/svg/wing.svg",
+      "_id": "lv3zrxLihCZLVk7L",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>As long as its wings remain, a true dragon can take its movement action to move 30m either horizontally or vertically. While in the air, a true dragon must use repositions to defend. The true dragon can only be knocked out of the air by stunning it or doing more than 20 points of damage with an attack. If the true dragon is knocked out of the air it must make a DC:25 Athletics check or take falling damage based on how far it fell. While flying, a true dragon can split its movement, allowing it to fly a certain number of meters, make its attack, and then move the remaining number of meters in its movement.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "flying"
+      ],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!6CNnHAKXkAnyljhV.lv3zrxLihCZLVk7L"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "6ba48c96014b1d41c4dc706b0440e3f7b2325b6c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "6CNnHAKXkAnyljhV",
+  "sort": -100000,
+  "_key": "!actors!6CNnHAKXkAnyljhV"
+}

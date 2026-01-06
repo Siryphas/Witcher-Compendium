@@ -1,0 +1,58 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Ritual of the Goat Skin",
+  "type": "spell",
+  "_id": "eoNHPRLn9wu9DMs3",
+  "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": false,
+    "effect": "The Ritual of the Goat Skin is a complex ritual used to create a Goat Skin Mantle which protects goetic practitioners during their rituals. During this ritual, the practitioner, who must have abstained from all pleasures of the flesh and fasted for a fortnight beforehand, must anoint a goat with oil infused with ginatia and hellebore petals and place a wreath of verbena and silk on its head. As the ritual begins, the practitioner must kill the goat, skin its body, and cast the body into a burning bonfire of timber and animal bones.. While the goat burns the practitioner must recite an unbroken series of protective prayers. When the fire burns down, the practitioner must take the ashes of the bonfire and rub it into the pelt of the goat and then tan it and attach toggles made from the goat’s bones.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "Investment: 400\nGoat (x1), Oil (x5), Coal (x1), Bloodstone Dagger, Ginitia Petals (x2), Hellebore Petals (x3), Tanning Herbs (x3), Verbena (x4), Timber (x10), Beast Bones (x3), Silk (x1)",
+    "alternateComponents": "",
+    "preparationTime": "30 Rounds",
+    "dificultyCheck": "16",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b5d11ab172c8afc5a62a3c86d240801d43ad7139"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "1.038",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eoNHPRLn9wu9DMs3"
+}

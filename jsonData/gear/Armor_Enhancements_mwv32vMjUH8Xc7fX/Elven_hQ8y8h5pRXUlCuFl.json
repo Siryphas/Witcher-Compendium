@@ -1,0 +1,52 @@
+{
+  "folder": "mwv32vMjUH8Xc7fX",
+  "name": "Elven",
+  "type": "enhancement",
+  "_id": "hQ8y8h5pRXUlCuFl",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shoulder/pauldron-segmented-yellow.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 200,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "armor",
+    "applied": "",
+    "avail": "Rare",
+    "effects": [
+      {
+        "id": "first",
+        "name": "+1 Stealth",
+        "statusEffect": "",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "stopping": 2,
+    "bludgeoning": true,
+    "slashing": false,
+    "piercing": true,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d762fff5bb482a36efb16b3fb128bf12c3014c6c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hQ8y8h5pRXUlCuFl"
+}

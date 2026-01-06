@@ -1,0 +1,102 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Stiletto",
+  "type": "diagrams",
+  "_id": "4z2aMqfQVIn0UCZV",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Count on the black ones to create a knife even more underhanded than a normal dagger. This dagger&rsquo;s long thin blade folds into the handle so you can hide it just about anywhere.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 412,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "76g7lvGaHLswTD67",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "KXwxsc1gbKvGM7KM",
+        "name": "Resin",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "MaIqEpcISOgbIQGZ",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "cqTmlj9pJ89kks9j",
+        "name": "Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "PGVgfnM8RJFSpriY",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "8XnMv6qJxkemOtn9",
+        "name": "Sharpening Grit",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "us0JcGR6CYzwJQ2e",
+        "name": "Coal",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.0T5Hakf12eEtR5Hc"
+      }
+    ],
+    "investment": 184,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.OYvHcDUwIHQMfY2M",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d1ae0fa997be49e0d47c7dddfb60f4e9fe2fea61"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!4z2aMqfQVIn0UCZV"
+}

@@ -1,0 +1,109 @@
+{
+  "folder": "ZKOgr1a0D6I3VIYd",
+  "name": "Voice of the Counselor",
+  "type": "spell",
+  "_id": "FNYkkTn0orHXdiyL",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "druid",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Voice of the Counselor allows you to imbue your words with inspiration.\nFor the duration of this invocation, you can either make your voice boom loud enough to be heard from far away or whisper in the ear of one person within range. \nAdditionally, you gain a +4 to Leadership checks.",
+    "range": "10m",
+    "duration": "10 Minutes",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Voice of the Counselor",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.FNYkkTn0orHXdiyL",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "czArHyUhW2E2mRJ4",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.emp.leadership.activeEffectModifiers",
+          "mode": 2,
+          "value": "4",
+          "priority": null
+        }
+      ],
+      "description": "<p>Voice of the Counselor allows you to imbue your words with inspiration.</p><p>For the duration of this invocation, you can either make your voice boom loud enough to be heard from far away or whisper in the ear of one person within range.</p><p>Additionally, you gain a +4 to Leadership checks.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!FNYkkTn0orHXdiyL.czArHyUhW2E2mRJ4"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "500e764adc5badbc266d2dc47c058ba2693cc495"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FNYkkTn0orHXdiyL"
+}

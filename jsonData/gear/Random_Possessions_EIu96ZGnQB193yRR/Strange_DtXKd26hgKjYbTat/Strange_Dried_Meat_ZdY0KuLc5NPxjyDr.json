@@ -1,0 +1,53 @@
+{
+  "folder": "DtXKd26hgKjYbTat",
+  "name": "Strange Dried Meat",
+  "type": "valuable",
+  "_id": "ZdY0KuLc5NPxjyDr",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/short-ribs-cooked-meat-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "cix52qSS5XjZwcdD",
+          "name": "Nausea",
+          "statusEffect": "nausea",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "943027538c47fe58de4498cdb3d32bfdc02a0035"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZdY0KuLc5NPxjyDr"
+}

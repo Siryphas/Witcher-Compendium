@@ -1,0 +1,108 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: War Bow",
+  "type": "diagrams",
+  "_id": "n21Y5h7axj2ZdD1X",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>The war bow&rsquo;s a piece of work. Was developed to fight knights in tough plate armor. Thing stands near two meters tall and fires an arrow with up to 77kg of force. These are the types of bows ya see on the field. Heh, standin&rsquo; back and firin&rsquo; shots high into the sky to rain down like goddamn meteors. Prefer the crossbow, but I respect a bowman who wields one of these.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1296,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "11 H",
+    "craftingComponents": [
+      {
+        "id": "Or9UBdoEJxaGawNd",
+        "name": "Hardened Timber",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "HxFQ8ehctSsjl6Ce",
+        "name": "Thread",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "jdI1AJFvQ8At8eoZ",
+        "name": "Wax",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "hBrTR4EAhhb9Cqqo",
+        "name": "Resin",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "GO1OfSgVVRU6LkRT",
+        "name": "Ester Grease",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "4YgSsWQ8X0j8W6lR",
+        "name": "Dark Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "8DYVvouGRaTHoN0F",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "y6AKS1ywESGEX5aP",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      }
+    ],
+    "investment": 626,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.TLCpiwhqA16BObiP",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8cd46d435ecaa9e9f469229864efcc1eb34f687b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!n21Y5h7axj2ZdD1X"
+}

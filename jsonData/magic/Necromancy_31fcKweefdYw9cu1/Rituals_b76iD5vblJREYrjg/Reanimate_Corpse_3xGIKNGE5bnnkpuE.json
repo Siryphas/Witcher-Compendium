@@ -1,0 +1,57 @@
+{
+  "folder": "b76iD5vblJREYrjg",
+  "name": "Reanimate Corpse",
+  "type": "spell",
+  "_id": "3xGIKNGE5bnnkpuE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "journeyman",
+    "source": "",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Reanimate Corpse forcibly summons a soul and binds it within its dead body. \nWhile animated, the corpse acts as though it were alive but is in excruciating pain which prevents it from moving and imposes a -3 to Resist Coercion checks. \nHowever, for the corpse to answer any questions it must have all parts required to speak including lungs, vocal chords, and a mouth and tongue. Additionally, it’s brain must be at least 50% intact.\nFor the purposes of Verbal Combat, Torture and Torment will not work on a corpse revived by necromancy as it is already in unimaginable pain.",
+    "range": "",
+    "duration": "Active (3 STA/Minute)",
+    "defence": "",
+    "components": "A corpse (with working vocal cords, lungs, brain, and a mouth), Chalk (x4), Fifth Essence (x5), Candles (x5), Crow’s Eye (x2), Specter Dust (x5), Essence of Wraith (x2)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "971e07cdaf66ea9ce1c7d7855aa84250cad84ea7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3xGIKNGE5bnnkpuE"
+}

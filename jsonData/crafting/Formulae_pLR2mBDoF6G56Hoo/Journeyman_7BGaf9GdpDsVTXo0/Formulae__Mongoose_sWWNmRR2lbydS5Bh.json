@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Mongoose",
+  "type": "diagrams",
+  "_id": "sWWNmRR2lbydS5Bh",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>A favorite of courtiers and nobles, Mongoose renders the drinker immune to the Poison condition for 30 minutes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 100,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 15,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 2,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 2
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.LVKTZvyPexUvOYo2",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b137f1089da8f6d6bf3b584e52f7301a61b49e9c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!sWWNmRR2lbydS5Bh"
+}

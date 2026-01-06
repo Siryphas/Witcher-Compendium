@@ -1,0 +1,77 @@
+{
+  "folder": "6OoTijb5ADa9nrB6",
+  "name": "Vrihedd Calvary Sword",
+  "type": "weapon",
+  "_id": "pmN42NWBrCLpelwe",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard.webp",
+  "system": {
+    "description": "Vrihedd were one of the most feared horse brigades in the world once. I faced ‘em once. Me and my mates. Lemme tell ya, these blued-steel swords, wielded from the back of a horse, can take the head off the toughest dwarf. Lucky I survived.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 745,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "4d6+4",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 25
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ZQh799hnb2yo1jA3"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dabfac555b674a51f10de675b7367433b1097174"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pmN42NWBrCLpelwe"
+}

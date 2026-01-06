@@ -1,0 +1,102 @@
+{
+  "folder": "GQ7fOuWxJ8kDUy67",
+  "name": "Diagram: Manticore Shield",
+  "type": "diagrams",
+  "_id": "9gKyVdVp6AkYtbVj",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "armor",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "1UUV6xYI9CdEinK2",
+        "name": "Hardened Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "lCQD8eL94TGw32iO",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "JDyRcLGN3NEdbPid",
+        "name": "Meteorite",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "ZzDWJQExrp2St4HU",
+        "name": "Silver",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.PuuOiiIej1l4GFdC"
+      },
+      {
+        "id": "ZuJKbfuIYKTeiZCR",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "A8GUJoP8Ep7NM4wc",
+        "name": "Etching Acid",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "qwf6zZPl3HLwEAYi",
+        "name": "River Clay",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      }
+    ],
+    "investment": 652,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.Zrekw5YZ1QpSUz7N",
+    "sourcebook": "A Witcher's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d80ae12692554424b7b1d045f65f7b335cc3c3b0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!9gKyVdVp6AkYtbVj"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "KZnRl0e6PPdCCj2f",
+  "name": "Ursine Armor",
+  "type": "armor",
+  "_id": "jH463tGfQUyeddKx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Bear%20Armor.jpg",
+  "system": {
+    "description": "Critical Decimation: \nWhenever you cause a Critical Wound using one of your Witcher weapons you treat that critical injury as one tier higher (for example, a Simple Critical becomes a Complex one).",
+    "quantity": 1,
+    "weight": 24,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 20,
+    "torsoMaxStopping": 20,
+    "leftArmStopping": 20,
+    "leftArmMaxStopping": 20,
+    "rightArmStopping": 20,
+    "rightArmMaxStopping": 20,
+    "leftLegStopping": 20,
+    "leftLegMaxStopping": 20,
+    "rightLegStopping": 20,
+    "rightLegMaxStopping": 20,
+    "type": "Heavy",
+    "avail": "WITCHER",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Critical Decimation"
+      }
+    ],
+    "encumb": 3,
+    "location": "FullCover",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.dXsEA03ZrQTllC6o"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "38a189d57432a7c0e1590a14c91ec0787458f2a4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jH463tGfQUyeddKx"
+}

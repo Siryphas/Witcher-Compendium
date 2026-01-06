@@ -1,0 +1,1464 @@
+{
+  "folder": "mRzmupuu2jEHoZvQ",
+  "name": "Arachase",
+  "type": "monster",
+  "_id": "6DzXLgTWK8Mx46HI",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/7%20-%20Insectoids/Arachas.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 13,
+        "current": 13,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 15,
+        "current": 15,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 130,
+        "current": 130,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 90,
+        "value": 90,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 90,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 45,
+        "value": 45,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 45
+      },
+      "resolve": {
+        "max": 15,
+        "value": 15,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 15
+      },
+      "focus": {
+        "max": 9,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 6,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": true,
+          "isVisible": true,
+          "modifiers": [
+            {
+              "id": "_jxl4cm3qx",
+              "name": "Feral",
+              "value": 5
+            }
+          ],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 4,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": true,
+          "isVisible": true,
+          "modifiers": [
+            {
+              "id": "_foew2m9wk",
+              "name": "Feral",
+              "value": 5
+            }
+          ],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 5,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 8,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 5,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 5,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 6,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 5,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 5,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 10,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 0,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 6,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 0,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "Insectoid",
+    "threat": "hard",
+    "difficulty": "complex",
+    "bounty": 1000,
+    "armorHead": 20,
+    "armorUpper": 20,
+    "armorLower": 20,
+    "armorTailWing": 0,
+    "regen": 0,
+    "resistances": "Bleeding, Slashing, Piercing",
+    "immunities": "Poison",
+    "susceptibilities": "Insectoid Oil",
+    "senses": "",
+    "height": "3m",
+    "weight": "800kg",
+    "environment": "Swamplands & floodplains",
+    "intelligence": "Feral",
+    "organization": "Solitary",
+    "common": "<p><em>Wanderin&rsquo; through a bog and think ya hear somethin&rsquo; move where ya don&rsquo;t see anythin&rsquo;?&nbsp;Just lay down and play dead. Probably an arachas, and that spells trouble for you. Arachas&nbsp;are big, nasty whoresons that hide in the flood plains and marshes usin&rsquo; some kinda magical&nbsp;camouflage. They&rsquo;re poisonous as all hell and suprisin&rsquo;ly agile. Lucky for you, they got shite&nbsp;eyesight so they gotta see ya move. If ya hold still ya might make it. Just gotta sit still as a&nbsp;statue and wait for it to move on.</em><br>&ndash;Rodolf Kazmer</p>",
+    "commonSkillValue": "15",
+    "monsterLore": "<p>Arachas are indeed very dangerous ambush predators. They stalk the swamps and floodplains of the Continent, primarily along the Pontar and the Yaruga, and they apply a sort&nbsp;of camouflage to hide their entire massive body from sight. However this camouflage isn&rsquo;t&nbsp;magical. An arachas hides its body inside a hollowed-out log or giant shell that matches the&nbsp;environment it lives in. Arachasae are perfectly capable of seeing you if you stand still, and&nbsp;doing so will make you a perfect target. Hunting arachasae prefer to sneak up as close as&nbsp;they can while camouflaged and then pounce on their prey. If the prey notices the arachas&nbsp;and runs, it will shoot sticky webbing at the target to immobilize it before pouncing. Once&nbsp;locked in melee combat an arachas will try to claw the opponent&nbsp;to death, often blocking attacks with its hard pincers and&nbsp;trying to pin their opponent.</p>\n<p>When fighting an arachas, apply something to help fight poison, such as gold oriole potion. It&rsquo;s also good to load up on insectoid oil and, when possible, stay behind the arachas. Arachas back armor is always the weakest&mdash;a wellplaced strike to the back will usually penetrate. It&rsquo;s also good to position yourself so a pouncing arachas may plummet off of drops or ram hard objects and take damage. Arachasae are often confused with endrega queens. An endrega queen is so similar to an arachas that many academics believe the two species may be related, with many thinking that arachasae mutated from endrega. The best way to distinguish an arachas from an endrega queen is their location. Arachasae are solitary predators and can be found alone in the wilderness. Endrega queens are found in their nest, surrounded by other endrega.</p>",
+    "monsterLoreSkillValue": "18",
+    "customStat": true,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": false,
+      "willIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "craIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "8",
+      "punch": {
+        "value": "1d6+8",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+12",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "statusEffectImmunities": [
+      "poison"
+    ],
+    "notes": [],
+    "showCommonerSuperstition": true,
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "showAcademicKnowledge": false,
+    "showMonsterLore": true,
+    "dontAddAttr": false,
+    "resistantNonMeteorite": true
+  },
+  "prototypeToken": {
+    "name": "Arachase",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Tokens/Top%20Down%20Tokens/Monsters/System%20Monsters/Arachas.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 12,
+      "angle": 180,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 12,
+        "enabled": true
+      },
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "Rideable": {
+        "issetRideableFlag": false,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "GrapplePlacementFlag": "RowBelow",
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/claw-insect-red.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Slashing",
+          "slashing": true,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "5d6",
+        "reliable": 10,
+        "maxReliability": 10,
+        "hands": "none",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Poison",
+            "statusEffect": "poison",
+            "percentage": 25
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 2,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "Corebook",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.Lp4N2nUrhI5nqN0M.Item.mKyGK5BRyf5JBLEc",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "2XXjmeWms4VSigHG",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.2XXjmeWms4VSigHG"
+    },
+    {
+      "name": "Webbing",
+      "type": "weapon",
+      "_id": "FrFOHU9Z33DklWT5",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/invertebrates/spider-web-black.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "0",
+        "reliable": 10,
+        "maxReliability": 10,
+        "hands": "none",
+        "range": "10",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Grapple",
+            "statusEffect": "grappled",
+            "percentage": 0
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": true,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "Corebook",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "first",
+              "name": "Grapple",
+              "statusEffect": "grappled",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.FrFOHU9Z33DklWT5"
+    },
+    {
+      "name": "Arachas Eyes",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/fulgur.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6/2",
+        "weight": 0.5,
+        "cost": 95,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Poor",
+        "location": "Arachasae",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "fulgur",
+        "isStored": false
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_jmpyik2v7b",
+          "color": "#ff0000"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.sxiDSmEFjHplPvM9",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "ZV9ZpLjBQXyhZMIS",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.ZV9ZpLjBQXyhZMIS"
+    },
+    {
+      "name": "Arachas Venom",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/caelum.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0.5,
+        "cost": 76,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Arachasae",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "caelum",
+        "isStored": false
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_e1z0w0mc48r",
+          "color": "#b7f35e"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.3sC1YSgISV1IwTsU",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "NIrzeIqG2VPXEH6G",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.NIrzeIqG2VPXEH6G"
+    },
+    {
+      "name": "Chitin",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/vermilion.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 5,
+        "cost": 106,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "arachasae & endrega",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "vermilion",
+        "isStored": false
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_w49tk67bl2m",
+          "color": "#3b9b58"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.5VdfQLbiZpAW35XN",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "qIggzlllFGpQb7VJ",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.qIggzlllFGpQb7VJ"
+    },
+    {
+      "name": "Venom Extract",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/caelum.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0.1,
+        "cost": 38,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Poor",
+        "location": "Ghouls, grave hags, Endrega, arachasae, wyverns",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "caelum",
+        "isStored": false
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_e1z0w0mc48r",
+          "color": "#b7f35e"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.GWuZMC5qUuBrbDhG",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "TtsHRqUzK46Pam9d",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.TtsHRqUzK46Pam9d"
+    },
+    {
+      "name": "Vulnerability: Soft Spot",
+      "type": "note",
+      "_id": "QBksbZ4rjiJFuZnw",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "An arachas’ back has only 10 points of armor and does not have its damage resistances.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.QBksbZ4rjiJFuZnw"
+    },
+    {
+      "name": "Ability: Pounce",
+      "type": "note",
+      "_id": "HLxjaPsdduUm9T4f",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "An arachas doesn’t need to take a running start when leaping.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.HLxjaPsdduUm9T4f"
+    },
+    {
+      "name": "Ability: Camouflage",
+      "type": "note",
+      "_id": "4YAVZuCIB5bvQPqw",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "Arachasae have a +10 to Stealth in their home terrain when they aren’t moving.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.4YAVZuCIB5bvQPqw"
+    },
+    {
+      "name": "Ability: Webbing",
+      "type": "note",
+      "_id": "RYt0nVUVrjoSgmQQ",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "If an enemy gets more than 8m from the arachas, it will shoot webbing at a range of 10m with Athletics. If it hits, the target is grappled until they can make a DC:16 Physique check or do 10 points of damage to the webbing.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!6DzXLgTWK8Mx46HI.RYt0nVUVrjoSgmQQ"
+    }
+  ],
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "887e8df7da9c1550949e8375c9a1ede9057a2368"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!6DzXLgTWK8Mx46HI"
+}

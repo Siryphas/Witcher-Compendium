@@ -1,0 +1,67 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Diagnostic Spell",
+  "type": "spell",
+  "_id": "MXnBLN7wo8TeXBWM",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Diagnostic Spell allows you to quickly assess a person’s health and determine how many Health Points they have, what critical wounds they have, and if they are sick or poisoned.",
+    "range": "5m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "rect",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "98ebc6feada5d60f23c1650ff974560744a3e595"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MXnBLN7wo8TeXBWM"
+}

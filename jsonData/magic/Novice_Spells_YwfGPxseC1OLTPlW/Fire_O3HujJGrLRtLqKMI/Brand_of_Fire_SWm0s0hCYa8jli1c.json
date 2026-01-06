@@ -1,0 +1,110 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Brand of Fire",
+  "type": "spell",
+  "_id": "SWm0s0hCYa8jli1c",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "Brand of Fire allows you to brand a target with a simple symbol or word anywhere on their exposed body. \nThis does 1d6 damage to the target and leaves a large, permanent scar.\n\nOnly a surgeon can obliterate words burned into skin by a Brand of Fire. A doctor can remove a scar by rolling a DC:15 Healing Hands check. A brand is too large to remove, but after treatment it won’t spell anything out anymore.",
+    "range": "8m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "1d6",
+    "effects": [],
+    "damageType": "fire",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "type": "base",
+      "name": "Brand of Fire",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.SWm0s0hCYa8jli1c",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "_id": "2f8kCl2RqWEmo1px",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Brand of Fire allows you to brand a target with a simple symbol or word anywhere on their exposed body.</p><p>This does 1d6 damage to the target and leaves a large, permanent scar.</p><p>Only a surgeon can obliterate words burned into skin by a Brand of Fire. A doctor can remove a scar by rolling a DC:15 Healing Hands check. A brand is too large to remove, but after treatment it won’t spell anything out anymore.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!SWm0s0hCYa8jli1c.2f8kCl2RqWEmo1px"
+    }
+  ],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "401a032304685511595378ded29ded9d5301712d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SWm0s0hCYa8jli1c"
+}

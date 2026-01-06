@@ -1,0 +1,74 @@
+{
+  "folder": "4uEv4u3zjO1eCMCr",
+  "name": "Runeword: Shearing",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Attacks made with this weapon do an additional 1 point of damage to the Stopping Power of Armor or the Reliability of Shields if they penetrate them.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2300,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "UDtriKyHFDIH1Oh7",
+        "name": "Veles Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.THX4shNdm1m5cDyJ"
+      },
+      {
+        "id": "lYIA3dO2ykOgnrHm",
+        "name": "Zoria Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.KCYiF0nTWc0vKsoH"
+      }
+    ],
+    "investment": 1150,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.GC1li5fm5T2itfmT",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87cf948bec1921885badbbddaf005c22e5acd6ba",
+      "sourceId": "Item.wsnmHh3TgMT41ncM"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_id": "tS81s5nbfo30CQYL",
+  "sort": 400000,
+  "_key": "!items!tS81s5nbfo30CQYL"
+}

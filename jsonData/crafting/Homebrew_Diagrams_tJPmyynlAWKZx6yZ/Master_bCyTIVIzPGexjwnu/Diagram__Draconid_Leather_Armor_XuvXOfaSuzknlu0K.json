@@ -1,0 +1,98 @@
+{
+  "folder": "bCyTIVIzPGexjwnu",
+  "name": "Diagram: Draconid Leather Armor",
+  "type": "diagrams",
+  "_id": "XuvXOfaSuzknlu0K",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 812,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "18 H",
+    "craftingComponents": [
+      {
+        "id": "Bw1fKVAOwiRETAA9",
+        "name": "Draconid Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.d3MFWfdBu2XoP7JD"
+      },
+      {
+        "id": "sBEc5OfmloAKoTKJ",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "yFZJLelF8JYZ4l2l",
+        "name": "Thread",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "jMBCA4YgsqMU1iRW",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "4PsZhlzMj3n0xwOG",
+        "name": "Linen",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "dg5s07Z4k4G6uHV9",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 478,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.yRo7wMpO86jqqZRt",
+    "sourcebook": "Homebrew",
+    "isStored": false,
+    "isCarried": true,
+    "resultQuantity": 1
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "23eea0a87e84737ca6259f7443d71491ff04dba3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.kQlcfJU7M6m67eOy",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.26.0",
+    "exportSource": null
+  },
+  "_key": "!items!XuvXOfaSuzknlu0K"
+}

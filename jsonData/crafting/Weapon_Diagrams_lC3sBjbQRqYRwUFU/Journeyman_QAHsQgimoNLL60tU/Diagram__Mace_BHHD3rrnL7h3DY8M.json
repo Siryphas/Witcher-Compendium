@@ -1,0 +1,96 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Mace",
+  "type": "diagrams",
+  "_id": "BHHD3rrnL7h3DY8M",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>A brutal piece of work. Solid metal head with flanges or spikes. Heh, point is, when the head of the mace hits its target it&rsquo;ll break bones. Know plenty of mercenaries who carry one of these just to break through armor.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 786,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "qjNxiueSzieOzOF8",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "GxMKsXWH1QdliVTU",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "jdztfJClETeF1MOn",
+        "name": "Iron",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "4A5oykTGJyI4Hztt",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "VpbXgTiD4HioLsbQ",
+        "name": "Ogre Wax",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "8yXAZ9Qc3PuxaRuv",
+        "name": "Resin",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      }
+    ],
+    "investment": 384,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.iJS0mawvQKXJ6Nby",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "95f4fa7d759ab157180e8f6f0b4262d91da45c9b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!BHHD3rrnL7h3DY8M"
+}

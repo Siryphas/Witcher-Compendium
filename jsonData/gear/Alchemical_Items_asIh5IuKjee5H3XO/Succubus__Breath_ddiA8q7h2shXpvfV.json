@@ -1,0 +1,135 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Succubus' Breath",
+  "type": "alchemical",
+  "_id": "ddiA8q7h2shXpvfV",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/flask-decorated-label-pink.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 20,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Common",
+    "effect": "Popular for bards. Succubus’ breath can really get someone goin’ if ya know what I mean. Never used it myself. Never had to, heh.\n\nA dose of Succubus' Breath can be used to aid seduction. Used on the skin, it gives you a +2 to Seduction. If poured into someone's drink, it gives them a -5 to seduction resistance. Like Black Venom, it takes a DC: 16 Awareness check to realized there is Succubus' Breath in a drink.",
+    "time": "Immediate",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Succubus' Breath (Self)",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.ddiA8q7h2shXpvfV",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/flask-decorated-label-pink.webp",
+      "_id": "R7h0sVAWyQIzATS3",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>A dose of Succubus' Breath can be used to aid seduction. Used on the skin, it gives you a +2 to Seduction.</p><p>If poured into someone's drink, it gives them a -5 to seduction resistance. Like Black Venom, it takes a DC: 16 Awareness check to realize there is Succubus' Breath in a drink.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ddiA8q7h2shXpvfV.R7h0sVAWyQIzATS3"
+    },
+    {
+      "name": "Succubus' Breath (Target)",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.ddiA8q7h2shXpvfV",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/flask-decorated-label-pink.webp",
+      "_id": "YQbUBECfbialNbeW",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.resistcoerc.activeEffectModifiers",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        }
+      ],
+      "description": "<p>A dose of Succubus' Breath can be used to aid seduction. Used on the skin, it gives you a +2 to Seduction.</p><p>If poured into someone's drink, it gives them a -5 to seduction resistance. Like Black Venom, it takes a DC: 16 Awareness check to realize there is Succubus' Breath in a drink.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ddiA8q7h2shXpvfV.YQbUBECfbialNbeW"
+    }
+  ],
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bd1bcb8b76979b5b9f6456bea88b8b9273d0edd8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ddiA8q7h2shXpvfV"
+}

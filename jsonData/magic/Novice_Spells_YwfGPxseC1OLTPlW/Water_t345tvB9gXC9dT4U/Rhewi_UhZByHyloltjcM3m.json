@@ -1,0 +1,77 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Rhewi",
+  "type": "spell",
+  "_id": "UhZByHyloltjcM3m",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Rhewi creates a thick layer of ice around a target for the duration of the spell. The target is treated as frozen. \nIf used on a non-living target, the target cannot to be manipulated or moved.",
+    "range": "8m",
+    "duration": "1d10 Rounds",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "statusEffect": "freeze",
+        "percentage": 100
+      }
+    ],
+    "damageType": "ice",
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87fd9b74a9d0aebb37e7de0efd6a183710451fd5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UhZByHyloltjcM3m"
+}

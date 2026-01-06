@@ -1,0 +1,67 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Earthen Pillar",
+  "type": "spell",
+  "_id": "34DRkFYoBUDRkZg1",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "Earthen Pillar allows you raise a 2m cubed pillar from earthen ground.\nThis pillar counts as cover with 10 SP and remains until destroyed.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "2",
+    "templateType": "rect",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "09fc4a134c25020d14a61c6e8d5b81fae7fb06ec"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!34DRkFYoBUDRkZg1"
+}

@@ -1,0 +1,1588 @@
+{
+  "folder": "kcViAK2KsiHsR0cR",
+  "name": "Wyvern",
+  "type": "monster",
+  "_id": "RkIv7uwHGAvLPBuo",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/11%20-%20Draconids/Wyvern.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 21,
+        "current": 21,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 100,
+        "current": 100,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 80,
+        "value": 80,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 80,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 40,
+        "value": 40,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 40
+      },
+      "resolve": {
+        "max": 15,
+        "value": 15,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 15
+      },
+      "focus": {
+        "max": 3,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 10,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": true,
+          "isVisible": true,
+          "modifiers": [
+            {
+              "id": "_ejqeagkhb",
+              "name": "Feral",
+              "value": 6
+            }
+          ],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 9,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [
+            {
+              "id": "_2rfb94wad",
+              "name": "Feral",
+              "value": 6
+            }
+          ],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 7,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 6,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 8,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 8,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 6,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 8,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 8,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 8,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 0,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 8,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 0,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "Draconid",
+    "threat": "hard",
+    "difficulty": "simple",
+    "bounty": 1000,
+    "armorHead": 10,
+    "armorUpper": 10,
+    "armorLower": 10,
+    "armorTailWing": 10,
+    "regen": 0,
+    "resistances": "Piercing, Slashing",
+    "immunities": "",
+    "susceptibilities": "Draconid Oil",
+    "senses": "",
+    "height": "2m",
+    "weight": "408kg",
+    "environment": "Mountains and valleys",
+    "intelligence": "Feral",
+    "organization": "Solitary or in pairs",
+    "common": "<p><em>Wyverns are like two-legged dragons, I think. Hell, folk don&rsquo;t see &lsquo;em much, so folk don&rsquo;t talk&nbsp;about &lsquo;em much. Anyhow, wyverns are like the lesser cousins of dragons and they hunt virgin&nbsp;maidens and such. Ya gotta watch out for &lsquo;em swoopin&rsquo; down out of a clear blue sky to carry&nbsp;off your daughters. Can only be killed by silver, so a silver blade&rsquo;s a necessity when rescuin&rsquo;&nbsp;a damsel from one of these scaly whoresons. They say once you&rsquo;ve killed the beast, though,&nbsp;drinkin&rsquo; its blood&rsquo;ll give you power over fire itself.</em><br>&ndash;Rodolf Kazmer</p>",
+    "commonSkillValue": "16",
+    "monsterLore": "<p>Draconids accrue the most strange and fantastical legends around them. Something about&nbsp;this family of monsters inspires the storyteller in everyone. Wyverns are draconids, in the&nbsp;same family as dragons but far from being dragons. They are violent, primal beasts that&nbsp;stalk high mountain areas and hunt people mostly when they happen upon them. Wyverns&nbsp;have no predisposition towards virgins&ndash;they pursue any living creature they think they can&nbsp;kill and eat. It is true that wyverns like to swoop down on their prey from above and try&nbsp;to stay in the air if possible. Unlike dragons, wyverns can&rsquo;t breathe fire, but they can spit&nbsp;an acidic poison with great accuracy. That can make fighting a wyvern at range a daunting&nbsp;task. Luckily they aren&rsquo;t immune to everything but silver.&nbsp;While their hides are tough to pierce, they can be felled with&nbsp;regular steel weapons and magic, just like most other creatures.</p>\n<p>When hunting a wyvern, start by preparing a draconid oil. Cover yourself from head to toe as much as possible to avoid acidic venom getting on any uncovered areas. Golden oriole potion is also a good idea, to negate poison effects. You should also stock up on ranged ammunition or make sure you know a few damaging spells. While a wyvern flies around its prey, a well-placed arrow or the like stands a good chance of knocking the monster out of the air, making it far easier to hit. While engaging a flying wyvern, be wary of their claws&ndash;they will try to slash at you as they fly by. On the ground a wyvern falls back to its fanged bite or the poisonous barbs on its tail.</p>",
+    "monsterLoreSkillValue": "16",
+    "customStat": true,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "willIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "empIsOpen": false,
+      "craIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "4",
+      "punch": {
+        "value": "1d6+4",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+8",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "notes": [],
+    "statusEffectImmunities": [],
+    "showCommonerSuperstition": true,
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "showAcademicKnowledge": false,
+    "showMonsterLore": true,
+    "dontAddAttr": false,
+    "hasTailWing": true,
+    "resistantNonMeteorite": true
+  },
+  "prototypeToken": {
+    "name": "Wyvern",
+    "displayName": 50,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Tokens/Top%20Down%20Tokens/Monsters/System%20Monsters/Wyvern.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 17,
+      "angle": 180,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 17,
+        "enabled": true
+      },
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "GrapplePlacementFlag": "RowBelow",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      },
+      "tagger": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Claw",
+      "type": "weapon",
+      "_id": "vi3dFAMQOklnamK8",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/claw-lizard-white-black.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Rare",
+        "damage": "6d6",
+        "reliable": 15,
+        "maxReliability": 15,
+        "hands": "none",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "",
+            "percentage": 0,
+            "statusEffect": null
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 2,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "Corebook",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "damageProperties": {
+          "effects": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.vi3dFAMQOklnamK8"
+    },
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "_id": "ZzXdhe7veQkFFulU",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Rare",
+        "damage": "7d6",
+        "reliable": 10,
+        "maxReliability": 10,
+        "hands": "none",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Poison",
+            "statusEffect": "poison",
+            "percentage": 25
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "Corebook",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.ZzXdhe7veQkFFulU"
+    },
+    {
+      "name": "Draconid Scales",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/leather/scales-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "1d10",
+        "weight": 5,
+        "cost": 30,
+        "isHidden": false,
+        "type": "animal-parts",
+        "rarity": "Rare",
+        "location": "Wyverns",
+        "quantityObtainable": "1d6",
+        "forage": "N/A",
+        "substanceType": "",
+        "isStored": false
+      },
+      "sort": 24805,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_ekdorqnkarh",
+          "color": "#000000"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.mFqVoP7M7o18aMjK",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "gKUO9lZ8rGxLkZro",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.gKUO9lZ8rGxLkZro"
+    },
+    {
+      "name": "Venom Extract",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/caelum.png",
+      "system": {
+        "description": "",
+        "quantity": "1d10",
+        "weight": 0.1,
+        "cost": 38,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Poor",
+        "location": "Ghouls, grave hags, Endrega, arachasae, wyverns",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "caelum",
+        "isStored": false
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_e1z0w0mc48r",
+          "color": "#b7f35e"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.GWuZMC5qUuBrbDhG",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "NJcwtoXsBaMM3eTn",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.NJcwtoXsBaMM3eTn"
+    },
+    {
+      "name": "Wyvern Egg",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/fulgur.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6/2",
+        "weight": 2,
+        "cost": 150,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Wyverns",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "fulgur",
+        "isStored": false
+      },
+      "sort": 5100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_jmpyik2v7b",
+          "color": "#ff0000"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.uaaNtFlW29mYCnzq",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "o6NFGRNvtt6UEXSb",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.o6NFGRNvtt6UEXSb"
+    },
+    {
+      "name": "Wyvern Eyes",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/sol.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6/2",
+        "weight": 0.1,
+        "cost": 75,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Wyverns",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "sol",
+        "isStored": false
+      },
+      "sort": 15300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_kmtjzlqj03",
+          "color": "#d2ab1e"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.xKufFsA4D9buLc8n",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "0Y6iXHCideLGNmy3",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.0Y6iXHCideLGNmy3"
+    },
+    {
+      "name": "Ability: Flight",
+      "type": "note",
+      "_id": "9K7aZcD1WBRb8nra",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "A wyvern can take flight as a movement. The wyvern can only be knocked out of the air by stunning it or doing more than 10 points of damage with an attack. If the wyvern is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.9K7aZcD1WBRb8nra"
+    },
+    {
+      "name": "Ability: Spit Venom",
+      "type": "note",
+      "_id": "8KAkNP8cbbkDsCPk",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "Wyverns can spit venom at one target up to 8m away and do 3d6 damage with a 100% chance of poisoning.",
+        "quantity": "3",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.8KAkNP8cbbkDsCPk"
+    },
+    {
+      "name": "Tail Barbs",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/stinger-insect-brown.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "5d6+2",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Poison",
+            "statusEffect": "poison",
+            "percentage": 75
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "Corebook",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Actor.ECFvrXXwduokDJia.Item.x62lKK5N7gHTjbug",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "rMjYN0IKGRqYwXxD",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.rMjYN0IKGRqYwXxD"
+    },
+    {
+      "name": "Spit Venom",
+      "type": "weapon",
+      "_id": "hcDzMJDB3Ucsnksg",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/acid/projectile-faceted-glob.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Elemental",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": true
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Rare",
+        "damage": "3d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "8m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Poison",
+            "statusEffect": "poison",
+            "percentage": 100
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "Corebook",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!RkIv7uwHGAvLPBuo.hcDzMJDB3Ucsnksg"
+    }
+  ],
+  "effects": [
+    {
+      "name": "Flight",
+      "origin": "Compendium.wtrpg-complete-compendium.bestiary.Actor.RkIv7uwHGAvLPBuo",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "icons/svg/wing.svg",
+      "_id": "vGIAn3W0gUToyqrE",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>A wyvern can take flight as a movement. The wyvern can only be knocked out of the air by stunning it or doing more than 10 points of damage with an attack. If the wyvern is knocked out of the air it must make a DC:16 Athletics check or take falling damage based on how far it fell.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "flying"
+      ],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.effects!RkIv7uwHGAvLPBuo.vGIAn3W0gUToyqrE"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a64b928f50dd116c4befba510c77f81779932a8b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!RkIv7uwHGAvLPBuo"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "4wtbgHo7IcqX8i2d",
+  "name": "Diagram: Draconid Leather",
+  "type": "diagrams",
+  "_id": "JFvN8MBgJ9oe5J49",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 78,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "Mrg1fAtSjqQoglB4",
+        "name": "Draconid Scales",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.mFqVoP7M7o18aMjK"
+      },
+      {
+        "id": "dHTXjdvxISHKbi1k",
+        "name": "Tanning Herbs",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj"
+      }
+    ],
+    "investment": 39,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.d3MFWfdBu2XoP7JD",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c8e2822cccc237ffc1761f7a7ab5b5a3baa31e7b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!JFvN8MBgJ9oe5J49"
+}

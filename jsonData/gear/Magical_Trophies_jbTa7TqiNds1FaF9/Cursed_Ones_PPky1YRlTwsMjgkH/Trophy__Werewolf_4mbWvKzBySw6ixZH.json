@@ -1,0 +1,96 @@
+{
+  "folder": "PPky1YRlTwsMjgkH",
+  "name": "Trophy: Werewolf",
+  "type": "valuable",
+  "_id": "4mbWvKzBySw6ixZH",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/leather/fur-white-tan.webp",
+  "system": {
+    "description": "You gain a +2 to Physique and Wilderness Survival checks.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Werewolf",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.4mbWvKzBySw6ixZH",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/leather/fur-white-tan.webp",
+      "_id": "hczkGpfjq9u03Qdl",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.body.physique.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.skills.int.wilderness.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>You gain a +2 to Physique and Wilderness Survival checks.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!4mbWvKzBySw6ixZH.hczkGpfjq9u03Qdl"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "02284f2584630a09c0e06e66c970e8e5c875f10a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4mbWvKzBySw6ixZH"
+}

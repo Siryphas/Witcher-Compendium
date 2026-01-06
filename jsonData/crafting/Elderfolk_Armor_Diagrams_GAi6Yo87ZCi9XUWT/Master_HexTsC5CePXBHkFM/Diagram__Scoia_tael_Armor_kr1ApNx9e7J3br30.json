@@ -1,0 +1,121 @@
+{
+  "name": "Diagram: Scoia'tael Armor",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Can&rsquo;t say every Scoia&rsquo;tael wears this armor but the commanders of commandos generally do. Iorveth, Yaevinn, and such. It&rsquo;s good armor, designed to help ya blend into the background. Hate the Scoia&rsquo;tael but their armor&rsquo;s good.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 3486,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "elderfolk-armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "20 H",
+    "investment": 1738,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "9CxGybZNcaUNkCJv",
+        "name": "Dark Steel",
+        "quantity": 12,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "MiEcrLmR1wPaCG6i",
+        "name": "Wolf Hide",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.kVPS9ZC0Xj7hSDz9"
+      },
+      {
+        "id": "R8z1iZYiDGMDnT8D",
+        "name": "Ester Grease",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "b9fylKdEwVX2GqnR",
+        "name": "Etching Acid",
+        "quantity": 12,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "mIsXrd0T2gSqn6GX",
+        "name": "Ashes",
+        "quantity": 11,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      },
+      {
+        "id": "a7XElqEUtFWfiFPm",
+        "name": "Double Woven Linen",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "tt9XMFhWMRAcLV8h",
+        "name": "Darkening Oil",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "BWI7hxN5uYosFLhs",
+        "name": "Hardened Timber",
+        "quantity": 13,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "oFw4jKtzNTg3h1gA",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "V0J5s2lIyHp7BXNe",
+        "name": "Thread",
+        "quantity": 9,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.aqqPziy8lWS3Audp"
+  },
+  "effects": [],
+  "folder": "HexTsC5CePXBHkFM",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "75b6a747a867f00508c338ae3e3f31f5ebf8191d",
+      "sourceId": "Item.DZlp68g2UzJPfNZt"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_id": "kr1ApNx9e7J3br30",
+  "sort": 200000,
+  "_key": "!items!kr1ApNx9e7J3br30"
+}

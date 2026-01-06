@@ -1,0 +1,69 @@
+{
+  "folder": "Bqie2w33BcpJqUA9",
+  "name": "Mahakaman Plate Armor",
+  "type": "armor",
+  "_id": "IXznZifPR7ae9OFZ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/chest/breastplate-sculpted-green.webp",
+  "system": {
+    "description": "Mahakaman steel. Best stuff in the world. And armor made out of it’s bound to be the best. Mahakaman plate armor’s heavy, dark armor with bronze and gold highlights, solid angular designs and dwarven runes. Never worn it, but I carried a set for a few weeks from Mahakam to Angren. Sold it for thousands.",
+    "quantity": "1",
+    "weight": 30,
+    "cost": 3525,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 30,
+    "headMaxStopping": 30,
+    "torsoStopping": 30,
+    "torsoMaxStopping": 30,
+    "leftArmStopping": 30,
+    "leftArmMaxStopping": 30,
+    "rightArmStopping": 30,
+    "rightArmMaxStopping": 30,
+    "leftLegStopping": 30,
+    "leftLegMaxStopping": 30,
+    "rightLegStopping": 30,
+    "rightLegMaxStopping": 30,
+    "type": "Heavy",
+    "avail": "Rare",
+    "enhancements": 3,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Helmet",
+        "statusEffect": "reducedVision",
+        "percentage": 0
+      }
+    ],
+    "encumb": 2,
+    "location": "FullCover",
+    "bludgeoning": true,
+    "slashing": true,
+    "piercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ILj6jF8Uo6WlX3SG"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "20f9c7b27a67d62b51cd53c8a0a744fc053673f1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IXznZifPR7ae9OFZ"
+}

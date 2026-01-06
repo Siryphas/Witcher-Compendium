@@ -1,0 +1,61 @@
+{
+  "folder": "ZKOgr1a0D6I3VIYd",
+  "name": "Nature's Gift",
+  "type": "spell",
+  "_id": "ayIFMMHTlJ5fAkME",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "druid",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Nature’s Gift grows a small cluster of edible plants in soil of any kind. \nThese plants are enough to sustain a number of people equal to the number of STA points spent for 1 day.",
+    "range": "2m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "929bd988722a43c7a8b02fe65bceb6493a1c7931"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ayIFMMHTlJ5fAkME"
+}

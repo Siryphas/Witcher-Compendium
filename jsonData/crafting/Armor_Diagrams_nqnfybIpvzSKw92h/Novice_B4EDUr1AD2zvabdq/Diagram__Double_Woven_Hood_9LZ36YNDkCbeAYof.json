@@ -1,0 +1,84 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Double Woven Hood",
+  "type": "diagrams",
+  "_id": "9LZ36YNDkCbeAYof",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Hoods can be armored pretty easily. Addin&rsquo; leather, chain, and such like that. These hoods are woven tighter than any other to make it harder for weapons to penetrate &lsquo;em. Heh, simple and effective.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 262,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 13,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "OLnkbxC4kxl6FitG",
+        "name": "Double Woven Linen",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "2UdmPTIda49kL38v",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "kodU79PEtW9OG2sV",
+        "name": "Thread",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "HHmxK940l0YfUc8r",
+        "name": "Wax",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      }
+    ],
+    "investment": 129,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.WoUO9aKuzYvksjbU",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c91b3f0dbdca02c713f2dd7f657e7f4a33750ab5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!9LZ36YNDkCbeAYof"
+}

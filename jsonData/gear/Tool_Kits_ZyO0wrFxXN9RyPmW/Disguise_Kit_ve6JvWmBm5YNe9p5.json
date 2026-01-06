@@ -1,0 +1,88 @@
+{
+  "folder": "ZyO0wrFxXN9RyPmW",
+  "name": "Disguise Kit",
+  "type": "valuable",
+  "_id": "ve6JvWmBm5YNe9p5",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/hood-simple-leather-brown.webp",
+  "system": {
+    "description": "+2 Disguise",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 58,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "toolkit",
+    "avail": "Poor",
+    "effect": "",
+    "conceal": "S",
+    "quality": "",
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Disguise Kit",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.ve6JvWmBm5YNe9p5",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/hood-simple-leather-brown.webp",
+      "_id": "RKRCCQBLFPM7Gv3J",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.cra.disguise.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ve6JvWmBm5YNe9p5.RKRCCQBLFPM7Gv3J"
+    }
+  ],
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6f3c3122cc0fce8a5703b0bc5b5bd4c054ac13d1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ve6JvWmBm5YNe9p5"
+}

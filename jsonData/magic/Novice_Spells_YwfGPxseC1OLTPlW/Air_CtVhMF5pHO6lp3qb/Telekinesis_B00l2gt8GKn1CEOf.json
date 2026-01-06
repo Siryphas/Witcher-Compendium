@@ -1,0 +1,66 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Telekinesis",
+  "type": "spell",
+  "_id": "B00l2gt8GKn1CEOf",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "air",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Telekinesis allows you to lift and manipulate an object (up to 5 ENC per 1 point of Spell Casting) as though you were holding it.\n\nWhen manipulating an object with Telekinesis, you are basically just bending powerful wind around it. This allows you to lift objects, push objects, and to some extent hold objects. \nAny skill-based task you try to perform with Telekinesis, such as tripping a foe, maneuvering something through an obstacle course, or (god help you) swinging a sword, uses your Will and Spell Casting at a -3. \nComplex actions like picking locks, firing bows, and loading crossbows are incredibly difficult, taking a -5. \nIf you choose to throw something with telekinesis use your WILL stat instead of your BODY to calculate range.",
+    "range": "5m",
+    "duration": "Active (2 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d53ce2ed2302c618bf0477ce008a609a9183c4f2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!B00l2gt8GKn1CEOf"
+}

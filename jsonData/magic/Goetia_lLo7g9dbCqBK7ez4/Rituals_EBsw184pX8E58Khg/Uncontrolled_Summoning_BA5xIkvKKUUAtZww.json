@@ -1,0 +1,57 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Uncontrolled Summoning",
+  "type": "spell",
+  "_id": "BA5xIkvKKUUAtZww",
+  "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": false,
+    "effect": "Process: \nDesignate a chief summoner, to lead the chant. Have them stand forward, with the rest of your group behind them in a semicircle. Scribe a chalk circle into the ground before you, to guide the demon to your ritual. \nPick three syllables from your heart (roll on the Demon True Name Generator) at random, and chant them while visualizing your heart’s desire, one syllable at a time, without ceasing, until a demon appears to you.\n\nEffect: \nThis summoning ritual is incredibly dangerous. The demon that is summoned is not bound by any sort of code of conduct, and is not controlled by the players. \nIt may attack them, or go back on any deal made with them, with no consequences. \nFurthermore, a demon of any species may show up in the summoning, including greater demons. \nThis ritual is responsible for most of the deaths associated with goetia.",
+    "range": "",
+    "duration": "Instant",
+    "defence": "",
+    "components": "Investment: 2\n\nChalk x1",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "10",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c6019af038d56debd76e27e16f0c848db6cca420"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "1.038",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BA5xIkvKKUUAtZww"
+}

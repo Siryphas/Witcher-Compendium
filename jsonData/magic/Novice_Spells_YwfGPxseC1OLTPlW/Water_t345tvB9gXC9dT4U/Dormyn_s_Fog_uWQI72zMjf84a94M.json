@@ -1,0 +1,68 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Dormyn's Fog",
+  "type": "spell",
+  "_id": "uWQI72zMjf84a94M",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Created by Dormyn of Gemmera, Dormyn’s Fog creates an area with a 10m radius, centered on you, of thick fog which puts anyone in it at a -3 to Awareness and limits vision range to 4m.",
+    "range": "10m Radius",
+    "duration": "Active (2 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "81b83b5b1c2c239ccc924ee7a47a3698e8ce4b04"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uWQI72zMjf84a94M"
+}

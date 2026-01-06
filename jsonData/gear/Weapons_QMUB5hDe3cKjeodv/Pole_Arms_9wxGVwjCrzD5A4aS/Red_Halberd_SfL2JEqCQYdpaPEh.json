@@ -1,0 +1,78 @@
+{
+  "folder": "9wxGVwjCrzD5A4aS",
+  "name": "Red Halberd",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/polearms/halberd-worn-steel.webp",
+  "system": {
+    "description": "Redanian halberdiers are some of the most organized and dangerous soldiers in the north. Heh, These whoresons halt cavalry advances and troop charges like nothin’. Their halberd is a masterpiece. Two-meter pole capped with a heavy battle axe with a back spike, and a long spike on top.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 865,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing, Bludgeoning",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "6d6+3",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.7FwrZaB1Arewnhwz"
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d58fcf186804c0a31437bc6d0f02455a022b7252"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "SfL2JEqCQYdpaPEh",
+  "_key": "!items!SfL2JEqCQYdpaPEh"
+}

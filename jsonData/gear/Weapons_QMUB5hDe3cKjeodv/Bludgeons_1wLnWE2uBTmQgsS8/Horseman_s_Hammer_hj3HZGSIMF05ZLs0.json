@@ -1,0 +1,71 @@
+{
+  "folder": "1wLnWE2uBTmQgsS8",
+  "name": "Horseman's Hammer",
+  "type": "weapon",
+  "_id": "hj3HZGSIMF05ZLs0",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/hammers/hammer-war-spiked-simple.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 860,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.bqaALQVf75ZmJn7Q"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "503acd11ddfd0f3c3105dddd087bac87ec32d5e5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hj3HZGSIMF05ZLs0"
+}

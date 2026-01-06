@@ -1,0 +1,84 @@
+{
+  "folder": "UcxZSJNpcrjKMPvn",
+  "name": "Diagram: AE, Elven",
+  "type": "diagrams",
+  "_id": "y10FiY9twoxfhMlE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 300,
+    "isHidden": false,
+    "type": "armor-enhancement",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "mXodHUaVyxHEBAkp",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "e2j5ytMJZwQ8WbdX",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "aEcNLHya8DiV1XA9",
+        "name": "Thread",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "BHBSQbOWIC9pZwcI",
+        "name": "Feathers",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      }
+    ],
+    "investment": 149,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hQ8y8h5pRXUlCuFl",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f96e94c9b8988b04feb33c284626f338de15e9ea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!y10FiY9twoxfhMlE"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "3v61aEVZeVibZFp4",
+  "name": "Diagram: Skellige Raider Shield",
+  "type": "diagrams",
+  "_id": "TlmTxGc95Gx0T8Lg",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "<p><em>Unlike the rest of the world, Skelligers use large, round shields with metal domes in the center and a grip in the back. Guess it makes the shields more maneuverable, seein&rsquo; as they aren&rsquo;t strapped to the arm.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 486,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "WjCLJUR4qSpu6kfr",
+        "name": "Hardened Timber",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "XL2G6lqv1YSw2Um8",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "3CITHEhfEZ3Whm6a",
+        "name": "Beast Bones",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "Pja1uvO6bHbgbUDT",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "M5y4yF4DGrigFnp2",
+        "name": "Ogre Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      }
+    ],
+    "investment": 240,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.fEq1KzeXE32ifHtz",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3f1adad115708bd8da2fd28037b20d9fce6444ca"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!TlmTxGc95Gx0T8Lg"
+}

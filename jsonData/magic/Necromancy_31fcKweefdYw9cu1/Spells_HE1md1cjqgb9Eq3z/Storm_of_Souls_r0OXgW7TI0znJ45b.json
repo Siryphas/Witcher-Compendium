@@ -1,0 +1,66 @@
+{
+  "folder": "HE1md1cjqgb9Eq3z",
+  "name": "Storm of Souls",
+  "type": "spell",
+  "_id": "r0OXgW7TI0znJ45b",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "22",
+    "staminaIsVar": false,
+    "effect": "Storm of Souls was first seen during a Nazairi riot after Nilfgaardian invaders captured the local magic academy and shipped its students to Gweison Haul. \nThis highly volatile spell drags restless souls into the world to sow chaos.\nImmediately upon casting this spell, 1d6+4 wraiths are summoned. \nThese shrieking wraiths are blinded by rage and will attack any target including the caster or their allies.",
+    "range": "10m",
+    "duration": "2d6 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b50c83a2a5928b8c59c4f810624207312328a1bb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!r0OXgW7TI0znJ45b"
+}

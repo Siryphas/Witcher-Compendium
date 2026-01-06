@@ -1,0 +1,81 @@
+{
+  "folder": "GSFkuJvwkT3fH73H",
+  "name": "Maribor Forest",
+  "type": "alchemical",
+  "_id": "NiR5dQCyVPdDQ6KG",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Maribor%20Forest.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "potion",
+    "avail": "WITCHER",
+    "effect": "Each time you gain an adrenaline die, add a second one.",
+    "time": "15 Rounds",
+    "toxicity": "50%",
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Maribor Forest",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.NiR5dQCyVPdDQ6KG",
+      "duration": {
+        "rounds": 15,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Maribor%20Forest.png",
+      "_id": "EVWPNodws3U7m1Ce",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Each time you gain an adrenaline die, add a second one.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!NiR5dQCyVPdDQ6KG.EVWPNodws3U7m1Ce"
+    }
+  ],
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "633cccab2ced0e2c03b000ed38f364ce03e77cea"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NiR5dQCyVPdDQ6KG"
+}

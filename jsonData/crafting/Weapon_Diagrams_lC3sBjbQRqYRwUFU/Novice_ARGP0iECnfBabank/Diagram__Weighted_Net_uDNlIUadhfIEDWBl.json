@@ -1,0 +1,84 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Weighted Net",
+  "type": "diagrams",
+  "_id": "uDNlIUadhfIEDWBl",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Here&rsquo;s an old standby, heh. A net. Simple as can be. Just a bunch of rope woven together with some iron weights around the edge. Toss this over somebody tryin&rsquo; to scamper off and you&rsquo;ll put a real dent in that plan. Popular with guards in some cities. Especially when animals or monsters get loose.<br>Entangling: A target hit by this weapon is entangled by it. They lower their SPD by 5 and suffer a -2 penalty to all physical actions. Each turn, the target can make a DC: 18 Dodge/Escape or Athletics check to escape. Alternatively, another character can take an action to remove the weapon.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 188,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 13,
+    "alchemyDC": 0,
+    "craftingTime": "3 H",
+    "craftingComponents": [
+      {
+        "id": "uXoh0DG9tcqDq3tS",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "JiO5txhZrU7flGyF",
+        "name": "Resin",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "yp9E6S9jryMRM5gy",
+        "name": "Thread",
+        "quantity": 20,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "Bi4eBi4uvBH7Y1uX",
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      }
+    ],
+    "investment": 94,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.thsce2nROIMVw8Uo",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "03e7724a6bd5a346e97fbace96fcac13cee61996"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!uDNlIUadhfIEDWBl"
+}

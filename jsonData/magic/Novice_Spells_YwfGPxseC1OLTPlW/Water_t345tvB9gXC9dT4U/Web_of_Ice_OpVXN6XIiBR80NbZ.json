@@ -1,0 +1,67 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Web of Ice",
+  "type": "spell",
+  "_id": "OpVXN6XIiBR80NbZ",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Web of Ice allows you to create a delicate structure of ice on a surface which is linked to a duplicate that you possess. The moment a creature interacts with the surface it is placed on, the structure and its duplicate break.\nAlternatively, breaking the duplicate melts the original structure. \nThe ice can be spotted with a DC:18 Awareness check.",
+    "range": "2m",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "damageType": "ice"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8ad2a097fa75c8f728d6507cbd30b2ae1234e658"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OpVXN6XIiBR80NbZ"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Flamberge",
+  "type": "diagrams",
+  "_id": "4KbLkwYZIGkPanj3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1540,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "UjBMpzxceIfaH7OX",
+        "name": "Dark Iron",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LiePL2wgaminhK8N"
+      },
+      {
+        "id": "he2Thaf0VBKZR8KG",
+        "name": "Dark Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "ZP9ovNqWsTNetaJY",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "18dEkeOD54SgyM4L",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "18Me1LfCpg2zhOAK",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      }
+    ],
+    "investment": 794,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.0BPabn8OoMw258Jd",
+    "sourcebook": "A Book of Tales",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b64ee3aebe84210bb97b431c56245fa250e8b2a0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!4KbLkwYZIGkPanj3"
+}

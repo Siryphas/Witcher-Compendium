@@ -1,0 +1,84 @@
+{
+  "folder": "WeC0fmMSLL3H5lKp",
+  "name": "Dwarven Pole Hammer",
+  "type": "weapon",
+  "_id": "CrR9dfKOsUYqDmVn",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/hammers/hammer-double-engraved-gold.webp",
+  "system": {
+    "description": "The dwarves of Mahakam created the dwarven pole hammer a few centuries ago to defend against any whoreson dumb enough to attack them. It’s a sturdy two-meter shaft with an elaborate hammer head, a long spike on top, and a hook on the back. Versatile weapon. Lots of possibilities for killin’.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 835,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing, Bludgeoning",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "5d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_vvk136m8u",
+        "name": "Stun (-2)",
+        "statusEffect": "stun",
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ee544UhvjC6776An"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1829a79c8791aa76f795559bcd6afc8e88bae265"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CrR9dfKOsUYqDmVn"
+}

@@ -1,0 +1,200 @@
+{
+  "name": "Human",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Trustworthy",
+      "description": "<p>In a world where non-humans can&rsquo;t be trusted, humans look more trustworthy. Humans have an inherent +1 to their Charisma, Seduction, and Persuasion checks against other humans.</p>"
+    },
+    "perk2": {
+      "name": "Ingenuity",
+      "description": "<p>Humans are clever and o\u0016 en have brilliant solutions to di\u0014fficult problems. Humans gain an inherent +1 to Deduction.</p>"
+    },
+    "perk3": {
+      "name": "Blindly Stubborn",
+      "description": "<p>Part of the human race&rsquo;s greatest strength is its willingness to charge forward endlessly, even into truly life-threatening situations. A human can summon up their courage and reroll a failed Resist Coercion or Courage roll 3 times per<br>game session. They take the higher of the two rolls, but if they still fail they cannot re-use the ability to roll again.</p>"
+    },
+    "perk4": {
+      "name": "",
+      "description": ""
+    },
+    "socialStanding": {
+      "north": "equal",
+      "nilfgaard": "equal",
+      "skellige": "equal",
+      "dolBlathanna": "hated",
+      "mahakam": "tolerated"
+    }
+  },
+  "effects": [
+    {
+      "name": "Trustworthy",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+      "_id": "F3Hpn2FheMdYF6yH",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.charisma.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        },
+        {
+          "key": "system.skills.emp.persuasion.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">In a world where non-humans can’t be trusted, humans look more trustworthy. Humans have an inherent +1 to their Charisma, Seduction, and Persuasion checks against other humans.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7tjPGoCisgTgkdZM.F3Hpn2FheMdYF6yH"
+    },
+    {
+      "name": "Ingenuity",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+      "_id": "CQE7NibKcwEYkS9P",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.deduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Humans are clever and o\u0016 en have brilliant solutions to di\u0014fficult problems. Humans gain an inherent +1 to Deduction.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7tjPGoCisgTgkdZM.CQE7NibKcwEYkS9P"
+    },
+    {
+      "name": "Blindly Stubborn",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+      "_id": "CswDGRt2v9nrPXTi",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Part of the human race’s greatest strength is its willingness to charge forward endlessly, even into truly life-threatening situations. A human can summon up their courage and reroll a failed Resist Coercion or Courage roll 3 times per<br style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track);color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" />game session. They take the higher of the two rolls, but if they still fail they cannot re-use the ability to roll again.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7tjPGoCisgTgkdZM.CswDGRt2v9nrPXTi"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.nyWfqkSg9kC5uYA7",
+      "hash": "8e692aaf1ed0d304257319ab702a7d4abb87e4c7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "7tjPGoCisgTgkdZM",
+  "sort": 200000,
+  "_key": "!items!7tjPGoCisgTgkdZM"
+}

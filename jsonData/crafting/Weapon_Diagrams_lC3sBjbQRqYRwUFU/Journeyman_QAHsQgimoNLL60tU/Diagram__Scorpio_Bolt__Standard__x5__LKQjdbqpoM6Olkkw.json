@@ -1,0 +1,90 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Scorpio Bolt, Standard (x5)",
+  "type": "diagrams",
+  "_id": "LKQjdbqpoM6Olkkw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 375,
+    "isHidden": false,
+    "type": "ammunition",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "3 H",
+    "craftingComponents": [
+      {
+        "id": "iVmDyUC79cLFEFud",
+        "name": "Feathers",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      },
+      {
+        "id": "N3wgMRztR12z40DB",
+        "name": "Hardened Timber",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "RAKQh37Ts5G7Qhdd",
+        "name": "Iron",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "hRFlG3I8iJvwMhn7",
+        "name": "Resin",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "dEWH6BuEod55SqFd",
+        "name": "Thread",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      }
+    ],
+    "investment": 187,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.v7bd9Cr6zvIPeCp0",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f61142a6cad9351103c30048096d4fe02c4edf21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!LKQjdbqpoM6Olkkw"
+}

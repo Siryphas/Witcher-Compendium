@@ -1,0 +1,57 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Cleansing Ritual",
+  "type": "spell",
+  "_id": "OBtchXFmyaBNMbV3",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Cleansing Ritual cleanses one target’s body of poisons or diseases. When activated, the caster makes a Ritual Crafting check against a specific DC to cleanse the target’s body. \nAlcohol and drugs are reasonably easy, with a DC of 12. \nPoisons and oils are harder, with a DC of 15. \nMajor illnesses are very difficult to cleanse, with a DC of 18. \nCleansing Ritual cannot cure plagues such as Catriona.",
+    "range": "",
+    "duration": "Immediate",
+    "defence": "",
+    "components": "Chalk (x2), Spirits (x1), Mistletoe (x2), Crow’s Eye (x1), Balisse Leaves (x1)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "Variable",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "ritualComponentUuids": [],
+    "sourcebook": "Corebook",
+    "cost": 55,
+    "difficultyCheck": "Variable",
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d7e434120363d64d80b7d1e23e6c9f4719dd782f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OBtchXFmyaBNMbV3"
+}

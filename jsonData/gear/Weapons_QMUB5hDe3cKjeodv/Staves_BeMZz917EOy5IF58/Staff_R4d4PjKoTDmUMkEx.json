@@ -1,0 +1,84 @@
+{
+  "folder": "BeMZz917EOy5IF58",
+  "name": "Staff",
+  "type": "weapon",
+  "_id": "R4d4PjKoTDmUMkEx",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-simple.webp",
+  "system": {
+    "description": "Don’t tell anyone I sold you this, got it? My friend, only safe place to go with a mage’s staff is Skellige, or maybe Zerrikania or Ofier. It may just be a glowy stick to a non-magic user but a staff amplifies a mage’s power, lettin’ ‘em use more magic than normal. But with the hatred of mages in the North and the distrust of mages in the South it’s also a great big target.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 335,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "1d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_9vdnd9ghz",
+        "name": "Focus (1)",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": null,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TUlltjwwBJAZ4euf"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "24bbb3dd9de69b9757501c84e247e7a8d9018f31"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!R4d4PjKoTDmUMkEx"
+}

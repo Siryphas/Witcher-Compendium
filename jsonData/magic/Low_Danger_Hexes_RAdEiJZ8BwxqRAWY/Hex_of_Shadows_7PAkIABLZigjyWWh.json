@@ -1,0 +1,100 @@
+{
+  "folder": "RAdEiJZ8BwxqRAWY",
+  "name": "Hex of Shadows",
+  "type": "spell",
+  "_id": "7PAkIABLZigjyWWh",
+  "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+  "system": {
+    "class": "Hexes",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "The Hex of Shadows creates whispers in the shadows, and silhouettes around corners. \nThe subject must make random Awareness checks with an unspecified DC, always almost catching a glimpse of something or someone. The awareness checks are never a real threat, just visions.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "Low",
+    "liftRequirement": "The subject must bring a bowl of clear water, a branch from a white myrtle bush, and a bottle of ink to a clearing under a crescent moon.\nWhen the moon is at its highest the subject must pour the ink into the water, dip the branch in the mixture, and shake droplets in a circle around themselves while holding their breath.",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "1d6+0",
+    "effects": [],
+    "globalModifiers": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "Hex of Shadows",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.7PAkIABLZigjyWWh",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+      "_id": "55owfZJUB4psndoe",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>The Hex of Shadows creates whispers in the shadows, and silhouettes around corners.</p><p>The subject must make random Awareness checks with an unspecified DC, always almost catching a glimpse of something or someone. The awareness checks are never a real threat, just visions.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7PAkIABLZigjyWWh.55owfZJUB4psndoe"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "60aec2bb1167a13ef50810cea4f8fc7db68b8674"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7PAkIABLZigjyWWh"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Blessed Herd (Epona)",
+  "type": "spell",
+  "_id": "BG8dEjGD9tBb8AXd",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Epona.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "With power granted to you by Epona, you summon up to 10 wild horses and empower them with magic.\nThese horses appear within the next hour. A horse empowered by this invocation can either be empowered with swiftness or strength. \nIf enchanted with swiftness, the horse summoned is a Horse with a Speed Statistic of 24 and an Athletics Skill Base of 20. \nIf enchanted with strength, the horse summoned is a Warhorse with a Control Mod of +2 and a natural armor value of 20 which can’t be layered with barding. \nWhile riding these mounts, creatures you choose get a +5 to their riding checks. \nYou can only have up to ten horses summoned with this invocation at a time.",
+    "range": "N/A",
+    "duration": "1 Week",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1264400dd4835c23a7100ac0dcfb6275b9157470"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BG8dEjGD9tBb8AXd"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "FbNbXVpIsdS1bGGt",
+  "name": "Split",
+  "type": "weapon",
+  "_id": "avZ4eQDNPTtyKRye",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrows-war-red.webp",
+  "system": {
+    "description": "Split ammunition is made up of several bolts or arrows bound together.\nWhen fired, the binding breaks and the ammunition splits. For every point over a target’s defense you roll (maximum 3) you deal the weapon’s full damage to a random location.",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 54,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "1",
+    "range": "",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Every point over defense (max 3),",
+        "percentage": ""
+      },
+      {
+        "id": "_660bb2okk",
+        "name": "effect",
+        "percentage": ""
+      }
+    ],
+    "conceal": "T",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Every point over defense (max 3),",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "defenseDifferenceMultiplier": false,
+      "variableDamage": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "472769a07886255b1c3dec5c0196212342a04ff4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!avZ4eQDNPTtyKRye"
+}

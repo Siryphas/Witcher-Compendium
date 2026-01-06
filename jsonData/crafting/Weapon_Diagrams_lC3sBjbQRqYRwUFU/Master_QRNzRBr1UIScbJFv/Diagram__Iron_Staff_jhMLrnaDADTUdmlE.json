@@ -1,0 +1,96 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Iron Staff",
+  "type": "diagrams",
+  "_id": "jhMLrnaDADTUdmlE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Sometimes a mage might need a bit more protection or, hell, their magic may fail them. In that case ya got an iron staff. Basically it&rsquo;s just a big rod of iron with fifth essence coursin&rsquo; through it. Sturdier than a normal staff and hits like a mace. Ya can even block blades with it a bit.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1012,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "mFoQbDh8ZCNIPt22",
+        "name": "Dark Iron",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LiePL2wgaminhK8N"
+      },
+      {
+        "id": "cW33xntOkuJii1z1",
+        "name": "Fifth Essence",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "9xC3vOsUiijUBfkx",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "ltZDp3lsitjqbmGD",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "NgWUCCUDD9Kml0mZ",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "LBX4Y4AAlYV9oSHT",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      }
+    ],
+    "investment": 506,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.bmISlk8AjX78TZtW",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b13e4813c240ab50269b094cddc80233d413ec9f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!jhMLrnaDADTUdmlE"
+}

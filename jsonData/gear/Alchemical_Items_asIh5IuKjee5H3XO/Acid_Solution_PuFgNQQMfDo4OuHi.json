@@ -1,0 +1,45 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Acid Solution",
+  "type": "alchemical",
+  "_id": "PuFgNQQMfDo4OuHi",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-conical-fumes-green.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 56,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "I don’t have to use acid much. Heh, least not every day. But this stuff’s good if ya need to burn through a lock or ya need a makeshift weapon.\n\nAcid Solution does 2d6 damage to any living creature it is thrown on and does 1d6/2 ablation damage to weapons and armor.\nThrowing it is an Athletics attack with a range of BODYx2m, and the acid splatters in a 2m cone directly away from where it lands.",
+    "time": "Immediate",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "effects": []
+    }
+  },
+  "effects": [],
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a37396fcb77690fc1ba2fee177dccf86a3fd3092"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PuFgNQQMfDo4OuHi"
+}

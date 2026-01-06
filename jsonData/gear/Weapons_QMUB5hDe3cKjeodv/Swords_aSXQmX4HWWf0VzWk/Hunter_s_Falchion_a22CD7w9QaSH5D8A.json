@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Hunter's Falchion",
+  "type": "weapon",
+  "_id": "a22CD7w9QaSH5D8A",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/scimitar-bone.webp",
+  "system": {
+    "description": "Hunters use these heavy blades to butcher their kills. If you’re lookin’ for a good blade for splittin’ wood and takin’ off limbs, this is it. They’re common on the field for the everyman.",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 325,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "3d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YWL85eDZGr1oQAvl"
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eeadce34b2c2cf80dfca6f4c499ed85f9a570d0e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!a22CD7w9QaSH5D8A"
+}

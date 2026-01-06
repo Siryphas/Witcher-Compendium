@@ -1,0 +1,84 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Orions (x3)",
+  "type": "diagrams",
+  "_id": "9IxXlELV5OhjpTHN",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>The black ones started using these a few decades ago. They&rsquo;re like throwin&rsquo; knives but they&rsquo;re shaped like stars. Heh, strange design, but the&rsquo;re pretty damn dangerous. Quick, too.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 125,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 12,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "RjCe532xrWWXMJHw",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "X2IBfA0n2pBKeda1",
+        "name": "Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      },
+      {
+        "id": "gN399QyAviyhlHlO",
+        "name": "River Clay",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "n4OcjwTMICAaUfZc",
+        "name": "Ashes",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      }
+    ],
+    "investment": 62,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.aMREW6Ts6cGGW8hG",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a1ce4cdfe0104f8418f4ae9b439596f941d8a8de"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!9IxXlELV5OhjpTHN"
+}

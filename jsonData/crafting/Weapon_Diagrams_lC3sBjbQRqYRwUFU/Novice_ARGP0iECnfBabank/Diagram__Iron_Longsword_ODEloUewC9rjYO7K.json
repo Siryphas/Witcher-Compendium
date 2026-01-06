@@ -1,0 +1,78 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Iron Longsword",
+  "type": "diagrams",
+  "_id": "ODEloUewC9rjYO7K",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Heh, iron long swords. As a dwarf, I can tell ya the concept makes me sick. They&rsquo;re damn dull but they&rsquo;re easy to make and you can find them everywhere, I guess.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 240,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 10,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "QJJ85sxits3AxZ3u",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "FyUXiIXq1czTqR3f",
+        "name": "Iron",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "jwQC2H8gzYRA4toI",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      }
+    ],
+    "investment": 119,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.j9bjQyI0KCSaeQOT",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "563d9b5cd29e84ef90227dba80b982d435cad392"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!ODEloUewC9rjYO7K"
+}

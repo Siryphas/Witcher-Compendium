@@ -1,0 +1,1680 @@
+{
+  "folder": "8T3bWq6Kigyqmn0X",
+  "name": "Shaelmaar",
+  "type": "monster",
+  "_id": "a55txgorseYMiemx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/9%20-%20Relicts/Shaelmaar.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 12,
+        "current": 12,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": true,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 15,
+        "current": 15,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 120,
+        "current": 120,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 80,
+        "value": 80,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 80,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 40,
+        "value": 40,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 40
+      },
+      "resolve": {
+        "max": 15,
+        "value": 15,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 15
+      },
+      "focus": {
+        "max": 9,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 5,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": true,
+          "isVisible": true,
+          "modifiers": [
+            {
+              "id": "_29d9ch66j",
+              "name": "Feral",
+              "value": 7
+            }
+          ],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 0,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [
+            {
+              "id": "_munrcphjp",
+              "name": "Feral",
+              "value": 7
+            }
+          ],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 6,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 8,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 9,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 4,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 8,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 8,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 6,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 10,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 5,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 9,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 0,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "Relict",
+    "threat": "medium",
+    "difficulty": "complex",
+    "bounty": 500,
+    "armorHead": 20,
+    "armorUpper": 20,
+    "armorLower": 20,
+    "armorTailWing": 20,
+    "regen": 0,
+    "resistances": "Slashing",
+    "immunities": "Knock-Down, Blinding",
+    "susceptibilities": "Relict oil",
+    "senses": "Sound-Based",
+    "height": "2m",
+    "weight": "2000kg",
+    "environment": "Mountains and caves",
+    "intelligence": "Feral",
+    "organization": "Solitary",
+    "common": "<p><em>Dwarves have plenty of tales about shaelmaar! Heh, not sure how many are true but they&rsquo;re all&nbsp;interestin&rsquo;. In the southern Mahakams, they say the haelmaar&rsquo;s a spirit of the earth and it patrols the&nbsp;underground to keep folk from diggin&rsquo; up gold and jewels. They can even make themselves look like&nbsp;dwarves from what I hear! Heh, not sure about that one. Only time I ever saw a shaelmaar it was&nbsp;bringin&rsquo; down the roof of a mine with its great hulkin&rsquo; claws! Didn&rsquo;t exactly look like a clever old spirit&nbsp;to me! But spirit or not ya gotta watch for shaelmaar. They pop up outta the ground without warnin&rsquo;&nbsp;and their armor&rsquo;s harder than steel.</em><br>&mdash;Rodolf Kazmer</p>",
+    "commonSkillValue": "15",
+    "monsterLore": "<p>Shaelmaar are hulking subterranean beasts encased in thick chitin that are rarely seen, as they live deep underground in tunnels&nbsp;and caverns scraped out of the earth by their thick claws. When they do crawl out of their burrows, they have been known to&nbsp;eat miners and villagers many before returning to the earth.&nbsp;Totally adapted to a life underground, shaelmaar are blind, but possess acute hearing and echolocation. If you find yourself&nbsp;facing a shaelmaar you can temporarily escape its wrath by standing still or moving gently.</p>\n<p>Once engaged with its prey, a shaelmaar can curl their bodies into a ball and spin rapidly to create tremors that can be indistinguishable from a powerful earthquake. Above ground, shaelmaar prefer to attack creatures in melee range but can use their tremendous strength and connection to the earth to smash their claws into the ground, creating lines of jagged rock to burst from the ground. Perhaps the most well documented of the shaelmaar&rsquo;s offenses is their ability to roll into a ball to hurl themselves at their enemies, crushing them under their weight.</p>\n<p>This is the time when a prepared individual, usually a witcher, can strike a blow to turn the tide of battle in their favor. When the shaelmaar charges, stand in front of something hard and immobile, like a tree, and get out of the way at the last moment. After the resulting impact, find the monster&rsquo;s soft belly with a weapon coated in Relict Oil.</p>",
+    "monsterLoreSkillValue": "16",
+    "customStat": true,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": false,
+      "willIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "craIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "6",
+      "punch": {
+        "value": "1d6+6",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+10",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "statusEffectImmunities": [
+      "prone",
+      "blinded"
+    ],
+    "notes": [],
+    "showCommonerSuperstition": true,
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "showAcademicKnowledge": false,
+    "showMonsterLore": true,
+    "dontAddAttr": false,
+    "resistantNonSilver": true
+  },
+  "prototypeToken": {
+    "name": "Shaelmaar",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Tokens/Top%20Down%20Tokens/Monsters/System%20Monsters/Shaelmaar.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 11,
+      "angle": 360,
+      "visionMode": "tremorsense",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0.2
+    },
+    "detectionModes": [
+      {
+        "id": "feelTremor",
+        "range": 11,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "Rideable": {
+        "issetRideableFlag": false,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "GrapplePlacementFlag": "RowBelow",
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/talon-white.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Slashing",
+          "slashing": true,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "5d6+2",
+        "reliable": 20,
+        "maxReliability": 20,
+        "hands": "both",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "",
+            "percentage": 0,
+            "statusEffect": null
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 2,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "damageProperties": {
+          "effects": []
+        }
+      },
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.Lp4N2nUrhI5nqN0M.Item.mKyGK5BRyf5JBLEc",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "83lIfDd9WNYe8pZ8",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!a55txgorseYMiemx.83lIfDd9WNYe8pZ8"
+    },
+    {
+      "name": "Shaelmaar Dust",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/rebis.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0.1,
+        "cost": 79,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Shaelmaars",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "rebis",
+        "isStored": false
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_7o0sf1zhel4",
+          "color": "#f57600"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.KaswFkercijsanqE",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "5F1SCrTxo8gP9bbu",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!a55txgorseYMiemx.5F1SCrTxo8gP9bbu"
+    },
+    {
+      "name": "Shaelmaar Hair",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/caelum.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0.1,
+        "cost": 100,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Shaelmaars",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "caelum",
+        "isStored": false
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_e1z0w0mc48r",
+          "color": "#b7f35e"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.sViECOc0bJoOeQFS",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "7MtvnhWtKR4IeeLw",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!a55txgorseYMiemx.7MtvnhWtKR4IeeLw"
+    },
+    {
+      "name": "Chitin",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/vermilion.png",
+      "system": {
+        "description": "",
+        "quantity": "2d6",
+        "weight": 5,
+        "cost": 106,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "arachasae & endrega",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "vermilion",
+        "isStored": false
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_w49tk67bl2m",
+          "color": "#3b9b58"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.5VdfQLbiZpAW35XN",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "9wynkDyYYoKquGix",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!a55txgorseYMiemx.9wynkDyYYoKquGix"
+    },
+    {
+      "name": "Stone",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/stone/stone-chunk-grey-white.webp",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 2,
+        "cost": 4,
+        "isHidden": false,
+        "type": "minerals",
+        "rarity": "Everywhere",
+        "location": "Everywhere",
+        "quantityObtainable": "2d6",
+        "forage": "2",
+        "substanceType": "",
+        "isStored": false
+      },
+      "sort": 3125,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_ru8xgtdf05",
+          "color": "#000000"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.uxPdoK1Q7ieUdPPB",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "mtHP6gpqwUlSKbTm",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!a55txgorseYMiemx.mtHP6gpqwUlSKbTm"
+    },
+    {
+      "name": "Vulnerability: Blind",
+      "type": "note",
+      "_id": "v3KzS4cETCDdPtOW",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "Shaelmaar are completely blind and automatically fail any Awareness check that requires them to see. They distinguish targets by hearing them and sensing vibration in the ground. If a target remains completely still and makes no noise, they become invisible to the shaelmaar. While engaged in melee with a target they take no penalties from this blindness as they can hear the target moving. If a target within 10m moved or made noise in the previous round, the shaelmaar knows where the person is.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.v3KzS4cETCDdPtOW"
+    },
+    {
+      "name": "Vulnerability: Soft Belly",
+      "type": "note",
+      "_id": "cRvXJy2J27HbZkMC",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "A shaelmaar’s underbelly is unarmored and has no resistance to slashing. Aiming for the shaelmaar’s underbelly is impossible unless you are underneath the shaelmaar, it is on its back or side, or it has failed its rolling charge. In those cases, aiming for the underbelly incurs a -3 penalty.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.cRvXJy2J27HbZkMC"
+    },
+    {
+      "name": "Ability: Earth Shattering Smash",
+      "type": "note",
+      "_id": "XH8ccx7ktecUpABT",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its full turn, a shaelmaar can slam the earth and causes a 6m long, 2m wide line of jagged stones to erupt from the ground. Everyone in the way of that line must make a reposition check (DC:18) or attempt to block with a shield at the same DC. If a target fails, they take 6d6 damage to the torso, are staggered, and are knocked back to the end of the line. Afterwards, the stones recede into the ground.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.XH8ccx7ktecUpABT"
+    },
+    {
+      "name": "Ability: Rolling Charge",
+      "type": "note",
+      "_id": "Xb8NVAbC3ysDt0CP",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "When its target is more than 5m away, a shaelmaar cantake its full turn to curl into a ball and roll at a target within 10m, making an attack at a base of 13 that does 8d6 damage and knocks the target back 6m. If the target strikes anything while flying, they take ramming damage as if from a horse. The target must reposition to defend against the rolling charge. If the shaelmaar fails to hit with this attack it stops 10m from where it started. If it strikes anything while moving, it is stunned for one round and becomes prone, opening its belly up.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.Xb8NVAbC3ysDt0CP"
+    },
+    {
+      "name": "Ability Tremor Spin",
+      "type": "note",
+      "_id": "BxbqjWK4JUTtpuZl",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "A shaelmaar can use its action to curl up into an armored ball and spin at high speed, shooting out debris in an area with a 6m radius and throwing out chunks of earth. Anyone in this area must make a DC: 17 Athletics check or be knocked prone and forced to make a Stun Save.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.BxbqjWK4JUTtpuZl"
+    },
+    {
+      "name": "Ability: Burrowing",
+      "type": "note",
+      "_id": "njkylfBcEK5wzFaI",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its movement action, a shaelmaar can burrow through the ground at a speed of 4m per round. If the shaelmaar takes its whole action to move it can move up to 8m. A shaelmaar can burrow through sand, dirt, and hard packed ground but it cannot burrow through solid stone. If a shaelmaar burrows out of the ground underneath a target, they must make a DC:12 Athletics roll or fall prone.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.njkylfBcEK5wzFaI"
+    },
+    {
+      "name": "Earth Shattering Smash",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/earth/barrier-stone-explosion-debris.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "6d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "6m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "DC: 18",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_nurl64dry",
+            "name": "Torso",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_zcews4x82",
+            "name": "Stagger",
+            "statusEffect": "staggered",
+            "percentage": 100
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": true,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "reposition",
+          "block"
+        ]
+      },
+      "sort": 212500,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.XOCzrZNHAkFqOOBS.Item.Wk9q7ahSEfGGytHm",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "O4oF7LW9SWJ5YHIz",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!a55txgorseYMiemx.O4oF7LW9SWJ5YHIz"
+    },
+    {
+      "name": "Rolling Charge",
+      "type": "weapon",
+      "_id": "nte4zZv2IMphfMMT",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/shell-tan.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": -2,
+        "avail": "Everywhere",
+        "damage": "8d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "5-10m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Knock-Back (6m)",
+            "statusEffect": "prone",
+            "percentage": 0
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.nte4zZv2IMphfMMT"
+    },
+    {
+      "name": "Tremor Spin",
+      "type": "weapon",
+      "_id": "SvFB4Ehiad5sBFhK",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/earth/projectiles-stone-salvo.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "0",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "6m",
+        "effects": [
+          {
+            "id": "first",
+            "name": "DC: 17",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_984clupso",
+            "name": "Knock-Down",
+            "statusEffect": "prone",
+            "percentage": 100
+          },
+          {
+            "id": "_8xa2b1vfh",
+            "name": "Stun",
+            "statusEffect": "stun",
+            "percentage": 0
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": true,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!a55txgorseYMiemx.SvFB4Ehiad5sBFhK"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "55f139be27cd3cd58f6fef906e59eb009f3e4174"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!a55txgorseYMiemx"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "BeMZz917EOy5IF58",
+  "name": "Hooked Staff",
+  "type": "weapon",
+  "_id": "modPfgudH49qU3CI",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-ornate-hook.webp",
+  "system": {
+    "description": "Never understood this design myself, but the young mage I traveled with said it was based off of an old design the mage Alzur used. Turns out Alzur used the hook on the end of the staff to shepherd the beasts he’d make. Imagine his was probably silver but it’s still a useful weapon for those mages that practice staff fightin’.",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 550,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_o59lu759l",
+        "name": "Focus (1)",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_ybff9m67k",
+        "name": "Grappling",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.M9nowZfiYJsiAsqM"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a5d3a16f13782b72483dc45d362868eb0e8d88ec"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!modPfgudH49qU3CI"
+}

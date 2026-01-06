@@ -1,0 +1,70 @@
+{
+  "folder": "ohyHo8DNofq7aQY4",
+  "name": "Pavise",
+  "type": "armor",
+  "_id": "OacmULAHz5kxx6Ut",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/heater-steel-boss-red.webp",
+  "system": {
+    "description": "When ya want to protect your whole body, just put a ploughin’ wall between yourself and the enemy, ya grab a pavise. These monsters are so large, standing near up to a human’s shoulders and wide as a dwarf, that ya can kneel behind ‘em and just wait out arrow storms.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 500,
+    "isHidden": false,
+    "reliability": 20,
+    "reliabilityMax": 20,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Heavy",
+    "avail": "Poor",
+    "enhancements": 0,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Full Cover",
+        "statusEffect": "",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "encumb": 1,
+    "location": "Shield",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.1q9NUCeM7wSrACwY"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c19adbf91af078bf919470001d7cee82ea93ba65"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OacmULAHz5kxx6Ut"
+}

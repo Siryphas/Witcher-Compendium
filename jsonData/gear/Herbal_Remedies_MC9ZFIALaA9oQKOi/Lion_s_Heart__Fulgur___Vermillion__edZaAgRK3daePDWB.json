@@ -1,0 +1,90 @@
+{
+  "folder": "MC9ZFIALaA9oQKOi",
+  "name": "Lion's Heart (Fulgur + Vermillion)",
+  "type": "alchemical",
+  "_id": "edZaAgRK3daePDWB",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "+3 vs. Intimidation",
+    "time": "1 Hour",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Lion's Heart (Fulgur + Vermillion)",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.edZaAgRK3daePDWB",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+      "_id": "Sjrgthhq7S3JboTf",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.courage.activeEffectModifiers",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!edZaAgRK3daePDWB.Sjrgthhq7S3JboTf"
+    }
+  ],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cf1c044fd7ea43a74a6e3103bd5922cc1d1e2d62"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!edZaAgRK3daePDWB"
+}

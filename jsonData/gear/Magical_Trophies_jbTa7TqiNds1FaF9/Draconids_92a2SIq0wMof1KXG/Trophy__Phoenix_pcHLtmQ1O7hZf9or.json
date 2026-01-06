@@ -1,0 +1,83 @@
+{
+  "folder": "92a2SIq0wMof1KXG",
+  "name": "Trophy: Phoenix",
+  "type": "valuable",
+  "_id": "pcHLtmQ1O7hZf9or",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/feather-orange.webp",
+  "system": {
+    "description": "You reduce the chances you have to catch on fire by 50% (Minimum 0%)",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Phoenix",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.pcHLtmQ1O7hZf9or",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/feather-orange.webp",
+      "_id": "hHt7sN2RUAzYIAEE",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You reduce the chances you have to catch on fire by 50% (Minimum 0%)</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!pcHLtmQ1O7hZf9or.hHt7sN2RUAzYIAEE"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "045d074d4a4876b2a1d9a41d1feee03feee089dc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pcHLtmQ1O7hZf9or"
+}

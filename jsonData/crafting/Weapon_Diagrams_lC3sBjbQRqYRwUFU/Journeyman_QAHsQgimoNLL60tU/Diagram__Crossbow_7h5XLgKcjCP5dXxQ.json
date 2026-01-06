@@ -1,0 +1,114 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Crossbow",
+  "type": "diagrams",
+  "_id": "7h5XLgKcjCP5dXxQ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Sturdy, accuracte, and powerful. Call me biased but I love the crossbow. Sure, takes some time to reload. But a quick arbalist can put bolts downrange with the kind of accuracy most human-made bows can only dream of. The wooden stock allows ya to rest it against your shoulder and aim along it, which makes the shot fly far truer. I used one of these in the Second Northern War and it served me well.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 682,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 17,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "cqophYrYd1AOqy6A",
+        "name": "Hardened Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "grLAOdvXwhToD4tk",
+        "name": "Thread",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "AyhyRHOO5ydMI5mf",
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "Z4vbXrJ7HLOgzhOT",
+        "name": "Resin",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "muXFPwbC4zUEtaC8",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "F7XxXZXj58oKfDTF",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "ZEHLr77oRcMaybWT",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "Bh1WTgbORXDoZqBh",
+        "name": "Ogre Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "zFa6Mo6xMM25RpzV",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      }
+    ],
+    "investment": 343,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.N74f5hBwFNWDG1Vg",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ba0d42c2cc728bc4616eae63fb1cba6a708732fb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!7h5XLgKcjCP5dXxQ"
+}

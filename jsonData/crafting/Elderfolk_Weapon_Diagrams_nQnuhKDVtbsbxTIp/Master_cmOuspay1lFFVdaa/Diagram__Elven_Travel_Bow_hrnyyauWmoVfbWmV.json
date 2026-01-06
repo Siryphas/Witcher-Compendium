@@ -1,0 +1,120 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Elven Travel Bow",
+  "type": "diagrams",
+  "_id": "hrnyyauWmoVfbWmV",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Heh, basically it&rsquo;s just a smaller version of the zefhar. The difference is the travel bow can be unstrung, letting the limbs curl in &lsquo;til the bow&rsquo;s small enough to carry in a satchel.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 862,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "11 H",
+    "craftingComponents": [
+      {
+        "id": "YOlMN5r3IiCwtgKR",
+        "name": "Hardened Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "TJa2y5ZCtwkxbRo0",
+        "name": "Thread",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "fr50l5xsGyp5Gdu6",
+        "name": "Wax",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "Nd9cjGEdaBytPHXX",
+        "name": "Fifth Essence",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "vOFt7BVPquanSTr4",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "NecWRqsn9nTCPE2k",
+        "name": "Feathers",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      },
+      {
+        "id": "blT2MWRZzSRbsH5G",
+        "name": "Beast Bones",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "Gzn5Nke295MZvFgk",
+        "name": "Dark Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "ZvSJ6SV953xmAD7j",
+        "name": "Ester Grease",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "KqCk43G892ssHQN7",
+        "name": "Etching Acid",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      }
+    ],
+    "investment": 432,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.zfc6xl1MxLw1QNbX",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "89122a24e5637f94232ba76db2a2331bc0c563aa"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!hrnyyauWmoVfbWmV"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "jz8sCrSi9t14JmsZ",
+  "name": "The Moon Bow",
+  "type": "weapon",
+  "_id": "Cu5S2Gy3qOQhYcfF",
+  "img": "icons/weapons/bows/shortbow-recurve-blue.webp",
+  "system": {
+    "description": "Education DC: 17\n\nOh boy. I wasn’t around for ‘em but the wars between the humans and... well, everyone else…were bloody as all hell. Heh, we think the Nilfgaardian Wars are bad? Shiploads of humans fightin’ everythin’ from elves and dwarves to vran and werebbubbs. Hell, they basically wiped out lots of folks. All the werebbubbs I know of are squattin’ in the depths of Mahakam, and I ain’t seen a vran in decades. Needless to say the fields and forests were full of corpses an’ specters. And necrophages—rotfiends, ghouls, bullvores, all kinds of horrible critters. \nThe few groups of Aen Seidhe that managed to survive had to deal with all of that. Us dwarves were safe enough in our mountains, and the humans had all the cities. The elves wanted to give their kin proper burial, but how’d’ya do it with hordes of beasts roamin’? Enough pikemen or archers can kill a necrophage. But a wraith’s different. For a wraith ya need a mage, or hope that a witcher wanders through, and that ain’t likely. Well, legends say one elf woman named Aderyn wasn’t content to sneak and dodge the wraiths—she wanted to kill them, put their spirits to rest for good.\nWhen they tell the tale, most people say she was given the Moon Bow by the Lady of the Fields. I’d believe it. Been up to Dol Blathanna and they say the Lady of the Valley has some sorta avatar there. Never seen it myself, but it’s more than I’ve heard about the other gods, heh. The Moon Bow was built to hunt wraiths and put souls to rest. Aderyn took to the fields, huntin’ down wraiths and revenants and whatnot. With her help, the Aen Seidhe managed to take back a fair bit of the woods and actually build some small settlements. But nothin’ lasts long. \nHeh, as Kaedwen kept expandin’, Aderyn and her people started seein’ more and more humans and, since nobody’d broken the curse, every death in the forest meant more wraiths. By this time Aderyn was a warden of the wilderness and getting on in years. Guess all the years of endless huntin’ wore her down. Folk say she realized they were in a neverendin’ cycle, so she left. No one knows where she went—one day Aderyn, the warden of the woods was just gone. Some elves say she died shortly after for abandonin’ her divine post, but I like to think she found somewhere peaceful. Nice to imagine there’s somewhere peaceful out there.\n- Rodolf Kazmer",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "8d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "200m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "statusEffect": "freeze",
+        "percentage": 75
+      },
+      {
+        "id": "Y5Qd3g2TD6oTX59J",
+        "name": "Balanced",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "aSI86JcQVLEtO9o6",
+        "name": "+3 Damage to Specters",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 3,
+    "rateOfFire": 1,
+    "attackSkill": "brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "attackOptions": [
+      "ranged"
+    ],
+    "rangedAttackSkill": "archery",
+    "applyRangedMeleeBonus": false
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3dcf2a0c0571f64d0bc637405bddf230a0cb3e0c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Cu5S2Gy3qOQhYcfF"
+}

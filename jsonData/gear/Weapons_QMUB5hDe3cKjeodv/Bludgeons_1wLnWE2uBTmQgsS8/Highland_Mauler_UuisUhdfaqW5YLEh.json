@@ -1,0 +1,96 @@
+{
+  "folder": "1wLnWE2uBTmQgsS8",
+  "name": "Highland Mauler",
+  "type": "weapon",
+  "_id": "UuisUhdfaqW5YLEh",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/hammers/hammer-double-engraved-green.webp",
+  "system": {
+    "description": "The Kaedweni are big folks. If I had to list the toughest sons of whores in the world, it’d be the Skelligers, the Kaedweni, and the Gemmerians. But the Highland Mauler gives the Kaedweni a nice edge. Only ever sold two in my life, but these things are immense. Near two meters tall with a wide iron head that’s inlaid with meteorite steel.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 1100,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "6d6+2",
+    "reliable": 20,
+    "maxReliability": 20,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stun (-2)",
+        "statusEffect": "stun",
+        "percentage": 0
+      },
+      {
+        "id": "_zsgpiwbmd",
+        "name": "Meteorite",
+        "statusEffect": "",
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Stun (-2)",
+          "statusEffect": "stun",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "isMeteorite": true
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.oNEBLRK6kTK8st8F"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d481c4bce9f45609c3ee340cb0bc3cd4778d8cf8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UuisUhdfaqW5YLEh"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Cadfan's Grasp",
+  "type": "spell",
+  "_id": "mSUu9qrMYpzV0rZJ",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "Cadfan’s Grasp, named for the magician and smith Cadfan of Ebbing, allows you to super-heat a metal item, making the holder drop the item or take 2d6 damage to the limb holding it. \nAlternatively, the spell can heat weapons to give +2d6 damage and a 50% chance to ignite a target.",
+    "range": "8m",
+    "duration": "1d6 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "2d6",
+    "effects": [],
+    "globalModifiers": [],
+    "damageType": "fire",
+    "damageProperties": {
+      "bypassesWornArmor": true
+    },
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e0c6f94cd1680d29775b50331e774583880cfeb1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mSUu9qrMYpzV0rZJ"
+}

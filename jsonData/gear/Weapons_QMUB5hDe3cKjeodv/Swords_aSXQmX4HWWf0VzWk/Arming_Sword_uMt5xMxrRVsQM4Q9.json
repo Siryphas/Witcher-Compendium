@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Arming Sword",
+  "type": "weapon",
+  "_id": "uMt5xMxrRVsQM4Q9",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-blue.webp",
+  "system": {
+    "description": "The Redanian arming sword’s a one-handed blade with a simple curved guard and sharp edge. Heh, with Redania spreading out across the North to “defend” us, these arming swords are showin’ up all over.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 270,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "2d6+4",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ubPvwlIK2VWVXFrd"
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b338ddda414ab3b0ca4afcca40f0ca20f59a8b11"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uMt5xMxrRVsQM4Q9"
+}

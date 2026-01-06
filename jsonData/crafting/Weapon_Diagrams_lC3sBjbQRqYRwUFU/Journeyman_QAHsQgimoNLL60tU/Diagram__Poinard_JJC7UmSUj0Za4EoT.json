@@ -1,0 +1,96 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Poinard",
+  "type": "diagrams",
+  "_id": "JJC7UmSUj0Za4EoT",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Heh, a good old-fashioned Temerian design. Long, slim, and lightweight. I got stuck fightin&rsquo; a black one at the Battle of Sodden with one of these. He broke six of my ribs, but I&rsquo;m still here and he&rsquo;s not.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 534,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "sQiZmUzrkHL6Ja1t",
+        "name": "Hardened Timber",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "nULLCYzAafJxApG5",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "A498CtlYMhMdRWNV",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "s4HWhkDoIIcA8zE7",
+        "name": "Sharpening Grit",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "Dz924HzHkbU6eTKO",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "FMhodG2y2goXANs3",
+        "name": "Beast Bones",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      }
+    ],
+    "investment": 250,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.zKBID0z2i7ycSEto",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c855dfb53c17d9362a975c4dfba1efbc5b8663e5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!JJC7UmSUj0Za4EoT"
+}

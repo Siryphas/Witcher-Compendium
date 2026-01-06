@@ -1,0 +1,96 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Flail",
+  "type": "weapon",
+  "_id": "yfDe4g0iRxmDuY1q",
+  "img": "icons/weapons/maces/flail-studded-grey.webp",
+  "system": {
+    "description": "Don’t see many folks wieldin’ flails these days. Heh, big spikey balls on chains sounds like they’d be unwieldy as hell. Then again, last time I saw some bastard wieldin’ a flail he put a dent in a knight’s helm and laid him out for good.",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 562,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing, Bludgeoning",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": -1,
+    "avail": "Poor",
+    "damage": "4d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Grappling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Lords & Lands",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.8CFrqC67aL0rf6Zp",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Grappling",
+          "statusEffect": "grappled",
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "VvJzml404auyaCAl",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "70e960fcb9ac7c6174f3ffd36c47e642c73544a4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yfDe4g0iRxmDuY1q"
+}

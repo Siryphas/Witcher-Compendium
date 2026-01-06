@@ -1,0 +1,57 @@
+{
+  "folder": "b76iD5vblJREYrjg",
+  "name": "Create Soul Beacon",
+  "type": "spell",
+  "_id": "BMzNXAQwhF2vlxjH",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Create Soul Beacon uses bones to create a totem that enhances the abilities of a Necromancer within 6m. A soul beacon is a 1 meter tall totem topped with a skull. \nThe Beacon has 10 Hit Points. \nYou can only benefit from one Soul Beacon at one time. \nThe bonuses you gain are based on the skull used.\n\n◆ Human/Elderfolk: The DC of any necromancy ritual is lowered by 3. Additionally, the Stamina Cost required to perform any necromancy ritual is lowered by 3. \nFinally, if you fumble or overdraw while casting a necromancy ritual or spell, you roll 1d10-2 instead of 1d10 when rolling on the Restless Spirits table.\n\n◆ Beast/Monster: Any creature created by necromancy gains a +2 to Attack and Defense rolls. \nAdditionally, the senses of a person in Hanmarvyn’s Blue Dream are heightened, giving them Scent Tracking and Night Vision.",
+    "range": "",
+    "duration": "1 Day",
+    "defence": "",
+    "components": "A Skull (from a creature killed within the last 24 hours), Ashes (x10), Fifth Essence (x2), Infused Dust (x3), Timber (x5), Stone (x2), Leather (x3), Specter Dust (x2)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "16",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9324dcf206106dc779f2d98f999b3a97f38160c3"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BMzNXAQwhF2vlxjH"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Double Woven Gambeson",
+  "type": "diagrams",
+  "_id": "bC27rcQZFIzK0Wk6",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Like the hood of the same construction the double woven gambeson&rsquo;s decent work on a budget. It&rsquo;ll stop a cheap sword or a hand crossbow bolt and it won&rsquo;t weigh ya down too much. I usually wear one of these when I&rsquo;m travelin&rsquo;, and around town. Good way to stay safe without people thinkin&rsquo; much of it.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 374,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "JX8AriEjjcJg6Wpo",
+        "name": "Double Woven Linen",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "kTZiW0ZiLgIQqkDy",
+        "name": "Thread",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "SHzLtlyBU4lt7iBG",
+        "name": "Tanning Herbs",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj"
+      },
+      {
+        "id": "JUu2YtGgPBJgHlH0",
+        "name": "Linen",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "ViJFUqy3Ua3WBeZQ",
+        "name": "Cotton",
+        "quantity": 11,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      }
+    ],
+    "investment": 187,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.jWeUwEl6MhjiNTc3",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0527785633fe3f5c4227901b6de516b66782eff2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!bC27rcQZFIzK0Wk6"
+}

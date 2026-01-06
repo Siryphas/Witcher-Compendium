@@ -1,0 +1,52 @@
+{
+  "folder": "lz4VzKsimUHqBiXL",
+  "name": "Glyph of Mending",
+  "type": "enhancement",
+  "_id": "zhVbktUxngZTE4d9",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Glyph%20Mending.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 450,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "glyph",
+    "applied": "",
+    "avail": "Everywhere",
+    "effects": [
+      {
+        "id": "first",
+        "name": "While wearing this armor, whenever you regain HP, you regain 1 additional point.",
+        "statusEffect": "",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "633433be2bb29e2f084c2b47bf4e5b47400a6433"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zhVbktUxngZTE4d9"
+}

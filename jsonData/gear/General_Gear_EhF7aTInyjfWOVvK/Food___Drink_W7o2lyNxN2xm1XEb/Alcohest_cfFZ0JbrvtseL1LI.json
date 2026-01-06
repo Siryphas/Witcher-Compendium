@@ -1,0 +1,60 @@
+{
+  "folder": "W7o2lyNxN2xm1XEb",
+  "name": "Alcohest",
+  "type": "valuable",
+  "_id": "cfFZ0JbrvtseL1LI",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/drinks/alcohol-spirits-bottle-green.webp",
+  "system": {
+    "description": "\"There's spirits an' there's pure alcohol. Alcohest is basically pure alcohol for alchemy and such. One shot'll put a dwarf on their ass. A full bottle's pretty much poison.\"\n-Rodolf Kazmer",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 8,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Common",
+    "effect": "",
+    "conceal": "S",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "MllJ6QM9Nu75Lr3t",
+          "name": "Intoxicated",
+          "statusEffect": "intoxication",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "q2c9crRwOBoHdIOJ",
+          "name": "Nausea",
+          "statusEffect": "nausea",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6f42e782e89c41ac605c5a51f1205a3939e861cb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cfFZ0JbrvtseL1LI"
+}

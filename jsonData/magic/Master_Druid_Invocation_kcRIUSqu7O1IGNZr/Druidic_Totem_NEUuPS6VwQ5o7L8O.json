@@ -1,0 +1,61 @@
+{
+  "folder": "kcRIUSqu7O1IGNZr",
+  "name": "Druidic Totem",
+  "type": "spell",
+  "_id": "NEUuPS6VwQ5o7L8O",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "druid",
+    "domain": "",
+    "stamina": "14",
+    "staminaIsVar": false,
+    "effect": "Druidic Totem allows you to sacrifice your staff of oak and mistletoe to create a magical totem which connects you to the natural world. \nAfter casting this Invocation, you must sacrifice the focus created by the Rite of Oak and Mistletoe by planting it in the ground. The staff grows into a 2m tall totem with 20 Hit Points, reminiscent of the local flora. \nWhile within 1-Mile of this totem, you are always counted as having a focus with a value of 4, all animals are considered friendly to you and your allies, and you gain an additional benefit based on the location where you placed the totem. \nYou can only have one totem active at a time and creating a new totem transforms the old totem into a non-magical plant.\n◆ Fields: You have a Speed Statistic of 12.\n◆ Mountains: You have Resistance to Bludgeoning, Slashing & Piercing damage.\n◆ Underground: You have Superior Night Vision and gain a +4 to Stealth checks.\n◆ Forest: If you consume fruit grown within the area of your totem, you gain a Regeneration value of 3 for 1 Hour.\n◆ Swamp: You are immune to the Poison and Disease conditions.\n◆ Shore: You can breath underwater and have no penalties for fighting or maneuvering in water.\n◆ Desert: You are immune to the Extreme Heat condition and you can always find a source of water. Once per day, when you consume water collected within the area of your totem, you regain all lost STA.\n◆ Tundra: You are immune to the Snow & Ice conditions, you cannot be lit on fire or frozen, and you gain resistance to fire and ice damage.",
+    "range": "2m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cb51d7c9de13e6ad0c4699060874de56b72465c8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NEUuPS6VwQ5o7L8O"
+}

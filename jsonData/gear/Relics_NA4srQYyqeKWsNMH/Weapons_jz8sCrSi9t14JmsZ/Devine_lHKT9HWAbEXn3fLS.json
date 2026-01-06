@@ -1,0 +1,124 @@
+{
+  "name": "Devine",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-guard-jewel-green.webp",
+  "system": {
+    "description": "Education DC: 18\n\nWay back, before the Nilfgaardian Wars, folk say that this lord named Cedric of Cintra cast a wary eye down towards Nilfgaard. Emperor Torres and his lot had just taken Vicovaro and Cedric saw the writin’ on the wall, heh. Lord Cedric wasn’t too keen on some empire to the south rollin’ over him so he called his court mage, Heniek of Attre, to prepare a blade unlike any that’d ever seen the field. Oh, an’ Cedric didn’t want any ordinary runestone put on the thing—commanded Heniek to bind a djinn in the sword. Heh, guess he thought he’d be able to command the wind or some shite. Heniek agreed, of course, and got to work. Journeyed to the east, high in the Blue Mountains to a Place of Power bound to the wind. \nRarely heard of anyone capturin’ a djinn, let alone bindin’ it to somethin’. But Heniek gave it a whirl. When he got back, Heniek wouldn’t talk about what happened in the peaks of the mountains an’ looked like he’d been through hell, but he was carryin’ Devine, the Blade of the Wind. Looked plain enough but oh, when Cedric pulled that sword outta the scabbard! White runes glowin’ like the sun ran all up and down the wavy meterorite blade. Wind whirled outta the scabbard and whipped ‘round the lord like an aura of power. \n‘Course the noble lord was proud as a ploughin’ peacock and headed off to the field to test the power of his new blade. Heh, little did either of ‘em know Heniek’d been taken for a fool. The djinn, who couldn’t give a rat’s arse about the Empire of Nilfgaard, Cintra, or any mortal, hadn’t been bound to the blade. It’d sealed enough power in the sword to trick Heniek, but then stowed away in the scabbard, t’make a show for the young lord an’ wait for its chance. When Lord Cedric drew Devine again, lookin’ to slash down the very trees outside his manor, the djinn burst forth like a northern gale. Frozen by shock, Heniek barely got out a word before the djinn’d throttled the young lord with its mighty paws and sailed off into the blue-grey sky. The beast left Devine where it lay in the cold hands of Lord Cedric, bright white runes still glowin’ like a merry fire. Nobody knows what Heniek did with Devine. Legend goes he fled Cintra and the noose he’d earned for murderin’ Lord Cedric. Probably took the sword with him, wherever he went.\n- Rodolf Kazmer",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "10d6",
+    "reliable": 20,
+    "maxReliability": 20,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Greater Focus (Air)",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "PRKUfmaJXVMGWJaQ",
+        "name": "Stun (-2)",
+        "statusEffect": "stun",
+        "percentage": 0
+      },
+      {
+        "id": "wjGH0OU1H1n77qry",
+        "name": "Meteorite",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 3,
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Greater Focus (Air)",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "wjGH0OU1H1n77qry",
+          "name": "Meteorite",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "4zp10TLeI33bnGav",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "HArTO2RBCBDteJLR",
+          "name": "Stun (-2)",
+          "statusEffect": "stun",
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "isMeteorite": true
+    }
+  },
+  "effects": [],
+  "folder": "jz8sCrSi9t14JmsZ",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3064a8367aff5df3f49c8ad2470c0324ece7bdb1",
+      "sourceId": "Item.eeVjeHklHVDbapJf"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "lHKT9HWAbEXn3fLS",
+  "sort": 100000,
+  "_key": "!items!lHKT9HWAbEXn3fLS"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Ammunition, Dwarven Impact (x5)",
+  "type": "diagrams",
+  "_id": "9R2aRSN19DS1q1m1",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Folk say we started usin&rsquo; these heavy arrows and bolts to break rock in the mines, but nowadays dwarven mercenaries use &lsquo;em to crack plate armor.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 100,
+    "isHidden": false,
+    "type": "ammunition",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 184,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "dt4bfmzPcVgyU0O9",
+        "name": "Mahakam Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LcYMiyZxP6wm09Ss"
+      },
+      {
+        "id": "4A4gqSR2JF0hmpa8",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "FE5yx77Ly2z0eOAp",
+        "name": "Feathers",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      },
+      {
+        "id": "SJp6rcHoTmJ7HKNC",
+        "name": "Ogre Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "vKSBx6RYGh787ApP",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      }
+    ],
+    "investment": 184,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.n4eV7EnBivypTcqg",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8419f38bcc5192c3b7e5e67c2d085c128a82cffe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!9R2aRSN19DS1q1m1"
+}

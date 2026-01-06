@@ -1,0 +1,76 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Eternal Judgement (Eternal Fire)",
+  "type": "spell",
+  "_id": "MHgtwH33hNdeDIHu",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Eternal%20Fire%201.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Using the power granted to you by the Eternal Fire, you cause a target to burst into a bright white fire, tinged with red.\nThe fire does double the normal fire damage and cannot be extinguished except by magic, or by completely submerging underwater for 3 rounds. \nAnything that touches this magical fire ignites with normal fire and can be put out in one full round.",
+    "range": "10m",
+    "duration": "Until Put Out",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "White Fire",
+        "statusEffect": "fire",
+        "percentage": 100
+      }
+    ],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "damageType": "fire",
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "89ec26cfb384769b1107d549399617a70873ab1b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.24.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MHgtwH33hNdeDIHu"
+}

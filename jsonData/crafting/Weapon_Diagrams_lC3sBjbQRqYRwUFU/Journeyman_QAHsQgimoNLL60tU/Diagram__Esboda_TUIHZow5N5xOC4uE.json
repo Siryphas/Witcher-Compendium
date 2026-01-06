@@ -1,0 +1,90 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Esboda",
+  "type": "diagrams",
+  "_id": "TUIHZow5N5xOC4uE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>As a merchant you have to leave your personal prejudices behind for good product. The Mettinese esboda is one of the lightest, sharpest cavalry blades I&rsquo;ve ever seen. It&rsquo;s sort of like a much better gleddyf. Count on the black ones to rely on their &ldquo;vassals&rdquo; to make better weapons, eh?</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 974,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 17,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "CN5fotoNeYGFHs38",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "YHABm01T5gI50Wl4",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "2LCD0rOmXdXmnvig",
+        "name": "Dark Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "I9r52zxXwrh7MiLc",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "eLKG0jP4eiYyDbA2",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      }
+    ],
+    "investment": 481,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.6tXmE6d9kAEz9jYX",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ec0066ec04dea712c431833c1b1db44d45ac038c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!TUIHZow5N5xOC4uE"
+}

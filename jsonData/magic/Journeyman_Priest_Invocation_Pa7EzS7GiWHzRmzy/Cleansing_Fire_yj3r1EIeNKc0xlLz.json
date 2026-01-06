@@ -1,0 +1,71 @@
+{
+  "folder": "Pa7EzS7GiWHzRmzy",
+  "name": "Cleansing Fire",
+  "type": "spell",
+  "_id": "yj3r1EIeNKc0xlLz",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "journeyman",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "6",
+    "staminaIsVar": false,
+    "effect": "Cleansing Fire ignites one target, doing 3d6 damage and setting them on fire.",
+    "range": "10m",
+    "duration": "Until Put Out",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "3d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 100
+      }
+    ],
+    "damageType": "fire",
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f6008b39dfba06e421893f501d630e0e8a7235f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yj3r1EIeNKc0xlLz"
+}

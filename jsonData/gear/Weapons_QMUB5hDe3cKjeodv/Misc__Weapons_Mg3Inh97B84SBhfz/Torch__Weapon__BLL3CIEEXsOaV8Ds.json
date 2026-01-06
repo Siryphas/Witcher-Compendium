@@ -1,0 +1,106 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Torch (Weapon)",
+  "type": "weapon",
+  "_id": "BLL3CIEEXsOaV8Ds",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/lights/torch-black.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1,
+    "sourcebook": "Rodolf's Wagon",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "conceal": "S",
+    "avail": "Everywhere",
+    "hands": "left",
+    "equipped": false,
+    "reliable": 5,
+    "maxReliability": 5,
+    "damage": "1d6",
+    "range": "Melee",
+    "accuracy": -1,
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "attackOptions": [
+      "melee"
+    ],
+    "applyMeleeBonus": true,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "damageProperties": {
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "appliesGlobalModifierToDamaged": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "effects": [
+        {
+          "id": "LM0ylx5OkQ6zBTgS",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 25,
+          "varEffect": false
+        }
+      ],
+      "oilEffect": "",
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "defenseProperties": {
+      "parrying": false
+    },
+    "associatedDiagramUuid": "",
+    "meleeAttackSkill": "melee"
+  },
+  "effects": [],
+  "sort": 1062500,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d1ab2671d631d20e74d4d31bedcf15f142880f54"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!BLL3CIEEXsOaV8Ds"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Invisible Ink",
+  "type": "diagrams",
+  "_id": "UrUXELjNcUpb9rIY",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Use invisible ink quite a bit, actually. Heh, workin&rsquo; as a smuggler means ya have to leave invisible notes and hidden annotations a lot.</em></p>\n<p>Invisible ink allows you to write messages that can only be read when exposed to heat for 1 turn.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 22,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 11,
+    "craftingTime": "5 Rounds",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 1,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.K9a06wfywkh8VnXt",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a8273acdc963d18be3ae6a9acf717d9148ed0bab"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!UrUXELjNcUpb9rIY"
+}

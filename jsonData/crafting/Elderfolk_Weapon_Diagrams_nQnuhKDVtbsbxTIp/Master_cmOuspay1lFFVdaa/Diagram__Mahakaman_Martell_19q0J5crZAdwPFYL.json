@@ -1,0 +1,114 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Mahakaman Martell",
+  "type": "diagrams",
+  "_id": "19q0J5crZAdwPFYL",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>The martell&rsquo;s a rare dwarven design and ya won&rsquo;t see many humans wandering around with &lsquo;em. Heh, basically a hammer head with a long spike on the back end, mounted on a meter-long handle. A lot of dwarves like to cut the handle short and carry &lsquo;em in their boots.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1350,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "11 H",
+    "craftingComponents": [
+      {
+        "id": "5X2vbCl3cybsgAB7",
+        "name": "Mahakam Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LcYMiyZxP6wm09Ss"
+      },
+      {
+        "id": "sEDveRaWmgPhGAhE",
+        "name": "Hardened Timber",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "cdu8WGBk42yww4Qf",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "gYnwgNrokc8oJyxo",
+        "name": "Wolf Hide",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.kVPS9ZC0Xj7hSDz9"
+      },
+      {
+        "id": "cezY0GbspZJbzs0M",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "CjsJ7e1lTu5bbPSS",
+        "name": "Ester Grease",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "kfestQhKmCpYdSf5",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "u3Yv6KlY78lxoB8L",
+        "name": "River Clay",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "cFvENTjREwdWaMgl",
+        "name": "Linen",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      }
+    ],
+    "investment": 675,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.rtH06svarl0SNVaE",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c540a76a1faf77d227269008ce0563317f10b386"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!19q0J5crZAdwPFYL"
+}

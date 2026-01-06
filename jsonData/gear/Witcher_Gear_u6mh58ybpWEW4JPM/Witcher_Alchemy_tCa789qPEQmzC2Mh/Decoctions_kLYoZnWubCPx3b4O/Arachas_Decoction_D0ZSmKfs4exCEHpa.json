@@ -1,0 +1,82 @@
+{
+  "folder": "kLYoZnWubCPx3b4O",
+  "name": "Arachas Decoction",
+  "type": "alchemical",
+  "_id": "D0ZSmKfs4exCEHpa",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Arachas%20Decoction.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "decoction",
+    "avail": "WITCHER",
+    "effect": "For every 10 points of ENC you have free, you gain +2 SP to all locations.",
+    "time": "30 Mins",
+    "toxicity": "75%",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Arachas Decoction",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.D0ZSmKfs4exCEHpa",
+      "duration": {
+        "rounds": 30,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Arachas%20Decoction.png",
+      "_id": "qJGdN6BgzcQkNCJI",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>For every 10 points of ENC you have free, you gain +2 SP to all locations.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!D0ZSmKfs4exCEHpa.qJGdN6BgzcQkNCJI"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cdfee4966e102954ea1220ca5494a853336d9642"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!D0ZSmKfs4exCEHpa"
+}

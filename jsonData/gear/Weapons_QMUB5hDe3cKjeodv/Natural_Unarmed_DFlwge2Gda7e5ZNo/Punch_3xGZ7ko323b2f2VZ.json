@@ -1,0 +1,86 @@
+{
+  "name": "Punch",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist-blue.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "1d6",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "both",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Non-Lethal",
+        "percentage": ""
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "4rEUAAn320OuP16Q",
+          "name": "Non-Lethal",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "isNonLethal": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "folder": "DFlwge2Gda7e5ZNo",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "dee1f1c6a3eb2cc572eb6eaaab1d28332131abbc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "3xGZ7ko323b2f2VZ",
+  "sort": 100000,
+  "_key": "!items!3xGZ7ko323b2f2VZ"
+}

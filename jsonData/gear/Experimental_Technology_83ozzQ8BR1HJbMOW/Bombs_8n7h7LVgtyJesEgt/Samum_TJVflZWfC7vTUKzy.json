@@ -1,0 +1,97 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Samum",
+  "type": "weapon",
+  "_id": "TJVflZWfC7vTUKzy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-pink.webp",
+  "system": {
+    "description": "Anyone caught in the blast of this bomb must make a\nStun save at -2 and is blinded for 6 rounds.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 147,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stun (-2)",
+        "percentage": ""
+      },
+      {
+        "id": "_1hekge5iy",
+        "name": "Blinded 6 Rounds",
+        "percentage": ""
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Stun (-2)",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_1hekge5iy",
+          "name": "Blinded 6 Rounds",
+          "statusEffect": "blinded",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 650000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4ca6ef4b3e30ea4dfcad6d973f3e217a73b6d3f3"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TJVflZWfC7vTUKzy"
+}

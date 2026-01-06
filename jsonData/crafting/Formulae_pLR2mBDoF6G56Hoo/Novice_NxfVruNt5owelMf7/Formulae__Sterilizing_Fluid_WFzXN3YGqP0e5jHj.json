@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Sterilizing Fluid",
+  "type": "diagrams",
+  "_id": "WFzXN3YGqP0e5jHj",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>I&rsquo;ve never much understood infection. I leave to doctors to know about healin&rsquo; and I just sell supplies. Sterilizin&rsquo; fluid&rsquo;s usually in high demand.</em></p>\n<p>Sterilizing Fluid poured on a wound raises the patient's natural healing rate by 2 points and lessens the number of days a critical wound takes to heal by 2.&nbsp;<br>Multiple uses of Sterilizing Fluid do not stack.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 33,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 12,
+    "craftingTime": "5 Rounds",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.VOFKHGPGNHeYxabx",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8128d2ccd766b82617b841030dd7252cd43a3b19"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!WFzXN3YGqP0e5jHj"
+}

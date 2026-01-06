@@ -1,0 +1,106 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Adenydd",
+  "type": "spell",
+  "_id": "TqEIuIr7N14xACT7",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "air",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "Adenydd allows you to lighten yourself slightly and create a simple glide path when falling. This means for each 2m you fall you travel 2m in a direction. If you make it to the ground within the duration of the spell you take no damage.",
+    "range": "Self",
+    "duration": "Active (2 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Adenydd",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.TqEIuIr7N14xACT7",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+      "_id": "3SFAo3QExBSQLttM",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Adenydd allows you to lighten yourself slightly and create a simple glide path when falling. This means for each 2m you fall you travel 2m in a direction. If you make it to the ground within the duration of the spell you take no damage.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!TqEIuIr7N14xACT7.3SFAo3QExBSQLttM"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "29ec502be1f12d2e72be9e11c1e98b3b92ccf612"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TqEIuIr7N14xACT7"
+}

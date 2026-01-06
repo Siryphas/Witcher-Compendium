@@ -1,0 +1,57 @@
+{
+  "folder": "b76iD5vblJREYrjg",
+  "name": "Hanmarvyn's Blue Dream",
+  "type": "spell",
+  "_id": "6CkkqrlVhgVWl3e7",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Hanmarvyn’s Blue Dream allows a single person to witness the last moments of a corpse’s life. \nUpon casting the ritual, choose one person within 4m to receive the memories of the corpse. \nThis person must make a DC:24 Endurance check to withstand the shock of the event. \nIf they succeed, the effects of the ritual begin. \nIf they fail, they are immediately put into Death State but the effects of the ritual still begin. \nFor the duration of the ritual, the affected person falls unconscious and witnesses the last 10 minutes of the corpse’s life. \nThey experience these memories as if they were their own, even feeling that person’s emotions. \nIf under the influence of a Hallucinogen, the duration of this ritual increases to 20 minutes.",
+    "range": "",
+    "duration": "10 Minutes",
+    "defence": "",
+    "components": "A Corpse, Fifth Essence (x10), Lunar Shards (x2), Essence of Wraith (x3), Ginatia Petals (x2), Quicksilver Solution (x1), Green Mold (x2), Mandrake Root (x1), Phosphorus (x3), Specter Dust (x2)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dde02d4e9012f14f6f697109b52e28df4de60ee7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6CkkqrlVhgVWl3e7"
+}

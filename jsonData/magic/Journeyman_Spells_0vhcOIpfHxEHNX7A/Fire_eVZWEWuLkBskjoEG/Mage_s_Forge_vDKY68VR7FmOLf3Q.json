@@ -1,0 +1,66 @@
+{
+  "folder": "eVZWEWuLkBskjoEG",
+  "name": "Mage's Forge",
+  "type": "spell",
+  "_id": "vDKY68VR7FmOLf3Q",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "fire",
+    "domain": "",
+    "stamina": "12",
+    "staminaIsVar": false,
+    "effect": "Mage’s Forge allows you to create a magical fire that can be used to purify metal. When ingots of metal are placed within this fire their impurities are burned away making them easier to recover after a failed crafting attempt. \nDuring the Recovery Step any purified ingots used are automatically recovered. \nAdditionally, the fire created acts as a Tinker’s Forge for the purposes of crafting, but cannot be used on Dimeritium.\n\nThe ingots created by Mage’s Forge don’t look any different and are not magical which means that it is difficult to convince a merchant or craftsman to pay a higher price for them without demonstrating their purity.",
+    "range": "2m",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aaa5050fcdddb33f621109f97565d55de5630eb4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vDKY68VR7FmOLf3Q"
+}

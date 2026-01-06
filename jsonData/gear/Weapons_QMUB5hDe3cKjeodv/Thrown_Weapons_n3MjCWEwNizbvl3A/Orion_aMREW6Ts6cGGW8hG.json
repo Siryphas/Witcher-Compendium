@@ -1,0 +1,72 @@
+{
+  "folder": "n3MjCWEwNizbvl3A",
+  "name": "Orion",
+  "type": "weapon",
+  "_id": "aMREW6Ts6cGGW8hG",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-compendium/packs/Images/Other/Orion%20%5BSQ%5D.jpg",
+  "system": {
+    "description": "The black ones started using these a few decades ago. They’re like throwin’ knives but they’re shaped like stars. Heh, strange design, but the’re pretty damn dangerous. Quick, too.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 100,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Poor",
+    "damage": "1d6",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "Body x4m",
+    "effects": [],
+    "conceal": "T",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parryThrown"
+    ],
+    "applyRangedMeleeBonus": true,
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.9IxXlELV5OhjpTHN"
+  },
+  "effects": [],
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e90389df0fb71baee2200a6d80347be95d763cd7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aMREW6Ts6cGGW8hG"
+}

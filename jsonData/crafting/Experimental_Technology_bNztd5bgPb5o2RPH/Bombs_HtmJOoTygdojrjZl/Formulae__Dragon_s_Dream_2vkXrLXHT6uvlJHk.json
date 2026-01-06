@@ -1,0 +1,90 @@
+{
+  "folder": "HtmJOoTygdojrjZl",
+  "name": "Formulae: Dragon's Dream",
+  "type": "diagrams",
+  "_id": "2vkXrLXHT6uvlJHk",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 180,
+    "isHidden": false,
+    "type": "bomb",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "usCxKHNQxmG8w33v",
+        "name": "River Clay",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "tlnRR8YbDRWgEUOn",
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "EGusLAn8i1qy31K1",
+        "name": "Zerrikanian Powder",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.DD0hT2KtDmKqkVLa"
+      },
+      {
+        "id": "yULLceaBoyQpupSX",
+        "name": "Allspice Root",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.P2qzcYWhSUP11umO"
+      },
+      {
+        "id": "zElxkCyW6xBQSmpA",
+        "name": "Phosphorus",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.wb8blBlMHWYB4KyE"
+      }
+    ],
+    "investment": 118,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.sS4bu79FDYP63Nvy",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cde65108e74520f4c681e143f73b9acc0566c9ba"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!2vkXrLXHT6uvlJHk"
+}

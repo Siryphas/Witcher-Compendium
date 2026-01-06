@@ -1,0 +1,103 @@
+{
+  "folder": "n3MjCWEwNizbvl3A",
+  "name": "Poisoned Harpy Claw",
+  "type": "weapon",
+  "_id": "X3adegaQHkXTZggN",
+  "img": "icons/weapons/daggers/dagger-twin-green.webp",
+  "system": {
+    "description": "Not sure why this specific shape of throwing dagger wound up bein’ called a Harpy Claw. The blade’s straight and double-sided so it doesn’t look much like a claw. Probably because they’re so well weighted and they fly so well. To make matters worse, these designs are steeped in venom to make ‘em even more lethal.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 450,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Poor",
+    "damage": "1d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Body x4m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Balanced",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_wbojoezts",
+        "name": "Poison",
+        "percentage": 90,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "T",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Professional's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parryThrown"
+    ],
+    "applyRangedMeleeBonus": true,
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Balanced",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_wbojoezts",
+          "name": "Poison",
+          "statusEffect": "poison",
+          "percentage": 90,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.NJeHzpvB0cPcxbGT"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3b5b5683bb37b9fa529b9106fdfbb7a2fad61d76"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!X3adegaQHkXTZggN"
+}

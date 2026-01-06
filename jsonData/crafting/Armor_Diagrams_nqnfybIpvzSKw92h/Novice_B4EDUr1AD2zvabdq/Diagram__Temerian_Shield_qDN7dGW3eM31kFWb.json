@@ -1,0 +1,84 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Temerian Shield",
+  "type": "diagrams",
+  "_id": "qDN7dGW3eM31kFWb",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "<p><em>Ha! Good ol&rsquo; Temerian design! What we call a kite shield, and probably the most common shield design you&rsquo;ll see around the realm. A Temerian shield&rsquo;ll hold off arrows and swords for quite some time.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 342,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "DQDZjpOVBxzQcBf8",
+        "name": "Hardened Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "VfQJZTKv4KSryEVj",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "14KYcpbTnNNG5k3h",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "mwcN0iXyfn7XJKdU",
+        "name": "Ogre Wax",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      }
+    ],
+    "investment": 172,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.MG8qsJCSm8MCgDmX",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "46bd2f9a04f4af3302ffecb5dfeefb8d0c8107e9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!qDN7dGW3eM31kFWb"
+}

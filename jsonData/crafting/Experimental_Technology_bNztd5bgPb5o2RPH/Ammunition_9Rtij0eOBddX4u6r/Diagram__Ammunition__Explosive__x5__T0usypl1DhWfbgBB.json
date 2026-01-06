@@ -1,0 +1,102 @@
+{
+  "folder": "9Rtij0eOBddX4u6r",
+  "name": "Diagram: Ammunition, Explosive (x5)",
+  "type": "diagrams",
+  "_id": "T0usypl1DhWfbgBB",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 0,
+    "isHidden": false,
+    "type": "ammunition",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "IEuPKxPaBLkDlqSq",
+        "name": "Dark Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "j9SkEGY3euGjEXmF",
+        "name": "Feathers",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      },
+      {
+        "id": "5FS3DKQb4doyz80q",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "U1W0baXhyFNJrA7s",
+        "name": "Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      },
+      {
+        "id": "62ZT0ipbqyyAl5Kl",
+        "name": "River Clay",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "90Ivt2bIiVSLaB10",
+        "name": "Ogre Wax",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "zgB7xb4CaU9MEGTT",
+        "name": "Zerrikanian Powder",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.DD0hT2KtDmKqkVLa"
+      }
+    ],
+    "investment": 362,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.6efxVVPNRYNSjlK1",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "560fa3298b91180eff614f5d5945afe31e83fd56"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!T0usypl1DhWfbgBB"
+}

@@ -1,0 +1,89 @@
+{
+  "folder": "GSFkuJvwkT3fH73H",
+  "name": "Thunderbolt",
+  "type": "alchemical",
+  "_id": "an1mm1GWwExcNut3",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Thunderbolt%20Potion.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "potion",
+    "avail": "WITCHER",
+    "effect": "+3 damage on physical attacks.",
+    "time": "15 Rounds",
+    "toxicity": "75%",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Thunderbolt",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.an1mm1GWwExcNut3",
+      "duration": {
+        "rounds": 15,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Thunderbolt%20Potion.png",
+      "_id": "rHNrF5090cu97tJS",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.addMeleeBonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p>+3 damage on physical attacks.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!an1mm1GWwExcNut3.rHNrF5090cu97tJS"
+    }
+  ],
+  "sort": 100196,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d100653b448cc20009f0681eb5f197880d18f998"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!an1mm1GWwExcNut3"
+}

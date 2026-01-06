@@ -1,0 +1,69 @@
+{
+  "folder": "WJiSBANMJyV2zJJe",
+  "name": "Temerian Armet",
+  "type": "armor",
+  "_id": "9vYrr30OlPchuIBo",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/helm-bassinet-steel.webp",
+  "system": {
+    "description": "Temerian knights normally wear armets—they’re your basic knight helmet. Full enclosing metal helm with pointy “nose” lookin’ face plate, and a thin slit in the front to see out of. Only problem is, the slit isn’t too easy to see out of.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 475,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 16,
+    "headMaxStopping": 16,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Medium",
+    "avail": "Poor",
+    "enhancements": 1,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Restricted Vision",
+        "statusEffect": "reducedVision",
+        "percentage": 0
+      }
+    ],
+    "encumb": 0,
+    "location": "Head",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.jO50Y0ZUGDULAOxB"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3801e4f9dfe6e6a8ee3f83b3f63e3258de1a9c95"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9vYrr30OlPchuIBo"
+}

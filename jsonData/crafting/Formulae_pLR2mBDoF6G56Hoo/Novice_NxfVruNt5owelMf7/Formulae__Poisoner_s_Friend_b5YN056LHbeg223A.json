@@ -1,0 +1,70 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Poisoner's Friend",
+  "type": "diagrams",
+  "_id": "b5YN056LHbeg223A",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Black venom and other substances can have a pretty obvious taste. Poisoner&rsquo;s friend&rsquo;s good for hidin&rsquo; that. Also improves the taste of meals, but we know that&rsquo;s not the real use.</em></p>\n<p>Poisoner's Friend is a clear liquid that can be poured into food or drink to give it a potent savory or sweet taste. This raises the DC to detect poison to 20.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 24,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "10 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "name": "",
+        "quantity": 0
+      },
+      {
+        "id": "YqjF3xl5EaSnJ1te",
+        "name": "Poisoner's Friend",
+        "quantity": 1
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 2,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.iACDMwHXbNUqsRwI",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "175fdebda0906fed49bec32ccba919695890b8ef"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!b5YN056LHbeg223A"
+}

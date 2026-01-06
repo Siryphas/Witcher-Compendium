@@ -1,0 +1,71 @@
+{
+  "folder": "qlH2nWMWutV4oD4E",
+  "name": "Stiletto",
+  "type": "weapon",
+  "_id": "OYvHcDUwIHQMfY2M",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-straight-thin-black.webp",
+  "system": {
+    "description": "Count on the black ones to create a knife even more underhanded than a normal dagger. This dagger’s long thin blade folds into the handle so you can hide it just about anywhere.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 275,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Common",
+    "damage": "1d6",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "T",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4z2aMqfQVIn0UCZV"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4052bb64f21fbcde88ac5aae25b1db507cc6c456"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OYvHcDUwIHQMfY2M"
+}

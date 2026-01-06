@@ -1,0 +1,83 @@
+{
+  "name": "Bredan's Fury (Throwable)",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-round-corked-orange.webp",
+  "system": {
+    "description": "Bredan, the Mad Chemist of Gheso. Heh, don’t get a name like that for makin’ a new fertilizer. Hear after Bredan created this explosive elixir he disappeared. Sounds to me like he proved useful to the Empire.\n\nBredan's Fury explodes when exposed to air, doing 1d6 damage to every body location of any creature within 2m. Throwing it is an Athletics attack with a range equal to BODYx2m.",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 95,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "isThrowable": true,
+    "conceal": "T",
+    "avail": "Rare",
+    "hands": "right",
+    "equipped": false,
+    "reliable": 0,
+    "maxReliability": 0,
+    "damage": "1d6",
+    "range": "Body x2m",
+    "accuracy": 0,
+    "attackSkill": "athletics",
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "damageProperties": {
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": true,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "appliesGlobalModifierToDamaged": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "effects": []
+    },
+    "defenseProperties": {
+      "parrying": false
+    }
+  },
+  "effects": [],
+  "folder": "asIh5IuKjee5H3XO",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "43500cfa3b6de4e33f71313780e68dc8971438ea",
+      "sourceId": "Item.vgKLZr0kHToe0rrP"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "gqZVa9ycLeei3QoP",
+  "sort": 0,
+  "_key": "!items!gqZVa9ycLeei3QoP"
+}

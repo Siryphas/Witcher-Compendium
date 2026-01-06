@@ -1,0 +1,72 @@
+{
+  "folder": "4uEv4u3zjO1eCMCr",
+  "name": "Runeword: Prolongation",
+  "type": "diagrams",
+  "_id": "ADXFIuDVQfm9P6vp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>When casting a spell/invocation using this weapon as a focus, if the spell/invocation has a duration expressed in dice (such as 1d6 hours), roll twice and keep the highest result.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2150,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "MqxVgeZBnaoCPl5I",
+        "name": "Perun Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.XjcT0Z1g5NqWRvBt"
+      },
+      {
+        "id": "rlAs34VoMa4wBO0K",
+        "name": "Svarog Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.HqZNjktY1yDoshqW"
+      }
+    ],
+    "investment": 1150,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.PSNtQ1cSsH6iPqIS",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b2dfe8ae434ec9ff1fd101ea103671c0440b0139"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!ADXFIuDVQfm9P6vp"
+}

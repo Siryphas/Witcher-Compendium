@@ -1,0 +1,53 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Wives' Tears Potion",
+  "type": "alchemical",
+  "_id": "f4opIbbrvI3KHGfq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-labeled-cyan.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 56,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "This potion’s popular in large cities where there’re a lot of tavern. Some alchemist threw this forumla together to counteract drunkard husbands throwin’ their weight around after a few too many drinks.\n\nImbibing Wives' Tears Potion negates the effects of intoxication. Immediately after drinking a dose of Wives' Tears Potion the imbiber sobers up.",
+    "time": "Immediate",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "WdHFrACxtDPlidEI",
+          "name": "Clears Intoxication",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e00b6720f5971fbbd90407af56584e50afbb3a72"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!f4opIbbrvI3KHGfq"
+}

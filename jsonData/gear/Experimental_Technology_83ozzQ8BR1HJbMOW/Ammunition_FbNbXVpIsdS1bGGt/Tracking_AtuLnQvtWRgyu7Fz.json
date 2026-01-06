@@ -1,0 +1,83 @@
+{
+  "folder": "FbNbXVpIsdS1bGGt",
+  "name": "Tracking",
+  "type": "weapon",
+  "_id": "AtuLnQvtWRgyu7Fz",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-head-war-flight.webp",
+  "system": {
+    "description": "Tracking ammunition is soaked in a odorous solution which can easily be picked up by scent tracking. As long as it remains in the target, scent tracking requires no roll to follow their trail if it is less than half a day old.",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 22,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "1",
+    "range": "",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Automatic Scent Tracking for 1 day.",
+        "percentage": ""
+      }
+    ],
+    "conceal": "T",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Automatic Scent Tracking for 1 day.",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8853121ab0f79a29fab8f4937a2e9356e0096063"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AtuLnQvtWRgyu7Fz"
+}

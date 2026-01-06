@@ -1,0 +1,63 @@
+{
+  "folder": "BPG1YKWQRX65vBGP",
+  "name": "Part Water",
+  "type": "spell",
+  "_id": "mXcuoe6xZvhVQzlT",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "Water",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "Part Water allows you to create an open area in a body of water, up to 10m by 100m by 10m. Fish, monsters, and other creatures in the water are swept back with the water. \nYou can pass in and out of the wall as easily as stepping in or out of a body of water without disturbing the walls. \nIf used while in the water the the effect pushes the caster aside as well. \nThe area can be summoned in any orientation, even vertical.",
+    "range": "10m Radius",
+    "duration": "Active (6 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f2585c8d95e880e63307e3f297451f96d133518f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mXcuoe6xZvhVQzlT"
+}

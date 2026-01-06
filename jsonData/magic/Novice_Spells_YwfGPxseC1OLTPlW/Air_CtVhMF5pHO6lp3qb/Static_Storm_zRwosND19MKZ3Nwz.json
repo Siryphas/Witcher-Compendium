@@ -1,0 +1,72 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Static Storm",
+  "type": "spell",
+  "_id": "zRwosND19MKZ3Nwz",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "air",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Static Storm allows you to infuse a 5m radius centered around you with electricity. Anyone within this area (excluding you) who is wearing metal armor or carrying metal weapons takes 2 points of damage per round.",
+    "range": "5m Radius",
+    "duration": "2d6 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "5",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "2",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "effects": []
+    },
+    "damageType": "electricity",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "52092337e6d1ccb015079afa5c51fb96379d004c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zRwosND19MKZ3Nwz"
+}

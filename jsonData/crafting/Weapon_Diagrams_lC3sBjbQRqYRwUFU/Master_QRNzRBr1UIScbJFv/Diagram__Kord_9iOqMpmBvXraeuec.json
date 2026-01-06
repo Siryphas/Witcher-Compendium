@@ -1,0 +1,108 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Kord",
+  "type": "diagrams",
+  "_id": "9iOqMpmBvXraeuec",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Kords are crafted for sailors, in the coastal Cidarian city. It&rsquo;s a solid and simple blade with a sharp curved edge. Heh, I hear a lot of these blades are bein&rsquo; smuggled north or even thrown into the sea so the black ones can&rsquo;t get them.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1012,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "11 H",
+    "craftingComponents": [
+      {
+        "id": "4C3DP54yhZqU1i0z",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "x79trX9AQTzmYRWf",
+        "name": "Dark Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "ufhIpl1M8dDc4rsT",
+        "name": "Dark Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LiePL2wgaminhK8N"
+      },
+      {
+        "id": "AezyQpDTWMtIXccN",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "OvDklUb3aAQawxhr",
+        "name": "Resin",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "CdeEXCHUIiqI0Wua",
+        "name": "Beast Bones",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "xmRPrQZcK8KgKRPx",
+        "name": "Silk",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      },
+      {
+        "id": "0SgY1SnzKOI8usf2",
+        "name": "Coal",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.0T5Hakf12eEtR5Hc"
+      }
+    ],
+    "investment": 525,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.ftlOK64uYpfqBf2s",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ad30eba619c35c1dfc0506ffb9f5b684f33f99cd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!9iOqMpmBvXraeuec"
+}

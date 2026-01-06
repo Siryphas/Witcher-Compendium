@@ -1,0 +1,90 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Great Helm",
+  "type": "diagrams",
+  "_id": "yT7ihVQmdDSg744D",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Great helms are for the highest of knights. Heh, large, cylindrical helmets with larger slots for the eyes and enough ventilation holes to breathe clear. They&rsquo;re tough as all hell and they&rsquo;re usually decorated with braided tassles, horns, and spread-winged eagles. Heh, gaudy as hell but useful.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 862,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 19,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "RUmt9Mf4DxzPUUGa",
+        "name": "Steel",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "TxG58XyGvLAlTton",
+        "name": "Hardened Leather",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "dYGYmGlpSjEur3iI",
+        "name": "Thread",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "hlpejBBbRlbu54ux",
+        "name": "Ogre Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "Uuqe6M2euioJLuhY",
+        "name": "Linen",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      }
+    ],
+    "investment": 431,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.7mMYYTw7WIGkR0Vk",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "075e83ddbed4606073c2c55ae5e85cfce4993796"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!yT7ihVQmdDSg744D"
+}

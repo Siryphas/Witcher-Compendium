@@ -1,0 +1,100 @@
+{
+  "folder": "rwiBLlYxXXDUV0d5",
+  "name": "The Devil's Luck",
+  "type": "spell",
+  "_id": "GPTqNJmB9002dlGf",
+  "img": "icons/magic/symbols/runes-star-magenta.webp",
+  "system": {
+    "class": "Hexes",
+    "level": "novice",
+    "source": "",
+    "domain": "",
+    "stamina": "8",
+    "staminaIsVar": false,
+    "effect": "The Devil’s Luck plagues the subject with bouts of bad fortune. \nIn situations of high stress such as combat or when performing any task with a deadline or a DC higher than 15, the subject rolls a fumble on a natural 1 or 2.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "Medium",
+    "liftRequirement": "The subject must hammer a silver nail into their door frame and hang 2 units of Wolfsbane, tied with a lock of virgin’s hair, from it. \nFinally the subject must stand under the silver nail, set fire to the bundle of Wolfsbane and virgin hair, and breath deeply.",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "0",
+    "effects": [],
+    "globalModifiers": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "The Devil's Luck",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.GPTqNJmB9002dlGf",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/magic/symbols/runes-star-magenta.webp",
+      "_id": "LLdlefMqmnJcO4gB",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>The Devil’s Luck plagues the subject with bouts of bad fortune.</p><p>In situations of high stress such as combat or when performing any task with a deadline or a DC higher than 15, the subject rolls a fumble on a natural 1 or 2.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!GPTqNJmB9002dlGf.LLdlefMqmnJcO4gB"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8d92c99ed16c408b850300a9c61a693e11917ab7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GPTqNJmB9002dlGf"
+}

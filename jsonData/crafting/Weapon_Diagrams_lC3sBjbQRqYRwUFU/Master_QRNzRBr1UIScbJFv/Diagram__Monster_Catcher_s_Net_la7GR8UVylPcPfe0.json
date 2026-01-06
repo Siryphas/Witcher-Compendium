@@ -1,0 +1,96 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Monster Catcher's Net",
+  "type": "diagrams",
+  "_id": "la7GR8UVylPcPfe0",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>I&rsquo;ve heard the Witch Hunters&rsquo; have taken to usin&rsquo; these when their hunting mages and monsters like dopplers. The net itself ain&rsquo;t really special but it&rsquo;s infused with chemicals and what not that make it hard for anything trapped in the net to use magic to escape.<br>Entangling: A target hit by this weapon is entangled by it. They lower their SPD by 5 and suffer a -2 penalty to all physical actions. Each turn, the target can make a DC: 18 Dodge/Escape or Athletics check to escape. Alternatively, another character can take an action to remove the weapon.<br>Magically Anchoring: While a creature is touching this weapon, they cannot become invisible or intangible or use any ability that allows them to teleport. Creatures that are already Invisible or Intangible are made visible and tangible while touching this weapon.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 750,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "pPmrNgcapZstkrb2",
+        "name": "Ester Grease",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "5N8xXQMU3Jga1nZC",
+        "name": "Quicksilver Solution",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.eTl9Q6jXNCVfIXVk"
+      },
+      {
+        "id": "mZVbhAIRWvrD8g2Q",
+        "name": "Resin",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "pWiCf4PA1PkDP2A1",
+        "name": "Sulfur",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.RGELfWZTThIgOmhG"
+      },
+      {
+        "id": "NXX65WBKM8IcANMQ",
+        "name": "Thread",
+        "quantity": 25,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "eREf6dF4eyfB6TwM",
+        "name": "Wax",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      }
+    ],
+    "investment": 375,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.wUKGnYspOazGZHVC",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4e1d08e6c84b95595c884fbe4ed9cf0d86368796"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!la7GR8UVylPcPfe0"
+}

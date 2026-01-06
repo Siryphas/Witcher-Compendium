@@ -1,0 +1,61 @@
+{
+  "folder": "LYUuah2rqlYSyazT",
+  "name": "Standing Portal",
+  "type": "spell",
+  "_id": "xHdUBlk72uqASUQh",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "22",
+    "staminaIsVar": false,
+    "effect": "Standing Portal creates a 1m by 2m floating portal up to 10m from you. Stepping through this portal teleports you anywhere you can recall. The portal can transport anything that fits through it. \nIf you end the portal while something is partially through, the portal slices the object (or creature) in two. The person is counted as being dismembered, as per the Critical Wound. \nYou can create a portal to a location you don’t know as per Teleportation.",
+    "range": "N/A",
+    "duration": "Active (6 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d59de771fc35477d27347eb7394270b8ab084064"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xHdUBlk72uqASUQh"
+}

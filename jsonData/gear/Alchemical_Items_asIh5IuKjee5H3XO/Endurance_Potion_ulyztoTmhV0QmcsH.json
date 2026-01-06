@@ -1,0 +1,85 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Endurance Potion",
+  "type": "alchemical",
+  "_id": "ulyztoTmhV0QmcsH",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-blue.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 75,
+    "isHidden": false,
+    "type": "potion",
+    "avail": "Poor",
+    "effect": "Probably used an endurance once in my past. Keep me goin’ through a long night on patrol! Heh, If ya can chug down this herbal tonic it’ll give ya a boost of energy like nothin’ you’ve felt before. Problem is, if ya drink too much it’ll get in yer head. Heh, you’ll be up all night, jumpin’ at shadows and beggin’ for sleep!\n\nA dose of Endurance Potion allows the imbiber to immediately regain 3d6 Stamina. The Toxicity of the Endurance Potion lasts until its duration elapses regardless of whether the Stamina is used.",
+    "time": "1/2 Hour",
+    "toxicity": "50%",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Rodolf's Wagon",
+    "consumeProperties": {
+      "doesHeal": false
+    }
+  },
+  "effects": [
+    {
+      "name": "Endurance Potion",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.ulyztoTmhV0QmcsH",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-blue.webp",
+      "_id": "T0aCp8VPcJzlvviy",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>A dose of Endurance Potion allows the imbiber to immediately regain 3d6 Stamina. The Toxicity of the Endurance Potion lasts until its duration elapses regardless of whether the Stamina is used.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ulyztoTmhV0QmcsH.T0aCp8VPcJzlvviy"
+    }
+  ],
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b8f3ad2cf1ee5c3c0c58e7217d6a117ed64294dd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ulyztoTmhV0QmcsH"
+}

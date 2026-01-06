@@ -1,0 +1,117 @@
+{
+  "folder": "vOeEQPd6yg2o8AMD",
+  "name": "Scoia'tael Armor",
+  "type": "armor",
+  "_id": "aqqPziy8lWS3Audp",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Elven%20Armor.webp",
+  "system": {
+    "description": "Can’t say every Scoia’tael wears this armor but the commanders of commandos generally do. Iorveth, Yaevinn, and such. It’s good armor, designed to help ya blend into the background. Hate the Scoia’tael but their armor’s good.",
+    "quantity": "1",
+    "weight": 12,
+    "cost": 2325,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 20,
+    "headMaxStopping": 20,
+    "torsoStopping": 20,
+    "torsoMaxStopping": 20,
+    "leftArmStopping": 20,
+    "leftArmMaxStopping": 20,
+    "rightArmStopping": 20,
+    "rightArmMaxStopping": 20,
+    "leftLegStopping": 20,
+    "leftLegMaxStopping": 20,
+    "rightLegStopping": 20,
+    "rightLegMaxStopping": 20,
+    "type": "Medium",
+    "avail": "Rare",
+    "enhancements": 2,
+    "effects": [
+      {
+        "id": "first",
+        "name": "+2 Stealth (Wilderness)",
+        "statusEffect": "",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "encumb": 1,
+    "location": "FullCover",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.kr1ApNx9e7J3br30"
+  },
+  "effects": [
+    {
+      "name": "Scoia'tael Armor",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.aqqPziy8lWS3Audp",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Elven%20Armor.webp",
+      "_id": "vVEcQ2VCKwCUlbye",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.dex.stealth.activeEffectModifiers",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        }
+      ],
+      "description": "<p><em>\"Can’t say every Scoia’tael wears this armor but the commanders of commandos generally do. Iorveth, Yaevinn, and such. It’s good armor, designed to help ya blend into the background. Hate the Scoia’tael but their armor’s good.\"</em></p><p>+2 Stealth in Wilderness</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!aqqPziy8lWS3Audp.vVEcQ2VCKwCUlbye"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ef89131950de55385ca81a9868ae594b4e40a373"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aqqPziy8lWS3Audp"
+}

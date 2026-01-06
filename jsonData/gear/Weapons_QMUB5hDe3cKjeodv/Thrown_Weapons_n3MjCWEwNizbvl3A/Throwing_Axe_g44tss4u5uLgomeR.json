@@ -1,0 +1,72 @@
+{
+  "folder": "n3MjCWEwNizbvl3A",
+  "name": "Throwing Axe",
+  "type": "weapon",
+  "_id": "g44tss4u5uLgomeR",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/axes/shortaxe-black.webp",
+  "system": {
+    "description": "Ya won’t get as much range on a throwing axe as you would on a throwing knife but you’ll pack more of a punch. Nothin’ like a hunk of sharpened metal on a haft comin’ at ya.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 75,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Body x2m",
+    "effects": [],
+    "conceal": "S",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parryThrown"
+    ],
+    "applyRangedMeleeBonus": true,
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.RE22yrLYOZyXPFxb"
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6df04c3a3eb1f35e609213a276de60b54d24e280"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!g44tss4u5uLgomeR"
+}

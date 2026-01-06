@@ -1,0 +1,84 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Mancatcher",
+  "type": "weapon",
+  "_id": "c0NGSsQtbHadOU2H",
+  "img": "icons/weapons/polearms/spear-simple-crescent.webp",
+  "system": {
+    "description": "Now, the Black Ones got a long history of kidnappin’ folks and sellin’ ‘em deeper in the Empire. Prisoners of war and the like. When those poor folk escape they come after ‘em with these. Mancatcher’s a big, spiky, crescent-shaped hook on the end of a pole. Get it ‘round a person’s neck and ya can stop their fightin’ pretty quick.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 463,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "3d6+3",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_wi23q7021",
+        "name": "Grappling",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Lords & Lands",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rsqozeCjg1nykwhP"
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7da86d8e99053008f50fde369e6e7642ac7847b0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c0NGSsQtbHadOU2H"
+}

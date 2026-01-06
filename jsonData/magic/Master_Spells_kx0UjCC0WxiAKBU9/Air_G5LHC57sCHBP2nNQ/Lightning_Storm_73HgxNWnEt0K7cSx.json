@@ -1,0 +1,73 @@
+{
+  "folder": "G5LHC57sCHBP2nNQ",
+  "name": "Lightning Storm",
+  "type": "spell",
+  "_id": "73HgxNWnEt0K7cSx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "air",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "Lightning Storm allows you to create a lightning storm. Lightning strikes randomly around the area. Anyone (except you) in the area has a 35% chance of being struck by lightning. \nIf they miss this roll, they must make a Dodge/ Escape check or take 8d6 damage to the torso and have a 75% chance to be ignited.",
+    "range": "20m Radius",
+    "duration": "Active (6 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "20",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "8d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 75
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "electricity",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "176f7936f5664ec27af7fd555badb2b026b3993d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!73HgxNWnEt0K7cSx"
+}

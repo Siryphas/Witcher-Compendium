@@ -1,0 +1,82 @@
+{
+  "folder": "e3isHmTclmXsqWlj",
+  "name": "Halfling Rondel",
+  "type": "weapon",
+  "_id": "9OQVju2Jqb8x79lF",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-simple-green.webp",
+  "system": {
+    "description": "Now, halflings are smaller than humans but not as sturdy as a dwarf. Not gonna say they’re weak, but ya don’t see armies of halflings. This dagger plays to a halfling’s strengths. It’s thin and strong with a circular pommel and guard. It’s designed to be shoved in between the cracks of armor and leave bleeding wounds.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 485,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "2d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nNO2niad8LvwiuJp",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "5pntBr2jsidHZxY5",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9b71f0c576c1d14bb59950ebce20e2bff5ac3c38"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9OQVju2Jqb8x79lF"
+}

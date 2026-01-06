@@ -1,0 +1,66 @@
+{
+  "folder": "qZQJJdBVjza19aNh",
+  "name": "Sanctuary of the Black Grove (Circle of Caed Myrkvid)",
+  "type": "spell",
+  "_id": "XKui1XjNY5CKJFWT",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Caed%20Myrkvid.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Sanctuary of the Black Grove allows you to attune yourself and as many allies as you wish to the trees within a 1 Mile radius. \nWhile this invocation is active, you can touch a tree and look simultaneously through all the trees within 1 mile of you. You are able to parse this information and focus on specific views if you want.\nAdditionally, you and any allies you designate can pass through any tree within this area and come out of any another tree within the area. \nYour allies cannot see through the trees but are able to designate where they want to go.",
+    "range": "1 Mile Radius",
+    "duration": "1 Hour",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dfa5cf36bea71675ad0459d2f53f7b0ae003f623"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XKui1XjNY5CKJFWT"
+}

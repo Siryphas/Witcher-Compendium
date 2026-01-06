@@ -1,0 +1,72 @@
+{
+  "folder": "DeqH3tE6jRo8epJX",
+  "name": "Diagram: Leather",
+  "type": "diagrams",
+  "_id": "q9tvZKZW3E6baJCk",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 38,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 12,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "name": "Hide",
+        "quantity": 1,
+        "uuid": null
+      },
+      {
+        "id": "Vlrh3pti2KjbMQG7",
+        "name": "Tanning Herbs",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj"
+      }
+    ],
+    "investment": 19,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e811ab9efe2d3fcbd04d311a0382e49810d5b8ed"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!q9tvZKZW3E6baJCk"
+}

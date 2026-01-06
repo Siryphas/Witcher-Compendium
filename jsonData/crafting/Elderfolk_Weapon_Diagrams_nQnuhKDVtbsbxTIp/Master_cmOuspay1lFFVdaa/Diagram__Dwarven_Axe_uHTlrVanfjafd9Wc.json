@@ -1,0 +1,108 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Dwarven Axe",
+  "type": "diagrams",
+  "_id": "uHTlrVanfjafd9Wc",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>There&rsquo;s a misconception that all dwarves use axes. Heh, granted, many do, after all. Put a heavy axe in a dwarf &rsquo;s hands and they&rsquo;ll bring down any wall. Especially with a dwarven axe. The double-headed design adds heft and makes sure you&rsquo;ve always got a sharp blade to use.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1110,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "12 H",
+    "craftingComponents": [
+      {
+        "id": "tunHTUzaJWHOAdfN",
+        "name": "Mahakam Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LcYMiyZxP6wm09Ss"
+      },
+      {
+        "id": "vNAuGcV2E49vIsVa",
+        "name": "Hardened Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "RE0VIaMkXBUXKLfr",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "dzuH0qITFQEhz5VD",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "6cCLSmrU9tZqlHRT",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "owp2Qg4KiLkbQbyB",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "htq9M1fKOc2u37Yf",
+        "name": "River Clay",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "3JCHKlX6TMuAQs8Q",
+        "name": "Coal",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.0T5Hakf12eEtR5Hc"
+      }
+    ],
+    "investment": 555,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.P4bhVRpIF2pTJIuJ",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ecfa60e00eac319c9df9cd6c4fb8ca58d9070711"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!uHTlrVanfjafd9Wc"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Ashen Ointment",
+  "type": "alchemical",
+  "_id": "jv1kqaLaSikHHI3D",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/bowl-liquid-white.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 75,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "A small pot of grey ointment which repels heat. When spread across a character's whole body, Ashen Ointment renders the character immune to the Fire Condition.",
+    "time": "1 Hour",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "A Professional's Tools",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "ainY43hZdhcE2kw6",
+          "name": "Immune to Fire",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [
+    {
+      "name": "Ashen Ointment",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.jv1kqaLaSikHHI3D",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/bowl-liquid-white.webp",
+      "_id": "5xO0mOiupKlPmdx1",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>A small pot of grey ointment which repels heat. When spread across a character's whole body, Ashen Ointment renders the character immune to the Fire Condition.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jv1kqaLaSikHHI3D.5xO0mOiupKlPmdx1"
+    }
+  ],
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9035e4fd7cc8a5a8a4b6abe5588e1e76272343bf"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jv1kqaLaSikHHI3D"
+}

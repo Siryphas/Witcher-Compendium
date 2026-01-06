@@ -1,0 +1,66 @@
+{
+  "folder": "3v61aEVZeVibZFp4",
+  "name": "Diagram: Chain Coif",
+  "type": "diagrams",
+  "_id": "K7X9P1p6GLgW1TfL",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Need some simple, sturdy armor? Heh, my friend, you need a chain coif. Just a fancy term for a hood made of chain mail. It&rsquo;ll stop sword blows and cushion against hammer blows and such. Some people use it as full armor, some wear one under a helmet. Either way it&rsquo;s good stuff.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 374,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "sKRHu79nEuEvgEvX",
+        "name": "Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 192,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.6toIukJrvl1l3PrR",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b6d4090fab6c785862dc5c151c2a6581a0e6ee94"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!K7X9P1p6GLgW1TfL"
+}

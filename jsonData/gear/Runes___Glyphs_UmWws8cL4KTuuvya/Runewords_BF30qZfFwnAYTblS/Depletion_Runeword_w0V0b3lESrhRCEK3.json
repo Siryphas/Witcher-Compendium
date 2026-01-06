@@ -1,0 +1,48 @@
+{
+  "folder": "BF30qZfFwnAYTblS",
+  "name": "Depletion Runeword",
+  "type": "enhancement",
+  "_id": "w0V0b3lESrhRCEK3",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Greater%20Word.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "When casting a spell/invocation using this weapon as a focus, if your target fails to defend they lower their Stamina by 1d6 in addition to being affected by the spell."
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false
+  },
+  "effects": [],
+  "sort": 775000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "11cc51a33c0fe938e49382d1adccf8aa8ce1f850"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!w0V0b3lESrhRCEK3"
+}

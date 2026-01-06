@@ -1,0 +1,195 @@
+{
+  "name": "Halfling",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Halfling%20Icon.jpg",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Nimble",
+      "description": "<p>Halflings are naturally nimble and dexterous people. Halflings gain an inherent +1 to their Athletics skill.</p>"
+    },
+    "perk2": {
+      "name": "Magic Resistant",
+      "description": "<p>For unknown reasons, halflings are resistant to certain forces of magic. Halflings gain an inherent +5 to their Resist Magic skill and are able to roll Resist Magic to negate the effects of any spell that would normally affect their mind, even if it would not normally be allowed. However, Witcher potions &amp; other magic potions do not positively affect halflings (even if they succeed at the Endurance check).</p>"
+    },
+    "perk3": {
+      "name": "Farmhand",
+      "description": "<p>Halflings are often drawn to agriculture, thanks to years of tradition and an apparently inborn aptitude for animal husbandry. Halflings gain a +2 to their Wilderness Survival skill and when calming, taming, or controlling animals.</p>"
+    },
+    "perk4": {
+      "name": "",
+      "description": ""
+    },
+    "socialStanding": {
+      "north": "tolerated",
+      "nilfgaard": "equal",
+      "skellige": "equal",
+      "dolBlathanna": "equal",
+      "mahakam": "equal"
+    }
+  },
+  "effects": [
+    {
+      "name": "Nimble",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.LNx8OhUiYUeatwZf",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Halfling%20Icon.jpg",
+      "_id": "sOyBxm83KGqCfzXj",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.dex.athletics.activeEffectModifiers",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Halflings are naturally nimble and dexterous people. Halflings gain an inherent +1 to their Athletics skill.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!LNx8OhUiYUeatwZf.sOyBxm83KGqCfzXj"
+    },
+    {
+      "name": "Magic Resistant",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.LNx8OhUiYUeatwZf",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Halfling%20Icon.jpg",
+      "_id": "rS69HhuVXo1mjYtR",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.resistmagic.activeEffectModifiers",
+          "mode": 2,
+          "value": "+5",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">For unknown reasons, halflings are resistant to certain forces of magic. Halflings gain an inherent +5 to their Resist Magic skill and are able to roll Resist Magic to negate the effects of any spell that would normally affect their mind, even if it would not normally be allowed. However, Witcher potions &amp; other magic potions do not positively affect halflings (even if they succeed at the Endurance check).</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!LNx8OhUiYUeatwZf.rS69HhuVXo1mjYtR"
+    },
+    {
+      "name": "Farmhand",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.LNx8OhUiYUeatwZf",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Halfling%20Icon.jpg",
+      "_id": "yscL3LnLIn3MXl5P",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.wilderness.activeEffectModifiers",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Halflings are often drawn to agriculture, thanks to years of tradition and an apparently inborn aptitude for animal husbandry. Halflings gain a +2 to their Wilderness Survival skill and when calming, taming, or controlling animals.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!LNx8OhUiYUeatwZf.yscL3LnLIn3MXl5P"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.RDPjyXXoDj2qNn37",
+      "hash": "df686e17f2e419521b6debe06e4dc1cd56b279df"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "LNx8OhUiYUeatwZf",
+  "sort": 600000,
+  "_key": "!items!LNx8OhUiYUeatwZf"
+}

@@ -1,0 +1,70 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Berserker's Brew",
+  "type": "diagrams",
+  "_id": "LHHxQbL0PZfbrrb7",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Some folks in Skellige use a mushroom called Mardroeme to whip themselves up into a frenzy. Guess this stuff was some mainland alchemist&rsquo;s attempt to copy that. Backfired a bit. Heard of more folks using it as a poison. A few drops in some noble&rsquo;s drink and suddenly their swinging left and right. Heh, hard to recover your reputation after ya put a fork in the Duchess of Attre.</em></p>\n<p>When consumed, a target must make an Endurance check at a DC: 16. If they fail, they must use their turn to attack the closest person. Each round, at the beginning of their turn, they can attempt another DC: 16 Endurance check. If they succeed, the frenzy subsides until their next turn, at which point they must make the Endurance check again or fall back into a frenzy.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 157,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 22,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "name": "",
+        "quantity": 0
+      },
+      {
+        "id": "AuAwJiQ18qensSQ9",
+        "name": "Berserker's Brew",
+        "quantity": 1
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 3,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 1,
+      "caelum": 2,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.vvJSQEIxDcEMvZXM",
+    "sourcebook": "Lords & Lands",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c4f7628b9adae45f6a28997637e0110e2ee92930"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!LHHxQbL0PZfbrrb7"
+}

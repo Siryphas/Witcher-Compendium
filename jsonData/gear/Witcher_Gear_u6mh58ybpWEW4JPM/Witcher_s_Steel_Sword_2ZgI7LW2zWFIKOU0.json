@@ -1,0 +1,95 @@
+{
+  "folder": "u6mh58ybpWEW4JPM",
+  "name": "Witcher's Steel Sword",
+  "type": "weapon",
+  "_id": "2ZgI7LW2zWFIKOU0",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/greatsword-crossguard-silver.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 2.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "",
+    "damage": "4d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "none",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_688tpfovb",
+        "name": "Meteorite",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "isMeteorite": true,
+      "effects": [
+        {
+          "id": "_688tpfovb",
+          "name": "Meteorite",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "rfhm13VudwSLEG1n",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.WRO2BNKwviZAYMt7"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "455da8f1c1ab9fd24d8409078fe81454fd5f34b8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2ZgI7LW2zWFIKOU0"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Earthen Spike",
+  "type": "spell",
+  "_id": "uYtDOAnN8dJrEkxO",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Earthen Spike creates an angled stalagmite to stab up into the target. This spike does 5d6 damage and remains until destroyed.\nIt can be destroyed by doing 20 points of damage to it.",
+    "range": "6m",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "rect",
+    "causeDamages": true,
+    "damage": "5d6",
+    "effects": [],
+    "visualEffectDuration": null,
+    "damageType": "piercing",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d986cba885640a39ca8133869069d72a1b008eaf"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uYtDOAnN8dJrEkxO"
+}

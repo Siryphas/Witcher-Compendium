@@ -1,0 +1,61 @@
+{
+  "folder": "Rgl76Q9WbzPoPBNf",
+  "name": "Transmutation",
+  "type": "spell",
+  "_id": "w3FWcs5Tb7zyBH6l",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "earth",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "Transmutation allows you to change the properties of a mineral or metal. You can change one unit of metal into any other metal, or change an imperfect gem into a perfect gem suitable for magic.\nDimeritium or other metals in contact with Dimeritium cannot be created or changed by this spell.",
+    "range": "2m",
+    "duration": "Permanent",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ab9742433f1a56ea237f839cbd2c8b64389e31ec"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!w3FWcs5Tb7zyBH6l"
+}

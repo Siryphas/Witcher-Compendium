@@ -1,0 +1,67 @@
+{
+  "folder": "kIf5N1dp7L13YPjL",
+  "name": "Mirror Effect",
+  "type": "spell",
+  "_id": "55gunOUA1hze5rRn",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "fire",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "Mirror Effect creates a blinding beam of light which does 10d6 damage. This laser can be dodged and blocked (destroying whatever blocks it) but it cannot be displaced by wind and can only be parried by a reflective surface, which still takes damage. \nThe reflected laser goes off in a random direction. \nThis spell uses the rays of the sun and cannot be used where the sun’s rays can’t penetrate. By the light of the moon or on overcast days, it does half damage.",
+    "range": "20m",
+    "duration": "2d5 Rounds",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "10d6",
+    "effects": [],
+    "damageType": "fire",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "565bf0c3daa2bca6fd40be0356af2c3df01a4a41"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!55gunOUA1hze5rRn"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "ZKOgr1a0D6I3VIYd",
+  "name": "Boiling Blood",
+  "type": "spell",
+  "_id": "ocxfnkXiMxhvM92v",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "druid",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Boiling Blood causes an animal or non-sentient monster within range to become enraged at a target. \nThe creature will try to attack the chosen target until the duration ends.",
+    "range": "8m",
+    "duration": "1d10 Rounds",
+    "defence": "Creature's WILL x3",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "0",
+    "effects": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2b8305b36927d9f4628ad86e7586cb1e26c564d5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ocxfnkXiMxhvM92v"
+}

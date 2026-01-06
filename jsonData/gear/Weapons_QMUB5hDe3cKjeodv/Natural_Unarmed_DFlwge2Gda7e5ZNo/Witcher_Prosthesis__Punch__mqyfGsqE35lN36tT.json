@@ -1,0 +1,76 @@
+{
+  "folder": "DFlwge2Gda7e5ZNo",
+  "name": "Witcher Prosthesis (Punch)",
+  "type": "weapon",
+  "_id": "mqyfGsqE35lN36tT",
+  "img": "icons/equipment/hand/gauntlet-studded-steel-grey.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 800,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "1d6",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "both",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_chh484org",
+        "name": "Silver (1d6)",
+        "percentage": ""
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Prostheses and Wheelchairs",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "silverDamage": "1d6"
+    }
+  },
+  "effects": [],
+  "sort": 437500,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f337756204a245e43da62a2c2ee1b1704563f790"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mqyfGsqE35lN36tT"
+}

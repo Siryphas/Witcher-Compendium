@@ -1,0 +1,84 @@
+{
+  "folder": "FbNbXVpIsdS1bGGt",
+  "name": "Explosive",
+  "type": "weapon",
+  "_id": "6efxVVPNRYNSjlK1",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+  "system": {
+    "description": "Explosive ammunition carries a small vial of highly reactive chemicals.\nWhen it strikes the target the vial breaks, causing an explosion that does 4d6 damage to every location of every person within 2m.",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 108,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "1",
+    "range": "",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "4d6 all locations, all targets in 2m.",
+        "percentage": ""
+      }
+    ],
+    "conceal": "T",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "damageToAllLocations": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "4d6 all locations, all targets in 2m.",
+          "statusEffect": "",
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2cde7b2e05e7b9fb397f11e354df30c0c1778936"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6efxVVPNRYNSjlK1"
+}

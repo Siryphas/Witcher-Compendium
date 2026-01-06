@@ -1,0 +1,96 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Dwarven Cleaver",
+  "type": "diagrams",
+  "_id": "pvfh76jg4DFo33Tq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Ha! Count on us dwarves to bring a cleaver to a knife fight. If ya need to chop through...well, just about anything, find a dwarven cleaver. They ain&rsquo;t long but they&rsquo;ll hack limbs off trees and people.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 750,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 19,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "sLKx2vIosa7Q9lmY",
+        "name": "Mahakam Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LcYMiyZxP6wm09Ss"
+      },
+      {
+        "id": "VaZHsCPh2ucjuVtq",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "fHaOCpYFs5H3QSs3",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "b3QSWH3lonSvvcZU",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "RovxxUpp9Eg2h9KZ",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "ttX8dBp5VPlo5l9b",
+        "name": "River Clay",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      }
+    ],
+    "investment": 374,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.J3L5yowZeArwkblt",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4ed721a5e4047368f1a34d63ca1a8e7012d0c69c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!pvfh76jg4DFo33Tq"
+}

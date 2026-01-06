@@ -1,0 +1,88 @@
+{
+  "folder": "vl473v4mC3471KoW",
+  "name": "Loaded Dice",
+  "type": "valuable",
+  "_id": "VAc9XjaxFyZx7iH1",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/gaming/dice-runed-brown.webp",
+  "system": {
+    "description": "\"Now I'm not sayin' you should cheat. But if you're gonna, use loaded dice.\"\n-Rodolf Kazmer\n\n+3 to Gambling\nDC: 16 Awareness to notice.",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 12,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Poor",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Loaded Dice",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.VAc9XjaxFyZx7iH1",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/gaming/dice-runed-brown.webp",
+      "_id": "q3ZTRurmyOZZ6kr9",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.emp.gambling.activeEffectModifiers",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p>\"Now I'm not sayin' you should cheat. But if you're gonna, use loaded dice.\"</p><p>-Rodolf Kazmer</p><p>+3 to Gambling</p><p>DC: 16 Awareness to notice.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!VAc9XjaxFyZx7iH1.q3ZTRurmyOZZ6kr9"
+    }
+  ],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b5901f455129d0d5338587faa15d70ebb1d367fe"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VAc9XjaxFyZx7iH1"
+}

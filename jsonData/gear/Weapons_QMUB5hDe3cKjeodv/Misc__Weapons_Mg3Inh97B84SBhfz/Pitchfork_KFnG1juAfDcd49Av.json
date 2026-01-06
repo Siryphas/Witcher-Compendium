@@ -1,0 +1,77 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Pitchfork",
+  "type": "weapon",
+  "_id": "KFnG1juAfDcd49Av",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/polearms/trident-fork-white.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 115,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": -2,
+    "avail": "Everywhere",
+    "damage": "2d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 15
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Peasant Profession",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 1093750,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6b3a1c11788a28cc9ef79437912790882deaa1f9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KFnG1juAfDcd49Av"
+}

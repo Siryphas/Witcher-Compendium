@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Summer Ointment",
+  "type": "diagrams",
+  "_id": "eVYXYT5eco9EATQ3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>This stuff cropped up down in Mettina, I think. Farmers would rub it on to make the blazin&rsquo; hours in the sun more bearable. Turns out the stuff gets ya warm in the winter and keeps ya cool in the summer.</em></p>\n<p>When rubbed on the neck and wrists, Summer Ointment doubles the number of hours you can survive in extreme cold and lowers the penalty to STA from extreme heat to 1/4 your total STA.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 33,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 12,
+    "craftingTime": "5 Rounds",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 1,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "Lords & Lands",
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.8G0LoS6edoFD3zlI",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ad860b04a97cc25873c57ee8a399a70f6df5108e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!eVYXYT5eco9EATQ3"
+}

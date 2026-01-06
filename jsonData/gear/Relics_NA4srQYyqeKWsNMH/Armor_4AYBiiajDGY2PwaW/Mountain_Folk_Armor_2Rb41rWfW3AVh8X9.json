@@ -1,0 +1,69 @@
+{
+  "folder": "4AYBiiajDGY2PwaW",
+  "name": "Mountain Folk Armor",
+  "type": "armor",
+  "_id": "2Rb41rWfW3AVh8X9",
+  "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+  "system": {
+    "description": "Education DC: 16\n\nWhen the human ‘exiles’ landed on the Continent, they lashed out at all the other races, drivin’ folk up into the mountains and takin’ over the plains and forests. Guess humans just don’t take well to anyone that don’t look like ‘em. Worked out okay for most of the elder races, since we kinda look like humans. Vran and werebbubbs didn’t have such an easy time. Hard for humans to share beer with lizard-folk and little hairy fellas with beaver faces. Some werebbubbs integrated into human societies after all the fightin’, but most of ‘em were forced up into the Mahakams and the Kestrels.\nIn the Kestrels they had it the worst. Yeah, they set up cities and mines and rebuilt what they lost. But pretty soon humans came lookin’ for ore, and the werebbubbs didn’t have the same defenses we dwarves do. The humans tried to negotiate for the mines in the Kestrels—with heavily armored escorts, dependin’ on who ya talk to. When that failed they laid siege to the mountains. The werebbubbs knew they weren’t gonna win, but the elves hadn’t deigned to care about the humans yet, and us dwarves were holed up in the mountains just like the werebbubbs. One werebbubb named Thjjn rallied his people against the human armies as they came up the slopes. Doubt Thjjn thought they could win either, but damn if he was gonna let the humans through unbloodied.\nOutnumbered ten to one, Thjjn donned his ancestral armor and took his axe in hand. Both sides met on the field in the middle of a rain storm, from what the tales say. For a while the werebbubb used the mud and rain to keep the humans slidin’ as they came up the hill, but it wouldn’t last. Heh, every human Thjjn killed, two more took their place. Eventually Thjjn fell back into the mines as the lines buckled. Battle was lost, but he could still spite the humans. He started swingin’ like a madman, breakin’ the support pillars in the mines. Thjjn musta known what’d happen—I wonder what his last thoughts were before the caves collapsed in on him. Heh, probably about home. Humans eventually dug out the mine but it took ‘em months. They found Thjjn’s body—dead of course, but still wearin’ his leather and meteorite armor. Turns out it held up pretty well against the cave-in, and some folk even say his strength lives on in that suit.",
+    "quantity": "1",
+    "weight": 15,
+    "cost": 0,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 24,
+    "headMaxStopping": 24,
+    "torsoStopping": 24,
+    "torsoMaxStopping": 24,
+    "leftArmStopping": 24,
+    "leftArmMaxStopping": 24,
+    "rightArmStopping": 24,
+    "rightArmMaxStopping": 24,
+    "leftLegStopping": 24,
+    "leftLegMaxStopping": 24,
+    "rightLegStopping": 24,
+    "rightLegMaxStopping": 24,
+    "type": "Medium",
+    "avail": "Rare",
+    "enhancements": 3,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Poison Resistance",
+        "statusEffect": "poison",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "encumb": 0,
+    "location": "FullCover",
+    "bludgeoning": true,
+    "slashing": true,
+    "piercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e281c0805f522faf5cd3ab27b754c74cc89e659e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2Rb41rWfW3AVh8X9"
+}

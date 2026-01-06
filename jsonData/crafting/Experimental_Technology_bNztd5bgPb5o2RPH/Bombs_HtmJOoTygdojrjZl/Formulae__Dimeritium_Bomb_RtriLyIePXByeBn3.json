@@ -1,0 +1,90 @@
+{
+  "folder": "HtmJOoTygdojrjZl",
+  "name": "Formulae: Dimeritium Bomb",
+  "type": "diagrams",
+  "_id": "RtriLyIePXByeBn3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 200,
+    "isHidden": false,
+    "type": "bomb",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "J2Zmd2I8ZSMcyMNn",
+        "name": "River Clay",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "xvMeYoVXaXdt1ucW",
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "O1nlCZTicwBhuIPr",
+        "name": "Zerrikanian Powder",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.DD0hT2KtDmKqkVLa"
+      },
+      {
+        "id": "4xMS5dwGmEWf9hhf",
+        "name": "Optima Matter",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.j5RVUVI2BrVDwaOK"
+      },
+      {
+        "id": "k1czrqVIiASjenrz",
+        "name": "Ginatia Petals",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Xb6CpnpSky3Di3VP"
+      }
+    ],
+    "investment": 176,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.VAYG2UT7UiUACO6B",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b133c3c3428cb0dcd1726d1c504cf15bcd024271"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!RtriLyIePXByeBn3"
+}

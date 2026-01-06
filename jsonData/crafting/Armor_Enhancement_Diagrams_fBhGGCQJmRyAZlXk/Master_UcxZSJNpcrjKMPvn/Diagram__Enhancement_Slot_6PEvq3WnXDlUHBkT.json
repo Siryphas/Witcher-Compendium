@@ -1,0 +1,72 @@
+{
+  "folder": "UcxZSJNpcrjKMPvn",
+  "name": "Diagram: Enhancement Slot",
+  "type": "diagrams",
+  "_id": "6PEvq3WnXDlUHBkT",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p>Adds an Enhancement Slot to a weapon or armor. The new enhancement slot can only hold runes or glyphs, and an item can only have a maximum of 3 enhancement slots.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1368,
+    "isHidden": false,
+    "type": "armor-enhancement",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "uXR0tjECYxkbev5l",
+        "name": "Meteorite",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "b0okankomvtj5o4b",
+        "name": "Infused Dust",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.hXzzCRXrLaiz3VSQ"
+      }
+    ],
+    "investment": 684,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "A Tome of Chaos",
+    "associatedItemUuid": "Compendium.TheWitcherTRPG.gear.Item.undefined",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c1a002f10681dee53aaee2b7b97b2f3474edb4a8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!6PEvq3WnXDlUHBkT"
+}

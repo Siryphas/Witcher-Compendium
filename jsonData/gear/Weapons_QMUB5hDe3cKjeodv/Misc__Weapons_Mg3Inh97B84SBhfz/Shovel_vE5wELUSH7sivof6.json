@@ -1,0 +1,70 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Shovel",
+  "type": "weapon",
+  "_id": "vE5wELUSH7sivof6",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/hand/shovel-spade-steel-white.webp",
+  "system": {
+    "description": "Never underestimate the uses for a good sturdy shovel. Heh, durin’ the first war I’d carry a shovel so I could make holes for hidin’ out and spyin’ on the black ones.",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 15,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": -2,
+    "avail": "Everywhere",
+    "damage": "2d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Rodolf's Wagon",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 1068750,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cad1573b63b9799b8216b5ccaa7d3ad8f4608da1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vE5wELUSH7sivof6"
+}

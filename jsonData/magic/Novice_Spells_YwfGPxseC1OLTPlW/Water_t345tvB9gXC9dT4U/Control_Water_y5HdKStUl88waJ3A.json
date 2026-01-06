@@ -1,0 +1,66 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Control Water",
+  "type": "spell",
+  "_id": "y5HdKStUl88waJ3A",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Control Water allows you to control the speed at which a body of water is moving and in what direction it’s moving for the duration of the spell. \nThis can be used to slow swimming targets by half, speed up ships by half, or slow or halt river currents.",
+    "range": "10m",
+    "duration": "Active (2 STA)",
+    "defence": "DC set by GM",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c71fab9f1defd4bea1c4ec2edaa02a9f63785545"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!y5HdKStUl88waJ3A"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "qlH2nWMWutV4oD4E",
+  "name": "Sword Catcher",
+  "type": "weapon",
+  "_id": "PUUWb8Fe7Cw2pgwn",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-double-black.webp",
+  "system": {
+    "description": "This one’s a bit of a strange one. Ya see, the comb-lookin’ tines on the back of this dagger are for capturin’ blades. You actually hold the blade backwards and try to snag your enemies' weapon so you can finish em off with whatever’s in your other hands.\nBlade Catcher: When the wielder blocks an enemy’s melee attack with this weapon, part of their weapon is ensnared. Both weapons are rendered useless and cannot be separated until their opponent can make a Physique or Sleight of Hand Check that beats their Small Blades check or the wielder releases their weapon.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 500,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Sword-Catcher",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Professional's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.5BGtmSpW5c0REtlt",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87993b143f5603fc0ea4344cb52e45c8521544fd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PUUWb8Fe7Cw2pgwn"
+}

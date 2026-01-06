@@ -1,0 +1,90 @@
+{
+  "folder": "MC9ZFIALaA9oQKOi",
+  "name": "Cupid's Arrow (Hydrangenum + Rebis)",
+  "type": "alchemical",
+  "_id": "og1Xw2xxdJyd4Ggy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "+3 to Seduction",
+    "time": "1 Hour",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Cupid's Arrow (Hydrangenum + Rebis)",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.og1Xw2xxdJyd4Ggy",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+      "_id": "1xdaH5OeeelmeQgW",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!og1Xw2xxdJyd4Ggy.1xdaH5OeeelmeQgW"
+    }
+  ],
+  "sort": 350000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "74fe13d4f2654d073e2f42077221b925261a9cc2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!og1Xw2xxdJyd4Ggy"
+}

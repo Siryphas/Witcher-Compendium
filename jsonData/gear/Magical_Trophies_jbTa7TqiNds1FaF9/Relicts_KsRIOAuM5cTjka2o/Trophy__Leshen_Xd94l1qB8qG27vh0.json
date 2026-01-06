@@ -1,0 +1,83 @@
+{
+  "folder": "KsRIOAuM5cTjka2o",
+  "name": "Trophy: Leshen",
+  "type": "valuable",
+  "_id": "Xd94l1qB8qG27vh0",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-cattle-brown.webp",
+  "system": {
+    "description": "Animals and beasts can understand you when you speak and you can enter Verbal Combat with them to get them to obey you. Regardless, an animal or beast will never do something for you it would not do for itself (for example, jump off a cliff).",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Leshen",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.Xd94l1qB8qG27vh0",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-cattle-brown.webp",
+      "_id": "k3icVL4R1lit77ru",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Animals and beasts can understand you when you speak and you can enter Verbal Combat with them to get them to obey you. Regardless, an animal or beast will never do something for you it would not do for itself (for example, jump off a cliff).</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Xd94l1qB8qG27vh0.k3icVL4R1lit77ru"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2cc9bd6da51886ad9f49e26c63356192de605300"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Xd94l1qB8qG27vh0"
+}

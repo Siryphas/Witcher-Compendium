@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Vitality Potion",
+  "type": "diagrams",
+  "_id": "pNrHwxIiihmArsfH",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Vitality potions ain&rsquo;t somethin&rsquo; ya wanna mess with on a day to day basis. Heh, they&rsquo;ll help ya manage pain and get ya through a tough injury but they ain&rsquo;t gonna patch ya up if someone puts a sword through ya. I&rsquo;ve heard there&rsquo;re more powerful concoctions but I wouldn&rsquo;t try &lsquo;em! Sounds like they&rsquo;ll put ya in the grave faster than they&rsquo;ll heal ya. Supposed to have a refreshin&rsquo; minty flavor though!</em></p>\n<p>A dose of Vitality Potion allows the imbiber to ignore the penalties of being in their Wound Threshold for the duration of the potion.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 400,
+    "isHidden": false,
+    "type": "potion",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 18,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 2,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 1,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 2
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hvOet2RydrSWlO2X",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4a99b438f38e0b2b85032923a790ea63c96791b0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!pNrHwxIiihmArsfH"
+}

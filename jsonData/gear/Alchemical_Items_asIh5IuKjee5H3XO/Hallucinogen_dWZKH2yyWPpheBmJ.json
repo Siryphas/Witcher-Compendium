@@ -1,0 +1,53 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Hallucinogen",
+  "type": "alchemical",
+  "_id": "dWZKH2yyWPpheBmJ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-flask-corked-cyan.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 25,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Common",
+    "effect": "Guess this is a lot like that old witcher’s potion, white gull. Makes ya see some strange stuff. It isn’t as powerful, but it ain’t poisonous.\n\nHallucinogen can be thrown on a target within 3m or slipped into a drink. If the target fails a DC: 15 Endurance check, they start hallucinating. These hallucinations last for 1d10 rounds.",
+    "time": "1d10 Rounds",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "CHHLmky0DK4TIFw5",
+          "name": "Hallucination",
+          "statusEffect": "hallucination",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e5e1112066b16f0b5f2ba9968213bfdd543bc3a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dWZKH2yyWPpheBmJ"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "MJWqPOUi0F529miF",
+  "name": "Feline Crossbow",
+  "type": "weapon",
+  "_id": "Vj4dhVVuwLyR9LQf",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Cat%20Crossbow.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 1,
+    "avail": "WITCHER",
+    "damage": "2d6+2",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "left",
+    "range": "50m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "xSl0BwPLBTVkvx0w",
+        "name": "Balanced",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 1,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "A Witcher's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SXOgyEGOksct4QoN"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b7bac497704aedbfaae1c6103ea939248eb54c94"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Vj4dhVVuwLyR9LQf"
+}

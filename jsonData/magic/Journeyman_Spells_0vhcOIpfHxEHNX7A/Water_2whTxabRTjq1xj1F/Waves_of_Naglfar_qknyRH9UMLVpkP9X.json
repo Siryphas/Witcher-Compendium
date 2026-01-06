@@ -1,0 +1,73 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Waves of Naglfar",
+  "type": "spell",
+  "_id": "qknyRH9UMLVpkP9X",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "Water",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Created by a mage who claimed to have witnessed the ride of the Wild Hunt, this spell creates a wave of ice magic that spreads out 3m from you in all directions.\nAnyone who doesn’t dodge or block the spell is frozen and takes 4d6 damage.",
+    "range": "3m Radius",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "4d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Frozen",
+        "statusEffect": "freeze",
+        "percentage": 100
+      }
+    ],
+    "damageType": "ice",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b9d329432cf2220f3abf6526e6974fb99c7abd5b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qknyRH9UMLVpkP9X"
+}

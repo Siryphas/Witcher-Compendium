@@ -1,0 +1,52 @@
+{
+  "folder": "A7HluumtZL3d42ob",
+  "name": "Zoria Rune",
+  "type": "enhancement",
+  "_id": "KCYiF0nTWc0vKsoH",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Zoria%20Rune.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 550,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "Everywhere",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "statusEffect": "freeze",
+        "percentage": 30,
+        "varEffect": false
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9d298c33c976f7760af9ed7762dc13bd545ea387"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.1.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KCYiF0nTWc0vKsoH"
+}

@@ -1,0 +1,4098 @@
+{
+  "folder": "I7HY0sONyscFJGOD",
+  "name": "Triss Merigold",
+  "type": "character",
+  "_id": "L4yChHC3faevioro",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/1%20-%20Humanoids/Named%20NPCs/Triss%20Merigold%20%5Bsq%5D.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 6,
+        "current": 6,
+        "total": 6,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      },
+      "toxicity": {
+        "max": 100
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 15,
+        "current": 15,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 50,
+        "current": 50,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 35,
+        "value": 35,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 35,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 35,
+        "value": 35,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "resolve": {
+        "max": 45,
+        "value": 45,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "focus": {
+        "max": 27,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "value": 27,
+        "unmodifiedMax": 0
+      },
+      "vigor": {
+        "max": 25,
+        "value": 25,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 25
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 6,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 8,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 9,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 9,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 0,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 0,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 8,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 0,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 5,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 5,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 0,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 6,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 0,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 0,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 8,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 9,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "perception": {
+          "value": 7,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "leadership": {
+          "value": 8,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 7,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 9,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 8,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 8,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "intimidation": {
+          "value": 0,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 10,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "resistmagic": {
+          "value": 10,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "resistcoerc": {
+          "value": 7,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 9,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "pannels": {
+      "vitriolIsOpen": true,
+      "rebisIsOpen": true,
+      "aetherIsOpen": true,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "intIsOpen": false,
+      "refIsOpen": false,
+      "dexIsOpen": false,
+      "bodyIsOpen": false,
+      "empIsOpen": false,
+      "craIsOpen": false,
+      "willIsOpen": false
+    },
+    "general": {
+      "background": {
+        "value": "<p><em>Triss Merigold used to be the sorceress advisor&nbsp;to King Foltest of Temeria. Fine enough mage&nbsp;from everything I heard, but her real claim to&nbsp;fame&rsquo;s her relationship with Geralt of Rivia&nbsp;and her connection to the Lodge of Sorceresses.&nbsp;S&rsquo;pose we&rsquo;ll get the easy part out of the way&nbsp;first, heh. Geralt&rsquo;s had this long on-and-offthing&nbsp;with Yennefer for years now and at some&nbsp;point, Triss, who&rsquo;s Yennefer&rsquo;s pal, gets warm for&nbsp;Geralt. Course Geralt&rsquo;s pretty much Yennefer&rsquo;s&nbsp;man over half the time, but to the whole rest of&nbsp;the world Geralt and Yennefer are a god calamity&nbsp;waitin&rsquo; to happen. So Triss thinks it won&rsquo;t be&nbsp;too bad if she snags the witcher when he&rsquo;s fed&nbsp;up with Yennefer and roamin&rsquo; the world. Seduction&nbsp;happens here and there, maybe a bit&nbsp;of magic, and now Geralt&rsquo;s got Yennefer sometimes&nbsp;and Triss the other times. Don&rsquo;t hurt&nbsp;that after his &ldquo;death,&rdquo; turns out Geralt&rsquo;s got no&nbsp;memories of his past and so he winds up with&nbsp;Triss, since Yennefer&rsquo;s gone or dead or what&nbsp;have ya. It&rsquo;s all a nightmare waitin&rsquo; to happen,&nbsp;heh. But besides her romantic life it&rsquo;s her connection&nbsp;to the Lodge of Sorceresses that sets this&nbsp;mage apart. Triss&rsquo;s a skilled mage&mdash;even made&nbsp;a spell, &ldquo;Merigold&rsquo;s Hailstorm&rdquo;&mdash;and was part&nbsp;of the secretive cabal of sorceresses that committed treason against the North. Now, she&nbsp;wasn&rsquo;t in on the treason from what I know, but&nbsp;she&rsquo;s got ties to all those lasses. Heard a rumor&nbsp;lately that she&rsquo;s in Novigrad, gatherin&rsquo; up all&nbsp;the mages and students from Aretuza to head&nbsp;north for Kovir. Maybe after workin&rsquo; with the&nbsp;ones who put the Northern mages in danger&nbsp;she&rsquo;s lookin&rsquo; to save the rest while she still can.&nbsp;Heh, hope so. Definitely some mages that need&nbsp;to die, but not all of &lsquo;em.</em><br>&ndash;Rodolf Kazmer</p>"
+      },
+      "details": {
+        "clothing": {
+          "value": "",
+          "label": "WITCHER.Clothing"
+        },
+        "personality": {
+          "value": "",
+          "label": "WITCHER.Personality"
+        },
+        "hairStyle": {
+          "value": "",
+          "label": "WITCHER.Hair"
+        },
+        "affectations": {
+          "value": "",
+          "label": "WITCHER.Affectations"
+        },
+        "valuedPerson": {
+          "value": "",
+          "label": "WITCHER.ValuedPerson"
+        },
+        "value": {
+          "value": "",
+          "label": "WITCHER.Value"
+        },
+        "feelingsOnPeople": {
+          "value": "",
+          "label": "WITCHER.FeelingsOnPeople"
+        }
+      },
+      "homeland": {
+        "value": "temeria",
+        "otherValue": ""
+      },
+      "reputation": {
+        "value": "",
+        "label": "WITCHER.Reputation"
+      },
+      "socialStanding": "equal",
+      "name": "",
+      "race": "",
+      "age": 38,
+      "lifeEvents": {
+        "10": {
+          "decade": 1,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "20": {
+          "decade": 2,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "30": {
+          "decade": 3,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "40": {
+          "decade": 4,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "50": {
+          "decade": 5,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "60": {
+          "decade": 6,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "70": {
+          "decade": 7,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "80": {
+          "decade": 8,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "90": {
+          "decade": 9,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "100": {
+          "decade": 10,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "110": {
+          "decade": 11,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "120": {
+          "decade": 12,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "130": {
+          "decade": 13,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "140": {
+          "decade": 14,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "150": {
+          "decade": 15,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "160": {
+          "decade": 16,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "170": {
+          "decade": 17,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "180": {
+          "decade": 18,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "190": {
+          "decade": 19,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "200": {
+          "decade": 20,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        }
+      }
+    },
+    "focus1": {
+      "name": "Crystal Staff",
+      "value": 3
+    },
+    "focus2": {
+      "name": "Gemstone Amulet",
+      "value": 3
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "attackStats": {
+      "meleeBonus": "0",
+      "punch": {
+        "value": "1d6+0",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+4",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "improvementPoints": 0,
+    "skillTraining1": {
+      "name": "",
+      "value": 0
+    },
+    "skillTraining2": {
+      "name": "",
+      "value": 0
+    },
+    "skillTraining3": {
+      "name": "",
+      "value": 0
+    },
+    "skillTraining4": {
+      "name": "",
+      "value": 0
+    },
+    "gender": "Female",
+    "notes": []
+  },
+  "prototypeToken": {
+    "name": "Triss Merigold",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/pc-images/triss_merigold.Token.webp?1710561268319",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.8,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 3,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c89632",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 17,
+      "angle": 180,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 17,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "GrapplePlacementFlag": "RowBelow",
+        "PilotedbyDefaultFlag": false,
+        "CheckPilotedCollisionFlag": false
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {},
+      "core": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Mage Skill Tree",
+      "type": "profession",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Mage%20Icon.jpg",
+      "system": {
+        "notes": "<h1>Assets</h1>\n<table style=\"width: 92.5926%; height: 340px;\" border=\"1\"><colgroup><col style=\"width: 73.4864%;\"><col style=\"width: 26.7223%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Value</strong></td>\n<td style=\"height: 17px;\"><strong>Cost</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\" colspan=\"2\"><strong>Settlement</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Hamlet</td>\n<td style=\"height: 17px;\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Town</td>\n<td style=\"height: 17px;\">4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">City</td>\n<td style=\"height: 17px;\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Capital</td>\n<td style=\"height: 17px;\">10</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\" colspan=\"2\"><strong>Profession</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Innkeep</td>\n<td style=\"height: 17px;\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Artisan</td>\n<td style=\"height: 17px;\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Guard</td>\n<td style=\"height: 17px;\">6</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Mage</td>\n<td style=\"height: 17px;\">8</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Noble</td>\n<td style=\"height: 17px;\">10</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\" colspan=\"2\"><strong>Importance</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Low</td>\n<td style=\"height: 17px;\">2</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Average</td>\n<td style=\"height: 17px;\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">High</td>\n<td style=\"height: 17px;\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\" colspan=\"2\"><strong>Relationship</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Blackmailed</td>\n<td style=\"height: 17px;\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Indebted</td>\n<td style=\"height: 17px;\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Friendly</td>\n<td style=\"height: 17px;\">6</td>\n</tr>\n<tr>\n<td>Romanced</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Enthralled</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>\n<h1><br><br></h1>",
+        "definingSkill": {
+          "skillName": "Magical Training",
+          "stat": "int",
+          "definition": "<p>To qualify as a Mage, a magically adept person must pass through the halls of one of the world&rsquo;s magical academies and learn the fundamentals of the magical arts. A Mage can roll Magical Training whenever they encounter a magical phenomenon, an unknown spell, or a question of magical theory. The DC is set by the GM, and a success allows the Mage to recall everything there is to know about the phenomenon. Magical Training can also be rolled as a form of Awareness that detects magic that is in use, or specters.</p>",
+          "level": 10
+        },
+        "skillPath1": {
+          "pathName": "The Politician",
+          "skill1": {
+            "skillName": "Scheming",
+            "stat": "int",
+            "definition": "<p>A Mage can make a Scheming roll at a DC equal to a target&rsquo;s INTx3. On success the Mage gets a +3 to Deceit, Seduction, Intimidation, or Persuasion against that target from their observations of how the target works. The bonus from this ability applies for a number of days equal to the Mage&rsquo;s Scheming value.</p>",
+            "level": 6
+          },
+          "skill2": {
+            "skillName": "Grape Vine",
+            "stat": "int",
+            "definition": "<p>A Mage can take 1 hour and make a Grape Vine roll against a target&rsquo;s EMPx3. Success spreads rumors throughout a settlement or city, lowering the target&rsquo;s reputation there by half your Grape Vine value for a number of days equal to your Grape Vine value.</p>",
+            "level": 6
+          },
+          "skill3": {
+            "skillName": "Assets",
+            "stat": "int",
+            "definition": "<p>Once per game a Mage can make an Assets roll to remember an asset they &lsquo;acquired&rsquo; some time ago. Take the total of your roll and distribute it between the 4 columns on the table in the sidebar to find out who you know. This asset will help you, but how much depends on their relationship with you.</p>\n<p>Your relationship to an asset&nbsp;establishes how willing to help&nbsp;you they are.</p>\n<ul>\n<li>Enthralled assets will help you with absolutely anything.</li>\n<li>Romanced assets will help you with almost anything as long as you reaffirm your romance.</li>\n<li>Friendly assets must be convinced to stick their necks out for you.&nbsp;</li>\n<li>Indebted assets will only do one thing for you.</li>\n<li>Blackmailed assets will do anything for you but there is a 50% chance that they will betray you.</li>\n</ul>",
+            "level": 7
+          }
+        },
+        "skillPath2": {
+          "pathName": "The Scientist",
+          "skill1": {
+            "skillName": "Reverse Engineer",
+            "stat": "int",
+            "definition": "<p>By taking 1 hour to study an alchemical solution a Mage can roll Reverse Engineer at a DC equal to the Crafting DC for the alchemical item +3. Suc- cess allows them to reverse-engineer and write down the item&rsquo;s formula. This formula is 3 points harder to craft, but reliably creates the desired item.</p>",
+            "level": 7
+          },
+          "skill2": {
+            "skillName": "Distillation",
+            "stat": "cra",
+            "definition": "<p>A Mage can roll Distillation instead of Alchemy when creating an alchemical solution. Success at this roll creates a dose of that solution that has half again the effect that it would normally have, either in duration, damage, or resistance DC (your choice). Always round down when increasing.</p>",
+            "level": 6
+          },
+          "skill3": {
+            "skillName": "Mutate",
+            "stat": "int",
+            "definition": "<p>A mage can spend all of their stamina and a full day experimenting on a subject to roll Mutate at a DC equal to (28 &ndash; (subject&rsquo;s BODY + WILL)/2) to mutate the subject. Success grants the subject use of the Mutagen with the appropri- ate minor mutation. Failure throws the subject into Death State and inflicts the larger mutation.</p>\n<p>An individual can only be&nbsp;mutated twice. Further mutations&nbsp;will replace existing&nbsp;ones.</p>",
+            "level": 4
+          }
+        },
+        "skillPath3": {
+          "pathName": "The Arch Mage",
+          "skill1": {
+            "skillName": "In Touch",
+            "stat": "none",
+            "definition": "As a Mage utilizes magic more and more, their body becomes more used to the flow. Every point a Mage has in In Touch grants +2 points to Vigor threshold. When this ability reaches level 10 your maximum Vigor threshold becomes 25. This skill can be trained, like other skills.",
+            "level": 8
+          },
+          "skill2": {
+            "skillName": "Immutable",
+            "stat": "will",
+            "definition": "<p>A Mage can roll Immutable at DC:16 whenever they would normally be affected by dimeritium. Success means that the Mage mostly shrugs off the dimeritium. They are still somewhat dizzy and uncomfortable but retain half of their total Vigor threshold and can perform magic.</p>",
+            "level": 7
+          },
+          "skill3": {
+            "skillName": "Expanded Magic",
+            "stat": "will",
+            "definition": "<p>By channelling magic through various magical foci a Mage can wield incredible power. A Mage can roll Expanded Magic before attempting to cast a spell or ritual, at a DC of 16. On success the mage can channel the spell or ritual through any 2 of their foci that they choose, reducing the Stamina cost twice.</p>",
+            "level": 6
+          }
+        },
+        "quantity": "1",
+        "description": "",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "QXnUaFjEzgosKVQr": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "36378e24cd9a5ac094b788be0d5e3d3ecc7aec09"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.professions.Item.6395YlLB7XJFu53O",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "witcher-archive",
+          "uuid": null,
+          "coreVersion": "10.291",
+          "systemId": "TheWitcherTRPG",
+          "systemVersion": "0.96"
+        }
+      },
+      "_id": "diw0dE3PiZv6kXPv",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!L4yChHC3faevioro.diw0dE3PiZv6kXPv"
+    },
+    {
+      "name": "White Myrtle Petals",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/vitriol.png",
+      "system": {
+        "description": "",
+        "quantity": "4",
+        "weight": 0.1,
+        "cost": 8,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Common",
+        "location": "Fields",
+        "quantityObtainable": "1d10",
+        "forage": "12",
+        "substanceType": "vitriol",
+        "isStored": false
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_aoviwyffoz",
+          "color": "#af76b7"
+        },
+        "core": {},
+        "scene-packer": {
+          "hash": "5c132f15c000be7906f24af387e50d5a30d0cc93"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.HldsXC0bDLKUBvAE",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "tT5xrj93JJeIs5Q8",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!L4yChHC3faevioro.tT5xrj93JJeIs5Q8"
+    },
+    {
+      "name": "Pearl",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/aether.png",
+      "system": {
+        "description": "",
+        "quantity": "4",
+        "weight": 0.1,
+        "cost": 100,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Ocean & shore",
+        "quantityObtainable": "1d6/3",
+        "forage": "20",
+        "substanceType": "aether",
+        "isStored": false
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_5l7oatut3jg",
+          "color": "#4ab2bf"
+        },
+        "core": {},
+        "scene-packer": {
+          "hash": "e7fc5eea4c64fcd83b1b1f84257fdbe8aabd2379"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.iX6dqtOPPVZbcAGF",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "hTioxbNOZO5TNIqJ",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!L4yChHC3faevioro.hTioxbNOZO5TNIqJ"
+    },
+    {
+      "name": "Lunar Shards",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/rebis.png",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.1,
+        "cost": 91,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Mountain & undergrounds",
+        "quantityObtainable": "1d6/2",
+        "forage": "18",
+        "substanceType": "rebis",
+        "isStored": false
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_7o0sf1zhel4",
+          "color": "#f57600"
+        },
+        "core": {},
+        "scene-packer": {
+          "hash": "875da1a95394e69019161f35bc63cbb899685bd1"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.rtMxjIQhPW1z8rGQ",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "JLJNW7QVPPr0OXMY",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!L4yChHC3faevioro.JLJNW7QVPPr0OXMY"
+    },
+    {
+      "name": "Balisse Fruit",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/vitriol.png",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.1,
+        "cost": 8,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Common",
+        "location": "Fields",
+        "quantityObtainable": "1d10",
+        "forage": "12",
+        "substanceType": "vitriol",
+        "isStored": false
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {},
+        "cf": {
+          "id": "temp_aoviwyffoz",
+          "color": "#af76b7"
+        },
+        "scene-packer": {
+          "hash": "2720d810e8fabb7ea1e9560d970bb147aed46ac9"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.aUOYlwBjYWeaNHc1",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "Ispmc5XLYgYROxw7",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!L4yChHC3faevioro.Ispmc5XLYgYROxw7"
+    },
+    {
+      "name": "Human",
+      "type": "race",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+      "system": {
+        "perk1": {
+          "name": "Trustworthy",
+          "description": "<p>In a world where non-humans can&rsquo;t be trusted, humans look more trustworthy. Humans have an inherent +1 to their Charisma, Seduction, and Persuasion checks against other humans.</p>"
+        },
+        "perk2": {
+          "name": "Ingenuity",
+          "description": "<p>Humans are clever and o\u0016 en have brilliant solutions to di\u0014fficult problems. Humans gain an inherent +1 to Deduction.</p>"
+        },
+        "perk3": {
+          "name": "Blindly Stubborn",
+          "description": "<p>Part of the human race&rsquo;s greatest strength is its willingness to charge forward endlessly, even into truly life-threatening situations. A human can summon up their courage and reroll a failed Resist Coercion or Courage roll 3 times per<br>game session. They take the higher of the two rolls, but if they still fail they cannot re-use the ability to roll again.</p>"
+        },
+        "perk4": {
+          "name": "",
+          "description": ""
+        },
+        "socialStanding": {
+          "north": "equal",
+          "nilfgaard": "equal",
+          "skellige": "equal",
+          "dolBlathanna": "hated",
+          "mahakam": "tolerated"
+        },
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true
+      },
+      "effects": [
+        {
+          "name": "Trustworthy",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+          "_id": "F3Hpn2FheMdYF6yH",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.skills.emp.charisma.activeEffectModifiers",
+              "mode": 2,
+              "value": "+1",
+              "priority": null
+            },
+            {
+              "key": "system.skills.emp.seduction.activeEffectModifiers",
+              "mode": 2,
+              "value": "+1",
+              "priority": null
+            },
+            {
+              "key": "system.skills.emp.persuasion.activeEffectModifiers",
+              "mode": 2,
+              "value": "+1",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">In a world where non-humans can’t be trusted, humans look more trustworthy. Humans have an inherent +1 to their Charisma, Seduction, and Persuasion checks against other humans.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.kltv078ivao5LmuF.F3Hpn2FheMdYF6yH"
+        },
+        {
+          "name": "Ingenuity",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+          "_id": "CQE7NibKcwEYkS9P",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.skills.int.deduction.activeEffectModifiers",
+              "mode": 2,
+              "value": "+1",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">Humans are clever and o\u0016 en have brilliant solutions to di\u0014fficult problems. Humans gain an inherent +1 to Deduction.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.kltv078ivao5LmuF.CQE7NibKcwEYkS9P"
+        },
+        {
+          "name": "Blindly Stubborn",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Human%20Icon.jpg",
+          "_id": "CswDGRt2v9nrPXTi",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">Part of the human race’s greatest strength is its willingness to charge forward endlessly, even into truly life-threatening situations. A human can summon up their courage and reroll a failed Resist Coercion or Courage roll 3 times per<br style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track);color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" />game session. They take the higher of the two rolls, but if they still fail they cannot re-use the ability to roll again.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.kltv078ivao5LmuF.CswDGRt2v9nrPXTi"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "sourceId": "Compendium.wtrpg-compendium.races.Item.nyWfqkSg9kC5uYA7",
+          "hash": "309026e4eacd2afa3930429eda46ebc4e0d6b081"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.races.Item.7tjPGoCisgTgkdZM",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "QXnUaFjEzgosKVQr": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "_id": "kltv078ivao5LmuF",
+      "sort": 200000,
+      "_key": "!actors.items!L4yChHC3faevioro.kltv078ivao5LmuF"
+    },
+    {
+      "name": "Punch",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "1d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "both",
+        "range": "Melee",
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "brawling",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "sourcebook": "Corebook",
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "tiC2ZJeoAdEHrJJo",
+              "name": "Non-Lethal",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "isNonLethal": true
+        },
+        "enhancementItemIds": [],
+        "isStored": false,
+        "isCarried": true,
+        "equipped": true,
+        "defenseProperties": {
+          "parrying": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "effects": [],
+      "folder": "DFlwge2Gda7e5ZNo",
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "b9e16f03ccd085d627e91592ae48352f26e794e7"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.3xGZ7ko323b2f2VZ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_id": "f8Dck1LIyVqEJoKs",
+      "sort": 100000,
+      "_key": "!actors.items!L4yChHC3faevioro.f8Dck1LIyVqEJoKs"
+    },
+    {
+      "name": "Kick",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/movement/feet-spurred-boots-brown.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "1d6+4",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "Melee",
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "brawling",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "sourcebook": "Corebook",
+        "enhancementItemIds": [],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "PsHyWXUP84Ed6yn3",
+              "name": "Non-Lethal",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "isNonLethal": true
+        },
+        "isStored": false,
+        "isCarried": true,
+        "equipped": true,
+        "defenseProperties": {
+          "parrying": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "effects": [],
+      "folder": "DFlwge2Gda7e5ZNo",
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "0dfb0c7a0c29cbef28f67470db980a5cb7af2f9c"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.O3KXs49xyOoqUEjg",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_id": "bHCq3mFXfBCNJ8wP",
+      "sort": 200000,
+      "_key": "!actors.items!L4yChHC3faevioro.bHCq3mFXfBCNJ8wP"
+    },
+    {
+      "folder": "vl473v4mC3471KoW",
+      "name": "Perfume",
+      "type": "valuable",
+      "_id": "6hpBCS8MrjvNTS0X",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-jar-capped-teal.webp",
+      "system": {
+        "description": "\"Don't use this stuff much. Basically just some nice-smelling spray to cover up any unfortunate scents.\"\n-Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 0.1,
+        "cost": 22,
+        "isHidden": false,
+        "type": "general",
+        "avail": "Common",
+        "effect": "",
+        "conceal": "T",
+        "quality": "",
+        "sourcebook": "Corebook",
+        "isStored": false,
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "3217383c3e263fc7ed8c6985823644a77b5fd8af"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.Dt4fLmQnxB4iLnHo",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.6hpBCS8MrjvNTS0X"
+    },
+    {
+      "folder": "ZyO0wrFxXN9RyPmW",
+      "name": "Amulet, Gemstone",
+      "type": "valuable",
+      "_id": "QbD65veDudwJrMQ1",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/neck/amulet-round-blue-grey.webp",
+      "system": {
+        "description": "Focus (3)",
+        "quantity": "1",
+        "weight": 0.1,
+        "cost": 500,
+        "isHidden": false,
+        "type": "toolkit",
+        "avail": "Rare",
+        "effect": "",
+        "conceal": "T",
+        "quality": "",
+        "sourcebook": "Corebook",
+        "isStored": false,
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [],
+      "sort": 25000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "64355dc771f285c9aaf19b28b8e953c5be86a9bf"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.ZArKnFlLQ0nfskbr",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.QbD65veDudwJrMQ1"
+    },
+    {
+      "folder": "ZyO0wrFxXN9RyPmW",
+      "name": "Makeup Kit",
+      "type": "valuable",
+      "_id": "u5vy5ffe1yOdc7Wo",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+      "system": {
+        "description": "+2 Seduction & Charisma",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": 35,
+        "isHidden": false,
+        "type": "toolkit",
+        "avail": "Everywhere",
+        "effect": "",
+        "conceal": "T",
+        "quality": "",
+        "sourcebook": "Corebook",
+        "isStored": false,
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [
+        {
+          "name": "Makeup Kit",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.GhTfZ4Max4sHtHu5",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": true,
+          "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+          "_id": "oA7QeDxRnzf8lEPU",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.skills.emp.charisma.activeEffectModifiers",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            },
+            {
+              "key": "system.skills.emp.seduction.activeEffectModifiers",
+              "mode": 2,
+              "value": "2",
+              "priority": null
+            }
+          ],
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.u5vy5ffe1yOdc7Wo.oA7QeDxRnzf8lEPU"
+        }
+      ],
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "c6dfddbf1d2d1db6d1ae2f998607857ffad069d3"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.GhTfZ4Max4sHtHu5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.u5vy5ffe1yOdc7Wo"
+    },
+    {
+      "folder": "ZyO0wrFxXN9RyPmW",
+      "name": "Alchemy Set",
+      "type": "valuable",
+      "_id": "saDfDGIB0HfJIx8e",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/laboratory/vials-blue-pink.webp",
+      "system": {
+        "description": "Allows you to craft alchemical items.\nAlchemical sets have a number of vials and bottles to hold the potions you create. Each alchemy set hold 10 vials for formulae.",
+        "quantity": "1",
+        "weight": 3,
+        "cost": 80,
+        "isHidden": false,
+        "type": "toolkit",
+        "avail": "Poor",
+        "effect": "",
+        "conceal": "L",
+        "quality": "",
+        "sourcebook": "Corebook",
+        "isStored": false,
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "68e92661189f0f0eb0741f3c1d8576b9e703c32a"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.m6v1cqcSUKLzO6Q5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.saDfDGIB0HfJIx8e"
+    },
+    {
+      "folder": "09bGxTVxd1pIZCDV",
+      "name": "Belt Pouch",
+      "type": "container",
+      "_id": "2jPmSQSNHQm3q4IG",
+      "img": "icons/containers/bags/coinpouch-simple-leather-tan.webp",
+      "system": {
+        "description": "\"Just a small pouch that hooks onto a belt. Carries 5kg of tiny items.\"\n-Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 0.1,
+        "cost": 7,
+        "isHidden": false,
+        "isStored": false,
+        "carry": 5,
+        "content": [],
+        "sourcebook": "Corebook",
+        "isCarried": true,
+        "storedWeight": 0
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "9c7b6b47df2f2b3c60d155bdeb8bc17545a8f9d5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.CH44go4E7sOocWst",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.2jPmSQSNHQm3q4IG"
+    },
+    {
+      "name": "Satchel",
+      "type": "container",
+      "_id": "c2cGhY0BpAKpCESU",
+      "img": "icons/containers/bags/pack-leather-embossed-brown.webp",
+      "system": {
+        "description": "\"Here's a side-slung bag that'll carry a good 30kg of small items.\"\n-Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 14,
+        "isHidden": false,
+        "isStored": false,
+        "carry": 30,
+        "content": [],
+        "sourcebook": "Corebook",
+        "isCarried": true,
+        "storedWeight": 0
+      },
+      "effects": [],
+      "folder": "09bGxTVxd1pIZCDV",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "edcdead451100f08cc028aa2bd4569fe07b44a02"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.Yu8BdF5o5IYgxvqU",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.c2cGhY0BpAKpCESU"
+    },
+    {
+      "folder": "asIh5IuKjee5H3XO",
+      "name": "Wives' Tears Potion",
+      "type": "alchemical",
+      "_id": "d6eZ8zDi5eKvAMQ4",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-labeled-cyan.webp",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.1,
+        "cost": 56,
+        "isHidden": false,
+        "type": "alchemical",
+        "avail": "Poor",
+        "effect": "This potion’s popular in large cities where there’re a lot of tavern. Some alchemist threw this forumla together to counteract drunkard husbands throwin’ their weight around after a few too many drinks.\n\nImbibing Wives' Tears Potion negates the effects of intoxication. Immediately after drinking a dose of Wives' Tears Potion the imbiber sobers up.",
+        "time": "Immediate",
+        "toxicity": "",
+        "isStored": false,
+        "isConsumable": true,
+        "sourcebook": "Corebook",
+        "consumeProperties": {
+          "effects": [
+            {
+              "id": "WdHFrACxtDPlidEI",
+              "name": "Clears Intoxication",
+              "statusEffect": null,
+              "percentage": 100,
+              "varEffect": false
+            }
+          ],
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": []
+        },
+        "isCarried": true
+      },
+      "effects": [],
+      "sort": 2700000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "553e90808a84c8a5e593ceedcd3e58a57499bf03"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.f4opIbbrvI3KHGfq",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.d6eZ8zDi5eKvAMQ4"
+    },
+    {
+      "folder": "asIh5IuKjee5H3XO",
+      "name": "Talgar's Tears",
+      "type": "alchemical",
+      "_id": "6yMIUUTy8v5QESx1",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.5,
+        "cost": 79,
+        "isHidden": false,
+        "type": "alchemical",
+        "avail": "Poor",
+        "effect": "Based off of one of the old lost bits of technology called Talgar’s winter. Pour it on just about anythin’ and it’ll freeze solid in an instant.\n\nTalgar's Tears immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage. Throwing it is an Athletics attack with a range equal to your BODY x2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits.",
+        "time": "",
+        "toxicity": "",
+        "isStored": false,
+        "isConsumable": true,
+        "sourcebook": "Corebook",
+        "isCarried": true,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [],
+      "sort": 1500000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "74a597cc073f73dac243588872c604f7f4945d0c"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.PFrqOQtMMWE8iQpx",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.6yMIUUTy8v5QESx1"
+    },
+    {
+      "name": "Talgar's Tears (Throwable)",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-blue.webp",
+      "system": {
+        "description": "Based off of one of the old lost bits of technology called Talgar’s winter. Pour it on just about anythin’ and it’ll freeze solid in an instant.\n\nTalgar's Tears immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage. Throwing it is an Athletics attack with a range equal to your BODY x2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits.",
+        "quantity": "2",
+        "weight": 0,
+        "cost": 79,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "isThrowable": true,
+        "conceal": "T",
+        "avail": "Poor",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 0,
+        "maxReliability": 0,
+        "damage": "0",
+        "range": "Body x2m",
+        "accuracy": 0,
+        "attackSkill": "athletics",
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": true,
+          "bypassesNaturalArmor": true,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "1evlgyPapEYZKZYi",
+              "name": "Freeze",
+              "statusEffect": "freeze",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ]
+        },
+        "defenseProperties": {
+          "parrying": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parryThrown"
+        ]
+      },
+      "effects": [
+        {
+          "name": "Talgar's Tears",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.4sztUoSeziQHM7Z6",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-blue.webp",
+          "_id": "RznXt7XzZW04gS7g",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": true,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "description": "<p>Talgar's Tears immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage. Throwing it is an Athletics attack with a range equal to your BODY x2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.AglmlW5e9SclDRs0.RznXt7XzZW04gS7g"
+        }
+      ],
+      "folder": "asIh5IuKjee5H3XO",
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "51495517a9d671ae1e76574e1eecada617ea5e15",
+          "sourceId": "Item.stoFWeYXy2PZnikA"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.4sztUoSeziQHM7Z6",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_id": "AglmlW5e9SclDRs0",
+      "sort": 500000,
+      "_key": "!actors.items!L4yChHC3faevioro.AglmlW5e9SclDRs0"
+    },
+    {
+      "folder": "asIh5IuKjee5H3XO",
+      "name": "Pantagran's Elixir",
+      "type": "alchemical",
+      "_id": "pQmaWOVICor0YTwY",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/conical-ornate-purple.webp",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.5,
+        "cost": 67,
+        "isHidden": false,
+        "type": "alchemical",
+        "avail": "Poor",
+        "effect": "Pantagran of Lyria was a wellknown alchemist in the North. Created this elixir which makes ya all kinds of happy. Makes sense for a Lyrian. Heh, rough place to live.\n\nConsuming a draught of Pantagran's Elixir brings delirious happiness. This effect lasts for 1d6/2 hours and leaves the imbiber incredibly susceptible to Persuasion, Charisma, and Seduction, giving them a -2 to Resist Coercion.",
+        "time": "1d6-2 Hours",
+        "toxicity": "",
+        "isStored": false,
+        "isConsumable": true,
+        "sourcebook": "Corebook",
+        "isCarried": true,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [
+        {
+          "name": "Pantagran's Elixir",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.sEVO4OlOLkqV5jus",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/conical-ornate-purple.webp",
+          "_id": "038g3gp53vd0RnLO",
+          "type": "base",
+          "system": {
+            "applySelf": true,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.skills.will.resistcoerc.activeEffectModifiers",
+              "mode": 2,
+              "value": "-2",
+              "priority": null
+            }
+          ],
+          "description": "<p>Consuming a draught of Pantagran's Elixir brings delirious happiness. This effect lasts for 1d6/2 hours and leaves the imbiber incredibly susceptible to Persuasion, Charisma, and Seduction, giving them a -2 to Resist Coercion.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.pQmaWOVICor0YTwY.038g3gp53vd0RnLO"
+        }
+      ],
+      "sort": 3500000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "1069ad9c44c0e4e432090aac12261aac66d3d962"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.sEVO4OlOLkqV5jus",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.pQmaWOVICor0YTwY"
+    },
+    {
+      "folder": "asIh5IuKjee5H3XO",
+      "name": "Hallucinogen",
+      "type": "alchemical",
+      "_id": "PxdCoye3BVsoOx2Y",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-flask-corked-cyan.webp",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.1,
+        "cost": 25,
+        "isHidden": false,
+        "type": "alchemical",
+        "avail": "Common",
+        "effect": "Guess this is a lot like that old witcher’s potion, white gull. Makes ya see some strange stuff. It isn’t as powerful, but it ain’t poisonous.\n\nHallucinogen can be thrown on a target within 3m or slipped into a drink. If the target fails a DC: 15 Endurance check, they start hallucinating. These hallucinations last for 1d10 rounds.",
+        "time": "1d10 Rounds",
+        "toxicity": "",
+        "isStored": false,
+        "isConsumable": true,
+        "sourcebook": "Corebook",
+        "consumeProperties": {
+          "effects": [
+            {
+              "id": "CHHLmky0DK4TIFw5",
+              "name": "Hallucination",
+              "statusEffect": "hallucination",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ],
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": []
+        },
+        "isCarried": true
+      },
+      "effects": [],
+      "sort": 2500000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "84930edaea59cd4dcf6fd84bef1fac4ff9bf9665"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.dWZKH2yyWPpheBmJ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.PxdCoye3BVsoOx2Y"
+    },
+    {
+      "folder": "asIh5IuKjee5H3XO",
+      "name": "Perfume Potion",
+      "type": "alchemical",
+      "_id": "zj3rc8PjesTwCmoH",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-vial-corked-purple.webp",
+      "system": {
+        "description": "",
+        "quantity": "2",
+        "weight": 0.5,
+        "cost": 76,
+        "isHidden": false,
+        "type": "potion",
+        "avail": "Poor",
+        "effect": "Say perfume potion was created by some alchemist to appease his angry wife. It’s a precursor to perfume but if ya drink it, it’ll get ya drunk in an instant. Popular for kidnappers and high society folk as well, heh.\n\nSomeone who consumes a draught of Perfume Potion must make a DC: 16 Endurance check. Failure causes intoxication for 1d10 hours. This intoxication can only be undone by magic or Wives' Tears Potion.",
+        "time": "1d10 Hours",
+        "toxicity": "25%",
+        "isStored": false,
+        "isConsumable": true,
+        "sourcebook": "Corebook",
+        "consumeProperties": {
+          "effects": [
+            {
+              "id": "6oSpvxxgU9CVnNtQ",
+              "name": "Intoxication",
+              "statusEffect": "intoxication",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ],
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": []
+        },
+        "isCarried": true
+      },
+      "effects": [
+        {
+          "name": "Perfume Potion",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.tbVczMR0f8iuzDS8",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-vial-corked-purple.webp",
+          "_id": "cfkoQEQzJbAjOaTB",
+          "type": "base",
+          "system": {
+            "applySelf": true,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "description": "<p>Someone who consumes a draught of Perfume Potion must make a DC: 16 Endurance check. Failure causes intoxication for 1d10 hours. </p><p>This intoxication can only be undone by magic or Wives' Tears Potion.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.zj3rc8PjesTwCmoH.cfkoQEQzJbAjOaTB"
+        }
+      ],
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "bb6f2602ecd52add9f946d35395fdbd0e5def027"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.tbVczMR0f8iuzDS8",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.zj3rc8PjesTwCmoH"
+    },
+    {
+      "name": "Fifth Essence",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/powder-teal.webp",
+      "system": {
+        "description": "",
+        "quantity": "4",
+        "weight": 0.1,
+        "cost": 82,
+        "isHidden": false,
+        "type": "alchemical",
+        "rarity": "Rare",
+        "location": "Places of Power, mages & fiends",
+        "quantityObtainable": "Variable",
+        "forage": "N/A",
+        "substanceType": "",
+        "sourcebook": "",
+        "isStored": false,
+        "isCarried": true
+      },
+      "effects": [],
+      "folder": "wqHSoYoBIwc6IazJ",
+      "flags": {
+        "cf": {
+          "id": "temp_h2vduks1d1",
+          "color": "#000000"
+        },
+        "core": {},
+        "scene-packer": {
+          "hash": "29711a817adbf4ea67eeb06ef89b1415af55757e"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_id": "WPzyzPpTRTK6vsuM",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.WPzyzPpTRTK6vsuM"
+    },
+    {
+      "_id": "rpqnk7LACUImC7mJ",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-straight-blue.webp",
+      "system": {
+        "description": "Daggers come in all kinds of shapes and sizes but they’re always small enough to hide. Everyone carries one, from knights to peasants.",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": 50,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "S",
+        "avail": "Everywhere",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "1d6+2",
+        "range": "Melee",
+        "accuracy": 0,
+        "rateOfFire": 2,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "smallblades",
+        "rangedAttackSkill": "smallblades",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.dNaNeS91tiSZ8fz2"
+      },
+      "effects": [],
+      "folder": "qlH2nWMWutV4oD4E",
+      "sort": 450000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "77ed13a060728f455055bc0d0e653f9bf738f318"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.s1jyq7S9wVGNDdpb",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.rpqnk7LACUImC7mJ"
+    },
+    {
+      "_id": "NdDB8VngsjdODi1z",
+      "name": "Crystal Staff",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/wands/wand-gem-violet.webp",
+      "system": {
+        "description": "They’re pretty much like regular staves but they have gemstones at the top of ‘em, embedded in the wood. Thing about the gem is it has to be perfect. If the gem has even one crack or imperfection, ya risk an explosion or somethin’ of the like. They’re worth it though. Amplifies magic like nothin’ else.",
+        "quantity": "1",
+        "weight": 2.5,
+        "cost": 835,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "NA",
+        "avail": "Rare",
+        "hands": "both",
+        "equipped": false,
+        "reliable": 5,
+        "maxReliability": 5,
+        "damage": "2d6+2",
+        "range": "2m",
+        "accuracy": 0,
+        "rateOfFire": 2,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 2,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "staffspear",
+        "rangedAttackSkill": "staffspear",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Long Reach",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_v9oa1bnvq",
+              "name": "Focus (3)",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_b1p1v2kvd",
+              "name": "Greater Focus",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.5MxUi7W8kNDOOY5t"
+      },
+      "effects": [],
+      "folder": "BeMZz917EOy5IF58",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "116c7b44451eeb0e8a3ab2900800997304dbd9aa"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.oDrOufcv82UzuBWW",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.NdDB8VngsjdODi1z"
+    },
+    {
+      "_id": "zLIz2FLSv6SPeRHB",
+      "name": "Halfling Protective Doublet",
+      "type": "armor",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/chest/vest-leather-brown.webp",
+      "system": {
+        "description": "Armor’s great. In times like these everyone should have some. But not everybody can wear chain and plates. A while ago, the halflings developed this armored doublet. Heh, they’re usually bright and well-decorated but they have a solid layer of armor inside them.",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 375,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "Light",
+        "avail": "Rare",
+        "equipped": true,
+        "reliability": 0,
+        "reliabilityMax": 0,
+        "encumb": 0,
+        "location": "Torso",
+        "bludgeoning": false,
+        "slashing": false,
+        "piercing": false,
+        "headStopping": 0,
+        "headMaxStopping": 0,
+        "torsoStopping": 8,
+        "torsoMaxStopping": 8,
+        "leftArmStopping": 8,
+        "leftArmMaxStopping": 8,
+        "rightArmStopping": 8,
+        "rightArmMaxStopping": 8,
+        "leftLegStopping": 0,
+        "leftLegMaxStopping": 0,
+        "rightLegStopping": 0,
+        "rightLegMaxStopping": 0,
+        "enhancements": 1,
+        "enhancementItemIds": [],
+        "effects": [
+          {
+            "id": "17yVvM1QJDl2kMZM",
+            "name": "Hidden",
+            "statusEffect": null,
+            "percentage": 100,
+            "varEffect": false
+          }
+        ],
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.cpSc8VaTEBK2405C"
+      },
+      "effects": [],
+      "folder": "t5QsEWUCWqtolZ7T",
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "ccf544a0284eadde4901143ca811ef5d3b310534"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.qjDpTkp12YvlNpFu",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.zLIz2FLSv6SPeRHB"
+    },
+    {
+      "_id": "5jVEeh8x1MsDTCkJ",
+      "name": "Double Woven Trousers",
+      "type": "armor",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/leg/pants-green-fabric-pants.webp",
+      "system": {
+        "description": "Can’t go wrong with double woven. Heh, ain’t quite as puffed up as the run-of-the-mill padded stuff and it’ll keep ya safe.",
+        "quantity": "1",
+        "weight": 1.5,
+        "cost": 225,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "Light",
+        "avail": "Poor",
+        "equipped": true,
+        "reliability": 0,
+        "reliabilityMax": 0,
+        "encumb": 0,
+        "location": "Leg",
+        "bludgeoning": false,
+        "slashing": false,
+        "piercing": false,
+        "headStopping": 0,
+        "headMaxStopping": 0,
+        "torsoStopping": 0,
+        "torsoMaxStopping": 0,
+        "leftArmStopping": 0,
+        "leftArmMaxStopping": 0,
+        "rightArmStopping": 0,
+        "rightArmMaxStopping": 0,
+        "leftLegStopping": 8,
+        "leftLegMaxStopping": 8,
+        "rightLegStopping": 8,
+        "rightLegMaxStopping": 8,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "effects": [],
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ImEaBTUb4VXAtkoy"
+      },
+      "effects": [],
+      "folder": "pXX2M1DrueYRdMbN",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "fbe69dae6204a8c70a7fe0c41e21d46a84fdf083"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.HcdoUTc0xuzxwuZP",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.5jVEeh8x1MsDTCkJ"
+    },
+    {
+      "_id": "l2OObPVcf9oByGpl",
+      "name": "Dispel",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "novice",
+        "source": "mixedElements",
+        "domain": "",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Dispel allows you to end a spell/ritual/hex within the range of this spell. \nThis spell can cancel magic with a duration and can be used as a defensive action to block magic attacks with or without physical components. \nTo cancel a magical effect you must spend half as many Stamina points as the caster spent to cast the magic and make a Spell Casting roll that beats their casting roll.",
+        "range": "10m",
+        "duration": "Immediate",
+        "defence": "Spell Casting",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "effect",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "magicResist"
+        ]
+      },
+      "effects": [],
+      "folder": "g5XU90wjAHHP2CdX",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "9385efdd99a4430d0cdc931df553c82b0567d185"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.8rsQ7lzgF7WZs8AB",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.l2OObPVcf9oByGpl"
+    },
+    {
+      "_id": "HAi7CkK54m26X070",
+      "name": "Urien's Shelter",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "novice",
+        "source": "air",
+        "domain": "",
+        "stamina": 3,
+        "staminaIsVar": false,
+        "effect": "Urien’s Shelter, created by the nautical air magician Urien of Cidaris, allows you to negate hostile weather effects in an 8m radius centered on you. This negates extreme heat, extreme cold, rain, and snow.",
+        "range": "8m Radius",
+        "duration": "1d6 Hours",
+        "defence": "None",
+        "createTemplate": true,
+        "templateSize": 8,
+        "templateType": "circle",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "effect",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "CtVhMF5pHO6lp3qb",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "73a5a8718b298888c2f449eded2414dcccfe7be1"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.Pe4U1mf79bjKgyNB",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.HAi7CkK54m26X070"
+    },
+    {
+      "_id": "wIR9wopdXXcty1JP",
+      "name": "Diagnostic Spell",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "novice",
+        "source": "earth",
+        "domain": "",
+        "stamina": 3,
+        "staminaIsVar": false,
+        "effect": "Diagnostic Spell allows you to quickly assess a person’s health and determine how many Health Points they have, what critical wounds they have, and if they are sick or poisoned.",
+        "range": "5m",
+        "duration": "Immediate",
+        "defence": "None",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "rect",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "effect",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "TczKQfugrDCiebda",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "c3f7b919cb94dc26322666441f42ccc927529a28"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.MXnBLN7wo8TeXBWM",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.wIR9wopdXXcty1JP"
+    },
+    {
+      "_id": "IQsP3IfUyBWvqAU4",
+      "name": "Aenye",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "novice",
+        "source": "fire",
+        "domain": "",
+        "stamina": 5,
+        "staminaIsVar": false,
+        "effect": "Aenye allows you to throw a ball of pure fire at an opponent within the range of the spell. \nThis ball of fire does 4d6 damage and has a 75% chance of lighting the target on fire.",
+        "range": "12m",
+        "duration": "Immediate",
+        "defence": "Dodge or Block",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "4d6",
+        "damageType": "fire",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Fire",
+              "statusEffect": "fire",
+              "percentage": 75,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ]
+      },
+      "effects": [],
+      "folder": "O3HujJGrLRtLqKMI",
+      "sort": 700000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "a41153c04f33cad1c8469a8edee6d547f44b1e49"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.Zs3T1asknej2vqFx",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.IQsP3IfUyBWvqAU4"
+    },
+    {
+      "_id": "3rE93PnOLWhUZa90",
+      "name": "Tanio Ilchar",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "novice",
+        "source": "fire",
+        "domain": "",
+        "stamina": 3,
+        "staminaIsVar": false,
+        "effect": "Tanio Ilchar creates a burst of fire in a 2m by 2m area. \nThis has a 100% chance of lighting a target in the area on fire.",
+        "range": "8m",
+        "duration": "Immediate",
+        "defence": "Dodge",
+        "createTemplate": true,
+        "templateSize": 2,
+        "templateType": "circle",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "0",
+        "damageType": "fire",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Fire",
+              "statusEffect": "fire",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": "O3HujJGrLRtLqKMI",
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "015a77cd3cd11b2a5665680d2b9d724bd7e2f5e3"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.fCJojNIdtJyfLLQk",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.3rE93PnOLWhUZa90"
+    },
+    {
+      "_id": "yRelOY49kmfQAdIp",
+      "name": "Merigold's Hailstorm",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "journeyman",
+        "source": "Water",
+        "domain": "",
+        "stamina": 15,
+        "staminaIsVar": false,
+        "effect": "Named for its creator Triss Merigold, ex-advisor of King Foltest of Temeria, Merigold’s Hailstorm creates a hailstorm encompassing the area of the spell. \nEveryone within the storm must make a Dodge/Escape check at a DC equal to your Spell Casting check each round or take 2d6 damage to a body part.",
+        "range": "30m Radius",
+        "duration": "Active (4 STA)",
+        "defence": "Dodge",
+        "createTemplate": true,
+        "templateSize": 30,
+        "templateType": "circle",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "2d6",
+        "damageType": "ice",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": "2whTxabRTjq1xj1F",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "66fa8c431ea349ef5e97e8a19491614b801aedb5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.pH5Gzfl8j7nh5REj",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.yRelOY49kmfQAdIp"
+    },
+    {
+      "_id": "eXmdDJLIAEFBb1Se",
+      "name": "Teleportation",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "journeyman",
+        "source": "mixedElements",
+        "domain": "",
+        "stamina": 10,
+        "staminaIsVar": false,
+        "effect": "Teleportation allows you to teleport to a known location instantaneously. You cannot take anyone with you and can only transport the items on your person or in your hands. \nAttempting to teleport with a person simply teleports you and leaves them behind. \nTeleporting requires a DC: 15 Spell Casting roll. If you fail the roll, you wind up in a random location 1d6 miles away.",
+        "range": "N/A",
+        "duration": "Immediate",
+        "defence": "None",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "effect",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "dNEWmbHLX50kbh79",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "0e77cab53f3d7e9b22fb42c47dd6c9379521f564"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.D39icQucGHUr6pQ5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.eXmdDJLIAEFBb1Se"
+    },
+    {
+      "_id": "MhIEmd3hx7aG0cbj",
+      "name": "Standing Portal",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Spells",
+        "level": "master",
+        "source": "mixedElements",
+        "domain": "",
+        "stamina": 22,
+        "staminaIsVar": false,
+        "effect": "Standing Portal creates a 1m by 2m floating portal up to 10m from you. Stepping through this portal teleports you anywhere you can recall. The portal can transport anything that fits through it. \nIf you end the portal while something is partially through, the portal slices the object (or creature) in two. The person is counted as being dismembered, as per the Critical Wound. \nYou can create a portal to a location you don’t know as per Teleportation.",
+        "range": "N/A",
+        "duration": "Active (6 STA)",
+        "defence": "None",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "LYUuah2rqlYSyazT",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "dd343f1597478ae6bb9f2710a2617c627fdc037a"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.xHdUBlk72uqASUQh",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.MhIEmd3hx7aG0cbj"
+    },
+    {
+      "_id": "QmP2JkiOOcRb5c0b",
+      "name": "Hydromancy",
+      "type": "ritual",
+      "img": "icons/magic/symbols/runes-triangle-orange.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 480,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "level": "novice",
+        "stamina": 5,
+        "staminaIsVar": false,
+        "effect": "Hydromancy allows you to stare into a small body of water and glimpse an event that happened within the last two days or that is currently happening. \nWatching an event in the past uses the base DC. \nIf you are trying to glimpse an event that is currently happening, increase the DC by 3 points. \nIf you are viewing a current event, a magician present at that event can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.",
+        "range": "",
+        "duration": "Active (2 STA)",
+        "defence": "",
+        "components": "A Small Body of Water or a Bowl of Water, Fifth Essence (x2), White Myrtle Petals (x2), Pearl (x2), Lunar Shards (x1), Berbercane Fruit (x1)",
+        "ritualComponentUuids": [],
+        "alternateRitualComponentUuids": [],
+        "preparationTime": "5 Rounds",
+        "difficultyCheck": "15 (18)",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenPreMove": null,
+            "tokenExit": null
+          }
+        },
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "ArpxTC5AEesm081W",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "9b1b5a8cd35189fc5ef0e8a98c893ea84941c7b8"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.BMuwdaxx9ecmvTE6",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.QmP2JkiOOcRb5c0b"
+    },
+    {
+      "_id": "LYATXRrFXteSFvOa",
+      "name": "Telecommunication",
+      "type": "ritual",
+      "img": "icons/magic/symbols/runes-triangle-orange.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "level": "novice",
+        "stamina": 3,
+        "staminaIsVar": false,
+        "effect": "A Telecommunicator allows you to communicate with another person with a Telecommunicator.\nThe ritual is simple but requires both participants to have a telecommunicator and perform the ritual. \nHowever it allows you to communicate across tremendous distances, allowing communication between all parts of the known Continent.",
+        "range": "",
+        "duration": "1 Hour",
+        "defence": "",
+        "components": "A Telecommunicator",
+        "ritualComponentUuids": [],
+        "alternateRitualComponentUuids": [],
+        "preparationTime": "5 Rounds",
+        "difficultyCheck": "None",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenPreMove": null,
+            "tokenExit": null
+          }
+        },
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "ArpxTC5AEesm081W",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "e76c87d74c83664c3c38285e3c53c1d9331554e1"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.kIQRTIMpWye1g2KK",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.LYATXRrFXteSFvOa"
+    },
+    {
+      "_id": "C1pGLDNmCPVthUfa",
+      "name": "Hex of Shadows",
+      "type": "hex",
+      "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "danger": "Low",
+        "stamina": 4,
+        "effect": "The Hex of Shadows creates whispers in the shadows, and silhouettes around corners. \nThe subject must make random Awareness checks with an unspecified DC, always almost catching a glimpse of something or someone. The awareness checks are never a real threat, just visions.",
+        "liftRequirement": "The subject must bring a bowl of clear water, a branch from a white myrtle bush, and a bottle of ink to a clearing under a crescent moon.\nWhen the moon is at its highest the subject must pour the ink into the water, dip the branch in the mixture, and shake droplets in a circle around themselves while holding their breath.",
+        "defenseOptions": [
+          "magicResist"
+        ]
+      },
+      "effects": [
+        {
+          "_id": "55owfZJUB4psndoe",
+          "name": "Hex of Shadows",
+          "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": true,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>The Hex of Shadows creates whispers in the shadows, and silhouettes around corners.</p><p>The subject must make random Awareness checks with an unspecified DC, always almost catching a glimpse of something or someone. The awareness checks are never a real threat, just visions.</p>",
+          "origin": "Compendium.wtrpg-complete-compendium.magic.Item.7PAkIABLZigjyWWh",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!L4yChHC3faevioro.C1pGLDNmCPVthUfa.55owfZJUB4psndoe"
+        }
+      ],
+      "folder": "RAdEiJZ8BwxqRAWY",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "da00d950284abe222d32f2468fab23eaed8bf2e8"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.7PAkIABLZigjyWWh",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!L4yChHC3faevioro.C1pGLDNmCPVthUfa"
+    }
+  ],
+  "effects": [],
+  "sort": 287500,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9f492d15b7658c1825b74fa3f704ba3b1765c6fa"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!L4yChHC3faevioro"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Acid Solution",
+  "type": "diagrams",
+  "_id": "mb3DGn64XbYKQvMu",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>I don&rsquo;t have to use acid much. Heh, least not every day. But this stuff&rsquo;s good if ya need to burn through a lock or ya need a makeshift weapon.</em></p>\n<p>Acid Solution does 2d6 damage to any living creature it is thrown on and does 1d6/2 ablation damage to weapons and armor.<br>Throwing it is an Athletics attack with a range of BODYx2m, and the acid splatters in a 2m cone directly away from where it lands.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 84,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 3,
+      "rebis": 0,
+      "aether": 1,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.PuFgNQQMfDo4OuHi",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dc6893d67eeb724b8ca451cd687057ac2f7021b1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!mb3DGn64XbYKQvMu"
+}

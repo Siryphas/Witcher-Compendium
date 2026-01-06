@@ -1,0 +1,83 @@
+{
+  "folder": "6jVQ5cpcpePNn9bz",
+  "name": "Trophy: Bear",
+  "type": "valuable",
+  "_id": "pJ2rkQJuZaQ7jPOQ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/claw-bear-brown-grey.webp",
+  "system": {
+    "description": "People you grapple have a -2 penalty on their attempt to escape your grapple.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Bear",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.pJ2rkQJuZaQ7jPOQ",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/claw-bear-brown-grey.webp",
+      "_id": "qCnh9AjkhgfaRcmh",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>People you grapple have a -2 penalty on their attempt to escape your grapple.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!pJ2rkQJuZaQ7jPOQ.qCnh9AjkhgfaRcmh"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "17e6bb1bceaa458184ba2fbcd36b8dffa75f6be0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pJ2rkQJuZaQ7jPOQ"
+}

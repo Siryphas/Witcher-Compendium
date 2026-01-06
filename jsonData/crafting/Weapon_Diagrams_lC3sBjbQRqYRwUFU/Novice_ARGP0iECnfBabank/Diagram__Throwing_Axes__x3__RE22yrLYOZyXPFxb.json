@@ -1,0 +1,72 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Throwing Axes (x3)",
+  "type": "diagrams",
+  "_id": "RE22yrLYOZyXPFxb",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Ya won&rsquo;t get as much range on a throwing axe as you would on a throwing knife but you&rsquo;ll pack more of a punch. Nothin&rsquo; like a hunk of sharpened metal on a haft comin&rsquo; at ya.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 116,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 10,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "pLA6eT3fI9xxy80f",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "2FnDORqblJHcnUb9",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 54,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.g44tss4u5uLgomeR",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4ed7a7d1d2082ba1e55ca2beedd695006e3f715e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!RE22yrLYOZyXPFxb"
+}

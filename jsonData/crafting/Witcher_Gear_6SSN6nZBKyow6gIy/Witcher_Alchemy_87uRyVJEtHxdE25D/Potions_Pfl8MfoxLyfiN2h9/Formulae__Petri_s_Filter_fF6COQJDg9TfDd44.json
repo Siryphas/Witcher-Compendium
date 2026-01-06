@@ -1,0 +1,65 @@
+{
+  "folder": "Pfl8MfoxLyfiN2h9",
+  "name": "Formulae: Petri's Filter",
+  "type": "diagrams",
+  "_id": "fF6COQJDg9TfDd44",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>+2 point in Spellcasting, Hex Weaving, and Ritual Crafting.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "potion",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 1,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.3cCUGgMkUg2GfJIy",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4aafbce67f2046de71677f4c0b85d710ff4ccde7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!fF6COQJDg9TfDd44"
+}

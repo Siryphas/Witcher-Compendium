@@ -1,0 +1,13 @@
+{
+  "name": "wtrpg-compendium",
+  "version": "1.0",
+  "description": "",
+  "scripts": {
+    "build": "node util/build.mjs",
+    "watch": "node util/build.mjs --watch",
+    "extractPacks": "node util/extract-packs.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.3"
+  }
+}

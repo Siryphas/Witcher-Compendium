@@ -1,0 +1,1575 @@
+{
+  "folder": "8T3bWq6Kigyqmn0X",
+  "name": "Sylvan",
+  "type": "monster",
+  "_id": "BoFW3sLEoDppe1oV",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/9%20-%20Relicts/Sylvan.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 7,
+        "current": 7,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 15,
+        "current": 15,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 100,
+        "current": 100,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 80,
+        "value": 80,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 80,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 40,
+        "value": 40,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 40
+      },
+      "resolve": {
+        "max": 30,
+        "value": 30,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 30
+      },
+      "focus": {
+        "max": 18,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 8,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 6,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 6,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 8,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 4,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 5,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 4,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 0,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 4,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 4,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 4,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 7,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 7,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 6,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 8,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 4,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 5,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 8,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 5,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 8,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "Relict",
+    "threat": "medium",
+    "difficulty": "complex",
+    "bounty": 400,
+    "armorHead": 0,
+    "armorUpper": 0,
+    "armorLower": 0,
+    "armorTailWing": 0,
+    "regen": 0,
+    "resistances": "Fire, Stun",
+    "immunities": "",
+    "susceptibilities": "Relict Oil, Poison",
+    "senses": "",
+    "height": "2m",
+    "weight": "230kg",
+    "environment": "Forests, caves, & near settlements",
+    "intelligence": "Sapient",
+    "organization": "Solitary",
+    "common": "<p><em>If yer crops are goin&rsquo; missing and yer goats have all wandered off, it might just be a poor&nbsp;stroke of luck. But it could also be a sylvan! Heh, if that&rsquo;s the case, you&rsquo;d best call a witcher&nbsp;or gather up all the wine in yer house. Ya see, sylvan ain&rsquo;t the deadliest beasts in the world,&nbsp;and they&rsquo;re too lazy to cause much more trouble than stealin&rsquo; yer food and ploughin&rsquo; yer&nbsp;goats &mdash; but they can be difficult to get rid of. It&rsquo;s best to appeal to their vices. Heh, these big,&nbsp;tubby bastards are just male succubi, so they love nothin&rsquo; more than wine and ploughin&rsquo;! I&rsquo;d&nbsp;give &lsquo;em the wine if ya can. Shudder to think of what beddin&rsquo; one of these monsters is like.</em></p>",
+    "commonSkillValue": "12",
+    "monsterLore": "<p>Sylvan are Relicts, extremely rare to encounter. They have the appearance of a corpulent man with horns and goat legs. In&nbsp;disposition, they are equal parts mischievous and lazy. Generally, they are harmless until angered or threatened. Despite&nbsp;appearances, they are exceptionally strong and agile. Besides raw strength, a sylvan has many defenses which make fighting&nbsp;it up close dangerous, namely breathing fire and shaking the ground beneath them with a staggering stomp. Being knocked&nbsp;over or staggered by the monster will almost guarantee you to be roasted. If you must fight a sylvan, start from a distance and&nbsp;aim to disorient it before moving in for the kill. Despite its strength, a sylvan is weak to fire, poisoning, and is weaker to being&nbsp;stunned than other monsters. Be sure to coat your blade in Relict Oil if you have it available.</p>",
+    "monsterLoreSkillValue": "14",
+    "customStat": true,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": true,
+      "willIsOpen": true,
+      "noviceSpellIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "craIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "4",
+      "punch": {
+        "value": "1d6+4",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+8",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "notes": [],
+    "statusEffectImmunities": [],
+    "showCommonerSuperstition": true,
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "showAcademicKnowledge": false,
+    "showMonsterLore": true,
+    "dontAddAttr": false,
+    "resistantNonSilver": true
+  },
+  "prototypeToken": {
+    "name": "Sylvan",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/npc-images/sylvan.Token.webp?1708646154457",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 14,
+      "angle": 180,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 14,
+        "enabled": true
+      },
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "Rideable": {
+        "issetRideableFlag": false,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "GrapplePlacementFlag": "RowBelow",
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      },
+      "tagger": {}
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Punch",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "4d6+4",
+        "reliable": 15,
+        "maxReliability": 15,
+        "hands": "both",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Knock Down",
+            "percentage": 30,
+            "statusEffect": null
+          },
+          {
+            "id": "_v0u11zo89",
+            "name": "Crushing Force",
+            "percentage": 0,
+            "statusEffect": null
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 2,
+        "attackSkill": "brawling",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Tome of Chaos",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "first",
+              "name": "Knock Down",
+              "statusEffect": "prone",
+              "percentage": 30,
+              "varEffect": false
+            },
+            {
+              "id": "_v0u11zo89",
+              "name": "Crushing Force",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "crushingForce": true
+        }
+      },
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Item.xgTxdDbGfmdxpqoB",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "RqhjSNB2HlbZx5sf",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.RqhjSNB2HlbZx5sf"
+    },
+    {
+      "name": "Sylvan Hooves",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/hydragenum.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6/3",
+        "weight": 0.1,
+        "cost": 75,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Found on a Sylvan",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "hydragenum",
+        "isStored": false
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.yf3UwadCq4dpgTgf",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "s4hVbRQ6lpt4mUnX",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.s4hVbRQ6lpt4mUnX"
+    },
+    {
+      "name": "Sylvan Horn",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/quebrith.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6/3",
+        "weight": 0.5,
+        "cost": 80,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Found on Sylvans",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "quebrith",
+        "isStored": false
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.zflQnOwr2LQ8Fuyy",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "SCt0TQ5GcS6i3KPX",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.SCt0TQ5GcS6i3KPX"
+    },
+    {
+      "name": "Mundane Items",
+      "type": "valuable",
+      "system": {
+        "description": "",
+        "quantity": "2d10",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": "genera",
+        "avail": "",
+        "effect": "",
+        "conceal": "",
+        "quality": "",
+        "isStored": false
+      },
+      "_id": "rV79WjoY7oMIBcui",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.rV79WjoY7oMIBcui"
+    },
+    {
+      "name": "Strange Items",
+      "type": "valuable",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": "genera",
+        "avail": "",
+        "effect": "",
+        "conceal": "",
+        "quality": "",
+        "isStored": false
+      },
+      "_id": "xn7iMEINhl4dRCmV",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.xn7iMEINhl4dRCmV"
+    },
+    {
+      "name": "Ability: Fire Blast",
+      "type": "note",
+      "_id": "U7IpZ9lllnxEHrrZ",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "As an action, a sylvan can shoot a ball of fire with a range of 10m and deals 4d6 damage with a 75% chance of lighting the target on fire.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.U7IpZ9lllnxEHrrZ"
+    },
+    {
+      "name": "Ability: Stomp",
+      "type": "note",
+      "_id": "Vsq4Mvqld1S1nsMw",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "Using its action, a sylvan can stomp the ground and force anyone within melee range to make a DC:15 Athletics check. If they fail, they are staggered.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.Vsq4Mvqld1S1nsMw"
+    },
+    {
+      "name": "Ability: Fire Breath",
+      "type": "note",
+      "_id": "kmDj0P6S9wLE2Guk",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its turn, a sylvan can breathe a 2m-cone of fire. Anyone in this area must make a DC:14 Athletics check. If they fail, they take 4d6 fire damage with a 75% chance of lighting on fire. This attack does ablation damage to armor regardless of whether it penetrates.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.kmDj0P6S9wLE2Guk"
+    },
+    {
+      "name": "Stomp",
+      "type": "weapon",
+      "_id": "qVU6hskxGhwfavJ7",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/hooves-cloven-grey.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "0",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "DC: 15",
+            "percentage": 0,
+            "statusEffect": null
+          },
+          {
+            "id": "_i6piinksx",
+            "name": "Stagger",
+            "percentage": 100,
+            "statusEffect": null
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "brawling",
+        "rollOnlyDmg": true,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Book of Tales",
+        "defenseOptions": [
+          "reposition"
+        ],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "first",
+              "name": "DC: 15",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_i6piinksx",
+              "name": "Stagger",
+              "statusEffect": "staggered",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.qVU6hskxGhwfavJ7"
+    },
+    {
+      "name": "Fire Breath",
+      "type": "weapon",
+      "_id": "CacMHdxbahtjPjC6",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/magic/fire/beam-jet-stream-trails-orange.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Elemental",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": true
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "4d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "2m Cone",
+        "effects": [
+          {
+            "id": "first",
+            "name": "DC: 14",
+            "statusEffect": null,
+            "percentage": 0
+          },
+          {
+            "id": "_to0ugzza3",
+            "name": "Fire",
+            "statusEffect": "fire",
+            "percentage": 75
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": true,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Book of Tales",
+        "defenseOptions": [
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.CacMHdxbahtjPjC6"
+    },
+    {
+      "name": "Sylvan Fire Blast",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "system": {
+        "class": "Spells",
+        "level": "novice",
+        "source": "mixedElements",
+        "domain": "",
+        "stamina": 0,
+        "staminaIsVar": false,
+        "effect": "As an action, a sylvan can shoot a ball of fire with a range of 10m and deals 4d6 damage with a 75% chance of lighting the target on fire.",
+        "range": "10m",
+        "duration": "Immediate",
+        "defence": "Dodge/Block",
+        "components": "",
+        "alternateComponents": "",
+        "preparationTime": "",
+        "danger": "",
+        "liftRequirement": "",
+        "sideEffect": "",
+        "createTemplate": false,
+        "templateSize": "",
+        "templateType": "",
+        "causeDamages": true,
+        "damage": "4d6",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Fire",
+            "percentage": 75,
+            "statusEffect": null
+          }
+        ],
+        "quantity": "1",
+        "difficultyCheck": "",
+        "description": "",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false,
+        "visualEffectDuration": null,
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": []
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "1.038",
+        "coreVersion": "13.347",
+        "compendiumSource": "Item.lMf5XrasDeBdMXHf",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "Qi45FvZtVRg9vyVJ",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!BoFW3sLEoDppe1oV.Qi45FvZtVRg9vyVJ"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "72ad4c2f02633bc7748a95f796b2688314e40a10"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!BoFW3sLEoDppe1oV"
+}

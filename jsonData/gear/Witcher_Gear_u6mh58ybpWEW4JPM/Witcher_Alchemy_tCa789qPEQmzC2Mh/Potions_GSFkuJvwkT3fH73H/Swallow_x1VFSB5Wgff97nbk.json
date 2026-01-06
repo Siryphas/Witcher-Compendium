@@ -1,0 +1,102 @@
+{
+  "folder": "GSFkuJvwkT3fH73H",
+  "name": "Swallow",
+  "type": "alchemical",
+  "_id": "x1VFSB5Wgff97nbk",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Swallow%20Potion.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "potion",
+    "avail": "WITCHER",
+    "effect": "Regenerate 3 points per round. In any round you are struck, you do not regenerate. This healing doesn’t stack with multiple uses.",
+    "time": "20 Rounds",
+    "toxicity": "50%",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "doesHeal": true,
+      "heal": "3",
+      "effects": [
+        {
+          "id": "3szSLuG7HH2OZRn0",
+          "name": "Healing",
+          "statusEffect": "healing",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [
+    {
+      "name": "Swallow",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.x1VFSB5Wgff97nbk",
+      "duration": {
+        "rounds": 20,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Swallow%20Potion.png",
+      "_id": "Hmm1eDV2Z6rZbUg4",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.derivedStats.hp.value",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p>Regenerate 3 points per round. In any round you are struck, you do not regenerate. This healing doesn’t stack with multiple uses.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!x1VFSB5Wgff97nbk.Hmm1eDV2Z6rZbUg4"
+    }
+  ],
+  "sort": 100782,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bb28ff1ba817057640f00da82028d4a182174785"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!x1VFSB5Wgff97nbk"
+}

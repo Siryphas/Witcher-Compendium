@@ -1,0 +1,101 @@
+{
+  "folder": "VadvsiPYs318L0AQ",
+  "name": "Diagram: Staff of Binding",
+  "type": "diagrams",
+  "_id": "S4c88CnGv0EgMfBm",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>A sturdy staff of hazel, treated with ester grease, ogre wax, and drake oil, inset with a carved bloodstone.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1332,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 19,
+    "alchemyDC": 0,
+    "craftingTime": "12h",
+    "investment": 666,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "4KCL5ad6N62cfAYg",
+        "name": "Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "7XLmNgJF69rNgpY6",
+        "name": "Fifth Essence",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "ccF9KYHITzOTGgtI",
+        "name": "Ashes",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      },
+      {
+        "id": "hqmALUSi0I1z0261",
+        "name": "Ester Grease",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "71ElwUwhUCGCNiQ4",
+        "name": "Drake Oil",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "eeR2ZjitvRebJS0G",
+        "name": "Ogre Wax",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "B61xb5N0IncdIYyc",
+        "name": "Gemstone",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.FG4KO7VNnfaauSvU"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.magic.Item.QD9TqxIuYp1t8lwk"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "443afc4153824ed6ed5ebbdf5dc6d9b099ca80c2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!S4c88CnGv0EgMfBm"
+}

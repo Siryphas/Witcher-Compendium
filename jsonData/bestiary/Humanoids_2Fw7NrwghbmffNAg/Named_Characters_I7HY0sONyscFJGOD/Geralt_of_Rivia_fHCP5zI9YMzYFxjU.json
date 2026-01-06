@@ -1,0 +1,4444 @@
+{
+  "name": "Geralt of Rivia",
+  "type": "character",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/1%20-%20Humanoids/Named%20NPCs/Geralt%20of%20Rivia%20%5Bsq%5D.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 14,
+        "current": 14,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 3,
+        "current": 3,
+        "total": 3,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      },
+      "toxicity": {
+        "max": 100
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 27,
+        "current": 27,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 80,
+        "current": 80,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 8,
+        "current": 8,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 55,
+        "value": 55,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 40,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 40,
+        "value": 40,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "resolve": {
+        "max": 35,
+        "value": 35,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "focus": {
+        "max": 21,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "value": 21,
+        "unmodifiedMax": 0
+      },
+      "vigor": {
+        "max": 7,
+        "value": 7,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 7
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 10,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 9,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 8,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 8,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 6,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 9,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 6,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 10,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "melee": {
+          "value": 7,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 4,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 9,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 11,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 10,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "crossbow": {
+          "value": 6,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 8,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 6,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 10,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 5,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 0,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 9,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 8,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": true
+        },
+        "resistmagic": {
+          "value": 6,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 8,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "pannels": {
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "intIsOpen": false,
+      "refIsOpen": false,
+      "dexIsOpen": false,
+      "bodyIsOpen": false,
+      "empIsOpen": false,
+      "craIsOpen": false,
+      "willIsOpen": false
+    },
+    "general": {
+      "background": {
+        "value": "<p><em>Geralt of Rivia, Eh? Well there&rsquo;s a hero if I ever&nbsp;hearda one. Ya see witchers ain&rsquo;t too highly&nbsp;thought of around these parts, but Geralt of&nbsp;Rivia&rsquo;s different. Most witchers don&rsquo;t get involved&nbsp;in our affairs. Just sorta pass through&nbsp;town, kill some monsters here and there then&nbsp;move on their way. Heh, hard to get to likin&rsquo;&nbsp;someone who only shows up to kill and leaves&nbsp;when the killin&rsquo;s done. Geralt on the other&nbsp;hand, this whoreson&rsquo;s name&rsquo;s been on everybody&rsquo;s&nbsp;tongues from Kovir to Nilfgaard. Name&nbsp;a major event in the last few decades and this&nbsp;guy&rsquo;s probably been there. Was part of the&nbsp;destruction of Stygga Castle in Nilfgaard&mdash;&nbsp;swear he&rsquo;s either lookin&rsquo; for trouble or he&rsquo;s the&nbsp;unluckiest man alive, heh. Last few years it&rsquo;s&nbsp;been gettin&rsquo; worse. First off, the whorseon died!&nbsp;Aye, now that&rsquo;s one hell of a trick ain&rsquo;t it? Folks&nbsp;say Geralt of Rivia was killed in Rivia by some&nbsp;blighter named Rob. Course even that can&rsquo;t&nbsp;keep this witcher down, and just a bit later&nbsp;he&rsquo;s back huntin&rsquo; for a bunch of criminals who&nbsp;raided his home in the Blue Mountains. Leaves&nbsp;Geralt in Vizima where he&rsquo;s gotta clean up the&nbsp;whole mutant mess Jacques de Aldersberg&nbsp;brought down on the city. Then, just last year,&nbsp;Geralt&rsquo;s put on the block for the murder of King&nbsp;Foltest of Temeria, only to escape and go on a&nbsp;hunt for the real killer. Winds up at the summit&nbsp;at Loc Muinne where all hell breaks loose&nbsp;again. There&rsquo;s a dragon and rebel mages, and&nbsp;the whole thing comes down to Geralt again.&nbsp;Guy can&rsquo;t catch a break. Either way. Hear he&rsquo;s&nbsp;wanderin&rsquo; the North lookin&rsquo; for his lost lady&nbsp;love, Yennefer of Vengerberg and some lass&nbsp;with ashen hair. Wish the best of luck to him.</em><br>&ndash;Rodolf Kazmer</p>"
+      },
+      "details": {
+        "clothing": {
+          "value": "",
+          "label": "WITCHER.Clothing"
+        },
+        "personality": {
+          "value": "",
+          "label": "WITCHER.Personality"
+        },
+        "hairStyle": {
+          "value": "",
+          "label": "WITCHER.Hair"
+        },
+        "affectations": {
+          "value": "",
+          "label": "WITCHER.Affectations"
+        },
+        "valuedPerson": {
+          "value": "",
+          "label": "WITCHER.ValuedPerson"
+        },
+        "value": {
+          "value": "",
+          "label": "WITCHER.Value"
+        },
+        "feelingsOnPeople": {
+          "value": "",
+          "label": "WITCHER.FeelingsOnPeople"
+        }
+      },
+      "homeland": {
+        "value": "other",
+        "otherValue": "Kaer Morhen"
+      },
+      "reputation": {
+        "value": "",
+        "label": "WITCHER.Reputation"
+      },
+      "socialStanding": "hatedFeared",
+      "name": "",
+      "race": "",
+      "age": 98,
+      "lifeEvents": {
+        "10": {
+          "decade": 1,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "20": {
+          "decade": 2,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "30": {
+          "decade": 3,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "40": {
+          "decade": 4,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "50": {
+          "decade": 5,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "60": {
+          "decade": 6,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "70": {
+          "decade": 7,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "80": {
+          "decade": 8,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "90": {
+          "decade": 9,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "100": {
+          "decade": 10,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "110": {
+          "decade": 11,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "120": {
+          "decade": 12,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "130": {
+          "decade": 13,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "140": {
+          "decade": 14,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "150": {
+          "decade": 15,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "160": {
+          "decade": 16,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "170": {
+          "decade": 17,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "180": {
+          "decade": 18,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "190": {
+          "decade": 19,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        },
+        "200": {
+          "decade": 20,
+          "value": "",
+          "isOpened": false,
+          "details": ""
+        }
+      }
+    },
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "attackStats": {
+      "meleeBonus": "2",
+      "punch": {
+        "value": "1d6+2",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+6",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "improvementPoints": 0,
+    "skillTraining1": {
+      "name": "",
+      "value": 0
+    },
+    "skillTraining2": {
+      "name": "",
+      "value": 0
+    },
+    "skillTraining3": {
+      "name": "",
+      "value": 0
+    },
+    "skillTraining4": {
+      "name": "",
+      "value": 0
+    },
+    "gender": "Male",
+    "notes": []
+  },
+  "prototypeToken": {
+    "name": "Geralt of Rivia",
+    "displayName": 30,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/pc-images/geralt_of_rivia.Token.webp?1710552138534",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.8,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 3,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c89632",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 17,
+      "angle": 180,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 1,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 17,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "GrapplePlacementFlag": "RowBelow",
+        "PilotedbyDefaultFlag": false,
+        "CheckPilotedCollisionFlag": false
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {},
+      "core": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Witcher Skill Tree",
+      "type": "profession",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Witcher%20Icon.jpg",
+      "system": {
+        "notes": "<h1>Transmutation</h1>\n<ul>\n<li><strong>Arachas:</strong> Anyone who comes in contact&nbsp;with your saliva has a 50%&nbsp;chance of being poisoned.</li>\n<li><strong>Nekker:</strong> Your legs become stronger,&nbsp;raising your LEAP by 3m.</li>\n<li><strong>Noon Wraith:</strong> Your eyes change, and you&nbsp;aren&rsquo;t affected by light&nbsp;conditions.</li>\n<li><strong>Katakan:</strong> Your andrenal glands change,&nbsp;allowing you to regenerate 3&nbsp;HP when you deal damage.</li>\n<li><strong>Wyvern:</strong> Your muscles strengthen,&nbsp;giving you a +5 to SPD which&nbsp;carries over to RUN.</li>\n<li><strong>Troll:</strong> Your body hardens, and so do&nbsp;your bones. You do an extra&nbsp;1d6 physical damage.</li>\n<li><strong>Fiend:</strong> Your eyes change&nbsp;imperceptibly and your gaze&nbsp;becomes subtly enthralling,&nbsp;giving a +4 to Charisma,&nbsp;Seduction, and Persuasion.</li>\n<li><strong>Grave Hag:</strong> Your body changes imperceptibly,&nbsp;allowing you to gain 10&nbsp;STA by killing targets.</li>\n<li><strong>Werewolf:</strong> Your jaws strengthen and your&nbsp;teeth sharpen just a hair, giving&nbsp;you a bite attack of 2d6.</li>\n<li><strong>Griffin:</strong> Your eyes change, allowing&nbsp;you to see for a great distance,&nbsp;giving a +4 to Awareness.</li>\n</ul>",
+        "definingSkill": {
+          "skillName": "Witcher Training",
+          "stat": "int",
+          "definition": "Most of a Witcher’s early life is spent within the walls of their keep, studying huge, dusty tomes and going through hellish combat training. Many have argued that the Witcher’s greatest weapon is their knowledge of monsters and their adaptability in any situation. When in a hostile environment or difficult terrain, a Witcher can lessen the penalties by half their Witcher Training value (minimum 1). Witcher Training can also be used in any situation that you would normally use Monster Lore for.",
+          "level": 10
+        },
+        "skillPath1": {
+          "pathName": "The Spellsword",
+          "skill1": {
+            "skillName": "Meditation",
+            "stat": "none",
+            "definition": "<p>A Witcher can enter a meditative trance which grants all the benefits of sleeping but allows them to remain vigilant. While meditating a Witcher is considered awake for the purpose of noticing anything within double their Meditation value in meters.</p>",
+            "level": 10
+          },
+          "skill2": {
+            "skillName": "Magical Source",
+            "stat": "none",
+            "definition": "<p>As a Witcher uses signs more often their body becomes more used to the effort. For every 2 points a Witcher has in Magical Source they gain 1 points of Vigor threshold. When this ability reaches level 10, your maximum Vigor Threshold becomes 7.</p>\n<p>This skill can be trained like other skills.</p>",
+            "level": 10
+          },
+          "skill3": {
+            "skillName": "Heliotrope",
+            "stat": "will",
+            "definition": "When a Witcher is targeted by a spell, invocation, or hex they can roll Heliotrope to attempt to negate the effects. They must roll a Heliotrope roll that equals or beats the opponent’s roll and expend an amount of Stamina equal to half the Stamina spent to cast the magic.",
+            "level": 6
+          }
+        },
+        "skillPath2": {
+          "pathName": "The Mutant",
+          "skill1": {
+            "skillName": "Iron Stomach",
+            "stat": "none",
+            "definition": "<p>After decades of drinking toxic witcher potions, witcher bodies adapt to the toxins. A witcher can endure 5% more toxicity from drinking potions and decoctions per 2 points they spend on Iron Stomach. This skill can be trained like other skills. At level 10, a witcher&rsquo;s maximum toxicity is 150%.</p>",
+            "level": 8
+          },
+          "skill2": {
+            "skillName": "Frenzy",
+            "stat": "none",
+            "definition": "<p>When poisoned, a witcher goes into a frenzy and deals an extra 1 melee damage per level in Frenzy. While in a Frenzy, your single goal is to get to a place of safety or kill the target that poisoned you. When the poison wears off, the Frenzy ends. You can attempt to end Frenzy early with a DC:15 Endurance roll.</p>",
+            "level": 8
+          },
+          "skill3": {
+            "skillName": "Transmutation",
+            "stat": "body",
+            "definition": "<p>When taking decoctions a Witcher can roll Transmutation at DC:18. A success allows their body to assimilate slightly more of the mutagen than usual and gain a bonus based on which decoction they take. The decoction lasts half as long as it normally would. The extra mutations are too subtle to spot.</p>",
+            "level": 6
+          }
+        },
+        "skillPath3": {
+          "pathName": "The Slayer",
+          "skill1": {
+            "skillName": "Parry Arrows",
+            "stat": "dex",
+            "definition": "<p>A Witcher can roll Parry Arrows at a -3 to deflect physical projectiles. When parrying, the Witcher can choose a target within 10m. That target must take a defense action against the Witcher&rsquo;s Parry Arrows roll or be Staggered by the flying projectile.</p>",
+            "level": 10
+          },
+          "skill2": {
+            "skillName": "Quick Strike",
+            "stat": "ref",
+            "definition": "<p>After a Witcher takes their turn they can spend 5 STA and make a Quick Strike roll at a DC equal to their opponent&rsquo;s REFx3. On success, they make another single strike in that round. This attack must be made against the opponent they rolled against, but can include disarms, trips, and other attacks.</p>",
+            "level": 8
+          },
+          "skill3": {
+            "skillName": "Whirl",
+            "stat": "ref",
+            "definition": "<p>By spending 5 STA per round, a witcher can enter a Whirl, where the witcher makes one attack against everyone within sword range each turn, with their Whirl roll acting as the attack roll. The witcher can only maintain this Whirl, dodge, and move 2m each round. Doing anything else or being hit halts the Whirl.</p>",
+            "level": 6
+          }
+        },
+        "quantity": "1",
+        "description": "",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QXnUaFjEzgosKVQr": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "2899bab785da0a30e32962f3d6b5a0fb97309c75"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.professions.Item.aFH82SNDQQtExB4Y",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "witcher-archive",
+          "uuid": null,
+          "coreVersion": "10.291",
+          "systemId": "TheWitcherTRPG",
+          "systemVersion": "0.96"
+        }
+      },
+      "_id": "0nFJE1BHCzjzP2WN",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.0nFJE1BHCzjzP2WN"
+    },
+    {
+      "name": "Witcher",
+      "type": "race",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+      "system": {
+        "perk1": {
+          "name": "Enhanced Senses",
+          "description": "<p>Due to their heightened senses, witchers take no penalties from areas of dim light and gain an inherent +1 to their Awareness skill, as well as the ability to track things by scent alone.</p>"
+        },
+        "perk2": {
+          "name": "Dulled Emotions",
+          "description": "<p>\u0017Thanks to trauma and mutation, a witcher&rsquo;s emotions are dulled. Witchers do not have to make courage checks against Intimidation, but they have a -4 to their Empathy Stat. \u0017 This cannot bring Empathy below 1.</p>"
+        },
+        "perk3": {
+          "name": "Resilient Mutation",
+          "description": "<p>A\u0016fter all of the mutations required to become a witcher, they are immune to diseases and are able to use mutagens.</p>"
+        },
+        "perk4": {
+          "name": "Lightning Re\u001dflexes",
+          "description": "<p>A\u0016fter intensive training and mutation, witchers are much faster and more agile than humans. They gain a permanent +1 to their Re\u0015flex and Dexterity that can raise both stats above 10.</p>"
+        },
+        "socialStanding": {
+          "north": "hatedFeared",
+          "nilfgaard": "hatedFeared",
+          "skellige": "tolerated",
+          "dolBlathanna": "tolerated",
+          "mahakam": "tolerated"
+        },
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true
+      },
+      "effects": [
+        {
+          "name": "Enhanced Senses",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+          "_id": "kLotNDOh4js93Q1R",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.skills.int.awareness.activeEffectModifiers",
+              "mode": 2,
+              "value": "1",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">Due to their heightened senses, witchers take no penalties from areas of dim light and gain an inherent +1 to their Awareness skill, as well as the ability to track things by scent alone.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.zsFtxm9nCVSZpw6e.kLotNDOh4js93Q1R"
+        },
+        {
+          "name": "Dulled Emotions",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+          "_id": "ZxRqav4xp70mycCO",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.stats.emp.totalModifiers",
+              "mode": 2,
+              "value": "-4",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">Thanks to trauma and mutation, a witcher’s emotions are dulled. Witchers do not have to make courage checks against Intimidation, but they have a -4 to their Empathy Stat. \u0017 This cannot bring Empathy below 1.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.zsFtxm9nCVSZpw6e.ZxRqav4xp70mycCO"
+        },
+        {
+          "name": "Resilient Mutation",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+          "_id": "vRBxxfmlprdeHPFQ",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">A\u0016fter all of the mutations required to become a witcher, they are immune to diseases and are able to use mutagens.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.zsFtxm9nCVSZpw6e.vRBxxfmlprdeHPFQ"
+        },
+        {
+          "name": "Lightning Reflexes",
+          "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+          "duration": {
+            "rounds": null,
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+          "_id": "JZU2uuw5Jo9bfLr6",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.stats.ref.totalModifiers",
+              "mode": 2,
+              "value": "+1",
+              "priority": null
+            },
+            {
+              "key": "system.stats.dex.totalModifiers",
+              "mode": 2,
+              "value": "+1",
+              "priority": null
+            }
+          ],
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">A\u0016fter intensive training and mutation, witchers are much faster and more agile than humans. They gain a permanent +1 to their Re\u0015flex and Dexterity that can raise both stats above 10.</span></p>",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.12.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.zsFtxm9nCVSZpw6e.JZU2uuw5Jo9bfLr6"
+        }
+      ],
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "sourceId": "Compendium.wtrpg-compendium.races.Item.2MhdYhw0NAsKWer6",
+          "hash": "9880a571b9ce23b25d618276de50099535d83bea"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "QXnUaFjEzgosKVQr": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "_id": "zsFtxm9nCVSZpw6e",
+      "sort": 400000,
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.zsFtxm9nCVSZpw6e"
+    },
+    {
+      "name": "Punch",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "1d6",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "both",
+        "range": "Melee",
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "brawling",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "sourcebook": "Corebook",
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "WIPDR0R2RkvHz9Yz",
+              "name": "Non-Lethal",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "isNonLethal": true
+        },
+        "enhancementItemIds": [],
+        "isStored": false,
+        "isCarried": true,
+        "equipped": true,
+        "defenseProperties": {
+          "parrying": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "effects": [],
+      "folder": "DFlwge2Gda7e5ZNo",
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "a1063870f6ff5c307a959874dcc0b70549cda110"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.3xGZ7ko323b2f2VZ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_id": "GpOyTZgquzDvTuBK",
+      "sort": -100000,
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.GpOyTZgquzDvTuBK"
+    },
+    {
+      "name": "Kick",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/movement/feet-spurred-boots-brown.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "1d6+4",
+        "reliable": 0,
+        "maxReliability": 0,
+        "hands": "none",
+        "range": "Melee",
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "brawling",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "sourcebook": "Corebook",
+        "enhancementItemIds": [],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "O4prEP6xUkMn3mDI",
+              "name": "Non-Lethal",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "isNonLethal": true
+        },
+        "isStored": false,
+        "isCarried": true,
+        "equipped": true,
+        "defenseProperties": {
+          "parrying": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ]
+      },
+      "effects": [],
+      "folder": "DFlwge2Gda7e5ZNo",
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "87cc44e5096e508f2818b8aace6d270244df1124"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.O3KXs49xyOoqUEjg",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_id": "0VXdqTl4SiPSzKML",
+      "sort": -50000,
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.0VXdqTl4SiPSzKML"
+    },
+    {
+      "folder": "YW25JdgIlwCTZufs",
+      "name": "Wolf Medallion",
+      "type": "valuable",
+      "_id": "ZpvDkbTTU6eqYCmj",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Wolf%20Medallion.jpg",
+      "system": {
+        "description": "Witcher medallions are small pendants made of silver that hang around a witcher's neck. When they come within 20m of any monster, curse, or spell that is currently being cast, the medallion vibrates almost imperceptibly, alerting the witcher.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": "clothing",
+        "avail": "WITCHER",
+        "effect": "",
+        "conceal": "T",
+        "quality": "",
+        "sourcebook": "Corebook",
+        "isStored": false,
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "31f07ce812d043bf168a3cc5e0ba5f9abc5c78b9"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.dYqhuOIYFk8InqCK",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.ZpvDkbTTU6eqYCmj"
+    },
+    {
+      "folder": "ZyO0wrFxXN9RyPmW",
+      "name": "Alchemy Set",
+      "type": "valuable",
+      "_id": "FACTCWWjsFQJ3LV3",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/laboratory/vials-blue-pink.webp",
+      "system": {
+        "description": "Allows you to craft alchemical items.\nAlchemical sets have a number of vials and bottles to hold the potions you create. Each alchemy set hold 10 vials for formulae.",
+        "quantity": "1",
+        "weight": 3,
+        "cost": 80,
+        "isHidden": false,
+        "type": "toolkit",
+        "avail": "Poor",
+        "effect": "",
+        "conceal": "L",
+        "quality": "",
+        "sourcebook": "Corebook",
+        "isStored": false,
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        }
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "68e92661189f0f0eb0741f3c1d8576b9e703c32a"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.m6v1cqcSUKLzO6Q5",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.FACTCWWjsFQJ3LV3"
+    },
+    {
+      "name": "Bandolier",
+      "type": "container",
+      "_id": "6BatVCVPpLiXJHCw",
+      "img": "icons/containers/ammunition/bullets-belt.webp",
+      "system": {
+        "description": "\"This belt goes around your chest, from shoulder to waist, and has hooks and pockets. It'll hold 25kg of tiny items, or larger items hooked onto it.\"\n-Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 19,
+        "isHidden": false,
+        "isStored": false,
+        "carry": 25,
+        "content": [],
+        "sourcebook": "Corebook",
+        "isCarried": true,
+        "storedWeight": 0
+      },
+      "effects": [],
+      "folder": "09bGxTVxd1pIZCDV",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "b8fd95e6bf63073fb39933b1df7fe1d6096e0611"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.fUyiV8T3nDMUUNXp",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.6BatVCVPpLiXJHCw"
+    },
+    {
+      "folder": "09bGxTVxd1pIZCDV",
+      "name": "Belt Pouch",
+      "type": "container",
+      "_id": "Pjj02EAZe0QBpzOw",
+      "img": "icons/containers/bags/coinpouch-simple-leather-tan.webp",
+      "system": {
+        "description": "\"Just a small pouch that hooks onto a belt. Carries 5kg of tiny items.\"\n-Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 0.1,
+        "cost": 7,
+        "isHidden": false,
+        "isStored": false,
+        "carry": 5,
+        "content": [],
+        "sourcebook": "Corebook",
+        "isCarried": true,
+        "storedWeight": 0
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "9c7b6b47df2f2b3c60d155bdeb8bc17545a8f9d5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.CH44go4E7sOocWst",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.Pjj02EAZe0QBpzOw"
+    },
+    {
+      "_id": "QV0vhkpGl5a45UgA",
+      "name": "Wolf",
+      "type": "weapon",
+      "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
+      "system": {
+        "description": "Education DC: 16\n\nNothin’ in Skellige could stop Uffe the Bloody’s blade. Thirty-two years that son of a whore fought and ploughed across the islands, from An Skellig to Faroe and back. Made plenty of friends and twice as many enemies. Heh, ain’t that the way it goes? Uffe always traveled with his blood brother Nadim. Lesser-known swordsman with no real reputation, but Uffe and him got along like a ploughin’ house on fire. One night the two were huntin’ in the mountains of Ard Skellig, lookin’ for bear or cyclopses or somethin’ they could brag about killin’. Stalked the mountain passes ‘til the sun’d gone down when they spotted a hut in a clearin’. Nadim figured they could take shelter there for a while and so they tromped over. Heh, turned out the hut was owned by a beautiful young lass—tales don’t say what her name was. Outta courtesy she let the men stay by her hearth for the night and fed ‘em. Problem was Uffe’d always been a little too fond’a pretty young lasses and none too good at takin’ no for an answer. The woman turned him down quite a few times, and to his credit Nadim tried to distract his horny mate. He got Uffe bedded down and Uffe seemed to calm his loins. But that was far from the case.\nDon’t take a genius to guess what happened next. But as Uffe wrestled the woman to the ground, she stopped strugglin’ and started spittin’ strange phrases and words at him. By the time Nadim got on his feet the magic’d already taken hold—Uffe was cursed. Tales say the woman’d made Uffe’s outside match his beastly insides. Old bastard staggered outta the shack and headed for the peaks. Poor Nadim couldn’t figure no way to get his blood brother back, and deep down he was disgusted by his friend’s crimes. So he took up his friend’s blade and set off to put ol’ Uffe down before he became a real monster. \nIt wasn’t easy to find Uffe, who’d sprinted off into the high peaks of Ard Skellig. When Nadim did catch up, he found only a devilish beast—a werewolf. The battle was tremendous, but Nadim’s resolve stayed strong. Finally he managed to put the sword through the beast’s heart, killin’ his old friend. They say Nadim named the blade Wolf an’ carried it with him ‘til his death ten years later. A little part of the beast that’d once been his friend lives in that blade to this day.\n- Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 4,
+        "cost": 0,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "NA",
+        "avail": "Rare",
+        "hands": "both",
+        "equipped": false,
+        "reliable": 15,
+        "maxReliability": 15,
+        "damage": "7d6",
+        "range": "Melee",
+        "accuracy": 2,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 3,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "swordsmanship",
+        "rangedAttackSkill": "swordsmanship",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": true,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "DZ6QoamIRxWQogQY",
+              "name": "Bleed",
+              "statusEffect": "bleed",
+              "percentage": 75,
+              "varEffect": false
+            },
+            {
+              "id": "nF2xeFdne8XH3Rde",
+              "name": "Armor Piercing",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "jz8sCrSi9t14JmsZ",
+      "sort": -31250,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "0a355089ebe4f6600a65af586826ec22256aa908"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.R3J2lLwp0nQholYo",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.QV0vhkpGl5a45UgA"
+    },
+    {
+      "_id": "gtZJTip0qDheL4zE",
+      "name": "Moon Blade",
+      "type": "weapon",
+      "img": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+      "system": {
+        "description": "Education DC: 18\n\nGoetia ain’t a common occurence. Heh, turns out most people are smart enough to realize meddlin’ with devils is a bad idea. But now and again somebody forgets that and gives it a go. Ages ago, this Temerian mage named Trystan of Ellander decided he’d had it with bein’ a cut-rate magician and wanted the world to recognize him for the powerful mage he was. Heh, apparently the best way he could think to do that was summonin’ a devil to make a deal. The mage I dally with now and again says most folks who summon devils either desperately need the help or are sure they can outwit the beast. Probably Trystan thought he was one of the ‘smart’ ones. Summoned the devil in the middle of his study in Ellander and demanded that it give him its power. \nFolk say Trystan had done research in outdated textbooks from before Goetia was illegal across the North. Thought that burnin’ garlic and osha root would weaken the devil and force it to bargain with him. Couldn’t’a been farther from the truth, as he learned pretty damn quick. Devil killed Trystan without a second thought and possessed his body. Set off right away and started wreakin’ havoc in northern Temeria from the coast to the Mahakams. Now, a mage ain’t too hard to kill if ya know what you’re doin’ or have a good group of lads with ya. Problem, they soon found, was when ya kill a devil’s host it flies into some other unfortunate whoreson and disappears for a while. Lies low, then starts its mayhem all over again. Heh, got to where folk were scared to talk to anyone anymore. Never knew who might be possessed by the devil.\nEventually word went out: folk needed a witcher and they needed one bad. Olek of Ban Gleán was their boy, a Wolf School witcher who’d been on the road from Kaer Morhen down to Cintra. When he heard word of the devil in the north he just nodded his head and went to meet with the Duke of Ellander. Didn’t demand much either, just a new silver blade and a pound of coin. My guess is he asked for more but that’s what he got, heh. The Duke had the smiths of Ellander craft a blade of shimmerin’ silver and had it anointed by the few remainin’ priestesses of Lilvani, Goddess of the Moon. Duke was a religious man, and what’s better to fight devils, I guess? With his new sword, Olek lay in wait in Hagge until he spotted the devil, possessin’ a farmer, about to set fire to the granary. Olek confronted the devil but the hell-spawned bastard just laughed. Said the witcher wouldn’t cut down an innocent to kill him. But that ain’t the case—a witcher kills monsters, even if it means takin’ a few innocent lives along the way. Olek cut down the farmer on the spot, forcin’ the devil outta hidin’.\nFrom there, it was all one big battle o’ whirlin’ blades and claws and fangs. Finally the witcher landed a clean shot on the devil, hewin’ the whorseon in half with one huge swing. Folk say Lilvani guided the witcher’s hand through the Moon Blade, but who knows? Never been too religious myself.\n- Rodolf Kazmer",
+        "quantity": "1",
+        "weight": 4,
+        "cost": 0,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "NA",
+        "avail": "Rare",
+        "hands": "both",
+        "equipped": false,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "3d6",
+        "range": "Melee",
+        "accuracy": 1,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 3,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "swordsmanship",
+        "rangedAttackSkill": "swordsmanship",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "B3WDkzlkDbkV3tDs",
+              "name": "Greater Focus",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "OUqOLh1E1cf9oztM",
+              "name": "Silver (7d6+4)",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "7d6+4",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "jz8sCrSi9t14JmsZ",
+      "sort": -15625,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "c90efe2fa4d6418c4b33e833e1b1d354de544dd4"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.FBpDTMEVxWVcBJPn",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.gtZJTip0qDheL4zE"
+    },
+    {
+      "_id": "cJCKhzt1GRaVx2xG",
+      "name": "Throwing Knife",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/daggers-guard-green.webp",
+      "system": {
+        "description": "Throwing knives are an interesting bit a’ work. Small, easily concealed, and balanced for throwing. Ya have to practice to know rotation speeds and such, but they can be worth it. Good assassin weapon.",
+        "quantity": "5",
+        "weight": 0.5,
+        "cost": 50,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "T",
+        "avail": "Everywhere",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 5,
+        "maxReliability": 5,
+        "damage": "1d6",
+        "range": "Body x4m",
+        "accuracy": 0,
+        "rateOfFire": 2,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "ranged"
+        ],
+        "meleeAttackSkill": "athletics",
+        "rangedAttackSkill": "athletics",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": true,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parryThrown"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.51hpR16Z4HsmeG9O"
+      },
+      "effects": [],
+      "folder": "n3MjCWEwNizbvl3A",
+      "sort": -7812,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "92d06809da64e3cbdfc31dbcf68df4c85edc8fd8"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.zpShLRHvL0DL1hgW",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.cJCKhzt1GRaVx2xG"
+    },
+    {
+      "_id": "2iplzDXuqvgglAK2",
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-simple-red.webp",
+      "system": {
+        "description": "Not sure where the hand crossbow came from. Guess it probably started as a sorta civilian crossbow. They’re smaller and less powerful than a standard crossbow but they’ll fit in one hand and they’re easy to fire accurately. Nowadays they’re touted for home defense, since many people can’t afford to learn how to fight and crossbows don’t take much learnin’.",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": 285,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "L",
+        "avail": "Everywhere",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 5,
+        "maxReliability": 5,
+        "damage": "2d6+2",
+        "range": "50m",
+        "accuracy": 1,
+        "rateOfFire": 0.5,
+        "usingAmmo": true,
+        "rollOnlyDmg": false,
+        "enhancements": 1,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "ranged"
+        ],
+        "meleeAttackSkill": "crossbow",
+        "rangedAttackSkill": "crossbow",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Slow Reload",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.bhSB6xBe9DpEbnVb"
+      },
+      "effects": [],
+      "folder": "1z0iC1WTnUW9OJ1J",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "8fb7df08227959cf0b43484c3f5eaa825ccf34e0"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.MMxh3ImodzeNNdM3",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.2iplzDXuqvgglAK2"
+    },
+    {
+      "_id": "FkxlfXa6lvImTrpq",
+      "name": "Standard, Ammo",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-simple.webp",
+      "system": {
+        "description": "Heh, if ya got a weapon that throws a projectile, ya need projectiles. Standard ammunition is basically your typical bolt or arrow. Bolts are usually smaller than arrows, but they both have a sharp metal head and feather fletching.",
+        "quantity": "20",
+        "weight": 0.05,
+        "cost": 1,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": true,
+        "conceal": "L",
+        "avail": "Everywhere",
+        "hands": "1",
+        "equipped": false,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "",
+        "range": "",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [],
+        "meleeAttackSkill": "Brawling",
+        "rangedAttackSkill": "Brawling",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "6wLE6hCFzEho3RH3",
+      "sort": 50000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "25219f1f2ba6a2a188d435f35830cc960ee05bb6"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.6nJ0EK9RcQnuMBkH",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.FkxlfXa6lvImTrpq"
+    },
+    {
+      "_id": "IR6xV2rxcum2VSFE",
+      "name": "Explosive",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-broadhead-glowing-orange.webp",
+      "system": {
+        "description": "Explosive ammunition carries a small vial of highly reactive chemicals.\nWhen it strikes the target the vial breaks, causing an explosion that does 4d6 damage to every location of every person within 2m.",
+        "quantity": "5",
+        "weight": 0.1,
+        "cost": 108,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Elemental",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": true
+        },
+        "isAmmo": true,
+        "conceal": "T",
+        "avail": "Rare",
+        "hands": "1",
+        "equipped": false,
+        "reliable": 5,
+        "maxReliability": 5,
+        "damage": "",
+        "range": "",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [],
+        "meleeAttackSkill": "Brawling",
+        "rangedAttackSkill": "Brawling",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": true,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "4d6 all locations, all targets in 2m.",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "FbNbXVpIsdS1bGGt",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "ddc339e180eb8287618f97a6cb63ab7d187310f6"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.6efxVVPNRYNSjlK1",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.IR6xV2rxcum2VSFE"
+    },
+    {
+      "_id": "XYEwlVQKbPbVfGog",
+      "name": "Poinard",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-straight-cracked.webp",
+      "system": {
+        "description": "Heh, a good old-fashioned Temerian design. Long, slim, and lightweight. I got stuck fightin’ a black one at the Battle of Sodden with one of these. He broke six of my ribs, but I’m still here and he’s not.",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 350,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "S",
+        "avail": "Poor",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "2d6+2",
+        "range": "Melee",
+        "accuracy": 1,
+        "rateOfFire": 2,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "smallblades",
+        "rangedAttackSkill": "smallblades",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.JJC7UmSUj0Za4EoT"
+      },
+      "effects": [],
+      "folder": "qlH2nWMWutV4oD4E",
+      "sort": -11718,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "23c9d080574e45ed1b72b76d8c59dc2d49ba231e"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.zKBID0z2i7ycSEto",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.XYEwlVQKbPbVfGog"
+    },
+    {
+      "_id": "ga6D7Mi7btAljhrj",
+      "name": "Grapeshot",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-black.webp",
+      "system": {
+        "description": "Fire (25%)",
+        "quantity": "3",
+        "weight": 1,
+        "cost": 159,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "S",
+        "avail": "Rare",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 0,
+        "maxReliability": 0,
+        "damage": "7d6",
+        "range": "4m",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "ranged"
+        ],
+        "meleeAttackSkill": "athletics",
+        "rangedAttackSkill": "athletics",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": true,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": true,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Fire",
+              "statusEffect": null,
+              "percentage": 14,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "parryThrown"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "8n7h7LVgtyJesEgt",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "bcce0ce888bc4fc56e6b3c663110230a679e7d13"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.gjsqLJbPDhIquGBA",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.ga6D7Mi7btAljhrj"
+    },
+    {
+      "_id": "F0g6fC91R2j8OLMx",
+      "name": "Samum",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-pink.webp",
+      "system": {
+        "description": "Anyone caught in the blast of this bomb must make a\nStun save at -2 and is blinded for 6 rounds.",
+        "quantity": "3",
+        "weight": 1,
+        "cost": 147,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "S",
+        "avail": "Rare",
+        "hands": "right",
+        "equipped": false,
+        "reliable": 0,
+        "maxReliability": 0,
+        "damage": "0",
+        "range": "4m",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "ranged"
+        ],
+        "meleeAttackSkill": "athletics",
+        "rangedAttackSkill": "athletics",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": true,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": true,
+          "bypassesNaturalArmor": true,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Stun (-2)",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_1hekge5iy",
+              "name": "Blinded 6 Rounds",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "parryThrown"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "8n7h7LVgtyJesEgt",
+      "sort": 650000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "5bb6645b65be1a64bcdc9acf7317c7e1f6a4daa6"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.TJVflZWfC7vTUKzy",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.F0g6fC91R2j8OLMx"
+    },
+    {
+      "_id": "p7GzegFdjfu7L3rd",
+      "name": "Wyvern Decoction",
+      "type": "alchemical",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Wyvern%20Decoction.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": null,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "decoction",
+        "avail": "WITCHER",
+        "isConsumable": true,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": [
+            {
+              "id": "23iwH0VxBr7Zh7zh",
+              "name": "Buffed",
+              "statusEffect": "buffed",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ]
+        },
+        "effect": "You gain +1 damage to your next successful strike. This +1 is cumulative, and goes up with each hit until the combat ends or you take damage.",
+        "time": "30 Mins",
+        "toxicity": "75%"
+      },
+      "effects": [
+        {
+          "_id": "GG6hu2GTFcFNdmhO",
+          "name": "Wyvern Decoction",
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Wyvern%20Decoction.png",
+          "type": "base",
+          "system": {
+            "applySelf": true,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": 30,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>You gain +1 damage to your next successful strike. This +1 is cumulative, and goes up with each hit until the combat ends or you take damage.</p>",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.qsN436d7d6IxcLqj",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.p7GzegFdjfu7L3rd.GG6hu2GTFcFNdmhO"
+        }
+      ],
+      "folder": "kLYoZnWubCPx3b4O",
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "f169953f386341f6c17e1e42a1e8dafdd28833e8"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.qsN436d7d6IxcLqj",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.p7GzegFdjfu7L3rd"
+    },
+    {
+      "_id": "7H291GAvunVllHNo",
+      "name": "Katakan Decoction",
+      "type": "alchemical",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Katakan%20Decoction.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": null,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "decoction",
+        "avail": "WITCHER",
+        "isConsumable": true,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        },
+        "effect": "You gain +3 to your roll when determining the location of a critical wound.",
+        "time": "30 Mins",
+        "toxicity": "75%"
+      },
+      "effects": [
+        {
+          "_id": "OdmQa6ATP7ii4pQh",
+          "name": "Katakan Decoction",
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Katakan%20Decoction.png",
+          "type": "base",
+          "system": {
+            "applySelf": true,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": 30,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>You gain +3 to your roll when determining the location of a critical wound.</p>",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.xYrs146el5xyohE7",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.7H291GAvunVllHNo.OdmQa6ATP7ii4pQh"
+        }
+      ],
+      "folder": "kLYoZnWubCPx3b4O",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "5c4a64b1e40d6a579615eb46cd87011006d3b6e6"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.xYrs146el5xyohE7",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.7H291GAvunVllHNo"
+    },
+    {
+      "_id": "zjCj91NphVWkoVMF",
+      "name": "Thunderbolt",
+      "type": "alchemical",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Thunderbolt%20Potion.png",
+      "system": {
+        "description": "",
+        "quantity": "3",
+        "weight": 0.5,
+        "cost": null,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "potion",
+        "avail": "WITCHER",
+        "isConsumable": true,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": []
+        },
+        "effect": "+3 damage on physical attacks.",
+        "time": "15 Rounds",
+        "toxicity": "75%"
+      },
+      "effects": [
+        {
+          "_id": "rHNrF5090cu97tJS",
+          "name": "Thunderbolt",
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Thunderbolt%20Potion.png",
+          "type": "base",
+          "system": {
+            "applySelf": true,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.addMeleeBonus",
+              "value": "3",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": 15,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>+3 damage on physical attacks.</p>",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.an1mm1GWwExcNut3",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.zjCj91NphVWkoVMF.rHNrF5090cu97tJS"
+        }
+      ],
+      "folder": "GSFkuJvwkT3fH73H",
+      "sort": 100196,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "a9a72c330d47a7b7d0122347ce9550e98d6c92cc"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.an1mm1GWwExcNut3",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.zjCj91NphVWkoVMF"
+    },
+    {
+      "_id": "G0kkuDzAWQerN0t7",
+      "name": "Swallow",
+      "type": "alchemical",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Swallow%20Potion.png",
+      "system": {
+        "description": "",
+        "quantity": "3",
+        "weight": 0.5,
+        "cost": null,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "potion",
+        "avail": "WITCHER",
+        "isConsumable": true,
+        "consumeProperties": {
+          "doesHeal": true,
+          "heal": "3",
+          "appliesGlobalModifier": false,
+          "consumeGlobalModifiers": [],
+          "effects": [
+            {
+              "id": "3szSLuG7HH2OZRn0",
+              "name": "Healing",
+              "statusEffect": "healing",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ]
+        },
+        "effect": "Regenerate 3 points per round. In any round you are struck, you do not regenerate. This healing doesn’t stack with multiple uses.",
+        "time": "20 Rounds",
+        "toxicity": "50%"
+      },
+      "effects": [
+        {
+          "_id": "Hmm1eDV2Z6rZbUg4",
+          "name": "Swallow",
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Swallow%20Potion.png",
+          "type": "base",
+          "system": {
+            "applySelf": true,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.derivedStats.hp.value",
+              "value": "3",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": 20,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Regenerate 3 points per round. In any round you are struck, you do not regenerate. This healing doesn’t stack with multiple uses.</p>",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.x1VFSB5Wgff97nbk",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.G0kkuDzAWQerN0t7.Hmm1eDV2Z6rZbUg4"
+        }
+      ],
+      "folder": "GSFkuJvwkT3fH73H",
+      "sort": 100782,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "378e9bb64cc72d889574b404c510fc8ecc5b148e"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.x1VFSB5Wgff97nbk",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.G0kkuDzAWQerN0t7"
+    },
+    {
+      "_id": "XoAct2ZKwNi4eqJJ",
+      "name": "Raven's Armor",
+      "type": "armor",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Raven%20Armor.webp",
+      "system": {
+        "description": "Education DC: 14\n\nWitchers get a hell of a deal—taken from their folks, experimented on for years, an’ taught to be killers and what do they get? Spat on by grubby villagers, mostly, an’ buried where they fall. But every once in a while ya get a celebrity among ‘em. Geralt of Rivia’s one’a the best-known folk across the damn Continent, but Raven was one of the first, and he made for plenty of good stories. \nRaven was a Gryphon witcher from the heights of the Dragon Mountains. Came down into the North to hunt monsters and lift curses every spring and summer. Raven started gainin’ fame after liftin’ a lycanthropy curse off the Duke of Maribor. After that, folk started spreadin’ tales of the Black Gryphon, Raven of the High Mountains. Story after story’d pop up, and they’d always be grand—slayin’ vicious cyclopses, goin’ toe to toe with manticores, that sorta thing. Crownin’ moment came in Mahakam, where Raven got a summons from the head of Clan Hoog.\nYa see, for years there’d been trouble in the highest peaks of the Mahakams, namely a huge ploughin’ draconid called the ‘Black Drake.’ Mahakaman defenders’d been sent up against the thing, dwarven heroes of old, bands of mercenaries, the full barrage. But this Black Drake just wouldn’t die. Eventually, folk just decided to leave ‘im an’ steer clear of those high peaks. ‘Course, just a few months on, a huge ploughin’ meteorite fell—right up in those heights. Heh, lemme tell ya my friend, dwarves’ll do a lot for rare ore and that includes hirin’ a witcher.\nGuess Raven thought the beast was dangerous, ‘cause he had the forge masters in Mahakam craft him a new suit of armor. Sleek, black armor, dwarf-forged and finished by gnomes. Musta been gorgeous. ‘Specially given legend says it caught the eye of none other than Tyen’Sail, the famed elvish songsmith. He’d been travelin’ Mahakam lookin’ for inspiration and stumbled upon the smiths finishin’ Raven’s armor. Tyen’Sail asked the witcher fer a chance to work on the armor. It’d take some time, he said, but he’d weave legends into the suit enchantments of bravery, power, and whatnot. Raven agreed, and Tyen’Sail worked for twelve damn days straight, etchin’ the suit, singin’ ancient songs of power and victory all the while. \nWith the armor done, the battle was at hand. Raven went up the mountain to face the Black Drake. Tyen’Sail wrote a song about it—ya should really hear it some time. Ploughin’ magnificent if I do say so myself! ‘Course, Raven won the battle in his gleamin’ armor and brought home the Drake’s head. Collected his coin and went on his way like nothin’ different’d happened. Life of a witcher never changes, I guess.",
+        "quantity": "1",
+        "weight": 12,
+        "cost": 0,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "Light",
+        "avail": "Rare",
+        "equipped": true,
+        "reliability": 0,
+        "reliabilityMax": 0,
+        "encumb": 0,
+        "location": "FullCover",
+        "bludgeoning": false,
+        "slashing": false,
+        "piercing": false,
+        "headStopping": 0,
+        "headMaxStopping": 0,
+        "torsoStopping": 12,
+        "torsoMaxStopping": 12,
+        "leftArmStopping": 12,
+        "leftArmMaxStopping": 12,
+        "rightArmStopping": 12,
+        "rightArmMaxStopping": 12,
+        "leftLegStopping": 12,
+        "leftLegMaxStopping": 12,
+        "rightLegStopping": 12,
+        "rightLegMaxStopping": 12,
+        "enhancements": 3,
+        "enhancementItemIds": [],
+        "effects": [
+          {
+            "id": "first",
+            "name": "+15 HP",
+            "statusEffect": null,
+            "percentage": 0,
+            "varEffect": false
+          },
+          {
+            "id": "CUHHjjRK9jugpiDr",
+            "name": "Poison Resistance",
+            "statusEffect": "poison",
+            "percentage": 0,
+            "varEffect": false
+          },
+          {
+            "id": "6C9oKCPdSXXrRqkW",
+            "name": "Bleed Resistance",
+            "statusEffect": "bleed",
+            "percentage": 0,
+            "varEffect": false
+          },
+          {
+            "id": "rjnJSTz2eOloIemd",
+            "name": "+3 Courage",
+            "statusEffect": null,
+            "percentage": 0,
+            "varEffect": false
+          }
+        ],
+        "associatedDiagramUuid": ""
+      },
+      "effects": [
+        {
+          "_id": "XuXGg1D8Mx58jHZR",
+          "name": "Raven's Armor",
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Raven%20Armor.webp",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": false,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [
+            {
+              "key": "system.derivedStats.hp.totalModifiers",
+              "value": "15",
+              "mode": 2,
+              "priority": null
+            },
+            {
+              "key": "system.skills.will.courage.activeEffectModifiers",
+              "value": "3",
+              "mode": 2,
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": "Compendium.wtrpg-complete-compendium.gear.Item.c9pPkyG5ZaT5cvIi",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.XoAct2ZKwNi4eqJJ.XuXGg1D8Mx58jHZR"
+        }
+      ],
+      "folder": "4AYBiiajDGY2PwaW",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "8fd37466aedaa4b451998071dbc444c2407ef169"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.c9pPkyG5ZaT5cvIi",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.XoAct2ZKwNi4eqJJ"
+    },
+    {
+      "_id": "nlEqJcCH6okGYPHy",
+      "name": "Yrden",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "novice",
+        "source": "mixedElements",
+        "domain": "basic",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Yrden creates a large magic circle on the ground around you.\nAnything that steps into that circle takes a penalty to SPD and REF equal to 1 plus 1 for every 2 points of STA spent beyond the first, up to a maximum penalty of 4.The penalty lasts until they exit the circle.\nAny incorporeal creatures that enter the circle become corporeal.",
+        "range": "3m Radius",
+        "duration": "5 Rounds",
+        "defence": "None",
+        "createTemplate": true,
+        "templateSize": 3,
+        "templateType": "circle",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "effect",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "44TqJCtCs8QOaph1",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "ece51a5443431432793b24f61d3620b2f3c7487d"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.UeoMOcWvWzxAGgKk",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.nlEqJcCH6okGYPHy"
+    },
+    {
+      "_id": "tde7s70T8Qv5kNrX",
+      "name": "Quen",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "novice",
+        "source": "earth",
+        "domain": "basic",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Quen creates a shield with 5 Health Points per point of Stamina spent to protect you. \nIf you fail (choose not to or are unable to) to defend against an attack or effect which causes damage, the damage is first applied to the Quen shield. Lethal and non-lethal damage reduce the Quen shield’s Health Points equally. \nIf the shield is reduced to 0 Health any remaining damage is applied to you as per normal and must penetrate your armor and damage resistances to impact your Health Points or Stamina just like any other attack.\nQuen can be used to defend against any spell which can be Blocked but is ineffective against damage caused by spells which cannot be Blocked or against damage caused by already being poisoned, having a disease, or suffocation due to a lack of oxygen in the surrounding area.\nYou cannot cast Quen again until your current Quen shield has been exhausted or the duration ends.",
+        "range": "Self",
+        "duration": "10 Rounds",
+        "defence": "None",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "o7HodHu4LoHlUrnm",
+              "name": "Quen",
+              "statusEffect": "shielded",
+              "percentage": 5,
+              "varEffect": true
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": true,
+        "shield": "5",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "44TqJCtCs8QOaph1",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "7878e07b87ecf0ad5efc790268d01df6ec0cc2c9",
+          "sourceId": "Actor.yBeroP4SyewaDEx5.Item.j8MtVRgYQPuoJBXn"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.JfrfwE0odEJDtUIe",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.tde7s70T8Qv5kNrX"
+    },
+    {
+      "_id": "Go9bIRxMP4vioKEL",
+      "name": "Aard",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "novice",
+        "source": "air",
+        "domain": "basic",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Aard shoots a wave of telekinetic force, staggering creatures with a 10% chance of those affected being knocked prone. \nThe percentage rises by 10% for each point of STA spent.",
+        "range": "2m Cone",
+        "duration": "Immediate",
+        "defence": "Dodge",
+        "createTemplate": true,
+        "templateSize": 2,
+        "templateType": "cone",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "0",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": true,
+          "bypassesNaturalArmor": true,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Stagger",
+              "statusEffect": "staggered",
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": "44TqJCtCs8QOaph1",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "0c739f30f051a414ef569fd3d1b76d309a7de8d1"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.t709dzz9G7k4JUJU",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.Go9bIRxMP4vioKEL"
+    },
+    {
+      "_id": "Ln8PUKvN5iAOSQEg",
+      "name": "Igni",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "novice",
+        "source": "fire",
+        "domain": "basic",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Igni throws out a wave of sparks and fire which does 1d6 damage per STA point spent and has a 50% chance of lighting anything it hits on fire. \nIgni always deals damage to the torso unless used at point blank range. \nWhen used at point blank range Igni can be aimed at body locations.",
+        "range": "2m Cone",
+        "duration": "Immediate",
+        "defence": "Dodge or Block",
+        "createTemplate": true,
+        "templateSize": 2,
+        "templateType": "cone",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "1d6/STA",
+        "damageType": "fire",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": true,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Fire",
+              "statusEffect": "fire",
+              "percentage": 50,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ]
+      },
+      "effects": [],
+      "folder": "44TqJCtCs8QOaph1",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "c707d35fd4365cc247a7a465fec0cff58d06a5b2"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.sxsfwxEHS8Rgd3cb",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.Ln8PUKvN5iAOSQEg"
+    },
+    {
+      "_id": "4hetfQiMKoJlbJnu",
+      "name": "Axii",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "novice",
+        "source": "Water",
+        "domain": "basic",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Axii stuns an opponent until they can make Stun save at -1.\nFor every 2 points of additional STA you spend past 1, the Stun save becomes harder by 1 point.\n\nAxii can also be used instead of Persuasion. You roll Spell Casting instead of Persuasion, and the opponent rolls Resist Magic instead of Resist Coercion. \nHowever Axii summons a glow of white energy around your hand and the target’s head, so it is easily spotted by anyone watching. Using Axii For Persuasion",
+        "range": "8m",
+        "duration": "Until Shaken Off",
+        "defence": "Resist Magic",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "0",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Stun",
+              "statusEffect": "stun",
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "magicResist"
+        ]
+      },
+      "effects": [],
+      "folder": "44TqJCtCs8QOaph1",
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "f957401766b47d1ee5a16bd6105bf52c9b167d78"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.kUdmPrzk0N1HeGQ3",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.4hetfQiMKoJlbJnu"
+    },
+    {
+      "_id": "XL3LHs3V792n3cW6",
+      "name": "Magic Trap",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "journeyman",
+        "source": "mixedElements",
+        "domain": "alternate",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Yrden now creates a magical trap that takes one round to prepare. \nThis trap attacks using your Spell Casting & WILL and does 3d6 damage. \nThe trap will make one attack against the closest enemy each round.",
+        "range": "3m Radius",
+        "duration": "1 Round/STA",
+        "defence": "Dodge or Block",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "3d6",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ]
+      },
+      "effects": [],
+      "folder": "2T6jDRuTrw28SbCF",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "28c4d718fea1b38077b2748ba69db059ea07ac46"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.8ZU8ZSZGf3l29Vd7",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.XL3LHs3V792n3cW6"
+    },
+    {
+      "_id": "QpuZA2DTGd75N1W4",
+      "name": "Active Shield",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "journeyman",
+        "source": "earth",
+        "domain": "alternate",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Quen now creates a glowing shield around you. The shield has 10 HP for every Stamina point spent. \nEach round after the first, you must spend a number of STA points equal to the initial STA cost to maintain the shield. \nActive Shield only covers you, but you can fit one other person into it if you are pressed together. \nWhile in the active shield nothing tangible can pass in or out without destroying the shield first and you must move slowly to keep the shield up, meaning you cannot run. \nWhen the shield is expended or dropped, anything adjacent to you is pushed back 2m and takes 1d6 damage to the torso. \nThis includes objects, furniture, and allies. \nAnything rooted to the ground or heavier than 226kg is not pushed back but still takes damage.",
+        "range": "Self",
+        "duration": "Active (Initial STA)",
+        "defence": "None",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "1d6",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Knockback",
+              "statusEffect": "prone",
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": true,
+        "shield": "10/sta",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": []
+      },
+      "effects": [],
+      "folder": "2T6jDRuTrw28SbCF",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "fbf134ec570ca834f30b5331e5dd06873d116175"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.5VdyUdM3JDamJcDE",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.QpuZA2DTGd75N1W4"
+    },
+    {
+      "_id": "r5MQBsdmJ4a39lSc",
+      "name": "Aard Sweep",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "journeyman",
+        "source": "air",
+        "domain": "alternate",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Aard now shoots a burst of telekinetic force around you. \nFor each STA point spent, everything caught in the burst has a 10% chance of being knocked to the ground and staggered. \nThe burst travels out in all directions as a sphere. \nFlying creatures struck with Aard Sweep are knocked out of the air as well as being knocked down.",
+        "range": "4m Radius",
+        "duration": "Immediate",
+        "defence": "Dodge",
+        "createTemplate": true,
+        "templateSize": 4,
+        "templateType": "circle",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "0",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": true,
+          "bypassesNaturalArmor": true,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Knockdown",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            },
+            {
+              "id": "_3egy9phcw",
+              "name": "Stagger",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition"
+        ]
+      },
+      "effects": [],
+      "folder": "2T6jDRuTrw28SbCF",
+      "sort": 212500,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "ff1b6a356c5964180de6bb6b7167dc79596591ae"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.dQVpzWAn2AnySU4I",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.r5MQBsdmJ4a39lSc"
+    },
+    {
+      "_id": "qiOdcQ0vsk4WIPFf",
+      "name": "Fire Stream",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "journeyman",
+        "source": "fire",
+        "domain": "alternate",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Igni now throws out a constant stream of fire and sparks from your hand which does 1d6 damage per STA point spent, and has a 75% chance of lighting the opponent on fire. \nFire Stream must be maintained every round with a number of STA points equal to 1/2 the number of STA points spent to cast the sign. \nYou can switch targets on your turn and the stream can be aimed at body locations.",
+        "range": "3m",
+        "duration": "Active (1/2 Initial STA)",
+        "defence": "Dodge or Block",
+        "createTemplate": true,
+        "templateSize": 3,
+        "templateType": "ray",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": true,
+        "damage": "1d6/STA",
+        "damageType": "fire",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": true,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Fire",
+              "statusEffect": "fire",
+              "percentage": 75,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ]
+      },
+      "effects": [],
+      "folder": "2T6jDRuTrw28SbCF",
+      "sort": 225000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "6db730eeb42f1e7414b561b8f11b4c0a1f9749f1"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.yQpt9bHJ6EtPEmrF",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.qiOdcQ0vsk4WIPFf"
+    },
+    {
+      "_id": "SVGi6G4UI6aXMBGh",
+      "name": "Puppet",
+      "type": "spell",
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "class": "Witcher",
+        "level": "journeyman",
+        "source": "Water",
+        "domain": "alternate",
+        "stamina": 0,
+        "staminaIsVar": true,
+        "effect": "Axii now controls an opponent’s mind, making them your ally for a number of rounds equal to the number of STA points you spent on the spell. \nEach round, the target can make a Resist Magic roll against your Spell Casting roll to try and free themselves.",
+        "range": "8m",
+        "duration": "Until Shaken Off",
+        "defence": "Resist Magic",
+        "createTemplate": false,
+        "templateSize": 0,
+        "templateType": "",
+        "visualEffectDuration": null,
+        "regionProperties": {
+          "createRegionFromTemplate": false,
+          "behaviours": {
+            "tokenEnter": "",
+            "tokenTurnStart": "",
+            "tokenPreMove": "",
+            "tokenExit": ""
+          }
+        },
+        "causeDamages": false,
+        "damage": "0",
+        "damageType": "elemental",
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": true,
+          "bypassesNaturalArmor": true,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "selfEffects": [],
+        "onCastEffects": [],
+        "defenseOptions": [
+          "magicResist"
+        ]
+      },
+      "effects": [
+        {
+          "_id": "U2V4WesMeeUIRTnZ",
+          "name": "Puppet",
+          "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+          "type": "base",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": true,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>Axii now controls an opponent’s mind, making them your ally for a number of rounds equal to the number of STA points you spent on the spell.</p><p>Each round, the target can make a Resist Magic roll against your Spell Casting roll to try and free themselves.</p>",
+          "origin": "Compendium.wtrpg-complete-compendium.magic.Item.LF6uf7Lak4SxsMUp",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!fHCP5zI9YMzYFxjU.SVGi6G4UI6aXMBGh.U2V4WesMeeUIRTnZ"
+        }
+      ],
+      "folder": "2T6jDRuTrw28SbCF",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "a715a677350887fd29ae2dfd084b2b2cc1fef481"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.magic.Item.LF6uf7Lak4SxsMUp",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!fHCP5zI9YMzYFxjU.SVGi6G4UI6aXMBGh"
+    }
+  ],
+  "effects": [],
+  "folder": "I7HY0sONyscFJGOD",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "961eb6dfe694c63fa0c9dd4ac59faa265b7b4654",
+      "sourceId": "Actor.EtfUSb8RODReQISQ"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.12.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "fHCP5zI9YMzYFxjU",
+  "sort": 100000,
+  "_key": "!actors!fHCP5zI9YMzYFxjU"
+}

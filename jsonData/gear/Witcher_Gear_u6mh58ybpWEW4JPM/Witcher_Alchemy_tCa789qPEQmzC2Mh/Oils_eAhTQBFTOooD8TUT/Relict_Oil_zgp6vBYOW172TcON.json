@@ -1,0 +1,94 @@
+{
+  "folder": "eAhTQBFTOooD8TUT",
+  "name": "Relict Oil",
+  "type": "alchemical",
+  "_id": "zgp6vBYOW172TcON",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Relict%20Oil.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "oil",
+    "avail": "WITCHER",
+    "effect": "+5 damage against Relicts.",
+    "time": "30 Mins",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "type": "temporaryItemImprovement",
+      "name": "Relict Oil",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.zgp6vBYOW172TcON",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Relict%20Oil.png",
+      "_id": "eN42y7bkGkhMhTm2",
+      "system": {
+        "isTransferred": false
+      },
+      "changes": [
+        {
+          "key": "system.damageProperties.oilEffect",
+          "mode": 2,
+          "value": "Relict",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zgp6vBYOW172TcON.eN42y7bkGkhMhTm2"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "147e25669fe394c5e46ac07cab862d80d68d0d4f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zgp6vBYOW172TcON"
+}

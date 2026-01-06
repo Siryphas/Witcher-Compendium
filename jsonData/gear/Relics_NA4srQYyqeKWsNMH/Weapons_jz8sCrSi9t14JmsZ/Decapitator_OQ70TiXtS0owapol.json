@@ -1,0 +1,108 @@
+{
+  "folder": "jz8sCrSi9t14JmsZ",
+  "name": "Decapitator",
+  "type": "weapon",
+  "_id": "OQ70TiXtS0owapol",
+  "img": "icons/weapons/axes/axe-hammer-blackened.webp",
+  "system": {
+    "description": "Education DC: 14\n\nTaavetti of Metinna was the most famous headsman in all of Nilfgaard. Probably to do with him bein’ the one who put paid to the Usurpator and his mage. Heh, either way the son of a bitch was known all across Nilfgaard for quite a while and he always gave his audience a show. Folk say, he used an axe given to him by the Emperor himself, meteorite steel and inscribed with the laws of Nilfgaard. Musta made a strikin’ sight up at the execution block. Heh, thing is, Taavetti wasn’t just a deadly executioner. He was a grizzled old veteran from the darkest days of Nilfgaard. Followed the Empire all the way from Vicovaro and Gemmera to Angren and Cintra and probably bathed in more blood than any other soldier. People who knew him say his blood was never pumpin’ harder than when he was cutting down enemies on the field of battle. \nAfter a while he got the nickname “the Decapitator” for his penchant to always swing for the head—and the fact that he rarely missed. Durin’ the Second War the mad bastard wound up in some small town in Aedirn waitin’ for reinforcments, left behind with a few soldiers and a handful of women, children, and elderly. Taavetti got restless quick. Folk say it started small—Taavetti cut down a merchant for refusin’ to hand over his goods. His fellow soldiers didn’t think too much of it, since flayin’ folk and boilin’ ‘em in oil was still common with the black ones. But then Taavetti beheaded a woman for refusin’ to sleep with him. This got the guards’ attention and one of ‘em tried to stop him. Guess Taavetti lost it. So used to bein’ the Decapitator, a prized and honored soldier and executioner of the Empire, he couldn’t handle anyone sayin’ no. \nThe reinforcements found Taavetti alone in the middle of town, covered in Aedirnian and Nilfgaardian blood, a pile o’ heads stacked up beside him, cleanin’ his damn axe and whistlin’ a tune. Taavetti was too popular to kill and too dangerous to bring back to Nilfgaard, so the officers kept him at the frontline where he’d mainly kill the enemy. But Taavetti died durin’ the war, given a suicide mission in the Kaedweni highlands to make sure he never came home. Some folk say that Taavetti’s mad spirit possessed his old axe, bound up with the pain of the dozens of villagers and fellow soldiers he killed. Others say that Taavetti survived his mission but had the misfortune to kill a highlands witch. His axe took her curse an’ drained the life right out of him.\n- Rodolf Kazmer",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "10d6",
+    "reliable": 20,
+    "maxReliability": 20,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Balanced",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "7PAHdIgKvrozeOv6",
+        "name": "Bleed",
+        "percentage": 100,
+        "statusEffect": null
+      },
+      {
+        "id": "Pplm6svGUfTQNaUJ",
+        "name": "Meteorite",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 3,
+    "rateOfFire": 1,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Balanced",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "7PAHdIgKvrozeOv6",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "isMeteorite": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "259326d910e938b47adc95995579e77668b30bde"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OQ70TiXtS0owapol"
+}

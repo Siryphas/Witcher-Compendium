@@ -1,0 +1,61 @@
+{
+  "folder": "Pa7EzS7GiWHzRmzy",
+  "name": "Blessing of Abundance",
+  "type": "spell",
+  "_id": "MIYSyX7D9hFIgUxj",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "journeyman",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "6",
+    "staminaIsVar": false,
+    "effect": "Blessing of Abundance imbues you with divine providence, making you more likely to benefit from found goods.\nThe first time you or your GM rolls to determine how much loot you gain, the roll is made twice and the higher value is taken. \nThis applies to an entire loot source; meaning that if you loot a dead monster, you would roll each loot item twice and take the higher value.",
+    "range": "Self",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "921a1f203f9bf0fd821266ef1f5d1c635b23fe8a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MIYSyX7D9hFIgUxj"
+}

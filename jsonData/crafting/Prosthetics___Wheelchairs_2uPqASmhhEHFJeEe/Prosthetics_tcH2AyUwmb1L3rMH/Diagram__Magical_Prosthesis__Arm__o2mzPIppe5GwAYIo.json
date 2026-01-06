@@ -1,0 +1,108 @@
+{
+  "folder": "tcH2AyUwmb1L3rMH",
+  "name": "Diagram: Magical Prosthesis (Arm)",
+  "type": "diagrams",
+  "_id": "o2mzPIppe5GwAYIo",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>Craftsmanship and solid materials make these prostheses a comfortable fit for most lifestyles. More anatomical in their design and inlaid with simple enchantments, they are able to withstand high impact and perform complex motor functions.</p>\n<p>Effect: While wearing a Magical Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. Additionally, a Magical Prosthesis cannot be used to channel Chaos.&nbsp;<br>Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 750,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 10,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "eN7svJZPvYoQT8uh",
+        "name": "Cotton",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "ax5HS1ExYv4yQ1no",
+        "name": "Double Woven Linen",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "jHgSwd5HVwuENJgP",
+        "name": "Ester Grease",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "FW0WiBbwuwOoMlbl",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "aWcvLuTM8DB7VNZ0",
+        "name": "Fifth Essence",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "u6sXi2zpSxAzgBuX",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "oYVgvlSNnMeOki0J",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "ZACxjbqtuxxep5qP",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 375,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.6sffu0XmB7SGeBqg",
+    "sourcebook": "Prostheses and Wheelchairs",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4a0b4b51704aa38ccfb47912cf01f9621e129fc0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!o2mzPIppe5GwAYIo"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "FNCni808GC7DjKYu",
+  "name": "Diagram: Nilfgaardian Sights",
+  "type": "diagrams",
+  "_id": "2T4vCplwgOyD5Abs",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p><em>Listen, I hate to give the Black Ones any credit but their&nbsp;sights ain&rsquo;t half bad. These two prongs on the front of&nbsp;the stock let ya line up your shot like ya had a few more&nbsp;minutes to aim. Heh, be lyin&rsquo; if I said I hadn&rsquo;t used &lsquo;em.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 550,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "rKH9sOk0VjUMljTb",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "71z1b4Dq5SFa9xRB",
+        "name": "Sharpening Grit",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      }
+    ],
+    "investment": 176,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.fnafvQj46xeSikEl",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "26e7fc70aa78f92eb10b503db6083aa10db358ea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!2T4vCplwgOyD5Abs"
+}

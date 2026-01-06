@@ -1,0 +1,58 @@
+{
+  "folder": "ZrCMFn0LrXOSBynz",
+  "name": "Magic Barrier",
+  "type": "spell",
+  "_id": "48hPC62g8nuMW3lb",
+  "img": "icons/magic/symbols/runes-star-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Magic Barrier creates a circular barrier of pure force that is 10m in diameter. This barrier takes 50 Health Points before it is destroyed. \nOn your turn you can spend an additional STA point on top of the active cost to regenerate Health Points in the shield at a rate of 5 Health per STA point.\nThis shield is solid and impassible to any solid object. Once the shield has been erected, nothing can enter. \nAir is replenished within the shield, so those within can breathe. \nIf a caster wishes, they can stop this replenishment, leaving only 20 rounds of air. \nFor every extra person in the shield the rounds of air are reduced by 1. \nEthereal creatures can pass through this shield, and you can teleport in or out.",
+    "range": "",
+    "duration": "Active (2 STA)",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "visualEffectDuration": null,
+    "sourcebook": "Corebook",
+    "difficultyCheck": "18",
+    "ritualComponentUuids": [],
+    "cost": 710,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a1ff1d1b095b7e7c8515432ca09618ee521fc1c9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!48hPC62g8nuMW3lb"
+}

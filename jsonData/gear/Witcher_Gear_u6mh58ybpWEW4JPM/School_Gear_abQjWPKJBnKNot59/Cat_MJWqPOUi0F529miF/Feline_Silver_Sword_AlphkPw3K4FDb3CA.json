@@ -1,0 +1,93 @@
+{
+  "folder": "MJWqPOUi0F529miF",
+  "name": "Feline Silver Sword",
+  "type": "weapon",
+  "_id": "AlphkPw3K4FDb3CA",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Cat%20Silver%20Sword.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 1.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "WITCHER",
+    "damage": "1d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Silver (3d6)",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_ojqt4qz3l",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "A Witcher's Tools",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "_ojqt4qz3l",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "silverDamage": "3d6"
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ocU6zcQ6ipF41eNK"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "efb2be44a5c9575e986ff4b38fd94dc1b2810f42"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AlphkPw3K4FDb3CA"
+}

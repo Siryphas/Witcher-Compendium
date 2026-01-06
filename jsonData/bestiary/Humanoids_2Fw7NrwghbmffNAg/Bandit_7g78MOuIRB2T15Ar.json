@@ -1,0 +1,1885 @@
+{
+  "folder": "2Fw7NrwghbmffNAg",
+  "name": "Bandit",
+  "type": "monster",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/1%20-%20Humanoids/Bandit.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 6,
+        "current": 6,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 3,
+        "current": 3,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 12,
+        "current": 12,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 2,
+        "current": 2,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 50,
+        "current": 50,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 4,
+        "current": 4,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 20,
+        "value": 20,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 20,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 20,
+        "value": 20,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 20
+      },
+      "resolve": {
+        "max": 15,
+        "value": 15,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "focus": {
+        "max": 9,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 6,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 8,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 5,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 6,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 4,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 6,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 6,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 6,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 6,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 4,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 6,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 4,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 3,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 0,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 5,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 7,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 0,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 4,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 5,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "Humanoid",
+    "threat": "easy",
+    "difficulty": "simple",
+    "bounty": 10,
+    "armorHead": 0,
+    "armorUpper": 0,
+    "armorLower": 0,
+    "armorTailWing": 0,
+    "regen": 0,
+    "resistances": "",
+    "immunities": "",
+    "susceptibilities": "Hanged Man's Venom",
+    "senses": "",
+    "height": "Usual human heights",
+    "weight": "Usual human weights",
+    "environment": "Within towns or settlements",
+    "intelligence": "Sapient",
+    "organization": "Squads of 2 to 20",
+    "common": "<p><em>Heh&mdash;bandits, deserters, renegades, whoresons. Whatever ya wanna call &lsquo;em. People turn to&nbsp;crime for money and power, but most of the time it&rsquo;s out of hunger or fear. Everybody knows&nbsp;ya get a spike of crime when there&rsquo;s a war on. Happened the last two wars and it&rsquo;ll happen&nbsp;again. Don&rsquo;t mean the common man sees it that way. Heh, never say it to a killer&rsquo;s face, but&nbsp;the average son of a bitch thinks &lsquo;bout as highly of a bandit as they would a damn ghoul. They&nbsp;hide in the filthy crevices of the world, waitin&rsquo; to spring out and ambush good, hard-workin&rsquo;&nbsp;folk an&rsquo; take their hard-won livelihood.</em><br>&ndash;Rodolf Kazmer</p>",
+    "commonSkillValue": "8",
+    "monsterLore": "",
+    "monsterLoreSkillValue": "",
+    "customStat": false,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": false,
+      "craIsOpen": false,
+      "willIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "0",
+      "punch": {
+        "value": "1d6+0",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+4",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "showCommonerSuperstition": true,
+    "showAcademicKnowledge": true,
+    "showMonsterLore": false,
+    "dontAddAttr": false,
+    "academicKnowledgeSkillValue": "10",
+    "academicKnowledge": "<p>Bandits are one of the most common threats on the road,&nbsp;but they are far from the most dangerous. You&rsquo;d have a far&nbsp;worse time prying a ghoul off of you than dispatching a few&nbsp;bandits. But they can still be a significant threat in large&nbsp;groups. The vast majority of bandits are soldiers without an&nbsp;army, mercenaries who have no contract, or deserters from&nbsp;any one of the many armies flooding across the land. Simple&nbsp;sorts, bandits. The front ranks will charge with long swords.&nbsp;Any who can&rsquo;t will draw their crossbows. Bandits are usually&nbsp;looking for three things: safety, money, and something&nbsp;to take their anger out on. They aren&rsquo;t exactly easy to deal&nbsp;with but, unlike most monsters, they can be reasoned with.&nbsp;Maybe you can convince them not to try and kill you. Since&nbsp;they aren&rsquo;t hunting on instinct bandits will likely give up if&nbsp;you do enough damage to them.<br>However, some who travel in more tightly woven groups may fight all the harder if you kill their buddies. In the war-torn North, be a bit more wary. Lack of easily accessible food has driven some bandits to cannibalism. Cannibals often go a bit mad and attack wildly, refusing to give up even when half dead. If you don&rsquo;t want a fight, keep a wary eye on the roads.</p>",
+    "notes": [],
+    "statusEffectImmunities": [],
+    "addMeleeBonus": true
+  },
+  "prototypeToken": {
+    "name": "Bandit",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/npc-images/bandit.Token.webp?1706601847951",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.8,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 2,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 9,
+      "angle": 180,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 9,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "GrapplePlacementFlag": "RowBelow",
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "UseRidingHeightFlag": true,
+        "AutoMountWhiteListFlag": "",
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "PilotedbyDefaultFlag": false,
+        "CheckPilotedCollisionFlag": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {},
+      "core": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Crowns",
+      "type": "valuable",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/currency/coin-embossed-crown-gold.webp",
+      "system": {
+        "description": "Redaninan Crown:\n-3 Kaedweni Ducats\n-1 Temerian Oren\n-1/2 Hengfor Lintar\n-1/3 Nilfgaardian Floren\n-1/4 Koviri Bizant",
+        "quantity": "3d10",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": "genera",
+        "avail": "Everywhere",
+        "effect": "",
+        "conceal": "T",
+        "quality": "",
+        "isStored": false
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "39eeb74ee68813d29c9afa4570d6763ae6b600e8"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.gear.Item.H9VTil1jgCugJPf3",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "PYgMgVLK2vWfIm7f",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.PYgMgVLK2vWfIm7f"
+    },
+    {
+      "name": "Mundane Items",
+      "type": "valuable",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": "genera",
+        "avail": "",
+        "effect": "",
+        "conceal": "",
+        "quality": "",
+        "isStored": false
+      },
+      "_id": "w3sHfg5o0ioUOpET",
+      "img": "icons/svg/item-bag.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "5e9a3cd729155cbae5feb61d0c9cb9450066c3fe"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.106",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.w3sHfg5o0ioUOpET"
+    },
+    {
+      "_id": "sqniPOJfdWttdiOw",
+      "name": "Punch",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "NA",
+        "avail": "Everywhere",
+        "hands": "both",
+        "equipped": true,
+        "reliable": 0,
+        "maxReliability": 0,
+        "damage": "1d6",
+        "range": "Melee",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "brawling",
+        "rangedAttackSkill": "brawling",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Non-Lethal",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": true
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "DFlwge2Gda7e5ZNo",
+      "sort": -100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "71ba8969a284f5f6500f36befb337aea90d3edfe"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.3xGZ7ko323b2f2VZ",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.sqniPOJfdWttdiOw"
+    },
+    {
+      "_id": "vGh0Pq8aCn9FT6Qc",
+      "name": "Kick",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/movement/feet-spurred-boots-brown.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Bludgeoning",
+          "slashing": false,
+          "piercing": false,
+          "bludgeoning": true,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "NA",
+        "avail": "Everywhere",
+        "hands": "none",
+        "equipped": true,
+        "reliable": 0,
+        "maxReliability": 0,
+        "damage": "1d6+4",
+        "range": "Melee",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "brawling",
+        "rangedAttackSkill": "brawling",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Non-Lethal",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": true
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "DFlwge2Gda7e5ZNo",
+      "sort": -50000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "fd3556c0ee250a42270af79284abdc0d0bfdab7b"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.O3KXs49xyOoqUEjg",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.vGh0Pq8aCn9FT6Qc"
+    },
+    {
+      "_id": "aUJqssPP4NVnig1S",
+      "name": "Iron Longsword",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-worn-brown.webp",
+      "system": {
+        "description": "Heh, iron long swords. As a dwarf, I can tell ya the concept makes me sick. They’re damn dull but they’re easy to make and you can find them everywhere, I guess.",
+        "quantity": "1",
+        "weight": 1.5,
+        "cost": 160,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "L",
+        "avail": "Everywhere",
+        "hands": "right",
+        "equipped": true,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "2d6+2",
+        "range": "Melee",
+        "accuracy": 0,
+        "rateOfFire": 2,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "swordsmanship",
+        "rangedAttackSkill": "swordsmanship",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ODEloUewC9rjYO7K"
+      },
+      "effects": [],
+      "folder": "aSXQmX4HWWf0VzWk",
+      "sort": -25000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "d1aae1b930f8a9ffab04385514ae3869e2dcd306"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.j9bjQyI0KCSaeQOT",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.aUJqssPP4NVnig1S"
+    },
+    {
+      "_id": "Dk9SCEaeupIBxhW3",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-straight-blue.webp",
+      "system": {
+        "description": "Daggers come in all kinds of shapes and sizes but they’re always small enough to hide. Everyone carries one, from knights to peasants.",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": 50,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Slashing, Piercing",
+          "slashing": true,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "S",
+        "avail": "Everywhere",
+        "hands": "right",
+        "equipped": true,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "1d6+2",
+        "range": "Melee",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "smallblades",
+        "rangedAttackSkill": "smallblades",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.dNaNeS91tiSZ8fz2"
+      },
+      "effects": [],
+      "folder": "qlH2nWMWutV4oD4E",
+      "sort": -12500,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "dca1718347def8303256ccce80883b72ead24934"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.s1jyq7S9wVGNDdpb",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.Dk9SCEaeupIBxhW3"
+    },
+    {
+      "_id": "Zd7NtfzroeMGHYbE",
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-simple-red.webp",
+      "system": {
+        "description": "Not sure where the hand crossbow came from. Guess it probably started as a sorta civilian crossbow. They’re smaller and less powerful than a standard crossbow but they’ll fit in one hand and they’re easy to fire accurately. Nowadays they’re touted for home defense, since many people can’t afford to learn how to fight and crossbows don’t take much learnin’.",
+        "quantity": "1",
+        "weight": 0.5,
+        "cost": 285,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "L",
+        "avail": "Everywhere",
+        "hands": "right",
+        "equipped": true,
+        "reliable": 5,
+        "maxReliability": 5,
+        "damage": "2d6+2",
+        "range": "50m",
+        "accuracy": 1,
+        "rateOfFire": 0.5,
+        "usingAmmo": true,
+        "rollOnlyDmg": false,
+        "enhancements": 1,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "ranged"
+        ],
+        "meleeAttackSkill": "crossbow",
+        "rangedAttackSkill": "crossbow",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "Slow Reload",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.bhSB6xBe9DpEbnVb"
+      },
+      "effects": [],
+      "folder": "1z0iC1WTnUW9OJ1J",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "9747baeb08975b77e2e2c2247cd940c9ccf817df"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.MMxh3ImodzeNNdM3",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.Zd7NtfzroeMGHYbE"
+    },
+    {
+      "_id": "Gtmcam1E8p8RijD0",
+      "name": "Standard, Ammo",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-simple.webp",
+      "system": {
+        "description": "Heh, if ya got a weapon that throws a projectile, ya need projectiles. Standard ammunition is basically your typical bolt or arrow. Bolts are usually smaller than arrows, but they both have a sharp metal head and feather fletching.",
+        "quantity": "20",
+        "weight": 0.05,
+        "cost": 1,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": true,
+        "conceal": "L",
+        "avail": "Everywhere",
+        "hands": "1",
+        "equipped": true,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "",
+        "range": "",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [],
+        "meleeAttackSkill": "Brawling",
+        "rangedAttackSkill": "Brawling",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "first",
+              "name": "",
+              "statusEffect": null,
+              "percentage": 0,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": "6wLE6hCFzEho3RH3",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "38e3b175a1ae4aa16ebbe0d1438e42e0d3d0f23c"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.6nJ0EK9RcQnuMBkH",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.Gtmcam1E8p8RijD0"
+    },
+    {
+      "_id": "GXNZPyogXcEHIDRz",
+      "name": "Double Woven Hood",
+      "type": "armor",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/hood-red.webp",
+      "system": {
+        "description": "Hoods can be armored pretty easily. Addin’ leather, chain, and such like that. These hoods are woven tighter than any other to make it harder for weapons to penetrate ‘em. Heh, simple and effective.",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 175,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "Light",
+        "avail": "Poor",
+        "equipped": true,
+        "reliability": 0,
+        "reliabilityMax": 0,
+        "encumb": 0,
+        "location": "Head",
+        "bludgeoning": false,
+        "slashing": false,
+        "piercing": false,
+        "headStopping": 5,
+        "headMaxStopping": 5,
+        "torsoStopping": 0,
+        "torsoMaxStopping": 0,
+        "leftArmStopping": 0,
+        "leftArmMaxStopping": 0,
+        "rightArmStopping": 0,
+        "rightArmMaxStopping": 0,
+        "leftLegStopping": 0,
+        "leftLegMaxStopping": 0,
+        "rightLegStopping": 0,
+        "rightLegMaxStopping": 0,
+        "enhancements": 1,
+        "enhancementItemIds": [],
+        "effects": [],
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.9LZ36YNDkCbeAYof"
+      },
+      "effects": [],
+      "folder": "SUfW8PeZUGxh8fDI",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "c49a71d566407c81a7e329aa68fc74aec9fd1726"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.WoUO9aKuzYvksjbU",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.GXNZPyogXcEHIDRz"
+    },
+    {
+      "_id": "SfBhSCX7IYHnD9Lc",
+      "name": "Aedirnian Gambeson",
+      "type": "armor",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/chest/vest-cloth-tattered-tan.webp",
+      "system": {
+        "description": "The Aedirnians probably had it the worst when Nilfgaard attacked. Lost their king—not even sure whether they had a new king before a wave of black and gold hit ‘em. The Aedirnian gambeson’s evidence of that. Just a gambeson with scraps of leather and hardened hide stitched on here and there.",
+        "quantity": "1",
+        "weight": 1.5,
+        "cost": 175,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "Light",
+        "avail": "Poor",
+        "equipped": true,
+        "reliability": 0,
+        "reliabilityMax": 0,
+        "encumb": 0,
+        "location": "Torso",
+        "bludgeoning": false,
+        "slashing": false,
+        "piercing": false,
+        "headStopping": 0,
+        "headMaxStopping": 0,
+        "torsoStopping": 5,
+        "torsoMaxStopping": 5,
+        "leftArmStopping": 5,
+        "leftArmMaxStopping": 5,
+        "rightArmStopping": 5,
+        "rightArmMaxStopping": 5,
+        "leftLegStopping": 0,
+        "leftLegMaxStopping": 0,
+        "rightLegStopping": 0,
+        "rightLegMaxStopping": 0,
+        "enhancements": 1,
+        "enhancementItemIds": [],
+        "effects": [],
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.evPOHDJ7pdrI6MGS"
+      },
+      "effects": [],
+      "folder": "NbnnhAuedR3R14hE",
+      "sort": 250000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "a9711bc5da318a1fc86811199fca284de8aa683a"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.kyDxXCsh4gxHcKUl",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.SfBhSCX7IYHnD9Lc"
+    },
+    {
+      "_id": "x4DHmIJeqnl6Ojj5",
+      "name": "Padded Trousers",
+      "type": "armor",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/leg/pants-brown-leather-pants.webp",
+      "system": {
+        "description": "Heh, basically just a gambeson for your legs. Paddin’ll turn a small blade but I wouldn’t rely on it too much. You should see the cod-pieces though: never laughed so hard in my life.",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 125,
+        "sourcebook": "Corebook",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": "Light",
+        "avail": "Common",
+        "equipped": true,
+        "reliability": 0,
+        "reliabilityMax": 0,
+        "encumb": 0,
+        "location": "Leg",
+        "bludgeoning": false,
+        "slashing": false,
+        "piercing": false,
+        "headStopping": 0,
+        "headMaxStopping": 0,
+        "torsoStopping": 0,
+        "torsoMaxStopping": 0,
+        "leftArmStopping": 0,
+        "leftArmMaxStopping": 0,
+        "rightArmStopping": 0,
+        "rightArmMaxStopping": 0,
+        "leftLegStopping": 5,
+        "leftLegMaxStopping": 5,
+        "rightLegStopping": 5,
+        "rightLegMaxStopping": 5,
+        "enhancements": 1,
+        "enhancementItemIds": [],
+        "effects": [],
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.2som9vxQ8YLsxWIh"
+      },
+      "effects": [],
+      "folder": "pXX2M1DrueYRdMbN",
+      "sort": 350000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "ecf5e927bcad68782ee4b5768d06dc5c6b5a7a82"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-complete-compendium.gear.Item.vKOuKvFCz77aBLXG",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!7g78MOuIRB2T15Ar.x4DHmIJeqnl6Ojj5"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.besitary.Actor.BNwLr2GsTj5mMmTi",
+      "hash": "ea3782053d8033666623747fe07331f8c172d6cb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "7g78MOuIRB2T15Ar",
+  "sort": 100000,
+  "_key": "!actors!7g78MOuIRB2T15Ar"
+}

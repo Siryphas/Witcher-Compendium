@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Iron Longsword",
+  "type": "weapon",
+  "_id": "j9bjQyI0KCSaeQOT",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-worn-brown.webp",
+  "system": {
+    "description": "Heh, iron long swords. As a dwarf, I can tell ya the concept makes me sick. They’re damn dull but they’re easy to make and you can find them everywhere, I guess.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 160,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "2d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ODEloUewC9rjYO7K"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d0920531422fc251834f877e89d51e937c42f094"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!j9bjQyI0KCSaeQOT"
+}

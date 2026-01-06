@@ -1,0 +1,90 @@
+{
+  "folder": "HexTsC5CePXBHkFM",
+  "name": "Diagram: Gnomish Buckler",
+  "type": "diagrams",
+  "_id": "O2gnrBmrVWOmeRsx",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "<p><em>Heh, guess a buckler for a human&rsquo;s basically a shield for a gnome. Doubt that&rsquo;s how this oddity came to be though. It&rsquo;s made in the same gnomish method as many other pieces and it&rsquo;ll hold better than some larger shields despite its size.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 674,
+    "isHidden": false,
+    "type": "elderfolk-armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "cEnqFtRqDZtg4rdc",
+        "name": "Dark Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "7EFIzXAEIikBztI8",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "GawnG95dl8JeaXKS",
+        "name": "Ester Grease",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "vHXcWbJqouyyMkAF",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "jMbouoS2eHWUmn2Y",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      }
+    ],
+    "investment": 335,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.NZd4KIrWLT3fGvew",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87c347ed648e198a0a21e3eb50eecb3302f00b9f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!O2gnrBmrVWOmeRsx"
+}

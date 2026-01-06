@@ -1,0 +1,82 @@
+{
+  "folder": "1z0iC1WTnUW9OJ1J",
+  "name": "Scorpio",
+  "type": "weapon",
+  "_id": "s4IABExDims2WtV0",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-golden-bolt.webp",
+  "system": {
+    "description": "Ya see these bastards on the frontlines from time to time. They’re the smaller cousins of the Scorpions ya see launchin’ flaming bolts into cities. Just like a great big crossbow, heh. They take a bit to set up but they’re real useful if ya need to hold off oncoming soldiers or put down a monster.\nCrew Reload: It takes 2 actions to reload this weapon. These actions can be taken by two separate people.\nMounted: This weapon is fixed in one place rather than being held. A character must take an action to set up the weapon where they want to use it and must take an action to pack it up when they want to move it again.",
+    "quantity": "1",
+    "weight": 40,
+    "cost": 2500,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "10d6",
+    "reliable": 20,
+    "maxReliability": 20,
+    "hands": "both",
+    "range": "200m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Crew Reload",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_knngokelr",
+        "name": "Mounted",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 0.5,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Professional's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.RltBaVC0Snbj5tOX"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2a9220889f45c640552b603c013b0d9dbbd7da05"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!s4IABExDims2WtV0"
+}

@@ -1,0 +1,68 @@
+{
+  "folder": "qZQJJdBVjza19aNh",
+  "name": "Shade of Bleobheris (Circle of Bleobheris)",
+  "type": "spell",
+  "_id": "LYYZ2nHJxYwPGNLj",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Bleobheris.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Shade of Bleobheris calls upon the great oak to calm the hearts of man and beast. \nUpon casting this invocation, all animals become docile and all affected combatants are removed from initiative and cannot take hostile actions for 1 day. \nAdditionally, the essence of Bleobheris temporarily suppresses the prejudices of all affected creatures, negating any penalties from Social Standing or monstrous heritage.\nOn each of its turns, a target affected by this invocation can use its action to attempt a Resist Magic check against a new Spell Casting check to end this effect. \nIf the target is attacked this invocation no longer affects them.",
+    "range": "50m",
+    "duration": "1 Day",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ad3de404dca4a18b457eeef0a32972f4718d0b80"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LYYZ2nHJxYwPGNLj"
+}

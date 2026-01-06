@@ -1,0 +1,114 @@
+{
+  "folder": "tcH2AyUwmb1L3rMH",
+  "name": "Diagram: Witcher Prosthesis (Arm)",
+  "type": "diagrams",
+  "_id": "PFcxUy0Q3v3b9xBm",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>Built by Barend Anselberg and Elgan of Verden to withstand the Path and all of its challenges for Voren of Dillingen, and later replicated for use by other Witchers. These limbs are heavily reinforced, capable of resisting the crushing jaws of a manticore and remaining functional.</p>\n<p>Effect: While wearing a Witcher Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. A Witcher Prosthesis can be used to channel Chaos via magical sigils carved into the length, infused fifth essence similar to a magic amulet. Silver knuckles and toe caps add 1d6 silver damage to any punch or kick made with a Witcher Prosthesis.&nbsp;</p>\n<p>Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1200,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "TLBXfVL5zwoYCIHx",
+        "name": "Cotton",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "BvoIpxOZB1H8aJXc",
+        "name": "Double Woven Linen",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "EpqnyoUoAAQe4vWs",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "Dku8SRPX7nqskN2u",
+        "name": "Etching Acid",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "vy5rIfzHO4rR5b2P",
+        "name": "Fifth Essence",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "HoeJdeqpDepvsrw9",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "FZ1IcnvbhvBPdPj8",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "9tgRNXLGofbblndb",
+        "name": "Silver",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.PuuOiiIej1l4GFdC"
+      },
+      {
+        "id": "Een38P6J9I9kUbnm",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 600,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.jETEqB7XBDXnaDGT",
+    "sourcebook": "Prostheses and Wheelchairs",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "96cd9a81a170538ef356cb0b4144ec50eaa50046"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!PFcxUy0Q3v3b9xBm"
+}

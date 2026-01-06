@@ -1,0 +1,83 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Dimeritium Bomb",
+  "type": "weapon",
+  "_id": "VAYG2UT7UiUACO6B",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-brown.webp",
+  "system": {
+    "description": "Negates the use of magic in this area for 20 rounds.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 264,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "8m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Negates the use of magic for 20 Rounds",
+        "percentage": ""
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Negates the use of magic for 20 Rounds",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ada4caa1e4a77099cecd4d24e33f9a1ee948bcc7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VAYG2UT7UiUACO6B"
+}

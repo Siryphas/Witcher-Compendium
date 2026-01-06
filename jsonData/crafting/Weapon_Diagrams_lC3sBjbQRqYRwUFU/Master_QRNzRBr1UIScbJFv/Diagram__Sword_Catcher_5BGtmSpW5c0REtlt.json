@@ -1,0 +1,108 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Sword Catcher",
+  "type": "diagrams",
+  "_id": "5BGtmSpW5c0REtlt",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>This one&rsquo;s a bit of a strange one. Ya see, the comb-lookin&rsquo; tines on the back of this dagger are for capturin&rsquo; blades. You actually hold the blade backwards and try to snag your enemies' weapon so you can finish em off with whatever&rsquo;s in your other hands.<br>Blade Catcher: When the wielder blocks an enemy&rsquo;s melee attack with this weapon, part of their weapon is ensnared. Both weapons are rendered useless and cannot be separated until their opponent can make a Physique or Sleight of Hand Check that beats their Small Blades check or the wielder releases their weapon.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 750,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "KsUnDZKQHLQJzisr",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "bkX9E2uQsnfuwn07",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "anDW6bLbdnpU1Ilx",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "MfIsp7moQbarYc2b",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "5MQ5PWl6v5UfnZ4S",
+        "name": "River Clay",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "gtQkfaZENa6OPnPQ",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "UMezwDmjN2VPmCaJ",
+        "name": "Thread",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "O0de3FlNK0jjRyrB",
+        "name": "Tretogor Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nQ3znBzgY0YQFTa4"
+      }
+    ],
+    "investment": 375,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.PUUWb8Fe7Cw2pgwn",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "74c16a64615cfd1ae2e59a5a30643325ea78445f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!5BGtmSpW5c0REtlt"
+}

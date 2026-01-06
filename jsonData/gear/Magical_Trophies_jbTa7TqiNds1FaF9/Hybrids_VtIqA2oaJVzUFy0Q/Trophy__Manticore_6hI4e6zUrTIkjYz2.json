@@ -1,0 +1,83 @@
+{
+  "folder": "VtIqA2oaJVzUFy0Q",
+  "name": "Trophy: Manticore",
+  "type": "valuable",
+  "_id": "6hI4e6zUrTIkjYz2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/stinger-insect-grey.webp",
+  "system": {
+    "description": "You raise the DC to resist or remove the effects of poisons you use by 2.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Manticore",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.6hI4e6zUrTIkjYz2",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/stinger-insect-grey.webp",
+      "_id": "04hN89zm2iLI5JB6",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You raise the DC to resist or remove the effects of poisons you use by 2.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!6hI4e6zUrTIkjYz2.04hN89zm2iLI5JB6"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "62985890639b1136bdf3ee0077d58532ea675828"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6hI4e6zUrTIkjYz2"
+}

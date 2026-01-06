@@ -1,0 +1,96 @@
+{
+  "folder": "NRjQurKLGEGOWxRN",
+  "name": "Diagram: Meteorite Chain Mace",
+  "type": "diagrams",
+  "_id": "kcpBYLbQH3Rxf5Lp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Now here&rsquo;s a stylish weapon. Heh, a spiked ball of meteorite steel on a chain, attached to a leather- wrapped haft. Swinging the head at full speed&rsquo;ll crush helmets and skulls just about as well as a real meteorite. Plus, the chain can entangle weapons and whatnot.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1352,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "Hg79AgQ6J99FK0Mv",
+        "name": "Meteorite",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "YPUj53ilaK3fJYWJ",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "wUrMW6Cif2T4LCn1",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "fmDYW3BH6ckDRCOY",
+        "name": "Ester Grease",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "xw40FVhldjwpVe5Y",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "oMr2KVIykdUsqHQP",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      }
+    ],
+    "investment": 676,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.Nj6eiwiG3YsiLTko",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eb0ff7b8d432ca6b32b97270c0594328153f3bd1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!kcpBYLbQH3Rxf5Lp"
+}

@@ -1,0 +1,56 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Wagerer's Pendant",
+  "type": "spell",
+  "_id": "sDJtCWLpyIrPEPWj",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "6",
+    "staminaIsVar": false,
+    "effect": "By binding a shard of etched glass in a pendant of wolfsbane, beast bones, and leather strips, you can create a locus of dark magic. This pendant absorbs the chaos which forms hexes and temporarily stores it. While a person wears it, they are freed from the effects of all hexes. \nIf the pendant is removed at any point, all of the effects return. \nAdditionally, if the person fails to rid themselves of all of the hexes by the end of this ritual’s duration, the pendant breaks and releases a torrent of dark magic. \nShould this occur, the person wearing the pendant and anyone within 2m of them are immediately afflicted by a number of hexes chosen by the GM.",
+    "range": "",
+    "duration": "1 Week",
+    "defence": "",
+    "components": "Glass (x2), Beast Bones (x1), Wolfsbane (x2), Leather (x2), Chalk (x2), Etching Acid (x5), Ashes (x2)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "14",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "A Tome of Chaos",
+    "difficultyCheck": "14",
+    "cost": 108,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a2e886cf23443f3c5e48d0917ff6f4c904574e2f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sDJtCWLpyIrPEPWj"
+}

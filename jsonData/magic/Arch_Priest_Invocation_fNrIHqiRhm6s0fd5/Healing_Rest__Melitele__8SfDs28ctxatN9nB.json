@@ -1,0 +1,69 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Healing Rest (Melitele)",
+  "type": "spell",
+  "_id": "8SfDs28ctxatN9nB",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Melitele%201.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "With the power granted to you by Melitele, the mother goddess, you can place a number of people equal to the value of your Spell Casting skill into a deep coma in which their bodies heal themselves. They cannot act for the entirety of the rest and are unaware of their surroundings even if touched, moved, or attacked. At the end of the rest, targets revive at full health. \nIf they had any critical wounds that had been treated, these wounds have been healed. \nThis does not remove permanent penalties from Deadly Critical Wounds.",
+    "range": "5m",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Asleep",
+        "statusEffect": "unconscious",
+        "percentage": 100
+      }
+    ],
+    "onCastEffects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "564700e3ba95dc03b7cebf82611849a51072cb16"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8SfDs28ctxatN9nB"
+}

@@ -1,0 +1,114 @@
+{
+  "folder": "dNEWmbHLX50kbh79",
+  "name": "Spectral Tether",
+  "type": "spell",
+  "_id": "xsXC96sfkgnyxcLL",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "8",
+    "staminaIsVar": false,
+    "effect": "Spectral Tether allows you to weave a tether of magic around a target which binds it to it’s physical form. While affected by this spell, a target cannot become incorporeal or invisible and cannot teleport by any means.\nAdditionally, as long as the spell is in effect, the target cannot move more than 10m away from you. \nEach turn, the target can spend their action to attempt another Resist Magic check against a new Spell Casting check to end the effect.",
+    "range": "10m",
+    "duration": "Active (4 STA)",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "effects": [],
+      "defenseDifferenceMultiplier": false
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Spectral Tether",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.xsXC96sfkgnyxcLL",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "hMa3fgcMZcFnKGNQ",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>While affected by this spell, a target cannot become incorporeal or invisible and cannot teleport by any means.</p><p>Additionally, as long as the spell is in effect, the target cannot move more than 10m away from you.</p><p>Each turn, the target can spend their action to attempt another Resist Magic check against a new Spell Casting check to end the effect.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!xsXC96sfkgnyxcLL.hMa3fgcMZcFnKGNQ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "92870b50cf2bdb20eabc5aeee3813fd61a80595d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xsXC96sfkgnyxcLL"
+}

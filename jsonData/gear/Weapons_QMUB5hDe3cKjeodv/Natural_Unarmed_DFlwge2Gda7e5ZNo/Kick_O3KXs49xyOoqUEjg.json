@@ -1,0 +1,86 @@
+{
+  "name": "Kick",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/skills/movement/feet-spurred-boots-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "1d6+4",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "none",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Non-Lethal",
+        "percentage": ""
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "m46Zf8EkNYD2hawQ",
+          "name": "Non-Lethal",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "isNonLethal": true
+    }
+  },
+  "effects": [],
+  "folder": "DFlwge2Gda7e5ZNo",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "508095cbdc516fe8deacae1e84256844db84c105"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "O3KXs49xyOoqUEjg",
+  "sort": 200000,
+  "_key": "!items!O3KXs49xyOoqUEjg"
+}

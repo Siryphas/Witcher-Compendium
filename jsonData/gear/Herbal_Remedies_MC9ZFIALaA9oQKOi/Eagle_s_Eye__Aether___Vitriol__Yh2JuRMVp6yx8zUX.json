@@ -1,0 +1,90 @@
+{
+  "folder": "MC9ZFIALaA9oQKOi",
+  "name": "Eagle's Eye (Aether + Vitriol)",
+  "type": "alchemical",
+  "_id": "Yh2JuRMVp6yx8zUX",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "+3 Awareness",
+    "time": "1 Hour",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Eagle's Eye (Aether + Vitriol)",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.Yh2JuRMVp6yx8zUX",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/plants/herb-tied-bundle-dried-yellow.webp",
+      "_id": "4T6sCT6f4SkRec7I",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.awareness.activeEffectModifiers",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Yh2JuRMVp6yx8zUX.4T6sCT6f4SkRec7I"
+    }
+  ],
+  "sort": 375000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a4ff02d9d774b55b67b991419f4f507d5ad97b37"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Yh2JuRMVp6yx8zUX"
+}

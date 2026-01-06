@@ -1,0 +1,84 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Hunter's Falchion",
+  "type": "diagrams",
+  "_id": "YWL85eDZGr1oQAvl",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Hunters use these heavy blades to butcher their kills. If you&rsquo;re lookin&rsquo; for a good blade for splittin&rsquo; wood and takin&rsquo; off limbs, this is it. They&rsquo;re common on the field for the everyman.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 486,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 14,
+    "alchemyDC": 0,
+    "craftingTime": "7 H",
+    "craftingComponents": [
+      {
+        "id": "gwJJxB9agfavKvH9",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "5w5gmkFdIQ0joJ7R",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "UVnkGcIx9rqqDo6v",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "N7W5St2RnOGd7lXS",
+        "name": "Ester Grease",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      }
+    ],
+    "investment": 240,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.a22CD7w9QaSH5D8A",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e3fd69042ae6a3e37f77a79c1aabbbc3deec4a67"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!YWL85eDZGr1oQAvl"
+}

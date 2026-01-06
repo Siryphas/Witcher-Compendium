@@ -1,0 +1,65 @@
+{
+  "folder": "OREPO5AXo1tBZekr",
+  "name": "Formulae: Wyvern Decoction",
+  "type": "diagrams",
+  "_id": "OoFHmvtfWvN124ty",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>You gain +1 damage to your next successful strike. This +1 is cumulative, and goes up with each hit until the combat ends or you take damage.</p>\n<p>&nbsp;</p>\n<p>Requires: 1 Bottle of Spirits, 1 Wyvern Mutagen</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "decoction",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 18,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 2,
+      "aether": 1,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.qsN436d7d6IxcLqj",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c68c2def5a50ac2063ffb0df017d54c4897cf8dd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!OoFHmvtfWvN124ty"
+}

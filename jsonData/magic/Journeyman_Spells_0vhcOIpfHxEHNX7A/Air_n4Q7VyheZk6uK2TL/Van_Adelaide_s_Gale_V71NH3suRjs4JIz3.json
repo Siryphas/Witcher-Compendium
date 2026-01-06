@@ -1,0 +1,69 @@
+{
+  "folder": "n4Q7VyheZk6uK2TL",
+  "name": "Van Adelaide's Gale",
+  "type": "spell",
+  "_id": "V71NH3suRjs4JIz3",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "air",
+    "domain": "",
+    "stamina": "12",
+    "staminaIsVar": false,
+    "effect": "Created by Louise Van Adelaide to help escape capture in the North, Van Adelaide’s Gale uses powerful wind to launch you in an arc up to 30m away. \nUpon casting the spell, a rush of wind bursts out from you in a 2m sphere, knocking anyone who fails to defend back 6m. \nThis attack also does only 1d6 damage, but if someone effected by the spell strikes something, they take ramming damage. \nWhile in the air, wind cushions your fall, meaning that you take no damage upon landing.",
+    "range": "Self",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "2",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "1d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Knockback",
+        "statusEffect": "prone",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5f3638ce5e92932af1d51c71952f89c5426ba7df"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!V71NH3suRjs4JIz3"
+}

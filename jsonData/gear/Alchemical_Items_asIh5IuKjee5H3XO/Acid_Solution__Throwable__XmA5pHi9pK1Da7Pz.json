@@ -1,0 +1,83 @@
+{
+  "name": "Acid Solution (Throwable)",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-conical-fumes-green.webp",
+  "system": {
+    "description": "I don’t have to use acid much. Heh, least not every day. But this stuff’s good if ya need to burn through a lock or ya need a makeshift weapon.\n\nAcid Solution does 2d6 damage to any living creature it is thrown on and does 1d6/2 ablation damage to weapons and armor.\nThrowing it is an Athletics attack with a range of BODYx2m, and the acid splatters in a 2m cone directly away from where it lands.",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 56,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "isThrowable": true,
+    "conceal": "T",
+    "avail": "Poor",
+    "hands": "right",
+    "equipped": false,
+    "reliable": 0,
+    "maxReliability": 0,
+    "damage": "2d6",
+    "range": "Body x2m",
+    "accuracy": 0,
+    "attackSkill": "athletics",
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "damageProperties": {
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": true,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "appliesGlobalModifierToDamaged": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "effects": []
+    },
+    "defenseProperties": {
+      "parrying": false
+    }
+  },
+  "effects": [],
+  "folder": "asIh5IuKjee5H3XO",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e4615055bb91c4b6df99944f3ebe9db6569621cd",
+      "sourceId": "Item.9elAUJpqDhh5CY7q"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "XmA5pHi9pK1Da7Pz",
+  "sort": 0,
+  "_key": "!items!XmA5pHi9pK1Da7Pz"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "3v61aEVZeVibZFp4",
+  "name": "Diagram: Lyrian Leather Trousers",
+  "type": "diagrams",
+  "_id": "8Odpfi0J4WcqBqZj",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Lyrian leather, fashioned into trousers. Heh, rough stuff and it doesn&rsquo;t breathe much, but yeah, it&rsquo;ll keep your legs nice and safe. Can&rsquo;t say ya won&rsquo;t draw attention.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 786,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "d4MsOcOsPBZqB0kF",
+        "name": "Lyrian Leather",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.96G953DW2G4ec7Cd"
+      },
+      {
+        "id": "nAbxF2yFIBQZQShv",
+        "name": "Thread",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "2NjamHVx4zpy9sev",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "nCUXs5KInvXh5rZS",
+        "name": "Linen",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "7rJdpd50C0u7RPqS",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 392,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.45D7eCi1D2NsbF3R",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e37599cff0ace89b31b9c6b937c88e421ff84a40"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!8Odpfi0J4WcqBqZj"
+}

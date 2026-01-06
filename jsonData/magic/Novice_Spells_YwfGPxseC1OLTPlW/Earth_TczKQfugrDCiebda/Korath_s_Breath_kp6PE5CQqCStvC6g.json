@@ -1,0 +1,78 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Korath's Breath",
+  "type": "spell",
+  "_id": "kp6PE5CQqCStvC6g",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Korath’s Breath breaks down a nearby stone or earth surface and sprays burning sand in a 3m cone in front of you. Opponents in that area that fail their defense are blinded for 1d6 rounds.",
+    "range": "3m Cone",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "3",
+    "templateType": "cone",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Blinded",
+        "statusEffect": "blinded",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "onCastEffects": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7e749c74d4ee4b4cad6f7b962289844afca2de17"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kp6PE5CQqCStvC6g"
+}

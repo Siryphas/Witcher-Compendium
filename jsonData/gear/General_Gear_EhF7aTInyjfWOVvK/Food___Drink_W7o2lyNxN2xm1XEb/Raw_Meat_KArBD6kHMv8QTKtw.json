@@ -1,0 +1,53 @@
+{
+  "folder": "W7o2lyNxN2xm1XEb",
+  "name": "Raw Meat",
+  "type": "valuable",
+  "_id": "KArBD6kHMv8QTKtw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/food/dried-meat-jerky-fish-red.webp",
+  "system": {
+    "description": "\"In fancy places, meat's still spit up by what it came from. These days, meat's meat. Chicken, pork, beef, fish, wolf. All the same.\"\n-Rodolf Kazmer",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 8,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "S",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "LN3ykALiHCt2vv6z",
+          "name": "Nausea",
+          "statusEffect": "nausea",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "caff40bba0b85cdfa03bf9b21cc908b1b18008bf"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KArBD6kHMv8QTKtw"
+}

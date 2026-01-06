@@ -1,0 +1,75 @@
+{
+  "folder": "ohyHo8DNofq7aQY4",
+  "name": "Nilfgaardian Pavise",
+  "type": "armor",
+  "_id": "AX8RWobi2Yqj6Ibe",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shield/Scutum-steel-worn.webp",
+  "system": {
+    "description": "The Nilfgaardian pavise’s one of the best shields for crossbowmen and anyone who has to work on machinery under fire. Yah, that hurts to say, but it’s true. It’s big as a normal pavise, built stronger, and has a prop on the back so it stands on its own. Ya don’t have to hold it while ya reload or work.",
+    "quantity": "1",
+    "weight": 5,
+    "cost": 600,
+    "isHidden": false,
+    "reliability": 25,
+    "reliabilityMax": 25,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Heavy",
+    "avail": "Rare",
+    "enhancements": 1,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Full Cover",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_gcuc0hlqi",
+        "name": "Standing Shield",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "encumb": 1,
+    "location": "Shield",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.oZQjT17zdgmciwxU"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9d459f512955d795d1b4511e300c952bdfd00e8d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!AX8RWobi2Yqj6Ibe"
+}

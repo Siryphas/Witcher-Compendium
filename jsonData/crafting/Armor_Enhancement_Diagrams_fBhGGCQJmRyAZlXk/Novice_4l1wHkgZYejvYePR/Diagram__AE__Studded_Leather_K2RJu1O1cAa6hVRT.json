@@ -1,0 +1,78 @@
+{
+  "folder": "4l1wHkgZYejvYePR",
+  "name": "Diagram: AE, Studded Leather",
+  "type": "diagrams",
+  "_id": "K2RJu1O1cAa6hVRT",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 120,
+    "isHidden": false,
+    "type": "armor-enhancement",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 14,
+    "alchemyDC": 0,
+    "craftingTime": "3 H",
+    "craftingComponents": [
+      {
+        "id": "zhTImuIJA3G48hPw",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "yCmaGWCWcqD9WLii",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "oUEYmAeSVIN9BunJ",
+        "name": "Thread",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      }
+    ],
+    "investment": 61,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.OTRdTL4WJGWPSdpZ",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fa8828ef818a5728a375f2e7a7cf2690e8b70ca4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!K2RJu1O1cAa6hVRT"
+}

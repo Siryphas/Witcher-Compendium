@@ -1,0 +1,72 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Rotation",
+  "type": "diagrams",
+  "_id": "HhJdCNOlOIzwlRCr",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Leg Armor:<br>While wearing this armor, attackers do not gain a bonus when attacking you from outside your Vision Cone.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 600,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "WNEMb9rFFnkEg746",
+        "name": "Glyph of Binding",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.U5scuKSbFBzADQvQ"
+      },
+      {
+        "id": "hONVzgV7XC5E1W3y",
+        "name": "Glyph of Reinforcement",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.5g3gtaEniQHSeJ9j"
+      }
+    ],
+    "investment": 300,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.urPeChXVTysfzHbh",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 187500,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "02ed446269288a533f67080e93b3ed9afe58cc21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!HhJdCNOlOIzwlRCr"
+}

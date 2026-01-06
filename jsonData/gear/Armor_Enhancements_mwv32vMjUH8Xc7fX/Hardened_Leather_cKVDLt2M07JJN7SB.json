@@ -1,0 +1,52 @@
+{
+  "folder": "mwv32vMjUH8Xc7fX",
+  "name": "Hardened Leather",
+  "type": "enhancement",
+  "_id": "cKVDLt2M07JJN7SB",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shoulder/pauldron-segmented-steel-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 1.5,
+    "cost": 130,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "armor",
+    "applied": "",
+    "avail": "Common",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire Resistance",
+        "statusEffect": "fire",
+        "percentage": 100,
+        "varEffect": false
+      }
+    ],
+    "stopping": 2,
+    "bludgeoning": true,
+    "slashing": true,
+    "piercing": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 75000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4e7e614864780877c10f1edbd5d80a23fc7be8be"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cKVDLt2M07JJN7SB"
+}

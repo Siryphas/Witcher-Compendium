@@ -1,0 +1,94 @@
+{
+  "folder": "eAhTQBFTOooD8TUT",
+  "name": "Necrophage Oil",
+  "type": "alchemical",
+  "_id": "MK3dSZqPE3YLpSpl",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Necrophage%20Oil.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "oil",
+    "avail": "WITCHER",
+    "effect": "+5 damage against Necrophages.",
+    "time": "30 Mins",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "type": "temporaryItemImprovement",
+      "name": "Necrophage Oil",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.MK3dSZqPE3YLpSpl",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Necrophage%20Oil.png",
+      "_id": "ZGjWWlRaES7xN7ut",
+      "system": {
+        "isTransferred": false
+      },
+      "changes": [
+        {
+          "key": "system.damageProperties.oilEffect",
+          "mode": 2,
+          "value": "Necrophage",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!MK3dSZqPE3YLpSpl.ZGjWWlRaES7xN7ut"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6a5685f0c5d383494ae1ef98391ac646e64ff7a3"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MK3dSZqPE3YLpSpl"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Wave of Fire",
+  "type": "spell",
+  "_id": "dSy4IvC64vO1n3WX",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "Wave of Fire shoots a 3m cone of fire in one direction that does 2d6 damage to anyone who isn’t able to dodge or block, and has a 50% chance of igniting a target.",
+    "range": "3m Cone",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "3",
+    "templateType": "cone",
+    "causeDamages": true,
+    "damage": "2d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 50
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "fire",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c70f757e3a4d6f636067316d52786fa5a5a8d8df"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dSy4IvC64vO1n3WX"
+}

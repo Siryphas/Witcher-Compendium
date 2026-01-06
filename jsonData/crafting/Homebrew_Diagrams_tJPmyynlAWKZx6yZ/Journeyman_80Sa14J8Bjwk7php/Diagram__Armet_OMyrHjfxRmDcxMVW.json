@@ -1,0 +1,81 @@
+{
+  "folder": "80Sa14J8Bjwk7php",
+  "name": "Diagram: Armet",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 656,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "2ILA3bE5OTzOaM8C",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "0wfvDX2wegh5VHta",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "wL3kFoGpadDtw4qV",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      }
+    ],
+    "investment": 296,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.gxOKJQosGNieBZbF",
+    "sourcebook": "Homebrew",
+    "isStored": false,
+    "isCarried": true,
+    "resultQuantity": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "f205cd6c20b478b8e3ae23b9dfcd4b87b8b56793",
+      "sourceId": "Item.F2dITR1r1P268TpP"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.bHMcCJXJZZT5a5rK",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.26.0",
+    "exportSource": null
+  },
+  "_id": "OMyrHjfxRmDcxMVW",
+  "sort": 100000,
+  "_key": "!items!OMyrHjfxRmDcxMVW"
+}

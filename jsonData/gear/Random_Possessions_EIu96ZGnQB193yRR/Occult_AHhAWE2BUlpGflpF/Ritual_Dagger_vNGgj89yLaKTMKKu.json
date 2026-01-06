@@ -1,0 +1,69 @@
+{
+  "name": "Ritual Dagger",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-bone-engraved-black.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "2d6",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "none",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "percentage": "25"
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "folder": "AHhAWE2BUlpGflpF",
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "25905e7fa13a05fbf0aafffb94388c7885ae6f78"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "vNGgj89yLaKTMKKu",
+  "sort": 2800000,
+  "_key": "!items!vNGgj89yLaKTMKKu"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "L5NrzwAEG7JeY4vN",
+  "name": "Formulae: Beast Oil",
+  "type": "diagrams",
+  "_id": "F7ORUln1ronO40Zo",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>+5 damage against Beasts.</p>\n<p>&nbsp;</p>\n<p>Requires: 1 Dog Tallow</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "oil",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 1,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.xEPwmMZC1zEeT081",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bc120ee169b367aa0d8e324598a16f36e522b282"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!F7ORUln1ronO40Zo"
+}

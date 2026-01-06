@@ -1,0 +1,141 @@
+{
+  "folder": "jz8sCrSi9t14JmsZ",
+  "name": "Maugrim",
+  "type": "weapon",
+  "_id": "LNlwumj2jmyeHCoE",
+  "img": "icons/weapons/swords/greatsword-flamberge.webp",
+  "system": {
+    "description": "Education DC: 22\n\nYears and years ago, right after Gemmera ‘joined’ the Nilfgaardian Empire, folk outside its capital started goin’ missing. Not a lot—five or six folk every month or so. They sent six guards out at night to keep watch, but not one of ’em came back. Scouts found signs of a struggle, blood, and worst of all, a broken sword covered in gore. Gemmerians are tough folks—they’re not gonna let somethin’ like that scare ‘em. So twelve strappin’ Gemmerian soldiers decked out in chain and plate and carryin’ torrwr headed up into the mountains, followin’ the faint trail of blood. \nDays passed with no word from ‘em. Then outta nowhere one soldier, beaten and bloodied, staggered back into the city. On meetin’ with the King the soldier named the culprit—none other than Eira Frostsinger, previously court mage of the king. When the Nilfgaardians had marched into the capital and claimed Gemmera as part of their empire she’d fled into the mountains. Now she was demandin’ that the king throw out the Nilfgaardians or she’d rain hell down on ‘em. Not only was she a powerful old witch but she’d made some sorta beast, like a werewolf but much nastier. Called it Maugrim. The soldier said it could tear a man’s arm off like the leg off a roast chicken.\n‘Course the King called the Witcher School of the Viper, and in three days Gerring of Kharkiv arrived in the capital an’ set his price with the King. Then Gerring headed up into the mountains to confront Maugrim and Eira Frostsinger. Heh, there was a fight all right, but it wasn’t what Gerring had been expectin’! He’d fought werewolves before. Maugrim was different. Clear three meters tall, ripplin’ with muscle and fast as lightnin’. \nGerring found himself outmatched. He blinded Maugrim with a bomb from his bandolier before retreatin’ back into a small cavern. Deep inside, Gerring found an abandoned dwarven mine and set to work on his weapons. Vipers fight best with twinned swords, but Gerring’s steel hadn’t phased this beast. He labored in the ancient forges and foundry, and by the next night he had a second silver sword to match his Serpentine sword. That night Gerring used all of his trainin’. He snuck outta the cave like the viper he was and found Eira’s cave, where he found the witch asleep an’ Maugrim off on a hunt. Quick as a whip he put his blade through the witch’s throat, killin’ her instantly. But then came the beast—nowhere near so easy. Gerring returned with the heads of Eira Frostsinger and Maugrim the next mornin’, but stories of the legendary fight between Gerring and Maugrim are different every time I hear ‘em.\n- Rodolf Kazmer",
+    "quantity": "1",
+    "weight": 6,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Silver (6d6+4)",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "kDVzO9UI06KwXs6s",
+        "name": "Greater Focus (Earth)",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "Ta6ks3R8gJ6KeTvB",
+        "name": "Greater Focus (Water)",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "zImRu008w8Biblba",
+        "name": "Balanced",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "YfKaDUizSGQef5Pu",
+        "name": "Freeze",
+        "percentage": 75,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 3,
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Silver (6d6+4)",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "kDVzO9UI06KwXs6s",
+          "name": "Greater Focus (Earth)",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "Ta6ks3R8gJ6KeTvB",
+          "name": "Greater Focus (Water)",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "zImRu008w8Biblba",
+          "name": "Balanced",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "YfKaDUizSGQef5Pu",
+          "name": "Freeze",
+          "statusEffect": "freeze",
+          "percentage": 75,
+          "varEffect": false
+        }
+      ],
+      "silverDamage": "6d6+4"
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "15d04dd578b5402276c87341f62db0ce93416f7c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LNlwumj2jmyeHCoE"
+}

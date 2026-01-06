@@ -1,0 +1,132 @@
+{
+  "name": "Criminal Skill Tree",
+  "type": "profession",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Criminal%20Icon.jpg",
+  "system": {
+    "notes": "<h1>Go To Ground</h1>\n<table style=\"width: 57.4074%;\" border=\"1\"><colgroup><col style=\"width: 68.8172%;\"><col style=\"width: 31.0787%;\"></colgroup>\n<tbody>\n<tr>\n<td><strong>Value</strong></td>\n<td style=\"text-align: center;\"><strong>Cost</strong></td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Area</strong></td>\n</tr>\n<tr>\n<td>A week's ride</td>\n<td>3</td>\n</tr>\n<tr>\n<td>A day's ride</td>\n<td>5</td>\n</tr>\n<tr>\n<td>A day's walk</td>\n<td>8</td>\n</tr>\n<tr>\n<td>In the area</td>\n<td>10</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Security </strong><strong>(Multiple)</strong></td>\n</tr>\n<tr>\n<td>Locks</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Hidden</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2 Bandit guards</td>\n<td>5</td>\n</tr>\n<tr>\n<td>5 Traps (GMs Choice)</td>\n<td>3</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Perks </strong><strong>(Multiple)</strong></td>\n</tr>\n<tr>\n<td>Food &amp; Water</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Surgeon's Kit</td>\n<td>2</td>\n</tr>\n<tr>\n<td>A Forge</td>\n<td>3</td>\n</tr>\n<tr>\n<td>Alchemy Set</td>\n<td>3</td>\n</tr>\n</tbody>\n</table>",
+    "definingSkill": {
+      "skillName": "Practiced Paranoia",
+      "stat": "int",
+      "definition": "Whether they’re an assassin, a thief, a counterfeitter, or a smuggler, criminals all share a practiced paranoia that keeps them out of trouble. Whenever a Criminal comes within 10m of a trap (this includes experimental traps, Man at Arms booby traps, and ambushes) they immediately can make a Practiced Paranoia roll at either the DC to spot the trap, the ambushing party’s Stealth roll, or a DC set by the GM. Even if they don’t succeed in spotting the trap, they are still aware that something is wrong.",
+      "level": null
+    },
+    "skillPath1": {
+      "pathName": "The Thief",
+      "skill1": {
+        "skillName": "Case The Area",
+        "stat": "int",
+        "definition": "<p>A Criminal can take an hour to wander the streets of a Settlement and roll Case the Area against a DC in the Case The Area chart. If successful, the Criminal memorizes guard patterns, street layouts, and hiding spots for a +2 to Stealth in that area for a number of days equal to their Case the Area value.</p>\n<ul>\n<li><strong>Hamlet:</strong> DC 16</li>\n<li><strong>Town:</strong> DC 18</li>\n<li><strong>City:</strong> DC 20</li>\n<li><strong>Capital:</strong> DC 22</li>\n</ul>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Mental Key",
+        "stat": "int",
+        "definition": "<p>Whenever a Criminal successfully picks a lock they can roll Mental Key at a DC equal to the Lock Picking DC to memorize its tumbler positions. This allows the Criminal to open the lock without a Lock Picking roll. You can memorize as many locks as you have points in INT and can always replace one.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Go To Ground",
+        "stat": "int",
+        "definition": "<p>Once per session a Criminal can roll Go To Ground to find a hideout where they can lie low for a while. Take the total value of your Go to Ground roll and split the points between the 3 categories in the Go To Ground table in the sidebar. This hideout remains until destroyed, and you can always return to it.</p>",
+        "level": null
+      }
+    },
+    "skillPath2": {
+      "pathName": "The Gang Boss",
+      "skill1": {
+        "skillName": "Weak Spot",
+        "stat": "emp",
+        "definition": "<p>A Criminal can roll Weak Spot against a sentient target&rsquo;s Deceit roll to identify the target&rsquo;s most valued possession or person. This also grants the Criminal a +1 to Intimidate for every 2 points they rolled above the target&rsquo;s Deceit. This Intimidation bonus lasts until something happens to change the target&rsquo;s weak spot.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Marked Man ",
+        "stat": "will",
+        "definition": "<p>A Criminal can roll Marked Man at a DC equal the target&rsquo;s EMPx3 to mark a target by carving a mark on their door, or the like. If successful the target must make a Charisma, Persuasion, or Intimidation check that beats your Marked Man roll to get any help or service from anyone in their settlement.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Rally ",
+        "stat": "will",
+        "definition": "<p>Once per day, by taking an hour, a Criminal can roll a Rally check against a DC set by the GM. For every 2 you roll above the DC they recruit 1 Bandit for a number of days equal to your Rally value. If a Bandit is knocked below half health they must roll under the Criminal&rsquo;s WILL on a 10 sided die or flee.</p>",
+        "level": null
+      }
+    },
+    "skillPath3": {
+      "pathName": "The Assassin",
+      "skill1": {
+        "skillName": "Careful Aim",
+        "stat": "dex",
+        "definition": "<p>A Criminal who&rsquo;s not in active combat and takes a round to aim can roll Careful Aim at a DC equal to their target&rsquo;s REFx3 to gain a bonus on their next attack equal to half their Careful Aim value. Being spotted after making this roll but before attacking halves the bonus.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Eye Gouge",
+        "stat": "dex",
+        "definition": "<p>A Criminal can roll Eye Gouge in place of an attack to temporarily blind a target. Eye Gouge requires the Criminal to be in melee range and imposes a -3 to hit. However if it hits, the target takes an unmodified 2d6 damage and is blinded for a number of rounds equal to the Eye Gouge value.</p>",
+        "level": null,
+        "skillAttack": {
+          "isAttack": true,
+          "damageFormulaOverride": "2d6",
+          "attackOptions": [
+            "melee"
+          ],
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block"
+          ],
+          "damageProperties": {
+            "effects": [
+              {
+                "id": "k2nH3nVCgv76Rgi8",
+                "name": "Blinded",
+                "statusEffect": "blinded",
+                "percentage": 100,
+                "varEffect": false
+              }
+            ]
+          },
+          "usesWeapon": false
+        }
+      },
+      "skill3": {
+        "skillName": "Assassin’s Strike",
+        "stat": "dex",
+        "definition": "<p>When ambushing a target, a Criminal can make an Assassin&rsquo;s Strike roll against the target&rsquo;s Awareness roll to conceal themselves after an attack. This ability can be used in any situation but imposes penalties based on light and cover conditions. Multiple opponents can each roll to spot the Criminal.</p>\n<ul>\n<li><strong>In Melee range:</strong> -3 Mod.</li>\n<li><strong>In Light:</strong> -5 Mod.</li>\n<li><strong>In Darkness:</strong> +5 Mod.</li>\n<li><strong>In Dim Light:</strong> +2 Mod.</li>\n<li><strong>In a Heavily Crowded Area:</strong> +3 Mod.</li>\n<li><strong>In a Silent Area:</strong> -1 Mod.</li>\n<li><strong>Beyond 20m of the Target:</strong> +3 Mod.</li>\n</ul>",
+        "level": null
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.professions.Item.GZ4BceQbhckH4lhu",
+      "hash": "a7e021609227a70e099760ebb5a84e90243e6834"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.22.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "witcher-archive",
+      "uuid": null,
+      "coreVersion": "10.291",
+      "systemId": "TheWitcherTRPG",
+      "systemVersion": "0.96"
+    }
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "5MhzIPvbW9o8kg1o",
+  "sort": 1100000,
+  "_key": "!items!5MhzIPvbW9o8kg1o"
+}

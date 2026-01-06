@@ -1,0 +1,69 @@
+{
+  "folder": "n4Q7VyheZk6uK2TL",
+  "name": "Ball Lightning",
+  "type": "spell",
+  "_id": "EzwndLpd9wnn9PQp",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "air",
+    "domain": "",
+    "stamina": "14",
+    "staminaIsVar": false,
+    "effect": "Favored by mages who commonly fight agile targets, Ball Lightning summons an orb of magical lightning which flies through the air at your command. \nUpon casting this spell, you can direct the ball lightning at a single target who must make a defense check against your Spell Casting check. \nIf they fail, the target takes 3d6 damage to the torso and suffers the Concussion Critical Injury Effect for 10 Minutes. \nIf the target successfully defends, the Ball Lightning remains in the area. \nOn subsequent turns you can use your action to make a new attack against a target with a new Spell Casting check. \nOnce the ball lightning hits a target it dissipates.",
+    "range": "20m",
+    "duration": "5 Rounds",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "3d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Concussion (Critical Wound)"
+      }
+    ],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "30f318ffb4f46d1c23b056c109eebbd6cbd914fc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EzwndLpd9wnn9PQp"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Anabolic Steroids",
+  "type": "diagrams",
+  "_id": "iXacxKJSQIUVM8bu",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>Drinking Anabolic Steroids give a character +10 Maximum HP and a +2 to Endurance and Physique for 10 minutes.<br>On the other hand, it makes the drinker incredibly aggressive towards everyone for 1 hour.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 330,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 2,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hXwLkkBUrafqS4ZD",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d3f67c55cfce249523b9297433622f61d6e440de"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!iXacxKJSQIUVM8bu"
+}

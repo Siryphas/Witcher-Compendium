@@ -1,0 +1,82 @@
+{
+  "folder": "qlsokLd2xO6kWMO0",
+  "name": "Golem Crafting",
+  "type": "spell",
+  "_id": "03xsGhzMlLaUSvbi",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "15",
+    "staminaIsVar": false,
+    "effect": "Golem Crafting creates a golem that serves the caster until it dies. The process creates a simple golem that is bound to your will.\nIt will do anything that you ask it to, but it cannot think and can’t perform finesse tasks that require fingers or grabbing small things.\nA golem will execute the last order it was given. \nIf it fails, it will try again endlessly until it succeeds or you order it to stop. If the order is ongoing (“fetch some water”) the golem will continue to perform that order until it dies or you order it to stop.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "Chalk (x2), A Perfect Gemstone (x1), Hardened Timber (x10), Stone (x10), Infused Dust (x5), Fifth Essence (x2)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "20",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "20",
+    "cost": 2098,
+    "defenseOptions": [],
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.NIbVLQj8z91FPjNI",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.EzQOcExxBDHb9B0n",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uxPdoK1Q7ieUdPPB",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.hXzzCRXrLaiz3VSQ",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 2
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d81abac6df705d3545af37cadd115ce6d47834d2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!03xsGhzMlLaUSvbi"
+}

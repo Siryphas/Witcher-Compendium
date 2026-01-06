@@ -1,0 +1,77 @@
+{
+  "folder": "zW8qQ2iOSdX7IwRP",
+  "name": "Dwarven Heavy Crossbow",
+  "type": "weapon",
+  "_id": "ymslb74yY8T3L0rA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-purple.webp",
+  "system": {
+    "description": "Us dwarves are stronger than humans. Heh, we may be shorter than a human or an elf but we’re sturdier, that’s for sure. So the dwarven crossbow’s built for our strength, Heh, we add a goat’s foot lever when we sell ‘em so humans and elves can use ‘em.",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 850,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "5d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "300m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 0.5,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.cgaTZDyX9wMKrjGv"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "59c56076837a32f987c343a31f141cf4b028ae13"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ymslb74yY8T3L0rA"
+}

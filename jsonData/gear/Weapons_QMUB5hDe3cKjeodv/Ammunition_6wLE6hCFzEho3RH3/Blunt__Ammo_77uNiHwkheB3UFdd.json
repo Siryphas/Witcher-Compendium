@@ -1,0 +1,80 @@
+{
+  "folder": "6wLE6hCFzEho3RH3",
+  "name": "Blunt, Ammo",
+  "type": "weapon",
+  "_id": "77uNiHwkheB3UFdd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-fletching.webp",
+  "system": {
+    "description": "Blunt bolts and arrows are an interesting case. Heh, never really used ‘em myself but then again, never fought much that a broadhead won’t put down. Blunt ammunition has a large dull wooden head like a fist. Hear if ya half-draw ‘em in a bow, ya can use these bolts to knock people out.",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": 1,
+    "range": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Non-Lethal",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "damageProperties": {
+      "isNonLethal": true,
+      "effects": []
+    }
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5aa8628328b2fbf87234c7acdca9347444f9cc6c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!77uNiHwkheB3UFdd"
+}

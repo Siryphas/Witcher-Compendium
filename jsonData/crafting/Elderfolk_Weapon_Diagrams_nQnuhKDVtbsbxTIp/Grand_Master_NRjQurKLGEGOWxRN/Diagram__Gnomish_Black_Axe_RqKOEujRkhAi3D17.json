@@ -1,0 +1,90 @@
+{
+  "folder": "NRjQurKLGEGOWxRN",
+  "name": "Diagram: Gnomish Black Axe",
+  "type": "diagrams",
+  "_id": "RqKOEujRkhAi3D17",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Everybody knows about the gnomish gwyhyr. What not everybody knows is that gnomes also made axes. Heh, they&rsquo;re made like the gwyhyr but they&rsquo;re heftier, with a solid bearded head scrawled with gnomish runes. They&rsquo;re light, too. So light and thin they feel like they shouldn&rsquo;t even be used in combat. But they&rsquo;re tough enough to hew armor.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1376,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "5WznoDa7eGgeTcTk",
+        "name": "Hardened Timber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "w6fpsRy4QsbRjbn5",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "qhUUaQbeULZ7JU1k",
+        "name": "Dimeritium",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4JTob93lOKfhIikr"
+      },
+      {
+        "id": "cV9vEYkTu3AClZ8M",
+        "name": "Sharpening Grit",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "POmz5LXjhRougys6",
+        "name": "Ogre Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      }
+    ],
+    "investment": 688,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.F95klmyRe3Cp5jt2",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f53f312d76949181f3536270e8ecbe3133decc6d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!RqKOEujRkhAi3D17"
+}

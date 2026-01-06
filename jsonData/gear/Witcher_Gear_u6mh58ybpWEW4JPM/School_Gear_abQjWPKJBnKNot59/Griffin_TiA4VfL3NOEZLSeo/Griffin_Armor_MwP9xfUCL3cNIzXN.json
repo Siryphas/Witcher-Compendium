@@ -1,0 +1,67 @@
+{
+  "folder": "TiA4VfL3NOEZLSeo",
+  "name": "Griffin Armor",
+  "type": "armor",
+  "_id": "MwP9xfUCL3cNIzXN",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Griffin%20Armor.jpg",
+  "system": {
+    "description": "Critical Spellcasting: \nWhenever you cause a Critical Wound using one of your Witcher weapons you can immediately attempt a Spell Casting check to cast a Sign at no additional penalty and without spending any Stamina besides the Stamina required to cast the sign.",
+    "quantity": 1,
+    "weight": 18,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 16,
+    "torsoMaxStopping": 16,
+    "leftArmStopping": 16,
+    "leftArmMaxStopping": 16,
+    "rightArmStopping": 16,
+    "rightArmMaxStopping": 16,
+    "leftLegStopping": 16,
+    "leftLegMaxStopping": 16,
+    "rightLegStopping": 16,
+    "rightLegMaxStopping": 16,
+    "type": "Medium",
+    "avail": "WITCHER",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Critical Spellcasting"
+      }
+    ],
+    "encumb": 1,
+    "location": "FullCover",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.2d8i5mYPcdncRfGS"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "180b92e4a2bf0ab40ceb9619d94c3456ea51e734"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MwP9xfUCL3cNIzXN"
+}

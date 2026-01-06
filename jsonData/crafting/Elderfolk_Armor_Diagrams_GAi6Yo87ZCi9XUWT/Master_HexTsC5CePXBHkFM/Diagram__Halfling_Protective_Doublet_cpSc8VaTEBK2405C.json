@@ -1,0 +1,84 @@
+{
+  "folder": "HexTsC5CePXBHkFM",
+  "name": "Diagram: Halfling Protective Doublet",
+  "type": "diagrams",
+  "_id": "cpSc8VaTEBK2405C",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Armor&rsquo;s great. In times like these everyone should have some. But not everybody can wear chain and plates. A while ago, the halflings developed this armored doublet. Heh, they&rsquo;re usually bright and well-decorated but they have a solid layer of armor inside them.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 562,
+    "isHidden": false,
+    "type": "elderfolk-armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "3bjh5WNOG2XbB0ea",
+        "name": "Silk",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      },
+      {
+        "id": "Ydq34vxon5lNjK0G",
+        "name": "Double Woven Linen",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "j0zflbzq8iMa8O02",
+        "name": "Thread",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "Hk83I0JsUNBTSA52",
+        "name": "Cotton",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      }
+    ],
+    "investment": 281,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.qjDpTkp12YvlNpFu",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "13d73197c68ad7e69d1d510559b2bde7bc6d898f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!cpSc8VaTEBK2405C"
+}

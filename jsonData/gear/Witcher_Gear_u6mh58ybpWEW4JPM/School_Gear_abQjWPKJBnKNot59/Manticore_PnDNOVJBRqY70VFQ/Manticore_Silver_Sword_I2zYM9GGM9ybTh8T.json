@@ -1,0 +1,91 @@
+{
+  "folder": "PnDNOVJBRqY70VFQ",
+  "name": "Manticore Silver Sword",
+  "type": "weapon",
+  "_id": "I2zYM9GGM9ybTh8T",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Manticore%20Silver%20Sword.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 1.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "WITCHER",
+    "damage": "2d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Silver (3d6)",
+        "percentage": ""
+      },
+      {
+        "id": "_u31yy984j",
+        "name": "Balanced",
+        "percentage": ""
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "A Witcher's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "silverDamage": "3d6",
+      "effects": [
+        {
+          "id": "_u31yy984j",
+          "name": "Balanced",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TCNKsJgoEJmNH3th"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9dfc07083462bfeca40ec687d1ab33dad13903fd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!I2zYM9GGM9ybTh8T"
+}

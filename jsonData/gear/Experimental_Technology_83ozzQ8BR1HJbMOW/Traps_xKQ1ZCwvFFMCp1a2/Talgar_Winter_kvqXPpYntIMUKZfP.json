@@ -1,0 +1,96 @@
+{
+  "folder": "xKQ1ZCwvFFMCp1a2",
+  "name": "Talgar Winter",
+  "type": "weapon",
+  "_id": "kvqXPpYntIMUKZfP",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/environment/traps/trap-jaw-tan.webp",
+  "system": {
+    "description": "Any creature caught in this blast radius freezes in place until they make a DC:18 Physique check, until they are struck, or for 8 rounds. An attack on someone frozen does an extra 2d6 damage.",
+    "quantity": 1,
+    "weight": 2,
+    "cost": 126,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "none",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "percentage": "100"
+      },
+      {
+        "id": "_ivfkom175",
+        "name": "DC: 18 Physique or 8 Rounds",
+        "percentage": ""
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": true,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "3LllvmvWpftPDpqE",
+          "name": "Freeze",
+          "statusEffect": "freeze",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "xgSkm1i3zxN4SNMJ",
+          "name": "DC: 18 Physique or 8 Rounds",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "bypassesNaturalArmor": true,
+      "bypassesWornArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ]
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e2b457787cf7e836df00247f261963d5e56b9d1f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kvqXPpYntIMUKZfP"
+}

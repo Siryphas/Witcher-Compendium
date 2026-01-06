@@ -1,0 +1,78 @@
+{
+  "folder": "4uEv4u3zjO1eCMCr",
+  "name": "Runeword: Rejuvenation",
+  "type": "diagrams",
+  "_id": "5TpC4eJItvSeLseJ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Whenever you kill a creature with this weapon, you regain Stamina equal to your REC score.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 3500,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 21,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "xm1UMVEWZwDM4qJF",
+        "name": "Perun Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.XjcT0Z1g5NqWRvBt"
+      },
+      {
+        "id": "KUaoTwf2BXFULuA1",
+        "name": "Svarog Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.HqZNjktY1yDoshqW"
+      },
+      {
+        "id": "1au2Wpuk6uHDra4R",
+        "name": "Triglav Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.SCFRttH2BT0GwOUR"
+      }
+    ],
+    "investment": 1750,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.tWrlG3M25YAq4bNy",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "273b5973ff68f60df7c8ef6101323eaaeb9001fe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!5TpC4eJItvSeLseJ"
+}

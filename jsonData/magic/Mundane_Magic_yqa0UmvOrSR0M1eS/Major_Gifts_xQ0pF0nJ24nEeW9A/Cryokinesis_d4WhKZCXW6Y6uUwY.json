@@ -1,0 +1,57 @@
+{
+  "folder": "xQ0pF0nJ24nEeW9A",
+  "name": "Cryokinesis",
+  "type": "spell",
+  "_id": "d4WhKZCXW6Y6uUwY",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "major gift",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Spell Casting DC: 9\n\nAs a full round action, you can freeze up to 2 square meters of liquid or a single target within 8m.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "Whenever you have a chance of being frozen, you are no matter what. \nAdditionally, instead of the standard Frozen condition you reduce your SPD by 6 and REF by 4.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "801b216499d7004cd2fdad8fd19061e6832ff363"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!d4WhKZCXW6Y6uUwY"
+}

@@ -1,0 +1,63 @@
+{
+  "folder": "Pa7EzS7GiWHzRmzy",
+  "name": "Light of Truth",
+  "type": "spell",
+  "_id": "9Ogc9BCxo749nLIk",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "journeyman",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "The Light of Truth allows you to create a bright white light that forces one target to speak truthfully. Every round the target must make another check. \nIf they fail, they must answer any question truthfully.",
+    "range": "5m",
+    "duration": "Active (2 STA)",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8364c11fce6b1ff71b517275f76482b19ee7bceb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9Ogc9BCxo749nLIk"
+}

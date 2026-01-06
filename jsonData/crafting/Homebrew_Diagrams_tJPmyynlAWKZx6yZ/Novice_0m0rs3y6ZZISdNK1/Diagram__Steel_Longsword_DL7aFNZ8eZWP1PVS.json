@@ -1,0 +1,87 @@
+{
+  "folder": "0m0rs3y6ZZISdNK1",
+  "name": "Diagram: Steel Longsword",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 480,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 14,
+    "alchemyDC": 0,
+    "craftingTime": "7 H",
+    "craftingComponents": [
+      {
+        "id": "BMKslblhHiyd961U",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "zd1wJVNCz4iN4XvS",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "eYhU8MvZEgOJEtct",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "NcWHCx04uz06qeNr",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      }
+    ],
+    "investment": 176,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hHuK6ThStANmYLT5",
+    "sourcebook": "Homebrew",
+    "isStored": false,
+    "isCarried": true,
+    "resultQuantity": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "eb995e08553d3876547ec36aaba20062cc5e7777",
+      "sourceId": "Item.GvGFFg83S9lurakH"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.ZGgpgKIDP8uZrrzE",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.26.0",
+    "exportSource": null
+  },
+  "_id": "DL7aFNZ8eZWP1PVS",
+  "sort": 100000,
+  "_key": "!items!DL7aFNZ8eZWP1PVS"
+}

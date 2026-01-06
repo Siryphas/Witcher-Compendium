@@ -1,0 +1,52 @@
+{
+  "folder": "A7HluumtZL3d42ob",
+  "name": "Triglav Rune+",
+  "type": "enhancement",
+  "_id": "2pEurPGb5NRtqiJw",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Triglav%20Rune%20Greater.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 575,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stun (-2)",
+        "statusEffect": "stun",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8554cd989b155c036a11f7e9b3fae5c3ff9d5123"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.1.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2pEurPGb5NRtqiJw"
+}

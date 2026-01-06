@@ -1,0 +1,96 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Plate Greaves",
+  "type": "diagrams",
+  "_id": "tqmBs0eYNPgqhDM2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Greaves, sabatons, cuisse, tasses. It all protects your legs. Big plates of worked steel encasin&rsquo; your legs and turnin&rsquo; everything from swords to maces to long bows.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 798,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 19,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "KVbrDPj669Gb6WJw",
+        "name": "Steel",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "E2iu80inZQrbYQr9",
+        "name": "Hardened Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "sVcPs8xPvq17QtvI",
+        "name": "Thread",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "LK4MK4fuyrNCnuSD",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "nNchkBSvJrSpsJtM",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "2IFar8DhMA1QT9Xt",
+        "name": "Ogre Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      }
+    ],
+    "investment": 468,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hC0B9IRkYUSsz21v",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d6fc8378333241b47f88f2ac85fcdc042fa53578"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!tqmBs0eYNPgqhDM2"
+}

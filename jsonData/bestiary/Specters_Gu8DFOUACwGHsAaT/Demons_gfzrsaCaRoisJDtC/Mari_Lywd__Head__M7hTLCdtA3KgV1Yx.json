@@ -1,0 +1,1312 @@
+{
+  "folder": "gfzrsaCaRoisJDtC",
+  "name": "Mari Lywd (Head)",
+  "type": "monster",
+  "_id": "M7hTLCdtA3KgV1Yx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/npc-images/mari_lywd_head_.Avatar.webp?1738145446379",
+  "system": {
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "critWounds": [],
+    "stats": {
+      "int": {
+        "max": 5,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "ref": {
+        "max": 10,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "dex": {
+        "max": 10,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "body": {
+        "max": 10,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "spd": {
+        "max": 5,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "emp": {
+        "max": 3,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "cra": {
+        "max": 3,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "will": {
+        "max": 8,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "toxicity": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Toxicity",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "run": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "leap": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "enc": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "rec": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "woundTreshold": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "totalModifiers": 0
+      }
+    },
+    "derivedStats": {
+      "hp": {
+        "max": 90,
+        "unmodifiedMax": 90,
+        "value": 90,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "sta": {
+        "max": 45,
+        "unmodifiedMax": 45,
+        "value": 45,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "resolve": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 30,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "focus": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "vigor": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "totalModifiers": 0
+      },
+      "modifiersIsOpened": false
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "total": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "totalModifiers": 0
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 11,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "wilderness": {
+          "value": 11,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 8,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "dodge": {
+          "value": 8,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "melee": {
+          "value": 8,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "athletics": {
+          "value": 6,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "stealth": {
+          "value": 6,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 8,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "endurance": {
+          "value": 8,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "disguise": {
+          "value": 13,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 0,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "hexweave": {
+          "value": 0,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "intimidation": {
+          "value": 8,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "resistmagic": {
+          "value": 0,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "resistcoerc": {
+          "value": 12,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "activeEffectModifiers": 0,
+          "isProfession": false,
+          "isPickup": false,
+          "isLearned": false
+        }
+      }
+    },
+    "attackStats": {
+      "meleeBonus": 0,
+      "punch": {
+        "label": "WITCHER.Actor.DerStat.Punch",
+        "value": ""
+      },
+      "kick": {
+        "label": "WITCHER.Actor.DerStat.Kick",
+        "value": ""
+      },
+      "critLocationModifier": 0,
+      "critEffectModifier": 0
+    },
+    "damageTypeModification": {
+      "slashing": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "piercing": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "bludgeoning": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "elemental": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "electricity": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "fire": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "ice": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      }
+    },
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "notes": [],
+    "pannels": {
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "hexIsOpen": false,
+      "magicalgiftIsOpen": false,
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": false,
+      "craIsOpen": true,
+      "willIsOpen": true
+    },
+    "specialSkillModifiers": [],
+    "lifepathModifiers": {
+      "strongStrikeAttackBonus": 0,
+      "jointStrikeAttackBonus": 0,
+      "shieldParryBonus": 0,
+      "shieldParryThrownBonus": 0,
+      "ignoredArmorEncumbrance": 0,
+      "ignoredEvWhenCasting": 0
+    },
+    "category": "Specter",
+    "threat": "hard",
+    "difficulty": "complex",
+    "bounty": 1500,
+    "resistantNonSilver": true,
+    "resistantNonMeteorite": false,
+    "armorHead": 5,
+    "armorUpper": 5,
+    "armorLower": 5,
+    "armorTailWing": 0,
+    "regen": 0,
+    "resistances": "",
+    "immunities": "Poison, Bleeding, Freeze, Fear, Magical Scanning",
+    "statusEffectImmunities": [
+      "poison",
+      "bleed",
+      "freeze",
+      "frightened"
+    ],
+    "susceptibilities": "Specter Oil, Moondust Bomb, Dimeritium Bomb",
+    "senses": "Superior Night Vision",
+    "height": "2.5m",
+    "weight": "135kg",
+    "environment": "Wherever they are summoned",
+    "intelligence": "Sapient",
+    "organization": "Solitary",
+    "common": "<p><em>If ya hear an eerie chorus singin&rsquo; at your door in the middle of the night it&rsquo;s best if ya lock up&nbsp;tight and plug yer ears. Honest, it&rsquo;s the best advice I can give ya, heh. Mari lwyd are demons&nbsp;that prey on folks who deny &lsquo;em hospitality. They wander around, askin&rsquo; for food and beer and&nbsp;a place by the hearth and whatnot. If ya answer the door but ya don&rsquo;t let &lsquo;em in they&rsquo;ll mark&nbsp;ya. Worst part is, a mari lwyd&rsquo;s got this power that lets &lsquo;em possess folks. If ya don&rsquo;t let &lsquo;em in&nbsp;they&rsquo;ll possess one of yer neighbors and make &lsquo;em beg ya to let &lsquo;em in.</em><br>&mdash;Rodolf Kazmer</p>",
+    "commonSkillValue": "16",
+    "showCommonerSuperstition": true,
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "showAcademicKnowledge": false,
+    "monsterLore": "<p>Mari lwyd are demons of greed who give desperate people their wildest dreams only to return for nightmarish repayment. Without permission, a mari lwyd cannot pass the threshold of a home so it will sing to the debtor outside their door. If they are still not let in, the mari lwyd may kill the debtor&rsquo;s neighbors and take their shapes to trick them. Mari lwyd are shrewd and vain creatures that will fly into a rage if you insult them or deny them what they consider to be fair. If it turns to violence, a mari lwyd will prefer to stay at a distance, using its extremely long neck like a whip or lunging its skeletal head out to bite through armor with unnaturally sharp teeth. Be wary that this demon exudes an aura of icy cold which may freeze you in your tracks. If possible, attempt to sever its neck to take away its best weapon.</p>",
+    "monsterLoreSkillValue": "18",
+    "showMonsterLore": true,
+    "customStat": true,
+    "addMeleeBonus": false,
+    "dontAddAttr": false,
+    "hasTailWing": false
+  },
+  "prototypeToken": {
+    "name": "Mari Lywd (Head)",
+    "displayName": 50,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/tokenizer/npc-images/mari_lywd_head_.Token.webp?1738145446379",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": "#c8af32",
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.7,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 3,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 16,
+      "angle": 180,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 16,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      },
+      "tagger": {},
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderPositioningFlag": "RowPlacement",
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "GrapplePlacementFlag": "RowBelow",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "CanbePilotedFlag": false,
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "_id": "Crq2KVPTHqj4DtwA",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/bone-jaw-teeth-white.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "A Tome of Chaos",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "conceal": "NA",
+        "avail": "Rare",
+        "hands": "none",
+        "equipped": true,
+        "reliable": 10,
+        "maxReliability": 10,
+        "damage": "5d6+4",
+        "range": "100m",
+        "accuracy": 0,
+        "rateOfFire": 1,
+        "usingAmmo": false,
+        "rollOnlyDmg": false,
+        "enhancements": 0,
+        "enhancementItemIds": [],
+        "attackOptions": [
+          "melee"
+        ],
+        "meleeAttackSkill": "melee",
+        "rangedAttackSkill": "melee",
+        "applyMeleeBonus": true,
+        "applyRangedMeleeBonus": true,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": true,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "hitGlobalModifiers": [],
+          "appliesGlobalModifierToHit": false,
+          "appliesGlobalModifierToDamaged": false,
+          "damagedGlobalModifiers": [],
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [
+            {
+              "id": "_610ak0tm4",
+              "name": "Freeze",
+              "statusEffect": "freeze",
+              "percentage": 100,
+              "varEffect": false
+            }
+          ],
+          "oilEffect": "",
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "defenseProperties": {
+          "parrying": false
+        },
+        "associatedDiagramUuid": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {},
+        "scene-packer": {
+          "hash": "28b0bea1ce1c96a0a79b417b594a997dcc66f688"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.Lp4N2nUrhI5nqN0M.Item.zVyEgkWZr49UtG2b",
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!M7hTLCdtA3KgV1Yx.Crq2KVPTHqj4DtwA"
+    },
+    {
+      "name": "Vulnerability: Fragile Spine",
+      "type": "note",
+      "_id": "bbTZ9pty4RBYPktk",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "If a mari lywd’s Spine Whip attack is successfully parried or is reduced to 0 REL, its neck is severed and it can no longer use its Spine Whip attack or Shapeshift ability. The head and the body now act separately on its turn and the neck retracts back into the body. The head may now only use the Bite attack (with RNG reduced to melee range) and floats around at its normal SPD Statistic in any direction. The body may only use the Slam attack and cannot extend its neck. Aiming for the mari lywd’s head suffers the same penalty you would normally for attacking the head. Both halves of the mari lywd still share HP and armor and make use of their Chill Aura ability independently. If adjacent to it’s head, the mari lywd can take its full turn to reattach it, tying it back on with a ribbon, which restores its Spine Whip attack to 20 REL.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "4d7c2511574145cb11ee2bfda6ae6768bc65cfce"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!M7hTLCdtA3KgV1Yx.bbTZ9pty4RBYPktk"
+    },
+    {
+      "name": "Ability: Chill Aura",
+      "type": "note",
+      "_id": "7GOL3whOsBhJtAh0",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "A mari lywd radiates an aura of otherworldly cold. If a creature starts its turn within melee range of the mari lywd, they have a 50% chance to freeze. If the mari lywd is on fire at the beginning of a turn where it’s Chill Aura ability is active, the fire immediately goes out, before the mari lywd takes damage. When in the area of a Dimeritium bomb the mari lwyd cannot use this ability",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "sourcebook": "",
+        "isHidden": false,
+        "isStored": false,
+        "isCarried": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "scene-packer": {
+          "hash": "4d7c2511574145cb11ee2bfda6ae6768bc65cfce"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!actors.items!M7hTLCdtA3KgV1Yx.7GOL3whOsBhJtAh0"
+    }
+  ],
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e169d39ea0760c1d1853fbb8d8bfc32117ac69c9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!actors!M7hTLCdtA3KgV1Yx"
+}

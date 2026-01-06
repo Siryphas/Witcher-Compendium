@@ -1,0 +1,118 @@
+{
+  "name": "Chain Barding (Armor)",
+  "type": "armor",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/metal/mail-chain-steel.webp",
+  "system": {
+    "description": "SP: 15 to your whole mount.\n-1 Control checks for Riding.",
+    "quantity": "1",
+    "weight": 25,
+    "cost": 1050,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "Heavy",
+    "avail": "Rare",
+    "equipped": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "encumb": 0,
+    "location": "FullCover",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "headStopping": 15,
+    "headMaxStopping": 15,
+    "torsoStopping": 15,
+    "torsoMaxStopping": 15,
+    "leftArmStopping": 15,
+    "leftArmMaxStopping": 15,
+    "rightArmStopping": 15,
+    "rightArmMaxStopping": 15,
+    "leftLegStopping": 15,
+    "leftLegMaxStopping": 15,
+    "rightLegStopping": 15,
+    "rightLegMaxStopping": 15,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "effects": [
+      {
+        "id": "sVtiYla24HFHlyHQ",
+        "name": "-1 Riding",
+        "statusEffect": null,
+        "percentage": 100,
+        "varEffect": false
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "Chain Barding (Armor)",
+      "origin": "Item.TiStDZ3dK9qzVvEE",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/metal/mail-chain-steel.webp",
+      "_id": "QkMO8sT1OPwNTEFS",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.ref.riding.activeEffectModifiers",
+          "mode": 2,
+          "value": "-1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!NGsQeepGtwDfNUCH.QkMO8sT1OPwNTEFS"
+    }
+  ],
+  "folder": "oeTcaHNDgub9F5z0",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6902a814928ef46a3a0364c3637272355283d8b9",
+      "sourceId": "Item.TiStDZ3dK9qzVvEE"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "NGsQeepGtwDfNUCH",
+  "sort": 1000000,
+  "_key": "!items!NGsQeepGtwDfNUCH"
+}

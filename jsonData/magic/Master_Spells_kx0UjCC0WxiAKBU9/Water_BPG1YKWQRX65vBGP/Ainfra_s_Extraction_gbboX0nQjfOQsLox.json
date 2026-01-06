@@ -1,0 +1,76 @@
+{
+  "folder": "BPG1YKWQRX65vBGP",
+  "name": "Ainfra's Extraction",
+  "type": "spell",
+  "_id": "gbboX0nQjfOQsLox",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "Water",
+    "domain": "",
+    "stamina": "22",
+    "staminaIsVar": false,
+    "effect": "Created by the famed Ainfra of Mag Turga, Ainfra’s Extraction allows you to desiccate a target and then utilize their water for your own means. \nUpon casting this spell, a target that fails to defend lowers their current STA by 8d6 and the caster may immediately cast Rhewi, Ice Slick, or Water Jet at no STA cost.",
+    "range": "8m",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "8d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Non-Lethal",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "damageProperties": {
+      "bypassesNaturalArmor": true,
+      "bypassesWornArmor": true,
+      "isNonLethal": true,
+      "effects": []
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0266c0382820e16731aa2a46fa8102c90542aceb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gbboX0nQjfOQsLox"
+}

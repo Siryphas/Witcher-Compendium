@@ -1,0 +1,71 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Bronwyn's Gust",
+  "type": "spell",
+  "_id": "WSytwEudnyGtFE1m",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "air",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Bronwyn’s Gust is named after the Skellige mage and raider, Bronwyn Deadeye. The spell allows you to knock a target back a number of meters equal to the number of points you rolled over the opponent’s defense. \nThis attack only does 1d6 damage, but if your opponent strikes something they take ramming damage.",
+    "range": "2m",
+    "duration": "Immediate",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "1d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Knockback",
+        "statusEffect": "prone",
+        "percentage": 100
+      }
+    ],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0637c08fd0b8ad77a3a10e98399ec0e13d25268c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WSytwEudnyGtFE1m"
+}

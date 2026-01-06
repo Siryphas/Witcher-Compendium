@@ -1,0 +1,65 @@
+{
+  "folder": "OREPO5AXo1tBZekr",
+  "name": "Formulae: Troll Decoction",
+  "type": "diagrams",
+  "_id": "B23AUL9XiFFDwSGs",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>You regenerate 5 HP per round.</p>\n<p>&nbsp;</p>\n<p>Requires: 1 Bottle of Spirits, 1 Troll Mutagen</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "decoction",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 18,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 2,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.APko51RldszV68cI",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b9c5787bc38d030d217cb769f8ffa5df87379ec5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!B23AUL9XiFFDwSGs"
+}

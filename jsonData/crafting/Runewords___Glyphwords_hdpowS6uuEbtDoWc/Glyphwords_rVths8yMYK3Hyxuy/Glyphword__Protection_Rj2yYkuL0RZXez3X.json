@@ -1,0 +1,78 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Protection",
+  "type": "diagrams",
+  "_id": "Rj2yYkuL0RZXez3X",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Torso Armor:<br>While wearing this armor, your Hit Points are increased by 5.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2900,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 21,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "sdgoC7G9c6nvYM8P",
+        "name": "Glyph of Earth",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.bTpf0fq4I7pz7xU8"
+      },
+      {
+        "id": "xHbfRd3goHveuQOZ",
+        "name": "Glyph of Magic",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.73YF8s6uRMB9SFZf"
+      },
+      {
+        "id": "nBJLoKoryegkS2oq",
+        "name": "Glyph of Warding",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.6n29ZGGXSDNdv2pz"
+      }
+    ],
+    "investment": 1450,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.HYQX92ZKV4h8Ka9K",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e2a6f8bb8d1efa5e1cb348d2db747b82d2b2881a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!Rj2yYkuL0RZXez3X"
+}

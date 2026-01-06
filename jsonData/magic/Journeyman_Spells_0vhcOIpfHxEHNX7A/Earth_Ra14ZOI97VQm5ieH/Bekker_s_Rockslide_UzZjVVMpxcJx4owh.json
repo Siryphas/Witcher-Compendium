@@ -1,0 +1,72 @@
+{
+  "folder": "Ra14ZOI97VQm5ieH",
+  "name": "Bekker's Rockslide",
+  "type": "spell",
+  "_id": "UzZjVVMpxcJx4owh",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "earth",
+    "domain": "",
+    "stamina": "13",
+    "staminaIsVar": false,
+    "effect": "Bekker’s Rockslide allows you to rip a large stone from beneath the ground and drop it on a target. Upon casting this spell, the target must roll a Reposition roll against your Spell Casting check. \nIf they fail, the target takes 6d6 damage to the torso with a 100% chance of Knock-Down. As the rock makes impact, it explosively shatters covering a 6m radius. \nAnyone in that area must make a DC:16 Athletics check or be Knocked-Down and take 4d6 damage to the torso.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "Reposition",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "6",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "6d6",
+    "effects": [
+      {
+        "id": "0MSuQZODYDJJOKO4",
+        "name": "Knockdown",
+        "statusEffect": "prone",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "bludgeoning",
+    "defenseOptions": [
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d86d67ca43a477e43e1783c0afa4240f55d10608"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UzZjVVMpxcJx4owh"
+}

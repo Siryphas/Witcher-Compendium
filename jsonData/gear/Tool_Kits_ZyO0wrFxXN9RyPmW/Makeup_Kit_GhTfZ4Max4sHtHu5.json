@@ -1,0 +1,94 @@
+{
+  "folder": "ZyO0wrFxXN9RyPmW",
+  "name": "Makeup Kit",
+  "type": "valuable",
+  "_id": "GhTfZ4Max4sHtHu5",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+  "system": {
+    "description": "+2 Seduction & Charisma",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 35,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "toolkit",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Makeup Kit",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.GhTfZ4Max4sHtHu5",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": true,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+      "_id": "oA7QeDxRnzf8lEPU",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.charisma.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.skills.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!GhTfZ4Max4sHtHu5.oA7QeDxRnzf8lEPU"
+    }
+  ],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "baa193d55efbe5547a16fabb6c4de9ce8a5e991e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GhTfZ4Max4sHtHu5"
+}

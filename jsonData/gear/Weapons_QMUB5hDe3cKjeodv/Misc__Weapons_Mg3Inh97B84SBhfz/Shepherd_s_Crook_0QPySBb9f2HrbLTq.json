@@ -1,0 +1,70 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Shepherd's Crook",
+  "type": "weapon",
+  "_id": "0QPySBb9f2HrbLTq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/scribal/burnisher-tooth.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 14,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "1d6-2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Peasant Profession",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 1071875,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bc556c81e15c436225d4258010fc97fc3acbae2c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0QPySBb9f2HrbLTq"
+}

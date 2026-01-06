@@ -1,0 +1,72 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Shining",
+  "type": "diagrams",
+  "_id": "0OEfPj9I7Rc0ydOs",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Torso Armor:<br>By taking an action to rub the rune word on your armor, you can make it shed light up to 6 meters from you for 30 Minutes raising the light level to the level of daylight. Monsters that have a weakness or susceptibility to light or sunlight are affected by the light of this armor.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1750,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "bFgd1DuRnA9iibOx",
+        "name": "Glyph of Air",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.9gTVOnYaT8f5zmpL"
+      },
+      {
+        "id": "wQuoIBVNotKmH6ZW",
+        "name": "Glyph of Warding",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.6n29ZGGXSDNdv2pz"
+      }
+    ],
+    "investment": 875,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.1QntV8QfCt9zuzkF",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2e1af74b9da6516d5c2f7f5e8b93388fcc2ba920"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!0OEfPj9I7Rc0ydOs"
+}

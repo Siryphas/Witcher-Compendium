@@ -1,0 +1,74 @@
+{
+  "folder": "kIf5N1dp7L13YPjL",
+  "name": "Melgar's Fire",
+  "type": "spell",
+  "_id": "dLg3mh1gVZtdlB00",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "fire",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "This spell is well known for sowing chaos on the fields of the Pontar Valley. Melgar’s Fire allows you to rain balls of fire from the sky over a huge area. \nAnyone (except you) in the area has a 75% chance of being struck by a ball of fire.\nIf they miss this roll, they must defend at a DC equal to your Spell Casting check or take 4d6 damage to a random location and have a 75% chance of being ignited.",
+    "range": "40m",
+    "duration": "2d6 Rounds",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "40",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "4d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 75
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "fire",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0d0810c13e102cffdd17338f1ee6b6b531dd9f80"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dLg3mh1gVZtdlB00"
+}

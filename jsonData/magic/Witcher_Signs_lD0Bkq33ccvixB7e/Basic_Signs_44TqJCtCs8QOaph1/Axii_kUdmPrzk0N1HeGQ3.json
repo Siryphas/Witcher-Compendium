@@ -1,0 +1,84 @@
+{
+  "folder": "44TqJCtCs8QOaph1",
+  "name": "Axii",
+  "type": "spell",
+  "_id": "kUdmPrzk0N1HeGQ3",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Witcher",
+    "level": "novice",
+    "source": "Water",
+    "domain": "basic",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Axii stuns an opponent until they can make Stun save at -1.\nFor every 2 points of additional STA you spend past 1, the Stun save becomes harder by 1 point.\n\nUsing Axii For Persuasion:\nAxii can also be used instead of Persuasion. You roll Spell Casting instead of Persuasion, and the opponent rolls Resist Magic instead of Resist Coercion. \nHowever Axii summons a glow of white energy around your hand and the target’s head, so it is easily spotted by anyone watching.",
+    "range": "8m",
+    "duration": "Until Shaken Off",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stun",
+        "statusEffect": "stun",
+        "percentage": 0
+      }
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Stun",
+          "statusEffect": "stun",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "selfEffects": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4c6f640136878a504865d6fba59ac2a30e89937f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.21.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kUdmPrzk0N1HeGQ3"
+}

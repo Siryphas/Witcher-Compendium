@@ -1,0 +1,115 @@
+{
+  "folder": "h5986CrGIUA4INVa",
+  "name": "Blessing of Love",
+  "type": "spell",
+  "_id": "U8tUzqJ01JB7uJYk",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "The Blessing of Love gives the caster a +3 to Charisma and Seduction for the duration of the invocation.",
+    "range": "5m",
+    "duration": "1d10 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Blessing of Love",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.U8tUzqJ01JB7uJYk",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "2t1dIepT6oGGX6Nu",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.emp.charisma.activeEffectModifiers",
+          "mode": 2,
+          "value": "+3",
+          "priority": null
+        },
+        {
+          "key": "system.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "+3",
+          "priority": null
+        }
+      ],
+      "description": "<p>The Blessing of Love gives the caster a +3 to Charisma and Seduction for the duration of the invocation.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!U8tUzqJ01JB7uJYk.2t1dIepT6oGGX6Nu"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ba7185666ee278bf1e338c99c4ee03f82327aef1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!U8tUzqJ01JB7uJYk"
+}

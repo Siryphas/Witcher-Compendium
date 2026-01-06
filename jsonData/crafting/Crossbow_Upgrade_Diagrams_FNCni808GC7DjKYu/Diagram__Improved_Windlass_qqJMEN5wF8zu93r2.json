@@ -1,0 +1,84 @@
+{
+  "folder": "FNCni808GC7DjKYu",
+  "name": "Diagram: Improved Windlass",
+  "type": "diagrams",
+  "_id": "qqJMEN5wF8zu93r2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p><em>This neat little contraption&rsquo;ll let ya wind back your bow&nbsp;string in a matter of seconds. Think it was some sorta&nbsp;gnomish design. Sure as hell looks complex enough to be&nbsp;gnomish make, heh.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 880,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "RNWssNOU9D8R9Uln",
+        "name": "Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "wwSHiL9jc5J4iCav",
+        "name": "Wax",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "8itZESZ8IUUsJ6zQ",
+        "name": "Thread",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "8D0GyLUEDiFOcg9D",
+        "name": "Ester Grease",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      }
+    ],
+    "investment": 284,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.jVZ6iWuSAkOECQM8",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fbea204492acabea6d30a7019ab15f5db3d688e8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!qqJMEN5wF8zu93r2"
+}

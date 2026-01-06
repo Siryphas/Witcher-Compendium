@@ -1,0 +1,65 @@
+{
+  "folder": "OREPO5AXo1tBZekr",
+  "name": "Formulae: Nekker Decoction",
+  "type": "diagrams",
+  "_id": "g6AX6Mx1kJefsXhg",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>Your mount never panics and you gain a +3 to all Ride and Athletics checks.</p>\n<p>&nbsp;</p>\n<p>Requires: 1 Bottle of Spirits, 1 Nekker Mutagen</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "decoction",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 1,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hI6ZquI345Q3682m",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1b3ebe5739cf63b430b14d98631b2eb0ce05a48b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!g6AX6Mx1kJefsXhg"
+}

@@ -1,0 +1,108 @@
+{
+  "folder": "TiA4VfL3NOEZLSeo",
+  "name": "Griffin Steel Sword",
+  "type": "weapon",
+  "_id": "OfB4JszFBTdYS3gh",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Griffin%20Steel%20Sword.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 2.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "WITCHER",
+    "damage": "5d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_bqwp2syd4",
+        "name": "Meteorite",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_qbalxx71j",
+        "name": "Focus (1)",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "sourcebook": "A Witcher's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "isMeteorite": true,
+      "effects": [
+        {
+          "id": "_bqwp2syd4",
+          "name": "Meteorite",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_qbalxx71j",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "98hh0KcR6DYczbew",
+          "name": "Focus (1)",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.h4gO2w52JT2WIJhz"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "553730997e28833713ee5af1d5fde3e0ddf53436"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OfB4JszFBTdYS3gh"
+}

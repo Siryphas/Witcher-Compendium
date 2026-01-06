@@ -1,0 +1,99 @@
+{
+  "folder": "80Sa14J8Bjwk7php",
+  "name": "Diagram: Halberdier's Greaves",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 586,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 17,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "NRO5laxFzw35WsTA",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "uPcmWZ36ozw8fS8K",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "0oOd8qhpSdABtgBz",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "NiiqYiEiTiaKHvWs",
+        "name": "Thread",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "oXHIIZgsjd0B4pQX",
+        "name": "Tanning Herbs",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj"
+      },
+      {
+        "id": "QDjkgG3gN2WZDLiW",
+        "name": "Cotton",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      }
+    ],
+    "investment": 255,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.O2rSYjvOlZEVLIX3",
+    "sourcebook": "Homebrew",
+    "isStored": false,
+    "isCarried": true,
+    "resultQuantity": 1
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "a55db96ff6587c456624996d6afaabf2cc500bb0",
+      "sourceId": "Item.rn6wqPpEvm11YQGY"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.Z1yhYsJpIu7uSBow",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.26.0",
+    "exportSource": null
+  },
+  "_id": "f6kaLUCETGHMQzEf",
+  "sort": -200000,
+  "_key": "!items!f6kaLUCETGHMQzEf"
+}

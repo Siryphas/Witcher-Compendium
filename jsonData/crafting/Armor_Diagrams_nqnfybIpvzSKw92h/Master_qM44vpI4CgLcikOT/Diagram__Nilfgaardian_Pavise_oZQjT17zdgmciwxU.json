@@ -1,0 +1,108 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Nilfgaardian Pavise",
+  "type": "diagrams",
+  "_id": "oZQjT17zdgmciwxU",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "<p><em>The Nilfgaardian pavise&rsquo;s one of the best shields for crossbowmen and anyone who has to work on machinery under fire. Yah, that hurts to say, but it&rsquo;s true. It&rsquo;s big as a normal pavise, built stronger, and has a prop on the back so it stands on its own. Ya don&rsquo;t have to hold it while ya reload or work.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 900,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "iZ3LzYv8P9XU0Mxb",
+        "name": "Hardened Timber",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "W1LQwCun0BECoN7C",
+        "name": "Hardened Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "KUgb0TlMDK0TiPSO",
+        "name": "Ogre Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "unBVD2FJDBcW9lP6",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "EDC98JNJndOz8n6O",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "jhcrw4wPFyE0Voi2",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "rqbw6z3wbpzs27bE",
+        "name": "Ashes",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      },
+      {
+        "id": "fNR44o57Mv8uFG57",
+        "name": "Etching Acid",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      }
+    ],
+    "investment": 450,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.AX8RWobi2Yqj6Ibe",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3ee3bac5b23ee0d6f095462e02d0b031738362b5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!oZQjT17zdgmciwxU"
+}

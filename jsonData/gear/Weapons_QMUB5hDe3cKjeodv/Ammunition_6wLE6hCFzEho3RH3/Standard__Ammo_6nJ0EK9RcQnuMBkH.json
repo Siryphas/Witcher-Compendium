@@ -1,0 +1,79 @@
+{
+  "folder": "6wLE6hCFzEho3RH3",
+  "name": "Standard, Ammo",
+  "type": "weapon",
+  "_id": "6nJ0EK9RcQnuMBkH",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-simple.webp",
+  "system": {
+    "description": "Heh, if ya got a weapon that throws a projectile, ya need projectiles. Standard ammunition is basically your typical bolt or arrow. Bolts are usually smaller than arrows, but they both have a sharp metal head and feather fletching.",
+    "quantity": "1",
+    "weight": 0.05,
+    "cost": 1,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": 1,
+    "range": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "damageProperties": {
+      "effects": []
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0b33bf6589f06843d43bd6392d8cd779614754d9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6nJ0EK9RcQnuMBkH"
+}

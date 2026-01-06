@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Krigsverd",
+  "type": "weapon",
+  "_id": "EQTo1phbDCjZXmvH",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-engraved.webp",
+  "system": {
+    "description": "They say the Skelligers quench their blades in the blood of sirens and mucknixers. Lemme tell ya, my friend, it’s true. Or at least it was. Their hardened steel blades and lighter construction make ‘em hellishly accurate.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 570,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Common",
+    "damage": "4d6+4",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.8HsrBKWzg5MK5yiO"
+  },
+  "effects": [],
+  "sort": 350000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "18cd9739645b8e7c0d2af5bbd6f0511fd415fcd2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EQTo1phbDCjZXmvH"
+}

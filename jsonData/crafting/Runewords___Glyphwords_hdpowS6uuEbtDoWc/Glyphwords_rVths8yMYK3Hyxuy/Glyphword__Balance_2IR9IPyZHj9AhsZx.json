@@ -1,0 +1,72 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Balance",
+  "type": "diagrams",
+  "_id": "2IR9IPyZHj9AhsZx",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Any Armor:<br>This armor&rsquo;s Encumbrance Value is reduced by 1.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1100,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "jF2juuP11zNufwIT",
+        "name": "Glyph of Mending",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.zhVbktUxngZTE4d9"
+      },
+      {
+        "id": "Vg15qLA2YTGPLq23",
+        "name": "Glyph of Reinforcement",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.5g3gtaEniQHSeJ9j"
+      }
+    ],
+    "investment": 550,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.CbvespCdCJqEM7qR",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b74abc4d9b52de9d52dac9cbd23b460b7e72fc2c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!2IR9IPyZHj9AhsZx"
+}

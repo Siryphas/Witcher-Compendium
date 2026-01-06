@@ -1,0 +1,93 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "White Raffard's Decoction",
+  "type": "alchemical",
+  "_id": "L5vtMW0t2aUZcoFZ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/flask-corked-blue.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 95,
+    "isHidden": false,
+    "type": "decoction",
+    "avail": "Rare",
+    "effect": "Now this ain’t the decoction you’ll hear about from witchers. Turns out that one’s a modified version of this piece of work. The mage White Raffard concocted this potion centuries ago to help the humans take over the continent. It ain’t as powerful as the decoction witcher’s use but it also ain’t deadly to us regular folk, heh! It’s harder than hell to find but if ya get a vial of it it’ll help ya recover after a tough fight.\n\nA dose of White Raffard's Decoction allows the imbiber to regenerate 1 HP per round for the duration of the decoction.",
+    "time": "4d6 Rounds",
+    "toxicity": "50%",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Rodolf's Wagon",
+    "consumeProperties": {
+      "doesHeal": true,
+      "heal": "1"
+    }
+  },
+  "effects": [
+    {
+      "name": "White Raffard's Decoction",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.L5vtMW0t2aUZcoFZ",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/flask-corked-blue.webp",
+      "_id": "wW17u57Itvw56ojx",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.derivedStats.hp.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "<p>A dose of White Raffard's Decoction allows the imbiber to regenerate 1 HP per round for the duration of the decoction.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!L5vtMW0t2aUZcoFZ.wW17u57Itvw56ojx"
+    }
+  ],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f471f77c3ed697d256a062af92c28586a7380d0c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!L5vtMW0t2aUZcoFZ"
+}

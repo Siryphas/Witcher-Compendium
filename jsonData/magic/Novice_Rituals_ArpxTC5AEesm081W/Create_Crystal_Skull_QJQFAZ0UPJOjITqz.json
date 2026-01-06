@@ -1,0 +1,57 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Create Crystal Skull",
+  "type": "spell",
+  "_id": "QJQFAZ0UPJOjITqz",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "By infusing an existing animal skull from a cat, dog, bird, or serpent with fifth essence you create a crystal skull which can be used to form a single animal of that type as per the Crystal Skull Item.\nIf the animal created by a\nCrystal Skull dies, the Crystal Skull can be recharged by \nperforming this ritual again using only 2 units of Fifth Essence and the inactive skull.",
+    "range": "",
+    "duration": "Immediate",
+    "defence": "",
+    "components": "Animal Skull, Fifth Essence (x5)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "14",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "ritualComponentUuids": [],
+    "cost": 410,
+    "sourcebook": "A Tome of Chaos",
+    "difficultyCheck": "14",
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "968aebb406cce9e93c8caa6c1ad9a1cc0839ebe0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QJQFAZ0UPJOjITqz"
+}

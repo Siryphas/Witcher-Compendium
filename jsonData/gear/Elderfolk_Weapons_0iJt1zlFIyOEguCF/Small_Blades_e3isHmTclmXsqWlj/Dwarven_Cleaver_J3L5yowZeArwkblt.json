@@ -1,0 +1,71 @@
+{
+  "folder": "e3isHmTclmXsqWlj",
+  "name": "Dwarven Cleaver",
+  "type": "weapon",
+  "_id": "J3L5yowZeArwkblt",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/axes/cleaver-black.webp",
+  "system": {
+    "description": "Ha! Count on us dwarves to bring a cleaver to a knife fight. If ya need to chop through...well, just about anything, find a dwarven cleaver. They ain’t long but they’ll hack limbs off trees and people.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 500,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Bludgeoning",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "3d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pvfh76jg4DFo33Tq"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1b7d405277eba8472071af54997bbfe9982f8d10"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!J3L5yowZeArwkblt"
+}

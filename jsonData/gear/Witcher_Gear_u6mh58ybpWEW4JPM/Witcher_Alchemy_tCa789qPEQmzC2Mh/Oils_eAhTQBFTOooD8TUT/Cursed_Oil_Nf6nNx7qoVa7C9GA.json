@@ -1,0 +1,94 @@
+{
+  "folder": "eAhTQBFTOooD8TUT",
+  "name": "Cursed Oil",
+  "type": "alchemical",
+  "_id": "Nf6nNx7qoVa7C9GA",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Cursed%20Oil.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "oil",
+    "avail": "WITCHER",
+    "effect": "+5 damage against Cursed Ones.",
+    "time": "30 Mins",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "type": "temporaryItemImprovement",
+      "name": "Cursed Oil",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.Nf6nNx7qoVa7C9GA",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Cursed%20Oil.png",
+      "_id": "Joaj4kcsTjaOC360",
+      "system": {
+        "isTransferred": false
+      },
+      "changes": [
+        {
+          "key": "system.damageProperties.oilEffect",
+          "mode": 2,
+          "value": "Cursed",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Nf6nNx7qoVa7C9GA.Joaj4kcsTjaOC360"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f25795f65c4a693db0d1c44bdfd3533ba5429434"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Nf6nNx7qoVa7C9GA"
+}

@@ -1,0 +1,194 @@
+{
+  "name": "Dwarf",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Dwarf%20Icon.png",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Tough",
+      "description": "<p>Spending much of their time in the mountains and mines, dwarves have naturally tough skin. As such a dwarf&rsquo;s skin has a natural stopping power of 2. This SP is applied on top of any armor the Dwarf is already wearing and cannot be lowered via weapon attacks or ablation damage.</p>"
+    },
+    "perk2": {
+      "name": "Crafter’s Eye",
+      "description": "<p>With their eye for \u001dfine detail and appraisal it is hard to blu\u001bff a dwarf. Dwarves have an inherent +1 to their Business skill.</p>"
+    },
+    "perk3": {
+      "name": "Strong",
+      "description": "<p>Due to their compact frame and propensity for tough, physically demanding professions, dwarves gain a +1 to their Physique skill and raise their Encumbrance by 25.</p>"
+    },
+    "perk4": {
+      "name": "",
+      "description": ""
+    },
+    "socialStanding": {
+      "north": "tolerated",
+      "nilfgaard": "equal",
+      "skellige": "equal",
+      "dolBlathanna": "equal",
+      "mahakam": "equal"
+    }
+  },
+  "effects": [
+    {
+      "name": "Tough",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.RGg0jWKdpS6dtDJG",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Dwarf%20Icon.png",
+      "_id": "qfIIIQ7nYagNPcDI",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Spending much of their time in the mountains and mines, dwarves have naturally tough skin. As such a dwarf’s skin has a natural stopping power of 2. This SP is applied on top of any armor the Dwarf is already wearing and cannot be lowered via weapon attacks or ablation damage.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!RGg0jWKdpS6dtDJG.qfIIIQ7nYagNPcDI"
+    },
+    {
+      "name": "Crafter's Eye",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.RGg0jWKdpS6dtDJG",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Dwarf%20Icon.png",
+      "_id": "rzFebdKD5XW5e6f1",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.business.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">With their eye for \u001dfine detail and appraisal, it is hard to blu\u001bff a dwarf. Dwarves have an inherent +1 to their Business skill.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!RGg0jWKdpS6dtDJG.rzFebdKD5XW5e6f1"
+    },
+    {
+      "name": "Strong",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.RGg0jWKdpS6dtDJG",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Dwarf%20Icon.png",
+      "_id": "d4s4d6BdzqnQQPlK",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.body.physique.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        },
+        {
+          "key": "system.coreStats.enc.totalModifiers",
+          "mode": 2,
+          "value": "+25",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Due to their compact frame and propensity for tough, physically demanding professions, dwarves gain a +1 to their Physique skill and raise their Encumbrance by 25.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!RGg0jWKdpS6dtDJG.d4s4d6BdzqnQQPlK"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.uELTdpJbV3l74LJg",
+      "hash": "1886b63e463554b7fdba62cee76879ae824162d7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.9.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "RGg0jWKdpS6dtDJG",
+  "sort": 800000,
+  "_key": "!items!RGg0jWKdpS6dtDJG"
+}

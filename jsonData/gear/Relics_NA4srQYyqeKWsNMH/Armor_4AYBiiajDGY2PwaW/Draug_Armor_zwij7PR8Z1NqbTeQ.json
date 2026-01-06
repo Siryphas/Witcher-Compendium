@@ -1,0 +1,151 @@
+{
+  "folder": "4AYBiiajDGY2PwaW",
+  "name": "Draug Armor",
+  "type": "armor",
+  "_id": "zwij7PR8Z1NqbTeQ",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Draug%20Armor.webp",
+  "system": {
+    "description": "Education DC: 18\n\nHeh, the truth o’ the mythic tales an’ heroic legends folk tell around campfires and in taverns aren’t nearly as excitin’ as most people think. What can I say, sometimes a story’s got potential, but not quite enough umph. A swordsman takin’ on a troll the size of an outhouse’s a good story. Slayin’ a troll the size of a tavern with eyes of fire and fists like batterin’ rams? That’s a tale worth a few ales. ‘Course not every tale’s false. Once in a while the stars align and things play out so epic they don’t need any polishin’ or exaggeratin’. Story of Seltkirk of Gulet and Vandergrift the Visitor? That’s one o’ those. \nYa see, durin’ one of the many, many wars between Kaedwen and Aedirn, Seltkirk of Gulet took the field in the Pontar Valley right outside Vergen. Seltkirk was the finest blade in all of Aedirn—they called him the ‘Invincible White Knight.’ Say that whoreson’d wade onto a battlefield and cut down men like he was reapin’ grain. Didn’t hurt that Aedirn’s intelligence allowed ‘em to prepare for the Kaedweni. War was pretty one-sided, and Kaedwen was losin’ bad. But durin’ this battle Seltkirk encountered Vandergrift the Visitor, leader of the Kaedweni forces. Vandergrift and Seltkirk’d met already at a tourney in Ard Carraigh. That time they’d fought ‘til the force of Seltkirk’s blows’d cracked Vandergrift’s sword and he’d been forced to forfeit. This time Vandergrift was out for blood. He cut Seltkirk off from the rest of his forces pretty quick.\nFolk say it was one hell of a fight—two forces of nature battlin’, a ploughin’ apocalypse. Eventually though, the battle had to end, and end it did. Seltkirk left himself open just long enough for Vandergrift to bring his blade down and slice the poor bastard from his head to his balls.‘Course, with the ‘Invincible’ White Knight dead, the Aedirnian forces started fallin’ into disarray and the Kaedweni rallied. Now, this next part’s a mystery. Folk say Sabrina Glevissig, Court Mage to Henselt, King of Kaedwen, really hated Vandergrift—no idea why. She sees a chance to end him, starts rainin’ fire down on the battlefield, killin’ anyone and everyone there. Vandergrift met his end there, among thousands of others.\nWhen the rain of fire finished, both sides retreated. Henselt had Sabrina burned at the stake for treason. Folk say she cursed the battlefield, bindin’ all them dead soldiers to re-fight the battle of that day for years to come. Wasn’t a problem for travelers til the skirmish between Saskia and Henselt for the Pontar, where enough blood soaked the stones of the field to bring back the curse and start the wraiths fightin’. In the end Geralt of Rivia had to wade through a godforsaken fog of wraiths and death ta end it. Say to lift the curse, he took the place of Seltkirk and battled Vandergrift’s soul, which’d become a draug—a huge demonic wraith. When he finally killed the draug, Geralt salvaged Vandergrift’s old armor and forged a new suit, sturdy as all hell but deeply tainted. Who knows what happened to it after the whole fiasco at Loc Muinne.",
+    "quantity": "1",
+    "weight": 37,
+    "cost": 0,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 36,
+    "headMaxStopping": 36,
+    "torsoStopping": 36,
+    "torsoMaxStopping": 36,
+    "leftArmStopping": 36,
+    "leftArmMaxStopping": 36,
+    "rightArmStopping": 36,
+    "rightArmMaxStopping": 36,
+    "leftLegStopping": 36,
+    "leftLegMaxStopping": 36,
+    "rightLegStopping": 36,
+    "rightLegMaxStopping": 36,
+    "type": "Heavy",
+    "avail": "Rare",
+    "enhancements": 3,
+    "effects": [
+      {
+        "id": "first",
+        "name": "+25 HP",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "qBpfu5779h6jPPUe",
+        "name": "+2 Resist Magic",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "vcTW8UtRXEExEMBu",
+        "name": "Fire Resistance",
+        "statusEffect": "fire",
+        "percentage": 0
+      },
+      {
+        "id": "fi1XeuBtfonlJTF7",
+        "name": "Bleeding Resistance",
+        "statusEffect": "bleed",
+        "percentage": 0
+      },
+      {
+        "id": "K1SJpAfWYZ0u5hRR",
+        "name": "Poison Resistance",
+        "statusEffect": "poison",
+        "percentage": 0
+      },
+      {
+        "id": "hlHb6AWZ5ugvieKi",
+        "name": "+2 Spellcasting",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "encumb": 3,
+    "location": "FullCover",
+    "equipped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Draug Armor",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.zwij7PR8Z1NqbTeQ",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Draug%20Armor.webp",
+      "_id": "En0waPr31AiQcL0U",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.derivedStats.hp.totalModifiers",
+          "mode": 2,
+          "value": "25",
+          "priority": null
+        },
+        {
+          "key": "system.skills.will.spellcast.activeEffectModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zwij7PR8Z1NqbTeQ.En0waPr31AiQcL0U"
+    }
+  ],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4e2afae510b7268b8bcc79c3f025a9bd8cbf7480"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zwij7PR8Z1NqbTeQ"
+}

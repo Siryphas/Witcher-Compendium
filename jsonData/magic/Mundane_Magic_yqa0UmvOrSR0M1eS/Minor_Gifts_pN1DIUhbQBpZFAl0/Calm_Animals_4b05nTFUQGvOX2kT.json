@@ -1,0 +1,66 @@
+{
+  "folder": "pN1DIUhbQBpZFAl0",
+  "name": "Calm Animals",
+  "type": "spell",
+  "_id": "4b05nTFUQGvOX2kT",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "minor gift",
+    "source": "",
+    "domain": "",
+    "stamina": "1",
+    "staminaIsVar": false,
+    "effect": "As an action, you can calm a Beast that does not have a Medium or Hard Threat Rating. \nAfter this effect, the Beast considers you and your allies friendly and will not attack unless provoked.",
+    "range": "",
+    "duration": "Immediate",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "Beasts of Threat Rating Medium or Hard are enraged by your presence and if possible, will prioritize attacking you over other targets.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9e7e4b77111a5f75ad9ad77e86a804edb0325ad0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4b05nTFUQGvOX2kT"
+}

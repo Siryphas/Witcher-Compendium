@@ -1,0 +1,71 @@
+{
+  "folder": "n4Q7VyheZk6uK2TL",
+  "name": "Invisible Ribbon",
+  "type": "spell",
+  "_id": "Bff9P54JZyGGlLpN",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "air",
+    "domain": "",
+    "stamina": "15",
+    "staminaIsVar": false,
+    "effect": "With a whisper, Invisible Ribbon allows you to focus a gust of wind into a sharp, invisible blade that whistles through the air. \nUpon casting this spell, a single target must make a Defense check against your Spell Casting check. \nIf they fail, the target takes 3d6 damage. \nThe ribbon is invisible and thus even after attacking, anyone in the area must make a DC:20 Awareness check to determine where the attack came from.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "3d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageType": "elemental",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ab267e3b5609afd86dcc1029088b28f554cbfabe"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Bff9P54JZyGGlLpN"
+}

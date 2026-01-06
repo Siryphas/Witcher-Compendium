@@ -1,0 +1,57 @@
+{
+  "folder": "xQ0pF0nJ24nEeW9A",
+  "name": "See Aura",
+  "type": "spell",
+  "_id": "jtkDopLqRD5W1fwa",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "major gift",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Spell Casting DC: 9\n\nAs a full round action, you can see the aura of all targets within 8m of you. \nThis aura tells you what the Vigor Threshold of each target is.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "You give off a tangible tingle that alerts anyone who touches you to your magical capability. \nThis will make many people assume you are a mage. \nBecause of this your Social Standing is considered to be that of a mage.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d0cb9f580ab11129a4f4c3a339190e953312b11d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jtkDopLqRD5W1fwa"
+}

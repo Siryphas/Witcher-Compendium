@@ -1,0 +1,52 @@
+{
+  "folder": "A7HluumtZL3d42ob",
+  "name": "Triglav Rune",
+  "type": "enhancement",
+  "_id": "SCFRttH2BT0GwOUR",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Triglav%20Rune.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 575,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stun (-1)",
+        "statusEffect": "stun",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8a31470bce68553beaa2c4aa910dd3f424d2fbd4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.1.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SCFRttH2BT0GwOUR"
+}

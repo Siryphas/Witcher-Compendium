@@ -1,0 +1,63 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Blessing of Death (Coram Agh Tera)",
+  "type": "spell",
+  "_id": "V5GM81s5vPLHgBtH",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Coram%20Agh%20Tera%201.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Summoning the power of the Lion-Headed Spider, you cut the ties of life holding a target to this world. The target must roll Resist Magic or be thrust into Death state as if by taking normal damage. However if they are treated with a successful First Aid or Healing Hands roll at a DC of 16, they immediately recover their previous number of Health Points.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "02565bc90a1d7263035cd9bf8f6f28d121633208"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!V5GM81s5vPLHgBtH"
+}

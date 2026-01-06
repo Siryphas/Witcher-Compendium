@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Smelling Salts",
+  "type": "diagrams",
+  "_id": "7DEOUoBg0tEO8ufi",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>If your companion&rsquo;s taken a blow to the head or got knocked out by chloroform, smelling salts can bring &lsquo;em back in a pinch.</em></p>\n<p>Smelling Salts can be placed under an unconscious or stunned person, or creature's nose to immediately bring them out of their stunned state.&nbsp;<br>Smelling Salts can be used 25 times.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 37,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "10 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 2,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.E5eDMUn6ypObAa19",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "98b71fcab836fc13d1d63e42fcbd328500565920"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!7DEOUoBg0tEO8ufi"
+}

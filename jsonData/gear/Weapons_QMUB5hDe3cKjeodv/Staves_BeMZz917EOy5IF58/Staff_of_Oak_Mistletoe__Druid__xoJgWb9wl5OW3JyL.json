@@ -1,0 +1,84 @@
+{
+  "folder": "BeMZz917EOy5IF58",
+  "name": "Staff of Oak Mistletoe [Druid]",
+  "type": "weapon",
+  "_id": "xoJgWb9wl5OW3JyL",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-nature.webp",
+  "system": {
+    "description": "A Druid learns very quickly how to harvest magically potent plants and turn them into a powerful focus for their magic which connects them to the land around them. A Druid can take a day and make a Rite of Oak and Mistletoe check against a DC specific to the area in which they find themselves to harvest the necessary ingredients. If successful, the Druid creates a Staff which works only for the Druid.\nThis staff functions exactly as a Staff but its Focus value rises as they improve their Rite of Oak & Mistletoe value. Additionally, while the druid is carrying their staff, they gain benefits based on their Rite of Oak & Mistletoe value.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": null,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "1d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_5bpc2va3z",
+        "name": "Focus (1)",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": null,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Tome of Chaos",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9353779f1fa9ac8f1d4339cfd7487c48097ad57e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xoJgWb9wl5OW3JyL"
+}

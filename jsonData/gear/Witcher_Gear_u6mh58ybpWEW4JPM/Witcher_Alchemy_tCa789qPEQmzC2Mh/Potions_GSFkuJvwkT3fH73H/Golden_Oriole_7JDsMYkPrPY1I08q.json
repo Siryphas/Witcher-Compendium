@@ -1,0 +1,82 @@
+{
+  "folder": "GSFkuJvwkT3fH73H",
+  "name": "Golden Oriole",
+  "type": "alchemical",
+  "_id": "7JDsMYkPrPY1I08q",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Golden%20Oriole.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "potion",
+    "avail": "WITCHER",
+    "effect": "Grants immunity to poisons and neutralizes any poisons in your system.",
+    "time": "1/2 Hour",
+    "toxicity": "50%",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Golden Oriole",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.7JDsMYkPrPY1I08q",
+      "duration": {
+        "rounds": 30,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Golden%20Oriole.png",
+      "_id": "ku8meXE13qLwaiOo",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Grants immunity to poisons and neutralizes any poisons in your system.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7JDsMYkPrPY1I08q.ku8meXE13qLwaiOo"
+    }
+  ],
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ba63cf7d7ec4ca2d97746958dedb02b24a1107ad"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7JDsMYkPrPY1I08q"
+}

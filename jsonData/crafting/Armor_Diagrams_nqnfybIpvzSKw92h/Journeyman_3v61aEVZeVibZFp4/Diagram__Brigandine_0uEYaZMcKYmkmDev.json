@@ -1,0 +1,72 @@
+{
+  "folder": "3v61aEVZeVibZFp4",
+  "name": "Diagram: Brigandine",
+  "type": "diagrams",
+  "_id": "0uEYaZMcKYmkmDev",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Mercenaries usually wear brigandine &lsquo;til they can get a hold of some better armor. It&rsquo;s a basic leather vest with plates of thicker hardened leather woven or pinned onto the inside. Wore a brigandine on the fields of Brenna and Sodden. They can be stiff and a bit hard to work with.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 450,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "TjUBeUcwxG7Zlo1B",
+        "name": "Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "pYiAu5tUzrcau3xT",
+        "name": "Hardened Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      }
+    ],
+    "investment": 228,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.OnlXKp8bqepBLIO1",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3fb9442c87eae0508536c7da55af2df2c03f87f3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!0uEYaZMcKYmkmDev"
+}

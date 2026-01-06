@@ -1,0 +1,85 @@
+{
+  "folder": "qR8qrsSp7oJVFvdq",
+  "name": "Bloodstone Dagger",
+  "type": "weapon",
+  "_id": "cruklKIn1C4BaSa7",
+  "img": "icons/weapons/daggers/dagger-jeweled-black.webp",
+  "system": {
+    "description": "A long steel dagger with a flamberge blade inscribed with ancient runes. The most impressive and distinctive aspect of this dagger is a polished bloodstone set into its handle. Bloodstone daggers are carried by cultists of many creeds, but the original bloodstone daggers were created as tools for goetic practitioners. Now a days they are difficult to find and it’s rare to find someone crafting them thanks to their ominous reputation.",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "2d6",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "percentage": "25"
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 1,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "A Tome of Chaos",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "3APeIdKKKmpTwZDu",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 25,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.magic.Item.TDjO3YKjC0zwZ7cp"
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8e6c1a43b314670bf86025da519e0a39218453a2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cruklKIn1C4BaSa7"
+}

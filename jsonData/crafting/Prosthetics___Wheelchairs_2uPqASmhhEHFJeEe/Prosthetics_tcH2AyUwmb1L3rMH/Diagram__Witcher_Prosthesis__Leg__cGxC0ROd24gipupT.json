@@ -1,0 +1,116 @@
+{
+  "folder": "tcH2AyUwmb1L3rMH",
+  "name": "Diagram: Witcher Prosthesis (Leg)",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>Built by Barend Anselberg and Elgan of Verden to withstand the Path and all of its challenges for Voren of Dillingen, and later replicated for use by other Witchers. These limbs are heavily reinforced, capable of resisting the crushing jaws of a manticore and remaining functional.</p>\n<p>Effect: While wearing a Witcher Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. A Witcher Prosthesis can be used to channel Chaos via magical sigils carved into the length, infused fifth essence similar to a magic amulet. Silver knuckles and toe caps add 1d6 silver damage to any punch or kick made with a Witcher Prosthesis.&nbsp;</p>\n<p>Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1200,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "sdBSLpqXjS23tL0C",
+        "name": "Cotton",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "3l8eka5LXJtFYAV7",
+        "name": "Double Woven Linen",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "y9FqjFutSSBBErH2",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "HMlBkLUvVPrpYQ9g",
+        "name": "Etching Acid",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "YnOgOrbQ7alrHx5d",
+        "name": "Fifth Essence",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "orT5rr4JtBvyLexa",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "1m68f7LPrPmqblrE",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "ZXRkYVpxseaI3uU7",
+        "name": "Silver",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.PuuOiiIej1l4GFdC"
+      },
+      {
+        "id": "u66isych62SEwm5V",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 600,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.K5gqpjM8BfhLhGlG",
+    "sourcebook": "Prostheses and Wheelchairs",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8a303490d3b7c2fcc308ba55af8ec466b3d51d1f",
+      "sourceId": "Item.nuZro1vQOgUi4U8U"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_id": "cGxC0ROd24gipupT",
+  "sort": 550000,
+  "_key": "!items!cGxC0ROd24gipupT"
+}

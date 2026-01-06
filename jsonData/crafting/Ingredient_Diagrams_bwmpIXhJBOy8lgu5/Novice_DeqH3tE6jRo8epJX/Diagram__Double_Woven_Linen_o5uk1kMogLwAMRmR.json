@@ -1,0 +1,72 @@
+{
+  "folder": "DeqH3tE6jRo8epJX",
+  "name": "Diagram: Double Woven Linen",
+  "type": "diagrams",
+  "_id": "o5uk1kMogLwAMRmR",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 30,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 14,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "J3fAVf2YVtja1mMR",
+        "name": "Linen",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "name": "Thread",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d",
+        "id": "ijfZjuIZOZ3K1reV"
+      }
+    ],
+    "investment": 15,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "db5860658e4e07c4b8ef779663f0d13bbc93a9bc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!o5uk1kMogLwAMRmR"
+}

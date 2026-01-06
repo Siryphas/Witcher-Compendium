@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Cadaverine Solution",
+  "type": "diagrams",
+  "_id": "2zUjbvpIlxhbReJK",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Not all fire sure what this one&rsquo;s made of.... Heh, smells like the grave itself and it&rsquo;ll turn a grown man&rsquo;s stomach. Heard if ya coat a blade in this stuff, it&rsquo;ll get into your opponent&rsquo;s veins and wreak havoc on &lsquo;em. Pain, internal bleedin&rsquo;, vomitin&rsquo;. All sounds pretty bad to me.</em></p>\n<p>A slashing or piercing weapon coated in Cadaverine inflicts both the poisoned and nauseated conditions on a target on a successfully damaging attack. Two separate DC: 16 Endurance checks must be made to end both conditions.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 114,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 4,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.IJIUXsgoibcdGb88",
+    "sourcebook": "Lords & Lands",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0e08a30781e978251adf4498509cf785510d2adb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!2zUjbvpIlxhbReJK"
+}

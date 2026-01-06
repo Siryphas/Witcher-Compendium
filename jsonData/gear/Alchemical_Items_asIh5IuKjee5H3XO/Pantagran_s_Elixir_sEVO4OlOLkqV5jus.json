@@ -1,0 +1,89 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Pantagran's Elixir",
+  "type": "alchemical",
+  "_id": "sEVO4OlOLkqV5jus",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/conical-ornate-purple.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 67,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "Pantagran of Lyria was a wellknown alchemist in the North. Created this elixir which makes ya all kinds of happy. Makes sense for a Lyrian. Heh, rough place to live.\n\nConsuming a draught of Pantagran's Elixir brings delirious happiness. This effect lasts for 1d6/2 hours and leaves the imbiber incredibly susceptible to Persuasion, Charisma, and Seduction, giving them a -2 to Resist Coercion.",
+    "time": "1d6-2 Hours",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Pantagran's Elixir",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.sEVO4OlOLkqV5jus",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/conical-ornate-purple.webp",
+      "_id": "038g3gp53vd0RnLO",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.resistcoerc.activeEffectModifiers",
+          "mode": 2,
+          "value": "-2",
+          "priority": null
+        }
+      ],
+      "description": "<p>Consuming a draught of Pantagran's Elixir brings delirious happiness. This effect lasts for 1d6/2 hours and leaves the imbiber incredibly susceptible to Persuasion, Charisma, and Seduction, giving them a -2 to Resist Coercion.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!sEVO4OlOLkqV5jus.038g3gp53vd0RnLO"
+    }
+  ],
+  "sort": 3500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b6224c221151689be0a2bd76cc24e8a82f698f84"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sEVO4OlOLkqV5jus"
+}

@@ -1,0 +1,70 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Strider",
+  "type": "diagrams",
+  "_id": "TbjOuxshCx3S4d06",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>The drinker forgoes the need for sleep for a 24-hour period. Doses of Strider used to be given to soldiers to allow them to cross more territory without exerting themselves. The cost of this potion quickly made it nonviable for large armies.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 128,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "name": "",
+        "quantity": 0
+      },
+      {
+        "id": "GfRAJNaldDWWcD01",
+        "name": "Strider",
+        "quantity": 1
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 2,
+      "aether": 1,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.zhfhyjJj840UsjyV",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "57df42e4334070c6479eebbadf8c680dd6ffefe0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!TbjOuxshCx3S4d06"
+}

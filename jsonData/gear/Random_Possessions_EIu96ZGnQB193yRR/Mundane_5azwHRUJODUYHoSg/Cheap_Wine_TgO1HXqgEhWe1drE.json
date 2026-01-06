@@ -1,0 +1,58 @@
+{
+  "name": "Cheap Wine",
+  "type": "valuable",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/drinks/wine-amphora-clay-gray.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 4,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "stKWnXr8G1xk5mKl",
+          "name": "Intoxication",
+          "statusEffect": "intoxication",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "folder": "5azwHRUJODUYHoSg",
+  "flags": {
+    "cf": {
+      "id": "temp_wjo7lfo9hia",
+      "color": "#000000"
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "674ca6c352363fafbbdfe21b6dd63bb260b29664"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "TgO1HXqgEhWe1drE",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_key": "!items!TgO1HXqgEhWe1drE"
+}

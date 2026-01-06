@@ -1,0 +1,69 @@
+{
+  "folder": "ML68riIkbcK7jHPn",
+  "name": "Skellige Helm",
+  "type": "armor",
+  "_id": "ay8ahgt0RBJf89fU",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/helm-spangen-engraved.webp",
+  "system": {
+    "description": "Skelligers are big on ornamentation if it makes ‘em look tough. Heh, their helms are a testament to that. The Skellige helm is a thick one, chain dropping down around the neck, cheek plates and a spectacle to protect the face...and horns, oftentimes. Guess the toughest Skelligers gore enemies with the horns on their helmets.",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 700,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 14,
+    "headMaxStopping": 14,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Heavy",
+    "avail": "Poor",
+    "enhancements": 1,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Restricted Vision",
+        "statusEffect": "reducedVision",
+        "percentage": 0
+      }
+    ],
+    "encumb": 0,
+    "location": "Head",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.kHzWO1UO9DJIJ3Up"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "855ca66072ea273111f1d2c0a42dba7b0bd231a9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ay8ahgt0RBJf89fU"
+}

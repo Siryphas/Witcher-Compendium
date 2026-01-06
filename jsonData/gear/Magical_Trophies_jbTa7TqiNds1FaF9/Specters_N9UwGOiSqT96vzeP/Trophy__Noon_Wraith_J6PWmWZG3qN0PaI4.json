@@ -1,0 +1,83 @@
+{
+  "folder": "N9UwGOiSqT96vzeP",
+  "name": "Trophy: Noon Wraith",
+  "type": "valuable",
+  "_id": "J6PWmWZG3qN0PaI4",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/bowl-powder-gold.webp",
+  "system": {
+    "description": "You become immune to fear.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Noon Wraith",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.J6PWmWZG3qN0PaI4",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/bowl-powder-gold.webp",
+      "_id": "bXJQFg9u5KMxHL8Z",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You become immune to fear.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!J6PWmWZG3qN0PaI4.bXJQFg9u5KMxHL8Z"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5711a51306a5b80fad2c9c0c148c6cceccd92e42"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!J6PWmWZG3qN0PaI4"
+}

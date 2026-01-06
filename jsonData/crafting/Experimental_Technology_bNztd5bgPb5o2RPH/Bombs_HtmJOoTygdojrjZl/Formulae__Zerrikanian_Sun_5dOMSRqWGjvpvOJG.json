@@ -1,0 +1,84 @@
+{
+  "folder": "HtmJOoTygdojrjZl",
+  "name": "Formulae: Zerrikanian Sun",
+  "type": "diagrams",
+  "_id": "5dOMSRqWGjvpvOJG",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 180,
+    "isHidden": false,
+    "type": "bomb",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "tCqxbFCV1L0w8Cv3",
+        "name": "River Clay",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rVBsAFe2GHiv0YL1"
+      },
+      {
+        "id": "gaILN4poxaeuu8BC",
+        "name": "Scleroderm",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OzhN4PrCt7u3HGHR"
+      },
+      {
+        "id": "1TEhcnl1AikzfWny",
+        "name": "Zerrikanian Powder",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.DD0hT2KtDmKqkVLa"
+      },
+      {
+        "id": "kB4pWNeV4UfklaKW",
+        "name": "Light Essence",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.g6MufOuT39DJBquZ"
+      }
+    ],
+    "investment": 90,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.eb0FOHRkvB7qlgGj",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1e60633dc424f7a78f02ecb853de38b4d7881126"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!5dOMSRqWGjvpvOJG"
+}

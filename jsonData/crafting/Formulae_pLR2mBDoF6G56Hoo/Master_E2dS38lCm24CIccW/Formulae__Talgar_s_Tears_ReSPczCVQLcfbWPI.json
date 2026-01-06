@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Talgar's Tears",
+  "type": "diagrams",
+  "_id": "ReSPczCVQLcfbWPI",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Based off of one of the old lost bits of technology called Talgar&rsquo;s winter. Pour it on just about anythin&rsquo; and it&rsquo;ll freeze solid in an instant.</em></p>\n<p>Talgar's Tears immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage. Throwing it is an Athletics attack with a range equal to your BODY x2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 118,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 20,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 2,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 3,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.PFrqOQtMMWE8iQpx",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c4c854e782cdb464913fb64cfc68c038cfd1d644"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!ReSPczCVQLcfbWPI"
+}

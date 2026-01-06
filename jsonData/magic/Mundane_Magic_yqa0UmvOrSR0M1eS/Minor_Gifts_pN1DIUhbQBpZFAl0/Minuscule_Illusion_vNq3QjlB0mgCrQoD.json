@@ -1,0 +1,57 @@
+{
+  "folder": "pN1DIUhbQBpZFAl0",
+  "name": "Minuscule Illusion",
+  "type": "spell",
+  "_id": "vNq3QjlB0mgCrQoD",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "minor gift",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "1",
+    "staminaIsVar": false,
+    "effect": "As an action, you are able to create an illusion within 4m that fills a 1m cubed space. \nThis illusion must be simple and is only visual.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "You take a -3 penalty to determining whether an illusion is real or not.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0dbf97070cd3994dbdf5ba4d30a19063999b21eb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vNq3QjlB0mgCrQoD"
+}

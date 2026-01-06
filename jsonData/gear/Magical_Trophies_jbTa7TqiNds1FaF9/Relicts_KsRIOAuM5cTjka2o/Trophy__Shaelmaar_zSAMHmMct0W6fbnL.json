@@ -1,0 +1,83 @@
+{
+  "folder": "KsRIOAuM5cTjka2o",
+  "name": "Trophy: Shaelmaar",
+  "type": "valuable",
+  "_id": "zSAMHmMct0W6fbnL",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/shell-ribbed-grey.webp",
+  "system": {
+    "description": "You add a +2 to Spell Casting when casting earth-based spells and signs.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Shaelmaar",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.zSAMHmMct0W6fbnL",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/shell-ribbed-grey.webp",
+      "_id": "oHJqsAyX1uujofvw",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You add a +2 to Spell Casting when casting earth-based spells and signs.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zSAMHmMct0W6fbnL.oHJqsAyX1uujofvw"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d49d6b21d0e1f6aef03c5836348e3fc0279e945d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zSAMHmMct0W6fbnL"
+}

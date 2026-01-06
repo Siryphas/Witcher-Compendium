@@ -1,0 +1,77 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Carys' Hail",
+  "type": "spell",
+  "_id": "IVRw3CeQrXAFP0iS",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Named for its creator Carys of Cintra, this spell hurls pellets of ice at high speeds at 1 opponent. \nFor every 1 point you roll over your opponent’s Dodge/Block (maximum 5), you deal 1d6 damage and have a 25% chance to freeze your opponent.",
+    "range": "5m",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "1d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "statusEffect": "freeze",
+        "percentage": 25
+      }
+    ],
+    "damageProperties": {
+      "variableDamage": true,
+      "defenseDifferenceMultiplier": true
+    },
+    "damageType": "ice",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d69f5a18308aca0e921960d59c53a578b83751ea"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IVRw3CeQrXAFP0iS"
+}

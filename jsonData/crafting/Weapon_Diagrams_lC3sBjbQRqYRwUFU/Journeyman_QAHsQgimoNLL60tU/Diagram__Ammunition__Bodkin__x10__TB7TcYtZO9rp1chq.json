@@ -1,0 +1,90 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Ammunition, Bodkin (x10)",
+  "type": "diagrams",
+  "_id": "TB7TcYtZO9rp1chq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Blunt bolts and broadheads are fine if your target don&rsquo;t have armor. Heh, problem is most folks have enough sense to wear some armor so you&rsquo;ll have a hell of a time tryin&rsquo; to get through to &lsquo;em. That&rsquo;s where bodkins come in. Got a long tapered tip, hardened in the fire, to punch right through steel and leather.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 224,
+    "isHidden": false,
+    "type": "ammunition",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "vCyWSJ8Ti7ALqurD",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "8XEzyigsoBeHL6cx",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "nKXeIH9XqU5TGbVm",
+        "name": "Feathers",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      },
+      {
+        "id": "5BqcnPlJGIJhPgwC",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "wJMhlFFtxAZBpaKC",
+        "name": "Ogre Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      }
+    ],
+    "investment": 110,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.1rdsr2X6hKB2f6eQ",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1800000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f1431bae64aa8023e482df1e7cb17d8f22ca350"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!TB7TcYtZO9rp1chq"
+}

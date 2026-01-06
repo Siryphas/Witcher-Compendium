@@ -1,0 +1,102 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Nilfgaardian Greaves",
+  "type": "diagrams",
+  "_id": "rBoDvklEChoZMRcZ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Nilfgaardian greaves are built a bit lighter than the torso armor. Usually include greaves and sabatons, and heavy leather and cloth trousers with a checkered pattern.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1274,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "12 H",
+    "craftingComponents": [
+      {
+        "id": "SSnoxK9YDhdqGRf7",
+        "name": "Dark Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "IlLIq91mCPxLfqH1",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "HRQRMMV1Z4cKmfld",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "bypZRXSbYmVrvhIj",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "RaRAB0hJxSIMJOQq",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "UavLk5W1NQJXPMKr",
+        "name": "Ashes",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      },
+      {
+        "id": "A8WMH4smH5WfbP8a",
+        "name": "Oil",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      }
+    ],
+    "investment": 631,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.cZlk3q6QXfYJ2t2a",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b34488ef5311d2c9edcb7165e5c9338dcc3cd0d2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!rBoDvklEChoZMRcZ"
+}

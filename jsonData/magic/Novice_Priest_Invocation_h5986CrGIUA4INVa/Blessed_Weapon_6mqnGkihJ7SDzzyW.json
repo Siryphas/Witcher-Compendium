@@ -1,0 +1,102 @@
+{
+  "folder": "h5986CrGIUA4INVa",
+  "name": "Blessed Weapon",
+  "type": "spell",
+  "_id": "6mqnGkihJ7SDzzyW",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Blessed Weapon creates a glowing rune on a melee weapon you touch which magically lightens and balances the weapon. For the duration of the invocation, the weapon has the Balanced Effect.",
+    "range": "2m",
+    "duration": "1/2 Hour",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Blessed Weapon",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.6mqnGkihJ7SDzzyW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "cZGjGtqfpchQdPG9",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Blessed Weapon creates a glowing rune on a melee weapon you touch which magically lightens and balances the weapon. For the duration of the invocation, the weapon has the Balanced Effect.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!6mqnGkihJ7SDzzyW.cZGjGtqfpchQdPG9"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "42b7889f6fa519f0f5db3d494d3c80e1b4ede92d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6mqnGkihJ7SDzzyW"
+}

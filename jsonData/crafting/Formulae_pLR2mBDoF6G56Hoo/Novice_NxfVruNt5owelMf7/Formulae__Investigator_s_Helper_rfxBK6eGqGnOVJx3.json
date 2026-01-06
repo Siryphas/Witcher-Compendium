@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Investigator's Helper",
+  "type": "diagrams",
+  "_id": "rfxBK6eGqGnOVJx3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>An atomizer filled with alchemical fluid which reacts to blood. When sprayed on an area where blood was present, the fluid turns black, revealing the presence of blood. A container of Investigator's Helper can be applied 10 times before being consumed.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 60,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "10 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 2,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "A Professional's Tools",
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.W6OlhctG8dnML7yN",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9e3051de176c0f1323104e61cfb668aeb230ec25"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!rfxBK6eGqGnOVJx3"
+}

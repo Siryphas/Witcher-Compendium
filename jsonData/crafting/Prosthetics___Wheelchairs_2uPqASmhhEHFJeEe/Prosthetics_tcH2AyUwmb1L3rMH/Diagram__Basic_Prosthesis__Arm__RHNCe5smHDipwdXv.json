@@ -1,0 +1,78 @@
+{
+  "folder": "tcH2AyUwmb1L3rMH",
+  "name": "Diagram: Basic Prosthesis (Arm)",
+  "type": "diagrams",
+  "_id": "RHNCe5smHDipwdXv",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>Simple in make and function, these prostheses aren&rsquo;t fancy, but they get the job done. These might include simplistic wooden hands or peg prostheses, or slightly more refined&nbsp;designs where gravity is used to maneuver the joints.</p>\n<p>Effect: While wearing a Basic Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. Due to its lack of fine motor function, all attack and defense checks made with a prosthetic arm are made at a -3. In the case of a Basic Prosthetic Leg, all Dodge/Escape checks are made at a -1.&nbsp;</p>\n<p>Additionally, a Basic Prosthesis cannot be used to channel Chaos. Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 76,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 13,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "0UwcrIAf1cC1weM6",
+        "name": "Cotton",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "bweRi12lFJNQClwP",
+        "name": "Timber",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "6h2Cp49Zn8AX9luZ",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      }
+    ],
+    "investment": 38,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.lzuiv1QCWNNVmgv3",
+    "sourcebook": "Prostheses and Wheelchairs",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b9c74678b5ebc59c327cedf9f3b683e0804f942e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!RHNCe5smHDipwdXv"
+}

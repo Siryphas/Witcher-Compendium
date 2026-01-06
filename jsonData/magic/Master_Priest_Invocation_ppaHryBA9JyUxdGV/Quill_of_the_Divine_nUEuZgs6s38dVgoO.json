@@ -1,0 +1,107 @@
+{
+  "folder": "ppaHryBA9JyUxdGV",
+  "name": "Quill of the Divine",
+  "type": "spell",
+  "_id": "nUEuZgs6s38dVgoO",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Quill of the Divine allows you to reach into a target’s mind and alter their memories. \nBy spending 14 STA you can lock away the memories of a target who fails to defend against this invocation giving them severe retrograde amnesia. \nBy spending 16 STA you can implant memories of your own creation into a target who fails to defend. Unless the target has had their memories locked away with this spell, they gain a +5 to resist the implantation of these new memories.",
+    "range": "2m",
+    "duration": "Permanent",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Quill of the Divine",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.nUEuZgs6s38dVgoO",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "4pUfL1zln5DbwLLQ",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Quill of the Divine allows you to reach into a target’s mind and alter their memories. </p><p>By spending 14 STA you can lock away the memories of a target who fails to defend against this invocation giving them severe retrograde amnesia. </p><p>By spending 16 STA you can implant memories of your own creation into a target who fails to defend. Unless the target has had their memories locked away with this spell, they gain a +5 to resist the implantation of these new memories.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!nUEuZgs6s38dVgoO.4pUfL1zln5DbwLLQ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3367fb8b67b8e95e7e261f59888b8302b6db81c7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nUEuZgs6s38dVgoO"
+}

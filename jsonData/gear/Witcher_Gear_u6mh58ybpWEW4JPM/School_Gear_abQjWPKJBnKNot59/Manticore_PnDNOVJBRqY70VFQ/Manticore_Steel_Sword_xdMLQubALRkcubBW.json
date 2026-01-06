@@ -1,0 +1,108 @@
+{
+  "folder": "PnDNOVJBRqY70VFQ",
+  "name": "Manticore Steel Sword",
+  "type": "weapon",
+  "_id": "xdMLQubALRkcubBW",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Manticore%20Steel%20Sword.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 2.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "WITCHER",
+    "damage": "5d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_i1ka4wnmu",
+        "name": "Meteorite",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_arn4jja1n",
+        "name": "Balanced",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "sourcebook": "A Witcher's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "_i1ka4wnmu",
+          "name": "Meteorite",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_arn4jja1n",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "rwJi5v1hmBxPa3x7",
+          "name": "Balanced",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "isMeteorite": true
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.AK78dTE5uZ1DbDgs"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8cc79c2ad81e9382dbaa77aa57fcfed8d23db6a8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xdMLQubALRkcubBW"
+}

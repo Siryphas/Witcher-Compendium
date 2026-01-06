@@ -1,0 +1,71 @@
+{
+  "folder": "1wLnWE2uBTmQgsS8",
+  "name": "Mace",
+  "type": "weapon",
+  "_id": "iJS0mawvQKXJ6Nby",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/maces/mace-flanged-steel-grey.webp",
+  "system": {
+    "description": "A brutal piece of work. Solid metal head with flanges or spikes. Heh, point is, when the head of the mace hits its target it’ll break bones. Know plenty of mercenaries who carry one of these just to break through armor.",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 525,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "5d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BHHD3rrnL7h3DY8M"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3d84430eefc665be044eb2562fa6811af42b72e0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iJS0mawvQKXJ6Nby"
+}

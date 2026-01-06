@@ -1,0 +1,66 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Merigold's Hailstorm",
+  "type": "spell",
+  "_id": "pH5Gzfl8j7nh5REj",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "Water",
+    "domain": "",
+    "stamina": "15",
+    "staminaIsVar": false,
+    "effect": "Named for its creator Triss Merigold, ex-advisor of King Foltest of Temeria, Merigold’s Hailstorm creates a hailstorm encompassing the area of the spell. \nEveryone within the storm must make a Dodge/Escape check at a DC equal to your Spell Casting check each round or take 2d6 damage to a body part.",
+    "range": "30m Radius",
+    "duration": "Active (4 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "30",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "2d6",
+    "effects": [],
+    "visualEffectDuration": null,
+    "damageType": "ice",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aa79577d59483fdf3a64b5d628c4e00897f0fd3e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pH5Gzfl8j7nh5REj"
+}

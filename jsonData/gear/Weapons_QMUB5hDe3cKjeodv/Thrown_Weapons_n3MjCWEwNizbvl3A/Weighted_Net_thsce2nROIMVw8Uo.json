@@ -1,0 +1,76 @@
+{
+  "folder": "n3MjCWEwNizbvl3A",
+  "name": "Weighted Net",
+  "type": "weapon",
+  "_id": "thsce2nROIMVw8Uo",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/fishing/net-tan.webp",
+  "system": {
+    "description": "Here’s an old standby, heh. A net. Simple as can be. Just a bunch of rope woven together with some iron weights around the edge. Toss this over somebody tryin’ to scamper off and you’ll put a real dent in that plan. Popular with guards in some cities. Especially when animals or monsters get loose.\nEntangling: A target hit by this weapon is entangled by it. They lower their SPD by 5 and suffer a -2 penalty to all physical actions. Each turn, the target can make a DC: 18 Dodge/Escape or Athletics check to escape. Alternatively, another character can take an action to remove the weapon.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 125,
+    "isHidden": false,
+    "type": {
+      "text": "",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "0",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "both",
+    "range": "4m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Entangling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Professional's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uDNlIUadhfIEDWBl"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5fd80b5dba3e54ec4e48f69e35d14b0879ee9113"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!thsce2nROIMVw8Uo"
+}

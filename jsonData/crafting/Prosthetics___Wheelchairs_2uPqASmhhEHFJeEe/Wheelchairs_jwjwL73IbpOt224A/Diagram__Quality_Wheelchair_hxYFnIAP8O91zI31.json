@@ -1,0 +1,90 @@
+{
+  "folder": "jwjwL73IbpOt224A",
+  "name": "Diagram: Quality Wheelchair",
+  "type": "diagrams",
+  "_id": "hxYFnIAP8O91zI31",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>A work of solid craftsmanship, these light-weight wheelchairs are the sort you see in towns and cities. An elegant frame and slanted wheels allows them to tackle nearly any environment<br>with ease.</p>\n<p>Effect: While using a Quality Wheelchair, any reduction to SPD, Dodge/Escape and Athletics caused by a Critical Wound or pre-existing disability is negated. However, while using a Quality Wheelchair, any check involving swimming or climbing is made at a -1.</p>\n<p>Any attack made against a person in a wheelchair is directed toward them instead of the chair for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 300,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "AP4MujYcM6NVlki7",
+        "name": "Cotton",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "1XNfQ6cdTrBIULkD",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "7G5yc6jJwQrZZWrB",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "StbUsi1qfNsdZvZM",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "UnSUMTKBKE6dj4Kj",
+        "name": "Timber",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      }
+    ],
+    "investment": 150,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.JzDrWUfyWy6CotDE",
+    "sourcebook": "Prostheses and Wheelchairs",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "13b16038366a0c2f5bf79930e8beaa55876bfede"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!hxYFnIAP8O91zI31"
+}

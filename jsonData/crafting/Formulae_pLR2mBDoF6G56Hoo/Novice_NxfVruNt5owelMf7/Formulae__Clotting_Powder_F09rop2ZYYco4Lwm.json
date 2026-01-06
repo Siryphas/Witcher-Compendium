@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Clotting Powder",
+  "type": "diagrams",
+  "_id": "F09rop2ZYYco4Lwm",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>When you&rsquo;re bleedin&rsquo; all over the place and a doctor&rsquo;s havin&rsquo; a hard time tendin&rsquo; to ya, clottin&rsquo; powder&rsquo;s good to have on hand. It&rsquo;ll quell the flood for a while.</em></p>\n<p>Applying clotting powder to a wound stops bleeding effect for 2d10 rounds. After the rounds elapse the wound begins bleeding again. You can then apply another dose.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 30,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 12,
+    "craftingTime": "5 Rounds",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 1,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.OdBDEmsuc2xB8NrB",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ff18cc365f0398753a3a572629dc1b0e5e5cb092"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!F09rop2ZYYco4Lwm"
+}

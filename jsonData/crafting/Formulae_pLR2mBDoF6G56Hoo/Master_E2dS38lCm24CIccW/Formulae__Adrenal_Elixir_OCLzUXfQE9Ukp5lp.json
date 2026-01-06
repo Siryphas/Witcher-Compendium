@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Adrenal Elixir",
+  "type": "diagrams",
+  "_id": "OCLzUXfQE9Ukp5lp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>An elixir of mutagentic material and herbs which imparts a sustained burst of adrenaline. When imbibed, the Adrenal Elixir lowers the DC to stabilize the imbiber in a Death State by 5 and bolsters their chances of survival.<br>For the next 3 rounds, the target automatically succeeds Death Saves, though their Death Save penalty continues to rise. If imbibed while not in a Death State, the Adrenal Elixir allows the imbiber to ignore the penalties of being below their Wound Threshold for three rounds.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 150,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 20,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 2,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 2,
+      "caelum": 1,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.6YMgvjUhen9cbzar",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b17938f9b2c6b8767d0ce82c8bb331c846048f76"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!OCLzUXfQE9Ukp5lp"
+}

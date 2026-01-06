@@ -1,0 +1,102 @@
+{
+  "folder": "Rgl76Q9WbzPoPBNf",
+  "name": "Polymorphism",
+  "type": "spell",
+  "_id": "MIL6B9Bet1iIrCEP",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "earth",
+    "domain": "",
+    "stamina": "22",
+    "staminaIsVar": false,
+    "effect": "Polymorphism allows you to take the shape of a serpent, a cat, a bird, or a dog. While in this form, you have the physical statistics of that animal. Any items on your person transform with you. \nYou must cast the spell again to change back to your human form.",
+    "range": "Self",
+    "duration": "Until Re-Cast",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Polymorphism",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.MIL6B9Bet1iIrCEP",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "_id": "ZAzLD7kjsAm51oHi",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Polymorphism allows you to take the shape of a serpent, a cat, a bird, or a dog. While in this form, you have the physical statistics of that animal. Any items on your person transform with you.</p><p>You must cast the spell again to change back to your human form.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!MIL6B9Bet1iIrCEP.ZAzLD7kjsAm51oHi"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d554e4db18245cdab9d862acca3aa9a88049cbec"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MIL6B9Bet1iIrCEP"
+}

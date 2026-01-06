@@ -1,0 +1,97 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Vahila's Smoke",
+  "type": "spell",
+  "_id": "VSwztgcMGc4BcO5d",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Created by the feared Etolian assassin Vahila, this spell transforms a wisp of smoke into a choking veil. \nUpon casting this spell, you can engulf a single target’s head in thick smoke.\nIf this target fails to defend they are immersed in smoke and considered Blinded and Suffocating. \nEach turn, the target can spend their action to attempt another defense check against a new Spell Casting check to end the effect.",
+    "range": "10m",
+    "duration": "Active (2 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Blinded",
+        "statusEffect": "blinded",
+        "percentage": 100
+      },
+      {
+        "id": "_szyp1bx7g",
+        "name": "Suffocate",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Blinded",
+          "statusEffect": "blinded",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_szyp1bx7g",
+          "name": "Suffocate",
+          "statusEffect": "suffocation",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2a19c7983cac816238559f701c8feceeb6d523da"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VSwztgcMGc4BcO5d"
+}

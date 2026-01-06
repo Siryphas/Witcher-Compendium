@@ -1,0 +1,113 @@
+{
+  "folder": "g5XU90wjAHHP2CdX",
+  "name": "Hold Tongue",
+  "type": "spell",
+  "_id": "P3EBPffGMxykKNGW",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Hold Tongue allows you to magically glue a target’s lips and paralyze their tongue, rendering the them unable to speak. While affected by this spell, the target cannot open their mouth and can only emit muffled sounds. \nIf a Mage, Priest, or Druid with a Spell Casting skill value below 7 is affected by this spell, they cannot cast magic. \nAt the end of every round, the target can attempt another Resist Magic check against a new Spell Casting check to end the effect.",
+    "range": "10m",
+    "duration": "10 Minutes",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "effects": []
+    },
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "Hold Tongue",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.P3EBPffGMxykKNGW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "1KhilskY22v9tyMj",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Hold Tongue allows you to magically glue a target’s lips and paralyze their tongue, rendering the them unable to speak. While affected by this spell, the target cannot open their mouth and can only emit muffled sounds.</p><p>If a Mage, Priest, or Druid with a Spell Casting skill value below 7 is affected by this spell, they cannot cast magic.</p><p>At the end of every round, the target can attempt another Resist Magic check against a new Spell Casting check to end the effect.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!P3EBPffGMxykKNGW.1KhilskY22v9tyMj"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9d7e1abb35b57e4941a4328011585bd1e76b42f1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P3EBPffGMxykKNGW"
+}

@@ -1,0 +1,111 @@
+{
+  "folder": "hHQGJNmdaA9UrXbM",
+  "name": "Blessing of Healing",
+  "type": "spell",
+  "_id": "G70p1m3Be94Kom3N",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "journeyman",
+    "source": "druid",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Blessing of Healing jumpstarts a target’s healing, allowing them to heal at 3 points per round.\nThis blessing can be used multiple times to heal a critical wound.\n-Simple: 4 Uses at DC 14\n-Complex: 6 Uses at DC 16\n-Difficult: 8 Uses at DC 18\n-Deadly: 10 Uses at DC 20",
+    "range": "2m",
+    "duration": "Active (3 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "doesHeal": true,
+    "heal": "3",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "type": "base",
+      "name": "Blessing of Healing",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.G70p1m3Be94Kom3N",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "HBEw5FRRMnMNG8nv",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!G70p1m3Be94Kom3N.HBEw5FRRMnMNG8nv"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e2410c6a4056e55bd0f5a8e31cb4780bc14eb0bb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!G70p1m3Be94Kom3N"
+}

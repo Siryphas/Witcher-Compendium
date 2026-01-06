@@ -1,0 +1,107 @@
+{
+  "folder": "LYUuah2rqlYSyazT",
+  "name": "Mental Command",
+  "type": "spell",
+  "_id": "bsB28exA92nVPKni",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "Mental Command allows you to plant an order in the mind of a target. This command must be executed to the letter by the target. \nIf the command is something the target would never do, they get a +5 to their Resist Magic check.",
+    "range": "10m",
+    "duration": "Until Task is Done",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [],
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    }
+  },
+  "effects": [
+    {
+      "name": "Mental Command",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.bsB28exA92nVPKni",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "jDcJNA2CHHn5iSLo",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Mental Command allows you to plant an order in the mind of a target. This command must be executed to the letter by the target.</p><p>If the command is something the target would never do, they get a +5 to their Resist Magic check.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!bsB28exA92nVPKni.jDcJNA2CHHn5iSLo"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6224fda85496780d06a3866a84f1fe92c805686d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bsB28exA92nVPKni"
+}

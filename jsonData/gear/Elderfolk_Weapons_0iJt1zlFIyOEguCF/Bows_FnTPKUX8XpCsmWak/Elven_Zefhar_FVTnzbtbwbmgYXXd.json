@@ -1,0 +1,81 @@
+{
+  "folder": "FnTPKUX8XpCsmWak",
+  "name": "Elven Zefhar",
+  "type": "weapon",
+  "_id": "FVTnzbtbwbmgYXXd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/bows/bow-ornamental-carved-brown.webp",
+  "system": {
+    "description": "The elven zefhar’s the pride and joy of the elves. It’s a large bow with four limbs, connected by powerful waxed string. The two sets of limbs on the zefhar can double the power of the bow. Great part is the bow doesn’t feel any heavier.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 1100,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "6d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "350m",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 1,
+    "attackSkill": "archery",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "improvedArmorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.M9OrdrnOvsiwq5Zs",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "5w2vb2ly1q1dDcKv",
+          "name": "Improved Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e6f8f9ff116567749813bbbd70d6af70cdfc4ed"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FVTnzbtbwbmgYXXd"
+}

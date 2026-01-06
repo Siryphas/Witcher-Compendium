@@ -1,0 +1,74 @@
+{
+  "name": "Fangs (Vran)",
+  "type": "weapon",
+  "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "type": {
+      "text": "",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "conceal": "T",
+    "avail": "Everywhere",
+    "hands": "none",
+    "equipped": false,
+    "reliable": 0,
+    "maxReliability": 0,
+    "damage": "3d6",
+    "range": "Melee",
+    "accuracy": 0,
+    "attackSkill": "melee",
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "effects": [
+      {
+        "id": "JRsd028jzT0dnjJQ",
+        "name": "Poison",
+        "statusEffect": "poison",
+        "percentage": 50
+      }
+    ],
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "folder": "DFlwge2Gda7e5ZNo",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.19.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "rnTiXMJt8LHB4AvD",
+  "sort": 362500,
+  "_key": "!items!rnTiXMJt8LHB4AvD"
+}

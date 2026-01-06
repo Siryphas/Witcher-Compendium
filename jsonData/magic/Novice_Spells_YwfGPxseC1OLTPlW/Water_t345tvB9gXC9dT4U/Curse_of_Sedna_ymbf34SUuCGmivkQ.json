@@ -1,0 +1,71 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Curse of Sedna",
+  "type": "spell",
+  "_id": "ymbf34SUuCGmivkQ",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Named after the tumultuous Sedna Abyss, which is considered a suicidal destination for ships, Curse of Sedna creates a powerful whirlpool in a 4 meter area. \nAnyone within 5m must make a Swimming check equal to your Spell Casting check or be dragged underwater. They must make a check each round or remain underwater, where they will start suffocating.",
+    "range": "12m",
+    "duration": "Active (2 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "4",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Suffocate",
+        "statusEffect": "suffocation",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ff9900a26e31405dfd3c36e7fcbc149f0cac78f2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ymbf34SUuCGmivkQ"
+}

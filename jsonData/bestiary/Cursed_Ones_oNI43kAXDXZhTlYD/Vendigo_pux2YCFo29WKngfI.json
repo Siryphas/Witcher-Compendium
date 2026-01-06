@@ -1,0 +1,1559 @@
+{
+  "folder": "oNI43kAXDXZhTlYD",
+  "name": "Vendigo",
+  "type": "monster",
+  "_id": "pux2YCFo29WKngfI",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Bestiary/5%20-%20Cursed%20Ones/Vendigo.jpg",
+  "system": {
+    "woundTresholdApplied": false,
+    "deathStateApplied": false,
+    "deathSaves": 0,
+    "currency": {
+      "bizant": 0,
+      "ducat": 0,
+      "lintar": 0,
+      "floren": 0,
+      "crown": 0,
+      "oren": 0,
+      "falsecoin": 0
+    },
+    "stats": {
+      "int": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.Stat.Int",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "ref": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.Stat.Ref",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "dex": {
+        "max": 11,
+        "current": 11,
+        "label": "WITCHER.Actor.Stat.Dex",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "body": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Body",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "spd": {
+        "max": 9,
+        "current": 9,
+        "label": "WITCHER.Actor.Stat.Spd",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "emp": {
+        "max": 1,
+        "current": 1,
+        "label": "WITCHER.Actor.Stat.Emp",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "cra": {
+        "max": 2,
+        "current": 2,
+        "label": "WITCHER.Actor.Stat.Cra",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "will": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.Stat.Will",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "luck": {
+        "max": 0,
+        "current": 0,
+        "total": 0,
+        "label": "WITCHER.Actor.Stat.Luck",
+        "isOpened": false,
+        "modifiers": []
+      }
+    },
+    "coreStats": {
+      "stun": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.CoreStat.Stun",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "run": {
+        "max": 27,
+        "current": 27,
+        "label": "WITCHER.Actor.CoreStat.Run",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "leap": {
+        "max": 5,
+        "current": 5,
+        "label": "WITCHER.Actor.CoreStat.Leap",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "enc": {
+        "max": 100,
+        "current": 100,
+        "label": "WITCHER.Actor.CoreStat.Enc",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "rec": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.CoreStat.Rec",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      },
+      "woundTreshold": {
+        "max": 10,
+        "current": 10,
+        "label": "WITCHER.Actor.CoreStat.woundTreshold",
+        "isOpened": false,
+        "modifiers": [],
+        "total": 0
+      }
+    },
+    "derivedStats": {
+      "modifiersIsOpened": false,
+      "hp": {
+        "max": 100,
+        "value": 100,
+        "label": "WITCHER.Actor.DerStat.HP",
+        "unmodifiedMax": 100,
+        "modifiers": []
+      },
+      "sta": {
+        "max": 50,
+        "value": 50,
+        "label": "WITCHER.Actor.DerStat.Sta",
+        "modifiers": [],
+        "unmodifiedMax": 50
+      },
+      "resolve": {
+        "max": 35,
+        "value": 35,
+        "label": "WITCHER.Actor.DerStat.Resolve",
+        "modifiers": [],
+        "unmodifiedMax": 35
+      },
+      "focus": {
+        "max": 6,
+        "label": "WITCHER.Actor.DerStat.Focus",
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0
+      },
+      "vigor": {
+        "max": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Vigor",
+        "modifiers": [],
+        "unmodifiedMax": 0
+      },
+      "shield": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Shield",
+        "modifiers": []
+      }
+    },
+    "reputation": {
+      "max": 0,
+      "current": 0,
+      "label": "WITCHER.Actor.CoreStat.Rep",
+      "isOpened": false,
+      "modifiers": [],
+      "total": 0
+    },
+    "skills": {
+      "int": {
+        "awareness": {
+          "value": 11,
+          "label": "WITCHER.SkIntAwareness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "business": {
+          "value": 0,
+          "label": "WITCHER.SkIntBusiness",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deduction": {
+          "value": 0,
+          "label": "WITCHER.SkIntDeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "education": {
+          "value": 0,
+          "label": "WITCHER.SkIntEducation",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "commonsp": {
+          "value": 0,
+          "label": "WITCHER.SkIntCommon",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "eldersp": {
+          "value": 0,
+          "label": "WITCHER.SkIntElder",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dwarven": {
+          "value": 0,
+          "label": "WITCHER.SkIntDwarven",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "monster": {
+          "value": 0,
+          "label": "WITCHER.SkIntMonster",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "socialetq": {
+          "value": 0,
+          "label": "WITCHER.SkIntSocialEt",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "streetwise": {
+          "value": 0,
+          "label": "WITCHER.SkIntStreet",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "tactics": {
+          "value": 0,
+          "label": "WITCHER.SkIntTactics",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "teaching": {
+          "value": 0,
+          "label": "WITCHER.SkIntTeaching",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "wilderness": {
+          "value": 13,
+          "label": "WITCHER.SkIntWilderness",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "ref": {
+        "brawling": {
+          "value": 7,
+          "label": "WITCHER.SkRefBrawling",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "dodge": {
+          "value": 7,
+          "label": "WITCHER.SkRefDodge",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "melee": {
+          "value": 11,
+          "label": "WITCHER.SkRefMelee",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "riding": {
+          "value": 0,
+          "label": "WITCHER.SkRefRiding",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sailing": {
+          "value": 0,
+          "label": "WITCHER.SkRefSailing",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "smallblades": {
+          "value": 0,
+          "label": "WITCHER.SkRefSmall",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "staffspear": {
+          "value": 0,
+          "label": "WITCHER.SkRefStaff",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "swordsmanship": {
+          "value": 0,
+          "label": "WITCHER.SkRefSwordsmanship",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "dex": {
+        "archery": {
+          "value": 0,
+          "label": "WITCHER.SkDexArchery",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "athletics": {
+          "value": 8,
+          "label": "WITCHER.SkDexAthletics",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crossbow": {
+          "value": 0,
+          "label": "WITCHER.SkDexCrossbow",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "sleight": {
+          "value": 0,
+          "label": "WITCHER.SkDexSleight",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "stealth": {
+          "value": 8,
+          "label": "WITCHER.SkDexStealth",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "body": {
+        "physique": {
+          "value": 8,
+          "label": "WITCHER.SkBodyPhys",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "endurance": {
+          "value": 8,
+          "label": "WITCHER.SkBodyEnd",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "emp": {
+        "charisma": {
+          "value": 0,
+          "label": "WITCHER.SkEmpCharisma",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "deceit": {
+          "value": 0,
+          "label": "WITCHER.SkEmpDeceit",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "finearts": {
+          "value": 0,
+          "label": "WITCHER.SkEmpArts",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "gambling": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGambling",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "grooming": {
+          "value": 0,
+          "label": "WITCHER.SkEmpGrooming",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "perception": {
+          "value": 0,
+          "label": "WITCHER.SkEmpHumanPerc",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "leadership": {
+          "value": 0,
+          "label": "WITCHER.SkEmpLeadership",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "persuasion": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPersuasion",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "performance": {
+          "value": 0,
+          "label": "WITCHER.SkEmpPerformance",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "seduction": {
+          "value": 0,
+          "label": "WITCHER.SkEmpSeduction",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "cra": {
+        "alchemy": {
+          "value": 0,
+          "label": "WITCHER.SkCraAlchemy",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "crafting": {
+          "value": 0,
+          "label": "WITCHER.SkCraCrafting",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "disguise": {
+          "value": 0,
+          "label": "WITCHER.SkCraDisguise",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "firstaid": {
+          "value": 0,
+          "label": "WITCHER.SkCraAid",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "forgery": {
+          "value": 0,
+          "label": "WITCHER.SkCraForge",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "picklock": {
+          "value": 0,
+          "label": "WITCHER.SkCraPick",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "trapcraft": {
+          "value": 0,
+          "label": "WITCHER.SkCraTrapCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      },
+      "will": {
+        "courage": {
+          "value": 8,
+          "label": "WITCHER.SkWillCourage",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "hexweave": {
+          "value": 7,
+          "label": "WITCHER.SkWillHex",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "intimidation": {
+          "value": 7,
+          "label": "WITCHER.SkWillIntim",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "spellcast": {
+          "value": 0,
+          "label": "WITCHER.SkWillSpellcast",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistmagic": {
+          "value": 8,
+          "label": "WITCHER.SkWillResistMag",
+          "isOpened": false,
+          "isVisible": true,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "resistcoerc": {
+          "value": 0,
+          "label": "WITCHER.SkWillResistCoer",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        },
+        "ritcraft": {
+          "value": 0,
+          "label": "WITCHER.SkWillRitCraft",
+          "isOpened": false,
+          "isVisible": false,
+          "modifiers": [],
+          "isPickup": false,
+          "isLearned": false,
+          "isProfession": false
+        }
+      }
+    },
+    "adrenaline": {
+      "current": 0,
+      "label": "WITCHER.Actor.Adrenaline"
+    },
+    "critWounds": [],
+    "category": "CursedOne",
+    "threat": "hard",
+    "difficulty": "difficult",
+    "bounty": 1500,
+    "armorHead": 10,
+    "armorUpper": 10,
+    "armorLower": 10,
+    "armorTailWing": 0,
+    "regen": 0,
+    "resistances": "",
+    "immunities": "Charm, Freeze, Disease, Coercion, Snow & Ice Conditions",
+    "susceptibilities": "Cursed Oil, Dimeritium Bombs, Moondust Bombs",
+    "senses": "Night Vision, Scent Tracking",
+    "height": "3.5m",
+    "weight": "110kg",
+    "environment": "High mountains",
+    "intelligence": "Sapient",
+    "organization": "Solitary",
+    "common": "<p><em>Strange.... Never heard of somethin&rsquo; called a vendigo, but folk&rsquo;ve got all sorts of superstitions about&nbsp;travlin&rsquo; through the Kestrels and the Dragons and the Blue mountains and whatnot. Last time I&nbsp;crossed Kestrel Mountains some innkeep told me to watch the forest line and pack 6 days more rations&nbsp;than I thought I&rsquo;d need. At the time I thought he was just lookin&rsquo; to swindle me but I&rsquo;m not sure these&nbsp;days. Heard some stories from folk in Caingorn recently that&rsquo;d put a chill up yer spine. Talk of some&nbsp;kinda specter that haunts travelers and makes &lsquo;em hunger like nothin&rsquo; else. Some mountaineers in&nbsp;Caingorn&rsquo;ve taken to carrying extra rations and wearin&rsquo; these ceremonial masks from far north.</em><br>&mdash;Rodolf Kazmer</p>",
+    "commonSkillValue": "18",
+    "monsterLore": "<p>Vendigo haunt the highest mountains of the Continent. You would be most unfortunate to come across one. A rack of elk antlers&nbsp;crowns their head. Their bodies stretch tall, and their features are ragged and pale, skin twisted into the form of a naked and&nbsp;starving traveler whose lips are caked with blood.</p>\n<p>In addition to its disease riddled claws, vendigo are capable of powerful magic, including a terrible curse. The curse drives its victims to commit cannibalism over the course of three days. If they submit, the vendigo gains control over them. To combat against the threat of vendigo, you must be vigilant in the mountains. The monster is afraid of fire, so always carry a torch. Should it go out, a vendigo may be near. It often won&rsquo;t approach a campfire, so keep yours burning overnight. And should any of your party crave strangely for meat, leave the mountains immediately and get them to a priest.</p>\n<p>If it comes to it, burn the monster out. Many of your party will die in the process, but maybe you will be lucky.</p>",
+    "monsterLoreSkillValue": "16",
+    "customStat": true,
+    "focus1": {
+      "name": "",
+      "value": 0
+    },
+    "focus2": {
+      "name": "",
+      "value": 0
+    },
+    "focus3": {
+      "name": "",
+      "value": 0
+    },
+    "focus4": {
+      "name": "",
+      "value": 0
+    },
+    "pannels": {
+      "intIsOpen": true,
+      "refIsOpen": true,
+      "dexIsOpen": true,
+      "bodyIsOpen": true,
+      "empIsOpen": false,
+      "craIsOpen": false,
+      "willIsOpen": true,
+      "hexIsOpen": true,
+      "vitriolIsOpen": false,
+      "rebisIsOpen": false,
+      "aetherIsOpen": false,
+      "quebrithIsOpen": false,
+      "hydragenumIsOpen": false,
+      "vermilionIsOpen": false,
+      "solIsOpen": false,
+      "caelumIsOpen": false,
+      "fulgurIsOpen": false,
+      "noviceSpellIsOpen": false,
+      "journeymanSpellIsOpen": false,
+      "masterSpellIsOpen": false,
+      "ritualIsOpen": false,
+      "magicalgiftIsOpen": false
+    },
+    "attackStats": {
+      "meleeBonus": "4",
+      "punch": {
+        "value": "1d6+4",
+        "label": "WITCHER.Actor.DerStat.Punch"
+      },
+      "kick": {
+        "value": "1d6+8",
+        "label": "WITCHER.Actor.DerStat.Kick"
+      }
+    },
+    "showCommonerSuperstition": true,
+    "showAcademicKnowledge": false,
+    "showMonsterLore": true,
+    "dontAddAttr": false,
+    "statusEffectImmunities": [
+      "freeze",
+      "nausea"
+    ],
+    "notes": [],
+    "academicKnowledge": "",
+    "academicKnowledgeSkillValue": "",
+    "resistantNonSilver": true
+  },
+  "prototypeToken": {
+    "name": "Vendigo",
+    "displayName": 30,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Tokens/Top%20Down%20Tokens/Monsters/System%20Monsters/Wendigo.png",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 2,
+    "height": 2,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 40,
+    "bar1": {
+      "attribute": "derivedStats.hp"
+    },
+    "bar2": {
+      "attribute": "derivedStats.sta"
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "torch",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#c8af32",
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 16,
+      "angle": 180,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 1,
+      "brightness": -1,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "basicSight",
+        "range": 16,
+        "enabled": true
+      }
+    ],
+    "flags": {
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "canbeGrappledFlag": true,
+        "CanbePilotedFlag": false,
+        "GrapplePlacementFlag": "RowBelow",
+        "MountonEnterFlag": false,
+        "AutoMountBlackListFlag": "",
+        "AutoMountWhiteListFlag": "",
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "tagger": {},
+      "patrol": {
+        "enablePatrol": false,
+        "enableSpotting": false,
+        "makePatroller": false,
+        "multiPath": false,
+        "patrolPathName": "",
+        "pathNodeIndex": "0"
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "Bite",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/creatures/abilities/mouth-teeth-rows-white.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Piercing",
+          "slashing": false,
+          "piercing": true,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "7d6",
+        "reliable": 15,
+        "maxReliability": 15,
+        "hands": "none",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Disease",
+            "percentage": 60,
+            "statusEffect": null
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 1,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "first",
+              "name": "Disease",
+              "statusEffect": "disease",
+              "percentage": 60,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "JEflPFTBB5wpYRms": 3,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.Lp4N2nUrhI5nqN0M.Item.zVyEgkWZr49UtG2b",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "kz5LS5fS2y1lmO7N",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.kz5LS5fS2y1lmO7N"
+    },
+    {
+      "name": "Claws",
+      "type": "weapon",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/hand-clawed-blue.webp",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "type": {
+          "text": "Slashing",
+          "slashing": true,
+          "piercing": false,
+          "bludgeoning": false,
+          "elemental": false
+        },
+        "isAmmo": false,
+        "usingAmmo": false,
+        "accuracy": 0,
+        "avail": "Everywhere",
+        "damage": "5d6+4",
+        "reliable": 15,
+        "maxReliability": 15,
+        "hands": "both",
+        "range": "Melee",
+        "effects": [
+          {
+            "id": "first",
+            "name": "Bleed",
+            "statusEffect": "bleed",
+            "percentage": 50
+          },
+          {
+            "id": "_5up4l4u2k",
+            "name": "Disease",
+            "statusEffect": null,
+            "percentage": 25
+          }
+        ],
+        "conceal": "NA",
+        "enhancements": 0,
+        "rateOfFire": 2,
+        "attackSkill": "melee",
+        "rollOnlyDmg": false,
+        "isThrowable": false,
+        "enhancementItemIds": [],
+        "isStored": false,
+        "equipped": false,
+        "armorPiercing": false,
+        "improvedArmorPiercing": false,
+        "ablating": false,
+        "sourcebook": "A Witcher's Journal",
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry"
+        ],
+        "damageProperties": {
+          "effects": [
+            {
+              "id": "first",
+              "name": "Bleed",
+              "statusEffect": "bleed",
+              "percentage": 50,
+              "varEffect": false
+            },
+            {
+              "id": "_5up4l4u2k",
+              "name": "Disease",
+              "statusEffect": "disease",
+              "percentage": 25,
+              "varEffect": false
+            }
+          ]
+        }
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.besitary.Actor.pux2YCFo29WKngfI.Item.gjjqakRp97hvx7H7",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "hp5N7GkslE5BNniK",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.hp5N7GkslE5BNniK"
+    },
+    {
+      "name": "Vendigo Fur",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/fulgur.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6",
+        "weight": 0.1,
+        "cost": 76,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Vendigo",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "fulgur",
+        "isStored": false
+      },
+      "sort": 4500000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_jmpyik2v7b",
+          "color": "#ff0000"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.Wup1CUTPA9u49jui",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "KAZlLZO8UqxpNdG7",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.KAZlLZO8UqxpNdG7"
+    },
+    {
+      "name": "Essence of Death",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/fulgur.png",
+      "system": {
+        "description": "",
+        "quantity": "2d6",
+        "weight": 0.1,
+        "cost": 155,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Found on some monsters",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "fulgur",
+        "isStored": false
+      },
+      "sort": 6300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.Xi2eEGtf2Z1s2Cxe",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "NenS7y3K9d87mFPx",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.NenS7y3K9d87mFPx"
+    },
+    {
+      "name": "Vendigo Heart",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/aether.png",
+      "system": {
+        "description": "",
+        "quantity": "1",
+        "weight": 1,
+        "cost": 167,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Vendigo",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "aether",
+        "isStored": false
+      },
+      "sort": 8600000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3,
+        "JEflPFTBB5wpYRms": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_5l7oatut3jg",
+          "color": "#4ab2bf"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Item.wDyFvDwCb8lyZF41",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "qch4KgBUMvXGWPAB",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.qch4KgBUMvXGWPAB"
+    },
+    {
+      "name": "Crystallized Essence",
+      "type": "component",
+      "img": "https://assets.forge-vtt.com/bazaar/systems/TheWitcherTRPG/assets/assets/images/hydragenum.png",
+      "system": {
+        "description": "",
+        "quantity": "1d6/2",
+        "weight": 0.1,
+        "cost": 292,
+        "isHidden": false,
+        "type": "substances",
+        "rarity": "Rare",
+        "location": "Hyms, Pesta, Vendigos, Leshen, Cyclops",
+        "quantityObtainable": "N/A",
+        "forage": "N/A",
+        "substanceType": "hydragenum",
+        "isStored": false
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "cf": {
+          "id": "temp_lt8vyki9dr",
+          "color": "#5c65e6"
+        },
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": "Compendium.wtrpg-compendium.crafting.Item.qOxAGLaXXalMUJl6",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "x9247RNudnoVSrQV",
+      "effects": [],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.x9247RNudnoVSrQV"
+    },
+    {
+      "name": "Vulnerability: Fear of Fire",
+      "type": "note",
+      "_id": "abpwMaL2hzliRt5H",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "A vendigo is afraid of fire and must force itself to come near it. A vendigo must make a DC:20 Courage check to come within 6m of a fire the size of a campfire or a DC:26 Courage check to come within 10m of a bonfire. A vendigo doesn’t need to make a Courage check to come near a torch, or weapon that is on fire but it will avoid attacking the wielder of that item first if possible.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!pux2YCFo29WKngfI.abpwMaL2hzliRt5H"
+    },
+    {
+      "name": "Ability: Summon Blizzard",
+      "type": "note",
+      "_id": "lmhQOWKXP9YTsGyl",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its action, a vendigo can summon a blizzard in an area (within a 50m radius) initially centered on the vendigo. This blizzard creates Ice and Snow conditions and anyone in this blizzard is unable to see anything that is farther than 4m from them. By spending an action, the vendigo can move the blizzard up to 20m. This blizzard lasts 24 hours, or until the vendigo uses an action to dismiss. A Mage or Priest can attempt to dispel this blizzard, by spending 10 STA points and taking an action to roll a Spellcasting check (DC:20). The blizzard dissipates after the vendigo dies. Dimeritium Bombs negate this ability but do not dissipate the blizzard.",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!pux2YCFo29WKngfI.lmhQOWKXP9YTsGyl"
+    },
+    {
+      "name": "Ability: Spoil Food",
+      "type": "note",
+      "_id": "5LnxtBXnu4ZxL98H",
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/svg/item-bag.svg",
+      "system": {
+        "description": "By taking its action, a vendigo can cause an amount of food and drink no larger than 1 square meter within 10m to go rotten. Anyone who consumes this food must make a DC: 18 Endurance check or be nauseated. Dimeritium",
+        "quantity": "1",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "0.97",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!pux2YCFo29WKngfI.5LnxtBXnu4ZxL98H"
+    },
+    {
+      "name": "Vendigo's Curse",
+      "type": "spell",
+      "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+      "system": {
+        "class": "Hexes",
+        "level": "novice",
+        "source": "",
+        "domain": "",
+        "stamina": 0,
+        "staminaIsVar": false,
+        "effect": "By using its action, a vendigo can make direct eye contact with a target and roll a Hex Weaving roll against the target’s Resist Magic roll. If this target fails to beat the vendigo’s roll it is cursed with the vendigo’s curse. The curse progresses in three stages. \n\nThe morning after the target is cursed, they wake up feeling a strong desire to consume fresh meat. This desire persists throughout the day and if that target is unable to consume fresh meat by the next morning, they take a -1 penalty to all actions and halve their Stamina for the next day. \n\nOn the second morning, the target wakes with a constant growling in their stomach and a deep, unquenchable hunger for fresh, bloody, meat. The target must roll below their WILL to pass up any chance to get meat (Gifts from travelers, a passing game animal, rotted supplies, or the like). If they are unable to eat any raw meat before the next morning, the target suffers a -3 penalty to all actions and quarters their Stamina on the next day. \n\nOn the third morning, the target wakes with an intense hunger for meat that gradually progresses toward cannibalistic desires. Finally, at sundown, the target must roll under their WILL or succumb to the Vendigo’s Curse and become a Vendigo Spawn. If they succeed, they remain in control and on each subsequent day, the target’s WILL is halved (minimum 1).\n\nOnce transformed into a Vendigo Spawn, a character lowers their Intelligence Statistic to 2, gains an Immunity to Coercion and Magical Charms, and becomes completely controlled by the vendigo. \n\nDimeritium Bombs negate this ability.",
+        "range": "",
+        "duration": "",
+        "defence": "",
+        "components": "",
+        "alternateComponents": "",
+        "preparationTime": "",
+        "danger": "High",
+        "liftRequirement": "They can only be brought back by the death of the vendigo or by being taken out of the mountains and having a Mage or Priest roll a Spellcasting check that beats the vendigo’s original Hex Weaving check. The magic user must spend 10 STA points and takes an action to roll this Spell Casting check.",
+        "sideEffect": "",
+        "createTemplate": false,
+        "templateSize": "",
+        "templateType": "",
+        "causeDamages": false,
+        "damage": "",
+        "effects": [
+          {
+            "id": "first",
+            "name": "effect",
+            "statusEffect": null,
+            "percentage": 0
+          }
+        ],
+        "quantity": "1",
+        "difficultyCheck": "",
+        "description": "",
+        "weight": 0,
+        "cost": 0,
+        "isHidden": false,
+        "isStored": false,
+        "visualEffectDuration": null,
+        "createsShield": false,
+        "shield": "",
+        "doesHeal": false,
+        "heal": "",
+        "globalModifiers": [],
+        "defenseOptions": [
+          "magicResist"
+        ]
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "coreVersion": "13.347",
+        "compendiumSource": "Item.PAmV9SMK9Kh0VXWE",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "eNcFpeEqRc1eiLLz",
+      "effects": [
+        {
+          "type": "base",
+          "name": "Vendigo's Curse",
+          "origin": "Compendium.wtrpg-complete-compendium.bestiary.Actor.pux2YCFo29WKngfI.Item.eNcFpeEqRc1eiLLz",
+          "duration": {
+            "rounds": null,
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "disabled": false,
+          "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+          "_id": "iyrrETws1lyKnhNv",
+          "system": {
+            "applySelf": false,
+            "applyOnTarget": true,
+            "applyOnHit": false,
+            "applyOnDamage": false
+          },
+          "changes": [],
+          "description": "<p>By using its action, a vendigo can make direct eye contact with a target and roll a Hex Weaving roll against the target’s Resist Magic roll. If this target fails to beat the vendigo’s roll it is cursed with the vendigo’s curse. The curse progresses in three stages. </p><p>The morning after the target is cursed, they wake up feeling a strong desire to consume fresh meat. This desire persists throughout the day and if that target is unable to consume fresh meat by the next morning, they take a -1 penalty to all actions and halve their Stamina for the next day. </p><p>On the second morning, the target wakes with a constant growling in their stomach and a deep, unquenchable hunger for fresh, bloody, meat. The target must roll below their WILL to pass up any chance to get meat (Gifts from travelers, a passing game animal, rotted supplies, or the like). If they are unable to eat any raw meat before the next morning, the target suffers a -3 penalty to all actions and quarters their Stamina on the next day. </p><p>On the third morning, the target wakes with an intense hunger for meat that gradually progresses toward cannibalistic desires. Finally, at sundown, the target must roll under their WILL or succumb to the Vendigo’s Curse and become a Vendigo Spawn. If they succeed, they remain in control and on each subsequent day, the target’s WILL is halved (minimum 1).</p><p>Once transformed into a Vendigo Spawn, a character lowers their Intelligence Statistic to 2, gains an Immunity to Coercion and Magical Charms, and becomes completely controlled by the vendigo.</p>",
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "statuscounter": {
+              "value": 1,
+              "config": {
+                "type": "default"
+              },
+              "visible": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.347",
+            "systemId": "TheWitcherTRPG",
+            "systemVersion": "v12.20.0",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!pux2YCFo29WKngfI.eNcFpeEqRc1eiLLz.iyrrETws1lyKnhNv"
+        }
+      ],
+      "folder": null,
+      "_key": "!actors.items!pux2YCFo29WKngfI.eNcFpeEqRc1eiLLz"
+    }
+  ],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "219160342259f467798c872e377e4b3e919e87cd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!pux2YCFo29WKngfI"
+}

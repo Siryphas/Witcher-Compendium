@@ -1,0 +1,72 @@
+{
+  "folder": "AgthO3LhwiusFjdw",
+  "name": "Diagram: Bear Medallion",
+  "type": "diagrams",
+  "_id": "93wUvP6KjNjAgLMd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical-brown.webp",
+  "system": {
+    "description": "<p>Witcher medallions are small pendants made of silver that hang around a witcher's neck. When they come within 20m of any monster, curse, or spell that is currently being cast, the medallion vibrates almost imperceptibly, alerting the witcher.</p>\n<p>Witcher Medallions are relatively&nbsp;easy to craft since they&nbsp;are primarily just cast silver.&nbsp;But they must be made in a&nbsp;specific way and must be crafted&nbsp;by a mage. A mage can craft&nbsp;a medallion with a unit of silver&nbsp;but afterward they must take it&nbsp;to a Place of Power to absorb&nbsp;magic. After being left at that&nbsp;Place of Power for an hour it&nbsp;will function as a witcher medallion.&nbsp;No other benefits can&nbsp;be gained from the Place of&nbsp;Power while priming.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "armor",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "YzUl2PwHSIoKMDJt",
+        "name": "Silver",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.PuuOiiIej1l4GFdC"
+      },
+      {
+        "id": "VDDS3DKzoMOxromR",
+        "name": "Etching Acid",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      }
+    ],
+    "investment": 82,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "Corebook",
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.gf8WGuAv75owujp4",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d77b4c45fb91f54c2310650c892c20eebfccf139"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!93wUvP6KjNjAgLMd"
+}

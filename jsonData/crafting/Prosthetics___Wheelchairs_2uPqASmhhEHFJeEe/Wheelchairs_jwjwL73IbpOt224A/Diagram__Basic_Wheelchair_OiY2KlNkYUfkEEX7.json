@@ -1,0 +1,78 @@
+{
+  "folder": "jwjwL73IbpOt224A",
+  "name": "Diagram: Basic Wheelchair",
+  "type": "diagrams",
+  "_id": "OiY2KlNkYUfkEEX7",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>Heavy and impractical for more active life styles, these are nonetheless the fare of many a peasant across the Continent. Their simple design allows for everyday mobility and comfort as well as ease of maintenance and repair.</p>\n<p>Effect: While using a Basic Wheelchair, any reduction to SPD, Dodge/Escape and Athletics caused by Critical Wounds or pre-existing disability is negated. However, while using a Basic Wheelchair, any check involving swimming or climbing are made at a -3.</p>\n<p>Any attack made against a person in a wheelchair is directed towards them instead of the chair for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 76,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 13,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "uKWxFvHv8Z8H2ks7",
+        "name": "Cotton",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "NK08Crg5pSMciXaU",
+        "name": "Linen",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "FxEmgCAY6pxmsjNn",
+        "name": "Timber",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      }
+    ],
+    "investment": 38,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "Prostheses and Wheelchairs",
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.vmbUiNk3BUWMjeLK",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "88c3154ac89a787af18960dd6cb86e935ac6980c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!OiY2KlNkYUfkEEX7"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "o0AXkLMcWsma3oD7",
+  "name": "Trophy: Golem",
+  "type": "valuable",
+  "_id": "VnccNdLZh3TiZpBa",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/stone/ore-chunk-silver-gray.webp",
+  "system": {
+    "description": "You are immune to bleeding.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Golem",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.VnccNdLZh3TiZpBa",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/stone/ore-chunk-silver-gray.webp",
+      "_id": "JUVihfL72neMG5hT",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You are immune to bleeding.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!VnccNdLZh3TiZpBa.JUVihfL72neMG5hT"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a5163f159ed9bfe8e3d539b64e46e1fd25b3728b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VnccNdLZh3TiZpBa"
+}

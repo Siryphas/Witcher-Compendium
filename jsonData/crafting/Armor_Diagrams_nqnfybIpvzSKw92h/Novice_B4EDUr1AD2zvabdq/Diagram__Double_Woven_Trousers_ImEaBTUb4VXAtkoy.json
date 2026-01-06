@@ -1,0 +1,90 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Double Woven Trousers",
+  "type": "diagrams",
+  "_id": "ImEaBTUb4VXAtkoy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Can&rsquo;t go wrong with double woven. Heh, ain&rsquo;t quite as puffed up as the run-of-the-mill padded stuff and it&rsquo;ll keep ya safe.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 336,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "Q5KRVuZqP7ii70q0",
+        "name": "Double Woven Linen",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "8UE8JF3eAWAe8I85",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "zSxJNqIr7IDbHg6h",
+        "name": "Thread",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "4GvIg8XYUBbhRf4Z",
+        "name": "Cotton",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "qjI5f7puo1GHLhBO",
+        "name": "Linen",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      }
+    ],
+    "investment": 165,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.HcdoUTc0xuzxwuZP",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3005626250c599a365e96d7c8c09304a8e1c51d4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!ImEaBTUb4VXAtkoy"
+}

@@ -1,0 +1,102 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Vicovarian Blade",
+  "type": "diagrams",
+  "_id": "apdbhlTbIUsoqRMw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Vicovarian blade&rsquo;s recognizable for its heavy guard. Usually used by knights of Vicovaro, but with the war they&rsquo;ve spread all around. I&rsquo;ll tell ya this though, my friend, I&rsquo;ve seen these things survive castles crumbling around them and then still lop off a limb or two.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1282,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "12 H",
+    "craftingComponents": [
+      {
+        "id": "qxspVn8AloCdL874",
+        "name": "Hardened Timber",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "6LrDz1pS8bHNvnlV",
+        "name": "Dark Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "jTUGftKRYuETupE1",
+        "name": "Dark Iron",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LiePL2wgaminhK8N"
+      },
+      {
+        "id": "WUH2TdKwHQtcBjVF",
+        "name": "Hardened Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "0p4nmFqX0YxmOW4E",
+        "name": "Resin",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "z9wIIiCjsrhw559x",
+        "name": "Ashes",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      },
+      {
+        "id": "3oczYNCpvHqFOOcG",
+        "name": "Beast Bones",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      }
+    ],
+    "investment": 660,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.J6uazPxBSQqL1Q7f",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0506ae2f0b80ef7be51d74e7a8085f0e2d3400e7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!apdbhlTbIUsoqRMw"
+}

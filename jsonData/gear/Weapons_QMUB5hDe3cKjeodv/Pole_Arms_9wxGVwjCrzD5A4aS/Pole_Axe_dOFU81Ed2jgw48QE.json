@@ -1,0 +1,78 @@
+{
+  "folder": "9wxGVwjCrzD5A4aS",
+  "name": "Pole Axe",
+  "type": "weapon",
+  "_id": "dOFU81Ed2jgw48QE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/polearms/halberd-curved-steel.webp",
+  "system": {
+    "description": "A dwarven smith in Poviss created this light pole axe. A long pole endin’ in a heavy axe blade with a spike on top and a hammer head on the back. Heh, the weapon was designed to be versatile and fight any armor. Gotta have good weapons to be politically neutral.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 460,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing, Bludgeoning",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "4d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.RDfdGlkkrg5ga1xs"
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5018f0e27ea7c9746b1cd2f39063cba47686f399"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dOFU81Ed2jgw48QE"
+}

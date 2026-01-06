@@ -1,0 +1,65 @@
+{
+  "folder": "4wtbgHo7IcqX8i2d",
+  "name": "Diagram: Perfect Gemstone",
+  "type": "diagrams",
+  "_id": "7i7ueNNW0IFAWSK5",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 0,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 30,
+    "alchemyDC": 0,
+    "craftingTime": "1/2 H",
+    "craftingComponents": [
+      {
+        "id": "_tt7f2tlcf",
+        "name": "Gemstone",
+        "quantity": 1
+      }
+    ],
+    "investment": 100,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.EzQOcExxBDHb9B0n",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d21ca6a0a0c32c35d5bd01a6d6dafd044d2f369c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!7i7ueNNW0IFAWSK5"
+}

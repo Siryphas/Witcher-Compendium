@@ -1,0 +1,52 @@
+{
+  "folder": "A7HluumtZL3d42ob",
+  "name": "Dazhbog Rune",
+  "type": "enhancement",
+  "_id": "XyAUWujqaNtK03ov",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Dazhbog%20Rune.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 600,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 30,
+        "varEffect": false
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b0c5bbe005a57e29e4b020d76be5251beb49a3ba"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.1.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XyAUWujqaNtK03ov"
+}

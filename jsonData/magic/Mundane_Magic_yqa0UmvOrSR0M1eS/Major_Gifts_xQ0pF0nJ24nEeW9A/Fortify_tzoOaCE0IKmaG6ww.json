@@ -1,0 +1,57 @@
+{
+  "folder": "xQ0pF0nJ24nEeW9A",
+  "name": "Fortify",
+  "type": "spell",
+  "_id": "tzoOaCE0IKmaG6ww",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "major gift",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Spell Casting DC: 9\n\nAs a full round action, you can increase the Reliability or SP of an item you can touch by 1. \nAn item can only benefit from Fortify once.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "If you come within 4m of any amount of dimeritium you lose all Vigor Threshold and must make an Endurance roll at a -3 against the Dimeritium Effect Table.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ebfcfa13a1003ad3ff885d648f2b7e0464b92292"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tzoOaCE0IKmaG6ww"
+}

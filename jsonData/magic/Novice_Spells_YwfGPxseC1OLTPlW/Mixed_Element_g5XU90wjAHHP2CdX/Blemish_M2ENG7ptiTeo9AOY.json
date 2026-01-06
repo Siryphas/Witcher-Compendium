@@ -1,0 +1,129 @@
+{
+  "folder": "g5XU90wjAHHP2CdX",
+  "name": "Blemish",
+  "type": "spell",
+  "_id": "M2ENG7ptiTeo9AOY",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Blemish allows you to create a small but noticeable illusion on a target that they are unaware of which makes them off-putting or unattractive.\nUpon casting this spell, the target suffers a -3 to Seduction, Charisma, and Leadership checks. If the target is alerted to the illusory blemish, they become aware of it. \nA target that looks in a mirror or reflective surface, can make a DC:16 Awareness check to notice it as well.",
+    "range": "4m",
+    "duration": "1d6 Hours",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [],
+    "globalModifiers": [],
+    "onCastEffects": [],
+    "damageProperties": {
+      "damageToAllLocations": false,
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "Blemish",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.M2ENG7ptiTeo9AOY",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "eW7eSKC1cCt5XJvR",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        },
+        {
+          "key": "system.skills.emp.charisma.activeEffectModifiers",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        },
+        {
+          "key": "system.skills.emp.leadership.activeEffectModifiers",
+          "mode": 2,
+          "value": "-3",
+          "priority": null
+        }
+      ],
+      "description": "<p>Upon casting this spell, the target suffers a -3 to Seduction, Charisma, and Leadership checks. If the target is alerted to the illusory blemish, they become aware of it.</p><p>A target that looks in a mirror or reflective surface, can make a DC:16 Awareness check to notice it as well.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!M2ENG7ptiTeo9AOY.eW7eSKC1cCt5XJvR"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f751b43d3c5b68fff51816497a5225c880df07d5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!M2ENG7ptiTeo9AOY"
+}

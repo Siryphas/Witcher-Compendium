@@ -1,0 +1,220 @@
+{
+  "name": "Vran",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Vran%20Icon.jpg",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Calm Hearted",
+      "description": "<p>Vran are known by many to be heartless creatures with no empathy to speak of. However, this is far from the truth. Vran have as much capability for empathy as any human but they are far more reserved and less likely to show their emotion. Vran gain an inherent +1 Resist Coercion.</p>"
+    },
+    "perk2": {
+      "name": "Scaled Hide",
+      "description": "<p>Vran have a natural layer of scales which grant them a certain amount of natural resistance to damage. A vran&rsquo;s scales have a natural stopping power of 4. This SP cannot be lowered via weapon attacks or ablation damage.</p>"
+    },
+    "perk3": {
+      "name": "Claws & Fangs",
+      "description": "<p>While the vran are known to use weapons, they are also capable of dealing grievous harm to their enemies with their natural claws and fangs. A vran has two natural weapons that cannot be disarmed. A vran&rsquo;s punches and kicks deal lethal damage and they can make a Melee attack with their fangs, which deals 3d6 damage with a 50% chance of poisoning the target.</p>"
+    },
+    "perk4": {
+      "name": "Reptilian Physiology",
+      "description": "<p>The vran are the only accepted sapient race that is also reptilian and they&rsquo;re physiology differs ever so slightly from that of humans and other non-human races. This difference may be small, but it makes a big impact in two ways. First, a vran&rsquo;s body is different enough that any doctor who is not a vran and has not treated a vran successfully in the past takes a -2 penalty when using First Aid on a wounded vran and a -5 penalty when attempting to stabilize or treat Critical Wounds on a wounded&nbsp;vran. Second, if a vran is affected by the Frozen condition, they take a -2 to all&nbsp; actions until 1d6 rounds after the condition is ended.</p>"
+    },
+    "socialStanding": {
+      "north": "hatedFeared",
+      "nilfgaard": "toleratedFeared",
+      "skellige": "hatedFeared",
+      "dolBlathanna": "hated",
+      "mahakam": "tolerated"
+    }
+  },
+  "effects": [
+    {
+      "name": "Calm Hearted",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.1aJSOCrQXHIDcG9j",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Vran%20Icon.jpg",
+      "_id": "vhWa1WswaXoWk77T",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.resistcoerc.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Vran are known by many to be heartless creatures with no empathy to speak of. However, this is far from the truth. Vran have as much capability for empathy as any human but they are far more reserved and less likely to show their emotion. Vran gain an inherent +1 Resist Coercion.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1aJSOCrQXHIDcG9j.vhWa1WswaXoWk77T"
+    },
+    {
+      "name": "Scaled Hide",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.1aJSOCrQXHIDcG9j",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Vran%20Icon.jpg",
+      "_id": "Z9JDFFyhav5dPVJc",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Vran have a natural layer of scales which grant them a certain amount of natural resistance to damage. A vran’s scales have a natural stopping power of 4. This SP cannot be lowered via weapon attacks or ablation damage.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1aJSOCrQXHIDcG9j.Z9JDFFyhav5dPVJc"
+    },
+    {
+      "name": "Claws & Fangs",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.1aJSOCrQXHIDcG9j",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Vran%20Icon.jpg",
+      "_id": "IvDDIX8Fq44kVgQ2",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">While the vran are known to use weapons, they are also capable of dealing grievous harm to their enemies with their natural claws and fangs. A vran has two natural weapons that cannot be disarmed. A vran’s punches and kicks deal lethal damage and they can make a Melee attack with their fangs, which deals 3d6 damage with a 50% chance of poisoning the target.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1aJSOCrQXHIDcG9j.IvDDIX8Fq44kVgQ2"
+    },
+    {
+      "name": "Reptilian Physiology",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.1aJSOCrQXHIDcG9j",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Vran%20Icon.jpg",
+      "_id": "gIubfVI3a08RCQhv",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">The vran are the only accepted sapient race that is also reptilian and they’re physiology differs ever so slightly from that of humans and other non-human races. This difference may be small, but it makes a big impact in two ways. First, a vran’s body is different enough that any doctor who is not a vran and has not treated a vran successfully in the past takes a -2 penalty when using First Aid on a wounded vran and a -5 penalty when attempting to stabilize or treat Critical Wounds on a wounded<br style=\"box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar) var(--color-scrollbar-track);color:rgb(25, 24, 19);font-family:Signika, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\" />vran. Second, if a vran is affected by the Frozen condition, they take a -2 to all actions until 1d6 rounds after the condition is ended.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1aJSOCrQXHIDcG9j.gIubfVI3a08RCQhv"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.V8OM8WoqFFb0OaDq",
+      "hash": "8690a4f870e10e6ddebffe07e7ea163a733385c8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.9.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "1aJSOCrQXHIDcG9j",
+  "sort": 100000,
+  "_key": "!items!1aJSOCrQXHIDcG9j"
+}

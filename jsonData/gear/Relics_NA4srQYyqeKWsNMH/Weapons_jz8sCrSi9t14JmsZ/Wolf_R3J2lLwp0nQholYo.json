@@ -1,0 +1,96 @@
+{
+  "folder": "jz8sCrSi9t14JmsZ",
+  "name": "Wolf",
+  "type": "weapon",
+  "_id": "R3J2lLwp0nQholYo",
+  "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
+  "system": {
+    "description": "Education DC: 16\n\nNothin’ in Skellige could stop Uffe the Bloody’s blade. Thirty-two years that son of a whore fought and ploughed across the islands, from An Skellig to Faroe and back. Made plenty of friends and twice as many enemies. Heh, ain’t that the way it goes? Uffe always traveled with his blood brother Nadim. Lesser-known swordsman with no real reputation, but Uffe and him got along like a ploughin’ house on fire. One night the two were huntin’ in the mountains of Ard Skellig, lookin’ for bear or cyclopses or somethin’ they could brag about killin’. Stalked the mountain passes ‘til the sun’d gone down when they spotted a hut in a clearin’. Nadim figured they could take shelter there for a while and so they tromped over. Heh, turned out the hut was owned by a beautiful young lass—tales don’t say what her name was. Outta courtesy she let the men stay by her hearth for the night and fed ‘em. Problem was Uffe’d always been a little too fond’a pretty young lasses and none too good at takin’ no for an answer. The woman turned him down quite a few times, and to his credit Nadim tried to distract his horny mate. He got Uffe bedded down and Uffe seemed to calm his loins. But that was far from the case.\nDon’t take a genius to guess what happened next. But as Uffe wrestled the woman to the ground, she stopped strugglin’ and started spittin’ strange phrases and words at him. By the time Nadim got on his feet the magic’d already taken hold—Uffe was cursed. Tales say the woman’d made Uffe’s outside match his beastly insides. Old bastard staggered outta the shack and headed for the peaks. Poor Nadim couldn’t figure no way to get his blood brother back, and deep down he was disgusted by his friend’s crimes. So he took up his friend’s blade and set off to put ol’ Uffe down before he became a real monster. \nIt wasn’t easy to find Uffe, who’d sprinted off into the high peaks of Ard Skellig. When Nadim did catch up, he found only a devilish beast—a werewolf. The battle was tremendous, but Nadim’s resolve stayed strong. Finally he managed to put the sword through the beast’s heart, killin’ his old friend. They say Nadim named the blade Wolf an’ carried it with him ‘til his death ten years later. A little part of the beast that’d once been his friend lives in that blade to this day.\n- Rodolf Kazmer",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "7d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "DZ6QoamIRxWQogQY",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 75
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 3,
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "isMeteorite": false,
+      "effects": [
+        {
+          "id": "DZ6QoamIRxWQogQY",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 75,
+          "varEffect": false
+        },
+        {
+          "id": "yrCyTA9ug1WAGv0L",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e1866ea83c9c8d9d4dc51a2367bb61cf8a1a86b7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!R3J2lLwp0nQholYo"
+}

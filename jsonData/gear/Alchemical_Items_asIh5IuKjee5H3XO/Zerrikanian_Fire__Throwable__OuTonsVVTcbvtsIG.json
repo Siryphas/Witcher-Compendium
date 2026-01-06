@@ -1,0 +1,91 @@
+{
+  "name": "Zerrikanian Fire (Throwable)",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-green.webp",
+  "system": {
+    "description": "I don’t mess around with Zerrikanian fire. Never have, never will. Stuff’s too dangerous. When it hits air the stuff bursts into a horrid green fire. They use a version of this stuff in Zerrikanian fire scorpions.\n\nZerrikanian Fire immediately sets whatever it touches on fire. \nThrowing it is an Athletics attack with a range equal to your BODYx2m, and it splatters in a 2m cone away from where it lands, lighting anyone and anything in that area on fire.",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 65,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "isThrowable": true,
+    "conceal": "",
+    "avail": "",
+    "hands": "none",
+    "equipped": false,
+    "reliable": 0,
+    "maxReliability": 0,
+    "damage": "0",
+    "range": "Body x2m",
+    "accuracy": 0,
+    "attackSkill": "athletics",
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "damageProperties": {
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "appliesGlobalModifierToDamaged": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "effects": [
+        {
+          "id": "FWG064E9UYShUn32",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseProperties": {
+      "parrying": false
+    }
+  },
+  "effects": [],
+  "folder": "asIh5IuKjee5H3XO",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "28504c49826b75578c139de569021ebe39976edf",
+      "sourceId": "Item.v5VdCBISII9pbbzg"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "OuTonsVVTcbvtsIG",
+  "sort": 0,
+  "_key": "!items!OuTonsVVTcbvtsIG"
+}

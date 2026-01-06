@@ -1,0 +1,57 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Controlled Summoning",
+  "type": "spell",
+  "_id": "mc3XZg4UFukGQSFE",
+  "img": "icons/magic/symbols/runes-star-orange-purple.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": false,
+    "effect": "Process: \nIn a bowl of oil, add infused dust and essence of wraith, mixing them into a thick paste. \nSpread this paste into a circle, and place equally spread outside of that circle five unlit candles. \nAdd to the circle an item beloved by the species of demon you wish to summon.\nTo summon a Bes, have everyone participating in the ritual add an offering of their flesh, freshly cut. \nIf enough flesh is offered, a Greater Bes may be summoned. \nTo summon a Mari Lywd, fill the circle with fresh food and ale, or to attract a Greater Mari Lywd, prepare a Feast (100 crowns). \nTo summon a Casglydd, place into the circle a letter of introduction, promising it a relationship of mutual benefit. \nTo attract a Greater Casglydd, over-promise in this letter. \nChant the name of a demon five times. \nIf you know the true name of a demon, chanting it here will force it to be summoned. \nOtherwise, pick three syllables from your heart (the\nDemon True Name Generator), which will attract a demon, because it sounds like a demon’s true name. \nAfter each repetition, one candle should light itself. \nWhen all five are lit, the demon will appear.\n\nEffect: \nThis summoning ritual allows the players to choose which species of demon they wish to summon, and whether or not they wish to summon a more powerful one. \nWithout protections in place, like a Goatskin Mantle, or protections specific to the demon being summoned, the ritual is still incredibly dangerous, and often deadly.",
+    "range": "",
+    "duration": "Instant",
+    "defence": "",
+    "components": "Investment: 639\n\nCandle (x5), Essence of Wraith (x2), Infused Dust (x3), Oil (x2)",
+    "alternateComponents": "",
+    "preparationTime": "15 Rounds",
+    "dificultyCheck": "16",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ec7624f54135130e80150d542124bebb8a464e17"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "1.038",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mc3XZg4UFukGQSFE"
+}

@@ -1,0 +1,100 @@
+{
+  "folder": "n3MjCWEwNizbvl3A",
+  "name": "Monster Catcher's Net",
+  "type": "weapon",
+  "_id": "wUKGnYspOazGZHVC",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/fishing/net-gold.webp",
+  "system": {
+    "description": "I’ve heard the Witch Hunters’ have taken to usin’ these when their hunting mages and monsters like dopplers. The net itself ain’t really special but it’s infused with chemicals and what not that make it hard for anything trapped in the net to use magic to escape.\nEntangling: A target hit by this weapon is entangled by it. They lower their SPD by 5 and suffer a -2 penalty to all physical actions. Each turn, the target can make a DC: 18 Dodge/Escape or Athletics check to escape. Alternatively, another character can take an action to remove the weapon.\nMagically Anchoring: While a creature is touching this weapon, they cannot become invisible or intangible or use any ability that allows them to teleport. Creatures that are already Invisible or Intangible are made visible and tangible while touching this weapon.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 500,
+    "isHidden": false,
+    "type": {
+      "text": "",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "both",
+    "range": "4m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Entangling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      },
+      {
+        "id": "_56rcaxw4o",
+        "name": "Magically Anchoring",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Professional's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Entangling",
+          "statusEffect": "grappled",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_56rcaxw4o",
+          "name": "Magically Anchoring",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.la7GR8UVylPcPfe0"
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "19657b5d950201fa8158625791df7d27b07b97e5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wUKGnYspOazGZHVC"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "6OoTijb5ADa9nrB6",
+  "name": "Gnomish Gwyhyr",
+  "type": "weapon",
+  "_id": "5lNzH1nv9bz6c7YX",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-worn.webp",
+  "system": {
+    "description": "For a long time the gwyhyr was the greatest sword in the world. Still a great sword. Long black blade so sharp you could shave with it. So light ya could swing it around full speed with one hand. Love these things but they’re rare as all hell.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 1090,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "5d6+3",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 50
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UOjyjxesoJY8P9AE"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "077b3fb8065df68a6ef87d2bdbe597f4f4f5efac"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5lNzH1nv9bz6c7YX"
+}

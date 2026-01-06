@@ -1,0 +1,78 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Leather Shield",
+  "type": "diagrams",
+  "_id": "aWbNEzGIcD7FjLuP",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "<p><em>Simplest shield you&rsquo;re ever gonna find is leather stretched over bound wood. They aren&rsquo;t very popular these days. They&rsquo;re not very tough compared to wood or steel. But they&rsquo;re cheap and light.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 74,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 12,
+    "alchemyDC": 0,
+    "craftingTime": "3 H",
+    "craftingComponents": [
+      {
+        "id": "PyaEkeH3s8n91qxF",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "cdSKVJJxfraL0q9K",
+        "name": "Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "CqxWpnXkCigMUa1e",
+        "name": "Tanning Herbs",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj"
+      }
+    ],
+    "investment": 37,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.sAQZMZRMCCjynxhK",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "924e7c07faaaad5f007e0340c78dea33c469e93b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!aWbNEzGIcD7FjLuP"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "N9UwGOiSqT96vzeP",
+  "name": "Trophy: Hym",
+  "type": "valuable",
+  "_id": "l0ZTcKMnV30rHKMs",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/bowl-powder-grey.webp",
+  "system": {
+    "description": "When the damage you deal is negated by armor, your target still takes 4 points of damage.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Hym",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.l0ZTcKMnV30rHKMs",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/materials/bowl-powder-grey.webp",
+      "_id": "JMgJ6zxrN1plEcbj",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>When the damage you deal is negated by armor, your target still takes 4 points of damage.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!l0ZTcKMnV30rHKMs.JMgJ6zxrN1plEcbj"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "20eeba579664fbdc5eb1892f9442dc3b3b77ab2b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!l0ZTcKMnV30rHKMs"
+}

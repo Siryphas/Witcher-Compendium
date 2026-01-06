@@ -1,0 +1,96 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Elven Messer",
+  "type": "diagrams",
+  "_id": "KdPGljMV3FVkDI3O",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Heh, people say this sword was dreamed up by Nazairians who were forbidden to carry swords by the black ones. Made these huge ploughin&rsquo; knives so they weren&rsquo;t technically carryin&rsquo; a sword. Didn&rsquo;t go over too well, but the elves picked up the design and perfected it.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 892,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 19,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "dbwsAMwTsFTKUrld",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "C18j5Sacx8wuDEJt",
+        "name": "Leather",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "rbgz5YJldDY6WAzq",
+        "name": "Dark Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "dfgL57VzKfIUroue",
+        "name": "Silk",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      },
+      {
+        "id": "VN7Wt5lxBrgIub4h",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "wV6juzmu0xPo9tDf",
+        "name": "Etching Acid",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      }
+    ],
+    "investment": 446,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.Lae8MX1txKqoCTRG",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bf50bed707d1fb4e1a8b9cd38b7e8edc8796d6a0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!KdPGljMV3FVkDI3O"
+}

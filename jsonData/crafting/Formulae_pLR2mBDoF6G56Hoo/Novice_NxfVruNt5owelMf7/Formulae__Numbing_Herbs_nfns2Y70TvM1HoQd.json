@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Numbing Herbs",
+  "type": "diagrams",
+  "_id": "nfns2Y70TvM1HoQd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Ya may not always be able to get to a doctor immediately. Havin&rsquo; somethin&rsquo; to kill the pain&rsquo;s good.</em></p>\n<p>Numbing herbs placed in a wound relieve pain, lowering negative from critical injuries by 2. Numbing herbs also lessen the penalties from being near death by 2. Numbing herbs work for 2d10 rounds, and then you can apply another dose.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 18,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 12,
+    "craftingTime": "5 Rounds",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.hR4nHAnU7fLysNbK",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "48bf6f2b2f6d055aa637c9e24e3475b9321a2626"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!nfns2Y70TvM1HoQd"
+}

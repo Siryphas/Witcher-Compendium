@@ -1,0 +1,90 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Viroledan Blade",
+  "type": "weapon",
+  "_id": "4jlYfE2Dnuvx1jqj",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-steel-green.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 995,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "4d6+4",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Balanced",
+        "statusEffect": "",
+        "percentage": 0
+      },
+      {
+        "id": "_i5il52p3p",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 30
+      },
+      {
+        "id": "_8z2kass5n",
+        "name": "Poison",
+        "statusEffect": "poison",
+        "percentage": 30
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.eyoD4jnijstG2Cqm"
+  },
+  "effects": [],
+  "sort": 850000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "67e40d19d680718507082682be355e1ca4a4d176"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!4jlYfE2Dnuvx1jqj"
+}

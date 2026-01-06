@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Quick Fire",
+  "type": "diagrams",
+  "_id": "ekTGayPbIi8r6s6U",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Quick fire&rsquo;s good for impatient folk who need to get a fire going, but honestly it&rsquo;s better for arsonists and fire mages. It&rsquo;ll turn a small fire into a blaze in no time.</em></p>\n<p>A dose of Quick Fire poured on a person, surface, or object, dries quickly. Anything so treated is extremely flammable. There's a 50% chance it will ignite each time it's exposed to flame or sparks of any kind.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 67,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 2,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.RDCDgIYmNAgWTxWz",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f29aade4fb6424851a69095e2e6d50cbc7db58b4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!ekTGayPbIi8r6s6U"
+}

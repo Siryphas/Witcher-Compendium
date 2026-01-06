@@ -1,0 +1,82 @@
+{
+  "folder": "GSFkuJvwkT3fH73H",
+  "name": "Black Blood",
+  "type": "alchemical",
+  "_id": "UG719pY5zhpvqcuG",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Black%20Blood.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "potion",
+    "avail": "WITCHER",
+    "effect": "The witcher’s blood poisons any creature that drinks it, doing 3 points of damage per round until an Endurance check, DC:20 is made. The creature is also forced to recoil 2m.",
+    "time": "20 Rounds",
+    "toxicity": "25%",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Black Blood",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.UG719pY5zhpvqcuG",
+      "duration": {
+        "rounds": 20,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Black%20Blood.png",
+      "_id": "DhIeeeglAbl8fNEC",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>The witcher’s blood poisons any creature that drinks it, doing 3 points of damage per round until an Endurance check, DC:20 is made. The creature is also forced to recoil 2m.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!UG719pY5zhpvqcuG.DhIeeeglAbl8fNEC"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "023eb861674ed3125a0c3701b00a7acf91890f83"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UG719pY5zhpvqcuG"
+}

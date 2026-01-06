@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Chloroform",
+  "type": "diagrams",
+  "_id": "PP0nj0RwIc5Yy7cw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Chloroform&rsquo;s for kidnappin&rsquo; people and calmin&rsquo; down folk who&rsquo;re panickin&rsquo;. Probably more for kidnappers, but I like to be positive sometimes, heh.</em></p>\n<p>Chloroform forces anyone who breathes it to make a Stun save at a -2 or be knocked unconscious until they make the save. Using it usually requires a Brawling attack with a cloth soaked in chloroform. It can also be poured into a vessel. Each bottle contains 25 doses.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 54,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 1,
+      "quebrith": 2,
+      "hydragenum": 0,
+      "vermilion": 2,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.5XOniktm6aWySkIr",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "38e5f4c696added3a1511396cd1488a38c199722"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!PP0nj0RwIc5Yy7cw"
+}

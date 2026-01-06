@@ -1,0 +1,108 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Crystal Staff",
+  "type": "diagrams",
+  "_id": "5MxUi7W8kNDOOY5t",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>They&rsquo;re pretty much like regular staves but they have gemstones at the top of &lsquo;em, embedded in the wood. Thing about the gem is it has to be perfect. If the gem has even one crack or imperfection, ya risk an explosion or somethin&rsquo; of the like. They&rsquo;re worth it though. Amplifies magic like nothin&rsquo; else.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1296,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "7TxhEejzvUWQVyik",
+        "name": "Timber",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "oTnfHw8z5fRG7of5",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "vqdeeY4SQAERxFW1",
+        "name": "Fifth Essence",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "ww69yCv27wryNWe7",
+        "name": "Ester Grease",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "QXNNWyN4ke0O2X0L",
+        "name": "Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "ymiVcwpqXIyd8bK3",
+        "name": "Gemstone",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.FG4KO7VNnfaauSvU"
+      },
+      {
+        "id": "hzOyl7gwbAOPYt2f",
+        "name": "Etching Acid",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "Djg0bSBMrLMaTDSG",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      }
+    ],
+    "investment": 623,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.oDrOufcv82UzuBWW",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "73e1bb7ad4c546619fe57906ef9e2fb49970cd10"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!5MxUi7W8kNDOOY5t"
+}

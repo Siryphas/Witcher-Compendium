@@ -1,0 +1,98 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Dragon's Dream",
+  "type": "weapon",
+  "_id": "sS4bu79FDYP63Nvy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-metal-brown.webp",
+  "system": {
+    "description": "Creates a cloud of flammable gas that spreads in a randomly rolled direction for 3 turns before dissipating.\nIf any fire is lit in this gas, it explodes. Everyone in it takes 5d6 damage and has an 75% chance of catching fire.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 177,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "8m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Creates a cloud of flammable gas.",
+        "percentage": ""
+      },
+      {
+        "id": "_nmpb44nby",
+        "name": "Fire",
+        "percentage": "75"
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "damageToAllLocations": false,
+      "effects": [
+        {
+          "id": "first",
+          "name": "Creates a cloud of flammable gas.",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_nmpb44nby",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 75,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 375000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c4b238b5ec133765c1bb67c2deb5cc4d3156751b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sS4bu79FDYP63Nvy"
+}

@@ -1,0 +1,56 @@
+{
+  "folder": "qlsokLd2xO6kWMO0",
+  "name": "Artifact Compression",
+  "type": "spell",
+  "_id": "mqxRSnDi00U9kLqk",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Artifact Compression converts a target creature within 10m to 1/10th original scale and encases them in jade. \nWhile in the statuette this target is unconscious. \nThe process of transformation is excruciatingly painful for the target and the target must make a DC:15 Endurance check or take 6d6 damage to their torso.\nA target can be kept in a state of Artifact Compression for an indefinite amount of time and their body is held in suspension so they don’t age. \nWhile in condensed form, a target has 1/5th (rounded up) their normal Health Points. If these points are expended the target dies. \nIf a limb is broken off, either with a DC:14 Physique check or 5 points of damage, the target is treated as if that limb was dismembered.\nIf the head is snapped off, the target dies. \nGluing pieces back onto a compressed figurine doesn’t reattach the limb. \nAfter a target is uncompressed they are stunned until they make a successful Stun save.",
+    "range": "",
+    "duration": "Until Reversed",
+    "defence": "",
+    "components": "Perfect Gemstone (x1), Fifth Essence (x5), Infused Dust (x2), River Clay (x4)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "18",
+    "cost": 1722,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "41b44050a18ee017a368ba3f5a5a44b737e4653c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mqxRSnDi00U9kLqk"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Arming Sword",
+  "type": "diagrams",
+  "_id": "ubPvwlIK2VWVXFrd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>The Redanian arming sword&rsquo;s a one-handed blade with a simple curved guard and sharp edge. Heh, with Redania spreading out across the North to &ldquo;defend&rdquo; us, these arming swords are showin&rsquo; up all over.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 404,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 13,
+    "alchemyDC": 0,
+    "craftingTime": "7 Hours",
+    "craftingComponents": [
+      {
+        "id": "iHThqyDdUfNsLH6u",
+        "name": "Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "u40re70eq5RjzJms",
+        "name": "Thread",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "erkVFc2GNrmGjSdR",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "R5KehZZPJZDigMpe",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 201,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.uMt5xMxrRVsQM4Q9",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "99eed07a5e7301620e6de194b75438599b665c73"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!ubPvwlIK2VWVXFrd"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "PnDNOVJBRqY70VFQ",
+  "name": "Manticore Shield",
+  "type": "armor",
+  "_id": "Zrekw5YZ1QpSUz7N",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Manticore%20Shield.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 2,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 20,
+    "reliabilityMax": 20,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Medium",
+    "avail": "WITCHER",
+    "enhancements": 1,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Meteorite"
+      },
+      {
+        "id": "_6bqqn1akj",
+        "name": "Silver (3d6)",
+        "percentage": ""
+      }
+    ],
+    "encumb": 0,
+    "location": "Shield",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.9gKyVdVp6AkYtbVj"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "727aa2e69a2ee81c89acead2d69c9ad33e5b599a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Zrekw5YZ1QpSUz7N"
+}

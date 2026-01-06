@@ -1,0 +1,71 @@
+{
+  "folder": "oqU5nHqkK3f7VJPw",
+  "name": "Dwarven Axe",
+  "type": "weapon",
+  "_id": "P4bhVRpIF2pTJIuJ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/axes/axe-double-engraved-blue.webp",
+  "system": {
+    "description": "There’s a misconception that all dwarves use axes. Heh, granted, many do, after all. Put a heavy axe in a dwarf ’s hands and they’ll bring down any wall. Especially with a dwarven axe. The double-headed design adds heft and makes sure you’ve always got a sharp blade to use.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 740,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "5d6+3",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uHTlrVanfjafd9Wc"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cee06a88592080edc7bad775c9b664bf326865e8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P4bhVRpIF2pTJIuJ"
+}

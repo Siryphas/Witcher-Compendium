@@ -1,0 +1,102 @@
+{
+  "folder": "NRjQurKLGEGOWxRN",
+  "name": "Diagram: Gnomish Gwyhyr",
+  "type": "diagrams",
+  "_id": "UOjyjxesoJY8P9AE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>For a long time the gwyhyr was the greatest sword in the world. Still a great sword. Long black blade so sharp you could shave with it. So light ya could swing it around full speed with one hand. Love these things but they&rsquo;re rare as all hell.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1628,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "0H1JyyL6k1xScSbA",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "rARdAFS9yl1Gaw8b",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "6VtXiCqyHKA8Mdrp",
+        "name": "Dimeritium",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4JTob93lOKfhIikr"
+      },
+      {
+        "id": "xgLaoxIZIEf5dyC3",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "8SgQLJeww9fDOrhH",
+        "name": "Sharpening Grit",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "O9407rviWLuPTIaj",
+        "name": "Ester Grease",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "65RAzj9uJVIKOftL",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      }
+    ],
+    "investment": 818,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.5lNzH1nv9bz6c7YX",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f534dc692ebedbaf8e497c0d1078f01e323b31d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!UOjyjxesoJY8P9AE"
+}

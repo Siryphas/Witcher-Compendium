@@ -1,0 +1,98 @@
+{
+  "folder": "grgI02zxLzvkm7QC",
+  "name": "Holy Symbol (+1 Courage)",
+  "type": "valuable",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/neck/necklace-astrology-sun-gold.webp",
+  "system": {
+    "description": "A symbol of your faith.\n+1 Courage",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true,
+    "isConsumable": false,
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "appliesGlobalModifier": false,
+      "consumeGlobalModifiers": [],
+      "effects": []
+    }
+  },
+  "effects": [
+    {
+      "name": "Holy Symbol (Lifepath)",
+      "origin": "Item.Hqay523y9kLOeWYn",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/neck/necklace-astrology-sun-gold.webp",
+      "_id": "1ySUQhqKZWEKQe37",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.courage.activeEffectModifiers",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!6n5iBmjM8HzZF45i.1ySUQhqKZWEKQe37"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "092df1ea6a29942118af010d826779fdc43cdc0f",
+      "sourceId": "Item.Hqay523y9kLOeWYn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "6n5iBmjM8HzZF45i",
+  "sort": 500000,
+  "_key": "!items!6n5iBmjM8HzZF45i"
+}

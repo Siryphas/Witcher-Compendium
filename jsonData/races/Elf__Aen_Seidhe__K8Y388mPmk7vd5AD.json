@@ -1,0 +1,188 @@
+{
+  "name": "Elf (Aen Seidhe)",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Elf%20Icon.png",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Artistic",
+      "description": "<p>Elves have a natural eye for beauty and a talent for artistic endeavours. Elves gain an inherent +1 to their Fine Arts skill.</p>"
+    },
+    "perk2": {
+      "name": "Natural Attunement",
+      "description": "<p>Elves have a deep magical bond with nature itself. Elves do not disturb animals, meaning that any beast they encounter is considered friendly&nbsp;and will not attack unless provoked. Elves also automatically find any plant substance rated as commonly available (or lower) that they are seeking, as long as the substance would occur naturally in the surrounding terrain.</p>"
+    },
+    "perk3": {
+      "name": "Marksman",
+      "description": "<p>Years of tradition and practice make elves some of the best archers in the world. Elves gain an inherent +2 to their Archery skill and can draw and string a bow without taking an action.</p>"
+    },
+    "perk4": {
+      "name": "",
+      "description": ""
+    },
+    "socialStanding": {
+      "north": "hated",
+      "nilfgaard": "equal",
+      "skellige": "equal",
+      "dolBlathanna": "equal",
+      "mahakam": "equal"
+    }
+  },
+  "effects": [
+    {
+      "name": "Artistic",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.K8Y388mPmk7vd5AD",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Elf%20Icon.png",
+      "_id": "3nFpdE4c2rodjtd5",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.finearts.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Elves have a natural eye for beauty and a talent for artistic endeavors. Elves gain an inherent +1 to their Fine Arts skill.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!K8Y388mPmk7vd5AD.3nFpdE4c2rodjtd5"
+    },
+    {
+      "name": "Natural Attunement",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.K8Y388mPmk7vd5AD",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Elf%20Icon.png",
+      "_id": "3BXAdDQ27tqWdYVc",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Elves have a deep magical bond with nature itself. Elves do not disturb animals, meaning that any beast they encounter is considered friendly and will not attack unless provoked. Elves also automatically \u001dfind any plant substance rated as commonly available (or lower) that they are seeking, as long as the substance would occur naturally in the surrounding terrain.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!K8Y388mPmk7vd5AD.3BXAdDQ27tqWdYVc"
+    },
+    {
+      "name": "Marksman",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.K8Y388mPmk7vd5AD",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Elf%20Icon.png",
+      "_id": "AmTsyAgQWh9l9Bue",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.dex.archery.activeEffectModifiers",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Years of tradition and practice make elves some of the best archers in the world. Elves gain an inherent +2 to their Archery skill and can draw and string a bow without taking an action.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!K8Y388mPmk7vd5AD.AmTsyAgQWh9l9Bue"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.L3g5KMRvDsDvhJHW",
+      "hash": "7513e539116fbd49b7d8851da508ceabc0eea2b2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.9.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "K8Y388mPmk7vd5AD",
+  "sort": 500000,
+  "_key": "!items!K8Y388mPmk7vd5AD"
+}

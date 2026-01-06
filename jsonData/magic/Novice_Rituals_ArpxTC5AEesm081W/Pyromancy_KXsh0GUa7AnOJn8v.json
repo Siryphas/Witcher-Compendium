@@ -1,0 +1,56 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Pyromancy",
+  "type": "spell",
+  "_id": "KXsh0GUa7AnOJn8v",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Pyromancy allows you to stare into a burning fire and witness events that are currently happening.\nPyromancy is more dangerous than Hydromancy, making it harder to maintain and impossible to peer backwards. However, it is easier to view events that are currently happening. \nA mage you view can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.",
+    "range": "",
+    "duration": "Active (4 STA)",
+    "defence": "",
+    "components": "A Small Fire, Fifth Essence (x2), Ashes (x2), Calcium Equum (x5), Crow’s Eye (x2), Wax (x2)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "15",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "15",
+    "cost": 242,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b7bde5f0f164323975260842415e573c8fde22e2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!KXsh0GUa7AnOJn8v"
+}

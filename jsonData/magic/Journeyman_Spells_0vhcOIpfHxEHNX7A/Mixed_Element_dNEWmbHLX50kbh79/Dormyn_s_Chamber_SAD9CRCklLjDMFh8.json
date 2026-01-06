@@ -1,0 +1,71 @@
+{
+  "folder": "dNEWmbHLX50kbh79",
+  "name": "Dormyn's Chamber",
+  "type": "spell",
+  "_id": "SAD9CRCklLjDMFh8",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "18",
+    "staminaIsVar": false,
+    "effect": "Dormyn’s Chamber allows you to imprison a single target within a translucent magical bubble. \nThe chamber has 40 Hit Points and remains stationary where it was cast. The creature within the chamber cannot target or be targeted by anything outside. \nAdditionally, sound does not pass through the chamber’s walls.",
+    "range": "10m",
+    "duration": "Active (8 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Immobilize",
+        "statusEffect": "grappled",
+        "percentage": 100
+      }
+    ],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9aab368b4352b6e7d6d9dd6e1f929b00cebe71e3"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SAD9CRCklLjDMFh8"
+}

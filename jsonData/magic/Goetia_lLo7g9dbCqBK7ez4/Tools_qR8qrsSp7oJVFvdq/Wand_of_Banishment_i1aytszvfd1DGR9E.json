@@ -1,0 +1,103 @@
+{
+  "folder": "qR8qrsSp7oJVFvdq",
+  "name": "Wand of Banishment",
+  "type": "weapon",
+  "_id": "i1aytszvfd1DGR9E",
+  "img": "icons/weapons/staves/staff-simple-carved.webp",
+  "system": {
+    "description": "A hazel wand with a capped by etched dark steel and treated with ogre wax and ester grease. This wand can be used to temporarily banish a specific demon from existence. \nThe wielder must make a melee weapon attack against the demon which if successful deals no damage but banishes the demon back to its own realm for 24 hours. \nEach wand can only be used on one specific demon (whose name is carved into the wand) and has a 50% chance of breaking with each banishment. \nIf used against a greater demon, the wand always breaks after the banishment.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": null,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": {
+      "text": "",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "isThrowable": false,
+    "conceal": "T",
+    "avail": "Rare",
+    "hands": "right",
+    "equipped": false,
+    "reliable": 1,
+    "maxReliability": 1,
+    "damage": "0",
+    "range": "Melee",
+    "accuracy": 0,
+    "attackSkill": "melee",
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "damageProperties": {
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "appliesGlobalModifierToDamaged": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "effects": [
+        {
+          "id": "77m9Vtaj0DvKDzUh",
+          "name": "Banish",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "ACaRXR3PlAotrbZx",
+          "name": "Broken",
+          "statusEffect": null,
+          "percentage": 50,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseProperties": {
+      "parrying": false
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 350000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8747a3eb964172830d14f11c35fe21fb903c8823"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!i1aytszvfd1DGR9E"
+}

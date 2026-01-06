@@ -1,0 +1,78 @@
+{
+  "folder": "HYJ6tRiVrNOrXGKq",
+  "name": "Diagram: Gnomish Chain",
+  "type": "diagrams",
+  "_id": "19tQG6gIoNfe1Lk8",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Heh, gnomish chain mail is solid black an&rsquo; covers the whole body with a coif, hauberk, and chausses. Beautiful, simple, and easy to wear. The rings&rsquo;re tiny and strong so the chain&rsquo;s light.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1462,
+    "isHidden": false,
+    "type": "elderfolk-armor",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "24 H",
+    "craftingComponents": [
+      {
+        "id": "EjmozpD8c8J2vNn3",
+        "name": "Dark Steel",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "ybMYPjTNEVbtDlkY",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "DF6lsLTCvo5YE8tW",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      }
+    ],
+    "investment": 736,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.KPuZK27ZXv0GjSxU",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0ac0890489ea89cb0f23c01ec0ff2ccc619e9bbf"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!19tQG6gIoNfe1Lk8"
+}

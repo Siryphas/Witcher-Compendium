@@ -1,0 +1,115 @@
+{
+  "folder": "RAdEiJZ8BwxqRAWY",
+  "name": "The Eternal Itch",
+  "type": "spell",
+  "_id": "atkKyNVwlgDMkJ8c",
+  "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+  "system": {
+    "class": "Hexes",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "The Eternal Itch causes enflamed, itchy pustules to grow on the subjects genitals. \nThe itch does no damage but is a constant annoyance, causing a -1 to all tasks. As well as this -1 the target takes a -5 to Seduction once ‘in the bedroom.’",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "Low",
+    "liftRequirement": "The subject must gather a unit of scleroderm, fool’s parsely, and bryonia. The subject must light a campfire and bundle up the herbs. \nWith everything prepared the subject must light the herbs and crumble the burning ashes onto the afflicted area while reciting a series of magic words.",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "0",
+    "effects": [],
+    "globalModifiers": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "The Eternal Itch",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.atkKyNVwlgDMkJ8c",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+      "_id": "kFdHn5Opv4KGW2zc",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.emp.seduction.activeEffectModifiers",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        }
+      ],
+      "description": "<p>The Eternal Itch causes enflamed, itchy pustules to grow on the subjects genitals.</p><p>The itch does no damage but is a constant annoyance, causing a -1 to all tasks. As well as this -1 the target takes a -5 to Seduction once ‘in the bedroom.’</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!atkKyNVwlgDMkJ8c.kFdHn5Opv4KGW2zc"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "45887520984749b3d7964e1ac7de057af49b933f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!atkKyNVwlgDMkJ8c"
+}

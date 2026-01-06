@@ -1,0 +1,76 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Magic Flare",
+  "type": "spell",
+  "_id": "aFoou6VTk3Nl7gJ1",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Magic Flare creates a bright flash above you. Everyone within an 8m radius must make a Resist Magic check or be blinded for 1d6 rounds. \nThis flare can be seen for 10 kilometers.",
+    "range": "8m Radius",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "8",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Blinded",
+        "statusEffect": "blinded",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4d62dbd4c67179080931fd81231a9af860a0b7ed"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aFoou6VTk3Nl7gJ1"
+}

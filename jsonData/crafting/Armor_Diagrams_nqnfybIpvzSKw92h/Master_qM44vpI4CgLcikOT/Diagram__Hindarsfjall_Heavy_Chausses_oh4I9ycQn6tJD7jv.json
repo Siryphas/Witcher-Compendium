@@ -1,0 +1,96 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Hindarsfjall Heavy Chausses",
+  "type": "diagrams",
+  "_id": "oh4I9ycQn6tJD7jv",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Hindarsfjall heavy armor has chausses. They&rsquo;re basically trousers made of chain mail. Tough stuff too. Most people don&rsquo;t bother with heavy leg armor but chain&rsquo;s a good way to go about it. Very flexible.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1124,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "11 H",
+    "craftingComponents": [
+      {
+        "id": "KHDJhTj7dPGHrr3c",
+        "name": "Thread",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "aipyFwh8uNDuukfD",
+        "name": "Beast Bones",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "vA7ntWsRNbSffhzm",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "KDeXIPPpYobX9PZ2",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "BjGKYwbbGu4rqyvI",
+        "name": "Drake Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "p9LQgtBYTypo4a1D",
+        "name": "Dark Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      }
+    ],
+    "investment": 561,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.xxOqN8b145vyCgyM",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "655ed655fb5099a33b11d979156ae48f97fd802c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!oh4I9ycQn6tJD7jv"
+}

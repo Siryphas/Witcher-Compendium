@@ -1,0 +1,41 @@
+{
+  "name": "Saddlebags (Container)",
+  "type": "container",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Transportation/Saddlebags.webp",
+  "system": {
+    "description": "Saddlebags have enough room to carry 25kg of small or medium items in each of the two bags.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 100,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "carry": 25,
+    "storedWeight": 0,
+    "content": []
+  },
+  "effects": [],
+  "folder": "oeTcaHNDgub9F5z0",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4c11a04706f9b96d8e282be67606f96d3a6cb100",
+      "sourceId": "Item.A4SElfnBQE3WO5YS"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "UpI5PgY6DiAFdPi1",
+  "sort": 650000,
+  "_key": "!items!UpI5PgY6DiAFdPi1"
+}
