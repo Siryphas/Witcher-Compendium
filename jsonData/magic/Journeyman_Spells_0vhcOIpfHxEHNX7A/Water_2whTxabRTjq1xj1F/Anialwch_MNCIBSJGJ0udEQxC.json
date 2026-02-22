@@ -1,0 +1,74 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Anialwch",
+  "type": "spell",
+  "_id": "MNCIBSJGJ0udEQxC",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "Water",
+    "domain": "",
+    "stamina": "8",
+    "staminaIsVar": false,
+    "effect": "Anialwch allows you to suck some of the liquid from a target’s body, damaging and exhausting them. \nThe spell does 4d6 damage which cannot be blocked by armor or shields. \nThe extreme dehydration creates a fatigue which lowers the target’s current STA by 4d6 as well.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "4d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "STA -4d6"
+      }
+    ],
+    "damageProperties": {
+      "effects": [],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "isNonLethal": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bdddcd1c521eeae48459812d02aeea004d26cb24"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MNCIBSJGJ0udEQxC"
+}

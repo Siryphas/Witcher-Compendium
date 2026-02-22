@@ -1,0 +1,83 @@
+{
+  "folder": "EgEcx0Z5eftMTAO4",
+  "name": "Trophy: Frightener",
+  "type": "valuable",
+  "_id": "cVkq23yYv9Q5MgVL",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/shell-tan.webp",
+  "system": {
+    "description": "You gain resistance to either slashing, piercing, or bludgeoning damage. Each day, you can change which type of damage you have resistance to.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Frightener",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.cVkq23yYv9Q5MgVL",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/biological/shell-tan.webp",
+      "_id": "sj25IdinIAs7ybte",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You gain resistance to either slashing, piercing, or bludgeoning damage. Each day, you can change which type of damage you have resistance to.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!cVkq23yYv9Q5MgVL.sj25IdinIAs7ybte"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "93b439d3253c50a1b3a8c23bf5a99698b12c38a4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cVkq23yYv9Q5MgVL"
+}

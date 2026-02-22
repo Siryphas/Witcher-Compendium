@@ -1,0 +1,90 @@
+{
+  "folder": "JG9tDN5GqifngWCn",
+  "name": "Elven Walking Staff",
+  "type": "weapon",
+  "_id": "BGzhjf242RGLhVkt",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-nature-spiral.webp",
+  "system": {
+    "description": "Elven sages used these years and years ago. They’re much smaller than the average staff, maybe chest height at tallest. Beautiful designs of braided silk and gold, but the important part is how well they focus magic.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 975,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "3d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_ctgf3geot",
+        "name": "Focus (3)",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_9etalxkvu",
+        "name": "Greater Focus",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.wcuzg8JTLnXKN48m"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6223cd7979e533c6aef8d3a465aee9e4f3e86e36"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BGzhjf242RGLhVkt"
+}

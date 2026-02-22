@@ -1,0 +1,96 @@
+{
+  "folder": "qlH2nWMWutV4oD4E",
+  "name": "Jambiya",
+  "type": "weapon",
+  "_id": "my2JNjVbEymDuZrq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-curved-green.webp",
+  "system": {
+    "description": "My friend, even in the far off land of Zerrikania, death is its own currency. And they’ve designed one of the greatest daggers on the planet. We didn’t start seein’ these strange curved things until they became a staple of assassins from Maecht durin’ the First Northern War.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 440,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 25
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.DBUA2Q2Mo3trktK6",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "dJW76gt8h8cGEYzL",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "Rjw6mXYuN8GMSTYb",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 25,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fab9bd928e55d619b07edbcd463727c034f23f38"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!my2JNjVbEymDuZrq"
+}

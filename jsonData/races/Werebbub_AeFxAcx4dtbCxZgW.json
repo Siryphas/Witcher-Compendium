@@ -1,0 +1,227 @@
+{
+  "name": "Werebbub",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Werebbub%20Icon.jpg",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Lionhearted",
+      "description": "<p>Werebbubs are not the largest race on the continent but they are among the bravest. Their culture values heroism and young Werebbubs hear tales of ancient ancestral heroes. Werebbubs gain an inherent +1 to Courage.</p>"
+    },
+    "perk2": {
+      "name": "Razor Teeth",
+      "description": "<p>While werebbub don&rsquo;t possess the powerful jaws and venomous fangs of the vran, their teeth are razor sharp and honed to a fine edge. A werebbub can make a Melee attack with their fangs which deals 2d6 damage and has Improved Armor Piercing.</p>"
+    },
+    "perk3": {
+      "name": "Strange Physiology",
+      "description": "<p>A werebbub&rsquo;s body and metabolism work in a manner entirely alien to humans and most other elder races. When grievously wounded, some aspect of a werebbub&rsquo;s physiology goes into high gear, often allowing them to survive wound that would quickly kill any other person. Whenever a werebbub takes a Critical Wound, they can roll an Endurance check with a DC equal to the DC required to Stabilize the Critical Wound. If they succeed, the Critical Wound is immediately considered Stabilized. Players may only make this roll in the moment the werebbub takes the wound and cannot be attempted again in the case of a failure.</p>"
+    },
+    "perk4": {
+      "name": "Poor Eyesight",
+      "description": "<p>In general, werebbub suffer from poor eyesight. While their keen hearing allows them to navigate the world without any significant problems, they are far from the most perceptive race on the Continent. Werebbubs take an inherent -4 on Awareness checks thanks to this poor vision. If a werebbub is called on to make a perception check based only on hearing (such as hearing footsteps upstairs or listening for growling wolves) this penalty&nbsp;does not apply.</p>"
+    },
+    "socialStanding": {
+      "north": "tolerated",
+      "nilfgaard": "tolerated",
+      "skellige": "tolerated",
+      "dolBlathanna": "tolerated",
+      "mahakam": "equal"
+    }
+  },
+  "effects": [
+    {
+      "name": "Lionhearted",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.AeFxAcx4dtbCxZgW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Werebbub%20Icon.jpg",
+      "_id": "87moCbWvob9jbn2k",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.will.courage.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Werebbubs are not the largest race on the continent but they are among the bravest. Their culture values heroism and young Werebbubs hear tales of ancient ancestral heroes. Werebbubs gain an inherent +1 to Courage.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AeFxAcx4dtbCxZgW.87moCbWvob9jbn2k"
+    },
+    {
+      "name": "Razor Teeth",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.AeFxAcx4dtbCxZgW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Werebbub%20Icon.jpg",
+      "_id": "mC2NRNaJ96AJU1RN",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">While werebbub don’t possess the powerful jaws and venomous fangs of the vran, their teeth are razor sharp and honed to a fine edge. A werebbub can make a Melee attack with their fangs which deals 2d6 damage and has Improved Armor Piercing.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AeFxAcx4dtbCxZgW.mC2NRNaJ96AJU1RN"
+    },
+    {
+      "name": "Strange Physiology",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.AeFxAcx4dtbCxZgW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Werebbub%20Icon.jpg",
+      "_id": "ytcTtGCfkyeT2oY6",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">A werebbub’s body and metabolism work in a manner entirely alien to humans and most other elder races. When grievously wounded, some aspect of a werebbub’s physiology goes into high gear, often allowing them to survive wound that would quickly kill any other person. Whenever a werebbub takes a Critical Wound, they can roll an Endurance check with a DC equal to the DC required to Stabilize the Critical Wound. If they succeed, the Critical Wound is immediately considered Stabilized. Players may only make this roll in the moment the werebbub takes the wound and cannot be attempted again in the case of a failure.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AeFxAcx4dtbCxZgW.ytcTtGCfkyeT2oY6"
+    },
+    {
+      "name": "Poor Eyesight",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.AeFxAcx4dtbCxZgW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Werebbub%20Icon.jpg",
+      "_id": "3f8jR6hhjRs57X81",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.awareness.activeEffectModifiers",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">In general, werebbub suffer from poor eyesight. While their keen hearing allows them to navigate the world without any significant problems, they are far from the most perceptive race on the Continent. Werebbubs take an inherent -4 on Awareness checks thanks to this poor vision. If a werebbub is called on to make a perception check based only on hearing (such as hearing footsteps upstairs or listening for growling wolves) this penalty does not apply.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AeFxAcx4dtbCxZgW.3f8jR6hhjRs57X81"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.VrVa0q8Q0Z5fx3EV",
+      "hash": "dd0df22fd02839f59d0b625aa0932e4bb70bcc80"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.9.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "AeFxAcx4dtbCxZgW",
+  "sort": 300000,
+  "_key": "!items!AeFxAcx4dtbCxZgW"
+}

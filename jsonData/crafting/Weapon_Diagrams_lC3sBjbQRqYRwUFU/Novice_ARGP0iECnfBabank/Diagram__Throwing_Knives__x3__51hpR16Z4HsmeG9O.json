@@ -1,0 +1,66 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Throwing Knives (x3)",
+  "type": "diagrams",
+  "_id": "51hpR16Z4HsmeG9O",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Throwing knives are an interesting bit a&rsquo; work. Small, easily concealed, and balanced for throwing. Ya have to practice to know rotation speeds and such, but they can be worth it. Good assassin weapon.</em></p>",
+    "quantity": "3",
+    "weight": 0.1,
+    "cost": 74,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 8,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk",
+        "id": "vizWo2vQ4Y6AesXK"
+      }
+    ],
+    "investment": 48,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.zpShLRHvL0DL1hgW",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "86fbbdf6c9e17354b05dd0b9e007880c4e34902d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!51hpR16Z4HsmeG9O"
+}

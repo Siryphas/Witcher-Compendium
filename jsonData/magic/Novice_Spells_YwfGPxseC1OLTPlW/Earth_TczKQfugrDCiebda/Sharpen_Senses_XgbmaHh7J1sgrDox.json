@@ -1,0 +1,109 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Sharpen Senses",
+  "type": "spell",
+  "_id": "XgbmaHh7J1sgrDox",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Sharpen Senses allows you to heighten the sensitivity of your sight, smell, and hearing. Upon casting this spell, you immediately gain the benefits of Night Vision and Scent Tracking and have a +2 to Awareness checks.\nHowever, if you are subjected to a bright light or a very loud noise, you suffer Staggered condition.",
+    "range": "Self",
+    "duration": "30 Minutes",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Sharpen Senses",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.XgbmaHh7J1sgrDox",
+      "duration": {
+        "rounds": 30,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "_id": "JhTohRbLPm6sNAYz",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.awareness.activeEffectModifiers",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        }
+      ],
+      "description": "<p>Sharpen Senses allows you to heighten the sensitivity of your sight, smell, and hearing. Upon casting this spell, you immediately gain the benefits of Night Vision and Scent Tracking and have a +2 to Awareness checks.</p><p>However, if you are subjected to a bright light or a very loud noise, you suffer Staggered condition.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XgbmaHh7J1sgrDox.JhTohRbLPm6sNAYz"
+    }
+  ],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "44df1cb5ab1e28d92bb67a8af30900acba595195"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XgbmaHh7J1sgrDox"
+}

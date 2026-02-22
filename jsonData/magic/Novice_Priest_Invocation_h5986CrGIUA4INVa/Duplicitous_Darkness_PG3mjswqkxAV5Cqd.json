@@ -1,0 +1,109 @@
+{
+  "folder": "h5986CrGIUA4INVa",
+  "name": "Duplicitous Darkness",
+  "type": "spell",
+  "_id": "PG3mjswqkxAV5Cqd",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Duplicitous Darkness shrouds your target’s mind in a veil of false thoughts. Your target gains a +2 to Deceit checks, cannot be forced to tell the truth by magic, and cannot be mentally spied on with Telepathy.\nAnyone attempting to probe the target with magic is unaware that this invocation has been cast unless they make a DC:20 Awareness check.",
+    "range": "2m",
+    "duration": "1 Hour",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Duplicitous Darkness",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.PG3mjswqkxAV5Cqd",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "0ndO69ttWFTTOThn",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.emp.deceit.activeEffectModifiers",
+          "mode": 2,
+          "value": "+2",
+          "priority": null
+        }
+      ],
+      "description": "<p>Duplicitous Darkness shrouds your target’s mind in a veil of false thoughts. Your target gains a +2 to Deceit checks, cannot be forced to tell the truth by magic, and cannot be mentally spied on with Telepathy.</p><p>Anyone attempting to probe the target with magic is unaware that this invocation has been cast unless they make a DC:20 Awareness check.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!PG3mjswqkxAV5Cqd.0ndO69ttWFTTOThn"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3089e7f3e3933f9b293c15f00d993fdfe059e6b4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PG3mjswqkxAV5Cqd"
+}

@@ -1,0 +1,115 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Lamia",
+  "type": "weapon",
+  "_id": "XVc7R9sWkwRZsgXa",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/misc/whip-red-yellow.webp",
+  "system": {
+    "description": "If you’re looking for a real brutal weapon—somethin’ to flay a man alive—ya came to the right place. Lamia’s a long, braided whip with metal barbs that’ll tear the flesh off a man in no time. The ld head of Novigrad’s secret police loved these things. Hear the temple guards still carry ‘em as “badges of office”.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 600,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": -1,
+    "avail": "Rare",
+    "damage": "3d6+1",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_uregr1say",
+        "name": "Grapple",
+        "statusEffect": "grappled",
+        "percentage": 0
+      },
+      {
+        "id": "_99bmsuele",
+        "name": "Bleed",
+        "statusEffect": null,
+        "percentage": 100
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Lords & Lands",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Long Reach",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_uregr1say",
+          "name": "Grapple",
+          "statusEffect": "grappled",
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_99bmsuele",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.RmWAy9oon1yEL3bT"
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3059b45626ed682fdb7cd8fb569458562e15c22d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!XVc7R9sWkwRZsgXa"
+}

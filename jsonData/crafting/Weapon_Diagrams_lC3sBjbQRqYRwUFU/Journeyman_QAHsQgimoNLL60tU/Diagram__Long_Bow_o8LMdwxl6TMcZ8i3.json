@@ -1,0 +1,102 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Long Bow",
+  "type": "diagrams",
+  "_id": "o8LMdwxl6TMcZ8i3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>The long bow&rsquo;s the predecessor to the crossbow. Personally, think they&rsquo;re large and unwieldy. But hey, easy to say that when you&rsquo;re shorter than the bow. Elves swear by the long bow and in their hands it&rsquo;s probably the deadliest ranged weapon short of a damn ballista. Humans generally moved to the crossbow, but down in Nilfgaard they&rsquo;ve got plenty of archers, all deadly and perfectly willin&rsquo; to prove it.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 712,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 16,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "OujmV4GZmUSXpkd3",
+        "name": "Hardened Timber",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "RkPRO4Oyz5YMzeKj",
+        "name": "Thread",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "WCB32gNWU0B9h0PM",
+        "name": "Wax",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "qxNvvFFS3qBmXNzd",
+        "name": "Resin",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "w1UYxE4Guz2vaDzX",
+        "name": "Ester Grease",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "9KK8qMji9e0mbo7p",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "kc8Z4DaSGAGMjRDC",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      }
+    ],
+    "investment": 252,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.ezymanXqPYOVyyrG",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d19a8e579a604cbebc08ec95ba4567347552b57c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!o8LMdwxl6TMcZ8i3"
+}

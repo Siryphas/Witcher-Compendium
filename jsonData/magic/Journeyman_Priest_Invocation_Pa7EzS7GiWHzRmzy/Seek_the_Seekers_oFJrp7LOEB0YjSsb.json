@@ -1,0 +1,101 @@
+{
+  "folder": "Pa7EzS7GiWHzRmzy",
+  "name": "Seek the Seekers",
+  "type": "spell",
+  "_id": "oFJrp7LOEB0YjSsb",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "journeyman",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "6",
+    "staminaIsVar": false,
+    "effect": "Seek the Seekers creates a magical ward around you that warns you of divination such as Hydromancy, or Pyromancy. If you or anyone within 10m of you is the target of divination you are alerted as soon as it is cast and are shown the face of the diviner.\nAnyone who tries to spy on you with divination must make a DC:20 Education or Magic Training check to realize they have been caught. \nHowever, if they succeed this check, you are made aware that they know you caught them.",
+    "range": "Self",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Seek the Seekers",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.oFJrp7LOEB0YjSsb",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "XQhnxdKBDLzRpE1W",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Seek the Seekers creates a magical ward around you that warns you of divination such as Hydromancy, or Pyromancy. If you or anyone within 10m of you is the target of divination you are alerted as soon as it is cast and are shown the face of the diviner.</p><p>Anyone who tries to spy on you with divination must make a DC:20 Education or Magic Training check to realize they have been caught.</p><p>However, if they succeed this check, you are made aware that they know you caught them.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!oFJrp7LOEB0YjSsb.XQhnxdKBDLzRpE1W"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c7a66cc8a7ada7f5b27a9f9f0d4040f43e2def1d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oFJrp7LOEB0YjSsb"
+}

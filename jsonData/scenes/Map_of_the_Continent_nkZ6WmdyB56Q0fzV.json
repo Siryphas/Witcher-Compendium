@@ -1,0 +1,154 @@
+{
+  "name": "Map of the Continent",
+  "navigation": false,
+  "navOrder": 0,
+  "navName": "",
+  "background": {
+    "src": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-compendium/Images/Witcher%20Map%20-%201270.jpg",
+    "scaleX": 1,
+    "scaleY": 1,
+    "offsetX": 0,
+    "offsetY": 0,
+    "rotation": 0,
+    "anchorX": 0,
+    "anchorY": 0,
+    "fit": "fill",
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foregroundElevation": 8,
+  "width": 5787,
+  "height": 4134,
+  "padding": 0.1,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 0,
+    "size": 60,
+    "color": "#000000",
+    "alpha": 0.2,
+    "distance": 25,
+    "units": "Miles",
+    "style": "solidLines",
+    "thickness": 1
+  },
+  "tokenVision": false,
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "folder": null,
+  "flags": {
+    "levels": {
+      "backgroundElevation": 0,
+      "lightMasking": true,
+      "weatherElevation": null
+    },
+    "wall-height": {
+      "advancedVision": true
+    },
+    "fxmaster": {
+      "effects": {
+        "core_clouds": {
+          "type": "clouds",
+          "options": {
+            "scale": 1,
+            "direction": 45,
+            "speed": 0.5,
+            "lifetime": 1,
+            "density": 0.035,
+            "alpha": 1,
+            "tint": {
+              "apply": false,
+              "value": "#ffffff"
+            }
+          }
+        }
+      }
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "5628b5c141d42dd657cf7e032ebab82e3563277d",
+      "sourceId": "Scene.tq4SOQLVno63dS9o",
+      "defaultPermission": 2
+    },
+    "token-attacher": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.26.0",
+    "exportSource": null
+  },
+  "foreground": null,
+  "thumb": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/base64data/Scene/e94fc4418f8dafdad94a47bd3f814395.webp",
+  "weather": "",
+  "ownership": {
+    "default": 2,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "regions": [],
+  "environment": {
+    "globalLight": {
+      "luminosity": 0,
+      "enabled": false,
+      "darkness": {
+        "max": 1,
+        "min": 0
+      },
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0
+    },
+    "darknessLevel": 0.2,
+    "darknessLock": false,
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "fog": {
+    "exploration": false,
+    "reset": 1697443440084,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "_id": "nkZ6WmdyB56Q0fzV",
+  "active": false,
+  "sort": 0,
+  "levels": [],
+  "_key": "!scenes!nkZ6WmdyB56Q0fzV"
+}

@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Gleddyf",
+  "type": "weapon",
+  "_id": "r8YYMXCdX1zfLtuG",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/greatsword-guard.webp",
+  "system": {
+    "description": "Gleddyf’re one of the heaviest blades on the continent, and one of the thinnest. Heh, all that weight’s centered in the fancy guard and pommel. But it is easy enough to make, so it’s a fine design for the black ones, seein’ as their army keeps expanding.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 285,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "3d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YcO8BqSgITH7k1nE"
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "333583e531a7c28642d1ef772524f26f3d076f42"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!r8YYMXCdX1zfLtuG"
+}

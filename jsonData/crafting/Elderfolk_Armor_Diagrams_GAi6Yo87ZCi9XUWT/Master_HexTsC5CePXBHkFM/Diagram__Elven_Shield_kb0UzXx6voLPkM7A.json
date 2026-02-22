@@ -1,0 +1,96 @@
+{
+  "folder": "HexTsC5CePXBHkFM",
+  "name": "Diagram: Elven Shield",
+  "type": "diagrams",
+  "_id": "kb0UzXx6voLPkM7A",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-shield.webp",
+  "system": {
+    "description": "<p><em>Don&rsquo;t see these much anymore. Guess guerilla tactics don&rsquo;t lend themselves to shield and sword combat. Or the brave rebels are too concerned with not looking like cowards. Either way the elven shield&rsquo;s a beautiful piece. Built like a kite shield, with gold inlays and leaf patterns.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1050,
+    "isHidden": false,
+    "type": "elderfolk-armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "5 H",
+    "craftingComponents": [
+      {
+        "id": "54CAVvjrgKciqV1R",
+        "name": "Hardened Timber",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "bdZWdN0cpMqkLujP",
+        "name": "Hardened Leather",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "g8K2RBH9Z0bdFCj1",
+        "name": "Dark Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "XcSuU3uVT8vqcYHe",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "EQHfajW3uHxoN2y3",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "ccmitjyYFVrJ4kiz",
+        "name": "Ogre Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      }
+    ],
+    "investment": 528,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.H7OnEy1xGtL87Gdb",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "82f705b51c442af02674aa30e1acf5cef01e2461"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!kb0UzXx6voLPkM7A"
+}

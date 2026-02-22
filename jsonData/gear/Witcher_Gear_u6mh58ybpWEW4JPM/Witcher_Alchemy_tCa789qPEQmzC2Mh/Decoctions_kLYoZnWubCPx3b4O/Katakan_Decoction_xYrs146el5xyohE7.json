@@ -1,0 +1,82 @@
+{
+  "folder": "kLYoZnWubCPx3b4O",
+  "name": "Katakan Decoction",
+  "type": "alchemical",
+  "_id": "xYrs146el5xyohE7",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Katakan%20Decoction.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "decoction",
+    "avail": "WITCHER",
+    "effect": "You gain +3 to your roll when determining the location of a critical wound.",
+    "time": "30 Mins",
+    "toxicity": "75%",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Katakan Decoction",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.xYrs146el5xyohE7",
+      "duration": {
+        "rounds": 30,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Katakan%20Decoction.png",
+      "_id": "OdmQa6ATP7ii4pQh",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>You gain +3 to your roll when determining the location of a critical wound.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!xYrs146el5xyohE7.OdmQa6ATP7ii4pQh"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7ed27d3af4453ed89cb4a7328ce8410f6c89076c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xYrs146el5xyohE7"
+}

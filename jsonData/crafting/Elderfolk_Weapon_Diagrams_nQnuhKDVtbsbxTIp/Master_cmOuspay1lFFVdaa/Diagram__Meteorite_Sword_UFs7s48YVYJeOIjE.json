@@ -1,0 +1,96 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Meteorite Sword",
+  "type": "diagrams",
+  "_id": "UFs7s48YVYJeOIjE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Meteorite&rsquo;s some of the best metal to make a weapon from. These swords get this colored sheen to &lsquo;em and are tough as all hell. The blade&rsquo;s surprisingly light too.<br>Turns out meteorite&rsquo;s got colors to it. Heh, blue, red, and yellow. Maybe more but I don&rsquo;t know. Color only really comes out if ya refine the stuff so most of the meteorite weapons ya see nowadays just have a sorta oily sheen to &lsquo;em. Heard if ya refine the ore first with some old gnomish technique, the blades glint the color of the ore. Supposed to have some kinda magical effect too, since they passed through all the elemental planes on the way to us.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1312,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "2RhTUsa2kENmmcFk",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "RMeuDnOP3AduPdFp",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "FCjbKZng0SeJHAZY",
+        "name": "Meteorite",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "TVKo389faRjICB2F",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "XY67sOwKUTm2LZO0",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "IvvD04oJIeLCnaya",
+        "name": "Ester Grease",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      }
+    ],
+    "investment": 650,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.xb6MKiXGeImmNu1d",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3fc68522e0bca6fddee15f4e61a72f580527d45b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!UFs7s48YVYJeOIjE"
+}

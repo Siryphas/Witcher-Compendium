@@ -1,0 +1,95 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Quarter Staff",
+  "type": "weapon",
+  "_id": "JXR8qiXs2FCDJXmN",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-simple-gold.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 96,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "1Kk6WOwfqmqNdhgo",
+        "name": "Non-Lethal",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Peasant Profession",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "isNonLethal": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "Long Reach",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 1075000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6db5cd6df18b936f9f8de4b15bfcce9ce414a5e9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JXR8qiXs2FCDJXmN"
+}

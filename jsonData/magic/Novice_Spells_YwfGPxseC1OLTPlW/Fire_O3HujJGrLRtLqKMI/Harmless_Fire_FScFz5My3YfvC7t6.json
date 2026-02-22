@@ -1,0 +1,66 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Harmless Fire",
+  "type": "spell",
+  "_id": "FScFz5My3YfvC7t6",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Harmless Fire allows you to manipulate the heat and power of a fire to make it temporarily safe. \nUpon casting this spell, choose an area of fire no larger than 2m cubed and that fire becomes harmless to anyone touching it. The fire will not spread or otherwise damage anything it is touching. \nIf you are on fire and under the effect of this spell you can still take damage from fire-based attacks.",
+    "range": "8m",
+    "duration": "10 Minutes",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d7dea3162ad3ea05ca26ba20337c6155e6f99fb9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FScFz5My3YfvC7t6"
+}

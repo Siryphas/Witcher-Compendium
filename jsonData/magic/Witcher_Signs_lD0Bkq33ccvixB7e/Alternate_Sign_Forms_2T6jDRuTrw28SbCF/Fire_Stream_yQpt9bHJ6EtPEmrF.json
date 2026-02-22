@@ -1,0 +1,77 @@
+{
+  "folder": "2T6jDRuTrw28SbCF",
+  "name": "Fire Stream",
+  "type": "spell",
+  "_id": "yQpt9bHJ6EtPEmrF",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Witcher",
+    "level": "journeyman",
+    "source": "fire",
+    "domain": "alternate",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Igni now throws out a constant stream of fire and sparks from your hand which does 1d6 damage per STA point spent, and has a 75% chance of lighting the opponent on fire. \nFire Stream must be maintained every round with a number of STA points equal to 1/2 the number of STA points spent to cast the sign. \nYou can switch targets on your turn and the stream can be aimed at body locations.",
+    "range": "3m",
+    "duration": "Active (1/2 Initial STA)",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "3",
+    "templateType": "ray",
+    "causeDamages": true,
+    "damage": "1d6/STA",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 75
+      }
+    ],
+    "visualEffectDuration": null,
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "damageType": "fire",
+    "damageProperties": {
+      "variableDamage": true
+    }
+  },
+  "effects": [],
+  "sort": 225000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5d0995de4e1714884d89d2b7075cd69a3e71d8c5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yQpt9bHJ6EtPEmrF"
+}

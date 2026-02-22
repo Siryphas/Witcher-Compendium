@@ -1,0 +1,82 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Berserker's Brew",
+  "type": "alchemical",
+  "_id": "vvJSQEIxDcEMvZXM",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-red.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 105,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Rare",
+    "effect": "Some folks in Skellige use a mushroom called Mardroeme to whip themselves up into a frenzy. Guess this stuff was some mainland alchemist’s attempt to copy that. Backfired a bit. Heard of more folks using it as a poison. A few drops in some noble’s drink and suddenly their swinging left and right. Heh, hard to recover your reputation after ya put a fork in the Duchess of Attre.\n\nWhen consumed, a target must make an Endurance check at a DC: 16. If they fail, they must use their turn to attack the closest person. Each round, at the beginning of their turn, they can attempt another DC: 16 Endurance check. If they succeed, the frenzy subsides until their next turn, at which point they must make the Endurance check again or fall back into a frenzy.",
+    "time": "1d10 Rounds",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Lords & Lands"
+  },
+  "effects": [
+    {
+      "name": "Berserker's Brew",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.vvJSQEIxDcEMvZXM",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-red.webp",
+      "_id": "brKbQZAfMxRunHb5",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>When consumed, a target must make an Endurance check at a DC: 16. If they fail, they must use their turn to attack the closest person. Each round, at the beginning of their turn, they can attempt another DC: 16 Endurance check. If they succeed, the frenzy subsides until their next turn, at which point they must make the Endurance check again or fall back into a frenzy.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!vvJSQEIxDcEMvZXM.brKbQZAfMxRunHb5"
+    }
+  ],
+  "sort": 3900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9985d3394b621f3280cdcffc2fd4177bf39135c5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.1.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vvJSQEIxDcEMvZXM"
+}

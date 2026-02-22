@@ -1,0 +1,62 @@
+{
+  "folder": "LYUuah2rqlYSyazT",
+  "name": "Steal Spell",
+  "type": "spell",
+  "_id": "yAlg0uEygPsl2cOn",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "20",
+    "staminaIsVar": false,
+    "effect": "Steal Spell allows you to take control of another mage’s spell and re-designate its target. When another mage casts a Non-Master level spell you can immediately force the mage to make a contested Spell Casting check against you. \nIf you succeed at this check, you change the target of the spell to anyone within range of the original caster or yourself if the spell had a range of self. \nIf the spell requires an attack check, use your Spell Casting check from the contested check. \nIf the spell you steal is active, you remain in control of the spell but must pay its active cost.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": "Tome of Chaos"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3b137dc3524aa86b2c3df46fc9889b69e9cda203"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yAlg0uEygPsl2cOn"
+}

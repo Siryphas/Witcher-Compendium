@@ -1,0 +1,72 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Heft",
+  "type": "diagrams",
+  "_id": "WAANY3gtWbGRwR9U",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Any Armor:<br>The Stopping Power of this armor is increased by 2 but its Encumbrance Value is doubled. If this glyphword is used on an armor with an Encumbrance Value of 0 the Encumbrance value remains 0.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1100,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "8fYqOAwwfkohqkjV",
+        "name": "Glyph of Mending",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.zhVbktUxngZTE4d9"
+      },
+      {
+        "id": "FrIQ5xGYWaKhXbtD",
+        "name": "Glyph of Reinforcement",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.5g3gtaEniQHSeJ9j"
+      }
+    ],
+    "investment": 550,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.MHcvzjENjyL8XHjt",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e5a3033cb173052c7dd4052904f38264682ddbe8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!WAANY3gtWbGRwR9U"
+}

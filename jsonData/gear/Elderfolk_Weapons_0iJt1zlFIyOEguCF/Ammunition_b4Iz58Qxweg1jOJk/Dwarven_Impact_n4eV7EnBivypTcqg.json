@@ -1,0 +1,69 @@
+{
+  "folder": "b4Iz58Qxweg1jOJk",
+  "name": "Dwarven Impact",
+  "type": "weapon",
+  "_id": "n4eV7EnBivypTcqg",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-fletching.webp",
+  "system": {
+    "description": "Folk say we started usin’ these heavy arrows and bolts to break rock in the mines, but nowadays dwarven mercenaries use ‘em to crack plate armor.",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 50,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": 1,
+    "range": "",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "ablating": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "296a64228d1ad36ebda9f911a5a504d34a3a2e8f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!n4eV7EnBivypTcqg"
+}

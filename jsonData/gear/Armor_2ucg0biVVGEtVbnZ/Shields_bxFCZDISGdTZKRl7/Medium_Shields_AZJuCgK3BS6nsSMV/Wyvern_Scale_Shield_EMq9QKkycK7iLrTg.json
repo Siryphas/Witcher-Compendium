@@ -1,0 +1,70 @@
+{
+  "folder": "AZJuCgK3BS6nsSMV",
+  "name": "Wyvern Scale Shield",
+  "type": "armor",
+  "_id": "EMq9QKkycK7iLrTg",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Wyvern%20Scale%20Shield%20%5Bsq%5D.jpg",
+  "system": {
+    "description": "Ya don’t really see these too often on the battlefield. Probably because ya gotta skin a wyvern or some other draconid to make them, heh! They’re solid work though. They’ll shrug off fire like water off a ducks back and the scales make ‘em tougher than your average shield.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 500,
+    "isHidden": false,
+    "reliability": 18,
+    "reliabilityMax": 18,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Medium",
+    "avail": "Rare",
+    "enhancements": 1,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fireproof",
+        "statusEffect": "",
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "encumb": 0,
+    "location": "Shield",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "A Professional's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.WjxVbkxNMVQNoXoT"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "42bee2a6e7f43f371f21569f23599494f446eabe"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!EMq9QKkycK7iLrTg"
+}

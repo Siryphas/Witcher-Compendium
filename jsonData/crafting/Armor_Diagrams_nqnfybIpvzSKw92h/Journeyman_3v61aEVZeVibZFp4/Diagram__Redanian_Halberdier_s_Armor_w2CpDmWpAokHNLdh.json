@@ -1,0 +1,84 @@
+{
+  "folder": "3v61aEVZeVibZFp4",
+  "name": "Diagram: Redanian Halberdier's Armor",
+  "type": "diagrams",
+  "_id": "w2CpDmWpAokHNLdh",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Heh, strange enough, Redanian halberdiers don&rsquo;t wear too much armor. Simple leather and cloth gambesons that reach down to the knees, a chain shirt, a forget, and pauldrons. Guess when you&rsquo;re at the end of a halberd you don&rsquo;t need heavy armor. This&rsquo;ll still take a blade and be maneuverable as a gambeson.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 600,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 17,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "Fsni2A9E3qK5V4zz",
+        "name": "Thread",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "QgKi3s5AnctsfPBE",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "NM1I0sE27aMjCXIW",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "eSE2dtDLE7uOqWBK",
+        "name": "Tretogor Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nQ3znBzgY0YQFTa4"
+      }
+    ],
+    "investment": 295,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.YfwDsWMooIkTqzSn",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "21e89f61820fa99656052cd153056c8952e20158"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!w2CpDmWpAokHNLdh"
+}

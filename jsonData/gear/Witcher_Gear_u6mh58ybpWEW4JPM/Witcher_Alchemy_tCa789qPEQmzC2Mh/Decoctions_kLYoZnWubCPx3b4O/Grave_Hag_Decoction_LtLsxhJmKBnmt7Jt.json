@@ -1,0 +1,84 @@
+{
+  "folder": "kLYoZnWubCPx3b4O",
+  "name": "Grave Hag Decoction",
+  "type": "alchemical",
+  "_id": "LtLsxhJmKBnmt7Jt",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Grave%20Hag%20Decoction.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "decoction",
+    "avail": "WITCHER",
+    "effect": "+2 HP regeneration for every enemy slain during combat. This health bonus lasts until the end of the combat.",
+    "time": "30 Mins",
+    "toxicity": "75%",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Grave Hag Decoction",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.LtLsxhJmKBnmt7Jt",
+      "duration": {
+        "rounds": 30,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Grave%20Hag%20Decoction.png",
+      "_id": "aCtbAsx36CPNPbhK",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>+2 HP regeneration for every enemy slain during combat. This health bonus lasts until the end of the combat.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "healing"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!LtLsxhJmKBnmt7Jt.aCtbAsx36CPNPbhK"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f5fc17c9d012fc017b24f3d3a17080232ce40cbc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LtLsxhJmKBnmt7Jt"
+}

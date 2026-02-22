@@ -1,0 +1,59 @@
+{
+  "name": "Flask of Spirits",
+  "type": "valuable",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/containers/kitchenware/jug-wrapped-red.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "GHrgWijN0oKVXNP6",
+          "name": "Intoxication",
+          "statusEffect": "intoxication",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "folder": "5azwHRUJODUYHoSg",
+  "flags": {
+    "cf": {
+      "id": "temp_wjo7lfo9hia",
+      "color": "#000000"
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "c6513b8d8af16ee8dc2a4ec9dae7348497ae20e0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kaDi0u2I2qEmvNuz",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_key": "!items!kaDi0u2I2qEmvNuz"
+}

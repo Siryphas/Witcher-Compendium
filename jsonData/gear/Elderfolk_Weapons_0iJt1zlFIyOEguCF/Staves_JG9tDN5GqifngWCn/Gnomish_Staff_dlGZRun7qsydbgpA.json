@@ -1,0 +1,84 @@
+{
+  "folder": "JG9tDN5GqifngWCn",
+  "name": "Gnomish Staff",
+  "type": "weapon",
+  "_id": "dlGZRun7qsydbgpA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-ornate-purple.webp",
+  "system": {
+    "description": "Gnomish staves’re, just like any gnomish craft, tremendously impressive. They’re made of dark, stained wood with custom carving from top to bottom. Usually have gems embedded in ‘em somewhere.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 910,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "3d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_vchd0ht7p",
+        "name": "Focus (3)",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xD5gMMhMe07fW7TI"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "841651173b3605bf53abff8be0c286cb1beb1588"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dlGZRun7qsydbgpA"
+}

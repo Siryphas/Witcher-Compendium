@@ -1,0 +1,96 @@
+{
+  "folder": "xKQ1ZCwvFFMCp1a2",
+  "name": "Fury",
+  "type": "weapon",
+  "_id": "tY0qCRxl7ct01Nfw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/environment/traps/trap-jaw-tan.webp",
+  "system": {
+    "description": "Any creature caught within the blast radius must make an Endurance roll with a DC of 18 or start fighting the closest person to them until a successful save is made.",
+    "quantity": 1,
+    "weight": 2,
+    "cost": 144,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "none",
+    "range": "8m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fight the closest person.",
+        "percentage": ""
+      },
+      {
+        "id": "_fmqf2ins1",
+        "name": "DC: 18 Endurance",
+        "percentage": ""
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": true,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Fight the closest person.",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_fmqf2ins1",
+          "name": "DC: 18 Endurance",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ]
+  },
+  "effects": [],
+  "sort": 187500,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ca2d260772d705bd4b8fa7e2e6bf5694546fe9ad"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tY0qCRxl7ct01Nfw"
+}

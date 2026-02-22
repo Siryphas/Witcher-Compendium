@@ -1,0 +1,108 @@
+{
+  "folder": "NRjQurKLGEGOWxRN",
+  "name": "Diagram: Elven Walking Staff",
+  "type": "diagrams",
+  "_id": "wcuzg8JTLnXKN48m",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Elven sages used these years and years ago. They&rsquo;re much smaller than the average staff, maybe chest height at tallest. Beautiful designs of braided silk and gold, but the important part is how well they focus magic.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1470,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "kKpAqtc4bMWvbcFN",
+        "name": "Hardened Timber",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "UIbQLmyTrZ5HaMi8",
+        "name": "Gold",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.US5Ypdj1UhGNor27"
+      },
+      {
+        "id": "vNSHm9DuvHJSucKs",
+        "name": "Ester Grease",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "6oR8dKwymv5bB0R2",
+        "name": "Wolf Hide",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.kVPS9ZC0Xj7hSDz9"
+      },
+      {
+        "id": "fLSJYnSIz5iTB4Mj",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "k7ynQdiMC0aVD4du",
+        "name": "Silk",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      },
+      {
+        "id": "ieUhzRwuUQDy87pb",
+        "name": "Fifth Essence",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "UupvWlpLKfqvePQv",
+        "name": "Gemstone",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.FG4KO7VNnfaauSvU"
+      }
+    ],
+    "investment": 735,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.BGzhjf242RGLhVkt",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "16fde2e51a13e754ab9478bf2c073e7affabb7a1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!wcuzg8JTLnXKN48m"
+}

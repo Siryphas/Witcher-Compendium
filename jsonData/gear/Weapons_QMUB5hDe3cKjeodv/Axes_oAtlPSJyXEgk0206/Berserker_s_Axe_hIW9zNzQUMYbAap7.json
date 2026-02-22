@@ -1,0 +1,96 @@
+{
+  "folder": "oAtlPSJyXEgk0206",
+  "name": "Berserker's Axe",
+  "type": "weapon",
+  "_id": "hIW9zNzQUMYbAap7",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/axes/axe-double-engraved-black.webp",
+  "system": {
+    "description": "On the isles of Skellige, werewolves and sirens are common and witchers are rare. Combine that with the insane bravado of your average Skelliger and you get this bastard. A two-meter axe with a huge bearded head, etched with Skellige runes.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 960,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "6d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "_ew425l1ap",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 25
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "ablating": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.jPvX74vLqPHZg91y",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "bMEbR2EkNkFcTZZm",
+          "name": "Ablating",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "8z9Ahbs7QXXfEBjs",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 25,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3f01c1dbf9a948123d0ce7e7e27115f1edc01657"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!hIW9zNzQUMYbAap7"
+}

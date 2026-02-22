@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Esboda",
+  "type": "weapon",
+  "_id": "6tXmE6d9kAEz9jYX",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/greatsword-blue.webp",
+  "system": {
+    "description": "As a merchant you have to leave your personal prejudices behind for good product. The Mettinese esboda is one of the lightest, sharpest cavalry blades I’ve ever seen. It’s sort of like a much better gleddyf. Count on the black ones to rely on their “vassals” to make better weapons, eh?",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 650,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Poor",
+    "damage": "5d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TUIHZow5N5xOC4uE"
+  },
+  "effects": [],
+  "sort": 450000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f5d9c8a7630faffe57c22efaaea17ec6bcc7210"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6tXmE6d9kAEz9jYX"
+}

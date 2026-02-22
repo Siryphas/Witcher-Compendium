@@ -1,0 +1,142 @@
+{
+  "folder": "jz8sCrSi9t14JmsZ",
+  "name": "Caroline",
+  "type": "weapon",
+  "_id": "fLUg3c2dTzKaa4IL",
+  "img": "icons/weapons/swords/sword-guard-red-jewel.webp",
+  "system": {
+    "description": "Education DC: 20\n\nGeoff of Bremervoord was a sailor on a Cidaran tradin’ vessel. Spent most of his days travelin’ back and forth from Northern ports to his home town of Bremervoord. Now an’ again they’d hit rough water or a Skellige raidin’ vessel, but usually he’d make it back with nothin’ much to tell his wife Caroline. Out on the ocean he’d think fondly of his lass and their cozy little cottage on the sea side. Never worried too much about her—he’d given her a sword he’d inherited from her father and taught her how to use it ages ago. Heh, with no sons at home or family to stay with while Geoff was away, best Caroline learned to fend for herself. ‘Specially in a place like Cidaris, so close to the Skellige isles.\nSome years into his voyages, Geoff was headin’ to Novigrad with a load of goods for market. Winds were fair and the ocean was quiet. That was, ‘til they saw the red and black sails on the horizon. The few men that survived limped back to port in Bremervoord. It wasn’t long before word o’ Geoff reached poor Caroline. Heh, lass wasn’t torn up, though—far from it. She was crazy with rage and lookin’ to avenge her husband. But no ship would sail towards Skellige, ‘specially with a woman on board. But Caroline wouldn’t be beat—took her sword and the clothes on her back and set out to swim to the damn isles. Most folks say Caroline was spared a gruesome death at the hands of the sirens of Skellige by a maride who was amused by ‘er plight. A ship plucked her from the sea—the very one which’d raided her husband’s vessel.\nHeh, they say Caroline fought like a woman possessed, her blade openin’ wounds an’ spillin’ waterfalls of blood. Not the best swordswoman— she just refused to die! Took axe blow after axe blow and still swung like a madwoman. Tales say the maride watched the whole show, amused by the woman’s spirit. Most folk say that Caroline survived. She’d got the raiders by suprise—none of ‘em thought much of her ‘til she’d already killed two men. After she took the ship Caroline banked her grief for her lost husband and used it to drive her. Took the ship back to harbor and rallied a crew of sailors and mercenaries to patrol the Cidaran waters, shepherdin’ trade vessels and huntin’ Skellige sails.\n- Rodolf Kazmer",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 0,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "9d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Greater Focus (Water)",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "Aj4vq7NISId2RqBR",
+        "name": "+25 HP",
+        "statusEffect": "",
+        "percentage": 0
+      },
+      {
+        "id": "vrFW6kuzXb7d0Dja",
+        "name": "Balanced",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "jJS2mO4AAJ1IGkru",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 75
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 3,
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [
+    {
+      "name": "Caroline",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.fLUg3c2dTzKaa4IL",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/weapons/swords/sword-guard-red-jewel.webp",
+      "_id": "ZCYvAXlQ2DrYXQ72",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.derivedStats.hp.max",
+          "mode": 2,
+          "value": "25",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!fLUg3c2dTzKaa4IL.ZCYvAXlQ2DrYXQ72"
+    }
+  ],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "822598cef9140803d1e96b97f4c5907753b86850"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fLUg3c2dTzKaa4IL"
+}

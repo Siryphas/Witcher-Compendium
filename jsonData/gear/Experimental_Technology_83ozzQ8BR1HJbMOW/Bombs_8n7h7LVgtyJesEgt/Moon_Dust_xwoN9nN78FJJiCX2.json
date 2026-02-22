@@ -1,0 +1,97 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Moon Dust",
+  "type": "weapon",
+  "_id": "xwoN9nN78FJJiCX2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-blue.webp",
+  "system": {
+    "description": "Any invisible or intangible creatures are made visible and\ntangible for 20 rounds. This also stops monsters from\nregenerating or transforming.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 199,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "8m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Reveals invisible creatures for 20 rounds.",
+        "percentage": ""
+      },
+      {
+        "id": "_2t0kx331y",
+        "name": "Stops regeneration/transformation.",
+        "percentage": ""
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Reveals invisible creatures for 20 rounds.",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_2t0kx331y",
+          "name": "Stops regeneration/transformation.",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4232181cf5c12759064c326837d76c9687f8d107"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xwoN9nN78FJJiCX2"
+}

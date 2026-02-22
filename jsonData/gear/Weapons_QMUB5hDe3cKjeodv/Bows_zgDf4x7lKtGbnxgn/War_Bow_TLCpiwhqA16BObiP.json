@@ -1,0 +1,70 @@
+{
+  "folder": "zgDf4x7lKtGbnxgn",
+  "name": "War Bow",
+  "type": "weapon",
+  "_id": "TLCpiwhqA16BObiP",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/bows/shortbow-recurve-leather.webp",
+  "system": {
+    "description": "The war bow’s a piece of work. Was developed to fight knights in tough plate armor. Thing stands near two meters tall and fires an arrow with up to 77kg of force. These are the types of bows ya see on the field. Heh, standin’ back and firin’ shots high into the sky to rain down like goddamn meteors. Prefer the crossbow, but I respect a bowman who wields one of these.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 835,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "6d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "300m",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 1,
+    "attackSkill": "archery",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.n21Y5h7axj2ZdD1X"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0ce198439f1949aea1a04b344750bc02c7155855"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TLCpiwhqA16BObiP"
+}

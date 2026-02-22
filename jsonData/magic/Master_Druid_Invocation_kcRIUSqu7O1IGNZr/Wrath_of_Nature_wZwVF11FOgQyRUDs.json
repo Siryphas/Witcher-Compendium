@@ -1,0 +1,71 @@
+{
+  "folder": "kcRIUSqu7O1IGNZr",
+  "name": "Wrath of Nature",
+  "type": "spell",
+  "_id": "wZwVF11FOgQyRUDs",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "druid",
+    "domain": "",
+    "stamina": "14",
+    "staminaIsVar": false,
+    "effect": "Wrath of Nature allows you to summon the tremendous power of the natural world to wreak havoc on your enemies. \nDepending on the terrain, Wrath of Nature creates a different effect centered on you with a 60m radius. \n\n◆ Fields: Every turn you can spend a full round action to either touch down a rope tornado within 10m of you or direct a single rope tornado within the area of the storm.\nA rope tornado covers a 4m cubed area and when directed by you can move 10m per turn. If it runs over or into targets those targets must make Athletics checks against your Spell Casting check. \nIf they fail, they take 4d6 damage to the torso and are knocked back 10m in a direction decided by the GM.\n\n◆ Mountains: Every turn you can spend a full round action to summon down a bolt of lightning which strikes a target. The target must make a Dodge/Escape or Athletics check against your Spell Casting check or take 6d6 damage to the torso and have a 50% chance of being lit on fire.\n\n◆ Underground: Every turn you can spend a full round action to summon a stalagmite or stalactite to violently erupt from the stone and stab a single target. \nThe target of this attack must make a Dodge/Escape, Athletics, or Block check against your Spell Casting check or take 5d6 damage. \nEach summoned stalagmite or stalactite remains until destroyed and counts as a 2m cubed piece of cover with 20 SP.\n\n◆ Forest: Every turn you can spend a full round action to either summon up a tangle of roots from the ground to take one of the following actions or give a single command to each existing tangle of roots you have summoned.\nThese roots are immobile but have the Long Reach Effect and can be used to Grapple, Trip, Disarm, Choke, or Pin a target. They have a Brawling base of 16 unless your Spell Casting base would be higher.\n\n◆ Swamp: Every turn you can spend a full round action to summon a 6m radius area of swamp gas that erupts from the ground.\nAnyone caught in the gas must make an Endurance check against your Spell Casting check or suffer from the Disease condition. This gas remains until the invocation ends. \nAdditionally, if an exposed flame is present in the area of this gas, it explodes, causing every creature in the gas to take 5d6 damage to the torso and have a 75% chance of catching on fire.\n\n◆ Shore: Every turn you can spend a full round action to summon a powerful waterspout out of the nearby body of water to knock down targets with pressurized water. Two jets of water emit from the spout towards one or two targets within 20m. These target’s must make Dodge/Escape or Athletics checks against your Spell Casting check or take 3d6 damage and be knocked back 6m.\n\n◆ Desert: Every turn you can spend a full round action to kick up a gust of burning sand in a 6m radius area. \nAny creatures within this area must make a Dodge/Escape or Athletics check versus your Spell Casting check or be blinded for 5 rounds and be lit on fire.\n\n◆ Tundra: Every turn you can spend a full round action to summon up a whirl of snow and water magic around a single target to encase them in ice. The target must make a Dodge/Escape, Athletics, or Resist Magic check versus your Spell Casting check or be encased in solid ice. \nThis ice immobilizes the target and keeps them from taking actions. \nTo break out of this ice, the target must make a DC:16 Physique check. Alternatively, if someone deals 10 points of damage to the ice or 5 points of fire damage to the ice, it allows the person to break free. \nAny damage beyond the 10 points (or 5 points) required to break the ice is dealt to the target’s torso.",
+    "range": "60m",
+    "duration": "Active (6 STA)",
+    "defence": "Variable",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "60",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d13e678f1939fdf3a8fe0cbc1fd7ec1a7ed9aae1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wZwVF11FOgQyRUDs"
+}

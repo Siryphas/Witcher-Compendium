@@ -1,0 +1,58 @@
+{
+  "folder": "qlsokLd2xO6kWMO0",
+  "name": "Interactive Illusion",
+  "type": "spell",
+  "_id": "1z4Ioud6o0Az9xwV",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "12",
+    "staminaIsVar": false,
+    "effect": "Interactive Illusion creates an illusion with sight, sound, smell, and tangible feelings. \nNothing about the illusion is real but it all feels real to anyone who enters its area. \nThe illusion covers a 20m radius and its caster actively controls and shapes it. \nIf they create a danger within the illusion to battle intruders, each intruder may make a Magic Resistance or Endurance check at DC:12. \nIf they succeed, they realize that nothing is actually happening to them and take no damage. \nIf they fail they think that the damage is real, and must roll a Stun save. The damage cannot kill but it can stun.",
+    "range": "",
+    "duration": "Until Dispelled",
+    "defence": "",
+    "components": "Perfect Gemstone (x1), Fifth Essence (x5), Infused Shard (x1), Glass (x2), Ducal Water (x3)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "18",
+    "cost": 626,
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "493d0fe43e97e38ff31558005f1ad644b8665d65"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1z4Ioud6o0Az9xwV"
+}

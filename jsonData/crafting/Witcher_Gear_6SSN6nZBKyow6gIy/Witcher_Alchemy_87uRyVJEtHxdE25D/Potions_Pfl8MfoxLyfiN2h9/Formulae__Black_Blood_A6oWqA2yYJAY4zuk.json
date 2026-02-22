@@ -1,0 +1,65 @@
+{
+  "folder": "Pfl8MfoxLyfiN2h9",
+  "name": "Formulae: Black Blood",
+  "type": "diagrams",
+  "_id": "A6oWqA2yYJAY4zuk",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>The witcher&rsquo;s blood poisons any creature that drinks it, doing 3 points of damage per round until an Endurance check, DC:20 is made. The creature is also forced to recoil 2m.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "potion",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 20,
+    "craftingTime": "1/2",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 3,
+      "rebis": 1,
+      "aether": 1,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "Corebook",
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.UG719pY5zhpvqcuG",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fbf47c4edb675bbc5c66a004511fd51c93b6acb6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!A6oWqA2yYJAY4zuk"
+}

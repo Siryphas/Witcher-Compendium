@@ -1,0 +1,71 @@
+{
+  "folder": "oAtlPSJyXEgk0206",
+  "name": "Hand Axe",
+  "type": "weapon",
+  "_id": "pjpAFWIjepsNU8Oy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/axes/axe-broad-black.webp",
+  "system": {
+    "description": "Over time I’ve gotten fond of the hand axe. Heh, used to use ‘em for timber but they’re damn tough, and a weapon designed to chop wood will go through bone just as well.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 205,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "2d6+1",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "S",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.HN7Rc6hMZL5W227Y"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e94b13048718dbfc684e726174fa995b9fe6cf9e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pjpAFWIjepsNU8Oy"
+}

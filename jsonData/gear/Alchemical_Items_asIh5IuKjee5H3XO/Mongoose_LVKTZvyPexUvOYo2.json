@@ -1,0 +1,93 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Mongoose",
+  "type": "alchemical",
+  "_id": "LVKTZvyPexUvOYo2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-jar-corked-labeled-red.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 50,
+    "isHidden": false,
+    "type": "potion",
+    "avail": "Rare",
+    "effect": "A favorite of courtiers and nobles, Mongoose renders the drinker immune to the Poison condition for 30 minutes.",
+    "time": "30 Mins",
+    "toxicity": "50%",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "A Tome of Chaos",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "z33uuDdOlhC2Ehqe",
+          "name": "Immune to Poison",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [
+    {
+      "name": "Mongoose",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.LVKTZvyPexUvOYo2",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-jar-corked-labeled-red.webp",
+      "_id": "1TTegSNeb9QRIn04",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>A favorite of courtiers and nobles, Mongoose renders the drinker immune to the Poison condition for 30 minutes.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!LVKTZvyPexUvOYo2.1TTegSNeb9QRIn04"
+    }
+  ],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "31eb941d791fb161b6d37f46bb5930b28d8e4c94"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LVKTZvyPexUvOYo2"
+}

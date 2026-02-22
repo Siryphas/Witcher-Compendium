@@ -1,0 +1,66 @@
+{
+  "folder": "Ra14ZOI97VQm5ieH",
+  "name": "Elgan's Theory",
+  "type": "spell",
+  "_id": "CMryR1t0juJAHCFK",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "earth",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Elgan’s Theory was discovered by Elgan of Verden who travelled to the heart of Mahakam and worked for years studying earth magic.\nThe spell allows you to magnetize a metal object within 8m. Anything metal within 2m is drawn and sticks to the magnet. \nIt takes a DC:18 Physique check to pry an object off. \nAll metal that sticks to someone’s weapons or armor counts against their ENC.",
+    "range": "8m",
+    "duration": "2d10 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eea4a4869d453317fa2db3f7642c86b07b469945"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!CMryR1t0juJAHCFK"
+}

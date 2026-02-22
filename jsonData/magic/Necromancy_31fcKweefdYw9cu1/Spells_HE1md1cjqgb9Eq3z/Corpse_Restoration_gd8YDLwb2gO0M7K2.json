@@ -1,0 +1,66 @@
+{
+  "folder": "HE1md1cjqgb9Eq3z",
+  "name": "Corpse Restoration",
+  "type": "spell",
+  "_id": "gd8YDLwb2gO0M7K2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "7",
+    "staminaIsVar": false,
+    "effect": "Corpse Restoration uses magic to restore the muscle, flesh, skin, and hair of a targeted corpse in ghostly form. \nThe restored corpse appears to be a slightly translucent version of the person they were at the moment they died. \nAny wounds the targeted corpse had sustained before they died are present in this illusory form and the form can be touched and examined as if they were real. \nYou can only summon the “flesh and blood” of the pieces of the body you have but they need not be connected as long as they are within 4m.",
+    "range": "4m",
+    "duration": "1 Hour",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2557d6eb7c387f309ef002b9c75baf12d85dc20b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gd8YDLwb2gO0M7K2"
+}

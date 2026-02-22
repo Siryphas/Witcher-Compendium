@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Fisstech",
+  "type": "diagrams",
+  "_id": "ETYmBv8nfGpBf3i2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Elves call the stuff White Death. Most prevalent drug in the world, and lemme tell ya, nothin&rsquo; ya wanna get involved with. A fisstech addict&rsquo;s a scary thing&mdash;not an ounce of fear or dignity when the cravings catch &lsquo;em.</em></p>\n<p>Fisstech sends those who snort it or rub it on their gums into a euphoric trance-like state. It is often used as an anesthetic, as it numbs pain. It is highly addictive. After each use, make an Endurance check at a DC: 18. If you fail, you become addicted.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 120,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 18,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 2,
+      "rebis": 3,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 2,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.A1jMBQfgPXipbttl",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9301e8f7b63ddd662d8d9de9586f596889f711f1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!ETYmBv8nfGpBf3i2"
+}

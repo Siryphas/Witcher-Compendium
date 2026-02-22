@@ -1,0 +1,67 @@
+{
+  "name": "Claws (Vran)",
+  "type": "weapon",
+  "img": "icons/commodities/biological/hand-clawed-blue.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "type": {
+      "text": "Slashing, Bludgeoning",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "conceal": "NA",
+    "avail": "Everywhere",
+    "hands": "both",
+    "equipped": false,
+    "reliable": 0,
+    "maxReliability": 0,
+    "damage": "1d6",
+    "range": "Melee",
+    "accuracy": 0,
+    "attackSkill": "brawling",
+    "rateOfFire": 2,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "effects": [],
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "folder": "DFlwge2Gda7e5ZNo",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.24.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "tZlveJpFm2k8jJht",
+  "sort": 350000,
+  "_key": "!items!tZlveJpFm2k8jJht"
+}

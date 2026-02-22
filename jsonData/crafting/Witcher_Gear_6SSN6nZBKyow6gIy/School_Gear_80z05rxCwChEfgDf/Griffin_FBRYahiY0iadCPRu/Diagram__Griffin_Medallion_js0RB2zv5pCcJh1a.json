@@ -1,0 +1,73 @@
+{
+  "folder": "FBRYahiY0iadCPRu",
+  "name": "Diagram: Griffin Medallion",
+  "type": "diagrams",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical-brown.webp",
+  "system": {
+    "description": "<p>Witcher medallions are small pendants made of silver that hang around a witcher's neck. When they come within 20m of any monster, curse, or spell that is currently being cast, the medallion vibrates almost imperceptibly, alerting the witcher.</p>\n<p>Witcher Medallions are relatively easy to craft since they are primarily just cast silver. But they must be made in a specific way and must be crafted by a mage. A mage can craft a medallion with a unit of silver but afterward they must take it to a Place of Power to absorb magic. After being left at that Place of Power for an hour it will function as a witcher medallion. No other benefits can be gained from the Place of Power while priming.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "armor",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "3eXXh4AIxAEb2Y3A",
+        "name": "Silver",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.PuuOiiIej1l4GFdC"
+      },
+      {
+        "id": "wP1qGDrmC3KHEkFN",
+        "name": "Etching Acid",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      }
+    ],
+    "investment": 82,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.JhYRiPmWaal3klsA",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "f0de5241bd84016a5b9a76333c865e6b7551299d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_id": "js0RB2zv5pCcJh1a",
+  "sort": 500000,
+  "_key": "!items!js0RB2zv5pCcJh1a"
+}

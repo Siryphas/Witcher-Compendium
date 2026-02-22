@@ -1,0 +1,95 @@
+{
+  "folder": "oeTcaHNDgub9F5z0",
+  "name": "Racing Saddle",
+  "type": "valuable",
+  "_id": "mQEmogChyQZhQ120",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Transportation/Racing%20Saddle.webp",
+  "system": {
+    "description": "+1 to Control checks for Riding.\n+1 SPD",
+    "quantity": 1,
+    "weight": 3,
+    "cost": 200,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "mount-accessories",
+    "avail": "Common",
+    "effect": "",
+    "conceal": "NA",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Racing Saddle",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.mQEmogChyQZhQ120",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-compendium/packs/Images/Transportation/Racing%20Saddle.webp",
+      "_id": "gwwmFAa6GSW2jibe",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.ref.riding.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        },
+        {
+          "key": "system.stats.spd.totalModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mQEmogChyQZhQ120.gwwmFAa6GSW2jibe"
+    }
+  ],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2d6f863ddaeb9f9ee475bdf983ed48c0b1f4dc06"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mQEmogChyQZhQ120"
+}

@@ -1,0 +1,49 @@
+{
+  "folder": "lz4VzKsimUHqBiXL",
+  "name": "Glyph of Binding+",
+  "type": "enhancement",
+  "_id": "0EAjfh6t28RuMfR4",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Glyph%20Binding%20Greater.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 200,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "glyph",
+    "applied": "",
+    "avail": "Everywhere",
+    "effects": [
+      {
+        "id": "first",
+        "name": "While wearing this armor, whenever you would have a chance of bleeding, lower the chance by 40%."
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c334fbaf17cf4cee6af68396f01d0b0fc0ff92d4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0EAjfh6t28RuMfR4"
+}

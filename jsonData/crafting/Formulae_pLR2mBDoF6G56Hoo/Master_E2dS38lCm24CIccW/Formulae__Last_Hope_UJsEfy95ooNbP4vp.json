@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Last Hope",
+  "type": "diagrams",
+  "_id": "UJsEfy95ooNbP4vp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>A failed replica of the healing medicine of the dryads of Brokilon, Last Hope can repair the most grievous wounds at a cost. Drinking it treats 1 critical wound the drinker has, but that critical wound will not heal unless a Doctor makes a DC: 24 Healing Hands check to reapply the critical wound and then treats it again with Healing Hands.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 400,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 22,
+    "craftingTime": "1 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 3,
+      "sol": 2,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.Trn6sU6o8mRoHuVY",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fa7e8bd066e84b021f85ad8da5413325c0727c01"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!UJsEfy95ooNbP4vp"
+}

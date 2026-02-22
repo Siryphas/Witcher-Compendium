@@ -1,0 +1,84 @@
+{
+  "folder": "qlH2nWMWutV4oD4E",
+  "name": "Parrying Dagger",
+  "type": "weapon",
+  "_id": "P34o1Q5hQuGcxxGy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-jeweled-purple.webp",
+  "system": {
+    "description": "Good side arm, a parryin’ dagger. Sturdier than an everyday knife and they’ve got a fancy handle with a wide guard. Sometimes they’ve even got a knuckle guard to protect yer hand.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 350,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Parrying",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Lords & Lands",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6N3yz8SRJDdqnfol",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "defenseProperties": {
+      "parrying": true
+    },
+    "damageProperties": {
+      "effects": []
+    }
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b46f57107eb6740a69840b41872ccce4e0ea94ba"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P34o1Q5hQuGcxxGy"
+}

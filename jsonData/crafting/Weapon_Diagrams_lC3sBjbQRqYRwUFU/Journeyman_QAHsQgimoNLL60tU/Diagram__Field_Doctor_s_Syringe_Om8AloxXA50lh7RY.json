@@ -1,0 +1,102 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Field Doctor's Syringe",
+  "type": "diagrams",
+  "_id": "Om8AloxXA50lh7RY",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Now, I&rsquo;m pretty sure these aren&rsquo;t meant to be used as weapons. But then again, when your back&rsquo;s against a wall I guess anything can be a weapon, heh. All I know is, whatever you inject with one of these things is gonna take hold fast and it ain&rsquo;t gonna be easy to shake off.<br>Injector: This weapon can be loaded with a vial of any poison or elixir with an action. When the wielder deals damage with the Field Doctor&rsquo;s Syringe it injects this poison or elixir deep into the target&rsquo;s system. This increases the DC to shake off a poison by 3 or increases the duration of an elixir by 3 rounds.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 525,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "GS0wajrXSiopJOYB",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "Ft0C472cm7H8CqIq",
+        "name": "Glass",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.i6OgPLBFP8nA9vNE"
+      },
+      {
+        "id": "SiBwPQCqlotrSmi6",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "kBXyqH5aTzHGlpsf",
+        "name": "Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      },
+      {
+        "id": "ey9TiJuhtiHKwwBm",
+        "name": "Resin",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "1XY7fSdduoVDdUqZ",
+        "name": "Sharpening Grit",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "W2JrHd22jTibU16R",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 262,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.G7SjGC6P56DxeO82",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "38b86a45c480ea7c4b755bbd4b11ddead5e59566"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!Om8AloxXA50lh7RY"
+}

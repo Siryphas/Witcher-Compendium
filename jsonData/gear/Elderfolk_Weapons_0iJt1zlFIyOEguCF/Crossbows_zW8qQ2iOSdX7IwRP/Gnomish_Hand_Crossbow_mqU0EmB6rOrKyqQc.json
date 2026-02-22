@@ -1,0 +1,77 @@
+{
+  "folder": "zW8qQ2iOSdX7IwRP",
+  "name": "Gnomish Hand Crossbow",
+  "type": "weapon",
+  "_id": "mqU0EmB6rOrKyqQc",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-blue.webp",
+  "system": {
+    "description": "I’m not a fan of hand crossbows but this gnomish design’s pretty damn impressive. Looks like a work of art. Heh, intricate metal work and black stained wood with beautiful etching.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 425,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "2d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "100m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 1,
+    "rateOfFire": 0.1,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.7iWuKN0InNKKX1WH"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6cc36a099ea826d833a61d5e66abeecbbf744fdd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!mqU0EmB6rOrKyqQc"
+}

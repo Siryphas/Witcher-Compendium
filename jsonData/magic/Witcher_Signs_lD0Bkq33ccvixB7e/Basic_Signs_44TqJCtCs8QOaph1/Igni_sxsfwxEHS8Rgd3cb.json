@@ -1,0 +1,77 @@
+{
+  "folder": "44TqJCtCs8QOaph1",
+  "name": "Igni",
+  "type": "spell",
+  "_id": "sxsfwxEHS8Rgd3cb",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Witcher",
+    "level": "novice",
+    "source": "fire",
+    "domain": "basic",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Igni throws out a wave of sparks and fire which does 1d6 damage per STA point spent and has a 50% chance of lighting anything it hits on fire. \nIgni always deals damage to the torso unless used at point blank range. \nWhen used at point blank range Igni can be aimed at body locations.",
+    "range": "2m Cone",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "2",
+    "templateType": "cone",
+    "causeDamages": true,
+    "damage": "1d6/STA",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 50
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "fire",
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "damageProperties": {
+      "variableDamage": true
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "60a09887902ac47f133733d736ccb199a21629e2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sxsfwxEHS8Rgd3cb"
+}

@@ -1,0 +1,123 @@
+{
+  "folder": "hOg6Gm7BV749KOcO",
+  "name": "Somne",
+  "type": "spell",
+  "_id": "5UW4RG4zM0xrlxd9",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Sign%20-%20Somne.jpg",
+  "system": {
+    "class": "Witcher",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "basic",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Somne puts a single target to sleep with soothing magic. \nUpon casting this sign, if the target fails to defend, they are put to sleep and considered Stunned until they wake, 8 hours later. \nIf you spend 2 points of STA casting this Sign the target wakes if they take damage, if someone wakes them, or if a loud noise occurs. \nIf you spend 4 points of STA the target only wakes if they take damage or if someone tries to wake them with an action. \nIf you spend 6 points of STA the target wakes only if they take damage or if someone tries to wake them with a full round action. \nIf you spend 7 points of STA the target only wakes if they take damage. \nIf the target has no reason to suspect magical interference before being put to sleep, they do not know they were affected by magic when they wake.",
+    "range": "8m",
+    "duration": "8 Hours",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Asleep",
+        "statusEffect": "unconscious",
+        "percentage": 0
+      }
+    ],
+    "damageProperties": {
+      "bypassesNaturalArmor": true,
+      "bypassesWornArmor": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "Asleep",
+          "statusEffect": "unconscious",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "Somne",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.5UW4RG4zM0xrlxd9",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Sign%20-%20Somne.jpg",
+      "_id": "IDKz428ZH09Iynim",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Somne puts a single target to sleep with soothing magic. </p><p>Upon casting this sign, if the target fails to defend, they are put to sleep and considered Stunned until they wake, 8 hours later. </p><p>If you spend 2 points of STA casting this Sign the target wakes if they take damage, if someone wakes them, or if a loud noise occurs. </p><p>If you spend 4 points of STA the target only wakes if they take damage or if someone tries to wake them with an action. </p><p>If you spend 6 points of STA the target wakes only if they take damage or if someone tries to wake them with a full round action. </p><p>If you spend 7 points of STA the target only wakes if they take damage. </p><p>If the target has no reason to suspect magical interference before being put to sleep, they do not know they were affected by magic when they wake.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!5UW4RG4zM0xrlxd9.IDKz428ZH09Iynim"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3f7e770bcce0d6576f66e548f451b4d8dbc29c77"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5UW4RG4zM0xrlxd9"
+}

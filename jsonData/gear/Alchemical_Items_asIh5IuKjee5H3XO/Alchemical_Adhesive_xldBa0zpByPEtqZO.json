@@ -1,0 +1,42 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Alchemical Adhesive",
+  "type": "alchemical",
+  "_id": "xldBa0zpByPEtqZO",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-bottle-corked-white.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 28,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Common",
+    "effect": "From what I remember, some bright boy in Oxenfurt came up with this stuff to replace nails. Obviously didn’t work so well, but it’s good for quick fixes and such.\n\nAlchemical Adhesive can be thrown or poured onto a place or person. After 2 rounds the solution will harden, permanently sticking objects together, and sticking people to one another or to objects. The objects must be pried apart with a DC: 16 Physique check. Throwing it is an Athletics attack with a range equal to BODYx2m.",
+    "time": "Permanent",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8acb67a1ab2a4d1b5320a000b6df1c1cd1044679"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xldBa0zpByPEtqZO"
+}

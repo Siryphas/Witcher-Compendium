@@ -1,0 +1,74 @@
+{
+  "folder": "44TqJCtCs8QOaph1",
+  "name": "Yrden",
+  "type": "spell",
+  "_id": "UeoMOcWvWzxAGgKk",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Witcher",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "basic",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Yrden creates a large magic circle on the ground around you.\nAnything that steps into that circle takes a penalty to SPD and REF equal to 1 plus 1 for every 2 points of STA spent beyond the first, up to a maximum penalty of 4.The penalty lasts until they exit the circle.\nAny incorporeal creatures that enter the circle become corporeal.",
+    "range": "3m Radius",
+    "duration": "5 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "3",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageProperties": {
+      "effects": [],
+      "appliesGlobalModifierToHit": false
+    },
+    "selfEffects": [],
+    "globalModifiers": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0dd33a54b8cf30080c80e1ed81e12074b4905acc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UeoMOcWvWzxAGgKk"
+}

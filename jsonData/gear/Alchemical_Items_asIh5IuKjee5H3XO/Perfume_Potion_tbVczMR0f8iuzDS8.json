@@ -1,0 +1,93 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Perfume Potion",
+  "type": "alchemical",
+  "_id": "tbVczMR0f8iuzDS8",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-vial-corked-purple.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 76,
+    "isHidden": false,
+    "type": "potion",
+    "avail": "Poor",
+    "effect": "Say perfume potion was created by some alchemist to appease his angry wife. It’s a precursor to perfume but if ya drink it, it’ll get ya drunk in an instant. Popular for kidnappers and high society folk as well, heh.\n\nSomeone who consumes a draught of Perfume Potion must make a DC: 16 Endurance check. Failure causes intoxication for 1d10 hours. This intoxication can only be undone by magic or Wives' Tears Potion.",
+    "time": "1d10 Hours",
+    "toxicity": "25%",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "6oSpvxxgU9CVnNtQ",
+          "name": "Intoxication",
+          "statusEffect": "intoxication",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [
+    {
+      "name": "Perfume Potion",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.tbVczMR0f8iuzDS8",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-vial-corked-purple.webp",
+      "_id": "cfkoQEQzJbAjOaTB",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Someone who consumes a draught of Perfume Potion must make a DC: 16 Endurance check. Failure causes intoxication for 1d10 hours. </p><p>This intoxication can only be undone by magic or Wives' Tears Potion.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tbVczMR0f8iuzDS8.cfkoQEQzJbAjOaTB"
+    }
+  ],
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "efe92ba547c4c5217deb1639deeb8e7c4928b55f"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tbVczMR0f8iuzDS8"
+}

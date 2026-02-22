@@ -1,0 +1,70 @@
+{
+  "folder": "FnTPKUX8XpCsmWak",
+  "name": "Elven Travel Bow",
+  "type": "weapon",
+  "_id": "zfc6xl1MxLw1QNbX",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/bows/shortbow-leaves-green.webp",
+  "system": {
+    "description": "Heh, basically it’s just a smaller version of the zefhar. The difference is the travel bow can be unstrung, letting the limbs curl in ‘til the bow’s small enough to carry in a satchel.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 575,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "4d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "200m",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 1,
+    "attackSkill": "archery",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.hrnyyauWmoVfbWmV"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5edf3a3241cefa7c6b7aa4437ed8fd42b320f390"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zfc6xl1MxLw1QNbX"
+}

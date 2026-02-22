@@ -1,0 +1,57 @@
+{
+  "folder": "pN1DIUhbQBpZFAl0",
+  "name": "Pigment",
+  "type": "spell",
+  "_id": "BP1Ut3CLF72QYUu9",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "minor gift",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "1",
+    "staminaIsVar": false,
+    "effect": "As an action, you can make a mark with your hand on a surface that has a color you desire that can optionally glow, should you desire. \nThe glowing mark raises the light level by 1 for 4m all around it (Maximum Daylight).\nOnce you have made a mark you can take an another action as long as you are within 4m to make the mark emit a flash of Glaring Light for one round after which it disappears.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "When someone within 10m of you suffers a magic fumble effect, you suffer the effect as well. \nIf you suffer a magical fumble you do not suffer a second effect.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f2f6b5d39a041ef551e9c70c5904b4a81cfd9a7a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BP1Ut3CLF72QYUu9"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "FNCni808GC7DjKYu",
+  "name": "Diagram: Stabilizing Brace",
+  "type": "diagrams",
+  "_id": "fv0UqyxLrOtYMs4U",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p><em>A stabilizin&rsquo; brace&rsquo;ll save you&rsquo;re life it you&rsquo;re aimin&rsquo; to&nbsp;take out an enemy clean. Sure, ya gotta get a clean shot&nbsp;but if ya do, your bolt&rsquo;ll fly straighter than a... well, an&nbsp;arrow I guess, heh.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 790,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 12,
+    "alchemyDC": 0,
+    "craftingTime": "2 H",
+    "craftingComponents": [
+      {
+        "id": "zdq1A8KE0YTWZuXY",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "Ds76OfZHu51Fz4hW",
+        "name": "Hardened Timber",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "IoVQJtOiRIHyt074",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "pi0CKBVBQs4ZKc0k",
+        "name": "Ester Grease",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      }
+    ],
+    "investment": 260,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.ejQOMoEhd0UQFrHl",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "44649fc0a6ed85dabd1e5f93b264ac5a4a844567"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!fv0UqyxLrOtYMs4U"
+}

@@ -1,0 +1,109 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Slip Stream",
+  "type": "spell",
+  "_id": "uydqrMu2aYTRCdCL",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Slip Stream allows you to propel yourself through the water in a current of your own creation. \nWhile swimming, your Speed Statistic is changed to 12 and you do not suffer the normal penalties for attacking and defending underwater.",
+    "range": "Self",
+    "duration": "10 Minutes",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Slip Stream",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.uydqrMu2aYTRCdCL",
+      "duration": {
+        "rounds": 10,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+      "_id": "4IjB6bMLcTtAofEb",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.spd.totalModifiers",
+          "mode": 5,
+          "value": "12",
+          "priority": null
+        }
+      ],
+      "description": "<p>Slip Stream allows you to propel yourself through the water in a current of your own creation.</p><p>While swimming, your Speed Statistic is changed to 12 and you do not suffer the normal penalties for attacking and defending underwater.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!uydqrMu2aYTRCdCL.4IjB6bMLcTtAofEb"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9a78041fcf1aa66499ca3558b6079eb7a7e0cd25"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uydqrMu2aYTRCdCL"
+}

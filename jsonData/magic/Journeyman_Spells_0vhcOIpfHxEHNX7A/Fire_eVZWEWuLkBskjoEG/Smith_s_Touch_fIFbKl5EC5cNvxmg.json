@@ -1,0 +1,115 @@
+{
+  "folder": "eVZWEWuLkBskjoEG",
+  "name": "Smith's Touch",
+  "type": "spell",
+  "_id": "fIFbKl5EC5cNvxmg",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "fire",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Smith’s Touch focuses fire magic into metal allowing you to manipulate it with your bare hands. \nWhile this spell is active, you are able to bend, shape, and manipulate metal as if it were clay. \nAdditionally, by taking an action to make a Brawling attack, you can deal 3d6 ablation damage to armor or reliability damage to a weapon. \nThis spell cannot be used on Dimeritium.",
+    "range": "2m",
+    "duration": "Active (10 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "3d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "damageType": "fire",
+    "damageProperties": {
+      "ablating": false,
+      "effects": [],
+      "damageIsAblation": true
+    }
+  },
+  "effects": [
+    {
+      "name": "Smith's Touch",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.fIFbKl5EC5cNvxmg",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "_id": "kbJBZjgNxIJNhd1P",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Smith’s Touch focuses fire magic into metal allowing you to manipulate it with your bare hands. </p><p>While this spell is active, you are able to bend, shape, and manipulate metal as if it were clay. </p><p>Additionally, by taking an action to make a Brawling attack, you can deal 3d6 ablation damage to armor or reliability damage to a weapon. </p><p>This spell cannot be used on Dimeritium.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!fIFbKl5EC5cNvxmg.kbJBZjgNxIJNhd1P"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a6faeb4a0d86ee5180776a434ca3a41f9196049c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fIFbKl5EC5cNvxmg"
+}

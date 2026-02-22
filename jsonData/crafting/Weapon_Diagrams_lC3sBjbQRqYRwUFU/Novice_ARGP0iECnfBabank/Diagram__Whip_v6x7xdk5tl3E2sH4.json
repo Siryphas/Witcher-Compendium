@@ -1,0 +1,72 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Whip",
+  "type": "diagrams",
+  "_id": "v6x7xdk5tl3E2sH4",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Ain&rsquo;t much to say &lsquo;bout a whip. Long, thin cord. Good for motivatin&rsquo; workers or incentivizin&rsquo; animals. Heh, seen some folks fight with &lsquo;em. Don&rsquo;t do a great deal of damage but great for grapplin&rsquo; weapons and limbs and what not.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 228,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 10,
+    "alchemyDC": 0,
+    "craftingTime": "2 H",
+    "craftingComponents": [
+      {
+        "id": "V8poOzotbMqjqGyf",
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      },
+      {
+        "id": "gNhvRyFMtuW2Kzd4",
+        "name": "Leather",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      }
+    ],
+    "investment": 114,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.wsRyrwCbVyJdmU1a",
+    "sourcebook": "Lords & Lands",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "16f14caf2e66a5fdebedbce00a54202380956087"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!v6x7xdk5tl3E2sH4"
+}

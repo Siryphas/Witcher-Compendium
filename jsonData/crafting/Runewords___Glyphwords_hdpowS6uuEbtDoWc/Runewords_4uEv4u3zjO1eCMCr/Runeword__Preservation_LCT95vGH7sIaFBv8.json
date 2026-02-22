@@ -1,0 +1,72 @@
+{
+  "folder": "4uEv4u3zjO1eCMCr",
+  "name": "Runeword: Preservation",
+  "type": "diagrams",
+  "_id": "LCT95vGH7sIaFBv8",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>This weapon or shield&rsquo;s Reliability increases by 5.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2300,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "vFqDgbmn6nIGhzq8",
+        "name": "Devanna Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.hi5OmC5AKkBScfPF"
+      },
+      {
+        "id": "MxhyX5bkUanQypqc",
+        "name": "Morana Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.mYrGvKak1ZRIQa1b"
+      }
+    ],
+    "investment": 1150,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.DvAa56a0S4RIHcwY",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "237bd5046f1afcb31edaa06a99b10605b67523b0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!LCT95vGH7sIaFBv8"
+}

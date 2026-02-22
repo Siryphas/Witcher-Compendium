@@ -1,0 +1,83 @@
+{
+  "folder": "7ZZhLd2xSwdOQoXm",
+  "name": "Trophy: Katakan",
+  "type": "valuable",
+  "_id": "OBZ3nGVQn6tjtjRw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/talon-white.webp",
+  "system": {
+    "description": "Creatures you damage with your attacks have a 25% chance to bleed.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Katakan",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.OBZ3nGVQn6tjtjRw",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/claws/talon-white.webp",
+      "_id": "w2qQAuy0zuEXMTob",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Creatures you damage with your attacks have a 25% chance to bleed.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!OBZ3nGVQn6tjtjRw.w2qQAuy0zuEXMTob"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0fe7302453d067ae2529763e5b93adcdd377a9af"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OBZ3nGVQn6tjtjRw"
+}

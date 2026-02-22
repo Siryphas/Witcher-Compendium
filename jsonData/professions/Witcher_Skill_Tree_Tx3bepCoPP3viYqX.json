@@ -1,0 +1,122 @@
+{
+  "name": "Witcher Skill Tree",
+  "type": "profession",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Witcher%20Icon.jpg",
+  "system": {
+    "notes": "<h1>Transmutation</h1>\n<ul>\n<li><strong>Arachas:</strong> Anyone who comes in contact&nbsp;with your saliva has a 50%&nbsp;chance of being poisoned.</li>\n<li><strong>Nekker:</strong> Your legs become stronger,&nbsp;raising your LEAP by 3m.</li>\n<li><strong>Noon Wraith:</strong> Your eyes change, and you&nbsp;aren&rsquo;t affected by light&nbsp;conditions.</li>\n<li><strong>Katakan:</strong> Your andrenal glands change,&nbsp;allowing you to regenerate 3&nbsp;HP when you deal damage.</li>\n<li><strong>Wyvern:</strong> Your muscles strengthen,&nbsp;giving you a +5 to SPD which&nbsp;carries over to RUN.</li>\n<li><strong>Troll:</strong> Your body hardens, and so do&nbsp;your bones. You do an extra&nbsp;1d6 physical damage.</li>\n<li><strong>Fiend:</strong> Your eyes change&nbsp;imperceptibly and your gaze&nbsp;becomes subtly enthralling,&nbsp;giving a +4 to Charisma,&nbsp;Seduction, and Persuasion.</li>\n<li><strong>Grave Hag:</strong> Your body changes imperceptibly,&nbsp;allowing you to gain 10&nbsp;STA by killing targets.</li>\n<li><strong>Werewolf:</strong> Your jaws strengthen and your&nbsp;teeth sharpen just a hair, giving&nbsp;you a bite attack of 2d6.</li>\n<li><strong>Griffin:</strong> Your eyes change, allowing&nbsp;you to see for a great distance,&nbsp;giving a +4 to Awareness.</li>\n</ul>",
+    "definingSkill": {
+      "skillName": "Witcher Training",
+      "stat": "int",
+      "definition": "Most of a Witcher’s early life is spent within the walls of their keep, studying huge, dusty tomes and going through hellish combat training. Many have argued that the Witcher’s greatest weapon is their knowledge of monsters and their adaptability in any situation. When in a hostile environment or difficult terrain, a Witcher can lessen the penalties by half their Witcher Training value (minimum 1). Witcher Training can also be used in any situation that you would normally use Monster Lore for.",
+      "level": null
+    },
+    "skillPath1": {
+      "pathName": "The Spellsword",
+      "skill1": {
+        "skillName": "Meditation",
+        "stat": "none",
+        "definition": "<p>A Witcher can enter a meditative trance which grants all the benefits of sleeping but allows them to remain vigilant. While meditating a Witcher is considered awake for the purpose of noticing anything within double their Meditation value in meters.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Magical Source ",
+        "stat": "none",
+        "definition": "<p>As a Witcher uses signs more often their body becomes more used to the effort. For every 2 points a Witcher has in Magical Source they gain 1 points of Vigor threshold. When this ability reaches level 10, your maximum Vigor Threshold becomes 7.</p>\n<p>This skill can be trained like other skills.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Heliotrope ",
+        "stat": "will",
+        "definition": "When a Witcher is targeted by a spell, invocation, or hex they can roll Heliotrope to attempt to negate the effects. They must roll a Heliotrope roll that equals or beats the opponent’s roll and expend an amount of Stamina equal to half the Stamina spent to cast the magic.",
+        "level": null
+      }
+    },
+    "skillPath2": {
+      "pathName": "The Mutant",
+      "skill1": {
+        "skillName": "Iron Stomach",
+        "stat": "none",
+        "definition": "<p>After decades of drinking toxic witcher potions, witcher bodies adapt to the toxins. A witcher can endure 5% more toxicity from drinking potions and decoctions per 2 points they spend on Iron Stomach. This skill can be trained like other skills. At level 10, a witcher&rsquo;s maximum toxicity is 150%.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Frenzy",
+        "stat": "none",
+        "definition": "<p>When poisoned, a witcher goes into a frenzy and deals an extra 1 melee damage per level in Frenzy. While in a Frenzy, your single goal is to get to a place of safety or kill the target that poisoned you. When the poison wears off, the Frenzy ends. You can attempt to end Frenzy early with a DC:15 Endurance roll.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Transmutation ",
+        "stat": "body",
+        "definition": "<p>When taking decoctions a Witcher can roll Transmutation at DC:18. A success allows their body to assimilate slightly more of the mutagen than usual and gain a bonus based on which decoction they take. The decoction lasts half as long as it normally would. The extra mutations are too subtle to spot.</p>",
+        "level": null
+      }
+    },
+    "skillPath3": {
+      "pathName": "The Slayer",
+      "skill1": {
+        "skillName": "Parry Arrows",
+        "stat": "dex",
+        "definition": "<p>A Witcher can roll Parry Arrows at a -3 to deflect physical projectiles. When parrying, the Witcher can choose a target within 10m. That target must take a defense action against the Witcher&rsquo;s Parry Arrows roll or be Staggered by the flying projectile.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Quick Strike",
+        "stat": "ref",
+        "definition": "<p>After a Witcher takes their turn they can spend 5 STA and make a Quick Strike roll at a DC equal to their opponent&rsquo;s REFx3. On success, they make another single strike in that round. This attack must be made against the opponent they rolled against, but can include disarms, trips, and other attacks.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Whirl",
+        "stat": "ref",
+        "definition": "<p>By spending 5 STA per round, a witcher can enter a Whirl, where the witcher makes one attack against everyone within sword range each turn, with their Whirl roll acting as the attack roll. The witcher can only maintain this Whirl, dodge, and move 2m each round. Doing anything else or being hit halts the Whirl.</p>",
+        "level": null,
+        "skillAttack": {
+          "isAttack": true,
+          "usesWeapon": true,
+          "attackOptions": [
+            "melee"
+          ],
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry"
+          ],
+          "applyMeleeBonus": true
+        }
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.professions.Item.aFH82SNDQQtExB4Y",
+      "hash": "b063616b8d96f9fa91af439552d84c6c5cb053e2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.22.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "witcher-archive",
+      "uuid": null,
+      "coreVersion": "10.291",
+      "systemId": "TheWitcherTRPG",
+      "systemVersion": "0.96"
+    }
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "Tx3bepCoPP3viYqX",
+  "sort": 100000,
+  "_key": "!items!Tx3bepCoPP3viYqX"
+}

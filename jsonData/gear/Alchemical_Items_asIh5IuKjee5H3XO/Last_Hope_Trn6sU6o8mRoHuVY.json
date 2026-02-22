@@ -1,0 +1,82 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Last Hope",
+  "type": "alchemical",
+  "_id": "Trn6sU6o8mRoHuVY",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-tied-green.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 200,
+    "isHidden": false,
+    "type": "potion",
+    "avail": "Rare",
+    "effect": "A failed replica of the healing medicine of the dryads of Brokilon, Last Hope can repair the most grievous wounds at a cost. Drinking it treats 1 critical wound the drinker has, but that critical wound will not heal unless a Doctor makes a DC: 24 Healing Hands check to reapply the critical wound and then treats it again with Healing Hands.",
+    "time": "Immediate",
+    "toxicity": "75%",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Last Hope",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.Trn6sU6o8mRoHuVY",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-tied-green.webp",
+      "_id": "6RMU7vpt5miNxUky",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>A failed replica of the healing medicine of the dryads of Brokilon, Last Hope can repair the most grievous wounds at a cost. Drinking it treats 1 critical wound the drinker has, but that critical wound will not heal unless a Doctor makes a DC: 24 Healing Hands check to reapply the critical wound and then treats it again with Healing Hands.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Trn6sU6o8mRoHuVY.6RMU7vpt5miNxUky"
+    }
+  ],
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c156967c926959c7be31968a3a08a57a228c139d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Trn6sU6o8mRoHuVY"
+}

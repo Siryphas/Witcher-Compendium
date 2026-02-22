@@ -1,0 +1,95 @@
+{
+  "folder": "xKQ1ZCwvFFMCp1a2",
+  "name": "Marker",
+  "type": "weapon",
+  "_id": "VQbVfx6KE4i9SieN",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/environment/traps/trap-jaw-tan.webp",
+  "system": {
+    "description": "Covers those in the blast in a bright paint and a powerful odor that can be smelled from a mile away. The paint lasts for a full day and grants a +5 to spotting/ tracking the target.",
+    "quantity": 1,
+    "weight": 2,
+    "cost": 57,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "none",
+    "range": "8m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "+5 to Spotting",
+        "percentage": ""
+      },
+      {
+        "id": "_ckffwqeok",
+        "name": "Smell - 1 Mile",
+        "percentage": ""
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": true,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "+5 to Spotting",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_ckffwqeok",
+          "name": "Smell: 1 Mile",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "575f9e90a14d1e61e593891777bdb973a7ad3d33"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VQbVfx6KE4i9SieN"
+}

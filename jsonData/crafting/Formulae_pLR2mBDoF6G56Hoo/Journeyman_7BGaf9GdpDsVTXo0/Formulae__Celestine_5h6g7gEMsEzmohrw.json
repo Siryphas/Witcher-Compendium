@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Celestine",
+  "type": "diagrams",
+  "_id": "5h6g7gEMsEzmohrw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Every country&rsquo;s got their vices and Nilfgaard ain&rsquo;t immune. This stuff cropped up a while ago in Nazair and now it&rsquo;s spreadin&rsquo;. Ingest the stuff and ya start seein&rsquo; sparklin&rsquo; lights and hearin&rsquo; pretty sounds and whatnot.</em></p>\n<p>Consuming a dose of Celestine causes the target to hallucinate colorful lights and pleasant sounds. This makes focusing difficult and imposes a -2 penalty to Awareness and any other task that requires focus. This condition ends in 2d10 minutes, but a DC: 14 Endurance check ends the condition early.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 93,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 2,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.N4YByXzYXNRpaH0B",
+    "sourcebook": "Lords & Lands",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4541c2c6190924cb4623eda23a68245fbde69dc0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!5h6g7gEMsEzmohrw"
+}

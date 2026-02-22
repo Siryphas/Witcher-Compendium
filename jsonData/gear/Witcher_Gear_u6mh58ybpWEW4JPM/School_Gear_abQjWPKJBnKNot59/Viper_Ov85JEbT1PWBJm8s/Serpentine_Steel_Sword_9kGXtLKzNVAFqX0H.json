@@ -1,0 +1,108 @@
+{
+  "folder": "Ov85JEbT1PWBJm8s",
+  "name": "Serpentine Steel Sword",
+  "type": "weapon",
+  "_id": "9kGXtLKzNVAFqX0H",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Viper%20Steel%20Sword.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 2.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "WITCHER",
+    "damage": "4d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_h5mzisq5z",
+        "name": "Meteorite",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_k09o084mg",
+        "name": "Poison",
+        "statusEffect": "poison",
+        "percentage": 30
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "sourcebook": "A Witcher's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "isMeteorite": true,
+      "effects": [
+        {
+          "id": "_h5mzisq5z",
+          "name": "Meteorite",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_k09o084mg",
+          "name": "Armor Piercing",
+          "statusEffect": "",
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "g4NvPTpMmaxtyZ1k",
+          "name": "Poison",
+          "statusEffect": "poison",
+          "percentage": 30,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.CWwVsjH6HQ8UPpso"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c4eacbcb219c0c19894cca78163611f70162ceb5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9kGXtLKzNVAFqX0H"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Wives' Tears Potion",
+  "type": "diagrams",
+  "_id": "zGrtfOAv13YQYUrB",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>This potion&rsquo;s popular in large cities where there&rsquo;re a lot of tavern. Some alchemist threw this forumla together to counteract drunkard husbands throwin&rsquo; their weight around after a few too many drinks.</em></p>\n<p>Imbibing Wives' Tears Potion negates the effects of intoxication. Immediately after drinking a dose of Wives' Tears Potion the imbiber sobers up.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 28,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "10 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 1,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.f4opIbbrvI3KHGfq",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a5c4cc0d73bb50f2f6c2f7fe18727072268f9dda"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!zGrtfOAv13YQYUrB"
+}

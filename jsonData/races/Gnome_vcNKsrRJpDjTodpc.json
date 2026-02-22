@@ -1,0 +1,265 @@
+{
+  "name": "Gnome",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Gnome%20Icon.png",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Pleasant Demeanor",
+      "description": "<p>Across the continent, gnomes are known for their fun-loving joyous personalities and puckish nature. Among humans, gnomes are often considered the most pleasant of the Non-humans. Gnomes gain an inherent +1 to Charisma.</p>"
+    },
+    "perk2": {
+      "name": "Scent Tracking",
+      "description": "<p>A gnome&rsquo;s keen sense for detail extends to all their senses including their sense of smell. Gnomes gain an inherent +1 to their Awareness skill, as well as the ability to track things by scent alone.</p>"
+    },
+    "perk3": {
+      "name": "Eye for Detail",
+      "description": "<p>While elves and dwarves are among the greatest craftsmen in the world, gnomes possess the finest eye for detail on the entire continent making them excellent at many different crafts. It&rsquo;s not unusual to find a gnome who trades in gem-cutting, sword smith, and alchemy all at the same time. Gnomes gain an inherent +2 to any 3 Craft Skills they choose. This bonus Ignores the modifier for learning Difficult Skill.</p>"
+    },
+    "perk4": {
+      "name": "Small Stature",
+      "description": "<p>Gnomes are the smallest race on the Continent, measuring in around 1m tall on average. While they can be just as resilient as other races, they are generally physically weaker. Gnomes take an inherent -5 to Physique and calculate their hand-to-hand damage, bonus melee damage, and Encumbrance as though their BODY was 3 points lower. However, a gnome can slip into any area at least 0.5m wide with no issue and can fully conceal themselves behind an item or creature at least 1m by 1m.</p>"
+    },
+    "socialStanding": {
+      "north": "tolerated",
+      "nilfgaard": "equal",
+      "skellige": "equal",
+      "dolBlathanna": "equal",
+      "mahakam": "equal"
+    }
+  },
+  "effects": [
+    {
+      "name": "Pleasant Demeanor",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.vcNKsrRJpDjTodpc",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Gnome%20Icon.png",
+      "_id": "B3xTOtKI7lmJlNub",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.emp.charisma.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Across the continent, gnomes are known for their fun-loving joyous personalities and puckish nature. Among humans, gnomes are often considered the most pleasant of the Non-humans.</span></p><p><span style=\"font-family:Signika, sans-serif\">Gnomes gain an inherent +1 to Charisma.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!vcNKsrRJpDjTodpc.B3xTOtKI7lmJlNub"
+    },
+    {
+      "name": "Scent Tracking",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.vcNKsrRJpDjTodpc",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Gnome%20Icon.png",
+      "_id": "YzT3Mi3JpllUA53t",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.awareness.activeEffectModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">A gnome’s keen sense for detail extends to all their senses including their sense of smell. Gnomes gain an inherent +1 to their Awareness skill, as well as the ability to track things by scent alone.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!vcNKsrRJpDjTodpc.YzT3Mi3JpllUA53t"
+    },
+    {
+      "name": "Eye for Detail",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.vcNKsrRJpDjTodpc",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Gnome%20Icon.png",
+      "_id": "te1YVwpBcrYLJSVb",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "+3",
+          "priority": null
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "+3",
+          "priority": null
+        },
+        {
+          "key": "",
+          "mode": 2,
+          "value": "+3",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">While elves and dwarves are among the greatest craftsmen in the world, gnomes possess the finest eye for detail on the entire continent making them excellent at many different crafts. It’s not unusual to find a gnome who trades in gem-cutting, sword smith, and alchemy all at the same time. Gnomes gain an inherent +2 to any 3 Craft Skills they choose. This bonus ignores the modifier for learning Difficult Skill.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!vcNKsrRJpDjTodpc.te1YVwpBcrYLJSVb"
+    },
+    {
+      "name": "Small Statue",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.vcNKsrRJpDjTodpc",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Gnome%20Icon.png",
+      "_id": "uzbE61zuLlwb4Gl7",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.body.physique.activeEffectModifiers",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        },
+        {
+          "key": "system.attackStats.meleeBonus",
+          "mode": 3,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "system.coreStats.enc.max",
+          "mode": 3,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Gnomes are the smallest race on the Continent, measuring in around 1m tall on average. While they can be just as resilient as other races, they are generally physically weaker. Gnomes take an inherent -5 to Physique and calculate their hand-to-hand damage, bonus melee damage, and Encumbrance as though their BODY was 3 points lower. However, a gnome can slip into any area at least 0.5m wide with no issue and can fully conceal themselves behind an item or creature at least 1m by 1m.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!vcNKsrRJpDjTodpc.uzbE61zuLlwb4Gl7"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.zj827J6c80D3Fubw",
+      "hash": "4820f1d2223e7a7ab2b5478c45c0ca711128f9ba"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "vcNKsrRJpDjTodpc",
+  "sort": 900000,
+  "_key": "!items!vcNKsrRJpDjTodpc"
+}

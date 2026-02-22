@@ -1,0 +1,63 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Freya's Bravery (Freya)",
+  "type": "spell",
+  "_id": "Jx0DDrgrahKIcCxx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Freya%201.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Calling upon the power of the goddess Freya, you summon her spirit into your body, creating a glow around yourself which emanates 20m in all directions.\nEvery person within that area is emboldened by Modron Freya’s love and guidance. They become immune to fear and gain 25 Health Points for the duration of the spell. If they leave the area of the invocation, its effects last for 1d6 rounds. These rounds renew if the person re-enters the area of the invocation and leaves again. \nThis invocation affects those who don’t believe in Freya, but the power can be withheld from anyone the caster chooses.",
+    "range": "20m Radius",
+    "duration": "20 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "20",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "visualEffectDuration": null,
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "86fc1253dd40aa433676e9be67a3e6e507c3bde9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Jx0DDrgrahKIcCxx"
+}

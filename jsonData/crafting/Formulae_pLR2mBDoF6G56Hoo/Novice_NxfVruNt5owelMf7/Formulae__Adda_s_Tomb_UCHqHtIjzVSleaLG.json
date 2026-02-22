@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Adda's Tomb",
+  "type": "diagrams",
+  "_id": "UCHqHtIjzVSleaLG",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Don&rsquo;t know whether this is a strange coincidence or really based on Princess Adda. Either way, it&rsquo;s good for keepin&rsquo; evidence untouched and keepin&rsquo; food fresh. Gives food a weird aftertaste though.</em></p>\n<p>A dose of Adda's Tomb can be poured onto perishable foods or even corpses. Treated perishables will not begin to rot or spoil for 1d10 days. Preserving a human-sized body requires 2 doses.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 27,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 13,
+    "craftingTime": "5 Rounds",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 1,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "sourcebook": "Corebook",
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.uGs1k7lqQpSYm3Xr",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bd8f3762af444f1345518474e9ac33702abcaa0c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!UCHqHtIjzVSleaLG"
+}

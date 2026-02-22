@@ -1,0 +1,90 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Staff",
+  "type": "diagrams",
+  "_id": "TUlltjwwBJAZ4euf",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Don&rsquo;t tell anyone I sold you this, got it? My friend, only safe place to go with a mage&rsquo;s staff is Skellige, or maybe Zerrikania or Ofier. It may just be a glowy stick to a non-magic user but a staff amplifies a mage&rsquo;s power, lettin&rsquo; &lsquo;em use more magic than normal. But with the hatred of mages in the North and the distrust of mages in the South it&rsquo;s also a great big target.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 502,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "FFhFsXkBoytxnjWt",
+        "name": "Timber",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "baBcKQZdI9PgDVFb",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "9QqQc5p0U85J1wk4",
+        "name": "Fifth Essence",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "uuCIAEW3vauNBA0O",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "utNJV3wlpbaC8eGD",
+        "name": "Wax",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      }
+    ],
+    "investment": 250,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.R4d4PjKoTDmUMkEx",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "536c13b9a05d63e1436c4594beeafb6fc1936bb4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!TUlltjwwBJAZ4euf"
+}

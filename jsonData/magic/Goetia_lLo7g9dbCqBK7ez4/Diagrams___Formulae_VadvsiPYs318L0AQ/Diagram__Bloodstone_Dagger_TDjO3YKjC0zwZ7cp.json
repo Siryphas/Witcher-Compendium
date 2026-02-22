@@ -1,0 +1,101 @@
+{
+  "folder": "VadvsiPYs318L0AQ",
+  "name": "Diagram: Bloodstone Dagger",
+  "type": "diagrams",
+  "_id": "TDjO3YKjC0zwZ7cp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>A long steel dagger with a flamberge blade inscribed with ancient runes. The most impressive and distinctive aspect of this dagger is a polished bloodstone set into its handle. Bloodstone daggers are carried by cultists of many creeds, but the original bloodstone daggers were created as tools for goetic practitioners. Now a days they are difficult to find and it&rsquo;s rare to find someone crafting them thanks to their ominous reputation.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 500,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 14,
+    "alchemyDC": 0,
+    "craftingTime": "4h",
+    "investment": 254,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "G1zMDcQjqy0N5MCh",
+        "name": "Ashes",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      },
+      {
+        "id": "Bl3ajhtRHoeLh6sF",
+        "name": "Beast Bones",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "MQOXQnvt8vGvjswJ",
+        "name": "Darkening Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "RdscifUrmgUOxAhE",
+        "name": "Etching Acid",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "iLkgBobdQZ1H4kqp",
+        "name": "Sharpening Grit",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "ud6Hjjp1htMMHMTc",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "name": "Gemstone",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.FG4KO7VNnfaauSvU",
+        "id": "ZzzXLHXqd4o5iem6"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.magic.Item.cruklKIn1C4BaSa7"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "151ace2472b769b52fc2605793a9f61c4c7a79b6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!TDjO3YKjC0zwZ7cp"
+}

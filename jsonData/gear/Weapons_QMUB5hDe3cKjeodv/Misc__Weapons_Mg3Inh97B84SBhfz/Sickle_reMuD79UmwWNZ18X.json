@@ -1,0 +1,77 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Sickle",
+  "type": "weapon",
+  "_id": "reMuD79UmwWNZ18X",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/sickles/sickle-curved.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 76,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "1d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Grappling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Peasant Profession",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 1065625,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f9bc4dc519c92a211d42a639904d53ec819dab9d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!reMuD79UmwWNZ18X"
+}

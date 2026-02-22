@@ -1,0 +1,84 @@
+{
+  "folder": "BeMZz917EOy5IF58",
+  "name": "Iron Staff",
+  "type": "weapon",
+  "_id": "bmISlk8AjX78TZtW",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-crescent-purple.webp",
+  "system": {
+    "description": "Sometimes a mage might need a bit more protection or, hell, their magic may fail them. In that case ya got an iron staff. Basically it’s just a big rod of iron with fifth essence coursin’ through it. Sturdier than a normal staff and hits like a mace. Ya can even block blades with it a bit.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 675,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "3d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_4sb5a9qiz",
+        "name": "Focus (2)",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.jhMLrnaDADTUdmlE"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5411228dbe77e2726847c299f8cd059146d47615"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!bmISlk8AjX78TZtW"
+}

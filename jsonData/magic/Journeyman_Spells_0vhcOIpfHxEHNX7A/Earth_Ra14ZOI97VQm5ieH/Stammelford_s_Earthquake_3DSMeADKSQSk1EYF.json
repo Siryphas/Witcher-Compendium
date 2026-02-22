@@ -1,0 +1,66 @@
+{
+  "folder": "Ra14ZOI97VQm5ieH",
+  "name": "Stammelford's Earthquake",
+  "type": "spell",
+  "_id": "3DSMeADKSQSk1EYF",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "earth",
+    "domain": "",
+    "stamina": "12",
+    "staminaIsVar": false,
+    "effect": "Stammelford’s Earthquake allows you to disrupt the ground in a 10m area and create a jagged, crumbling terrain which puts everyone in the area at a -2 to Reflex and a -3 to SPD. \nSmall structures on the shattered ground have a 10% chance of collapsing. \nEach round, a creature in the spell’s area must make an Athletics roll or sink into the crumbling ground, which causes them to suffocate until they make a successful Athletics check to climb out. \nAfter the duration of the spell ends, the ground stops churning but it will remain shattered.",
+    "range": "30m",
+    "duration": "1d10 Rounds",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "visualEffectDuration": null,
+    "globalModifiers": [],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0c56a87b38d17af2396feebc645983e5f630fbb4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!3DSMeADKSQSk1EYF"
+}

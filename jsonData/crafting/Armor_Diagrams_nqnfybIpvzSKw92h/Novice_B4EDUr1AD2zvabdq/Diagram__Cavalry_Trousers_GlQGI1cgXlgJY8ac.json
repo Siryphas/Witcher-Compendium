@@ -1,0 +1,72 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Cavalry Trousers",
+  "type": "diagrams",
+  "_id": "GlQGI1cgXlgJY8ac",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>&lsquo;Less they&rsquo;re a dragoon your average cavalryman&rsquo;s probably not gonna wear a ton of armor. These dark trouser are only reinforced by leather straps.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 112,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 13,
+    "alchemyDC": 0,
+    "craftingTime": "7 H",
+    "craftingComponents": [
+      {
+        "id": "peK88Ei9paut7Gxm",
+        "name": "Linen",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "eoPzzbhNvxjC95yk",
+        "name": "Thread",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      }
+    ],
+    "investment": 57,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.OhrBeeRj1lbWuo6W",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "52d4ce6b70f1d7e7055bc52c0a3478c1d741c3d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!GlQGI1cgXlgJY8ac"
+}

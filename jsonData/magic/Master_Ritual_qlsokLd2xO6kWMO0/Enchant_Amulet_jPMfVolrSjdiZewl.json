@@ -1,0 +1,56 @@
+{
+  "folder": "qlsokLd2xO6kWMO0",
+  "name": "Enchant Amulet",
+  "type": "spell",
+  "_id": "jPMfVolrSjdiZewl",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "Variable",
+    "staminaIsVar": false,
+    "effect": "By inlaying a common amulet with gemstones etched with magic glyphs you create an enchanted amulet that stores the knowledge of casting certain spells/invocations. \nWhen creating a magic amulet, a character must spend the required STA for each spell/invocation cast. If a spell/invocation has an active duration, the caster must also spend enough STA to sustain it for 4 rounds.\nWhen creating an amulet, the caster may not use a magical focus. \nEvery spell/invocation to be imbued in the amulet must be cast quickly in succession, without taking any other action in-between, otherwise the Crafting process fails.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "Simple Amulet (x1), Perfect Gemstone (1 Per Spell/Invocation), Fifth Essence (x2), Runewright’s Tools",
+    "alternateComponents": "",
+    "preparationTime": "15 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "A Tome of Chaos",
+    "difficultyCheck": "18",
+    "cost": 1414,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c664cb9774da85f474a42001ac02c41e1dee8d32"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jPMfVolrSjdiZewl"
+}

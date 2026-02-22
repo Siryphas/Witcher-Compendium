@@ -1,0 +1,56 @@
+{
+  "folder": "ZrCMFn0LrXOSBynz",
+  "name": "Animate Armor",
+  "type": "spell",
+  "_id": "JGAfzf3yTRIKJzlD",
+  "img": "icons/magic/symbols/runes-star-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "14",
+    "staminaIsVar": false,
+    "effect": "By assembling a full suit of armor with a golem heart at its core and infusing the heart with magic you can animate the suit of armor as a loyal servant. \nUpon performing this ritual, the suit of armor you used becomes animate and uses the Living Armor stat block except for its armor Stopping Power which is equal to the armor you used. \nThe living armor is not a sapient creature and is eternally loyal to its creator. \nIt will perform any task given by its creator to the letter.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "Head Armor (x1), Torso Armor (x1), Leg Armor (x1), Fifth Essence (x3), Infused Dust (x3), Golem Heart (x1)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "A Tome of Chaos",
+    "difficultyCheck": "18",
+    "cost": 851,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f2db45527dce2340e9232b86217df424162825a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JGAfzf3yTRIKJzlD"
+}

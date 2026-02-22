@@ -1,0 +1,67 @@
+{
+  "folder": "YW25JdgIlwCTZufs",
+  "name": "Wolven Armor",
+  "type": "armor",
+  "_id": "Y8ilkkwRkav8Hd0w",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Wolf%20Armor.jpg",
+  "system": {
+    "description": "Critical Momentum:\nWhenever you cause a Critical Wound using one of your Witcher weapons you can immediately attempt a single Strike with a held weapon at no additional penalty and without spending any extra Stamina.",
+    "quantity": 1,
+    "weight": 14,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 14,
+    "torsoMaxStopping": 14,
+    "leftArmStopping": 14,
+    "leftArmMaxStopping": 14,
+    "rightArmStopping": 14,
+    "rightArmMaxStopping": 14,
+    "leftLegStopping": 14,
+    "leftLegMaxStopping": 14,
+    "rightLegStopping": 14,
+    "rightLegMaxStopping": 14,
+    "type": "Medium",
+    "avail": "WITCHER",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Critical Momentum"
+      }
+    ],
+    "encumb": 1,
+    "location": "FullCover",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.9gKe27YtB19cw1Fq"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1a0a9ffcac88d50a9caf7d1872e142fdddd6620b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Y8ilkkwRkav8Hd0w"
+}

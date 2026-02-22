@@ -1,0 +1,102 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Lamia",
+  "type": "diagrams",
+  "_id": "RmWAy9oon1yEL3bT",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>If you&rsquo;re looking for a real brutal weapon&mdash;somethin&rsquo; to flay a man alive&mdash;ya came to the right place. Lamia&rsquo;s a long, braided whip with metal barbs that&rsquo;ll tear the flesh off a man in no time. The ld head of Novigrad&rsquo;s secret police loved these things. Hear the temple guards still carry &lsquo;em as &ldquo;badges of office&rdquo;.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 937,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "8 H",
+    "craftingComponents": [
+      {
+        "id": "MZkKESHE2erpQSpy",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "BCMffuZitYlVk3it",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "xiqQVvQGh2BSTBpq",
+        "name": "Sharpening Grit",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "rNd5QhUUlJ9IhbQA",
+        "name": "Dark Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "nMDOhpmGI3uu98xq",
+        "name": "Tretogor Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nQ3znBzgY0YQFTa4"
+      },
+      {
+        "id": "43P6UXDCiILPqLK8",
+        "name": "Oil",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      },
+      {
+        "id": "dxxpPczk3hixK42t",
+        "name": "Coal",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.0T5Hakf12eEtR5Hc"
+      }
+    ],
+    "investment": 487,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.XVc7R9sWkwRZsgXa",
+    "sourcebook": "Lords & Lands",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e0852a10e2d4e6a2240ac588dc345b6bb80cecd5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!RmWAy9oon1yEL3bT"
+}

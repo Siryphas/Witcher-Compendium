@@ -1,0 +1,42 @@
+{
+  "folder": "fZRWJhgH6OHC2FoK",
+  "name": "Ice Skates",
+  "type": "valuable",
+  "_id": "J9N7RxNJnWBS2J6o",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Transportation/Ice%20Skates.jpg",
+  "system": {
+    "description": "While ice skating, you ignore the effects of Snow and Ice conditions. \nTreat ice skating as being mounted on a horse with a +2 Control Modifier and a SPD of 12 that is incapable of charging or ramming. \nAdditionally, making a Control check on ice skates is also a little different:\n~REF + Athletics skill + Control Mod. + 1d10\n\nIf you fail a Control check on ice skates, roll once on the\nIce Skates Control Loss table.\n\n~1-2 Skid: Slide 1d6 meters sideways in the direction\nof travel. If you hit an object, you stop.\n\n~3-4 Stumble: You stumble. Make a DC:15 Athletics\ncheck to stay standing. If you fall you are prone.\n\n~5-6 Stumble: You stumble. Make a DC:20 Athletics\ncheck to stay standing. If you fall you are prone.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 100,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "clothing",
+    "avail": "Common",
+    "effect": "",
+    "conceal": "S",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Book of Tales"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e463bacb71cf6defe9b5ee708ba22ba7e5c4e7cf"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!J9N7RxNJnWBS2J6o"
+}

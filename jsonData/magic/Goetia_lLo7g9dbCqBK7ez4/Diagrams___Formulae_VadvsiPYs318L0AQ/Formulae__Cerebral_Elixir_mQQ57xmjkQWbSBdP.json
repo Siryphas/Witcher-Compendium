@@ -1,0 +1,113 @@
+{
+  "folder": "VadvsiPYs318L0AQ",
+  "name": "Formulae: Cerebral Elixir",
+  "type": "diagrams",
+  "_id": "mQQ57xmjkQWbSBdP",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-magical.webp",
+  "system": {
+    "description": "<p>An elixir composed of Hallucinogen infused with Mandrake Root, Hellebore Petals, Crow&rsquo;s Eye, wolfsbane, and Feline Brain Matter macerated in Alcohest.<br>The concoction must be filtered through Han Fiber and mixed with Silver Shavings.&nbsp;<br>The elixir must be consumed at the beginning of the summoning ritual.&nbsp;<br>The Elixir lasts for 24 hours and while under its effects if you cannot be possessed by a Bes.&nbsp;<br>If you manage to drink this Elixir while possessed by a Bes, the Bes is immediately forced out of your body.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1332,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "bomb",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "10h",
+    "investment": 666,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "tGG07B57eF2pykOv",
+        "name": "Alcohest",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.cfFZ0JbrvtseL1LI"
+      },
+      {
+        "id": "hMokK8sldL9MxCKx",
+        "name": "Feline Brain",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.biHrFfnwJCAZGphu"
+      },
+      {
+        "id": "qfKclQipAz5Gyz4Y",
+        "name": "Hallucinogen",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.dWZKH2yyWPpheBmJ"
+      },
+      {
+        "id": "8T7tqCGYICvM1UOl",
+        "name": "Hellebore Petals",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Bf19LdXrkXInkiFc"
+      },
+      {
+        "id": "DcHX7DM70cjmVOe2",
+        "name": "Mandrake Root",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ljPHnNFYiDXtmNpv"
+      },
+      {
+        "id": "xDIBOHGeQUrusCyW",
+        "name": "Crow's Eye",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.sJs8YWzc8v4OMrnc"
+      },
+      {
+        "id": "EvDG7bB018Ld98aT",
+        "name": "Wolfsbane",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rQJJbRS0v1ipgk7w"
+      },
+      {
+        "id": "yNzTpUs70WQDosle",
+        "name": "Silver",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.PuuOiiIej1l4GFdC"
+      },
+      {
+        "id": "xnF4Z1lNKy0lPzgo",
+        "name": "Han Fiber",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.8s7LCLtg7Q12BpNB"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.magic.Item.VPyWr9h1RohbpRrM"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "250a0a1eb8bab4a846f9b2d1e628374aa29a060b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!mQQ57xmjkQWbSBdP"
+}

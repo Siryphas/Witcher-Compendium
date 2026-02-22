@@ -1,0 +1,57 @@
+{
+  "folder": "b76iD5vblJREYrjg",
+  "name": "Cadfan's Synthesis",
+  "type": "spell",
+  "_id": "sYlOxpw9SRQETBwr",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Cadfan’s Synthesis is a highly complex ritual created by the infamous necromancer Cadfan of Ebbing before his disappearance. \nThe ritual partially animates a great number of corpses, binding them together into a single amalgamated creature that can move and act on your commands. \nThe creature you create is a Corpse Amalgam. \nLike a golem, it will perform any task given by its creator to the letter but is no longer capable of higher thought.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "10 Corpses (from creatures killed within the last 24 hours), Chalk (x5), Tanning Herbs (x10), Lunar Shards (x1), Hellebore Petals (x2), Ducal Water (x3), Fifth Essence (x10), Candles (x10), Crow’s Eye (x5), Specter Dust (x5), Essence of Wraith (x5)",
+    "alternateComponents": "",
+    "preparationTime": "15 Rounds",
+    "dificultyCheck": "22",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d080f765131ffc05bc27f96c5089a2978c090a3b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sYlOxpw9SRQETBwr"
+}

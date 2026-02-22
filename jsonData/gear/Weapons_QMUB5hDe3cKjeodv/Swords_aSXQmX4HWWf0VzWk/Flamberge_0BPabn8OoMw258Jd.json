@@ -1,0 +1,78 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Flamberge",
+  "type": "weapon",
+  "_id": "0BPabn8OoMw258Jd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-flamberge.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 1025,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": -1,
+    "avail": "Rare",
+    "damage": "6d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4KbLkwYZIGkPanj3"
+  },
+  "effects": [],
+  "sort": 950000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "af710c28352c9dd5cf06a04950d68746d2727257"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0BPabn8OoMw258Jd"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "qlH2nWMWutV4oD4E",
+  "name": "Poinard",
+  "type": "weapon",
+  "_id": "zKBID0z2i7ycSEto",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/daggers/dagger-straight-cracked.webp",
+  "system": {
+    "description": "Heh, a good old-fashioned Temerian design. Long, slim, and lightweight. I got stuck fightin’ a black one at the Battle of Sodden with one of these. He broke six of my ribs, but I’m still here and he’s not.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 350,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Poor",
+    "damage": "2d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "S",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "smallblades",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.JJC7UmSUj0Za4EoT",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d104d24f918ddf8c0a253f104f607b85de037524"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zKBID0z2i7ycSEto"
+}

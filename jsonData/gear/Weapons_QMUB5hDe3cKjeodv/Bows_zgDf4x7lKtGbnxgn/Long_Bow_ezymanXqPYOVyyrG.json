@@ -1,0 +1,70 @@
+{
+  "folder": "zgDf4x7lKtGbnxgn",
+  "name": "Long Bow",
+  "type": "weapon",
+  "_id": "ezymanXqPYOVyyrG",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/bows/longbow-leather-green.webp",
+  "system": {
+    "description": "The long bow’s the predecessor to the crossbow. Personally, think they’re large and unwieldy. But hey, easy to say that when you’re shorter than the bow. Elves swear by the long bow and in their hands it’s probably the deadliest ranged weapon short of a damn ballista. Humans generally moved to the crossbow, but down in Nilfgaard they’ve got plenty of archers, all deadly and perfectly willin’ to prove it.",
+    "quantity": "1",
+    "weight": 2,
+    "cost": 475,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "4d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "200m",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 1,
+    "attackSkill": "archery",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.o8LMdwxl6TMcZ8i3"
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e8b87a938efbf3a8fb33ed81d47d6e7e3f5671cf"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ezymanXqPYOVyyrG"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "Ov85JEbT1PWBJm8s",
+  "name": "Serpentine Armor",
+  "type": "armor",
+  "_id": "5vsXy9BzEzWNbsTg",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Viper%20Armor.jpg",
+  "system": {
+    "description": "Critical Riposte:\nWhenever you roll more than 4 points higher than an attacker when making a Parry attempt with one of your Witcher weapons you can immediately attempt a single Strike with a held weapon at no additional penalty and without spending any extra Stamina.",
+    "quantity": 1,
+    "weight": 5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 8,
+    "torsoMaxStopping": 8,
+    "leftArmStopping": 8,
+    "leftArmMaxStopping": 8,
+    "rightArmStopping": 8,
+    "rightArmMaxStopping": 8,
+    "leftLegStopping": 8,
+    "leftLegMaxStopping": 8,
+    "rightLegStopping": 8,
+    "rightLegMaxStopping": 8,
+    "type": "Light",
+    "avail": "WITCHER",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Critical Riposte"
+      }
+    ],
+    "encumb": 0,
+    "location": "FullCover",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YtzgRQq2l3Iu55vG"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6387ac99ae1d2a6c77560dea7500d9db8f213f0c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5vsXy9BzEzWNbsTg"
+}

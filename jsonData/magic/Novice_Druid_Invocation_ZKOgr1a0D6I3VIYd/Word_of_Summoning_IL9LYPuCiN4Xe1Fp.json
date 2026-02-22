@@ -1,0 +1,61 @@
+{
+  "folder": "ZKOgr1a0D6I3VIYd",
+  "name": "Word of Summoning",
+  "type": "spell",
+  "_id": "IL9LYPuCiN4Xe1Fp",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "druid",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Speaking the Word of Summoning calls out to a nearby wild animal which arrives within 1d6 rounds. \nWhen the animal arrives, it is friendly to you and will help you as long as you don’t betray or abuse it. \nIf you spend 2 STA casting Word of Summoning you can summon a small animal (Bird, Serpent, Cat, etc.). \nIf you spend 5 STA you can summon a medium animal (Wolves, Panthers, Boars, etc.). \nIf you spend 10 STA you can summon a large animal (Bear, Ox, Horse, etc.). \nWord of Summoning can only be cast once in an area per day. \nWhen this invocation ends, the animal becomes neutral to you.",
+    "range": "N/A",
+    "duration": "10 Minutes",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a06ca16d0ab8f07b798bd0ebe4e87f778c13edab"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IL9LYPuCiN4Xe1Fp"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "o0AXkLMcWsma3oD7",
+  "name": "Trophy: Ice Elemental",
+  "type": "valuable",
+  "_id": "Dn2V3owpz69jLFXo",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/stone/ore-chunk-blue-brown.webp",
+  "system": {
+    "description": "Creatures you damage with your attacks have a 25% chance to be frozen.",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Trophy: Ice Elemental",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.Dn2V3owpz69jLFXo",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/stone/ore-chunk-blue-brown.webp",
+      "_id": "FaLJ4JSwezprc8Zk",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Creatures you damage with your attacks have a 25% chance to be frozen.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Dn2V3owpz69jLFXo.FaLJ4JSwezprc8Zk"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6ebb3fec87246ea7a2d1f8e38c72941c41d3b90d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Dn2V3owpz69jLFXo"
+}

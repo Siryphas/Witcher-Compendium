@@ -1,0 +1,90 @@
+{
+  "folder": "qM44vpI4CgLcikOT",
+  "name": "Diagram: Hindarsfjall Heavy Armor",
+  "type": "diagrams",
+  "_id": "anglGSQlAQc22WAm",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Been to Skellige once or twice in my life. Went to Hindarsfjall a long time ago to visit the temple of Freya. Outside they had swordsmen wearin&rsquo; this beastly armor. It&rsquo;s heavy chain down to the knees with hardened leather under it and studded leather over the top, an&rsquo; a thick kidney belt. Think this stuff could deflect a damn halberd.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1124,
+    "isHidden": false,
+    "type": "armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "11 H",
+    "craftingComponents": [
+      {
+        "id": "UAmk9qB6pb98v2Ht",
+        "name": "Thread",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "JXLjDCpjEZsrbcw9",
+        "name": "Beast Bones",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "zZSdAbfZSBopuQBG",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "1w6g9AGtIVgwTCMB",
+        "name": "Drake Oil",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "p8KjUJ1YH1MW9nai",
+        "name": "Dark Steel",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      }
+    ],
+    "investment": 569,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.6EZjUfMkqOo2yiQi",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5f21f1c4662668d64bf581179f2583e8fa9d9a61"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!anglGSQlAQc22WAm"
+}

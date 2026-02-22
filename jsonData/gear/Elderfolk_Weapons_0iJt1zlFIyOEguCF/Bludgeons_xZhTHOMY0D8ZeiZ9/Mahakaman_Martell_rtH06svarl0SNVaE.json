@@ -1,0 +1,82 @@
+{
+  "folder": "xZhTHOMY0D8ZeiZ9",
+  "name": "Mahakaman Martell",
+  "type": "weapon",
+  "_id": "rtH06svarl0SNVaE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/hammers/hammer-war-rounding.webp",
+  "system": {
+    "description": "The martell’s a rare dwarven design and ya won’t see many humans wandering around with ‘em. Heh, basically a hammer head with a long spike on the back end, mounted on a meter-long handle. A lot of dwarves like to cut the handle short and carry ‘em in their boots.",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 750,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "5d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.19q0J5crZAdwPFYL",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "EBySsF3oykZg5HTD",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d9f73fa0da218ef8d4215728f0fe23c163b3b554"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!rtH06svarl0SNVaE"
+}

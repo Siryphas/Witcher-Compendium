@@ -1,0 +1,102 @@
+{
+  "folder": "9wxGVwjCrzD5A4aS",
+  "name": "Partisan",
+  "type": "weapon",
+  "_id": "cVIuOZVOTwa9NQXB",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/polearms/trident-curved-steel.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 750,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing, Bludgeoning",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Common",
+    "damage": "4d6+2",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_w89u4fhx6",
+        "name": "Bleed",
+        "percentage": 25,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Long Reach",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "INf6xdkJmRlWsPX3",
+          "name": "Bleed",
+          "statusEffect": "bleed",
+          "percentage": 25,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.5ancD3kTmtbDfuI4"
+  },
+  "effects": [],
+  "sort": 875000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fdc2999f4b821739a797a9d8e4f4f5b25ba63612"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cVIuOZVOTwa9NQXB"
+}

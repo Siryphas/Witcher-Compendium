@@ -1,0 +1,54 @@
+{
+  "folder": "A7HluumtZL3d42ob",
+  "name": "Perun Rune+",
+  "type": "enhancement",
+  "_id": "WSZYktcxjHvNnf9P",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Perun%20Rune%20Greater.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 575,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Each time you gain an adrenaline die, add a second one.\n"
+      },
+      {
+        "id": "_g940393e3",
+        "name": "Each time you use an adrenaline die, if the value rolled is a 1, you keep the die.",
+        "percentage": ""
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1fe91483c4cb57c458331e41f935f580d3399898"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WSZYktcxjHvNnf9P"
+}

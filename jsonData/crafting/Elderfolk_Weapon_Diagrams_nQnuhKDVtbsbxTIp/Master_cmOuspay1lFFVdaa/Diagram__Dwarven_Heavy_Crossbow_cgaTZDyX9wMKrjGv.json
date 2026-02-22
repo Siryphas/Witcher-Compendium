@@ -1,0 +1,96 @@
+{
+  "folder": "cmOuspay1lFFVdaa",
+  "name": "Diagram: Dwarven Heavy Crossbow",
+  "type": "diagrams",
+  "_id": "cgaTZDyX9wMKrjGv",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Us dwarves are stronger than humans. Heh, we may be shorter than a human or an elf but we&rsquo;re sturdier, that&rsquo;s for sure. So the dwarven crossbow&rsquo;s built for our strength, Heh, we add a goat&rsquo;s foot lever when we sell &lsquo;em so humans and elves can use &lsquo;em.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1274,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "12 H",
+    "craftingComponents": [
+      {
+        "id": "oKVb6WwRlcTUJ1Hy",
+        "name": "Hardened Timber",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "IGYxXXgyMHZIR3qo",
+        "name": "Mahakam Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LcYMiyZxP6wm09Ss"
+      },
+      {
+        "id": "1VHKdnqCFupBlLHu",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "ebjRk4N4vV6fsmmR",
+        "name": "Thread",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "6YqRl1mIftpULOsc",
+        "name": "Ogre Wax",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "U10mmRE20yUqBYYr",
+        "name": "Dark Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LiePL2wgaminhK8N"
+      }
+    ],
+    "investment": 632,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.ymslb74yY8T3L0rA",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8e76dcd3a84c130f376921e549436b28c57414b9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!cgaTZDyX9wMKrjGv"
+}

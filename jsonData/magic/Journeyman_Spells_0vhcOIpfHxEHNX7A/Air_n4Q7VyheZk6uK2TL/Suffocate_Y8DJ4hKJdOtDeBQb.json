@@ -1,0 +1,81 @@
+{
+  "folder": "n4Q7VyheZk6uK2TL",
+  "name": "Suffocate",
+  "type": "spell",
+  "_id": "Y8DJ4hKJdOtDeBQb",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "air",
+    "domain": "",
+    "stamina": "14",
+    "staminaIsVar": false,
+    "effect": "Suffocates a target for 1d10 damage per turn. The suffocation ends if the caster is struck with a weapon or stops focusing on the spell. \nWhile suffocating, a target is treated as staggered.",
+    "range": "10m",
+    "duration": "Active (4 STA)",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "1d10",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stagger",
+        "statusEffect": "staggered",
+        "percentage": 100
+      },
+      {
+        "id": "dho4pFnYLEnnisMF",
+        "name": "Suffocate",
+        "statusEffect": "suffocation",
+        "percentage": 100
+      }
+    ],
+    "onCastEffects": [],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8de7726206ca2dd62fa03a80275c51c2c45c4569"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Y8DJ4hKJdOtDeBQb"
+}

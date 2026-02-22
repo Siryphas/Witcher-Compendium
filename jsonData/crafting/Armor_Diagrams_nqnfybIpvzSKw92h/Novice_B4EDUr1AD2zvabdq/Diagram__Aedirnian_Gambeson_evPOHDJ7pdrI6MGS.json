@@ -1,0 +1,84 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Aedirnian Gambeson",
+  "type": "diagrams",
+  "_id": "evPOHDJ7pdrI6MGS",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>The Aedirnians probably had it the worst when Nilfgaard attacked. Lost their king&mdash;not even sure whether they had a new king before a wave of black and gold hit &lsquo;em. The Aedirnian gambeson&rsquo;s evidence of that. Just a gambeson with scraps of leather and hardened hide stitched on here and there.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 362,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 12,
+    "alchemyDC": 0,
+    "craftingTime": "6 H",
+    "craftingComponents": [
+      {
+        "id": "EBFOeMfu84lLMMZT",
+        "name": "Linen",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "yPuCh0Xmux6KqOR5",
+        "name": "Thread",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "mjrNwZ9syENwjOqs",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "SgoDlE2k8B66AUx0",
+        "name": "Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      }
+    ],
+    "investment": 131,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.kyDxXCsh4gxHcKUl",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e580073071c40be14ca23be78237beddd786d62d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!evPOHDJ7pdrI6MGS"
+}

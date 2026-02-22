@@ -1,0 +1,57 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Imbue Trophy",
+  "type": "spell",
+  "_id": "P4fLcz8M9zHGIVDf",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "By properly preparing and taxidermizing the remains of a monster, this ritual allows you to make use of a monster’s alien physiology to channel magical effects. Upon performing this ritual, a single non-enchanted trophy you possess becomes a permanent magical trophy that grants benefits to anyone who carries the trophy who also helped kill the monster.\n",
+    "range": "",
+    "duration": "Immediate",
+    "defence": "",
+    "components": "Monster Trophy, Fifth Essence (x1), Infused Dust (x1), Tanning Herbs (x10), Ogre Wax (x1), Ester Grease (x2)",
+    "alternateComponents": "",
+    "preparationTime": "10 Rounds",
+    "dificultyCheck": "12",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "A Tome of Chaos",
+    "ritualComponentUuids": [],
+    "difficultyCheck": "12",
+    "cost": 430,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f627672d8b928d87ee4dc7d7032fc4c772a30129"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!P4fLcz8M9zHGIVDf"
+}

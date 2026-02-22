@@ -1,0 +1,72 @@
+{
+  "folder": "B4EDUr1AD2zvabdq",
+  "name": "Diagram: Spectacle Helm",
+  "type": "diagrams",
+  "_id": "0XlGi1fvbO9WAmkk",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Spectacled helms&rsquo;re more common in Nilfgaard and Skellige. North tends to like fully enclosed helmets or just caps. The spectacle pieces on the front of the helm can help protect your face and eyes from attack, and in some cases there&rsquo;s a layer of chain attached to the bottom for your neck.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 300,
+    "isHidden": false,
+    "type": "armor",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "y6HBTf3ufHEAG5Td",
+        "name": "Steel",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "aTMrP7xMaqpg2Tql",
+        "name": "Beast Bones",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      }
+    ],
+    "investment": 94,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.y3REJChPdgdw42EB",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "089705845d00bc1cbf9dc00a0545470ccfd9a89c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!0XlGi1fvbO9WAmkk"
+}

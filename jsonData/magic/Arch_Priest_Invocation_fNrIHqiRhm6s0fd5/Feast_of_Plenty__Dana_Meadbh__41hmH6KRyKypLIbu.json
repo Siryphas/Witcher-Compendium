@@ -1,0 +1,63 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Feast of Plenty (Dana Meadbh)",
+  "type": "spell",
+  "_id": "41hmH6KRyKypLIbu",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Dana%20Meadbh.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Calling upon the power of the Lady of the Valley, you bless a feast gathered entirely from the local area and large enough to feed at least 20.\nUpon eating from this feast, a creature gains 6d6 Hit Points, immediately treats all critical wounds; and removes the Poison and Disease conditions.\nThis invocation can affect as many people as the feast can feed.",
+    "range": "2m",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "doesHeal": true,
+    "heal": "6d6",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d89293cd20d2f88f1ae1355fdfa55e8f56905060"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!41hmH6KRyKypLIbu"
+}

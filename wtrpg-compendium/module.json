@@ -1,16 +1,59 @@
 {
-  "id": "wtrpg-compendium",
-  "title": "WTRPG - Compendium",
-  "version": "1.0.0",
+  "id": "wtrpg-complete-compendium",
+  "title": "WTRPG - Complete Compendium",
+  "version": "2.5.1",
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "TheWitcherTRPG",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "vtta-tokenizer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "token-frames",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
   },
   "authors": [
     {
-      "name": "Siryphas"
+      "name": "Siryphas",
+      "url": "https://startplaying.games/gm/siryphas",
+      "discord": "Siryphas"
     }
   ],
+    "packFolders": [
+        {
+            "name": "Witcher TRPG Compendium",
+            "sorting": "m",
+            "packs": [
+                "races",
+                "professions",
+                "gear",
+                "crafting",
+                "magic",
+                "bestiary",
+                "combat",
+                "loot",
+                "journal-entries",
+                "scenes",
+                "adventures",
+                "effects-and-conditions"
+            ]
+        }
+    ],
   "packs": [
     {
       "name": "races",
@@ -68,9 +111,9 @@
       }
     },
     {
-      "name": "besitary",
-      "label": "Besitary",
-      "path": "packs/besitary",
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
       "type": "Actor",
       "system": "TheWitcherTRPG",
       "ownership": {
@@ -79,38 +122,63 @@
       }
     },
     {
-      "name": "combat",
-      "label": "Combat",
-      "path": "packs/combat",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "TheWitcherTRPG"
-    },
-    {
       "name": "loot",
       "label": "Loot",
       "path": "packs/loot",
       "type": "RollTable",
+      "system": "TheWitcherTRPG",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "TheWitcherTRPG"
+      }
+    },
+    {
+      "name": "journal-entries",
+      "label": "Journal Entries",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "system": "TheWitcherTRPG",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "scenes",
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
+      "system": "TheWitcherTRPG",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "TheWitcherTRPG"
+      }
+    },
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "TheWitcherTRPG",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "effects-and-conditions",
+      "label": "Effects & Conditions",
+      "path": "packs/effects-and-conditions",
+      "type": "Item",
+      "system": "TheWitcherTRPG",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "url": "https://github.com/Siryphas/Witcher-Compendium"
+  "description": "A complete compendium for Witcher TRPG.",
+  "url": "https://github.com/Siryphas/Witcher-Compendium",
+  "manifest": "https://github.com/Siryphas/Witcher-Compendium/releases/latest/download/module.json",
+  "download": "https://github.com/Siryphas/Witcher-Compendium/releases/latest/download/module.zip"
 }

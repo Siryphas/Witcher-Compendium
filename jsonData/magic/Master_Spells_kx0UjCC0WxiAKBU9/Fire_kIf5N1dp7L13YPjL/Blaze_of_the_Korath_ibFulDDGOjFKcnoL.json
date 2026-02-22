@@ -1,0 +1,73 @@
+{
+  "folder": "kIf5N1dp7L13YPjL",
+  "name": "Blaze of the Korath",
+  "type": "spell",
+  "_id": "ibFulDDGOjFKcnoL",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "fire",
+    "domain": "",
+    "stamina": "24",
+    "staminaIsVar": false,
+    "effect": "Blaze of the Korath allows you to create a sweltering aura with up to a 40m radius which eats away at creatures’ STA. Upon casting this spell, each creature in the area lowers their current STA by 2d6. \nAdditionally, while in the area, creatures are incapable of taking the Recovery Action. \nIf a creature is in the area at the start of its turn or enters the area on its turn, they lower their current STA by 2d6. \nIf a target is reduced to 0 points of STA by this spell, they fall unconscious until they recover at least 20 points of STA and make a successful Stun save.",
+    "range": "100m",
+    "duration": "Active (4 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "40",
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "2d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Non-Lethal",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "fire",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "damageProperties": {
+      "isNonLethal": true
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fc5cdf2fd7ef12d17b6b921d68e6d56fed88a8ae"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ibFulDDGOjFKcnoL"
+}

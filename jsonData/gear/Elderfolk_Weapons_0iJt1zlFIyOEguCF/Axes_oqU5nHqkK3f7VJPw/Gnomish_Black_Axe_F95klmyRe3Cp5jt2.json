@@ -1,0 +1,71 @@
+{
+  "folder": "oqU5nHqkK3f7VJPw",
+  "name": "Gnomish Black Axe",
+  "type": "weapon",
+  "_id": "F95klmyRe3Cp5jt2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/axes/axe-broad-engraved-black-grey.webp",
+  "system": {
+    "description": "Everybody knows about the gnomish gwyhyr. What not everybody knows is that gnomes also made axes. Heh, they’re made like the gwyhyr but they’re heftier, with a solid bearded head scrawled with gnomish runes. They’re light, too. So light and thin they feel like they shouldn’t even be used in combat. But they’re tough enough to hew armor.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 910,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "6d6+2",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.RqKOEujRkhAi3D17"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dc1c08c7a0a7831167ddb94c76fe2e7da9854db6"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!F95klmyRe3Cp5jt2"
+}

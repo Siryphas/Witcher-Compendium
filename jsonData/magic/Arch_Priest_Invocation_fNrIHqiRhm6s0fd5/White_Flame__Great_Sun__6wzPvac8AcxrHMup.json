@@ -1,0 +1,64 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "White Flame (Great Sun)",
+  "type": "spell",
+  "_id": "6wzPvac8AcxrHMup",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Great%20Sun.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Summoning the power of the Great Sun, you create a bright aura of White Fire which lights the surrounding area to the level of bright light. \nThis aura of fire doesn’t burn anyone who touches it but does thaw anyone in the spell’s area, and dispels water-based spells in the area. \nWater-based spells can only be cast in the area of the spell if the caster’s Spell Casting check beats that of the Priest of the Great Sun. \nOn top of this, any monster in the area that is vulnerable to sunlight takes double the normal penalties.",
+    "range": "10m Radius",
+    "duration": "1 Hour",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "visualEffectDuration": null,
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f633d6a566d67ba3db90c2771b47753b5952d683"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6wzPvac8AcxrHMup"
+}

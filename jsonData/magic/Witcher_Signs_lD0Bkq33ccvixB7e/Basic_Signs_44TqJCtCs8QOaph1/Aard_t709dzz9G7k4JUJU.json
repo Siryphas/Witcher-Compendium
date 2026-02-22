@@ -1,0 +1,92 @@
+{
+  "folder": "44TqJCtCs8QOaph1",
+  "name": "Aard",
+  "type": "spell",
+  "_id": "t709dzz9G7k4JUJU",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Witcher",
+    "level": "novice",
+    "source": "air",
+    "domain": "basic",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Aard shoots a wave of telekinetic force, staggering creatures with a 10% chance of those affected being knocked prone. \nThe percentage rises by 10% for each point of STA spent.",
+    "range": "2m Cone",
+    "duration": "Immediate",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "2",
+    "templateType": "cone",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Stagger",
+        "statusEffect": "staggered",
+        "percentage": 0
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Stagger",
+          "statusEffect": "staggered",
+          "percentage": 10,
+          "varEffect": true
+        },
+        {
+          "id": "BopJbAqXOQgQzudf",
+          "name": "Knockback",
+          "statusEffect": "prone",
+          "percentage": 10,
+          "varEffect": true
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ]
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "297e35d1107dadfabffcf9f2bcbc667127e8c98d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!t709dzz9G7k4JUJU"
+}

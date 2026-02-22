@@ -1,0 +1,63 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Retribution of the Raven (Morrigan)",
+  "type": "spell",
+  "_id": "N9a0RJdqHCB6OmXS",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Morrigan.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "With power granted to you by Morrigan, the Lady of Ravens, you block the connection to the elemental planes, nullifying magic. \nWithin the area of this invocation, all magical effects, such as runes, glyphs, focuses, curses, trophies, relics, magical items, etc. are rendered inert. \nAs long as this invocation is active, only those you choose or those who successfully defended against this invocation can cast magic of any form.\nThis invocation cannot be dispelled.",
+    "range": "20m",
+    "duration": "Active (5 STA)",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "20",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2e26a1d48865abfecfef70b624dda783170e6d70"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!N9a0RJdqHCB6OmXS"
+}

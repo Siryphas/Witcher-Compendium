@@ -1,0 +1,109 @@
+{
+  "folder": "9wxGVwjCrzD5A4aS",
+  "name": "Blunted Lance",
+  "type": "weapon",
+  "_id": "6FAqDscJS9cS2pzp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-orb-feather.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 500,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "2d6",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_re9rsfeck",
+        "name": "Charging",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_be8lfzvx8",
+        "name": "Non-Lethal",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Long Reach",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_re9rsfeck",
+          "name": "Charging",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "isNonLethal": true
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.d6swwT76Jq4CifYA"
+  },
+  "effects": [],
+  "sort": 850000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d700b6f0bc3cdf481a4335ed446b815c3f29044e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6FAqDscJS9cS2pzp"
+}

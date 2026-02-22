@@ -1,0 +1,66 @@
+{
+  "folder": "qZQJJdBVjza19aNh",
+  "name": "Conspiracy of the Mother (Crow Clan)",
+  "type": "spell",
+  "_id": "PhI7zQM16OGjVsKb",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Crow%20Clan.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Conspiracy of the Mother allows you to reach out to up to 10 crows and summon them to you. Any crow affected forms a telepathic link with you. \nThis telepathic link allows you to communicate with them silently within 20m, raises their Intelligence, Reflex, & Dexterity Statistic to 7, gives them a Sleight of Hand score of 7, and makes them sapient creatures who follow your orders unless you abuse them. \nThis telepathic link also allows you to view their memories while you are physical touching them and lets them know where you are at all times.\nFinally, any crow affected by this invocation raises their claw damage from 1d6/2 to 2d6. \nYou can only be bonded to 10 crows with this invocation at a time but the effects on the crows are permanent.",
+    "range": "1/2 Mile",
+    "duration": "Immediate",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "db083e944d67676bf4205e88296376abb0645005"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PhI7zQM16OGjVsKb"
+}

@@ -1,0 +1,48 @@
+{
+  "folder": "BF30qZfFwnAYTblS",
+  "name": "Deflection Runeword",
+  "type": "enhancement",
+  "_id": "BziyAGYIaAipXPAX",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Greater%20Word.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "While wielding this weapon you can make a check at a -6 with your weapon skill base when targeted by a ranged attack to parry the attack. If your roll beats the attacker’s attack roll, you can choose a target within 10m. That target must take a defense action against your initial weapon skill roll or be Staggered by the flying projectile. \nIf you have levels in the Parry Arrows\nability, instead you gain a +2 to it when wielding this weapon."
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false
+  },
+  "effects": [],
+  "sort": 750000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "007a80e2353b13aa90b9d0cc15a7912eeb32b251"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BziyAGYIaAipXPAX"
+}

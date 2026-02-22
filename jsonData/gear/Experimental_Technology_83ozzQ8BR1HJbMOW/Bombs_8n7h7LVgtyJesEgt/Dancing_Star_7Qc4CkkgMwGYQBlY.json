@@ -1,0 +1,84 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Dancing Star",
+  "type": "weapon",
+  "_id": "7Qc4CkkgMwGYQBlY",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-red-black.webp",
+  "system": {
+    "description": "Fire (100%)",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 162,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "5d6",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_fse5t3udl",
+        "name": "Fire",
+        "percentage": "100"
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "_fse5t3udl",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ],
+      "damageToAllLocations": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2b2740f66a88bba3236094ca780474ff31df4008"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7Qc4CkkgMwGYQBlY"
+}

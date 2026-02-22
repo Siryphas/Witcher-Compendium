@@ -1,0 +1,70 @@
+{
+  "folder": "2T6jDRuTrw28SbCF",
+  "name": "Active Shield",
+  "type": "spell",
+  "_id": "5VdyUdM3JDamJcDE",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Witcher",
+    "level": "journeyman",
+    "source": "earth",
+    "domain": "alternate",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Quen now creates a glowing shield around you. The shield has 10 HP for every Stamina point spent. \nEach round after the first, you must spend a number of STA points equal to the initial STA cost to maintain the shield. \nActive Shield only covers you, but you can fit one other person into it if you are pressed together. \nWhile in the active shield nothing tangible can pass in or out without destroying the shield first and you must move slowly to keep the shield up, meaning you cannot run. \nWhen the shield is expended or dropped, anything adjacent to you is pushed back 2m and takes 1d6 damage to the torso. \nThis includes objects, furniture, and allies. \nAnything rooted to the ground or heavier than 226kg is not pushed back but still takes damage.",
+    "range": "Self",
+    "duration": "Active (Initial STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "1d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Knockback",
+        "statusEffect": "prone",
+        "percentage": 0
+      }
+    ],
+    "createsShield": true,
+    "shield": "10/sta",
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6b21311c1a387d003b3a6587eb9f28414824d406"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!5VdyUdM3JDamJcDE"
+}

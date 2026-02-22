@@ -1,0 +1,66 @@
+{
+  "folder": "qZQJJdBVjza19aNh",
+  "name": "Well of Knowledge (Circle of Gedyneith)",
+  "type": "spell",
+  "_id": "NE2w5ZrTBNgM4UDh",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Gedyneith.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Well of Knowledge causes a tree you touch to grow an integrated basin of fluorescing water blessed by nature. \nThe next 20 people to drink from this basin are affected immediately. \nFor one day after consuming the water of the basin, a creature gains a +4 to Initiative and Awareness, becomes immune to the Stagger, Stun, & Hallucination conditions, and can see through any illusions. \nIf the creature had a Vigor Threshold of one or more before consuming the water, they raise their Vigor Threshold by 4 but suffer a -4 to Resist Magic. After the invocation ends, the tree shifts back to normal leaving only an etched sigil unique to the druid. \nA creature cannot benefit from this invocation more than once a week.",
+    "range": "2m",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1214f8b55fb29f01552178f335ad3ed482ecc601"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NE2w5ZrTBNgM4UDh"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "fNrIHqiRhm6s0fd5",
+  "name": "Blood of the Berserker (Svalblod)",
+  "type": "spell",
+  "_id": "onOzKA6ePVX0uXcN",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Svalblod.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Channeling the power of Svalblod, you transform your body into a towering great bear. While in this form, any items on your person meld into your form and you gain access to all the abilities of the Great Bear but loose access to your Profession abilities and magic. \nYour Statistic and Skill values change to those a great bear with the exception of any values that would be higher than those of a Great Bear.\nWhen you end the effects of this invocation, any damage or Critical wound you took as a Great Bear are transferred to your natural body. However, if the damage sustained as a Great Bear would be enough to kill you normally you are instead reduced to 1 Hit Point.\nSimilarly, when you cast this invocation, any damage or critical wounds you already had are applied to your Great Bear form.",
+    "range": "Self",
+    "duration": "1 Day",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "998965107b9edf5ad24c75cf2a299c6f4f893388"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!onOzKA6ePVX0uXcN"
+}

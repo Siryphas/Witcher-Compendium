@@ -1,0 +1,114 @@
+{
+  "folder": "HYJ6tRiVrNOrXGKq",
+  "name": "Diagram: Gnomish Dragoon Armor",
+  "type": "diagrams",
+  "_id": "KsUsmDVlf49JgWwR",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Gnomes aren&rsquo;t normally cavalrymen, for obvious reasons, heh. But they have made armor for the human cavalry commanders of Nilfgaard. It&rsquo;s light plate armor. Black with a blue sheen to it and gnomish etchwork all over it. Holds up real well in jousts and on the field.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 4274,
+    "isHidden": false,
+    "type": "elderfolk-armor",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "25 H",
+    "craftingComponents": [
+      {
+        "id": "5GGzJD9WH4eCi9Kz",
+        "name": "Dark Steel",
+        "quantity": 12,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "PpLZtq601tXfaYmj",
+        "name": "Mahakam Dimeritium",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.wiMRwTqfO7tUbgsj"
+      },
+      {
+        "id": "IfGHwAXlSQaVdrQ2",
+        "name": "Ester Grease",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "2NIooEEo36hZIrLN",
+        "name": "Etching Acid",
+        "quantity": 14,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "QFxJaFQCR5yddfMo",
+        "name": "Double Woven Linen",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "kiTZrJZ7HNaTbLyn",
+        "name": "Darkening Oil",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LYuM7V1Bp1mCrLYI"
+      },
+      {
+        "id": "x42CFnMEs0dFBUrR",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "jqXZfaMaLyD4k38k",
+        "name": "Meteorite",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "77AHAGAahTr6IpsH",
+        "name": "Thread",
+        "quantity": 15,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      }
+    ],
+    "investment": 2131,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.8Aay14oJhv8DhQfW",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "488ac24e2ec99a858fefd1c59f10c49ee18367b6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!KsUsmDVlf49JgWwR"
+}

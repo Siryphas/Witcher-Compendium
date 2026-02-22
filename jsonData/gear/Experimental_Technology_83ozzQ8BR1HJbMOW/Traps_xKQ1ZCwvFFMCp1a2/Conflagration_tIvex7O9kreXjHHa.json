@@ -1,0 +1,82 @@
+{
+  "folder": "xKQ1ZCwvFFMCp1a2",
+  "name": "Conflagration",
+  "type": "weapon",
+  "_id": "tIvex7O9kreXjHHa",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/environment/traps/trap-jaw-tan.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 2,
+    "cost": 121,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "5d6",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "none",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "percentage": "75"
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": true,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 75,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ]
+  },
+  "effects": [],
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "89ff4e2cb47456edfbdb87a0e5dbc79f705ac2b1"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tIvex7O9kreXjHHa"
+}

@@ -1,0 +1,61 @@
+{
+  "folder": "hOg6Gm7BV749KOcO",
+  "name": "Supirre",
+  "type": "spell",
+  "_id": "ymgfKVYLU4nWnWt9",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Sign%20-%20Suppirre.jpg",
+  "system": {
+    "class": "Witcher",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "basic",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Drawing the Sign of Supirre on a surface allows you to link it to a point within the range of the spell. \nWhen linked, you can hear anything happening near that point as if it were right next to you and can choose to focus on a single sound or conversation by tuning out all other noise.\nAs long as this sign is active, you do not need to make an Awareness check to hear any conversation at the linked point. \nThe sign can only be linked to one location and must be recast to listen in another. \nThe range of this sign is determined by the number of STA Points spent when cast. \nIf cast with 1 STA Point, Supirre has a range of 2m. \nFor every STA Point spent beyond that, the maximum range of the sign increases by 2m.",
+    "range": "2m/STA",
+    "duration": "10 Minutes",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f13ac878cf58874f9db26ef71ad77d1c8310a838"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ymgfKVYLU4nWnWt9"
+}

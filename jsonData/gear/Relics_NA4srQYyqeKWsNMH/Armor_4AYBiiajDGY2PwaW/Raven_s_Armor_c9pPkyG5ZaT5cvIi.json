@@ -1,0 +1,139 @@
+{
+  "folder": "4AYBiiajDGY2PwaW",
+  "name": "Raven's Armor",
+  "type": "armor",
+  "_id": "c9pPkyG5ZaT5cvIi",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Raven%20Armor.webp",
+  "system": {
+    "description": "Education DC: 14\n\nWitchers get a hell of a deal—taken from their folks, experimented on for years, an’ taught to be killers and what do they get? Spat on by grubby villagers, mostly, an’ buried where they fall. But every once in a while ya get a celebrity among ‘em. Geralt of Rivia’s one’a the best-known folk across the damn Continent, but Raven was one of the first, and he made for plenty of good stories. \nRaven was a Gryphon witcher from the heights of the Dragon Mountains. Came down into the North to hunt monsters and lift curses every spring and summer. Raven started gainin’ fame after liftin’ a lycanthropy curse off the Duke of Maribor. After that, folk started spreadin’ tales of the Black Gryphon, Raven of the High Mountains. Story after story’d pop up, and they’d always be grand—slayin’ vicious cyclopses, goin’ toe to toe with manticores, that sorta thing. Crownin’ moment came in Mahakam, where Raven got a summons from the head of Clan Hoog.\nYa see, for years there’d been trouble in the highest peaks of the Mahakams, namely a huge ploughin’ draconid called the ‘Black Drake.’ Mahakaman defenders’d been sent up against the thing, dwarven heroes of old, bands of mercenaries, the full barrage. But this Black Drake just wouldn’t die. Eventually, folk just decided to leave ‘im an’ steer clear of those high peaks. ‘Course, just a few months on, a huge ploughin’ meteorite fell—right up in those heights. Heh, lemme tell ya my friend, dwarves’ll do a lot for rare ore and that includes hirin’ a witcher.\nGuess Raven thought the beast was dangerous, ‘cause he had the forge masters in Mahakam craft him a new suit of armor. Sleek, black armor, dwarf-forged and finished by gnomes. Musta been gorgeous. ‘Specially given legend says it caught the eye of none other than Tyen’Sail, the famed elvish songsmith. He’d been travelin’ Mahakam lookin’ for inspiration and stumbled upon the smiths finishin’ Raven’s armor. Tyen’Sail asked the witcher fer a chance to work on the armor. It’d take some time, he said, but he’d weave legends into the suit enchantments of bravery, power, and whatnot. Raven agreed, and Tyen’Sail worked for twelve damn days straight, etchin’ the suit, singin’ ancient songs of power and victory all the while. \nWith the armor done, the battle was at hand. Raven went up the mountain to face the Black Drake. Tyen’Sail wrote a song about it—ya should really hear it some time. Ploughin’ magnificent if I do say so myself! ‘Course, Raven won the battle in his gleamin’ armor and brought home the Drake’s head. Collected his coin and went on his way like nothin’ different’d happened. Life of a witcher never changes, I guess.",
+    "quantity": "1",
+    "weight": 12,
+    "cost": 0,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 12,
+    "torsoMaxStopping": 12,
+    "leftArmStopping": 12,
+    "leftArmMaxStopping": 12,
+    "rightArmStopping": 12,
+    "rightArmMaxStopping": 12,
+    "leftLegStopping": 12,
+    "leftLegMaxStopping": 12,
+    "rightLegStopping": 12,
+    "rightLegMaxStopping": 12,
+    "type": "Light",
+    "avail": "Rare",
+    "enhancements": 3,
+    "effects": [
+      {
+        "id": "first",
+        "name": "+15 HP",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "CUHHjjRK9jugpiDr",
+        "name": "Poison Resistance",
+        "statusEffect": "poison",
+        "percentage": 0
+      },
+      {
+        "id": "6C9oKCPdSXXrRqkW",
+        "name": "Bleed Resistance",
+        "statusEffect": "bleed",
+        "percentage": 0
+      },
+      {
+        "id": "rjnJSTz2eOloIemd",
+        "name": "+3 Courage",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "encumb": 0,
+    "location": "FullCover",
+    "equipped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Raven's Armor",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.c9pPkyG5ZaT5cvIi",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Other/Raven%20Armor.webp",
+      "_id": "XuXGg1D8Mx58jHZR",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.derivedStats.hp.totalModifiers",
+          "mode": 2,
+          "value": "15",
+          "priority": null
+        },
+        {
+          "key": "system.skills.will.courage.activeEffectModifiers",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!c9pPkyG5ZaT5cvIi.XuXGg1D8Mx58jHZR"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b16dcff1cb9a7a3697944e258074410ad2883c67"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c9pPkyG5ZaT5cvIi"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "t345tvB9gXC9dT4U",
+  "name": "Ice Slick",
+  "type": "spell",
+  "_id": "jwH48vEXIVhn1YCj",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Ice Slick allows you to create a 2m square area of ice. \nAnyone who crosses that area must make an Athletics check at a DC equal to your Spell Casting check or trip on the ice.",
+    "range": "10m",
+    "duration": "2d10 Rounds",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "2",
+    "templateType": "rect",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Knockdown",
+        "statusEffect": "prone",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6a467d1c1702f329e07fd7a8f5d9f1b252e8b78c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jwH48vEXIVhn1YCj"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "qZQJJdBVjza19aNh",
+  "name": "Winds of the Taiga (Circle of Gwyn Carn)",
+  "type": "spell",
+  "_id": "s14YOPLz5CHlxms4",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Religions/Symbol%20-%20Gwyn%20Carn.jpg",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "arch priest",
+    "domain": "",
+    "stamina": "16",
+    "staminaIsVar": false,
+    "effect": "Winds of the Taiga summons the winter winds of the Far North to create a blizzard that shelters you and your allies. \nThe area of the invocation is immersed in a blizzard that blinds anyone in it and creates Snow & Ice conditions. \nAny number of people you choose are not blinded by the blizzard, are immune to the Snow & Ice conditions, and their attacks have an additional 50% chance of freezing.",
+    "range": "1 Mile Radius",
+    "duration": "1 Hour",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "rect",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ec21fe1631f5f9a6e14874e1a60497b3aac71f3d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!s14YOPLz5CHlxms4"
+}

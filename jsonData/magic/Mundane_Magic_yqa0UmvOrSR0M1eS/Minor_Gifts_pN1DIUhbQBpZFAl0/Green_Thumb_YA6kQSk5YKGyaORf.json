@@ -1,0 +1,57 @@
+{
+  "folder": "pN1DIUhbQBpZFAl0",
+  "name": "Green Thumb",
+  "type": "spell",
+  "_id": "YA6kQSk5YKGyaORf",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "MagicalGift",
+    "level": "minor gift",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "1",
+    "staminaIsVar": false,
+    "effect": "As an action, you can grow a small plant from seed to maturity. \nThis allows you to grow herbs and alchemical plants but not larger plants such as trees.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "Any alchemical concoction you create with a plant-derived substance as one of its ingredients gives you the poisoned condition as well as the intended effect when you use it.",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "281e4f919c1663db05ab926aad5b80623800a582"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YA6kQSk5YKGyaORf"
+}

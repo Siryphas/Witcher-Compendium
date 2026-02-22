@@ -1,0 +1,53 @@
+{
+  "folder": "W7o2lyNxN2xm1XEb",
+  "name": "Beer",
+  "type": "valuable",
+  "_id": "lwh264IGAHZcByYp",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/drinks/alcohol-beer-stein-wooden-brown.webp",
+  "system": {
+    "description": "\"Comes in all varieties: Temerian rye, Redanian lager, Mag Turgan stout. A good workman's drink.\"\n-Rodolf Kazmer",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 5,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "S",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "MK9bzYYZFubofput",
+          "name": "Intoxicated",
+          "statusEffect": "intoxication",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6015d3f85b4deb84a05d46fb52085dfe70e431fc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lwh264IGAHZcByYp"
+}

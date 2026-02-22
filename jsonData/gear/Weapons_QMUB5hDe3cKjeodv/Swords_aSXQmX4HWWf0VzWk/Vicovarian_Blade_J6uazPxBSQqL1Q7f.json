@@ -1,0 +1,71 @@
+{
+  "folder": "aSXQmX4HWWf0VzWk",
+  "name": "Vicovarian Blade",
+  "type": "weapon",
+  "_id": "J6uazPxBSQqL1Q7f",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/greatsword-crossguard-flanged-red.webp",
+  "system": {
+    "description": "Vicovarian blade’s recognizable for its heavy guard. Usually used by knights of Vicovaro, but with the war they’ve spread all around. I’ll tell ya this though, my friend, I’ve seen these things survive castles crumbling around them and then still lop off a limb or two.",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 955,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "5d6+4",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.apdbhlTbIUsoqRMw"
+  },
+  "effects": [],
+  "sort": 750000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "60923315ae3bb54a31f0e01ad7c61f7f3a3583e2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!J6uazPxBSQqL1Q7f"
+}

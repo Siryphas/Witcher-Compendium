@@ -1,0 +1,72 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Dagger",
+  "type": "diagrams",
+  "_id": "dNaNeS91tiSZ8fz2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Daggers come in all kinds of shapes and sizes but they&rsquo;re always small enough to hide. Everyone carries one, from knights to peasants.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 74,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 8,
+    "alchemyDC": 0,
+    "craftingTime": "2 H",
+    "craftingComponents": [
+      {
+        "id": "VvRJ9hKpSXwcESqf",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv",
+        "id": "kPLgYD3zywqiDFbT"
+      }
+    ],
+    "investment": 33,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.s1jyq7S9wVGNDdpb",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aefde0dff85291fb35427d2ba32f552306c48c8c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!dNaNeS91tiSZ8fz2"
+}

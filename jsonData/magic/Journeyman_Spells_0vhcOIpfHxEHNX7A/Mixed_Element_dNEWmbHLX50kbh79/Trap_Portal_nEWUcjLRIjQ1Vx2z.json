@@ -1,0 +1,66 @@
+{
+  "folder": "dNEWmbHLX50kbh79",
+  "name": "Trap Portal",
+  "type": "spell",
+  "_id": "nEWUcjLRIjQ1Vx2z",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "12",
+    "staminaIsVar": false,
+    "effect": "Trap Portal allows you to place a magical trap inside a portal which redirects the portal’s end point. \nUpon casting the spell, you learn the portal’s end point and can choose a location within 1 mile of that point to be the new end point. \nThis trap makes a notable change to the portal which requires a DC:16 Magic Training check or a DC:20 Education check to spot.\nAnyone with at least 1 point in Magic Training automatically gets to roll a Magic Training check upon seeing the portal to try and spot the trap. \nImmediately after a creature passes through the portal, the trap is dispelled but evidence that the portal was trapped remains for 1 month.",
+    "range": "4m",
+    "duration": "1 Month",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a515547fe0f8a64ea94e2fa9b3a8a2912890de33"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nEWUcjLRIjQ1Vx2z"
+}

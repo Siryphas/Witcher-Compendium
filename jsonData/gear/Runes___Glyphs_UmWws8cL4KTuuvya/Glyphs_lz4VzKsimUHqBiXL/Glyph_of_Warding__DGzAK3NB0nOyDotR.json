@@ -1,0 +1,54 @@
+{
+  "folder": "lz4VzKsimUHqBiXL",
+  "name": "Glyph of Warding+",
+  "type": "enhancement",
+  "_id": "DGzAK3NB0nOyDotR",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Glyph%20Warding%20Greater.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 300,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "glyph",
+    "applied": "",
+    "avail": "Everywhere",
+    "effects": [
+      {
+        "id": "first",
+        "name": "While wearing this armor, you have resistance to damage dealt by an Elemental source such as fire or lightning."
+      },
+      {
+        "id": "_q8y51t2ub",
+        "name": "While wearing this armor, you gain a +1 to Resist Magic.",
+        "percentage": ""
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d165044d5bb5df47cb2882f6442df56b93d253e2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!DGzAK3NB0nOyDotR"
+}

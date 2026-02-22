@@ -1,0 +1,57 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Ritual of Binding",
+  "type": "spell",
+  "_id": "Urq6GezLWODAKdT3",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "master",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": false,
+    "effect": "Process: \nPrepare as you would for a ritual of Controlled Summoning, by making a circle of candles and infused paste. \nMake a second paste of coal and your own blood and write the true name of a demon just outside of the circle of controlled summoning. \nLine the inside of circle with silver, which will create a protective barrier within the circle, trapping the demon inside and leaving it helpless to resist you.\nWithin the silver, present an offering to the demon as you would in a ritual of Controlled Summoning. \nOnce you are prepared, chant the true name of a demon until it appears within the circle, helpless to resist you. \nTorture the demon with the forked end of the Staff of Binding, until it accepts to be bound to you, granting you benefits beyond your wildest dreams.\n\nEffect: \nYou must know the name of the demon you are planning to bind before you begin this ritual. \nUpon casting the Ritual, the demon you named is summoned within the ritual circle and is trapped in a magical cage that renders it unable to escape or attack you for the duration of the Ritual.\nThe demon is aware that the ritual has a finite duration but perceives time as passing more slowly. \nOnce this ritual has been cast, you enter Verbal Combat with the demon with your end goal being the Binding of the demon. \nA True Staff of Binding can be used to make attacks through the magical cage and torment the demon but other weaponry and spells cannot penetrate this barrier. \nA regular Staff of Binding will not penetrate this barrier either. \nThe demon is bound to any agreements made while the Ritual of Binding is in effect and cannot go back on these agreements unless the binding is broken. \nOnce, every 2 weeks the demon can attempt a Resist Magic check against the Binding Character’s original Ritual Crafting check to attempt to break the Binding. \nThis roll is made secretly by the Game Master. \nIf the demon breaks the Binding they are no longer beholden to any agreements made earlier and are capable of harming the Binder but may not do so until the moment is right. \nUnless broken, the binding last indefinitely. \nDuring the duration of the Binding, the Binder can summon the\nbound demon at any time without performing the Controlled Summoning Ritual.",
+    "range": "",
+    "duration": "24 Hours",
+    "defence": "",
+    "components": "Investment: 1288\n\nCandle (x5), Essence of Wraith (x2), Infused Dust (x3), Oil (x1), Coal (x10), Silver (x6), A Jug of Your Own Blood, True Staff of Binding",
+    "alternateComponents": "",
+    "preparationTime": "30 Rounds",
+    "dificultyCheck": "20/27",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "66e9280ab49c1984de987c1806a2ff5e6e9fa5b0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "1.038",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Urq6GezLWODAKdT3"
+}

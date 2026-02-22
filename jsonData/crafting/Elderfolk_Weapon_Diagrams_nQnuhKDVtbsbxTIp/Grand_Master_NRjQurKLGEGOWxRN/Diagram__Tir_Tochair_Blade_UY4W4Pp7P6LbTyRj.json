@@ -1,0 +1,108 @@
+{
+  "folder": "NRjQurKLGEGOWxRN",
+  "name": "Diagram: Tir Tochair Blade",
+  "type": "diagrams",
+  "_id": "UY4W4Pp7P6LbTyRj",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>The Gnomes of Tir Tochair started making swords centuries before even the elves got to the Continent. That practice paid off. The blades of the Tir Tochair are long an&rsquo; razor- sharp, with gnomish etchings as fine as a hair all the way down &rsquo;em.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1776,
+    "isHidden": false,
+    "type": "elderfolk-weapon",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 26,
+    "alchemyDC": 0,
+    "craftingTime": "13 H",
+    "craftingComponents": [
+      {
+        "id": "pcXHjeszP7tQFZa5",
+        "name": "Hardened Timber",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "Y6IoNwiPLseWkBMw",
+        "name": "Hardened Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "jmLdYieTxjKfwcrx",
+        "name": "Mahakam Dimeritium",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.wiMRwTqfO7tUbgsj"
+      },
+      {
+        "id": "Kud9xtBYLZfMZG6Z",
+        "name": "Dark Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "pHmqtH9YlKPQrQ77",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      },
+      {
+        "id": "oaDUrm0VmZpqcIYO",
+        "name": "Ester Grease",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "EhXtlK31xwoQTpMb",
+        "name": "Draconid Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.d3MFWfdBu2XoP7JD"
+      },
+      {
+        "id": "DLspT1i7rTpChX3s",
+        "name": "Ashes",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB"
+      }
+    ],
+    "investment": 888,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.zhU94erso9YsCxar",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "befcbf4a3eda89791e8b9883ce4f7bf0eb2ae3a0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!UY4W4Pp7P6LbTyRj"
+}

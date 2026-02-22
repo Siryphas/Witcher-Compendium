@@ -1,0 +1,78 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Magic Healing",
+  "type": "spell",
+  "_id": "fB7hqkC4FFqsPG0E",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Magic Healing stimulates the natural healing of a target to heal them at a rate of 3 points of damage per round. This lasts for the duration of the spell. \nAlternatively, this spell can be used repeatedly to heal a critical wound.\n-Simple: 4 Uses at DC 14\n-Complex: 6 Uses at DC 16\n-Difficult: 8 Uses at DC 18\n-Deadly: 10 Uses at DC 20",
+    "range": "2m",
+    "duration": "1d10 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "doesHeal": true,
+    "heal": "3",
+    "onCastEffects": [
+      {
+        "id": "QQgLeb4OkBXKaZCa",
+        "name": "",
+        "statusEffect": "healing",
+        "percentage": 100,
+        "varEffect": false
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "03f37ef976d10f07b5852322ccd8dd7768070f3d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!fB7hqkC4FFqsPG0E"
+}

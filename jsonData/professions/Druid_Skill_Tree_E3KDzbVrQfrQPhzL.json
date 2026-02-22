@@ -1,0 +1,101 @@
+{
+  "name": "Druid Skill Tree",
+  "type": "profession",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Druid%20Icon.jpg",
+  "system": {
+    "notes": "<h1>Bestial Form</h1>\n<ul>\n<li><span style=\"text-decoration: underline;\"><strong>Boar</strong></span><strong>:</strong> The Druid's skin thickens and grows bristles. The Druid gains +3 SP on all body locations.</li>\n<li><strong><span style=\"text-decoration: underline;\">Bear</span>:&nbsp;</strong>The Druid's hands grow claws. The claws deal 4d6 slashing damage and have a 10 REL. If damaged, these claws regrow at a rate of 1 REL per day.</li>\n<li><strong><span style=\"text-decoration: underline;\">Wolf</span>:&nbsp;</strong>The Druid's ears grow to a point and their mouth and nose change into a snout. They gain the benefits of enhanced senses, granting a +1 to Awareness and allowing them to track things by scent alone.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Panther</strong></span><strong>:</strong> The Druid's legs become digitgrade and furry allowing them to leap twice their LEAP distance by using a move action from a standing start. This leap can be made horizontally or vertically.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Serpent</strong></span><strong>:</strong> The Druid grows venomous fangs. They gain a bite attack that deals 3d6 damage and has a 100% chance to inflict the poison effect.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Owl</strong></span><strong>:</strong> The Druid's eyes grow large and feathers sprout around their face. They gain Superior Night Vision.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Crow</strong></span><strong>:</strong> The Druid's body sprouts black feathers and their mind sharpens granting a +1 to INT which can raise their INT above 10. Additionally, whenever they Reposition they can move their full SPD rather than half.</li>\n</ul>",
+    "definingSkill": {
+      "skillName": "Rite of Oak and Mistletoe",
+      "stat": "int",
+      "definition": "<p>A Druid learns very quickly how to harvest magically potent plants and turn them into a powerful focus for their magic which connects them to the land around them. A Druid can take a day and make a Rite of Oak and Mistletoe roll against a DC specific to the area in which they find themselves to harvest the necessary ingredients. If successful, the Druid creates a Staff which works only for the Druid. This staff functions exactly as a Staff (Witcher Core Rule Book, pg. 74) but its Focus value rises as they improve their Rite of Oak &amp; Mistletoe value. The Focus value begins at 1 at level 1 and raises by 1 every 2 levels to a maximum of 4 at level 7. <br>At level 9, the Staff gains the Greater Focus Effect.&nbsp;<br>Additionally, while the Druid is carrying their staff, they gain the following benefits based on their Rite of Oak &amp; Mistletoe value. At level 2, the Druid ignores all environmental penalties in overgrown or swampy terrain. <br>At level 4, the Druid ignores the penalties for snow and ice conditions.&nbsp;<br>At level 6, the Druid ignores the penalties for extreme heat conditions.<br>At Level 8, the Druid ignores all penalties from being<br>underwater.&nbsp;<br>At Level 10, the Druid can roll to create a new staff by taking a full round action rather than 1 day.&nbsp;<br>The DCs to create a staff are 14 when in a forest, 16 when in swampy areas, 18 when in mountainous regions, and 20 when at sea.&nbsp;</p>",
+      "level": null
+    },
+    "skillPath1": {
+      "pathName": "Initiate",
+      "skill1": {
+        "skillName": "Nature Attunement",
+        "stat": "none",
+        "definition": "<p>A Druid can become more in tune with&nbsp;nature, gaining 1 point of Vigor threshold&nbsp;per level in Nature Attunement up to level&nbsp;9. At the 10th level in Nature Attunement,&nbsp;the Druid&rsquo;s Vigor Threshold rises by&nbsp;5 to a total of 16. Nature Attunement&nbsp;can be trained like any other skill.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Read Nature",
+        "stat": "int",
+        "definition": "<p>When in a purely natural environment,&nbsp;a Druid can roll Read Nature at a DC&nbsp;set by the GM. On a success, the Druid&nbsp;reads the signs around them to learn&nbsp;everything that passed through that&nbsp;area within the last week and what each&nbsp;creature did in the area. <br>Read Nature&nbsp;renders a very localized picture and cannot&nbsp;track things but gives a very detailed&nbsp;description of what happened in the area.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Animal Compact",
+        "stat": "will",
+        "definition": "<p>A Druid adds their Animal Compact value to any Wilderness Survival rolls they make to handle animals. The Druid can also make a compact with an animal. By taking a full round and rolling an Animal Compact check at a DC set by the GM, they can make one Beast or animal their ally for a number of hours equal to their Animal Compact value.&nbsp;Monsters are unaffected.</p>\n<p>&nbsp;</p>",
+        "level": null
+      }
+    },
+    "skillPath2": {
+      "pathName": "Mystic Sage",
+      "skill1": {
+        "skillName": "Lore Keeper",
+        "stat": "none",
+        "definition": "<p>Part of the initiation into a Circle is to&nbsp;memorize a plethora of topics that can&nbsp;come in handy to the Druid. They can&nbsp;roll their Lore Keeper Ability in place of&nbsp;any Wilderness Survival, Monster Lore,&nbsp;Human Perception, or Education checks.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Blood and Bones",
+        "stat": "will",
+        "definition": "<p>By casting bones in a bowl filled with blood&nbsp;drawn from a person, the Druid can alter&nbsp;the fate of that person. The Druid rolls Blood&nbsp;and Bones against a DC:10 + the target&rsquo;s&nbsp;WILL. On a success, the target can add half&nbsp;the Druid&rsquo;s Blood and Bones value to one&nbsp;check made before the next sunrise. <br>On a failure, the target cannot benefit from this ability for 1 week.&nbsp;A single target can only&nbsp;benefit from this ability once per session.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Bestial Form",
+        "stat": "none",
+        "definition": "<p>Unlocking ancient rituals allows the Druid&nbsp;to incorporate animal aspects into their&nbsp;body, transforming into a hybrid form&nbsp;without taking an action. For each 2 levels&nbsp;the Druid has in Bestial Form, they can add&nbsp;a new animalistic aspect to their hybrid&nbsp;form. Additionally, while in their hybrid&nbsp;form, the Druid can speak with animals&nbsp;of a type they have incorporated, and&nbsp;become Feared &amp; Hated by non-druids.</p>",
+        "level": null
+      }
+    },
+    "skillPath3": {
+      "pathName": "Militant",
+      "skill1": {
+        "skillName": "Beast Healer",
+        "stat": "cra",
+        "definition": "<p>Working often with animals in defense of&nbsp;nature, a Druid can tend to grievous wounds&nbsp;in their beastly companions. A Druid can&nbsp;roll Beast Healer to treat Critical Wounds&nbsp;inflicted on Beasts. This roll works exactly&nbsp;like the Doctor&rsquo;s Healing Hands ability.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Sacred Grove",
+        "stat": "will",
+        "definition": "<p>A Druid can turn an area of nature into a&nbsp;sacred grove. This takes 1 hour, and covers&nbsp;an area with a 20m radius. The Druid&nbsp;takes the value of their Sacred Grove check&nbsp;and uses those points to add protections&nbsp;to their sacred grove. The Druid and&nbsp;anyone they specify are immune to these&nbsp;protections. This grove lasts for 3 months&nbsp;and the Druid can maintain a number of&nbsp;groves equal to their Sacred Grove value.</p>\n<ul>\n<li><span style=\"text-decoration: underline;\"><strong>Overgrown Enviroment</strong></span><strong><br></strong><strong>Cost:</strong> 2<br>The plants of the area grow wildly out of control, imposing a -2 to Dodge/Escape, and Athletics checsks.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Lost<br></strong></span><strong>Cost:</strong> 10<br>A magical fog settles aroudn the grove which forces anyone entering it to make a DC: 16 Resist Magic check to enter the area. Targets who fail are turned around and immediately exit the grove.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Poisoned Harvest</strong></span><strong><br></strong><strong>Cost:</strong> 6<br>Deadly magic suffuses the palnts of the grove causing crops grown in the area to inflict the poison effect when eaten.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Miracle Harvest<br></strong></span><strong>Cost:</strong> 4<br>The plants of the grove grow a bountiful harvest doubling the number of plant-based ingredients gather from each Foraging check.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Thorns</strong></span><strong><span style=\"text-decoration: underline;\"><br></span></strong><strong>Cost:</strong> 10<br>A wall of thorny vines sprouts at the edge of the grove and anything that passes through it must make a DC: 16 Athletics check or suffer the Bleeding condition.</li>\n</ul>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Grove Guardian",
+        "stat": "will",
+        "definition": "<p>By using an ancient ritual, the Druid can&nbsp;empower an animal or beast. By taking one&nbsp;full round and rolling Grove Guardian against&nbsp;a DC:10 + the creature&rsquo;s BODY, the creature&nbsp;grows to twice its size, its BODY increases&nbsp;by 5, and gains a +5 bonus to damage. This&nbsp;bonus affects the creatures Derived Statistics&nbsp;as well. The creature also becomes highly&nbsp;aggressive to enemies of the Druid. <br>This&nbsp;lasts for 24 hours and during that time the&nbsp;druid&rsquo;s Vigor threshold is reduced by 5.</p>",
+        "level": null
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.professions.Item.y0QiESlMpbRGT0f1",
+      "hash": "7ae97ed82bb6103f0b69859fdc94c773edeba21b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "E3KDzbVrQfrQPhzL",
+  "sort": 800000,
+  "_key": "!items!E3KDzbVrQfrQPhzL"
+}

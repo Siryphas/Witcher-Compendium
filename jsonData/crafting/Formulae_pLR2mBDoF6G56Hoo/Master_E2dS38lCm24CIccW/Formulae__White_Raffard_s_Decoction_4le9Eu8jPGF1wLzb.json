@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: White Raffard's Decoction",
+  "type": "diagrams",
+  "_id": "4le9Eu8jPGF1wLzb",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Now this ain&rsquo;t the decoction you&rsquo;ll hear about from witchers. Turns out that one&rsquo;s a modified version of this piece of work. The mage White Raffard concocted this potion centuries ago to help the humans take over the continent. It ain&rsquo;t as powerful as the decoction witcher&rsquo;s use but it also ain&rsquo;t deadly to us regular folk, heh! It&rsquo;s harder than hell to find but if ya get a vial of it it&rsquo;ll help ya recover after a tough fight.</em></p>\n<p>A dose of White Raffard's Decoction allows the imbiber to regenerate 1 HP per round for the duration of the decoction.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 500,
+    "isHidden": false,
+    "type": "decoction",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 19,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 1,
+      "aether": 1,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.L5vtMW0t2aUZcoFZ",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ded52a6779a7eef016d0c2db4cdad921b5e32098"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!4le9Eu8jPGF1wLzb"
+}

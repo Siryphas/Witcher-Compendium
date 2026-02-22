@@ -1,0 +1,71 @@
+{
+  "folder": "eVZWEWuLkBskjoEG",
+  "name": "Demetia's Crest Surge",
+  "type": "spell",
+  "_id": "FSLR2kNmoWkWm6Zx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "fire",
+    "domain": "",
+    "stamina": "12",
+    "staminaIsVar": false,
+    "effect": "Demetia’s Crest Surge allows you to create a shield of pure fire magic around you that blocks a number of water spells equal to 2 times your Spell Casting skill value.\nProjectiles that enter the shield are destroyed, and living creatures cannot enter the area of the shield.",
+    "range": "10m",
+    "duration": "Active (4 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "selfEffects": [
+      {
+        "id": "l865qgg3ddXcERSf",
+        "name": "",
+        "statusEffect": "shielded",
+        "percentage": 100,
+        "varEffect": false
+      }
+    ],
+    "damageType": "fire",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4365a3c1a2a564fc981f5629727a31b851e46e4c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FSLR2kNmoWkWm6Zx"
+}

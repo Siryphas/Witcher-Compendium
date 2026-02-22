@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Pantagran's Elixir",
+  "type": "diagrams",
+  "_id": "0EkjMRXDQQhQ3wUI",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Pantagran of Lyria was a wellknown alchemist in the North. Created this elixir which makes ya all kinds of happy. Makes sense for a Lyrian. Heh, rough place to live.</em></p>\n<p>Consuming a draught of Pantagran's Elixir brings delirious happiness. This effect lasts for 1d6/2 hours and leaves the imbiber incredibly susceptible to Persuasion, Charisma, and Seduction, giving them a -2 to Resist Coercion.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 100,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 17,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 2,
+      "sol": 1,
+      "caelum": 1,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.sEVO4OlOLkqV5jus",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e3e7c684b50dfe5344927ca46a782016938e2e9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!0EkjMRXDQQhQ3wUI"
+}

@@ -1,0 +1,108 @@
+{
+  "folder": "HexTsC5CePXBHkFM",
+  "name": "Diagram: Dwarven Cloak",
+  "type": "diagrams",
+  "_id": "3WKRXuTQvHcsiGCL",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Dwarven cloaks are well known for being excellent travelin&rsquo; cloaks and also damn good armor. They&rsquo;re only leather, but they&rsquo;re treated with a special dwarven technique that not only makes &lsquo;em hard armor, but also makes &lsquo;em waterproof.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2100,
+    "isHidden": false,
+    "type": "elderfolk-armor",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "Cv8SzecvRSNE3q6y",
+        "name": "Hardened Leather",
+        "quantity": 12,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "P2KkzNhQkgNxRE9R",
+        "name": "Resin",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "SXUIlkHZ3BvjxWpB",
+        "name": "Leather",
+        "quantity": 6,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "yAQMUDZFwTD9BqtO",
+        "name": "Thread",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "7sOctPyGTxwW1LdM",
+        "name": "Ogre Wax",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "BMw7EDBll9GC5j16",
+        "name": "Drake Oil",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.QAIj3OIRWqyR11gx"
+      },
+      {
+        "id": "W0L5fwAoC8N43kD2",
+        "name": "Ester Grease",
+        "quantity": 7,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "3vBECJvOVxePxRJs",
+        "name": "Cow Hide",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.768kH6b9mjkNRunQ"
+      }
+    ],
+    "investment": 1050,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.spImgZvVXHDmC1pE",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "acbedf6829d7266ad211cd7862fafaa0b4456197"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!3WKRXuTQvHcsiGCL"
+}

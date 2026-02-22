@@ -1,0 +1,77 @@
+{
+  "folder": "VadvsiPYs318L0AQ",
+  "name": "Diagram: Earthly Ribbons",
+  "type": "diagrams",
+  "_id": "m84ex8GUBC4lAv1C",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>A length of beautiful silk ribbon, embroidered with runes made from thread infused with fifth essence.&nbsp;<br>When a goetic practitioner summons a Mari Lwyd they can present these ribbons among the gifts to the demon. The Mari Lwyd will happily accept the gorgeous gift and allow the practitioner to tie the ribbons around them.&nbsp;<br>Once bound by Earthly Ribbons a Mari Lwyd is incapable of taking other forms.&nbsp;<br>Once tied, the Earthly Ribbons remain active for 1 year. After this year, the ribbons lose their magic.&nbsp;<br>Before that year ends however, the ribbons can be removed by anyone other than the Mari Lwyd.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1352,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "10h",
+    "investment": 676,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "PtQCJ9TUXGJn16Op",
+        "name": "Silk",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      },
+      {
+        "id": "8bXLfBnUB65pIxrI",
+        "name": "Fifth Essence",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "m0PT2UIOnSiIrLjU",
+        "name": "Thread",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.magic.Item.9eUmnbmCcL6kuRV3"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0e606676301d69ddcb296e76fbbdf7a613c635ba"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!m84ex8GUBC4lAv1C"
+}

@@ -1,0 +1,67 @@
+{
+  "folder": "PnDNOVJBRqY70VFQ",
+  "name": "Manticore Armor",
+  "type": "armor",
+  "_id": "JbFYS9fQBm24jiK3",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Manticore%20Armor.jpg",
+  "system": {
+    "description": "Critical Block: \nWhenever you roll more than 4 points higher than an attacker when making a Block or Parry attempt with your Manticore shield you can immediately attempt a Shield Strike which knocks the attacker back 4m and knocks them prone at no additional penalty and without spending any extra Stamina.",
+    "quantity": 1,
+    "weight": 10,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 12,
+    "torsoMaxStopping": 12,
+    "leftArmStopping": 12,
+    "leftArmMaxStopping": 12,
+    "rightArmStopping": 12,
+    "rightArmMaxStopping": 12,
+    "leftLegStopping": 12,
+    "leftLegMaxStopping": 12,
+    "rightLegStopping": 12,
+    "rightLegMaxStopping": 12,
+    "type": "Medium",
+    "avail": "WITCHER",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Critical Block"
+      }
+    ],
+    "encumb": 1,
+    "location": "FullCover",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BC92QTpkf8n8V5Ef"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e1b16b186eeb90c17b0d9c7d03ef8d9cb425039"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JbFYS9fQBm24jiK3"
+}

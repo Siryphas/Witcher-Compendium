@@ -1,0 +1,67 @@
+{
+  "folder": "MJWqPOUi0F529miF",
+  "name": "Feline Armor",
+  "type": "armor",
+  "_id": "ysFGcbx6sYUCM4Yh",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Cat%20Armor.jpg",
+  "system": {
+    "description": "Critical Flurry: \nWhenever you cause a Critical Wound using one of your Witcher weapons you can immediately attempt a Disarm or Trip check at no additional penalty and without spending any extra Stamina.",
+    "quantity": 1,
+    "weight": 3,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 6,
+    "torsoMaxStopping": 6,
+    "leftArmStopping": 6,
+    "leftArmMaxStopping": 6,
+    "rightArmStopping": 6,
+    "rightArmMaxStopping": 6,
+    "leftLegStopping": 6,
+    "leftLegMaxStopping": 6,
+    "rightLegStopping": 6,
+    "rightLegMaxStopping": 6,
+    "type": "Light",
+    "avail": "WITCHER",
+    "enhancements": 2,
+    "enhancementItems": [],
+    "effects": [
+      {
+        "id": "first",
+        "name": "Critical Flurry"
+      }
+    ],
+    "encumb": 0,
+    "location": "FullCover",
+    "equiped": false,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "A Witcher's Tools",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.7Mgq76sI9eftdqaB"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c103f3ae9b49d3748471ecbd38ade6fa321ad16d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ysFGcbx6sYUCM4Yh"
+}

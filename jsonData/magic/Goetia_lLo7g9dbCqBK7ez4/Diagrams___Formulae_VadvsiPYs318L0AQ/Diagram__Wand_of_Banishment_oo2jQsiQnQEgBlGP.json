@@ -1,0 +1,101 @@
+{
+  "folder": "VadvsiPYs318L0AQ",
+  "name": "Diagram: Wand of Banishment",
+  "type": "diagrams",
+  "_id": "oo2jQsiQnQEgBlGP",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>A hazel wand with a capped by etched dark steel and treated with ogre wax and ester grease. This wand can be used to temporarily banish a specific demon from existence.&nbsp;<br>The wielder must make a melee weapon attack against the demon which if successful deals no damage but banishes the demon back to its own realm for 24 hours.&nbsp;<br>Each wand can only be used on one specific demon (whose name is carved into the wand) and has a 50% chance of breaking with each banishment.&nbsp;<br>If used against a greater demon, the wand always breaks after the banishment.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 800,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 17,
+    "alchemyDC": 0,
+    "craftingTime": "9h",
+    "investment": 405,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "LFl9dnpjaTCjdmRM",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "cZP2vxY9lc4vCPN9",
+        "name": "Fifth Essence",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "cU7igphrKDK0Jkpw",
+        "name": "Ester Grease",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "nKmemRtDuGlUWO5z",
+        "name": "Dark Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "zucWjUvX43kjFiaZ",
+        "name": "Etching Acid",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "g3I6OuTykGqjlXIx",
+        "name": "Ogre Wax",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "5Peq1ZwhjSjzNLTM",
+        "name": "Optima Matter",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.j5RVUVI2BrVDwaOK"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.magic.Item.i1aytszvfd1DGR9E"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c4f4d7db0061900f34baad43cc06a64ab3900009"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!oo2jQsiQnQEgBlGP"
+}

@@ -1,0 +1,112 @@
+{
+  "folder": "dNEWmbHLX50kbh79",
+  "name": "Preece's Procedure",
+  "type": "spell",
+  "_id": "D5GilEYOp6FDMdaU",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Developed by Catrin Preece to navigate the dangerous waters of high society, Preece’s Procedure allows you to temporarily lock away one a target’s emotions. \nWhen the spell is cast, you can choose one of the following Emotions to lock away: \nHatred, Love, Depression, or Euphoria. \nFor the 10 duration of this spell, the target is incapable of having this emotion and is unaware they have been affected with magic. At the end of the spell’s duration, the target’s locked emotion returns but they are still unaware they were affected by magic. \nEach time the spell is cast on a single target that is currently being affected by the spell, the Stamina Cost to cast Preece’s Procedure raises by 2.",
+    "range": "3m",
+    "duration": "8 Hours",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Preece's Procedure",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.D5GilEYOp6FDMdaU",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "yXxuYo6Gg3AfiLYf",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>When the spell is cast, you can choose one of the following Emotions to lock away:</p><p>Hatred, Love, Depression, or Euphoria.</p><p>For the 10 duration of this spell, the target is incapable of having this emotion and is unaware they have been affected with magic. At the end of the spell’s duration, the target’s locked emotion returns but they are still unaware they were affected by magic.</p><p>Each time the spell is cast on a single target that is currently being affected by the spell, the Stamina Cost to cast Preece’s Procedure raises by 2.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!D5GilEYOp6FDMdaU.yXxuYo6Gg3AfiLYf"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "54cd61bea65e4b08488ddbeb4f1bad81e67ab9a7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!D5GilEYOp6FDMdaU"
+}

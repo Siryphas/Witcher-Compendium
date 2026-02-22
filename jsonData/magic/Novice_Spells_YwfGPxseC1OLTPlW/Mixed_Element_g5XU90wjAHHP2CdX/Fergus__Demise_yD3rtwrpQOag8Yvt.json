@@ -1,0 +1,107 @@
+{
+  "folder": "g5XU90wjAHHP2CdX",
+  "name": "Fergus' Demise",
+  "type": "spell",
+  "_id": "yD3rtwrpQOag8Yvt",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "4",
+    "staminaIsVar": false,
+    "effect": "No one knows who created this spell but it was made infamous by its use on Emperor Fergus var Emreis after he was dethroned. Fergus’ Demise allows you to summon a cluster of magical needles that act on your command, to torture a target within range.\nFor the duration of this spell, you are able to make a Spell Casting check instead of an Intimidation check to interrogate your target.",
+    "range": "2m",
+    "duration": "1 Hour",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "onCastEffects": []
+  },
+  "effects": [
+    {
+      "name": "Fergus' Demise",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.yD3rtwrpQOag8Yvt",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "2VFCwDpFZA6R08hW",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Fergus’ Demise allows you to summon a cluster of magical needles that act on your command, to torture a target within range.</p><p>For the duration of this spell, you are able to make a Spell Casting check instead of an Intimidation check to interrogate your target.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!yD3rtwrpQOag8Yvt.2VFCwDpFZA6R08hW"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dd603fee10772c31c02c4c52c7388d866eea77dd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!yD3rtwrpQOag8Yvt"
+}

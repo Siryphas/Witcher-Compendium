@@ -1,0 +1,52 @@
+{
+  "folder": "mwv32vMjUH8Xc7fX",
+  "name": "Fiber",
+  "type": "enhancement",
+  "_id": "ZK9aVz22EvuzFGGU",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/shoulder/shoulderpad-quilted.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 40,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "armor",
+    "applied": "",
+    "avail": "Everywhere",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed Resistance",
+        "statusEffect": "bleed",
+        "percentage": 100,
+        "varEffect": false
+      }
+    ],
+    "stopping": 1,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eba20e134d5360350b1ace62802fd752bd96be63"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!ZK9aVz22EvuzFGGU"
+}

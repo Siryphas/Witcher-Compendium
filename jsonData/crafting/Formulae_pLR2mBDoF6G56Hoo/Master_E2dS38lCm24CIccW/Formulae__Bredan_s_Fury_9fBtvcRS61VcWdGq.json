@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Bredan's Fury",
+  "type": "diagrams",
+  "_id": "9fBtvcRS61VcWdGq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Bredan, the Mad Chemist of Gheso. Heh, don&rsquo;t get a name like that for makin&rsquo; a new fertilizer. Hear after Bredan created this explosive elixir he disappeared. Sounds to me like he proved useful to the Empire.</em></p>\n<p>Bredan's Fury explodes when exposed to air, doing 1d6 damage to every body location of any creature within 2m. Throwing it is an Athletics attack with a range equal to BODYx2m.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 142,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 22,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 1,
+      "sol": 3,
+      "caelum": 1,
+      "fulgur": 3
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.DEh58HxEGOceVWsO",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a2db796b7cf723edd761d39db6a2e085720bdf54"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!9fBtvcRS61VcWdGq"
+}

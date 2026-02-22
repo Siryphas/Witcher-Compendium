@@ -1,0 +1,96 @@
+{
+  "folder": "6OoTijb5ADa9nrB6",
+  "name": "Meteorite Sword",
+  "type": "weapon",
+  "_id": "xb6MKiXGeImmNu1d",
+  "img": "icons/weapons/swords/greatsword-crossguard-engraved-green.webp",
+  "system": {
+    "description": "Meteorite’s some of the best metal to make a weapon from. These swords get this colored sheen to ‘em and are tough as all hell. The blade’s surprisingly light too.\nTurns out meteorite’s got colors to it. Heh, blue, red, and yellow. Maybe more but I don’t know. Color only really comes out if ya refine the stuff so most of the meteorite weapons ya see nowadays just have a sorta oily sheen to ‘em. Heard if ya refine the ore first with some old gnomish technique, the blades glint the color of the ore. Supposed to have some kinda magical effect too, since they passed through all the elemental planes on the way to us.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 875,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "5d6",
+    "reliable": 20,
+    "maxReliability": 20,
+    "hands": "both",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Balanced",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_mbifsfdf6",
+        "name": "Meteorite",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "isMeteorite": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "Balanced",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UFs7s48YVYJeOIjE"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2afc5dedc813ea60684f119cbed87666a8b02ab5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xb6MKiXGeImmNu1d"
+}

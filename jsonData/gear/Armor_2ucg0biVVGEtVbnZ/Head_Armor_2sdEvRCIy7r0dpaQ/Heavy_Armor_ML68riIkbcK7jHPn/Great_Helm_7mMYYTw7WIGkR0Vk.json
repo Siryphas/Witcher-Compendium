@@ -1,0 +1,69 @@
+{
+  "folder": "ML68riIkbcK7jHPn",
+  "name": "Great Helm",
+  "type": "armor",
+  "_id": "7mMYYTw7WIGkR0Vk",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/greathelm-banded-steel.webp",
+  "system": {
+    "description": "Great helms are for the highest of knights. Heh, large, cylindrical helmets with larger slots for the eyes and enough ventilation holes to breathe clear. They’re tough as all hell and they’re usually decorated with braided tassles, horns, and spread-winged eagles. Heh, gaudy as hell but useful.",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 575,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 20,
+    "headMaxStopping": 20,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Heavy",
+    "avail": "Rare",
+    "enhancements": 1,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Restricted Vision",
+        "statusEffect": "reducedVision",
+        "percentage": 0
+      }
+    ],
+    "encumb": 0,
+    "location": "Head",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.yT7ihVQmdDSg744D"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "99145da710c434a397601b5215ed07671d333e45"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7mMYYTw7WIGkR0Vk"
+}

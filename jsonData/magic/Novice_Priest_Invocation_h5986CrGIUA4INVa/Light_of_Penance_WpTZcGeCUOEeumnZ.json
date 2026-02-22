@@ -1,0 +1,76 @@
+{
+  "folder": "h5986CrGIUA4INVa",
+  "name": "Light of Penance",
+  "type": "spell",
+  "_id": "WpTZcGeCUOEeumnZ",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Developed by the beloved Incandescent Anika var Myricks in the heart of Nilfgaard, Light of Penance summons the power of your deity to punish a target, draining them of their will to resist. \nUpon casting this invocation, the target lowers their current STA by 2d6. \nIf the target has a Vigor Threshold of 1 or higher, they lower their current STA by an additional 2d6 as well.",
+    "range": "6m",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "2d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Non-Lethal",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "isNonLethal": true,
+      "effects": []
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c0e7c3e069622e0f29e57456e4baceec507e201a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WpTZcGeCUOEeumnZ"
+}

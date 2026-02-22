@@ -1,0 +1,78 @@
+{
+  "folder": "6OoTijb5ADa9nrB6",
+  "name": "Tir Tochair Blade",
+  "type": "weapon",
+  "_id": "zhU94erso9YsCxar",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/swords/sword-guard-engraved-worn.webp",
+  "system": {
+    "description": "The Gnomes of Tir Tochair started making swords centuries before even the elves got to the Continent. That practice paid off. The blades of the Tir Tochair are long an’ razor- sharp, with gnomish etchings as fine as a hair all the way down ’em.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 1175,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 3,
+    "avail": "Rare",
+    "damage": "6d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 25
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "swordsmanship",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UY4W4Pp7P6LbTyRj"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2013f09d354cb51d45675f052694d6e5160ec632"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zhU94erso9YsCxar"
+}

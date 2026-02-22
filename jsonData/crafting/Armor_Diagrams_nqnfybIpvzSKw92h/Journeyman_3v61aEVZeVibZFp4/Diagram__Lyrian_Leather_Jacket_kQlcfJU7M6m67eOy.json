@@ -1,0 +1,90 @@
+{
+  "folder": "3v61aEVZeVibZFp4",
+  "name": "Diagram: Lyrian Leather Jacket",
+  "type": "diagrams",
+  "_id": "kQlcfJU7M6m67eOy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "<p><em>Been lucky enough to wear a Lyrian leather jacket once. Holy hell, felt like I was wearin&rsquo; damn plate armor. The Lyrians treat their leather in some special way that makes it tough as a basilisk&rsquo;s hide. Let the merchant shoot me with a long bow and it didn&rsquo;t even scratch me! May have been a bit sloshed at the time.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 786,
+    "isHidden": false,
+    "type": "armor",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 18,
+    "alchemyDC": 0,
+    "craftingTime": "9 H",
+    "craftingComponents": [
+      {
+        "id": "2xk75PqglOBpILXZ",
+        "name": "Lyrian Leather",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.96G953DW2G4ec7Cd"
+      },
+      {
+        "id": "RywuPGFQnYgYucWJ",
+        "name": "Thread",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "kB6L9168n7EjDdyv",
+        "name": "Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "qv96lAey15GmHFIc",
+        "name": "Linen",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6MVuuy7yw3TLm4f1"
+      },
+      {
+        "id": "CBUSXPf8DdCufKOt",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      }
+    ],
+    "investment": 392,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.qQjFbZL1xDcyE3S9",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "593f167de616dead7d1fe89e0b5e04032ec08548"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!kQlcfJU7M6m67eOy"
+}

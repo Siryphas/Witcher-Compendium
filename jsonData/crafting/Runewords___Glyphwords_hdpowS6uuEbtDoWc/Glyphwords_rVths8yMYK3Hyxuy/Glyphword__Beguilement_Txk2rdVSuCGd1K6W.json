@@ -1,0 +1,72 @@
+{
+  "folder": "rVths8yMYK3Hyxuy",
+  "name": "Glyphword: Beguilement",
+  "type": "diagrams",
+  "_id": "Txk2rdVSuCGd1K6W",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>Head Armor:<br>While wearing this head armor, you gain a +1 to Charisma, Grooming and Style, and Leadership.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2300,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "u96ybyj1R7hW6fdm",
+        "name": "Glyph of Fire",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.RXnlG0Qh39Bu7QVH"
+      },
+      {
+        "id": "pXjSkPPepQzTz71O",
+        "name": "Glyph of Water",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.YrCRsii213dLNmBw"
+      }
+    ],
+    "investment": 1150,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.XiTJlC975o4slZGn",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "928183de86557fb8ac259864171ab0ff3ebea84a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!Txk2rdVSuCGd1K6W"
+}

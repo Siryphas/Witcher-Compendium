@@ -1,0 +1,78 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Ammunition, Blunt (x5)",
+  "type": "diagrams",
+  "_id": "R6a7wRNcrmsnuCzS",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Blunt bolts and arrows are an interesting case. Heh, never really used &lsquo;em myself but then again, never fought much that a broadhead won&rsquo;t put down. Blunt ammunition has a large dull wooden head like a fist. Hear if ya half-draw &lsquo;em in a bow, ya can use these bolts to knock people out.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 75,
+    "isHidden": false,
+    "type": "ammunition",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 12,
+    "alchemyDC": 0,
+    "craftingTime": "1 Hour",
+    "craftingComponents": [
+      {
+        "id": "5LheZdUynFa4cJye",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "vwKKaF5GnokDi3Pc",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "name": "Feathers",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z",
+        "id": "VpIPu1QUA8mdehJK"
+      }
+    ],
+    "investment": 37,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.77uNiHwkheB3UFdd",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9f202456a4f00e95ec9076d78179942c99d2caaa"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!R6a7wRNcrmsnuCzS"
+}

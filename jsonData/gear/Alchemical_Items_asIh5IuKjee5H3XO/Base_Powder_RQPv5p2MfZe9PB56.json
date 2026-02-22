@@ -1,0 +1,53 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Base Powder",
+  "type": "alchemical",
+  "_id": "RQPv5p2MfZe9PB56",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/grains/sack-rice-open-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 18,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Common",
+    "effect": "I don’t use base powder much since I don’t deal with acid...but then again, acid can be a good weapon so it’s good to have a countermeasure.\n\nBase Powder counteracts the effects of acid, negating one dose of acid solution per dose of base powder used. Base powder can also negate the effects from a torn stomach critical wound.",
+    "time": "Immediate",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "vCrzF1lVLw4ILyYB",
+          "name": "Clears Acid",
+          "statusEffect": null,
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "905879a0b3243742ab8cad2c019bf4a1f98a4c29"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RQPv5p2MfZe9PB56"
+}

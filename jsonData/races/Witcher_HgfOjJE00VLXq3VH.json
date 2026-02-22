@@ -1,0 +1,240 @@
+{
+  "name": "Witcher",
+  "type": "race",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+  "system": {
+    "descriotion": "",
+    "perk1": {
+      "name": "Enhanced Senses",
+      "description": "<p>Due to their heightened senses, witchers take no penalties from areas of dim light and gain an inherent +1 to their Awareness skill, as well as the ability to track things by scent alone.</p>"
+    },
+    "perk2": {
+      "name": "Dulled Emotions",
+      "description": "<p>\u0017Thanks to trauma and mutation, a witcher&rsquo;s emotions are dulled. Witchers do not have to make courage checks against Intimidation, but they have a -4 to their Empathy Stat. \u0017 This cannot bring Empathy below 1.</p>"
+    },
+    "perk3": {
+      "name": "Resilient Mutation",
+      "description": "<p>A\u0016fter all of the mutations required to become a witcher, they are immune to diseases and are able to use mutagens.</p>"
+    },
+    "perk4": {
+      "name": "Lightning Re\u001dflexes",
+      "description": "<p>A\u0016fter intensive training and mutation, witchers are much faster and more agile than humans. They gain a permanent +1 to their Re\u0015flex and Dexterity that can raise both stats above 10.</p>"
+    },
+    "socialStanding": {
+      "north": "hatedFeared",
+      "nilfgaard": "hatedFeared",
+      "skellige": "tolerated",
+      "dolBlathanna": "tolerated",
+      "mahakam": "tolerated"
+    }
+  },
+  "effects": [
+    {
+      "name": "Enhanced Senses",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+      "_id": "kLotNDOh4js93Q1R",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.awareness.activeEffectModifiers",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Due to their heightened senses, witchers take no penalties from areas of dim light and gain an inherent +1 to their Awareness skill, as well as the ability to track things by scent alone.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HgfOjJE00VLXq3VH.kLotNDOh4js93Q1R"
+    },
+    {
+      "name": "Dulled Emotions",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+      "_id": "ZxRqav4xp70mycCO",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.emp.totalModifiers",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">Thanks to trauma and mutation, a witcher’s emotions are dulled. Witchers do not have to make courage checks against Intimidation, but they have a -4 to their Empathy Stat. \u0017 This cannot bring Empathy below 1.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HgfOjJE00VLXq3VH.ZxRqav4xp70mycCO"
+    },
+    {
+      "name": "Resilient Mutation",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+      "_id": "vRBxxfmlprdeHPFQ",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">A\u0016fter all of the mutations required to become a witcher, they are immune to diseases and are able to use mutagens.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HgfOjJE00VLXq3VH.vRBxxfmlprdeHPFQ"
+    },
+    {
+      "name": "Lightning Reflexes",
+      "origin": "Compendium.wtrpg-complete-compendium.races.Item.HgfOjJE00VLXq3VH",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Race%20Icons/Race%20Witcher%20Icon.png",
+      "_id": "JZU2uuw5Jo9bfLr6",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.ref.totalModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        },
+        {
+          "key": "system.stats.dex.totalModifiers",
+          "mode": 2,
+          "value": "+1",
+          "priority": null
+        }
+      ],
+      "description": "<p><span style=\"font-family:Signika, sans-serif\">A\u0016fter intensive training and mutation, witchers are much faster and more agile than humans. They gain a permanent +1 to their Re\u0015flex and Dexterity that can raise both stats above 10.</span></p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.9.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HgfOjJE00VLXq3VH.JZU2uuw5Jo9bfLr6"
+    }
+  ],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.races.Item.2MhdYhw0NAsKWer6",
+      "hash": "40c71d9a88b15d630731637b8504635731493f62"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "HgfOjJE00VLXq3VH",
+  "sort": 400000,
+  "_key": "!items!HgfOjJE00VLXq3VH"
+}

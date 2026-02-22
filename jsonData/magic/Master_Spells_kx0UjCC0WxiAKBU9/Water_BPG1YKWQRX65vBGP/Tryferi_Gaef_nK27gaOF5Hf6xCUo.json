@@ -1,0 +1,93 @@
+{
+  "folder": "BPG1YKWQRX65vBGP",
+  "name": "Tryferi Gaef",
+  "type": "spell",
+  "_id": "nK27gaOF5Hf6xCUo",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "Water",
+    "domain": "",
+    "stamina": "22",
+    "staminaIsVar": false,
+    "effect": "Tryferi Gaeaf allows you to shoot a number of 2m spikes of ice equal to half your Spell Casting skill value at any number of targets within range. \nThese spikes do 5d6 points of damage and, if they do damage through armor, freeze the opponent and do 2 point of damage each round until they are broken off with a DC:20 Physique check or by doing 20 points of damage to them. \nOtherwise, these spikes last for the duration of the spell. \nEach attack resolves separately.",
+    "range": "20m",
+    "duration": "1d10 Rounds",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "rect",
+    "causeDamages": true,
+    "damage": "5d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "statusEffect": "freeze",
+        "percentage": 100
+      }
+    ],
+    "visualEffectDuration": null,
+    "damageType": "ice",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Freeze",
+          "statusEffect": "freeze",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "cmD33btomAMZUjpI",
+          "name": "Deep Freeze",
+          "statusEffect": "bleed",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a716f3ef341c20ae99cfe6278a7eb66f9a75bac7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nK27gaOF5Hf6xCUo"
+}

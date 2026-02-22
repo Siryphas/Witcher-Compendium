@@ -1,0 +1,58 @@
+{
+  "name": "Extremely Mouldy Bread",
+  "type": "valuable",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/grains/pastry-bread-brown.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "NnlKjIL1C0VhznYU",
+          "name": "Nausea",
+          "statusEffect": "nausea",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "folder": "DtXKd26hgKjYbTat",
+  "flags": {
+    "cf": {
+      "id": "temp_wjo7lfo9hia",
+      "color": "#000000"
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "bd21ebc55636aeb698f8056ef2ed3167bbf65aad"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "W3ciS4S7bLRr0x2x",
+  "sort": 3100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_key": "!items!W3ciS4S7bLRr0x2x"
+}

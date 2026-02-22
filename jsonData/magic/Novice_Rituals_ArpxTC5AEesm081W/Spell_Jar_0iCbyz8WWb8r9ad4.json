@@ -1,0 +1,56 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Spell Jar",
+  "type": "spell",
+  "_id": "0iCbyz8WWb8r9ad4",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Spell Jar creates a magical vortex inside a sealed clay jar. This magical vortex lasts for 1d6 days and activates when the jar is broken.\nWhen broken, the magical vortex opens and a random spell from the list below occurs. \nRoll 1d10/2:\n1. Talfryn’s Prison\n2. Zephyr\n3. Tanio Ilchar\n4. Dormyn’s Fog\n5. Static Storm",
+    "range": "",
+    "duration": "1d6 Days",
+    "defence": "",
+    "components": "River Clay (x5), Fifth Essence (x1), Thread (x2), Chalk (x1), Wax (x1), Han Fiber (x2), Infused Dust (x1)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "15",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "15",
+    "cost": 298,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "03a190af942b1b51e194a27b974f61c3009f191d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0iCbyz8WWb8r9ad4"
+}

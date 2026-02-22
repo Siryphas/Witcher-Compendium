@@ -1,0 +1,67 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Magnify Odor",
+  "type": "spell",
+  "_id": "TUqxbVW7j2vBYxD7",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "air",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Magnify Odor allows you to intensify an existing scent until it encompasses a 6m cubed area. A creature who starts their turn in this area or enters it must make an Endurance check against your Spell Casting check or be overwhelmed by the odor and Nauseated for 1 Minute. \nAdditionally, anyone who enters the area is permeated by the scent for 1 week along with their possessions granting anyone with Scent Tracking a +2 to track them. Any creature with Scent Tracking loses that ability while affected by this spell. \nThis scent lasts for the duration of the spell or until entirely submerged in water.",
+    "range": "10m",
+    "duration": "1 Week",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "6",
+    "templateType": "rect",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5bbb06b91c3a4ddd1e83235d7fdbab274c26628b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!TUqxbVW7j2vBYxD7"
+}

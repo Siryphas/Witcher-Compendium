@@ -1,0 +1,68 @@
+{
+  "folder": "kcRIUSqu7O1IGNZr",
+  "name": "Song of the Sky",
+  "type": "spell",
+  "_id": "drAdhDHV1797nsMI",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "druid",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "The Song of the Sky changes the weather in the area directly around you. You can change the weather to: \n~Clear sky (No modifiers)\n~Cloudy (Little sunlight)\n~Rainstorm (Puts out fires)\n~Wind storm (-2 to DEX for ranged attacks)\n~Lightning storm \n(Anyone (except you) in the area has a 35% chance of being struck by lightning. If they miss this roll, they must make a Dodge/ Escape check or take 8d6 damage to the torso and have a 75% chance to be ignited).",
+    "range": "50m",
+    "duration": "Active (5 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "8d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "statusEffect": "fire",
+        "percentage": 75
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5e9b859c803ff8c46d56c65478e258ea55b4975a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!drAdhDHV1797nsMI"
+}

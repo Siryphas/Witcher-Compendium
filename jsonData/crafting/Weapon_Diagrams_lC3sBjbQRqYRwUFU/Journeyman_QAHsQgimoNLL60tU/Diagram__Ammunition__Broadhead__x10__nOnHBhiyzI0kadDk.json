@@ -1,0 +1,84 @@
+{
+  "folder": "QAHsQgimoNLL60tU",
+  "name": "Diagram: Ammunition, Broadhead (x10)",
+  "type": "diagrams",
+  "_id": "nOnHBhiyzI0kadDk",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Broadheads are some of the best alternate projectiles to have on hand. They&rsquo;re much like normal bolts or arrows but instead of having a simple metal head they have a wide, flat, bladed head. Heh, come in all shapes and sizes, leaves, diamonds, v shapes, and such but they all cut deeper than regular arrows, leavin&rsquo; bleedin&rsquo; wounds.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 125,
+    "isHidden": false,
+    "type": "ammunition",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 15,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "AfqI75AetCrAjL01",
+        "name": "Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL"
+      },
+      {
+        "id": "yJ2N6LwrqIvBEeOb",
+        "name": "Iron",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.tqdAVN6fwwd3m8gv"
+      },
+      {
+        "id": "NU9RaYMZ9cXdYPq1",
+        "name": "Feathers",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.gtraYFGs5Het9F1Z"
+      },
+      {
+        "id": "znVKSSr8Ix6mIWxK",
+        "name": "Sharpening Grit",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qlsqmi0TzUDmKcjC"
+      }
+    ],
+    "investment": 69,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.dun3GeTfAWO1xi6G",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "603f40c3b1b8bfd2858696b980e8b9b6c4b5b703"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!nOnHBhiyzI0kadDk"
+}

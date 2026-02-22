@@ -1,0 +1,78 @@
+{
+  "folder": "4uEv4u3zjO1eCMCr",
+  "name": "Runeword: Depletion",
+  "type": "diagrams",
+  "_id": "GVkU85HaSY62P7pA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>When casting a spell/invocation using this weapon as a focus, if your target fails to defend they lower their Stamina by 1d6 in addition to being affected by the spell.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 3350,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 21,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "43Ohdowr7ov8h1jj",
+        "name": "Stribog Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.3YUSwvfFc1roZMx8"
+      },
+      {
+        "id": "dZQHxXLrFSg7Qric",
+        "name": "Triglav Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.SCFRttH2BT0GwOUR"
+      },
+      {
+        "id": "U4TJHgPnGbleJ4fu",
+        "name": "Veles Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.THX4shNdm1m5cDyJ"
+      }
+    ],
+    "investment": 1675,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.w0V0b3lESrhRCEK3",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "af6bad237843cc2ab1cc227b70e17d8f5d028d67"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!GVkU85HaSY62P7pA"
+}

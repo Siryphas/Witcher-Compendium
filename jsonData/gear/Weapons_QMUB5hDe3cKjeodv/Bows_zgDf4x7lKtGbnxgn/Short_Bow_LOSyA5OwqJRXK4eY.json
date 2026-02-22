@@ -1,0 +1,70 @@
+{
+  "folder": "zgDf4x7lKtGbnxgn",
+  "name": "Short Bow",
+  "type": "weapon",
+  "_id": "LOSyA5OwqJRXK4eY",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/bows/shortbow-leather.webp",
+  "system": {
+    "description": "Aren’t gonna see many short bows in a war. They’re too small to make really good battlefield weapons and the range of their arrows ain’t great. But they’re perfect for huntin’ deer or the occasional trespasser.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 290,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "3d6+3",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "100m",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "archery",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4yKfDA1a1oiFLDBp"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "409a9f9170fbdb3e685ed994d37e2d690cd88202"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LOSyA5OwqJRXK4eY"
+}

@@ -1,0 +1,121 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Talfryn's Prison",
+  "type": "spell",
+  "_id": "H674gvzBV1Au394B",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Talfryn’s Prison is named for Talfryn of Nazair, a treacherous knight who was trapped for three days in the garden of the magician Drystan. The spell allows you to bind a target in roots. \nThe roots take 15 points of damage to break. Otherwise a Dodge/Escape check must be made at a DC equal to your original Spell Casting roll to escape.",
+    "range": "10m",
+    "duration": "Until Destroyed",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Immobilized",
+        "statusEffect": "grappled",
+        "percentage": 100
+      }
+    ],
+    "onCastEffects": [],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Talfryn's Prison",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.H674gvzBV1Au394B",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "_id": "liegX02dNRvtT1zu",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.spd.totalModifiers",
+          "mode": 5,
+          "value": "0",
+          "priority": null
+        }
+      ],
+      "description": "<p>The spell allows you to bind a target in roots.</p><p>The roots take 15 points of damage to break. Otherwise a Dodge/Escape check must be made at a DC equal to your original Spell Casting roll to escape.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "grappled"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!H674gvzBV1Au394B.liegX02dNRvtT1zu"
+    }
+  ],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "153e85751208217866c1c9bd763d2fd137286216"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H674gvzBV1Au394B"
+}

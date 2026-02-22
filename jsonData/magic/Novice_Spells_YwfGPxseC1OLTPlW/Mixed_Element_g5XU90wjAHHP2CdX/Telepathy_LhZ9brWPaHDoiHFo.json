@@ -1,0 +1,66 @@
+{
+  "folder": "g5XU90wjAHHP2CdX",
+  "name": "Telepathy",
+  "type": "spell",
+  "_id": "LhZ9brWPaHDoiHFo",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Telepathy allows you to communicate telepathically with one subject for the duration of the spell. Telepathy crosses language barriers. \n\nYou can use Telepathy to silently listen to a target’s thoughts. This works the same as regular telepathy. If the target has a Witcher medallion this will cause it to vibrate, and if the target is a mage and has Magic Training, they get a chance each round to detect the telepathic spying by rolling Magic Training against your initial Telepathy roll.",
+    "range": "10m",
+    "duration": "Active (1 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5e03e2a3e81f0ce238f4b3cb28104958bd9cc5d7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LhZ9brWPaHDoiHFo"
+}

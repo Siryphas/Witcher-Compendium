@@ -1,0 +1,70 @@
+{
+  "folder": "t5QsEWUCWqtolZ7T",
+  "name": "Halfling Protective Doublet",
+  "type": "armor",
+  "_id": "qjDpTkp12YvlNpFu",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/chest/vest-leather-brown.webp",
+  "system": {
+    "description": "Armor’s great. In times like these everyone should have some. But not everybody can wear chain and plates. A while ago, the halflings developed this armored doublet. Heh, they’re usually bright and well-decorated but they have a solid layer of armor inside them.",
+    "quantity": "1",
+    "weight": 1,
+    "cost": 375,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 0,
+    "headMaxStopping": 0,
+    "torsoStopping": 8,
+    "torsoMaxStopping": 8,
+    "leftArmStopping": 8,
+    "leftArmMaxStopping": 8,
+    "rightArmStopping": 8,
+    "rightArmMaxStopping": 8,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Light",
+    "avail": "Rare",
+    "enhancements": 1,
+    "effects": [
+      {
+        "id": "17yVvM1QJDl2kMZM",
+        "name": "Hidden",
+        "statusEffect": null,
+        "percentage": 100,
+        "varEffect": false
+      }
+    ],
+    "encumb": 0,
+    "location": "Torso",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.cpSc8VaTEBK2405C"
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "025c7f406a5cb65934f0fe4645aa776d411df910"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!qjDpTkp12YvlNpFu"
+}

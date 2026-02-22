@@ -1,0 +1,66 @@
+{
+  "folder": "g5XU90wjAHHP2CdX",
+  "name": "Reopen Portal",
+  "type": "spell",
+  "_id": "8NcuONfVrEuKCMEv",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "6",
+    "staminaIsVar": false,
+    "effect": "Reopen Portal allows you to find the trace of an existing portal and reopen that connection temporarily.\nUpon casting this spell, you can choose either a Permanent Portal which is currently closed or the trace of a Standing Portal which was cast within the last 30 seconds and roll a Spell Casting check. \nIf the chosen portal is a Permanent Portal, the DC to reopen it is 16. If the chosen portal is a Standing Portal, the DC is 20.",
+    "range": "2m",
+    "duration": "1 Round",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f1b4c4abdab7dbc6636a25caada36ac0aea2027b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8NcuONfVrEuKCMEv"
+}

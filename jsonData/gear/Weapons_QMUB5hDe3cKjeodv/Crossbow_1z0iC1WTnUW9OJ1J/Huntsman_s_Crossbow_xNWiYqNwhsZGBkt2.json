@@ -1,0 +1,77 @@
+{
+  "folder": "1z0iC1WTnUW9OJ1J",
+  "name": "Huntsman's Crossbow",
+  "type": "weapon",
+  "_id": "xNWiYqNwhsZGBkt2",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-slotted.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 600,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 2,
+    "avail": "Poor",
+    "damage": "5d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "150m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 0.5,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Book of Tales",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.8erXAUWZDgxRtdT5"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "516e8de4d1150c9cd158116cd21e53b61557e4e4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xNWiYqNwhsZGBkt2"
+}

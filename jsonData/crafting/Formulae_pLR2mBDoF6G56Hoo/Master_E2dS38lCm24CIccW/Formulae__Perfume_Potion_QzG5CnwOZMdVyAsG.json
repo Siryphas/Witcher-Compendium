@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Perfume Potion",
+  "type": "diagrams",
+  "_id": "QzG5CnwOZMdVyAsG",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>Say perfume potion was created by some alchemist to appease his angry wife. It&rsquo;s a precursor to perfume but if ya drink it, it&rsquo;ll get ya drunk in an instant. Popular for kidnappers and high society folk as well, heh.</p>\n<p>Someone who consumes a draught of Perfume Potion must make a DC: 16 Endurance check. Failure causes intoxication for 1d10 hours. This intoxication can only be undone by magic or Wives' Tears Potion.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 114,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 18,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 2,
+      "rebis": 0,
+      "aether": 1,
+      "quebrith": 2,
+      "hydragenum": 2,
+      "vermilion": 1,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.tbVczMR0f8iuzDS8",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "35770d204f79dba5c8426cb77050706fd79534e9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!QzG5CnwOZMdVyAsG"
+}

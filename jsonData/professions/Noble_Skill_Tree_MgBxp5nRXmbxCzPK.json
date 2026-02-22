@@ -1,0 +1,102 @@
+{
+  "name": "Noble Skill Tree",
+  "type": "profession",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Noble%20Icon.jpg",
+  "system": {
+    "notes": "<h1><strong>Estate</strong></h1>\n<p>A Noble&rsquo;s estate is a nice, well-established property furnished with all the luxuries befitting a&nbsp;nobleperson. Its layout can be determined (within reason) by the player but once the layout&nbsp;has been established, only upgrading the estate can change that layout. A Noble&rsquo;s estate is&nbsp;staffed by a majordomo (Scholar), who manages the home, and a number of servants (Laborers)&nbsp;equal to the Noble&rsquo;s Estate value times two, who take care of all chores and tend to&nbsp;the Noble. They will not leave the estate nor enter combat for the Noble, unless convinced.&nbsp;Certain additions will add specific servants to your estate. These servants do not count&nbsp;against the total granted by your Estate value.</p>\n<h2><strong>Additions:</strong></h2>\n<ul>\n<li><strong>Barracks:</strong> Adding Barracks to your estate not only adds&nbsp;a brick building attached to your estate but also gives you&nbsp;access to ten Guards (use Bandit Stats). These guards live in the barracks and follow your orders.&nbsp;They will go into combat to defend you or your estate and&nbsp;will report anything strange to you or your majordomo.&nbsp;Their duty is to the estate and they will not leave it to fight&nbsp;elsewhere. If you choose this addition again, you gain five&nbsp;more guards.</li>\n<li><strong>Greenhouse:</strong> Adding a Greenhouse to your estate&nbsp;gives you access to a number of plant-based Components.&nbsp;When you build your Greenhouse, you can select&nbsp;four Everyday/Common-rarity Components and&nbsp;two Poor-rarity Components that could be grown in a&nbsp;Greenhouse. Every month your Greenhouse generates&nbsp;ten units of each of these. If you find a plant component&nbsp;while away you can return to your estate and cultivate it&nbsp;in your Greenhouse, causing it to provide the same number&nbsp;of units per month. You can cultivate a maximum of&nbsp;ten individual Components in a single Greenhouse. Your&nbsp;Greenhouse is managed by a Gardener with a Base 15&nbsp;Wilderness Survival.</li>\n<li><strong>Hunting Grounds:</strong> Adding a Hunting Ground to&nbsp;your estate adds a large area of wilderness within a day&rsquo;s&nbsp;travel that is stocked with game animals. By spending&nbsp;time hunting in your Hunting Grounds, you can generate&nbsp;beast bones, feathers, and leather (which is cured by&nbsp;your Huntsmaster). For every hour spent hunting, you&nbsp;generate 1d6 units of each component (maximum 3d6).&nbsp;Your Hunting Ground is managed by a Huntsmaster with&nbsp;a Base 15 Wilderness Survival.</li>\n<li><strong>Personal Physician:</strong> Adding a Personal Physician to&nbsp;your estate gives you access to a physician who will treat&nbsp;you and your guests at no cost. This Physician counts a&nbsp;Scholar with a Healing Hands Base of 15.</li>\n<li><strong>Secret Rooms:</strong> Each time you add Secret Rooms to&nbsp;your estate you create two hidden rooms and two hidden&nbsp;passages. A hidden passage can connect up to three existing&nbsp;rooms. A DC:16 Awareness check is required to spot&nbsp;the entrances of these secret instalments and each one has&nbsp;a lock that opens with a special key in your possession.&nbsp;You can have this key replicated for free. If someone spots&nbsp;the secret room, they can attempt a DC:20 Pick Lock&nbsp;check to open the entrance.</li>\n<li><strong>Security:</strong> Adding security to your estate improves the&nbsp;locks on all doors and windows. These locks now have a&nbsp;Pick Lock DC of 18 rather than the standard DC of 15.&nbsp;This does not affect the locks on Secret Rooms or Torture&nbsp;Chambers. Taking this addition a second time raises the&nbsp;Pick Lock DC to 20.</li>\n<li><strong>Torture Chamber:</strong> Adding a Torture Chamber to&nbsp;your estate creates a subterranean chamber closed off by&nbsp;a DC:18 lock on the outside of the room. The room is&nbsp;furnished with torture devices and five cages locked with&nbsp;DC:18 locks. While using this room, the user gains a +3 to&nbsp;Intimidation but deals 2d6 damage to the target for each&nbsp;attempt. If using Verbal Combat, the Torture Chamber&nbsp;grants a +2 bonus to the benefits gained from torture and&nbsp;torment. The Torture Chamber is maintained by a Torturer&nbsp;with a Base 15 in Intimidation.</li>\n<li><strong>Workshop:</strong> Adding a Workshop to your estate creates&nbsp;a small building that not only contains all the tools required&nbsp;to perform a craft but also grants a bonus of +2 to&nbsp;any crafting checks made within. When you build your&nbsp;Workshop, you must decide which form of crafting it is&nbsp;dedicated to. Multiple Workshops can be built in your estate,&nbsp;each with their own specialization.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Visiting Your Estate</strong></h3>\n<p>As a Noble, your estate can be&nbsp;an amazingly powerful source&nbsp;of resources, power, and information.&nbsp;That being said, all the&nbsp;functions of an estate require&nbsp;you to be physically present on&nbsp;your estate. You may choose to&nbsp;visit your estate often or perhaps&nbsp;push to make your estate&nbsp;the base of operations for your&nbsp;party.</p>",
+    "definingSkill": {
+      "skillName": "Notoriety",
+      "stat": "none",
+      "definition": "<p>Nobility, whether earned by noble deeds or conferred by birth,&nbsp; grants a person a grandeur that must be acknowledged. Peasants may curse a noble&rsquo;s name and mock them in the safety of their hovels but most dare not insult a noble to their&nbsp; face. A Noble adds their Notoriety value to their Reputation score when in their home country or a country allied with their homeland. If a Noble travels to a kingdom or territory that is&nbsp; actively at war with, or neutral toward their homeland, they gain only half their Notoriety value.</p>",
+      "level": null
+    },
+    "skillPath1": {
+      "pathName": "The Dilettante",
+      "skill1": {
+        "skillName": "Dabble",
+        "stat": "none",
+        "definition": "<p>Each time a Noble takes a rank in Dabble, they gain a pool of skill points equal to their new rank plus the previous rank. These points can be spent to gain or raise skill ranks at a one-to-one rate but cannot raise a skill rank above 4. When used to raise the rank of a Difficult<br>Skill, 2 points must be spent to raise the skill by 1 rank.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Expert Guise",
+        "stat": "emp",
+        "definition": "<p>By rolling Expert Guise&nbsp;against a target&rsquo;s Resist Coercion,&nbsp;the Noble can permanently&nbsp;convince a person&nbsp;of the Noble&rsquo;s expertise in a&nbsp;specific subject. The target&nbsp;then defers to the Noble and&nbsp;the Noble gains a +3 to Deceit&nbsp;checks against the target&nbsp;when that specific topic is&nbsp;involved.</p>\n<p>If the person you are trying to&nbsp;convince of your expertise has&nbsp;more than four points in an&nbsp;appropriate skill, they can add&nbsp;their skill value to their Resist&nbsp;Coercion check.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Host",
+        "stat": "emp",
+        "definition": "<p>By taking a day and spending&nbsp;an amount of money&nbsp;equal to their Host value&nbsp;times 100, a Noble can arrange&nbsp;a festive gathering.&nbsp;While at this gathering, the&nbsp;Noble gains a +3 to Charisma,&nbsp;Seduction, and Persuasion.&nbsp;Anyone the Noble&nbsp;invites must make a Resist&nbsp;Coercion check against the&nbsp;Noble&rsquo;s Host check to not&nbsp;attend.</p>\n<p>A festival is furnished with a&nbsp;full feast, games, and entertainment&nbsp;as appropriate for its&nbsp;function and location.&nbsp;If a Noble wishes, they can&nbsp;voluntarily lower their Host&nbsp;rank when putting on a festival.&nbsp;The event requires less&nbsp;money but the DC to refuse&nbsp;an invitation is based on the&nbsp;lowered Host rank.</p>",
+        "level": null
+      }
+    },
+    "skillPath2": {
+      "pathName": "The Leader",
+      "skill1": {
+        "skillName": "Command ",
+        "stat": "will",
+        "definition": "<p>As an action, a Noble can command a target to perform a specific task of their next turn. If the Noble&rsquo;s Command check beats a DC equal to the target&rsquo;s WILLx3, the target gains a bonus to one check involved in this task equal to one-half the Noble&rsquo;s Command value (minimum 1).</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Servants",
+        "stat": "none",
+        "definition": "<p>A Noble gains a number of&nbsp;servants equal to half their&nbsp;Servants value (minimum&nbsp;1). These subjects follow the&nbsp;Noble&rsquo;s orders to the best&nbsp;of their ability but must be&nbsp;commanded or persuaded&nbsp;to risk their lives. If a servant&nbsp;can no longer serve for&nbsp;any reason, the Noble can&nbsp;request a new one from&nbsp;their household be sent.</p>\n<p>Your servants are Everyman&nbsp;NPCs. When you generate&nbsp;your Servants, you can use any&nbsp;combination of the following&nbsp;Everyman NPCs: <br>Artisans,&nbsp;Laborers, Entertainers, or&nbsp;Scholars. <br>Your Servants do not&nbsp;gain I.P. and cannot improve&nbsp;their skills.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Estate",
+        "stat": "none",
+        "definition": "<p>A Noble personally owns an&nbsp;estate that consists of a main&nbsp;house, a stable, and a parcel&nbsp;of land. The Noble decides&nbsp;where this estate is located&nbsp;(within reason). The Noble&nbsp;serves as the land&rsquo;s manager&nbsp;and gains benefit from it.&nbsp;Anyone living on the land is&nbsp;their subject.</p>",
+        "level": null
+      }
+    },
+    "skillPath3": {
+      "pathName": "The Knight",
+      "skill1": {
+        "skillName": "Resolute",
+        "stat": "none",
+        "definition": "<p>A Noble can add their Resolute value to their Courage and Resist Coercion&nbsp; checks. If they succeed a Courage or Resist Coercion check, any ally who&nbsp; witnesses them do so gains a bonus on their own Courage or Resist Coercion check equal to onehalf the Noble&rsquo;s Resolute value (minimum 1) until&nbsp;the end of the scene.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Chevalier",
+        "stat": "emp",
+        "definition": "<p>By taking an hour, a Noble&nbsp;can make a Chevalier check&nbsp;against a mount&rsquo;s WILLx3&nbsp;to permanently bond with&nbsp;it. When being ridden by&nbsp;the Noble, the mount&rsquo;s Control&nbsp;Modifier is raised by&nbsp;half the Noble&rsquo;s Chevalier&nbsp;value. The Noble can also&nbsp;lower the result of a control&nbsp;loss by half this value.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Armored Buffer",
+        "stat": "ref",
+        "definition": "<p>If an enemy scores a critical&nbsp;wound on a Noble, the Noble&nbsp;can immediately make&nbsp;an Armored Buffer check&nbsp;against a DC equal to the&nbsp;enemy&rsquo;s original Attack&nbsp;Check. If the Noble succeeds,&nbsp;they can negate the&nbsp;critical wound by sacrificing&nbsp;the armor in the hit location.&nbsp;The armor suffers 1d10&nbsp;ablation damage per level of&nbsp;the critical wound to the hit&nbsp;location.&nbsp;</p>\n<p>If a Noble successfully negates a critical wound with Armored Buffer, they also negate the bonus damage from the critical wound. However, standard weapon damage applies to the Noble after their armor sustains damage.</p>",
+        "level": null
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.professions.Item.WyubUBKO5yoluFCk",
+      "hash": "7b53670166c05cd20b9357ca4106ca8d04e70ef4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "MgBxp5nRXmbxCzPK",
+  "sort": 500000,
+  "_key": "!items!MgBxp5nRXmbxCzPK"
+}

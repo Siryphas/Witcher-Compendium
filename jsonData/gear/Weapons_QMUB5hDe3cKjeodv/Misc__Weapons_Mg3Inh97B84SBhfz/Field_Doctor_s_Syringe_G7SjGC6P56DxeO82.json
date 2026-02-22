@@ -1,0 +1,96 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Field Doctor's Syringe",
+  "type": "weapon",
+  "_id": "G7SjGC6P56DxeO82",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/tools/fasteners/pin-spiked.webp",
+  "system": {
+    "description": "Now, I’m pretty sure these aren’t meant to be used as weapons. But then again, when your back’s against a wall I guess anything can be a weapon, heh. All I know is, whatever you inject with one of these things is gonna take hold fast and it ain’t gonna be easy to shake off.\nInjector: This weapon can be loaded with a vial of any poison or elixir with an action. When the wielder deals damage with the Field Doctor’s Syringe it injects this poison or elixir deep into the target’s system. This increases the DC to shake off a poison by 3 or increases the duration of an elixir by 3 rounds.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 350,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 1,
+    "avail": "Poor",
+    "damage": "1d6",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "none",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Injector",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "T",
+    "enhancements": 0.5,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Professional's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Om8AloxXA50lh7RY",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Injector",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "25K36W5GWtW7FzRd",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "603dc0cdf5c34ea93621f774fa6d1f4da9ca600e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!G7SjGC6P56DxeO82"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Ashen Ointment",
+  "type": "diagrams",
+  "_id": "KyxLPKBLpZwzLAVf",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>A small pot of grey ointment which repels heat. When spread across a character's whole body, Ashen Ointment renders the character immune to the Fire Condition.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 125,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 1,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 3
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.jv1kqaLaSikHHI3D",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "31047519df5cadbcb4d580b3764aaedbfcfb9300"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!KyxLPKBLpZwzLAVf"
+}

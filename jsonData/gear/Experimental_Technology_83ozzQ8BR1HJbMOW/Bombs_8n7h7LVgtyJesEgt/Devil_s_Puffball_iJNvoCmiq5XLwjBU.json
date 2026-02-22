@@ -1,0 +1,97 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Devil's Puffball",
+  "type": "weapon",
+  "_id": "iJNvoCmiq5XLwjBU",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-cloth-pink.webp",
+  "system": {
+    "description": "Poison (100%)\nDoes double Poison damage.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 138,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "_e7v5ith6b",
+        "name": "Poison",
+        "percentage": "100"
+      },
+      {
+        "id": "_t2j9dlca7",
+        "name": "Deals double Poison damage",
+        "percentage": ""
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "_e7v5ith6b",
+          "name": "Poison",
+          "statusEffect": "poison",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_t2j9dlca7",
+          "name": "Deals double Poison damage",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "629bd5393c7a28d4aed59ca000aa099c7931f7cc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!iJNvoCmiq5XLwjBU"
+}

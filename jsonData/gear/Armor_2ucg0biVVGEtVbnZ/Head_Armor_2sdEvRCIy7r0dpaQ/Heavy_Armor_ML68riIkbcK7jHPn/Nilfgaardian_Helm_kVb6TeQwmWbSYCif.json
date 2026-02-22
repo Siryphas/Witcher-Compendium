@@ -1,0 +1,69 @@
+{
+  "folder": "ML68riIkbcK7jHPn",
+  "name": "Nilfgaardian Helm",
+  "type": "armor",
+  "_id": "kVb6TeQwmWbSYCif",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/equipment/head/helm-sallet-steel.webp",
+  "system": {
+    "description": "The black ones’ helms are of an interestin’ two-part design. First part’s a domed sallet helmet with a section cut out of the front, or a visor to see out of. Second part’s a bevor that protects the neck and juts up in front of the mouth and nose. Together it makes a pretty protective design.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 800,
+    "isHidden": false,
+    "reliability": 0,
+    "reliabilityMax": 0,
+    "headStopping": 30,
+    "headMaxStopping": 30,
+    "torsoStopping": 0,
+    "torsoMaxStopping": 0,
+    "leftArmStopping": 0,
+    "leftArmMaxStopping": 0,
+    "rightArmStopping": 0,
+    "rightArmMaxStopping": 0,
+    "leftLegStopping": 0,
+    "leftLegMaxStopping": 0,
+    "rightLegStopping": 0,
+    "rightLegMaxStopping": 0,
+    "type": "Heavy",
+    "avail": "Rare",
+    "enhancements": 2,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Restricted Vision",
+        "statusEffect": "reducedVision",
+        "percentage": 0
+      }
+    ],
+    "encumb": 0,
+    "location": "Head",
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "sourcebook": "Corebook",
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.vw0LUEgi90BJhkKS"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e323587041e20b2aadd2793574327929d9f043fc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!kVb6TeQwmWbSYCif"
+}

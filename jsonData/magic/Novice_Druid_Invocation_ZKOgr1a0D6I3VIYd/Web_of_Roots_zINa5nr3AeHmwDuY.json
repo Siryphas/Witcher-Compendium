@@ -1,0 +1,70 @@
+{
+  "folder": "ZKOgr1a0D6I3VIYd",
+  "name": "Web of Roots",
+  "type": "spell",
+  "_id": "zINa5nr3AeHmwDuY",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "novice",
+    "source": "druid",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "Web of Roots allows you to take control of the roots of a nearby tree to grapple a target. \nUpon casting this invocation on a tree, you can use its roots to grapple, trip, or disarm a target within 10m of the tree who fails a Defense check against your Spell Casting check. \nEach round that you maintain this invocation you can either maintain your grapple or attempt one of the other options on a target within 10m of the tree. \nA grappled target can escape by succeeding a Dodge/Escape check against a new Spell Casting check or by dealing 15 points of damage to the roots.",
+    "range": "10m",
+    "duration": "Active (1 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "10",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Grapple",
+        "statusEffect": "grappled",
+        "percentage": 100
+      }
+    ],
+    "defenseOptions": [
+      "dodge"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2a31919fa18c3c184e7ddcb09263f578d3bea1a5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zINa5nr3AeHmwDuY"
+}

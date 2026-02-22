@@ -1,0 +1,110 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Zerrikanian Sun",
+  "type": "weapon",
+  "_id": "eb0FOHRkvB7qlgGj",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-brown-grey.webp",
+  "system": {
+    "description": "Any creature capable of sight caught in the radius of the bomb is Blinded for 5 rounds. \nAny creature with Night Vision who is caught in the radius in the bomb is blinded for 10 rounds and is Staggered.\nAny creature with Superior Night Vision is Blinded for 10 rounds and is also Stunned.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 120,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Blind (5 Rounds)",
+        "percentage": ""
+      },
+      {
+        "id": "_0gsa3gdo0",
+        "name": "Night Vision: Blind (10 Rounds) & Staggered",
+        "percentage": ""
+      },
+      {
+        "id": "_fbonubv6o",
+        "name": "Superior Night Vision: Blind (10 Rounds) & Stunned",
+        "percentage": ""
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "A Professional's Tools",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Blind (5 Rounds)",
+          "statusEffect": "blinded",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_0gsa3gdo0",
+          "name": "Night Vision: Blind (10 Rounds) & Staggered",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_fbonubv6o",
+          "name": "Superior Night Vision: Blind (10 Rounds) & Stunned",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ],
+      "bypassesNaturalArmor": true,
+      "bypassesWornArmor": true
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bef46aee56eadafef8ffe90fea53d804603661ce"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!eb0FOHRkvB7qlgGj"
+}

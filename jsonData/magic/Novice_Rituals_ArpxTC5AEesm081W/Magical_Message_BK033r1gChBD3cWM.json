@@ -1,0 +1,62 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Magical Message",
+  "type": "spell",
+  "_id": "BK033r1gChBD3cWM",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Magical Message records a message of up to 5 minutes into a gemstone or piece of glass etched with a magical sigil. \nYou can set up to 3 specific triggers that activate the message. \nOnce played, the message goes dormant until another trigger occurs. \nWhen triggered, an illusion of the caster appears and gives the message.\nWhen crafted with a perfect gemstone, the message appears as clear as if the ritual crafter were truly there.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "Glass (x1), Fifth Essence (x1), Quicksilver Solution (x1)\n\nAlternate Components: Perfect Gemstone (x1)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "12",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "12",
+    "alternateRitualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.EzQOcExxBDHb9B0n",
+        "quantity": 1
+      }
+    ],
+    "cost": 164,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "68558d757110023c3964499b2740ea8251be3748"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BK033r1gChBD3cWM"
+}

@@ -1,0 +1,65 @@
+{
+  "folder": "E2dS38lCm24CIccW",
+  "name": "Formulae: Endurance Potion",
+  "type": "diagrams",
+  "_id": "QBzZvbbMNqhjElPs",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Probably used an endurance once in my past. Keep me goin&rsquo; through a long night on patrol! Heh, If ya can chug down this herbal tonic it&rsquo;ll give ya a boost of energy like nothin&rsquo; you&rsquo;ve felt before. Problem is, if ya drink too much it&rsquo;ll get in yer head. Heh, you&rsquo;ll be up all night, jumpin&rsquo; at shadows and beggin&rsquo; for sleep!</em></p>\n<p>A dose of Endurance Potion allows the imbiber to immediately regain 3d6 Stamina. The Toxicity of the Endurance Potion lasts until its duration elapses regardless of whether the Stamina is used.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 400,
+    "isHidden": false,
+    "type": "potion",
+    "level": "master",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 17,
+    "craftingTime": "1/2 Hour",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 2,
+      "sol": 0,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.ulyztoTmhV0QmcsH",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9490dc1f15577d4dac51630d70360c5a5d68e470"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!QBzZvbbMNqhjElPs"
+}

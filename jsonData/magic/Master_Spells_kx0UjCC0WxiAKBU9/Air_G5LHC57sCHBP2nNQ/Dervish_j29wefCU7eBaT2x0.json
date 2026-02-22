@@ -1,0 +1,64 @@
+{
+  "folder": "G5LHC57sCHBP2nNQ",
+  "name": "Dervish",
+  "type": "spell",
+  "_id": "j29wefCU7eBaT2x0",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "air",
+    "domain": "",
+    "stamina": "22",
+    "staminaIsVar": false,
+    "effect": "Created by a mysterious Ofieri magician, Dervish allows you to create a 2m tornado around yourself. \nThis tornado immediately redirects ranged attacks as per Gwynt Troelli and acts a Zephyr spell against anyone within 2m of you. You cannot run while within this tornado, or make attacks out of it. \nBut if you move within 2m of a target they are effected by Zephyr.",
+    "range": "2m Radius",
+    "duration": "Active (6 STA)",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "2",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dc71c2d22866d2cc6613eb1fd9c0c39158a9445e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!j29wefCU7eBaT2x0"
+}

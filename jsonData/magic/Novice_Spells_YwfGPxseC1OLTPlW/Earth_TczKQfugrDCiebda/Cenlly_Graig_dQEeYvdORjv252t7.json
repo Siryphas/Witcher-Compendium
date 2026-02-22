@@ -1,0 +1,78 @@
+{
+  "folder": "TczKQfugrDCiebda",
+  "name": "Cenlly Graig",
+  "type": "spell",
+  "_id": "dQEeYvdORjv252t7",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "earth",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "Cenlly Graig hurls sharp stones at your opponent. For every point you roll above your opponent’s defense (maximum 10) you deal 1d6 damage.",
+    "range": "5m",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "1d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageProperties": {
+      "variableDamage": true,
+      "defenseDifferenceMultiplier": true,
+      "defenseMultiplierCap": 10,
+      "effects": []
+    },
+    "damageType": "piercing",
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "sourcebook": "Corebook"
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3e5caaacaa263daf3088af703ad38ffa533fb2f6"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.27.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dQEeYvdORjv252t7"
+}

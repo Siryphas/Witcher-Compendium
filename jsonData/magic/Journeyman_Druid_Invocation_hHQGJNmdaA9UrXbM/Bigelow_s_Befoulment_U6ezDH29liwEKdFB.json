@@ -1,0 +1,62 @@
+{
+  "folder": "hHQGJNmdaA9UrXbM",
+  "name": "Bigelow's Befoulment",
+  "type": "spell",
+  "_id": "U6ezDH29liwEKdFB",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "journeyman",
+    "source": "druid",
+    "domain": "",
+    "stamina": "0",
+    "staminaIsVar": true,
+    "effect": "Bigelow’s Befoulment taints all food or drink you desire within a 2m cubed area with harmful bacteria. \nIf you spend 5 STA casting this invocation, anyone who consumes the affected food or drink suffers the Disease condition within the next hour. \nWhile affected by the Disease condition, a target takes a -2 to all actions, lowers their maximum STA by one quarter, and must make DC:14 Endurance checks at the discretion of the Game Master or suffer the Nausea condition. \nThe Disease condition can only be removed by having a Doctor roll a DC:15 Healing Hands check on the affected character and then that character getting a full night’s rest. \nIf you spend 10 STA casting this invocation, the affected targets also suffer the Poison condition.",
+    "range": "4m",
+    "duration": "Permanent",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fe98a7447a98f751cf8d99bc3c4f7732d1720400"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!U6ezDH29liwEKdFB"
+}

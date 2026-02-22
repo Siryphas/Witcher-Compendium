@@ -1,0 +1,72 @@
+{
+  "folder": "L5NrzwAEG7JeY4vN",
+  "name": "Formulae: Hybrid Oil",
+  "type": "diagrams",
+  "_id": "s7KPkQ0BVKlJozvP",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p>+5 damage against Hybrids.</p>\n<p>&nbsp;</p>\n<p>Requires: 1 Dog Tallow</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "oil",
+    "level": "witcher",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 16,
+    "craftingTime": "15 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "name": "",
+        "quantity": 0,
+        "uuid": null
+      },
+      {
+        "name": "Hybrid Oil",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.vJtDk1RJXx4C64vR",
+        "id": "0KnUyPKPyidW2pQg"
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 1,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 1,
+      "caelum": 0,
+      "fulgur": 1
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.vJtDk1RJXx4C64vR",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3a5a0860c0d96781571bc7bfd7e5d5a1755ed7e1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!s7KPkQ0BVKlJozvP"
+}

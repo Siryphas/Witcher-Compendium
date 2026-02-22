@@ -1,0 +1,61 @@
+{
+  "folder": "ppaHryBA9JyUxdGV",
+  "name": "Divine Wisdom",
+  "type": "spell",
+  "_id": "dYIJgRJ8BB9ar2dE",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Invocations",
+    "level": "master",
+    "source": "preacher",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Divine Wisdom searches with a powerful augury for the answer to a question. \nThis answer cannot predict the future. \nThe GM sets your DC based on the secrecy of the information.",
+    "range": "50m",
+    "duration": "Active (5 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eb2ed693af495f0382a585f327fa78b670d7cc84"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dYIJgRJ8BB9ar2dE"
+}

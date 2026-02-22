@@ -1,0 +1,75 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Bronwyn's Bow",
+  "type": "spell",
+  "_id": "0xvyjUxLHbvpVW7w",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "air",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Developed by Bronwyn Deadeye to bombard the Nilfgaardian Navy, this spell allows you to summon a powerful current of air to propel a thrown weapon great distances. \nUpon casting this spell, you can make an attack with any Thrown Weapon, handheld Ranged Weapon Ammunition (Arrows or Bolts), or Bomb against a target using your Spell Casting base.\nIf throwing an arrow or bolt, you deal 4d6 damage.*",
+    "range": "50m",
+    "duration": "Immediate",
+    "defence": "Dodge or Block",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "4d6*",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageType": "piercing",
+    "damageProperties": {
+      "effects": []
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parryThrown"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "55bc16b26ef3fd1193723d7a78bded14d6651aac"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0xvyjUxLHbvpVW7w"
+}

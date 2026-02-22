@@ -1,0 +1,76 @@
+{
+  "folder": "pCzXKs8yjkI1RCuA",
+  "name": "Optional: Homebrew Rules",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "text",
+      "img": "modules/monks-enhanced-journal/assets/text.png"
+    },
+    "core": {},
+    "scene-packer": {
+      "sourceId": "JournalEntry.4HcNTKhfjbCyzYPZ",
+      "defaultPermission": 2,
+      "hash": "9ff4a2c3a456355465af7f9a927707e6af1d36eb"
+    }
+  },
+  "pages": [
+    {
+      "type": "text",
+      "name": "Homebrew Rules",
+      "_id": "3ZP5bVAOxE0VHGY1",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h1>WTRPG: Homebrew Rules</h1><p>It's very rare for us to use Homebrew rules or mechanics, as it keeps it easier for new players to learn the system and keeps it fair for both the players and GM to be able to rely on the RAW as much as possible. However, like every system, there are flaws. Below is a list of rulings added to all of our <em>Witcher: TRPG</em> games either to cover things the books don't or to fix mechanics that may cause problems.</p><h2>Silver Coating:</h2><p><strong>Silver Coating</strong> will now subtract the Silver damage of a weapon from its normal damage to keep the weapon balanced.</p><p>I.e. a sword that usually does 5d6 DMG would now do 2d6 with a Silver (3d6) effect.</p><h2>Magic Mutation:</h2><p>Some Blue Mutagens can add a Vigor Threshold of +2 or +3, though there is no guidance on what a mutated person can learn. So, it has been decided that a PC that has Mundane Magic and is mutated will be able to learn Spells, Rituals, and Hexes; as well as use Focuses. This is explained by them having a lifetime of experience with Chaos, even if it's just a small amount.</p><p>Otherwise, a character with no prior magic that is mutated, will be unable to use Focuses and will only be able to learn Signs (same rules that apply to Witchers, who are also mutants).</p><h2>Copying Diagrams:</h2><p>It has been pointed out that copying Diagrams takes away from the high value of rarer Diagrams and gives the PCs an opportunity to essentially print money by selling high-value Diagrams in bulk. To combat this, I've come up with a multi-roll system (similar to Learning Magic).</p><p>To copy a Diagram, you will need to make a Fine Arts check at the Craft DC of the Diagram you wish to copy. Then make a number of consecutive rolls in order to copy the Diagram to a new piece or pieces of parchment.</p><ul><li><p><strong>Novice</strong> will require 1 roll.</p></li><li><p><strong>Journeyman</strong> will require 2 rolls.</p></li><li><p><strong>Master</strong> will require 3 rolls.</p></li><li><p><strong>Grandmaster</strong> will require 4 rolls.</p></li></ul><p>If <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">ANY</span></span> of the rolls fails, you ruin the Diagram and must start over.</p><p>Copying Diagrams also takes some time.</p><ul><li><p><strong>Novice</strong> takes 30 mins.</p></li><li><p><strong>Journeyman</strong> takes an hour</p></li><li><p><strong>Master</strong> takes 2 hours.</p></li><li><p><strong>Grandmaster</strong> takes 4 hours.</p></li></ul><h2>Luck Mechanics</h2><p>In light of recent events, a change has been added to the use of LUCK. These changes are experimental and may be changed after playtesting.</p><p>A PC can now spend 2 LUCK point in order to reroll any roll they make, however, they must take the result of the second roll, even if it is worse. This can only be used once per Scene.</p><h2>STA Drain</h2><p>1 minute of intense effort or 1 hour of repetitive work cost 2 STA.</p><h2>EV Reduces REC</h2><p>Along with REF, DEX, Spellcasting, Ritual Crafting, and Hex Weaving, EV will reduce REC to reflect that it is harder to recover STA or HP while wearing armors.</p><h2>Teaching Rolls</h2><p>We've been using the Teaching/Training mechanic a lot, and I want to make it more impactful than \"I spend 4 hours training and get 4 IP.\" Now when teaching someone a skill you know, you will need to roll a Teaching check at a DC equal to the other player's skill base.</p><p>For example, if you want to teach another PC Swordsmanship, you will need to roll Teaching and try to beat their current Swordsmanship base.</p><p>This should make things a bit more dynamic and encourage people to consider spending more points in Teaching, giving it a use beyond simply calculating an average.</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "dxC9PYhanWf4xPZG": 3
+      },
+      "flags": {
+        "monks-enhanced-journal": {
+          "appendix": false,
+          "pagetype": "text",
+          "img": "modules/monks-enhanced-journal/assets/text.png"
+        }
+      },
+      "_stats": {
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "1.038",
+        "coreVersion": "13.347",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!NnAZY25IHA9IcJno.3ZP5bVAOxE0VHGY1"
+    }
+  ],
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "1.038",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "NnAZY25IHA9IcJno",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "categories": [],
+  "_key": "!journal!NnAZY25IHA9IcJno"
+}

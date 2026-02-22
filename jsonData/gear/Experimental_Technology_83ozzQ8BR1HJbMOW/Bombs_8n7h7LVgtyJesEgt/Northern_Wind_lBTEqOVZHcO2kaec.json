@@ -1,0 +1,95 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Northern Wind",
+  "type": "weapon",
+  "_id": "lBTEqOVZHcO2kaec",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-black-grey.webp",
+  "system": {
+    "description": "Any creature caught in the radius freezes in place until\nthey make a DC:18 Physique check, until they are struck,\nor for 8 rounds. An attack on someone frozen does an\nextra 2d6 damage.",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 177,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Elemental",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": true
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "0",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Freeze",
+        "percentage": "100"
+      },
+      {
+        "id": "_6am9p32co",
+        "name": "DC: 18 Physique or 8 rounds",
+        "percentage": ""
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Freeze",
+          "statusEffect": "freeze",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "_6am9p32co",
+          "name": "DC: 18 Physique or 8 rounds",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 850000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fa8345a4d5ff26901951b7321cb4a607d30b4b80"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!lBTEqOVZHcO2kaec"
+}

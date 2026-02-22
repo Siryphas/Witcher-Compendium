@@ -1,0 +1,99 @@
+{
+  "folder": "rwiBLlYxXXDUV0d5",
+  "name": "The Evil Eye",
+  "type": "spell",
+  "_id": "sqLt0ZTmIwQt1d4V",
+  "img": "icons/magic/symbols/runes-star-magenta.webp",
+  "system": {
+    "class": "Hexes",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "8",
+    "staminaIsVar": false,
+    "effect": "Casting The Evil Eye upon a subject weaves a web of misfortune around them which threatens their every move. Whenever the subject rolls a Fumble, they must roll twice and take the worse outcome. \nAdditionally, the GM is encouraged to choose the subject whenever they would be randomly determining the target of a threat.",
+    "range": "",
+    "duration": "",
+    "defence": "",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "Medium",
+    "liftRequirement": "The subject must acquire a unit of coral from the Great Sea (50 Crowns) and fashion it into an amulet with a DC:14 Fine Arts check. \nThe amulet must be worn during the entirety of a full moon and will shatter at the sunrise, freeing you of the Hex.",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "0",
+    "effects": [],
+    "globalModifiers": [],
+    "damageProperties": {
+      "bypassesWornArmor": true
+    },
+    "defenseOptions": [
+      "magicResist"
+    ]
+  },
+  "effects": [
+    {
+      "name": "The Evil Eye",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.sqLt0ZTmIwQt1d4V",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/magic/symbols/runes-star-magenta.webp",
+      "_id": "rCoJe1TOZKn86jWH",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Casting The Evil Eye upon a subject weaves a web of misfortune around them which threatens their every move. Whenever the subject rolls a Fumble, they must roll twice and take the worse outcome.</p><p>Additionally, the GM is encouraged to choose the subject whenever they would be randomly determining the target of a threat.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!sqLt0ZTmIwQt1d4V.rCoJe1TOZKn86jWH"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b79975063c94b7eba59f5c715f6f44733150576b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sqLt0ZTmIwQt1d4V"
+}

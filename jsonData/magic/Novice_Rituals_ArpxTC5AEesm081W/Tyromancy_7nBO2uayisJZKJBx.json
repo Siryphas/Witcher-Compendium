@@ -1,0 +1,56 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Tyromancy",
+  "type": "spell",
+  "_id": "7nBO2uayisJZKJBx",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "2",
+    "staminaIsVar": false,
+    "effect": "By magically aging or melting cheese and watching closely its qualities, Tyromancy allows you to divine whether a course of action will have a positive or negative outcome.\nWhen the ritual is performed, the GM privately rolls 1d6 and either adds or subtracts it from 13 to determine the DC of the ritual. \nIf the cheese used is of standard quality or lower (10 Crowns per Unit) the d6 is added to 13. \nIf the cheese used is of high quality (30 Crowns per Unit) the d6 is subtracted. \nYou then make a Ritual Crafting check against this DC. \nAfter the check, you may ask the GM whether a course of action will have a positive or negative outcome. \nIf your check was successful, the GM must answer truthfully. \nIf the outcome of the action would be both positive and negative, the answer is whichever would be more immediate. \nIf you fail, the GM will give you a false answer based on the private roll of their d6. \nIf the number was odd the false answer is negative, if the number was even, the false answer is positive.",
+    "range": "",
+    "duration": "Immediate",
+    "defence": "",
+    "components": "Cheese (x2)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "13 +/- 1d6",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "difficultyCheck": "13",
+    "sourcebook": "A Tome of Chaos",
+    "cost": 20,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1155c265b0464257b2042e951e6448a58184d4a0"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7nBO2uayisJZKJBx"
+}

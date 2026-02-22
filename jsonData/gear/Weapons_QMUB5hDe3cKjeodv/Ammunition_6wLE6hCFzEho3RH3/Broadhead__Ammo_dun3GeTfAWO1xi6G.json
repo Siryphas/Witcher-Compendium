@@ -1,0 +1,76 @@
+{
+  "folder": "6wLE6hCFzEho3RH3",
+  "name": "Broadhead, Ammo",
+  "type": "weapon",
+  "_id": "dun3GeTfAWO1xi6G",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-broadhead.webp",
+  "system": {
+    "description": "Broadheads are some of the best alternate projectiles to have on hand. They’re much like normal bolts or arrows but instead of having a simple metal head they have a wide, flat, bladed head. Heh, come in all shapes and sizes, leaves, diamonds, v shapes, and such but they all cut deeper than regular arrows, leavin’ bleedin’ wounds.",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 10,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": 1,
+    "range": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 100
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b58c1c2043f84567ff0e9b81c02a3f80fb8d2d9a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!dun3GeTfAWO1xi6G"
+}

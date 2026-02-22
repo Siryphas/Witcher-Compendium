@@ -1,0 +1,83 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Scythe",
+  "type": "weapon",
+  "_id": "2vZHaOvMpNPvyAq3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/sickles/scythe-curved-steel.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 126,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": -3,
+    "avail": "Everywhere",
+    "damage": "3d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_hlgknzrpw",
+        "name": "Grappling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Peasant Profession",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ]
+  },
+  "effects": [],
+  "sort": 1087500,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "21f2c2e38628b6b7377aceff056670318634dcec"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2vZHaOvMpNPvyAq3"
+}

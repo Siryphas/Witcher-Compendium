@@ -1,0 +1,113 @@
+{
+  "folder": "Ra14ZOI97VQm5ieH",
+  "name": "Elgan's Bastion",
+  "type": "spell",
+  "_id": "HVNwvLo3fviO77hw",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "earth",
+    "domain": "",
+    "stamina": "14",
+    "staminaIsVar": false,
+    "effect": "Created by the famed magician Elgan of Verden, Elgan’s Bastion uses trace amounts of metal in stone to magnetically lift a shield of rocks around you to defend yourself from physical attacks and damage. \nThis shield of rocks counts as a Cover with 30 SP and entirely surrounds you.\nWhile surrounded, your SPEED Statistic cannot be higher than 2 and you cannot do anything on your turn but take a single Movement Action.",
+    "range": "Self",
+    "duration": "Active (4 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "globalModifiers": [],
+    "createsShield": true,
+    "shield": "30",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Elgan's Bastion",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.HVNwvLo3fviO77hw",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+      "_id": "i5rAoafo9CWhTMj7",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.stats.spd.max",
+          "mode": 5,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "<p>Elgan’s Bastion uses trace amounts of metal in stone to magnetically lift a shield of rocks around you to defend yourself from physical attacks and damage.</p><p>This shield of rocks counts as a Cover with 30 SP and entirely surrounds you.</p><p>While surrounded, your SPEED Statistic cannot be higher than 2 and you cannot do anything on your turn but take a single Movement Action.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "shielded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HVNwvLo3fviO77hw.i5rAoafo9CWhTMj7"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a42fc50a38bfb9c9e335ba32ce0541e1bead23f5"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HVNwvLo3fviO77hw"
+}

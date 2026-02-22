@@ -1,0 +1,60 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Cadaverine Solution",
+  "type": "alchemical",
+  "_id": "IJIUXsgoibcdGb88",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 76,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Poor",
+    "effect": "Not all fire sure what this one’s made of.... Heh, smells like the grave itself and it’ll turn a grown man’s stomach. Heard if ya coat a blade in this stuff, it’ll get into your opponent’s veins and wreak havoc on ‘em. Pain, internal bleedin’, vomitin’. All sounds pretty bad to me.\n\nA slashing or piercing weapon coated in Cadaverine inflicts both the poisoned and nauseated conditions on a target on a successfully damaging attack. Two separate DC: 16 Endurance checks must be made to end both conditions.",
+    "time": "Immediate",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Lords & Lands",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "gPEHx7eFjCZ9tjuD",
+          "name": "Poison",
+          "statusEffect": "poison",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "mcfKcE0E4gGnT96n",
+          "name": "Nausea",
+          "statusEffect": "nausea",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0bef4968f14ca2da621c5c556de99c492e7405d2"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!IJIUXsgoibcdGb88"
+}

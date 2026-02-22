@@ -1,0 +1,57 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Hydromancy",
+  "type": "spell",
+  "_id": "BMuwdaxx9ecmvTE6",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "5",
+    "staminaIsVar": false,
+    "effect": "Hydromancy allows you to stare into a small body of water and glimpse an event that happened within the last two days or that is currently happening. \nWatching an event in the past uses the base DC. \nIf you are trying to glimpse an event that is currently happening, increase the DC by 3 points. \nIf you are viewing a current event, a magician present at that event can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.",
+    "range": "",
+    "duration": "Active (2 STA)",
+    "defence": "",
+    "components": "A Small Body of Water or a Bowl of Water, Fifth Essence (x2), White Myrtle Petals (x2), Pearl (x2), Lunar Shards (x1), Berbercane Fruit (x1)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "15/18",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "15 (18)",
+    "ritualComponentUuids": [],
+    "cost": 480,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4eff88433607c649d7eef67428ad503a42f878aa"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!BMuwdaxx9ecmvTE6"
+}

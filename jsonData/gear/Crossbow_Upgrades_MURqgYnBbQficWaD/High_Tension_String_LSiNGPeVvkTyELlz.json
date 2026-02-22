@@ -1,0 +1,53 @@
+{
+  "folder": "MURqgYnBbQficWaD",
+  "name": "High Tension String",
+  "type": "enhancement",
+  "_id": "LSiNGPeVvkTyELlz",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-white.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 425,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "weapon",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "+1d6 DMG",
+        "statusEffect": null,
+        "percentage": 0,
+        "varEffect": false
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false,
+    "sourcebook": "Rodolf's Wagon"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c55ff5bcd3ea9de3657dee512a56f6e28ec5dbfb"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LSiNGPeVvkTyELlz"
+}

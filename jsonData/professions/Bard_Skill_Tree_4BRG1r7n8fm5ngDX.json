@@ -1,0 +1,111 @@
+{
+  "name": "Bard Skill Tree",
+  "type": "profession",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Profession%20Icons/Bard%20Icon.jpg",
+  "system": {
+    "notes": "<h1>Good Friend</h1>\n<table style=\"width: 99.7912%; height: 170px;\" border=\"1\"><colgroup><col style=\"width: 63.7466%;\"><col style=\"width: 36.2534%;\"></colgroup>\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\"><strong>Value</strong></td>\n<td style=\"height: 17px;\"><strong>Cost</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\" colspan=\"2\"><strong>Settlement</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Hamlet</td>\n<td style=\"height: 17px;\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Town</td>\n<td style=\"height: 17px;\">4</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">City</td>\n<td style=\"height: 17px;\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Capital</td>\n<td style=\"height: 17px;\">10</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\" colspan=\"2\"><strong>Profession</strong></td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Commoner</td>\n<td style=\"height: 17px;\">3</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Inn Keep</td>\n<td style=\"height: 17px;\">5</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px;\">Artisan</td>\n<td style=\"height: 17px;\">6</td>\n</tr>\n<tr>\n<td>Guard</td>\n<td>8</td>\n</tr>\n<tr>\n<td>Noble</td>\n<td>10</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Importance</strong></td>\n</tr>\n<tr>\n<td>Low</td>\n<td>2</td>\n</tr>\n<tr>\n<td>Average</td>\n<td>5</td>\n</tr>\n<tr>\n<td>High</td>\n<td>10</td>\n</tr>\n</tbody>\n</table>",
+    "definingSkill": {
+      "skillName": "Busking",
+      "stat": "emp",
+      "definition": "A Bard is a wonderful thing to have around, especially when the party’s low on money. A Bard can take an hour and make a Busking roll in the nearest town center. The total of this roll is the amount of money raked in by the Bard while they perform on the street. A fumble can lower the roll, and a negative value means that not only do you fail to make any coin but you are also harrassed by the locals for your poor performance, resulting in a -2 to Charisma with anyone in the town for the rest of the day.",
+      "level": null
+    },
+    "skillPath1": {
+      "pathName": "The Charmer",
+      "skill1": {
+        "skillName": "Return Act",
+        "stat": "emp",
+        "definition": "Before attempting a Busking roll a Bard can roll Return Act at a DC set by the GM to see whether they have played in this town before. If the roll is successful the Bard has made a name for themselves in this town already. Not only is their Busking income doubled but they gain a +2 Charisma with everyone in at that venue.",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Raise A Crowd",
+        "stat": "emp",
+        "definition": "<p>By taking a full round to perform, you can roll Raise A Crowd to captivate anyone within 20m. Anyone who doesn&rsquo;t make a Resist Coercion roll higher than your initial roll can do nothing but watch you perform until they succeed at rolling above your initial roll. If attacked a target will snap out of it.</p>\n<p>When raising a crowd in a&nbsp;large area full of people, a&nbsp;DC:15 is sufficient to create a&nbsp;crowd around the Bard dense&nbsp;enough to require a DC:15&nbsp;Physique or Athletics check&nbsp;to pass through. Also keep&nbsp;in mind that enemies and&nbsp;non-sentient creatures gain a&nbsp;+10 to resist.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Good Friend",
+        "stat": "emp",
+        "definition": "<p>Once per session a Bard can make a Good Friend roll to find a friend to aid them. Take the total roll and split these points up between the 3 categories in the Good Friend chart. This friend will do one reasonable thing for old times&rsquo; sake, then cannot be called on again for free and must be convinced.</p>",
+        "level": null
+      }
+    },
+    "skillPath2": {
+      "pathName": "The Informant",
+      "skill1": {
+        "skillName": "Fade",
+        "stat": "int",
+        "definition": "<p>A Bard can make a Fade roll against multiple targets&rsquo; Awareness rolls to fade into the background. This ability allows a Bard to hide even when there are no good hiding places, by slipping into a conversation, drawing attention to something else, or the like. This ability doesn&rsquo;t work if you are wearing really flashy clothing.</p>",
+        "level": null
+      },
+      "skill2": {
+        "skillName": "Spread the Word",
+        "stat": "int",
+        "definition": "<p>A Bard who rolls a successful Deceit roll against a target can then roll Spread the Word against the target&rsquo;s Resist Coercion roll. If they succeed the target spreads the Bard&rsquo;s lie around the target&rsquo;s settlement or group, giving the Bard a +2 to Deceit when trying to pass off that lie again to someone else.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Acclimatize",
+        "stat": "int",
+        "definition": "<p>When in a settlement a Bard can roll Acclimatize at a DC based on the settlement type. If successful, the Bard learns how to appear as a local and will no longer be treated as an outsider. This grants a +2 to Charisma &amp; Persuasion with locals and means that they won&rsquo;t be questioned or harassed like an outsider.</p>\n<ul>\n<li><strong>Hamlet:</strong> DC 25</li>\n<li><strong>Town:</strong> DC 20</li>\n<li><strong>City:</strong> DC 15</li>\n<li><strong>Capital:</strong> DC 10</li>\n</ul>",
+        "level": null
+      }
+    },
+    "skillPath3": {
+      "pathName": "The Manipulator",
+      "skill1": {
+        "skillName": "Poison The Well",
+        "stat": "emp",
+        "definition": "<p>A Bard can make a Poison The Well roll against a target&rsquo;s EMPx3 when they are trying to influence a person or people. If successful, the Bard makes a pointed comment that imposes a -1 for each point they rolled above the DC to the target&rsquo;s Seduction, Persuasion, Leadership, Intimidation or Charisma rolls.</p>",
+        "level": null,
+        "skillAttack": {
+          "isAttack": false
+        }
+      },
+      "skill2": {
+        "skillName": "Needling",
+        "stat": "emp",
+        "definition": "<p>A Bard can make a Needling roll against a target&rsquo;s Resist Coercion roll. If successful, the bard goads them with obscenities and threats until they attack. The target takes a negative to their attack and defense equal to half the Bard&rsquo;s Needling value, lasting for as many rounds as the Needling value.</p>",
+        "level": null
+      },
+      "skill3": {
+        "skillName": "Et Tu Brute",
+        "stat": "emp",
+        "definition": "A Bard can roll Et Tu Brute against a target’s WILLx3 to turn them against one ally. If successful the Bard’s lies and half-truths makes the target treat that ally with mistrust and animosity for as many days as the Et Tu Brute value or until they make a Resist Coercion roll that beats the Et Tu Brute roll.",
+        "level": null
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.wtrpg-compendium.professions.Item.WM1DIal0ci0dmZ9H",
+      "hash": "5606954c175bab35f5211071ac9e56dc01dd1fa8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.22.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "witcher-archive",
+      "uuid": null,
+      "coreVersion": "10.291",
+      "systemId": "TheWitcherTRPG",
+      "systemVersion": "0.96"
+    }
+  },
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "QXnUaFjEzgosKVQr": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_id": "4BRG1r7n8fm5ngDX",
+  "sort": 900000,
+  "_key": "!items!4BRG1r7n8fm5ngDX"
+}

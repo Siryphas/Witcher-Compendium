@@ -1,0 +1,58 @@
+{
+  "name": "Hallucinogenic Fungus",
+  "type": "valuable",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/flowers/flower-grey-orange.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Everywhere",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "iAd6DzKMH4hbf7cH",
+          "name": "Hallucination",
+          "statusEffect": "hallucination",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "folder": "AHhAWE2BUlpGflpF",
+  "flags": {
+    "cf": {
+      "id": "temp_wjo7lfo9hia",
+      "color": "#000000"
+    },
+    "core": {},
+    "scene-packer": {
+      "hash": "b5f43dbbf120851d44f47df08312d5741ebdc900"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.10.1",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "oN6DIrpnlrA8LwXm",
+  "sort": 550000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "_key": "!items!oN6DIrpnlrA8LwXm"
+}

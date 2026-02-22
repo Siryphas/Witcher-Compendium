@@ -1,0 +1,123 @@
+{
+  "name": "Talgar's Tears (Throwable)",
+  "type": "weapon",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-blue.webp",
+  "system": {
+    "description": "Based off of one of the old lost bits of technology called Talgar’s winter. Pour it on just about anythin’ and it’ll freeze solid in an instant.\n\nTalgar's Tears immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage. Throwing it is an Athletics attack with a range equal to your BODY x2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits.",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 79,
+    "sourcebook": "Corebook",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": {
+      "text": "",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "isThrowable": true,
+    "conceal": "T",
+    "avail": "Poor",
+    "hands": "right",
+    "equipped": false,
+    "reliable": 0,
+    "maxReliability": 0,
+    "damage": "0",
+    "range": "Body x2m",
+    "accuracy": 0,
+    "attackSkill": "athletics",
+    "rateOfFire": 1,
+    "usingAmmo": false,
+    "rollOnlyDmg": false,
+    "enhancements": 0,
+    "enhancementItemIds": [],
+    "damageProperties": {
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "appliesGlobalModifierToDamaged": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "effects": []
+    },
+    "defenseProperties": {
+      "parrying": false
+    }
+  },
+  "effects": [
+    {
+      "name": "Talgar's Tears",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.4sztUoSeziQHM7Z6",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-corked-blue.webp",
+      "_id": "RznXt7XzZW04gS7g",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>Talgar's Tears immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage. Throwing it is an Athletics attack with a range equal to your BODY x2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!4sztUoSeziQHM7Z6.RznXt7XzZW04gS7g"
+    }
+  ],
+  "folder": "asIh5IuKjee5H3XO",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fea17588408b779c84748bd9c1c6cf63997975b8",
+      "sourceId": "Item.stoFWeYXy2PZnikA"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "4sztUoSeziQHM7Z6",
+  "sort": 0,
+  "_key": "!items!4sztUoSeziQHM7Z6"
+}

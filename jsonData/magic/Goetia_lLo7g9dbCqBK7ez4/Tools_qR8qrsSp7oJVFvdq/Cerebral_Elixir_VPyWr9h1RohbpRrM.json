@@ -1,0 +1,82 @@
+{
+  "folder": "qR8qrsSp7oJVFvdq",
+  "name": "Cerebral Elixir",
+  "type": "alchemical",
+  "_id": "VPyWr9h1RohbpRrM",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-pear-corked-labeled-ornamental-purple.webp",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "alchemical",
+    "avail": "Rare",
+    "effect": "An elixir composed of Hallucinogen infused with Mandrake Root, Hellebore Petals, Crow’s Eye, wolfsbane, and Feline Brain Matter macerated in Alcohest.\nThe concoction must be filtered through Han Fiber and mixed with Silver Shavings. \nThe elixir must be consumed at the beginning of the summoning ritual. \nThe Elixir lasts for 24 hours and while under its effects if you cannot be possessed by a Bes. \nIf you manage to drink this Elixir while possessed by a Bes, the Bes is immediately forced out of your body.",
+    "time": "24 Hours",
+    "toxicity": "",
+    "sourcebook": "A Tome of Chaos",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "name": "Cerebral Elixir",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.VPyWr9h1RohbpRrM",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-pear-corked-labeled-ornamental-purple.webp",
+      "_id": "ca2ZF3n5VQf6c3bG",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>The Elixir lasts for 24 hours and while under its effects if you cannot be possessed by a Bes. </p><p>If you manage to drink this Elixir while possessed by a Bes, the Bes is immediately forced out of your body.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.12.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!VPyWr9h1RohbpRrM.ca2ZF3n5VQf6c3bG"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d1c7e42cad760cebbbea4d1df6670791b6afe7ac"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.12.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!VPyWr9h1RohbpRrM"
+}

@@ -1,0 +1,76 @@
+{
+  "folder": "b4Iz58Qxweg1jOJk",
+  "name": "Elven Burrower",
+  "type": "weapon",
+  "_id": "WvsToRNmwRedMgDJ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrows-bodkin-yellow-red.webp",
+  "system": {
+    "description": "Heh, Scoia’tael picked these up a few years ago from human traders. Arrowhead’s shaped like a screw so they burrow into ya and won’t come out without a fight.\nCan only be removed with a DC: 16 First Aid",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 50,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": 1,
+    "range": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 100
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e92e5312df6ce0e9774e5fe863f4d7db2de45d4"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!WvsToRNmwRedMgDJ"
+}

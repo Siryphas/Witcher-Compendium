@@ -1,0 +1,90 @@
+{
+  "folder": "BeMZz917EOy5IF58",
+  "name": "Crystal Staff",
+  "type": "weapon",
+  "_id": "oDrOufcv82UzuBWW",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/wands/wand-gem-violet.webp",
+  "system": {
+    "description": "They’re pretty much like regular staves but they have gemstones at the top of ‘em, embedded in the wood. Thing about the gem is it has to be perfect. If the gem has even one crack or imperfection, ya risk an explosion or somethin’ of the like. They’re worth it though. Amplifies magic like nothin’ else.",
+    "quantity": "1",
+    "weight": 2.5,
+    "cost": 835,
+    "isHidden": false,
+    "type": {
+      "text": "Bludgeoning",
+      "slashing": false,
+      "piercing": false,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "2d6+2",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_v9oa1bnvq",
+        "name": "Focus (3)",
+        "percentage": 0,
+        "statusEffect": null
+      },
+      {
+        "id": "_b1p1v2kvd",
+        "name": "Greater Focus",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.5MxUi7W8kNDOOY5t"
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d6fcc571da56e051041a0900bef39de7885e08e8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oDrOufcv82UzuBWW"
+}

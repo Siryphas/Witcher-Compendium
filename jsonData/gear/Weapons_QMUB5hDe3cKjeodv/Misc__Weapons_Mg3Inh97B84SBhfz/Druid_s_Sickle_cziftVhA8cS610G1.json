@@ -1,0 +1,84 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Druid's Sickle",
+  "type": "weapon",
+  "_id": "cziftVhA8cS610G1",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/sickles/sickle-hooked-worn.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 1.5,
+    "cost": 540,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Poor",
+    "damage": "3d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "right",
+    "range": "Melee",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Grappling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      },
+      {
+        "id": "_qbyuih64d",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 30
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "A Tome of Chaos",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SXSpf748l0614XR4"
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d430b799bfda91f82483d2ee26c80884d3e47e45"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!cziftVhA8cS610G1"
+}

@@ -1,0 +1,126 @@
+{
+  "folder": "QRNzRBr1UIScbJFv",
+  "name": "Diagram: Scorpio",
+  "type": "diagrams",
+  "_id": "RltBaVC0Snbj5tOX",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>Ya see these bastards on the frontlines from time to time. They&rsquo;re the smaller cousins of the Scorpions ya see launchin&rsquo; flaming bolts into cities. Just like a great big crossbow, heh. They take a bit to set up but they&rsquo;re real useful if ya need to hold off oncoming soldiers or put down a monster.<br>Crew Reload: It takes 2 actions to reload this weapon. These actions can be taken by two separate people.<br>Mounted: This weapon is fixed in one place rather than being held. A character must take an action to set up the weapon where they want to use it and must take an action to pack it up when they want to move it again.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 3750,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 22,
+    "alchemyDC": 0,
+    "craftingTime": "4H",
+    "craftingComponents": [
+      {
+        "id": "OB80OchszzzhfMxN",
+        "name": "Beast Bones",
+        "quantity": 9,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ"
+      },
+      {
+        "id": "LWxkRkbCorW5Asbn",
+        "name": "Dark Iron",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LiePL2wgaminhK8N"
+      },
+      {
+        "id": "XSoS1630C0a4mWMJ",
+        "name": "Dark Steel",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.voERZbJ82z0gr8tS"
+      },
+      {
+        "id": "ljVj5HJmvlVK100J",
+        "name": "Ester Grease",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "QtvtwaO9KYVVzu8A",
+        "name": "Hardened Leather",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "YbSa9I8vG9WObLp4",
+        "name": "Hardened Timber",
+        "quantity": 30,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "BeIoG4CRuqBQ76j4",
+        "name": "Ogre Wax",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "wVa3kofI94pM4ih9",
+        "name": "Oil",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp"
+      },
+      {
+        "id": "dToydWADqbc4RD4t",
+        "name": "Resin",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "id": "Eb2nFFIDBsk3Kcy7",
+        "name": "Thread",
+        "quantity": 18,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "aZeL1hDVmArn7MyC",
+        "name": "Wax",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      }
+    ],
+    "investment": 1875,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.s4IABExDims2WtV0",
+    "sourcebook": "A Professional's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7e24105a998000b1407a15529e5a2fe6872f57e6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!RltBaVC0Snbj5tOX"
+}

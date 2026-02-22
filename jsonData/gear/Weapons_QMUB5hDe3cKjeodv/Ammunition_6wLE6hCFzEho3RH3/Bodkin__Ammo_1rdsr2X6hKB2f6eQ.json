@@ -1,0 +1,69 @@
+{
+  "folder": "6wLE6hCFzEho3RH3",
+  "name": "Bodkin, Ammo",
+  "type": "weapon",
+  "_id": "1rdsr2X6hKB2f6eQ",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/ammunition/arrow-simple-grey.webp",
+  "system": {
+    "description": "Blunt bolts and broadheads are fine if your target don’t have armor. Heh, problem is most folks have enough sense to wear some armor so you’ll have a hell of a time tryin’ to get through to ‘em. That’s where bodkins come in. Got a long tapered tip, hardened in the fire, to punch right through steel and leather.",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 15,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": true,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": 1,
+    "range": "",
+    "effects": [],
+    "conceal": "L",
+    "enhancements": 0,
+    "rateOfFire": 1,
+    "attackSkill": "Brawling",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ]
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a73e0e5dee28cbbe51f2f062b1b9f8afc824b4c8"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!1rdsr2X6hKB2f6eQ"
+}

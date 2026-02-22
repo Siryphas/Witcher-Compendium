@@ -1,0 +1,77 @@
+{
+  "folder": "1z0iC1WTnUW9OJ1J",
+  "name": "Hand Crossbow",
+  "type": "weapon",
+  "_id": "MMxh3ImodzeNNdM3",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/crossbow-simple-red.webp",
+  "system": {
+    "description": "Not sure where the hand crossbow came from. Guess it probably started as a sorta civilian crossbow. They’re smaller and less powerful than a standard crossbow but they’ll fit in one hand and they’re easy to fire accurately. Nowadays they’re touted for home defense, since many people can’t afford to learn how to fight and crossbows don’t take much learnin’.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 285,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 1,
+    "avail": "Everywhere",
+    "damage": "2d6+2",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "50m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 1,
+    "rateOfFire": 0.5,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.bhSB6xBe9DpEbnVb"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0a0c04e0b4e8ddce18eb4a41608c0ecf26926a10"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MMxh3ImodzeNNdM3"
+}

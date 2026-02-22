@@ -1,0 +1,126 @@
+{
+  "folder": "tcH2AyUwmb1L3rMH",
+  "name": "Diagram: Conduit Prosthesis (Arm)",
+  "type": "diagrams",
+  "_id": "gdIYXNMYpnE98jXU",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-circle-gold-red.webp",
+  "system": {
+    "description": "<p>Built by Barend Anselberg and Elgan of Verden, the Conduit Prosthesis is the culmination of Barend&rsquo;s prosthetic research put into the realm of practicality by Elgan&rsquo;s many magical theories. Though beautiful in its design and use as a powerful focus, it proved insufficient for their original goal of creating a prosthesis for witchers, but has since been replicated for use by mages.</p>\n<p>Effect: While wearing a Conduit Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. A Conduit Prosthesis can be used to channel Chaos through magical sigils carved into the length, inlaid with optima matter and fifth essence and acts as a Focus (2) with the Greater Focus effect.&nbsp;</p>\n<p>Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 1500,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 24,
+    "alchemyDC": 0,
+    "craftingTime": "10 H",
+    "craftingComponents": [
+      {
+        "id": "gKQptBdSA8t4868a",
+        "name": "Cotton",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.YR6SozHXAOpMJ1Lr"
+      },
+      {
+        "id": "1IBdU5eueM5FZIQO",
+        "name": "Double Woven Linen",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3mvaoiIbLRv9ryHv"
+      },
+      {
+        "id": "M1Sqt9uq5cOvFkKN",
+        "name": "Ester Grease",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.c5hJNhQOK5eQkX6M"
+      },
+      {
+        "id": "gpEO8RIoiRdHHI9s",
+        "name": "Etching Acid",
+        "quantity": 8,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xU5TulV5CEAkQqDG"
+      },
+      {
+        "id": "mO44GoWc42JfIDFW",
+        "name": "Fifth Essence",
+        "quantity": 4,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY"
+      },
+      {
+        "id": "qF9GwIZ8RZtYtlxM",
+        "name": "Gemstone",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.FG4KO7VNnfaauSvU"
+      },
+      {
+        "id": "x4KwpbaHtuN0VGWE",
+        "name": "Hardened Timber",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "tQ4IuuHJy1nPp892",
+        "name": "Leather",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "7LeCX1p181fawvri",
+        "name": "Optima Matter",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.j5RVUVI2BrVDwaOK"
+      },
+      {
+        "id": "6xN4ErlINvmsEPLY",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "EYjpexpp5yuFchFs",
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W"
+      }
+    ],
+    "investment": 750,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.zsZ4Yxl2FFLe6h0n",
+    "sourcebook": "Prostheses and Wheelchairs",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5ec74dcc3666ee77df02cbef2fc65676f04121ee"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!gdIYXNMYpnE98jXU"
+}

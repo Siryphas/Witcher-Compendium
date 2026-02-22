@@ -1,0 +1,73 @@
+{
+  "folder": "KZnRl0e6PPdCCj2f",
+  "name": "Ursine Crossbow",
+  "type": "weapon",
+  "_id": "UeTYT4qZDNl7DBjK",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Gear/Witcher%20-%20Bear%20Crossbow.jpg",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 1,
+    "avail": "WITCHER",
+    "damage": "4d6+2",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "left",
+    "range": "50m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "percentage": ""
+      }
+    ],
+    "conceal": "L",
+    "enhancements": 1,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "sourcebook": "A Witcher's Tools",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.xbercJQcdldzhvZ3"
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7da05773d26b252c20a9fd0023d51d0b42b8621d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!UeTYT4qZDNl7DBjK"
+}

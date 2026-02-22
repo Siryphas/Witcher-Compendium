@@ -1,0 +1,102 @@
+{
+  "name": "Quen",
+  "type": "spell",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Earth.png",
+  "system": {
+    "class": "Witcher",
+    "level": "novice",
+    "source": "earth",
+    "domain": "basic",
+    "stamina": 0,
+    "staminaIsVar": true,
+    "effect": "Quen creates a shield with 5 Health Points per point of Stamina spent to protect you. \nIf you fail (choose not to or are unable to) to defend against an attack or effect which causes damage, the damage is first applied to the Quen shield. Lethal and non-lethal damage reduce the Quen shield’s Health Points equally. \nIf the shield is reduced to 0 Health any remaining damage is applied to you as per normal and must penetrate your armor and damage resistances to impact your Health Points or Stamina just like any other attack.\nQuen can be used to defend against any spell which can be Blocked but is ineffective against damage caused by spells which cannot be Blocked or against damage caused by already being poisoned, having a disease, or suffocation due to a lack of oxygen in the surrounding area.\nYou cannot cast Quen again until your current Quen shield has been exhausted or the duration ends.",
+    "range": "Self",
+    "duration": "10 Rounds",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "createsShield": true,
+    "shield": "5",
+    "difficultyCheck": "",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "o7HodHu4LoHlUrnm",
+          "name": "Quen",
+          "statusEffect": "shielded",
+          "percentage": 5,
+          "varEffect": true
+        }
+      ],
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "appliesGlobalModifierToDamaged": false,
+      "hitGlobalModifiers": [],
+      "appliesGlobalModifierToHit": false,
+      "damagedGlobalModifiers": [],
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "visualEffectDuration": null,
+    "doesHeal": false,
+    "heal": "",
+    "globalModifiers": [],
+    "selfEffects": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "defenseOptions": []
+  },
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "22baf5d5707a24ca419c695b1bdeeb0d1a7b8d4d",
+      "sourceId": "Actor.yBeroP4SyewaDEx5.Item.j8MtVRgYQPuoJBXn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "44TqJCtCs8QOaph1",
+  "_id": "JfrfwE0odEJDtUIe",
+  "sort": 200000,
+  "_key": "!items!JfrfwE0odEJDtUIe"
+}

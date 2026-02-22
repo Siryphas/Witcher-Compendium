@@ -1,0 +1,62 @@
+{
+  "folder": "G5LHC57sCHBP2nNQ",
+  "name": "Gwyntog",
+  "type": "spell",
+  "_id": "SOdeUshM7DOaFoOC",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "air",
+    "domain": "",
+    "stamina": "24",
+    "staminaIsVar": false,
+    "effect": "Gwyntog allows you to create a localized windstorm with up to a 40m radius. While this spell is in effect, gale force winds whip around the area making flight impossible and movement extremely difficult. Immediately, any flying creature is knocked out of the air and suffers damage as per normal.\nRanged attacks made will fail to hit their intended target and land wherever the GM decides. \nFinally, any creature in the area must make an Athletics check DC:20 or be unable to take a Movement or Run Action during their turn.",
+    "range": "100m",
+    "duration": "Active (6 STA)",
+    "defence": "None",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": "40",
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0be28c6b0bd4e51c67ceb782bb3fc0cd6bb1c74e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!SOdeUshM7DOaFoOC"
+}

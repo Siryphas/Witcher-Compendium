@@ -1,0 +1,53 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Black Venom",
+  "type": "alchemical",
+  "_id": "41srcJ7rg4ng5zXh",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 45,
+    "isHidden": false,
+    "type": "alchemical",
+    "avail": "Common",
+    "effect": "Plenty of poisons in the world but black venom’s probably the most common. Definitely in the south. Blackens the veins and causes terrible pain.\n\nBlack Venom poisons a target if it gets into their bloodstream or is ingested. A DC:16 Endurance check ends the effect, but the target can become poisoned again if they consume more black venom or are cut by a poisoned weapon.",
+    "time": "Until Shaken Off",
+    "toxicity": "",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "gia8zKnQZS12TSl0",
+          "name": "Poison",
+          "statusEffect": "poison",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d602d39cf16ad77f0572f9eaed10007c3a006ea7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!41srcJ7rg4ng5zXh"
+}

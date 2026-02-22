@@ -1,0 +1,94 @@
+{
+  "folder": "eAhTQBFTOooD8TUT",
+  "name": "Draconid Oil",
+  "type": "alchemical",
+  "_id": "oyy1f9SCNsMK7DcW",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Draconid%20Oil.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": null,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "oil",
+    "avail": "WITCHER",
+    "effect": "+5 damage against Draconids.",
+    "time": "30 Mins",
+    "toxicity": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true
+  },
+  "effects": [
+    {
+      "type": "temporaryItemImprovement",
+      "name": "Draconid Oil",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.oyy1f9SCNsMK7DcW",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Witcher%20Alchemy/Draconid%20Oil.png",
+      "_id": "RENn8oYqTQEVhkX1",
+      "system": {
+        "isTransferred": false
+      },
+      "changes": [
+        {
+          "key": "system.damageProperties.oilEffect",
+          "mode": 2,
+          "value": "Draconid",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "statuscounter": {
+          "value": 1,
+          "config": {
+            "type": "default"
+          },
+          "visible": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.20.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!oyy1f9SCNsMK7DcW.RENn8oYqTQEVhkX1"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4180e99ffffbd220106319e217b804cbee8b7816"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oyy1f9SCNsMK7DcW"
+}

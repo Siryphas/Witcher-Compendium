@@ -1,0 +1,84 @@
+{
+  "folder": "ARGP0iECnfBabank",
+  "name": "Diagram: Brass Knuckles",
+  "type": "diagrams",
+  "_id": "SPz8cIM5OU6Z7fns",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-axe.webp",
+  "system": {
+    "description": "<p><em>My friend, world ain&rsquo;t a fair place. Some people are just born weaker. Now, I usually don&rsquo;t have to fight my enemies up close&mdash;heh, the benefits of being an arbalist&mdash;but if I made a habit of it I&rsquo;d pick up some brass knuckles. Gives ya extra &ldquo;punch,&rdquo; heh.</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 125,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "novice",
+    "isFormulae": false,
+    "craftingDC": 10,
+    "alchemyDC": 0,
+    "craftingTime": "2 H",
+    "craftingComponents": [
+      {
+        "id": "jpR2xjR1Vpg8hrXG",
+        "name": "Steel",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "XF4skMueVyLvE7A0",
+        "name": "Hardened Timber",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.UYGxeXoYxUdvTMFS"
+      },
+      {
+        "id": "LF4ERKMeccGZ0Krb",
+        "name": "Resin",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.fRWf1PrZEg3dT1pB"
+      },
+      {
+        "name": "Wax",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W",
+        "id": "eB5lFyXPjQHLqkIK"
+      }
+    ],
+    "investment": 72,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.z9idut8EeqnMa7Qh",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e2907393b9fcf06077370add07e531fb2f315e95"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!SPz8cIM5OU6Z7fns"
+}

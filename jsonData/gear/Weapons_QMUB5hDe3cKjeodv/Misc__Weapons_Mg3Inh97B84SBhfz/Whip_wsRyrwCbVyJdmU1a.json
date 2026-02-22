@@ -1,0 +1,102 @@
+{
+  "folder": "Mg3Inh97B84SBhfz",
+  "name": "Whip",
+  "type": "weapon",
+  "_id": "wsRyrwCbVyJdmU1a",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/misc/whip-red-yellow.webp",
+  "system": {
+    "description": "Ain’t much to say ‘bout a whip. Long, thin cord. Good for motivatin’ workers or incentivizin’ animals. Heh, seen some folks fight with ‘em. Don’t do a great deal of damage but great for grapplin’ weapons and limbs and what not.",
+    "quantity": "1",
+    "weight": 0.5,
+    "cost": 152,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing",
+      "slashing": true,
+      "piercing": false,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Common",
+    "damage": "1d6+2",
+    "reliable": 5,
+    "maxReliability": 5,
+    "hands": "right",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_ld999rxc8",
+        "name": "Grappling",
+        "statusEffect": "grappled",
+        "percentage": 0
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Lords & Lands",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Long Reach",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "_ld999rxc8",
+          "name": "Grappling",
+          "statusEffect": "grappled",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v6x7xdk5tl3E2sH4"
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5e7a8b882aa357a06876b1e5d5da0bfa76186a0c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wsRyrwCbVyJdmU1a"
+}

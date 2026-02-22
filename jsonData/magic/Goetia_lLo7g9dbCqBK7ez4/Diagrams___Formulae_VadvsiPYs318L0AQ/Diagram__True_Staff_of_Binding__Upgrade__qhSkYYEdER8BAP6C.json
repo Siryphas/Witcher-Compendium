@@ -1,0 +1,77 @@
+{
+  "folder": "VadvsiPYs318L0AQ",
+  "name": "Diagram: True Staff of Binding (Upgrade)",
+  "type": "diagrams",
+  "_id": "qhSkYYEdER8BAP6C",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>A sturdy staff of hazel, treated with ester grease, ogre wax, and drake oil, inset with a carved bloodstone. This True Staff of Binding is complete and has the finishing touches: a pair of meteorite brass caps on either end of the staff, inlaid with runes and treated with optima matter. This Staff of Binding still functions as a powerful focus but additionally can be utilized in the Ritual of Binding</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 2320,
+    "sourcebook": "A Tome of Chaos",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "weapon",
+    "level": "grand-master",
+    "isFormulae": false,
+    "craftingDC": 25,
+    "alchemyDC": 0,
+    "craftingTime": "13h",
+    "investment": 1160,
+    "learned": false,
+    "craftingComponents": [
+      {
+        "id": "Am0M5QSOi2p9nIuy",
+        "name": "Meteorite",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "UpgmkXokrMvKEmgY",
+        "name": "Optima Matter",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.j5RVUVI2BrVDwaOK"
+      },
+      {
+        "id": "yc2M7BL4PcxznOdM",
+        "name": "True Staff of Binding",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.magic.Item.t3nEpFxazohSnQb0"
+      }
+    ],
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.magic.Item.t3nEpFxazohSnQb0"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "587c98986fcbe37fac58e426d19f936158067bb2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!qhSkYYEdER8BAP6C"
+}

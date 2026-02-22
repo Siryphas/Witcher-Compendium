@@ -1,0 +1,78 @@
+{
+  "folder": "4uEv4u3zjO1eCMCr",
+  "name": "Runeword: Deflection",
+  "type": "diagrams",
+  "_id": "YUZeNseSwdvpywBo",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-magic.webp",
+  "system": {
+    "description": "<p>While wielding this weapon you can make a check at a -6 with your weapon skill base when targeted by a ranged attack to parry the attack. If your roll beats the attacker&rsquo;s attack roll, you can choose a target within 10m. That target must take a defense action against your initial weapon skill roll or be Staggered by the flying projectile.</p>\n<p>If you have levels in the Parry Arrows ability, instead you gain a +2 to it when wielding this weapon.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 3300,
+    "isHidden": false,
+    "type": "ingredients",
+    "level": "master",
+    "isFormulae": false,
+    "craftingDC": 21,
+    "alchemyDC": 0,
+    "craftingTime": "1 H",
+    "craftingComponents": [
+      {
+        "id": "DLUfxnZ3F1Jwey5M",
+        "name": "Chemobog Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.Qc6AImFO9klshEcQ"
+      },
+      {
+        "id": "sF8NPEQ6lSbyrrAB",
+        "name": "Perun Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.XjcT0Z1g5NqWRvBt"
+      },
+      {
+        "id": "F98cz317XxY6ubHj",
+        "name": "Stribog Rune",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.3YUSwvfFc1roZMx8"
+      }
+    ],
+    "investment": 1650,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.BziyAGYIaAipXPAX",
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a1514a5a2f960cfb1a2e9b010369f61b1c538c9f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!YUZeNseSwdvpywBo"
+}

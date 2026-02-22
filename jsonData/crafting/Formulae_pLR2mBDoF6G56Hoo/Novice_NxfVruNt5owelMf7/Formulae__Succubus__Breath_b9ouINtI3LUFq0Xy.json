@@ -1,0 +1,65 @@
+{
+  "folder": "NxfVruNt5owelMf7",
+  "name": "Formulae: Succubus' Breath",
+  "type": "diagrams",
+  "_id": "b9ouINtI3LUFq0Xy",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>Popular for bards. Succubus&rsquo; breath can really get someone goin&rsquo; if ya know what I mean. Never used it myself. Never had to, heh.</em></p>\n<p>A dose of Succubus' Breath can be used to aid seduction. Used on the skin, it gives you a +2 to Seduction. If poured into someone's drink, it gives them a -5 to seduction resistance. Like Black Venom, it takes a DC: 16 Awareness check to realized there is Succubus' Breath in a drink.</p>\n<p>&nbsp;</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 30,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "novice",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 14,
+    "craftingTime": "10 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 2,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 1,
+      "caelum": 1,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.ddiA8q7h2shXpvfV",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7b47c324f8585210722cd7236b2f84d1020c79d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!b9ouINtI3LUFq0Xy"
+}

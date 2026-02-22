@@ -1,0 +1,85 @@
+{
+  "folder": "8n7h7LVgtyJesEgt",
+  "name": "Grapeshot",
+  "type": "weapon",
+  "_id": "gjsqLJbPDhIquGBA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/thrown/bomb-fuse-black.webp",
+  "system": {
+    "description": "Fire (25%)",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 159,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Rare",
+    "damage": "7d6",
+    "reliable": 0,
+    "maxReliability": 0,
+    "hands": "right",
+    "range": "4m",
+    "equiped": false,
+    "effects": [
+      {
+        "id": "first",
+        "name": "Fire",
+        "percentage": "14"
+      }
+    ],
+    "conceal": "S",
+    "enhancements": 0,
+    "enhancementItems": [],
+    "rateOfFire": 1,
+    "attackSkill": "athletics",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "sourcebook": "Corebook",
+    "damageProperties": {
+      "damageToAllLocations": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 25,
+          "varEffect": false
+        }
+      ],
+      "damageIsAblation": false
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "parryThrown"
+    ]
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6333ef5f04dcf36e462142aa3c861e5e76620854"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gjsqLJbPDhIquGBA"
+}

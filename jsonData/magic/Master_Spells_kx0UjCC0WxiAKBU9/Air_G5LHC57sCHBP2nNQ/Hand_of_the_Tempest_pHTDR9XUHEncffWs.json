@@ -1,0 +1,71 @@
+{
+  "folder": "G5LHC57sCHBP2nNQ",
+  "name": "Hand of the Tempest",
+  "type": "spell",
+  "_id": "pHTDR9XUHEncffWs",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "master",
+    "source": "air",
+    "domain": "",
+    "stamina": "25",
+    "staminaIsVar": false,
+    "effect": "Summoning the full force of gales, you exert a tremendous force on a target which can manifest in one of 3 ways. \nWith a powerful updraft you can send a target who fails a Reposition check or object of 1000kg or lighter flying 14m into the air. \nThe target begins to fall at the end of their next turn. Upon hitting the ground, the target and anything it hits takes 7d6 bludgeoning damage to the torso and are knocked prone. \nAlternatively, with a powerful gust you can flood a 14m cone with powerful wind.\nAnyone in this area who fails a Reposition check or could not escape the area of the spell with their reposition is knocked back 14m and takes ramming damage if they hit anything as they fly. \nFinally, you can manipulate an object up to 1000kg as though you were holding it in your hand.",
+    "range": "20m",
+    "duration": "Immediate",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "7d6",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Knockdown",
+        "statusEffect": "prone",
+        "percentage": 100
+      }
+    ],
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "95b38b6435badaf15475345a1fa6b3821abb5a71"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pHTDR9XUHEncffWs"
+}

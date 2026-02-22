@@ -1,0 +1,56 @@
+{
+  "folder": "ArpxTC5AEesm081W",
+  "name": "Ritual of Magic",
+  "type": "spell",
+  "_id": "vpnW3tfjarhCgLPi",
+  "img": "icons/magic/symbols/runes-triangle-orange.webp",
+  "system": {
+    "class": "Rituals",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": "3",
+    "staminaIsVar": false,
+    "effect": "The Ritual of Magic creates a magic circle which bolsters magical tolerance, granting a bonus to Vigor Threshold equal to half the caster’s Ritual Crafting skill value.\nThis benefit is bestowed on the first person with magical ability to enter the circle and focus on it, and lasts for 5 hours. \nAlternatively, the caster can expend the circle to gain 1d6/2 units of Fifth Essence.",
+    "range": "",
+    "duration": "One Use",
+    "defence": "",
+    "components": "Chalk (x2), Glass (x2), Sulfur (x2), Infused Dust (x1)",
+    "alternateComponents": "",
+    "preparationTime": "5 Rounds",
+    "dificultyCheck": "15",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "effects": [],
+    "sourcebook": "Corebook",
+    "difficultyCheck": "15",
+    "cost": 188,
+    "defenseOptions": []
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8ad901ac5d4ce4b0c651ecccf1b2d7478c0b7f50"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!vpnW3tfjarhCgLPi"
+}

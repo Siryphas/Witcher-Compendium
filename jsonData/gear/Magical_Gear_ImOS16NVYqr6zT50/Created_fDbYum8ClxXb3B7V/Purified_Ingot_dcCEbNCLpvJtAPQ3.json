@@ -1,0 +1,51 @@
+{
+  "name": "Purified Ingot",
+  "type": "valuable",
+  "img": "icons/commodities/metal/ingot-hammered-silver.webp",
+  "system": {
+    "description": "Mage’s Forge allows you to create a magical fire that can be used to purify metal. When ingots of metal are placed within this fire their impurities are burned away making them easier to recover after a failed crafting attempt. \nDuring the Recovery Step any purified ingots used are automatically recovered. \nAdditionally, the fire created acts as a Tinker’s Forge for the purposes of crafting, but cannot be used on Dimeritium.\n\nThe ingots created by Mage’s Forge don’t look any different and are not magical which means that it is difficult to convince a merchant or craftsman to pay a higher price for them without demonstrating their purity.",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "A Tome of Chaos",
+    "isCarried": true,
+    "isConsumable": false,
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "appliesGlobalModifier": false,
+      "consumeGlobalModifiers": [],
+      "effects": []
+    }
+  },
+  "effects": [],
+  "folder": "fDbYum8ClxXb3B7V",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9d15a8547a710ea63c553f23edf09a4d93f02398",
+      "sourceId": "Item.vQhIlHp9kqJurn2w"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_id": "dcCEbNCLpvJtAPQ3",
+  "sort": 0,
+  "_key": "!items!dcCEbNCLpvJtAPQ3"
+}

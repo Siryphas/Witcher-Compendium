@@ -1,0 +1,84 @@
+{
+  "folder": "WeC0fmMSLL3H5lKp",
+  "name": "Elven Glaive",
+  "type": "weapon",
+  "_id": "Q13YDcv7k4wkitQC",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/polearms/glaive-hooked-steel.webp",
+  "system": {
+    "description": "Hear elven glaives were most popular during the elven golden age before the humans arrived. Guess they were guard weapons at the palaces. Tall poles with swooping razor-sharp blades at the top. My guess is, now that most elves in the North are hidin’ out, they can’t afford to carry big weapons like that.",
+    "quantity": "1",
+    "weight": 3,
+    "cost": 925,
+    "isHidden": false,
+    "type": {
+      "text": "Slashing, Piercing, Bludgeoning",
+      "slashing": true,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 2,
+    "avail": "Rare",
+    "damage": "4d6+3",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      },
+      {
+        "id": "_cj4xcz2mt",
+        "name": "Bleed",
+        "statusEffect": "bleed",
+        "percentage": 25
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 2,
+    "rateOfFire": 2,
+    "attackSkill": "melee",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.3Ayvnyk90MDyIMns"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b2b38fbedd43ea47b8f009eb870c39d69f8dc033"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Q13YDcv7k4wkitQC"
+}

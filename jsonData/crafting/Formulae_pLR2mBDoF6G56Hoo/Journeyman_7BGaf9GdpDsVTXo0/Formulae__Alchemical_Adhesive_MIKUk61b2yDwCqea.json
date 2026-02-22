@@ -1,0 +1,65 @@
+{
+  "folder": "7BGaf9GdpDsVTXo0",
+  "name": "Formulae: Alchemical Adhesive",
+  "type": "diagrams",
+  "_id": "MIKUk61b2yDwCqea",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-recipe-alchemical.webp",
+  "system": {
+    "description": "<p><em>From what I remember, some bright boy in Oxenfurt came up with this stuff to replace nails. Obviously didn&rsquo;t work so well, but it&rsquo;s good for quick fixes and such.</em></p>\n<p>Alchemical Adhesive can be thrown or poured onto a place or person. After 2 rounds the solution will harden, permanently sticking objects together, and sticking people to one another or to objects. The objects must be pried apart with a DC: 16 Physique check. Throwing it is an Athletics attack with a range equal to BODYx2m.</p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 52,
+    "isHidden": false,
+    "type": "alchemical",
+    "level": "journeyman",
+    "isFormulae": true,
+    "craftingDC": 0,
+    "alchemyDC": 15,
+    "craftingTime": "10 Minutes",
+    "craftingComponents": [
+      {
+        "id": "first",
+        "quantity": 0,
+        "name": ""
+      }
+    ],
+    "investment": 0,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 1,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 1,
+      "hydragenum": 1,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 2,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.xldBa0zpByPEtqZO",
+    "sourcebook": "Corebook",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "623b4fd1d503e475b5c94d4e39f2648fb0a80221"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.0.0",
+    "exportSource": null
+  },
+  "_key": "!items!MIKUk61b2yDwCqea"
+}

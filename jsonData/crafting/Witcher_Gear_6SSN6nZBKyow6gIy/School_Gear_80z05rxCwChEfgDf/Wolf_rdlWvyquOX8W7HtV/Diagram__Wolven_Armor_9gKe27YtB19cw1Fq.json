@@ -1,0 +1,120 @@
+{
+  "folder": "rdlWvyquOX8W7HtV",
+  "name": "Diagram: Wolven Armor",
+  "type": "diagrams",
+  "_id": "9gKe27YtB19cw1Fq",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/blueprint-helmet.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": null,
+    "isHidden": false,
+    "type": "armor",
+    "level": "witcher",
+    "isFormulae": false,
+    "craftingDC": 20,
+    "alchemyDC": 0,
+    "craftingTime": "23 H",
+    "craftingComponents": [
+      {
+        "id": "iKMXGJZ7kupfSYPr",
+        "name": "Hardened Leather",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.phgkA6lRizAdLf6E"
+      },
+      {
+        "id": "INKiOSl0KfIiuvIe",
+        "name": "Meteorite",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.KWEqALZe3MpmbKz2"
+      },
+      {
+        "id": "Q7Gx10kO7FRqgoN2",
+        "name": "Steel",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.pUQh9OZQmyAmObtk"
+      },
+      {
+        "id": "zEzj4CaKskbT5N77",
+        "name": "Leather",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.MxWGMUsfPdBAFJrQ"
+      },
+      {
+        "id": "OR0zP2TOhPIzIEYy",
+        "name": "Bullvore Eyes",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Dk2tzdfjbGVp8Tao"
+      },
+      {
+        "id": "huE4zkKitfDSLn5t",
+        "name": "Thread",
+        "quantity": 5,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "q1JDsqtIFF1r6B8j",
+        "name": "Essence of Wraith",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6O3Ao6jOFx58vnDG"
+      },
+      {
+        "id": "MYdbZJpzOX7Rtyhi",
+        "name": "Ghoul Marrow",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6DEIawFyqZH6bcBG"
+      },
+      {
+        "id": "DXpWA7Ee16Wy8vBi",
+        "name": "Silk",
+        "quantity": 2,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      },
+      {
+        "id": "w2I3HHcH62xmnFkO",
+        "name": "Bullvore Blood",
+        "quantity": 1,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.vQM5tHU7NJuyZFsn"
+      }
+    ],
+    "investment": 1302,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.Y8ilkkwRkav8Hd0w",
+    "sourcebook": "A Witcher's Tools",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f1b27fd1c0e2d5b2787f70aed7a25e6cbaaa959"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!9gKe27YtB19cw1Fq"
+}

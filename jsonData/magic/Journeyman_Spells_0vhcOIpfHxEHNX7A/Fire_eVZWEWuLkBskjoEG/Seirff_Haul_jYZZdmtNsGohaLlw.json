@@ -1,0 +1,91 @@
+{
+  "folder": "eVZWEWuLkBskjoEG",
+  "name": "Seirff Haul",
+  "type": "spell",
+  "_id": "jYZZdmtNsGohaLlw",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "fire",
+    "domain": "",
+    "stamina": "10",
+    "staminaIsVar": false,
+    "effect": "Seirff Haul creates a number of serpents from fire magic that swarm over a target. \nThe target is grappled and on fire until they make a Dodge/Escape check vs. your Spell Casting roll. \nEvery round that the target fails the Dodge/Escape check, the DC rises by 1 point as the serpents tighten.",
+    "range": "10m",
+    "duration": "2d10",
+    "defence": "Dodge",
+    "components": "",
+    "alternateComponents": "",
+    "preparationTime": "",
+    "dificultyCheck": "",
+    "danger": "",
+    "liftRequirement": "",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": "",
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "effects": [
+      {
+        "id": "first",
+        "name": "effect"
+      }
+    ],
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "effects": [
+        {
+          "id": "first",
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 100,
+          "varEffect": false
+        },
+        {
+          "id": "OuZ94mFhxDKOiyRE",
+          "name": "Grappled",
+          "statusEffect": "grappled",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": "",
+        "tokenTurnStart": "",
+        "tokenPreMove": "",
+        "tokenExit": ""
+      }
+    },
+    "spellAttackSkill": "spellcast",
+    "damageType": "fire"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "111d31341f7ae179cc2b06401d0330288eb0d9ff"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.25.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!jYZZdmtNsGohaLlw"
+}

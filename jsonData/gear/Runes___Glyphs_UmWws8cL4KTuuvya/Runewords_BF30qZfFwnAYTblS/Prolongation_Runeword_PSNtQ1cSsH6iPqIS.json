@@ -1,0 +1,48 @@
+{
+  "folder": "BF30qZfFwnAYTblS",
+  "name": "Prolongation Runeword",
+  "type": "enhancement",
+  "_id": "PSNtQ1cSsH6iPqIS",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Runes%20%26%20Glyphs/Lesser%20Word.png",
+  "system": {
+    "description": "",
+    "quantity": 1,
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "rune",
+    "applied": "",
+    "avail": "",
+    "effects": [
+      {
+        "id": "first",
+        "name": "When casting a spell/invocation using this weapon as a focus, if the spell/invocation has a duration expressed in dice (such as 1d6 hours), roll twice and keep the highest result."
+      }
+    ],
+    "stopping": 0,
+    "bludgeoning": false,
+    "slashing": false,
+    "piercing": false
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4f249fed0396fee3ea0aa174dababc9e01ed754c"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "0.107",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!PSNtQ1cSsH6iPqIS"
+}

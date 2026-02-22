@@ -1,0 +1,78 @@
+{
+  "folder": "FNCni808GC7DjKYu",
+  "name": "Diagram: High Tension String",
+  "type": "diagrams",
+  "_id": "ChBW4NlVjFd2KBcw",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/documents/document-symbol-person-brown.webp",
+  "system": {
+    "description": "<p><em>Leave it to the elves to figure out how to improve a bow.&nbsp;Heh, well, I&rsquo;m pretty sure it was the elves anyway. Lots&nbsp;of elven make crossbows come with this real thick, string&nbsp;that&rsquo;s been wound round the bow. Gives it some extra&nbsp;umph!</em></p>",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 850,
+    "isHidden": false,
+    "type": "weapon",
+    "level": "journeyman",
+    "isFormulae": false,
+    "craftingDC": 17,
+    "alchemyDC": 0,
+    "craftingTime": "4 H",
+    "craftingComponents": [
+      {
+        "id": "7okHrk2vcZqYDDk7",
+        "name": "Ogre Wax",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.v8xoZ9xK4e9lthwP"
+      },
+      {
+        "id": "BUITvGzNgkV6CAXx",
+        "name": "Thread",
+        "quantity": 10,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.OO6KpJQOfxTrKH7d"
+      },
+      {
+        "id": "sMe7FfBCdFnwRDvX",
+        "name": "Silk",
+        "quantity": 3,
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy"
+      }
+    ],
+    "investment": 280,
+    "learned": false,
+    "alchemyComponents": {
+      "vitriol": 0,
+      "rebis": 0,
+      "aether": 0,
+      "quebrith": 0,
+      "hydragenum": 0,
+      "vermilion": 0,
+      "sol": 0,
+      "caelum": 0,
+      "fulgur": 0
+    },
+    "associatedItemUuid": "Compendium.wtrpg-complete-compendium.gear.Item.LSiNGPeVvkTyELlz",
+    "sourcebook": "Rodolf's Wagon",
+    "isStored": false,
+    "isCarried": true
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "JEflPFTBB5wpYRms": 3,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7796db26871bd44746c235978c551ba9391326d4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "exportSource": null
+  },
+  "_key": "!items!ChBW4NlVjFd2KBcw"
+}

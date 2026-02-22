@@ -1,0 +1,89 @@
+{
+  "folder": "vl473v4mC3471KoW",
+  "name": "A Book of Tales",
+  "type": "valuable",
+  "_id": "h0o13t4zY8l0IHHU",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/books/book-embossed-bound-brown.webp",
+  "system": {
+    "description": "A book of folktales and legends which automatically reveals the Commoner Superstition of any monster when referenced. Additionally, it grants a +1 to any Monster Lore checks made while referencing the book.",
+    "quantity": 1,
+    "weight": 0.5,
+    "cost": 40,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "general",
+    "avail": "Common",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "A Professional's Tools"
+  },
+  "effects": [
+    {
+      "name": "A Book of Tales",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.h0o13t4zY8l0IHHU",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/sundries/books/book-embossed-bound-brown.webp",
+      "_id": "BpW61DrptlJye2lv",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.int.monster.activeEffectModifiers",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!h0o13t4zY8l0IHHU.BpW61DrptlJye2lv"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5bae2428c009ecceba508d781a5606491a722154"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!h0o13t4zY8l0IHHU"
+}

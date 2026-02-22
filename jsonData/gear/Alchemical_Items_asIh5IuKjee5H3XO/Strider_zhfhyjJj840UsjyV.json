@@ -1,0 +1,82 @@
+{
+  "folder": "asIh5IuKjee5H3XO",
+  "name": "Strider",
+  "type": "alchemical",
+  "_id": "zhfhyjJj840UsjyV",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-orange.webp",
+  "system": {
+    "description": "",
+    "quantity": "1",
+    "weight": 0.1,
+    "cost": 64,
+    "isHidden": false,
+    "type": "potion",
+    "avail": "Rare",
+    "effect": "The drinker forgoes the need for sleep for a 24-hour period. Doses of Strider used to be given to soldiers to allow them to cross more territory without exerting themselves. The cost of this potion quickly made it nonviable for large armies.",
+    "time": "24 Hours",
+    "toxicity": "50%",
+    "isStored": false,
+    "isConsumable": true,
+    "sourcebook": "A Tome of Chaos"
+  },
+  "effects": [
+    {
+      "name": "Strider",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.zhfhyjJj840UsjyV",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/potion-tube-corked-orange.webp",
+      "_id": "MjsFk5G8QXEscUIF",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>The drinker forgoes the need for sleep for a 24-hour period. Doses of Strider used to be given to soldiers to allow them to cross more territory without exerting themselves. The cost of this potion quickly made it nonviable for large armies.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zhfhyjJj840UsjyV.MjsFk5G8QXEscUIF"
+    }
+  ],
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b76a16554ace1a829cb1d43a32b108ebc6d26db7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!zhfhyjJj840UsjyV"
+}

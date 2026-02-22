@@ -1,0 +1,98 @@
+{
+  "name": "Papers of Nobility (+2 Reputation)",
+  "type": "valuable",
+  "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
+  "system": {
+    "description": "Papers declaring one's Noble status.\n+2 Reputation",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isConsumable": false,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "type": "general",
+    "avail": "Rare",
+    "effect": "",
+    "conceal": "T",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "appliesGlobalModifier": false,
+      "consumeGlobalModifiers": [],
+      "effects": []
+    }
+  },
+  "effects": [
+    {
+      "name": "Papers of Nobility",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.A9bUo1OHrj2KBUvV",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "icons/sundries/documents/document-sealed-red-yellow.webp",
+      "_id": "MjEA7jCJU9lVH3AR",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.reputation.totalModifiers",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!A9bUo1OHrj2KBUvV.MjEA7jCJU9lVH3AR"
+    }
+  ],
+  "folder": "grgI02zxLzvkm7QC",
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "07f063d7c6db0cb2ff1aa5bb45c2c1090a48f992",
+      "sourceId": "Item.hHg4Gb0Du77lIn66"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "exportSource": null
+  },
+  "_id": "A9bUo1OHrj2KBUvV",
+  "sort": 100000,
+  "_key": "!items!A9bUo1OHrj2KBUvV"
+}

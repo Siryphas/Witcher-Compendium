@@ -1,0 +1,80 @@
+{
+  "folder": "9wxGVwjCrzD5A4aS",
+  "name": "Spear",
+  "type": "weapon",
+  "_id": "LMlOttKso4aAzHNE",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/polearms/spear-flared-steel.webp",
+  "system": {
+    "description": "Spears are the infantryman’s favorite weapon. Ain’t exactly small, two meters on average, but they’ll hold enemies at bay and deter cavalry charges. As a man who once served as a battlefield arbalist I have a special fondness for spears. We had a group of spearmen to protect us from the black ones’ cavalry.",
+    "quantity": "1",
+    "weight": 3.5,
+    "cost": 375,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing, Bludgeoning",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": true,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": false,
+    "accuracy": 0,
+    "avail": "Everywhere",
+    "damage": "3d6",
+    "reliable": 10,
+    "maxReliability": 10,
+    "hands": "both",
+    "range": "Body x 2m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Long Reach",
+        "statusEffect": null,
+        "percentage": 0
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 2,
+    "attackSkill": "staffspear",
+    "rollOnlyDmg": false,
+    "isThrowable": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "armorPiercing": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "rangedAttackSkill": "athletics",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry",
+      "parryThrown"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Zo67EWU1pQMDVIrf"
+  },
+  "effects": [],
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e08121b1d851b147babdc71cbf727bc2819920fc"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!LMlOttKso4aAzHNE"
+}

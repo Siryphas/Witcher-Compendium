@@ -1,0 +1,95 @@
+{
+  "folder": "1z0iC1WTnUW9OJ1J",
+  "name": "Monster Hunter's Crossbow",
+  "type": "weapon",
+  "_id": "FgyJsGbqt8ByGCeA",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/crossbows/handcrossbow-black.webp",
+  "system": {
+    "description": "These days monsters aren’t very common. I can probably count the number of monster sightin’s I’ve had on the fingers of one hand. But they still show up from time to time, and with witchers bein’ equally rare, some bastard down south developed this beast. Stands more’n a meter long, ‘n’ near that across the limbs. They say this crossbow has to be pulled with a windlass an’ it fires with 136kg of force. Guess they figure if it takes a lot of force to kill a monster, why not make a damn handheld ballista to take ‘em down from afar, heh.",
+    "quantity": "1",
+    "weight": 4,
+    "cost": 1125,
+    "isHidden": false,
+    "type": {
+      "text": "Piercing",
+      "slashing": false,
+      "piercing": true,
+      "bludgeoning": false,
+      "elemental": false
+    },
+    "isAmmo": false,
+    "usingAmmo": true,
+    "accuracy": 1,
+    "avail": "Rare",
+    "damage": "6d6",
+    "reliable": 15,
+    "maxReliability": 15,
+    "hands": "both",
+    "range": "200m",
+    "effects": [
+      {
+        "id": "first",
+        "name": "Slow Reload",
+        "percentage": 0,
+        "statusEffect": null
+      }
+    ],
+    "conceal": "NA",
+    "enhancements": 1,
+    "rateOfFire": 0.5,
+    "attackSkill": "crossbow",
+    "rollOnlyDmg": false,
+    "isThrowable": false,
+    "armorPiercing": true,
+    "enhancementItemIds": [],
+    "isStored": false,
+    "equipped": false,
+    "improvedArmorPiercing": false,
+    "ablating": false,
+    "sourcebook": "Corebook",
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block"
+    ],
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.GgBVk9MUyHISz0Ro",
+    "damageProperties": {
+      "effects": [
+        {
+          "id": "first",
+          "name": "Slow Reload",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        },
+        {
+          "id": "sAZWs2NjAdJz9pkd",
+          "name": "Armor Piercing",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8f1db63ef2cb88214a4056abc7914422c1b36b7d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.20.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!FgyJsGbqt8ByGCeA"
+}

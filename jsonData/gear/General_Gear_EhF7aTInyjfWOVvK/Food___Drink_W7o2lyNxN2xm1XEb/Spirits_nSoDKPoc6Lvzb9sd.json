@@ -1,0 +1,53 @@
+{
+  "folder": "W7o2lyNxN2xm1XEb",
+  "name": "Spirits",
+  "type": "valuable",
+  "_id": "nSoDKPoc6Lvzb9sd",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/drinks/alcohol-jug-spirits-brown.webp",
+  "system": {
+    "description": "\"Dwarven spirits are the most common kind in the North, Nilfgaardian Lemon in the South. Either way they're the hardest stuff around.\"\n-Rodolf Kazmer",
+    "quantity": 1,
+    "weight": 1,
+    "cost": 10,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "food-drink",
+    "avail": "Common",
+    "effect": "",
+    "conceal": "S",
+    "quality": "",
+    "sourcebook": "Corebook",
+    "isConsumable": true,
+    "consumeProperties": {
+      "effects": [
+        {
+          "id": "uPNkDbVAJXSaQjLv",
+          "name": "Intoxicated",
+          "statusEffect": "intoxication",
+          "percentage": 100,
+          "varEffect": false
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2728b41e17fc98f5ad691ea2655bd1f302eb2a0a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v12.7.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!nSoDKPoc6Lvzb9sd"
+}

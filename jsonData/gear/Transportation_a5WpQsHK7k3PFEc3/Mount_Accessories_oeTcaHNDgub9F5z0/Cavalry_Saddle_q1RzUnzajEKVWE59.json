@@ -1,0 +1,89 @@
+{
+  "folder": "oeTcaHNDgub9F5z0",
+  "name": "Cavalry Saddle",
+  "type": "valuable",
+  "_id": "q1RzUnzajEKVWE59",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Transportation/Cavalry%20Saddle.webp",
+  "system": {
+    "description": "+1 to Control checks for attacking.\nBuilt-in sheath for a weapon.",
+    "quantity": 1,
+    "weight": 6,
+    "cost": 325,
+    "isHidden": false,
+    "associatedDiagram": {},
+    "type": "mount-accessories",
+    "avail": "Poor",
+    "effect": "",
+    "conceal": "NA",
+    "quality": "",
+    "clickableImage": false,
+    "sourcebook": "Corebook"
+  },
+  "effects": [
+    {
+      "name": "Cavalry Saddle",
+      "origin": "Compendium.wtrpg-complete-compendium.gear.Item.q1RzUnzajEKVWE59",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-compendium/packs/Images/Transportation/Cavalry%20Saddle.webp",
+      "_id": "ccm6dLfjOOqxomCc",
+      "type": "base",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": false,
+        "applyOnHit": false,
+        "applyOnDamage": false
+      },
+      "changes": [
+        {
+          "key": "system.skills.ref.riding.activeEffectModifiers",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.7.0",
+        "exportSource": null
+      },
+      "_key": "!items.effects!q1RzUnzajEKVWE59.ccm6dLfjOOqxomCc"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dxC9PYhanWf4xPZG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e7fc73467a41ebec94edd454908e7a6cfb6b56f3"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v1.2.0",
+    "coreVersion": "13.347",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!q1RzUnzajEKVWE59"
+}
