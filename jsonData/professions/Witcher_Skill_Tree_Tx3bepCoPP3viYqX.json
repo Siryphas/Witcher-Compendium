@@ -8,7 +8,52 @@
       "skillName": "Witcher Training",
       "stat": "int",
       "definition": "Most of a Witcher’s early life is spent within the walls of their keep, studying huge, dusty tomes and going through hellish combat training. Many have argued that the Witcher’s greatest weapon is their knowledge of monsters and their adaptability in any situation. When in a hostile environment or difficult terrain, a Witcher can lessen the penalties by half their Witcher Training value (minimum 1). Witcher Training can also be used in any situation that you would normally use Monster Lore for.",
-      "level": null
+      "level": null,
+      "skillAttack": {
+        "isAttack": false,
+        "usesWeapon": false,
+        "damageFormulaOverride": "",
+        "attackOptions": [],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverTrait": false,
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown",
+          "magicResist"
+        ]
+      },
+      "skillDefense": {
+        "isDefense": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
+      }
     },
     "skillPath1": {
       "pathName": "The Spellsword",
@@ -16,19 +61,154 @@
         "skillName": "Meditation",
         "stat": "none",
         "definition": "<p>A Witcher can enter a meditative trance which grants all the benefits of sleeping but allows them to remain vigilant. While meditating a Witcher is considered awake for the purpose of noticing anything within double their Meditation value in meters.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
-        "skillName": "Magical Source ",
+        "skillName": "Magical Source",
         "stat": "none",
         "definition": "<p>As a Witcher uses signs more often their body becomes more used to the effort. For every 2 points a Witcher has in Magical Source they gain 1 points of Vigor threshold. When this ability reaches level 10, your maximum Vigor Threshold becomes 7.</p>\n<p>This skill can be trained like other skills.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
-        "skillName": "Heliotrope ",
+        "skillName": "Heliotrope",
         "stat": "will",
         "definition": "When a Witcher is targeted by a spell, invocation, or hex they can roll Heliotrope to attempt to negate the effects. They must roll a Heliotrope roll that equals or beats the opponent’s roll and expend an amount of Stamina equal to half the Stamina spent to cast the magic.",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath2": {
@@ -37,19 +217,154 @@
         "skillName": "Iron Stomach",
         "stat": "none",
         "definition": "<p>After decades of drinking toxic witcher potions, witcher bodies adapt to the toxins. A witcher can endure 5% more toxicity from drinking potions and decoctions per 2 points they spend on Iron Stomach. This skill can be trained like other skills. At level 10, a witcher&rsquo;s maximum toxicity is 150%.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Frenzy",
         "stat": "none",
         "definition": "<p>When poisoned, a witcher goes into a frenzy and deals an extra 1 melee damage per level in Frenzy. While in a Frenzy, your single goal is to get to a place of safety or kill the target that poisoned you. When the poison wears off, the Frenzy ends. You can attempt to end Frenzy early with a DC:15 Endurance roll.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
-        "skillName": "Transmutation ",
+        "skillName": "Transmutation",
         "stat": "body",
         "definition": "<p>When taking decoctions a Witcher can roll Transmutation at DC:18. A success allows their body to assimilate slightly more of the mutagen than usual and gain a bonus based on which decoction they take. The decoction lasts half as long as it normally would. The extra mutations are too subtle to spot.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath3": {
@@ -58,13 +373,103 @@
         "skillName": "Parry Arrows",
         "stat": "dex",
         "definition": "<p>A Witcher can roll Parry Arrows at a -3 to deflect physical projectiles. When parrying, the Witcher can choose a target within 10m. That target must take a defense action against the Witcher&rsquo;s Parry Arrows roll or be Staggered by the flying projectile.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Quick Strike",
         "stat": "ref",
         "definition": "<p>After a Witcher takes their turn they can spend 5 STA and make a Quick Strike roll at a DC equal to their opponent&rsquo;s REFx3. On success, they make another single strike in that round. This attack must be made against the opponent they rolled against, but can include disarms, trips, and other attacks.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Whirl",
@@ -83,10 +488,61 @@
             "block",
             "parry"
           ],
-          "applyMeleeBonus": true
+          "applyMeleeBonus": true,
+          "damageFormulaOverride": "",
+          "spellAttackSkill": "spellcasting",
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          }
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
         }
       }
-    }
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "CRB p46",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "professionSkills": [
+      "awareness",
+      "deduction",
+      "dodge",
+      "riding",
+      "swordsmanship",
+      "spellcast",
+      "athletics",
+      "stealth",
+      "alchemy",
+      "wilderness"
+    ]
   },
   "effects": [],
   "flags": {
@@ -98,8 +554,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.22.0",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {
@@ -112,9 +568,7 @@
   },
   "folder": null,
   "ownership": {
-    "default": 0,
-    "QXnUaFjEzgosKVQr": 3,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "_id": "Tx3bepCoPP3viYqX",
   "sort": 100000,

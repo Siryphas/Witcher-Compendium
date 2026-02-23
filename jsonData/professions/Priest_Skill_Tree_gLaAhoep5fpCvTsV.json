@@ -8,7 +8,52 @@
       "skillName": "Initiate of the Gods",
       "stat": "emp",
       "definition": "<p>The churches of the world are often warm and inviting places, helping their communities and welcoming new converts. A Priest can roll Initiate of the Gods at a DC set by the GM at churches of the same faith to get free lodging, healing, and other services at the GM&rsquo;s discretion. Initiate of the Gods also works when dealing with members of the same faith, though they will likely be able to offer less than a fully supplied church. At the GM's discretion, Initiate of the Gods will also work with worshippers of related deities.</p>",
-      "level": null
+      "level": null,
+      "skillAttack": {
+        "isAttack": false,
+        "usesWeapon": false,
+        "damageFormulaOverride": "",
+        "attackOptions": [],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverTrait": false,
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown",
+          "magicResist"
+        ]
+      },
+      "skillDefense": {
+        "isDefense": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
+      }
     },
     "skillPath1": {
       "pathName": "Cultist",
@@ -16,19 +61,154 @@
         "skillName": "Mystagogue",
         "stat": "emp",
         "definition": "<p>When in a settlement, a Priest can spend a day and roll Mystagogue at a DC based on the settlement to build a shrine to their deity that attracts people and converts them to their religion.<br>The GM determines how many people join. Additionally, while within 20m of this shrine, the Priest can use the shrine as a Focus with a value of 3.</p>\n<ul>\n<li>Hamlet: DC 22</li>\n<li>Town: DC 20</li>\n<li>Small City: DC 18</li>\n<li>Capital: DC 14</li>\n</ul>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Cult Mystery",
         "stat": "will",
         "definition": "<p>At higher levels, a Priest is shown the inner workings of their religion and are privy to some of its secrets. The Priest's cult mystery depends on the type of religion they follow.</p>\n<ul>\n<li><strong><span style=\"text-decoration: underline;\">Organized Churches</span>:</strong> The Priest has been initiated into the higher workings of your church. They can add their Cult Mystery level to their Initiate of the Gods check.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Old Gods</strong></span><strong>:</strong> The Priest has been shown the ways of old magic. When they craft a ritual, they can roll both a Cult Mystery check and a Ritual Crafting check and take the heighest of the two.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Dark Cults</strong></span><strong>:</strong> Secrecy is key. When someone tries to discern the Priest's true faith or their motives through magic, they must first roll against the Priest's Cult Mystery check. If they fail, the Priest makes them believe what they choose.<br>Against non-magical scrutiny, the Priest can add their Cult Mystery level to their Deceit checks.</li>\n</ul>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Blessings",
         "stat": "will",
         "definition": "<p>A Priest can bless a group of people through a 1-hour ceremony. At the end of the ceremony, they roll Blessings at a DC: 16. For one day afterward, a number of people equal to the Priest's Blessings level gain bonuses as per the Blessings table.</p>\n<ul>\n<li><span style=\"text-decoration: underline;\"><strong>Organized Churches</strong></span><strong>:</strong> The Priest empowers their followers with the divine authority of their church. On a success, they gain a +4 Leadership and a +4 Reputation.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Old Gods</strong></span><strong>:</strong> The Priest empowers their followers with a blessing that shields their mind and bodies. On success, they gain a +3 to SP and a +2 to Resist Magic.</li>\n<li><span style=\"text-decoration: underline;\"><strong>Dark Cults</strong></span><strong>:</strong> The Priest empowers their followers with a blessing of celerity. On success, they gain a +4 bonus to Stealth and Initiative.</li>\n</ul>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath2": {
@@ -37,42 +217,332 @@
         "skillName": "Divine Power",
         "stat": "none",
         "definition": "<p>A Priest can become more in tune with their god, gaining 1 point of Vigor threshold per skill level in Divine Power up to level 9. At the 10th level in Divine Power, you raise your Vigor Threshold by 5 bringing it to a total of 16. Divine Power can be trained like any other skill.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Divine Authority",
         "stat": "emp",
         "definition": "<p>Peasants and the common folk of the world see Priests as agents of the gods&rsquo; will. A Priest can add their Divine Authority to their Leadership rolls if they are in an area where their religion is worshipped. Even when outside such areas of worship a Priest adds half this value, due to their presence.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Precognition",
         "stat": "will",
         "definition": "<p>At the will of the GM, a Priest can be overcome by visions of the future, sending them into a catatonic state for 3 rounds. After this time the Priest can roll Precognition at a DC set by the GM to decipher the visions that they are stricken by. Such visions are composed of symbolism and metaphors.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath3": {
       "pathName": "Fanatic",
       "skill1": {
-        "skillName": "Blood Rituals ",
+        "skillName": "Blood Rituals",
         "stat": "will",
         "definition": "<p>A Priest casting a ritual can make a Blood Ritual check against the casting DC of the ritual. If they succeed, they can cast the ritual without required alchemical substances by sacrificing 5 HP in blood per missing alchemical substance. This blood can come from others, but must be spilled at the time of the ritual.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Fervor",
         "stat": "emp",
         "definition": "<p>A Priest can roll Fervor against a target&rsquo;s current INTx3. On success, the rallying power of the Priest&rsquo;s words grants 1d6 temporary health for every point rolled over the DC (maximum 5). <br>This lasts for as many rounds as their Fervor x2 and only works once per target per day.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Word of God",
         "stat": "emp",
         "definition": "<p>A Priest can roll Word of God to convince people that they are speaking directly for the gods. Anyone who fails a Resist Coercion roll sees the Priest as a messiah and follows along as an apostle. A Priest can have as many apostles as their Word of God value. <br>In combat, use bandit stats for apostles without stats.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
-    }
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "ToC p49",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "professionSkills": [
+      "staffspear",
+      "courage",
+      "hexweave",
+      "spellcast",
+      "ritcraft",
+      "firstaid",
+      "charisma",
+      "perception",
+      "leadership",
+      "teaching"
+    ]
   },
   "effects": [],
   "flags": {
@@ -84,8 +554,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "0.107",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {
@@ -98,9 +568,7 @@
   },
   "folder": null,
   "ownership": {
-    "default": 0,
-    "QXnUaFjEzgosKVQr": 3,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "_id": "gLaAhoep5fpCvTsV",
   "sort": 700000,

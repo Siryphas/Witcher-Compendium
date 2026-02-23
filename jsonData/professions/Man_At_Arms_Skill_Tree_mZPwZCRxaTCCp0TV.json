@@ -5,10 +5,55 @@
   "system": {
     "notes": "<h1>Booby Trap</h1>\n<table style=\"width: 100%;\" border=\"1\"><colgroup><col style=\"width: 34.8643%;\"><col style=\"width: 12.1124%;\"><col style=\"width: 53.0233%;\"></colgroup>\n<tbody>\n<tr>\n<td style=\"text-align: center;\"><strong>Trap</strong></td>\n<td style=\"text-align: center;\"><strong>DC</strong></td>\n<td style=\"text-align: center;\"><strong>Effect</strong></td>\n</tr>\n<tr>\n<td><strong>Snaring</strong></td>\n<td style=\"text-align: center;\">14</td>\n<td>The trap has a DC the target must beat to free themselves from a Grapple.</td>\n</tr>\n<tr>\n<td><strong>Disarming</strong></td>\n<td style=\"text-align: center;\">18</td>\n<td>The trap swings at should height, striking the target's arm and knocking their weapon away.</td>\n</tr>\n<tr>\n<td><strong>Blinding</strong></td>\n<td style=\"text-align: center;\">16</td>\n<td>The trap throws sand or dirt in the target's eyes, blinding them.</td>\n</tr>\n<tr>\n<td><strong>Tripping</strong></td>\n<td style=\"text-align: center;\">14</td>\n<td>The trap swings low and kncoks the target's legs out from under them, knocking them prone.</td>\n</tr>\n<tr>\n<td><strong>Bleeding</strong></td>\n<td style=\"text-align: center;\">18</td>\n<td>The trap throws or swings spikes into the target, causing them to begin bleeding.</td>\n</tr>\n<tr>\n<td><strong>Stunning</strong></td>\n<td style=\"text-align: center;\">16</td>\n<td>The trap clubs the target in the head or stomach with enough force to stun the target.</td>\n</tr>\n</tbody>\n</table>",
     "definingSkill": {
-      "skillName": "Tough As Nails ",
+      "skillName": "Tough As Nails",
       "stat": "body",
       "definition": "True Men At Arms like the Blue Stripes of Temeria and the Impera Brigade of Nilfgaard are hardened soldiers who never give in or surrender. When a Man At Arms falls to or below 0 Health, they can roll Tough As Nails at a DC equal to the number of negative Health times 2 to keep fighting. If they fail, they fall into Death State as per usual. If they succeed, they can keep fighting as if they were only at their Wound Threshold. Any damage forces them to make another roll against a DC based on their Health.",
-      "level": null
+      "level": null,
+      "skillAttack": {
+        "isAttack": false,
+        "usesWeapon": false,
+        "damageFormulaOverride": "",
+        "attackOptions": [],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverTrait": false,
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown",
+          "magicResist"
+        ]
+      },
+      "skillDefense": {
+        "isDefense": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
+      }
     },
     "skillPath1": {
       "pathName": "The Marksman",
@@ -16,7 +61,52 @@
         "skillName": "Extreme Range",
         "stat": "dex",
         "definition": "<p>When making a ranged attack that would take range penalties, a Man At Arms can lower the penalty by up to half their Extreme Range value. They can also make an Extreme Range roll (DC:16) to attack targets within 3 times the range of their weapon at a -10 which can be modified by Extreme Range.</p>\n<ul>\n<li><strong>Just outside the range:</strong> DC 12</li>\n<li><strong>Half again the range:</strong> DC 15</li>\n<li><strong>Double the Range:</strong> DC 18</li>\n</ul>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Twin Shot",
@@ -33,14 +123,91 @@
             "dodge",
             "reposition",
             "block"
-          ]
+          ],
+          "damageFormulaOverride": "",
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          }
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
         }
       },
       "skill3": {
         "skillName": "Pin Point Aim",
         "stat": "dex",
         "definition": "<p>A Man At Arms who scores a critical with their ranged weapon can immediately roll Pin Point Aim at a DC equal to the target&rsquo;s DEXx3. If they succeed, they add their Pin Point Aim value to their critical roll. These points only aff ect the location value of the Critical Wound.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath2": {
@@ -49,31 +216,211 @@
         "skillName": "Bloodhound",
         "stat": "int",
         "definition": "<p>When tracking a target or trying to find a trail, a Man At Arms adds their Bloodhound value to Wilderness Survival rolls to find the trail or follow it. If the Man At Arms loses the trail while tracking with this ability, they can roll Bloodhound at a DC set by the GM to pick the trail back up immediately.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Booby Trap",
         "stat": "cra",
         "definition": "A Man At Arms can make a Booby Trap roll to set a make- shift trap in a specific area. See the Booby Trap table for traps that can be built. The Man At Arms can only build one type of trap at a time. Every trap has a 2m radius tripwire and requires an Awareness roll at a DC equal to your Booby Trap roll to spot.",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Tactical Awareness",
         "stat": "int",
         "definition": "<p>Instead of moving, a Man At Arms can roll Tactical Awareness to gain insight into a whole group of opponents. The Man At Arms gains +3 to attack and defense rolls against every enemy within 10m whose DEXx3 is lower than that roll, for one round. This ability also tells the Man At Arms what each affected opponent is about to do.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath3": {
       "pathName": "The Reaver",
       "skill1": {
-        "skillName": "Fury ",
+        "skillName": "Fury",
         "stat": "will",
         "definition": "<p>A Man At Arms can roll Fury at a DC equal to their EMPx3. If they succeed, the Man At Arms becomes immune to fear, spells that change emotions, and Verbal Combat for a number of rounds equal to their Fury value times 2. During this time, rage clouds their thinking and instinct takes over.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
-        "skillName": "Zweihand ",
+        "skillName": "Zweihand",
         "stat": "body",
         "definition": "<p>By, spending 10 STA and rolling Zweihand minus 3 against an opponent&rsquo;s defense, a Man At Arms can make one attack which does double damage and has armor piercing. If the weapon already has armor piercing, it gains improved armor piercing. A weapon with improved armor piercing gains 3d6 damage.</p>",
         "level": null,
@@ -92,17 +439,105 @@
           ],
           "applyMeleeBonus": true,
           "damageProperties": {
-            "armorPiercing": true
+            "armorPiercing": true,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "damageFormulaOverride": "",
+          "spellAttackSkill": "spellcasting",
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
           }
         }
       },
       "skill3": {
-        "skillName": "Shrug It Off ",
+        "skillName": "Shrug It Off",
         "stat": "body",
         "definition": "<p>A number of times per game session equal to their BODY value, a Man At Arms can spend 10 STA to immediately roll Shrug It Off when an enemy strikes a Critical Wound on them. If their roll beats the enemy&rsquo;s attack roll, they can negate the Critical Wound, taking damage as if the enemy hadn&rsquo;t rolled a critical.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
-    }
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "CRB p43",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "professionSkills": [
+      "dodge",
+      "courage",
+      "intimidation",
+      "physique",
+      "wilderness"
+    ]
   },
   "effects": [],
   "flags": {
@@ -114,8 +549,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.23.0",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {
@@ -128,9 +563,7 @@
   },
   "folder": null,
   "ownership": {
-    "default": 0,
-    "QXnUaFjEzgosKVQr": 3,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "_id": "mZPwZCRxaTCCp0TV",
   "sort": 300000,
