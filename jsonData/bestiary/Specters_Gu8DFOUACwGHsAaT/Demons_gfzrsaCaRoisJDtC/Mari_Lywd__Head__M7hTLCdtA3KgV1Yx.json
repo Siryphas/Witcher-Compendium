@@ -21,149 +21,93 @@
     "stats": {
       "int": {
         "max": 5,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Int",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 5,
+        "value": 0
       },
       "ref": {
         "max": 10,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Ref",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 10,
+        "value": 0
       },
       "dex": {
         "max": 10,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Dex",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 10,
+        "value": 0
       },
       "body": {
         "max": 10,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Body",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 10,
+        "value": 0
       },
       "spd": {
         "max": 5,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Spd",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 5,
+        "value": 0
       },
       "emp": {
         "max": 3,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Emp",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 3,
+        "value": 0
       },
       "cra": {
         "max": 3,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Cra",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 3,
+        "value": 0
       },
       "will": {
         "max": 8,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Will",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 8,
+        "value": 0
       },
       "luck": {
         "max": 0,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Luck",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 0,
+        "value": 0
       },
       "toxicity": {
         "max": 0,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Toxicity",
         "isOpened": false,
         "modifiers": [],
-        "totalModifiers": 0
-      }
-    },
-    "coreStats": {
-      "stun": {
-        "max": 0,
-        "current": 0,
-        "total": 0,
-        "label": "WITCHER.Actor.CoreStat.Stun",
-        "isOpened": false,
-        "modifiers": [],
-        "totalModifiers": 0
-      },
-      "run": {
-        "max": 0,
-        "current": 0,
-        "total": 0,
-        "label": "WITCHER.Actor.CoreStat.Run",
-        "isOpened": false,
-        "modifiers": [],
-        "totalModifiers": 0
-      },
-      "leap": {
-        "max": 0,
-        "current": 0,
-        "total": 0,
-        "label": "WITCHER.Actor.CoreStat.Leap",
-        "isOpened": false,
-        "modifiers": [],
-        "totalModifiers": 0
-      },
-      "enc": {
-        "max": 0,
-        "current": 0,
-        "total": 0,
-        "label": "WITCHER.Actor.CoreStat.Enc",
-        "isOpened": false,
-        "modifiers": [],
-        "totalModifiers": 0
-      },
-      "rec": {
-        "max": 0,
-        "current": 0,
-        "total": 0,
-        "label": "WITCHER.Actor.CoreStat.Rec",
-        "isOpened": false,
-        "modifiers": [],
-        "totalModifiers": 0
-      },
-      "woundTreshold": {
-        "max": 0,
-        "current": 0,
-        "total": 0,
-        "label": "WITCHER.Actor.CoreStat.woundTreshold",
-        "isOpened": false,
-        "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "unmodifiedMax": 100,
+        "value": 0
       }
     },
     "derivedStats": {
@@ -173,7 +117,8 @@
         "value": 90,
         "label": "WITCHER.Actor.DerStat.HP",
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "shield": {
         "max": 0,
@@ -181,7 +126,8 @@
         "value": 0,
         "label": "WITCHER.Actor.DerStat.Shield",
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "sta": {
         "max": 45,
@@ -189,7 +135,8 @@
         "value": 45,
         "label": "WITCHER.Actor.DerStat.Sta",
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "resolve": {
         "max": 0,
@@ -197,7 +144,8 @@
         "value": 30,
         "label": "WITCHER.Actor.DerStat.Resolve",
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "focus": {
         "max": 0,
@@ -205,7 +153,8 @@
         "value": 0,
         "label": "WITCHER.Actor.DerStat.Focus",
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "vigor": {
         "max": 0,
@@ -213,28 +162,82 @@
         "value": 0,
         "label": "WITCHER.Actor.DerStat.Vigor",
         "modifiers": [],
-        "totalModifiers": 0
+        "totalModifiers": 0,
+        "isOpened": false
       },
-      "modifiersIsOpened": false
+      "stun": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Stun",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "run": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Run",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "leap": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Leap",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "enc": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Enc",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "rec": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Rec",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "woundTreshold": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.woundTreshold",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      }
     },
     "reputation": {
       "max": 0,
-      "current": 0,
-      "total": 0,
       "label": "WITCHER.Actor.CoreStat.Rep",
       "isOpened": false,
       "modifiers": [],
-      "totalModifiers": 0
+      "totalModifiers": 0,
+      "unmodifiedMax": 0,
+      "value": 0
     },
     "adrenaline": {
-      "current": 0,
-      "label": "WITCHER.Actor.Adrenaline"
+      "label": "WITCHER.Actor.Adrenaline",
+      "value": 0
     },
     "skills": {
       "int": {
         "awareness": {
           "value": 11,
-          "label": "WITCHER.SkIntAwareness",
+          "label": "WITCHER.skills.awareness.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -245,7 +248,7 @@
         },
         "business": {
           "value": 0,
-          "label": "WITCHER.SkIntBusiness",
+          "label": "WITCHER.skills.business.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -256,7 +259,7 @@
         },
         "deduction": {
           "value": 0,
-          "label": "WITCHER.SkIntDeduction",
+          "label": "WITCHER.skills.deduction.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -267,7 +270,7 @@
         },
         "education": {
           "value": 0,
-          "label": "WITCHER.SkIntEducation",
+          "label": "WITCHER.skills.education.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -278,7 +281,7 @@
         },
         "commonsp": {
           "value": 0,
-          "label": "WITCHER.SkIntCommon",
+          "label": "WITCHER.skills.commonSpeech.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -289,7 +292,7 @@
         },
         "eldersp": {
           "value": 0,
-          "label": "WITCHER.SkIntElder",
+          "label": "WITCHER.skills.elderSpeech.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -300,7 +303,7 @@
         },
         "dwarven": {
           "value": 0,
-          "label": "WITCHER.SkIntDwarven",
+          "label": "WITCHER.skills.dwarvenSpeech.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -311,7 +314,7 @@
         },
         "monster": {
           "value": 0,
-          "label": "WITCHER.SkIntMonster",
+          "label": "WITCHER.skills.monsterLore.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -322,7 +325,7 @@
         },
         "socialetq": {
           "value": 0,
-          "label": "WITCHER.SkIntSocialEt",
+          "label": "WITCHER.skills.socialEtiquette.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -333,7 +336,7 @@
         },
         "streetwise": {
           "value": 0,
-          "label": "WITCHER.SkIntStreet",
+          "label": "WITCHER.skills.streetwise.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -344,7 +347,7 @@
         },
         "tactics": {
           "value": 0,
-          "label": "WITCHER.SkIntTactics",
+          "label": "WITCHER.skills.tactics.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -355,7 +358,7 @@
         },
         "teaching": {
           "value": 0,
-          "label": "WITCHER.SkIntTeaching",
+          "label": "WITCHER.skills.teaching.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -366,7 +369,7 @@
         },
         "wilderness": {
           "value": 11,
-          "label": "WITCHER.SkIntWilderness",
+          "label": "WITCHER.skills.wildernessSurvival.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -379,7 +382,7 @@
       "ref": {
         "brawling": {
           "value": 8,
-          "label": "WITCHER.SkRefBrawling",
+          "label": "WITCHER.skills.brawling.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -390,7 +393,7 @@
         },
         "dodge": {
           "value": 8,
-          "label": "WITCHER.SkRefDodge",
+          "label": "WITCHER.skills.dodgeEscape.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -401,7 +404,7 @@
         },
         "melee": {
           "value": 8,
-          "label": "WITCHER.SkRefMelee",
+          "label": "WITCHER.skills.melee.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -412,7 +415,7 @@
         },
         "riding": {
           "value": 0,
-          "label": "WITCHER.SkRefRiding",
+          "label": "WITCHER.skills.riding.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -423,7 +426,7 @@
         },
         "sailing": {
           "value": 0,
-          "label": "WITCHER.SkRefSailing",
+          "label": "WITCHER.skills.sailing.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -434,7 +437,7 @@
         },
         "smallblades": {
           "value": 0,
-          "label": "WITCHER.SkRefSmall",
+          "label": "WITCHER.skills.smallblades.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -445,7 +448,7 @@
         },
         "staffspear": {
           "value": 0,
-          "label": "WITCHER.SkRefStaff",
+          "label": "WITCHER.skills.staffspear.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -456,7 +459,7 @@
         },
         "swordsmanship": {
           "value": 0,
-          "label": "WITCHER.SkRefSwordsmanship",
+          "label": "WITCHER.skills.swordsmanship.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -469,7 +472,7 @@
       "dex": {
         "archery": {
           "value": 0,
-          "label": "WITCHER.SkDexArchery",
+          "label": "WITCHER.skills.archery.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -480,7 +483,7 @@
         },
         "athletics": {
           "value": 6,
-          "label": "WITCHER.SkDexAthletics",
+          "label": "WITCHER.skills.athletics.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -491,7 +494,7 @@
         },
         "crossbow": {
           "value": 0,
-          "label": "WITCHER.SkDexCrossbow",
+          "label": "WITCHER.skills.crossbow.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -502,7 +505,7 @@
         },
         "sleight": {
           "value": 0,
-          "label": "WITCHER.SkDexSleight",
+          "label": "WITCHER.skills.sleightOfHand.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -513,7 +516,7 @@
         },
         "stealth": {
           "value": 6,
-          "label": "WITCHER.SkDexStealth",
+          "label": "WITCHER.skills.stealth.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -526,7 +529,7 @@
       "body": {
         "physique": {
           "value": 8,
-          "label": "WITCHER.SkBodyPhys",
+          "label": "WITCHER.skills.physique.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -537,7 +540,7 @@
         },
         "endurance": {
           "value": 8,
-          "label": "WITCHER.SkBodyEnd",
+          "label": "WITCHER.skills.endurance.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -550,7 +553,7 @@
       "emp": {
         "charisma": {
           "value": 0,
-          "label": "WITCHER.SkEmpCharisma",
+          "label": "WITCHER.skills.charisma.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -561,7 +564,7 @@
         },
         "deceit": {
           "value": 0,
-          "label": "WITCHER.SkEmpDeceit",
+          "label": "WITCHER.skills.deceit.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -572,7 +575,7 @@
         },
         "finearts": {
           "value": 0,
-          "label": "WITCHER.SkEmpArts",
+          "label": "WITCHER.skills.fineArts.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -583,7 +586,7 @@
         },
         "gambling": {
           "value": 0,
-          "label": "WITCHER.SkEmpGambling",
+          "label": "WITCHER.skills.gambling.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -594,7 +597,7 @@
         },
         "grooming": {
           "value": 0,
-          "label": "WITCHER.SkEmpGrooming",
+          "label": "WITCHER.skills.groomingAndStyle.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -605,7 +608,7 @@
         },
         "perception": {
           "value": 0,
-          "label": "WITCHER.SkEmpHumanPerc",
+          "label": "WITCHER.skills.humanPerception.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -616,7 +619,7 @@
         },
         "leadership": {
           "value": 0,
-          "label": "WITCHER.SkEmpLeadership",
+          "label": "WITCHER.skills.leadership.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -627,7 +630,7 @@
         },
         "persuasion": {
           "value": 0,
-          "label": "WITCHER.SkEmpPersuasion",
+          "label": "WITCHER.skills.persuasion.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -638,7 +641,7 @@
         },
         "performance": {
           "value": 0,
-          "label": "WITCHER.SkEmpPerformance",
+          "label": "WITCHER.skills.performance.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -649,7 +652,7 @@
         },
         "seduction": {
           "value": 0,
-          "label": "WITCHER.SkEmpSeduction",
+          "label": "WITCHER.skills.seduction.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -662,7 +665,7 @@
       "cra": {
         "alchemy": {
           "value": 0,
-          "label": "WITCHER.SkCraAlchemy",
+          "label": "WITCHER.skills.alchemy.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -673,7 +676,7 @@
         },
         "crafting": {
           "value": 0,
-          "label": "WITCHER.SkCraCrafting",
+          "label": "WITCHER.skills.crafting.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -684,7 +687,7 @@
         },
         "disguise": {
           "value": 13,
-          "label": "WITCHER.SkCraDisguise",
+          "label": "WITCHER.skills.disguise.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -695,7 +698,7 @@
         },
         "firstaid": {
           "value": 0,
-          "label": "WITCHER.SkCraAid",
+          "label": "WITCHER.skills.firstAid.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -706,7 +709,7 @@
         },
         "forgery": {
           "value": 0,
-          "label": "WITCHER.SkCraForge",
+          "label": "WITCHER.skills.forgery.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -717,7 +720,7 @@
         },
         "picklock": {
           "value": 0,
-          "label": "WITCHER.SkCraPick",
+          "label": "WITCHER.skills.pickLock.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -728,7 +731,7 @@
         },
         "trapcraft": {
           "value": 0,
-          "label": "WITCHER.SkCraTrapCraft",
+          "label": "WITCHER.skills.trapCrafting.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -741,7 +744,7 @@
       "will": {
         "courage": {
           "value": 0,
-          "label": "WITCHER.SkWillCourage",
+          "label": "WITCHER.skills.courage.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -752,7 +755,7 @@
         },
         "hexweave": {
           "value": 0,
-          "label": "WITCHER.SkWillHex",
+          "label": "WITCHER.skills.hexWeaving.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -763,7 +766,7 @@
         },
         "intimidation": {
           "value": 8,
-          "label": "WITCHER.SkWillIntim",
+          "label": "WITCHER.skills.intimidation.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -774,7 +777,7 @@
         },
         "spellcast": {
           "value": 0,
-          "label": "WITCHER.SkWillSpellcast",
+          "label": "WITCHER.skills.spellCasting.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -785,7 +788,7 @@
         },
         "resistmagic": {
           "value": 0,
-          "label": "WITCHER.SkWillResistMag",
+          "label": "WITCHER.skills.resistMagic.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -796,7 +799,7 @@
         },
         "resistcoerc": {
           "value": 12,
-          "label": "WITCHER.SkWillResistCoer",
+          "label": "WITCHER.skills.resistCoercion.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
@@ -807,7 +810,7 @@
         },
         "ritcraft": {
           "value": 0,
-          "label": "WITCHER.SkWillRitCraft",
+          "label": "WITCHER.skills.ritualCrafting.label",
           "isOpened": false,
           "isVisible": false,
           "modifiers": [],
@@ -909,14 +912,14 @@
       "craIsOpen": true,
       "willIsOpen": true
     },
-    "specialSkillModifiers": [],
     "lifepathModifiers": {
       "strongStrikeAttackBonus": 0,
       "jointStrikeAttackBonus": 0,
       "shieldParryBonus": 0,
       "shieldParryThrownBonus": 0,
       "ignoredArmorEncumbrance": 0,
-      "ignoredEvWhenCasting": 0
+      "ignoredEvWhenCasting": 0,
+      "attacks": {}
     },
     "category": "Specter",
     "threat": "hard",
@@ -928,7 +931,6 @@
     "armorUpper": 5,
     "armorLower": 5,
     "armorTailWing": 0,
-    "regen": 0,
     "resistances": "",
     "immunities": "Poison, Bleeding, Freeze, Fear, Magical Scanning",
     "statusEffectImmunities": [
@@ -956,7 +958,17 @@
     "customStat": true,
     "addMeleeBonus": false,
     "dontAddAttr": false,
-    "hasTailWing": false
+    "hasTailWing": false,
+    "skillGroupModifiers": {},
+    "combatEffects": {
+      "attackModifier": {},
+      "defenseModifier": {},
+      "turnStartEffects": {},
+      "temporaryEffects": {
+        "temporaryHp": []
+      }
+    },
+    "regeneration": 0
   },
   "prototypeToken": {
     "name": "Mari Lywd (Head)",
@@ -1158,10 +1170,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -1177,7 +1185,8 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "defenseOptions": [
           "dodge",
@@ -1186,17 +1195,18 @@
           "parry"
         ],
         "defenseProperties": {
-          "parrying": false
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
         },
-        "associatedDiagramUuid": ""
+        "associatedDiagramUuid": "",
+        "spellAttackSkill": "spellcasting"
       },
       "effects": [],
       "folder": null,
       "sort": 200000,
       "ownership": {
-        "default": 0,
-        "JEflPFTBB5wpYRms": 3,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1233,8 +1243,7 @@
       "folder": null,
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -1270,8 +1279,7 @@
       "folder": null,
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -1292,8 +1300,7 @@
   "effects": [],
   "sort": 150000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -1303,9 +1310,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
     "exportSource": null
   },
   "_key": "!actors!M7hTLCdtA3KgV1Yx"

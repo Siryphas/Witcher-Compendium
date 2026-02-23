@@ -19,7 +19,7 @@ const replacer = (key, value) => {
       return value
 }
 
-console.log("Cleaning packs");
+console.log("Cleaning jsonData");
 for (const pack of jsonPackFolder) {
     const files = await fs.readdir(`jsonData/${pack}`, { withFileTypes: true });
     const jsonFiles = files
