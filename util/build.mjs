@@ -1,4 +1,5 @@
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
+import { existsSync } from 'fs';
 import fs from "fs/promises";
 import path from "path";
 
@@ -7,12 +8,16 @@ const MODULE_ID = process.cwd();
 const compendium = path.resolve(process.cwd(), "wtrpg-compendium/packs");
 
 console.log("Cleaning packs");
-const packFolder = await fs.readdir(compendium);
-for (const pack of packFolder) {
-    const files = await fs.readdir(`wtrpg-compendium/packs/${pack}`);
-    for (const file of files) {
-        await fs.rm(path.resolve(`wtrpg-compendium/packs/${pack}`, file));
+if (existsSync(compendium)) {
+    const packFolder = await fs.readdir(compendium);
+    for (const pack of packFolder) {
+        const files = await fs.readdir(`wtrpg-compendium/packs/${pack}`);
+        for (const file of files) {
+            await fs.rm(path.resolve(`wtrpg-compendium/packs/${pack}`, file));
+        }
     }
+}else {
+    await fs.mkdir(compendium);
 }
 
 const packs = await fs.readdir('./jsonData');
