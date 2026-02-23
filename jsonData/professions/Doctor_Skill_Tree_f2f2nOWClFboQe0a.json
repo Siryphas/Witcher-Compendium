@@ -8,7 +8,52 @@
       "skillName": "Healing Hands",
       "stat": "cra",
       "definition": "Anyone can apply some ointment and wrap a bandage around a cut, but a Doctor has true medical training which allows them to perform complex surgeries. A Doctor with Healing Hands is the only person who can heal a critical wound. To heal critical wounds a doctor must make a number of successful Healing Hands rolls based on the severity of the critical wound. The DC of the roll is based on the severity of the critical wound as well. Healing Hands can also be used for any First Aid task.",
-      "level": null
+      "level": null,
+      "skillAttack": {
+        "isAttack": false,
+        "usesWeapon": false,
+        "damageFormulaOverride": "",
+        "attackOptions": [],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverTrait": false,
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown",
+          "magicResist"
+        ]
+      },
+      "skillDefense": {
+        "isDefense": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
+      }
     },
     "skillPath1": {
       "pathName": "The Surgeon",
@@ -16,19 +61,154 @@
         "skillName": "Diagnose",
         "stat": "int",
         "definition": "<p>When able to look over a wounded person or monster, a Doctor can roll Diagnose at a DC determined by the GM. If they succeed they assess any Critical Wounds the subject has and learn how many Health Points it has left. This also gives a +2 to any Healing Hands checks to heal those wounds.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Analysis",
         "stat": "int",
         "definition": "<p>When about to perform a Healing Hands roll, a Doctor can take a turn to make an Analysis roll at a DC equal to the severity of the Critical Wound. If they succeed they gain insight into the wounds, and for every 2 they roll over the DC (minimum 1) the surgery takes 1 turn less.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Effective Surgery",
         "stat": "cra",
         "definition": "<p>Before starting to heal a Critical Wound a Doctor can make an Effective Surgery roll at a DC equal to the wound&rsquo;s Healing Hands DC. If they succeed they treat the wounds so skillfully that they heal twice as fast. This ability can be used on critical wounds and can also be used on regular wounds.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath2": {
@@ -37,19 +217,154 @@
         "skillName": "Healing Tent",
         "stat": "cra",
         "definition": "<p>Healing Tent allows a Doctor to roll against a DC set by the GM to create a covered area that provides an optimal medical environment. This takes 1 hour but adds +3 to Healing Hands/First Aid rolls inside, and +2 to the healing rate of anyone in the tent for a number of days equal to your Healing Tent value.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Improvisation",
         "stat": "int",
         "definition": "<p>A Doctor can make an Improvisation roll at a DC equal to the crafting DC for a specific medical alchemical item to substitute something else on hand for the same effect. This roll takes one round and if it is failed it can be made again. Improvisation is very specific and works only on this one injury.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Herbal Remedy",
         "stat": "cra",
         "definition": "<p>By mixing alchemical substances, a Doctor can create an herbal remedy that grants bonuses/effects based on what was put into it (see the Healing Remedy chart in the sidebar). Each remedy remains viable for 3 days and must be burned or chewed to provide the bonus, allowing only 1 use. Only one Herbal Remedy can be used at a time. Taking a new remedy replaces the last. Making a remedy takes 1 turn.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath3": {
@@ -58,13 +373,103 @@
         "skillName": "Bleeding Wound",
         "stat": "int",
         "definition": "<p>A Doctor who does damage with a bladed weapon can make a Bleeding Wound roll against a DC of 15. On success, the attack causes bleeding at a rate of 1 point per 2 points rolled over the DC. The bleeding can only be stopped by a First Aid roll, at a DC equal to the Doctor&rsquo;s Bleeding Wound roll.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Practical Carnage",
         "stat": "int",
         "definition": "A Doctor can roll Practical Carnage against a DC equal to the opponent’s BODYx3 to cause the target’s wounds and critical wounds to heal half as fast. Other Doctors with the Effective Surgery skill and items that raise the healing rate of wounds and critical wounds can counteract the eff ect.",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Crippling Wound",
@@ -72,10 +477,72 @@
         "definition": "<p>A Doctor can make a Crippling Wound roll against the target&rsquo;s defense. This attack takes a -6 to hit but imposes a negative to the target&rsquo;s REFLEX, BODY, or SPEED equal to 1 per 3 points above their defense roll. This negative can only be removed with an Effective Surgery roll that beats your attack roll.</p>",
         "level": null,
         "skillAttack": {
-          "isAttack": false
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
         }
       }
-    }
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "CRB p41",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "professionSkills": [
+      "business",
+      "deduction",
+      "socialetq",
+      "smallblades",
+      "courage",
+      "resistcoerc",
+      "alchemy",
+      "charisma",
+      "perception",
+      "wilderness"
+    ]
   },
   "effects": [],
   "flags": {
@@ -87,8 +554,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.22.0",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {
@@ -101,9 +568,7 @@
   },
   "folder": null,
   "ownership": {
-    "default": 0,
-    "QXnUaFjEzgosKVQr": 3,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "_id": "f2f2nOWClFboQe0a",
   "sort": 1200000,

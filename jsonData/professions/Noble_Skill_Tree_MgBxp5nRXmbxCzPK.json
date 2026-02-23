@@ -8,7 +8,52 @@
       "skillName": "Notoriety",
       "stat": "none",
       "definition": "<p>Nobility, whether earned by noble deeds or conferred by birth,&nbsp; grants a person a grandeur that must be acknowledged. Peasants may curse a noble&rsquo;s name and mock them in the safety of their hovels but most dare not insult a noble to their&nbsp; face. A Noble adds their Notoriety value to their Reputation score when in their home country or a country allied with their homeland. If a Noble travels to a kingdom or territory that is&nbsp; actively at war with, or neutral toward their homeland, they gain only half their Notoriety value.</p>",
-      "level": null
+      "level": null,
+      "skillAttack": {
+        "isAttack": false,
+        "usesWeapon": false,
+        "damageFormulaOverride": "",
+        "attackOptions": [],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverTrait": false,
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown",
+          "magicResist"
+        ]
+      },
+      "skillDefense": {
+        "isDefense": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
+      }
     },
     "skillPath1": {
       "pathName": "The Dilettante",
@@ -16,40 +61,310 @@
         "skillName": "Dabble",
         "stat": "none",
         "definition": "<p>Each time a Noble takes a rank in Dabble, they gain a pool of skill points equal to their new rank plus the previous rank. These points can be spent to gain or raise skill ranks at a one-to-one rate but cannot raise a skill rank above 4. When used to raise the rank of a Difficult<br>Skill, 2 points must be spent to raise the skill by 1 rank.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Expert Guise",
         "stat": "emp",
         "definition": "<p>By rolling Expert Guise&nbsp;against a target&rsquo;s Resist Coercion,&nbsp;the Noble can permanently&nbsp;convince a person&nbsp;of the Noble&rsquo;s expertise in a&nbsp;specific subject. The target&nbsp;then defers to the Noble and&nbsp;the Noble gains a +3 to Deceit&nbsp;checks against the target&nbsp;when that specific topic is&nbsp;involved.</p>\n<p>If the person you are trying to&nbsp;convince of your expertise has&nbsp;more than four points in an&nbsp;appropriate skill, they can add&nbsp;their skill value to their Resist&nbsp;Coercion check.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Host",
         "stat": "emp",
         "definition": "<p>By taking a day and spending&nbsp;an amount of money&nbsp;equal to their Host value&nbsp;times 100, a Noble can arrange&nbsp;a festive gathering.&nbsp;While at this gathering, the&nbsp;Noble gains a +3 to Charisma,&nbsp;Seduction, and Persuasion.&nbsp;Anyone the Noble&nbsp;invites must make a Resist&nbsp;Coercion check against the&nbsp;Noble&rsquo;s Host check to not&nbsp;attend.</p>\n<p>A festival is furnished with a&nbsp;full feast, games, and entertainment&nbsp;as appropriate for its&nbsp;function and location.&nbsp;If a Noble wishes, they can&nbsp;voluntarily lower their Host&nbsp;rank when putting on a festival.&nbsp;The event requires less&nbsp;money but the DC to refuse&nbsp;an invitation is based on the&nbsp;lowered Host rank.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath2": {
       "pathName": "The Leader",
       "skill1": {
-        "skillName": "Command ",
+        "skillName": "Command",
         "stat": "will",
         "definition": "<p>As an action, a Noble can command a target to perform a specific task of their next turn. If the Noble&rsquo;s Command check beats a DC equal to the target&rsquo;s WILLx3, the target gains a bonus to one check involved in this task equal to one-half the Noble&rsquo;s Command value (minimum 1).</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Servants",
         "stat": "none",
         "definition": "<p>A Noble gains a number of&nbsp;servants equal to half their&nbsp;Servants value (minimum&nbsp;1). These subjects follow the&nbsp;Noble&rsquo;s orders to the best&nbsp;of their ability but must be&nbsp;commanded or persuaded&nbsp;to risk their lives. If a servant&nbsp;can no longer serve for&nbsp;any reason, the Noble can&nbsp;request a new one from&nbsp;their household be sent.</p>\n<p>Your servants are Everyman&nbsp;NPCs. When you generate&nbsp;your Servants, you can use any&nbsp;combination of the following&nbsp;Everyman NPCs: <br>Artisans,&nbsp;Laborers, Entertainers, or&nbsp;Scholars. <br>Your Servants do not&nbsp;gain I.P. and cannot improve&nbsp;their skills.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Estate",
         "stat": "none",
         "definition": "<p>A Noble personally owns an&nbsp;estate that consists of a main&nbsp;house, a stable, and a parcel&nbsp;of land. The Noble decides&nbsp;where this estate is located&nbsp;(within reason). The Noble&nbsp;serves as the land&rsquo;s manager&nbsp;and gains benefit from it.&nbsp;Anyone living on the land is&nbsp;their subject.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath3": {
@@ -58,21 +373,175 @@
         "skillName": "Resolute",
         "stat": "none",
         "definition": "<p>A Noble can add their Resolute value to their Courage and Resist Coercion&nbsp; checks. If they succeed a Courage or Resist Coercion check, any ally who&nbsp; witnesses them do so gains a bonus on their own Courage or Resist Coercion check equal to onehalf the Noble&rsquo;s Resolute value (minimum 1) until&nbsp;the end of the scene.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Chevalier",
         "stat": "emp",
         "definition": "<p>By taking an hour, a Noble&nbsp;can make a Chevalier check&nbsp;against a mount&rsquo;s WILLx3&nbsp;to permanently bond with&nbsp;it. When being ridden by&nbsp;the Noble, the mount&rsquo;s Control&nbsp;Modifier is raised by&nbsp;half the Noble&rsquo;s Chevalier&nbsp;value. The Noble can also&nbsp;lower the result of a control&nbsp;loss by half this value.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Armored Buffer",
         "stat": "ref",
         "definition": "<p>If an enemy scores a critical&nbsp;wound on a Noble, the Noble&nbsp;can immediately make&nbsp;an Armored Buffer check&nbsp;against a DC equal to the&nbsp;enemy&rsquo;s original Attack&nbsp;Check. If the Noble succeeds,&nbsp;they can negate the&nbsp;critical wound by sacrificing&nbsp;the armor in the hit location.&nbsp;The armor suffers 1d10&nbsp;ablation damage per level of&nbsp;the critical wound to the hit&nbsp;location.&nbsp;</p>\n<p>If a Noble successfully negates a critical wound with Armored Buffer, they also negate the bonus damage from the critical wound. However, standard weapon damage applies to the Noble after their armor sustains damage.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
-    }
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "LaL p10",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "professionSkills": [
+      "awareness",
+      "education",
+      "riding",
+      "deceit",
+      "grooming",
+      "perception",
+      "leadership",
+      "persuasion",
+      "socialetq"
+    ]
   },
   "effects": [],
   "flags": {
@@ -84,17 +553,15 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "0.107",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
   "folder": null,
   "ownership": {
-    "default": 0,
-    "QXnUaFjEzgosKVQr": 3,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "_id": "MgBxp5nRXmbxCzPK",
   "sort": 500000,

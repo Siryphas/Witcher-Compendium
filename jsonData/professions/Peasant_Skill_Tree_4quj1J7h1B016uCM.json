@@ -8,7 +8,52 @@
       "skillName": "Intolerance",
       "stat": "will",
       "definition": "<p>Peasants are a fearful lot and often for good reason. There&rsquo;s a lot out in the world that could easily kill them.&nbsp;Fear can be fuel for strength, however. When first encountering a sapient being with a&nbsp;Social Standing of Feared or Hated, they can make an Intolerance roll against a DC equal&nbsp;to the target&rsquo;s EMPx3. If the peasant succeeds, their fear turns to rage and grants them a bonus&nbsp;to Resist Coercion &amp; Courage equal to their Intolerance value vs. that being for the&nbsp;remainder of the encounter. The Peasant also gain a bonus equal to half their Intolerance value to Leadership&nbsp;when rallying other peasants.</p>",
-      "level": null
+      "level": null,
+      "skillAttack": {
+        "isAttack": false,
+        "usesWeapon": false,
+        "damageFormulaOverride": "",
+        "attackOptions": [],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "damageProperties": {
+          "armorPiercing": false,
+          "improvedArmorPiercing": false,
+          "ablating": false,
+          "crushingForce": false,
+          "damageIsAblation": false,
+          "damageToAllLocations": false,
+          "bypassesWornArmor": false,
+          "bypassesNaturalArmor": false,
+          "defenseDifferenceMultiplier": false,
+          "defenseMultiplierCap": 5,
+          "variableDamage": false,
+          "effects": [],
+          "oilEffect": "",
+          "silverTrait": false,
+          "silverDamage": "",
+          "isMeteorite": false,
+          "isNonLethal": false
+        },
+        "defenseOptions": [
+          "dodge",
+          "reposition",
+          "block",
+          "parry",
+          "parryThrown",
+          "magicResist"
+        ]
+      },
+      "skillDefense": {
+        "isDefense": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
+      }
     },
     "skillPath1": {
       "pathName": "The Farmer",
@@ -16,19 +61,154 @@
         "skillName": "Harvest Time",
         "stat": "none",
         "definition": "<p>Knowing the proper time and&nbsp;way to harvest a crop is a skill&nbsp;that takes years to master. When&nbsp;foraging for plant-based alchemical&nbsp;components the peasant&nbsp;gains an extra number of units&nbsp;equal to half their Harvest Time&nbsp;value (Minimum 1).</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Animal Whisper",
         "stat": "emp",
         "definition": "<p>By taking an action, the Peasant&nbsp;can roll an Animal Whisperer&nbsp;check against a DC equal to&nbsp;the animal&rsquo;s WILLx3, to convey&nbsp;commands and requests&nbsp;to any domesticated animal. If&nbsp;the check succeeds, the animal&nbsp;carries out these commands to&nbsp;the best of its ability.</p>\n<ul>\n<li><strong>Bees:</strong> DC 21</li>\n<li><strong>Chickens:</strong> DC 15</li>\n<li><strong>Cows:</strong> DC 12</li>\n<li><strong>Goats:</strong> DC 18</li>\n<li><strong>Pigs:</strong> DC 15</li>\n<li><strong>Rabbits:</strong> DC 12</li>\n<li><strong>Sheep:</strong> DC 9</li>\n</ul>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Farm Wisdom",
         "stat": "cra",
         "definition": "<p>While magic may not be a talent&nbsp;for everyone, there are some&nbsp;tricks that the layperson can&nbsp;learn to tip the scale of life in their&nbsp;favor. A Peasant can take one action&nbsp;and roll Farm Wisdom to&nbsp;perform one of the folk rituals&nbsp;in the sidebar. Each ritual has its&nbsp;own DC and requirements.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath2": {
@@ -37,19 +217,154 @@
         "skillName": "Butcher",
         "stat": "cra",
         "definition": "<p>When a Peasant loots a monster&nbsp;or animal with a physical form,&nbsp;they can roll a Butchery roll at&nbsp;a DC based on the beasts complexity.&nbsp;<br>If they succeed, they are&nbsp;able to gain the maximum number&nbsp;of units of one organic loot&nbsp;item from the animal. This roll&nbsp;can be made multiple times on&nbsp;a single corpse but the peasant&nbsp;cannot make two attempts on&nbsp;the same part of the beast.</p>\n<ul>\n<li><strong>Simple:</strong> DC 12</li>\n<li><strong>Complex:</strong> DC 16</li>\n<li><strong>Difficult:</strong> DC 20</li>\n</ul>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Cure All",
         "stat": "cra",
         "definition": "<p>By taking 10 minutes and using&nbsp;one unit of three different types&nbsp;of alchemical component, the&nbsp;Peasant can create a folk cure all.&nbsp;This concoction has a percentage&nbsp;chance of curing the person&nbsp;who consumes it of the poison,&nbsp;intoxication, and nausea conditions.&nbsp;The percentage is equal&nbsp;to the Peasant&rsquo;s Cure All value&nbsp;times 5%. <br>This Cure All lasts for&nbsp;24 hours before going bad. Once&nbsp;used, this cure all is consumed.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Ma's Stew",
         "stat": "cra",
         "definition": "<p>Once per day, if a Peasant has&nbsp;access to cooking tools and the&nbsp;ingredients required, they can&nbsp;spend 1 hour to create a stew&nbsp;from an old family recipe. This&nbsp;stew is large enough to feed 6&nbsp;people and its effects are based&nbsp;on what basic ingredients are&nbsp;added. Effects conferred by the&nbsp;stew last for a full 24 hours.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
     },
     "skillPath3": {
@@ -58,27 +373,181 @@
         "skillName": "Ditch Digger",
         "stat": "none",
         "definition": "<p>Years of manual labor have&nbsp;strengthened the Peasant&rsquo;s body&nbsp;and taught them technique to&nbsp;make even the most grueling&nbsp;labor manageable. The Peasant&nbsp;adds double their Ditch Digger&nbsp;value to their ENC. Also, when&nbsp;making Physique or Endurance&nbsp;rolls to perform manual labor,&nbsp;the Peasant can add half their&nbsp;Ditch Digger value.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill2": {
         "skillName": "Grog",
         "stat": "cra",
         "definition": "<p>A peasant knows how to get the&nbsp;most out of any brew. By taking&nbsp;an action to mix one unit of an&nbsp;alchemical component with a&nbsp;serving of alcohol, a Peasant can&nbsp;make a Grog roll at a DC of 14.&nbsp;If the Peasant succeeds anyone&nbsp;who drinks the alcohol must&nbsp;make an Endurance check at a&nbsp;DC equal to the peasant&rsquo;s Grog&nbsp;value plus 12 or become intoxicated.<br>Once the peasant has a&nbsp;Grog value of 5, the effects of the&nbsp;intoxication condition are doubled.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       },
       "skill3": {
         "skillName": "Bite the Ear",
         "stat": "body",
         "definition": "<p>When grappled or pinned by a&nbsp;creature or person, the Peasant&nbsp;can take an action to make a Bite&nbsp;the Ear roll against the target&rsquo;s&nbsp;DEXx3. If the peasant succeeds&nbsp;they bite off part of the ear (or&nbsp;other superficial body part) of&nbsp;the target, breaking the grapple/&nbsp;pin immediately, dealing 1d6&nbsp;unmodified damage, and giving&nbsp;the target a permanent -1 to&nbsp;Charisma &amp; Seduction checks.</p>",
-        "level": null
+        "level": null,
+        "skillAttack": {
+          "isAttack": false,
+          "usesWeapon": false,
+          "damageFormulaOverride": "",
+          "attackOptions": [],
+          "spellAttackSkill": "spellcasting",
+          "applyMeleeBonus": false,
+          "applyRangedMeleeBonus": false,
+          "isThrowable": false,
+          "damageProperties": {
+            "armorPiercing": false,
+            "improvedArmorPiercing": false,
+            "ablating": false,
+            "crushingForce": false,
+            "damageIsAblation": false,
+            "damageToAllLocations": false,
+            "bypassesWornArmor": false,
+            "bypassesNaturalArmor": false,
+            "defenseDifferenceMultiplier": false,
+            "defenseMultiplierCap": 5,
+            "variableDamage": false,
+            "effects": [],
+            "oilEffect": "",
+            "silverTrait": false,
+            "silverDamage": "",
+            "isMeteorite": false,
+            "isNonLethal": false
+          },
+          "defenseOptions": [
+            "dodge",
+            "reposition",
+            "block",
+            "parry",
+            "parryThrown",
+            "magicResist"
+          ]
+        },
+        "skillDefense": {
+          "isDefense": false,
+          "defenseProperties": {
+            "parrying": false,
+            "defendsAgainst": [],
+            "modifier": 0
+          }
+        }
       }
-    }
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "Peasant Class DLC",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "professionSkills": [
+      "brawling",
+      "smallblades",
+      "courage",
+      "athletics",
+      "crafting",
+      "firstaid",
+      "physique",
+      "endurance",
+      "gambling",
+      "wilderness"
+    ]
   },
   "effects": [],
   "folder": null,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "core": {},
@@ -89,8 +558,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "1.000",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

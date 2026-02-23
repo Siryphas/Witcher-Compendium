@@ -18,722 +18,805 @@
     "stats": {
       "int": {
         "max": 9,
-        "current": 9,
         "label": "WITCHER.Actor.Stat.Int",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 9,
+        "value": 0,
+        "totalModifiers": 0
       },
       "ref": {
         "max": 8,
-        "current": 8,
         "label": "WITCHER.Actor.Stat.Ref",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 8,
+        "value": 0,
+        "totalModifiers": 0
       },
       "dex": {
         "max": 7,
-        "current": 7,
         "label": "WITCHER.Actor.Stat.Dex",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 7,
+        "value": 0,
+        "totalModifiers": 0
       },
       "body": {
         "max": 5,
-        "current": 5,
         "label": "WITCHER.Actor.Stat.Body",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 5,
+        "value": 0,
+        "totalModifiers": 0
       },
       "spd": {
         "max": 6,
-        "current": 6,
         "label": "WITCHER.Actor.Stat.Spd",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 6,
+        "value": 0,
+        "totalModifiers": 0
       },
       "emp": {
         "max": 7,
-        "current": 7,
         "label": "WITCHER.Actor.Stat.Emp",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 7,
+        "value": 0,
+        "totalModifiers": 0
       },
       "cra": {
         "max": 7,
-        "current": 7,
         "label": "WITCHER.Actor.Stat.Cra",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 7,
+        "value": 0,
+        "totalModifiers": 0
       },
       "will": {
         "max": 9,
-        "current": 9,
         "label": "WITCHER.Actor.Stat.Will",
         "isOpened": false,
         "modifiers": [],
-        "total": 0
+        "unmodifiedMax": 9,
+        "value": 0,
+        "totalModifiers": 0
       },
       "luck": {
         "max": 0,
-        "current": 0,
-        "total": 0,
         "label": "WITCHER.Actor.Stat.Luck",
         "isOpened": false,
-        "modifiers": []
+        "modifiers": [],
+        "unmodifiedMax": 0,
+        "value": 0,
+        "totalModifiers": 0
       },
       "toxicity": {
-        "max": 100
-      }
-    },
-    "coreStats": {
-      "stun": {
-        "max": 7,
-        "current": 7,
-        "label": "WITCHER.Actor.CoreStat.Stun",
-        "isOpened": false,
+        "max": 100,
+        "unmodifiedMax": 100,
+        "value": 0,
+        "label": "WITCHER.Actor.Stat.Toxicity",
         "modifiers": [],
-        "total": 0
-      },
-      "run": {
-        "max": 18,
-        "current": 18,
-        "label": "WITCHER.Actor.CoreStat.Run",
-        "isOpened": false,
-        "modifiers": [],
-        "total": 0
-      },
-      "leap": {
-        "max": 3,
-        "current": 3,
-        "label": "WITCHER.Actor.CoreStat.Leap",
-        "isOpened": false,
-        "modifiers": [],
-        "total": 0
-      },
-      "enc": {
-        "max": 50,
-        "current": 50,
-        "label": "WITCHER.Actor.CoreStat.Enc",
-        "isOpened": false,
-        "modifiers": [],
-        "total": 0
-      },
-      "rec": {
-        "max": 7,
-        "current": 7,
-        "label": "WITCHER.Actor.CoreStat.Rec",
-        "isOpened": false,
-        "modifiers": [],
-        "total": 0
-      },
-      "woundTreshold": {
-        "max": 7,
-        "current": 7,
-        "label": "WITCHER.Actor.CoreStat.woundTreshold",
-        "isOpened": false,
-        "modifiers": [],
-        "total": 0
+        "totalModifiers": 0,
+        "isOpened": false
       }
     },
     "derivedStats": {
-      "modifiersIsOpened": false,
       "hp": {
         "max": 35,
         "value": 35,
         "label": "WITCHER.Actor.DerStat.HP",
         "unmodifiedMax": 35,
-        "modifiers": []
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "sta": {
         "max": 35,
         "value": 35,
         "label": "WITCHER.Actor.DerStat.Sta",
         "modifiers": [],
-        "unmodifiedMax": 0
+        "unmodifiedMax": 0,
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "resolve": {
         "max": 45,
         "value": 45,
         "label": "WITCHER.Actor.DerStat.Resolve",
         "modifiers": [],
-        "unmodifiedMax": 0
+        "unmodifiedMax": 0,
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "focus": {
         "max": 27,
         "label": "WITCHER.Actor.DerStat.Focus",
         "modifiers": [],
         "value": 27,
-        "unmodifiedMax": 0
+        "unmodifiedMax": 0,
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "vigor": {
         "max": 21,
         "value": 21,
         "label": "WITCHER.Actor.DerStat.Vigor",
         "modifiers": [],
-        "unmodifiedMax": 21
+        "unmodifiedMax": 21,
+        "totalModifiers": 0,
+        "isOpened": false
       },
       "shield": {
         "max": 0,
         "unmodifiedMax": 0,
         "value": 0,
         "label": "WITCHER.Actor.DerStat.Shield",
-        "modifiers": []
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "stun": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Stun",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "run": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Run",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "leap": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Leap",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "enc": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Enc",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "rec": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.Rec",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
+      },
+      "woundTreshold": {
+        "max": 0,
+        "unmodifiedMax": 0,
+        "value": 0,
+        "label": "WITCHER.Actor.DerStat.woundTreshold",
+        "modifiers": [],
+        "totalModifiers": 0,
+        "isOpened": false
       }
     },
     "reputation": {
       "max": 0,
-      "current": 0,
       "label": "WITCHER.Actor.CoreStat.Rep",
       "isOpened": false,
       "modifiers": [],
-      "total": 0
+      "unmodifiedMax": 0,
+      "value": 0,
+      "totalModifiers": 0
     },
     "skills": {
       "int": {
         "awareness": {
           "value": 8,
-          "label": "WITCHER.SkIntAwareness",
+          "label": "WITCHER.skills.awareness.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "business": {
           "value": 0,
-          "label": "WITCHER.SkIntBusiness",
+          "label": "WITCHER.skills.business.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "deduction": {
           "value": 0,
-          "label": "WITCHER.SkIntDeduction",
+          "label": "WITCHER.skills.deduction.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "education": {
           "value": 9,
-          "label": "WITCHER.SkIntEducation",
+          "label": "WITCHER.skills.education.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "commonsp": {
           "value": 8,
-          "label": "WITCHER.SkIntCommon",
+          "label": "WITCHER.skills.commonSpeech.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "eldersp": {
           "value": 8,
-          "label": "WITCHER.SkIntElder",
+          "label": "WITCHER.skills.elderSpeech.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "dwarven": {
           "value": 0,
-          "label": "WITCHER.SkIntDwarven",
+          "label": "WITCHER.skills.dwarvenSpeech.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "monster": {
           "value": 0,
-          "label": "WITCHER.SkIntMonster",
+          "label": "WITCHER.skills.monsterLore.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "socialetq": {
           "value": 8,
-          "label": "WITCHER.SkIntSocialEt",
+          "label": "WITCHER.skills.socialEtiquette.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "streetwise": {
           "value": 0,
-          "label": "WITCHER.SkIntStreet",
+          "label": "WITCHER.skills.streetwise.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "tactics": {
           "value": 0,
-          "label": "WITCHER.SkIntTactics",
+          "label": "WITCHER.skills.tactics.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "teaching": {
           "value": 0,
-          "label": "WITCHER.SkIntTeaching",
+          "label": "WITCHER.skills.teaching.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "wilderness": {
           "value": 0,
-          "label": "WITCHER.SkIntWilderness",
+          "label": "WITCHER.skills.wildernessSurvival.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         }
       },
       "ref": {
         "brawling": {
           "value": 0,
-          "label": "WITCHER.SkRefBrawling",
+          "label": "WITCHER.skills.brawling.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "dodge": {
           "value": 9,
-          "label": "WITCHER.SkRefDodge",
+          "label": "WITCHER.skills.dodgeEscape.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "melee": {
           "value": 8,
-          "label": "WITCHER.SkRefMelee",
+          "label": "WITCHER.skills.melee.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "riding": {
           "value": 0,
-          "label": "WITCHER.SkRefRiding",
+          "label": "WITCHER.skills.riding.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "sailing": {
           "value": 0,
-          "label": "WITCHER.SkRefSailing",
+          "label": "WITCHER.skills.sailing.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "smallblades": {
           "value": 0,
-          "label": "WITCHER.SkRefSmall",
+          "label": "WITCHER.skills.smallblades.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "staffspear": {
           "value": 6,
-          "label": "WITCHER.SkRefStaff",
+          "label": "WITCHER.skills.staffspear.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "swordsmanship": {
           "value": 0,
-          "label": "WITCHER.SkRefSwordsmanship",
+          "label": "WITCHER.skills.swordsmanship.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         }
       },
       "dex": {
         "archery": {
           "value": 0,
-          "label": "WITCHER.SkDexArchery",
+          "label": "WITCHER.skills.archery.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "athletics": {
           "value": 0,
-          "label": "WITCHER.SkDexAthletics",
+          "label": "WITCHER.skills.athletics.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "crossbow": {
           "value": 0,
-          "label": "WITCHER.SkDexCrossbow",
+          "label": "WITCHER.skills.crossbow.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "sleight": {
           "value": 0,
-          "label": "WITCHER.SkDexSleight",
+          "label": "WITCHER.skills.sleightOfHand.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "stealth": {
           "value": 8,
-          "label": "WITCHER.SkDexStealth",
+          "label": "WITCHER.skills.stealth.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         }
       },
       "body": {
         "physique": {
           "value": 0,
-          "label": "WITCHER.SkBodyPhys",
+          "label": "WITCHER.skills.physique.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "endurance": {
           "value": 0,
-          "label": "WITCHER.SkBodyEnd",
+          "label": "WITCHER.skills.endurance.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         }
       },
       "emp": {
         "charisma": {
           "value": 6,
-          "label": "WITCHER.SkEmpCharisma",
+          "label": "WITCHER.skills.charisma.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "deceit": {
           "value": 6,
-          "label": "WITCHER.SkEmpDeceit",
+          "label": "WITCHER.skills.deceit.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "finearts": {
           "value": 0,
-          "label": "WITCHER.SkEmpArts",
+          "label": "WITCHER.skills.fineArts.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "gambling": {
           "value": 0,
-          "label": "WITCHER.SkEmpGambling",
+          "label": "WITCHER.skills.gambling.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "grooming": {
           "value": 8,
-          "label": "WITCHER.SkEmpGrooming",
+          "label": "WITCHER.skills.groomingAndStyle.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "perception": {
           "value": 9,
-          "label": "WITCHER.SkEmpHumanPerc",
+          "label": "WITCHER.skills.humanPerception.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "leadership": {
           "value": 0,
-          "label": "WITCHER.SkEmpLeadership",
+          "label": "WITCHER.skills.leadership.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "persuasion": {
           "value": 7,
-          "label": "WITCHER.SkEmpPersuasion",
+          "label": "WITCHER.skills.persuasion.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "performance": {
           "value": 0,
-          "label": "WITCHER.SkEmpPerformance",
+          "label": "WITCHER.skills.performance.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "seduction": {
           "value": 8,
-          "label": "WITCHER.SkEmpSeduction",
+          "label": "WITCHER.skills.seduction.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         }
       },
       "cra": {
         "alchemy": {
           "value": 6,
-          "label": "WITCHER.SkCraAlchemy",
+          "label": "WITCHER.skills.alchemy.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "crafting": {
           "value": 0,
-          "label": "WITCHER.SkCraCrafting",
+          "label": "WITCHER.skills.crafting.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "disguise": {
           "value": 0,
-          "label": "WITCHER.SkCraDisguise",
+          "label": "WITCHER.skills.disguise.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "firstaid": {
           "value": 0,
-          "label": "WITCHER.SkCraAid",
+          "label": "WITCHER.skills.firstAid.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "forgery": {
           "value": 0,
-          "label": "WITCHER.SkCraForge",
+          "label": "WITCHER.skills.forgery.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "picklock": {
           "value": 0,
-          "label": "WITCHER.SkCraPick",
+          "label": "WITCHER.skills.pickLock.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "trapcraft": {
           "value": 0,
-          "label": "WITCHER.SkCraTrapCraft",
+          "label": "WITCHER.skills.trapCrafting.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         }
       },
       "will": {
         "courage": {
           "value": 0,
-          "label": "WITCHER.SkWillCourage",
+          "label": "WITCHER.skills.courage.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "hexweave": {
           "value": 8,
-          "label": "WITCHER.SkWillHex",
+          "label": "WITCHER.skills.hexWeaving.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "intimidation": {
           "value": 0,
-          "label": "WITCHER.SkWillIntim",
+          "label": "WITCHER.skills.intimidation.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "spellcast": {
           "value": 10,
-          "label": "WITCHER.SkWillSpellcast",
+          "label": "WITCHER.skills.spellCasting.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "resistmagic": {
           "value": 10,
-          "label": "WITCHER.SkWillResistMag",
+          "label": "WITCHER.skills.resistMagic.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         },
         "resistcoerc": {
           "value": 8,
-          "label": "WITCHER.SkWillResistCoer",
+          "label": "WITCHER.skills.resistCoercion.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": false
+          "isProfession": false,
+          "activeEffectModifiers": 0
         },
         "ritcraft": {
           "value": 10,
-          "label": "WITCHER.SkWillRitCraft",
+          "label": "WITCHER.skills.ritualCrafting.label",
           "isOpened": false,
           "isVisible": true,
           "modifiers": [],
           "isPickup": false,
           "isLearned": false,
-          "isProfession": true
+          "isProfession": true,
+          "activeEffectModifiers": 0
         }
       }
     },
     "adrenaline": {
-      "current": 0,
-      "label": "WITCHER.Actor.Adrenaline"
+      "label": "WITCHER.Actor.Adrenaline",
+      "value": 0
     },
     "critWounds": [],
     "pannels": {
@@ -946,7 +1029,7 @@
       "value": 0
     },
     "attackStats": {
-      "meleeBonus": "0",
+      "meleeBonus": 0,
       "punch": {
         "value": "1d6+0",
         "label": "WITCHER.Actor.DerStat.Punch"
@@ -954,7 +1037,9 @@
       "kick": {
         "value": "1d6+4",
         "label": "WITCHER.Actor.DerStat.Kick"
-      }
+      },
+      "critLocationModifier": 0,
+      "critEffectModifier": 0
     },
     "improvementPoints": 0,
     "skillTraining1": {
@@ -974,7 +1059,70 @@
       "value": 0
     },
     "gender": "Female",
-    "notes": []
+    "notes": [],
+    "skillGroupModifiers": {},
+    "combatEffects": {
+      "attackModifier": {},
+      "defenseModifier": {},
+      "turnStartEffects": {},
+      "temporaryEffects": {
+        "temporaryHp": []
+      }
+    },
+    "damageTypeModification": {
+      "slashing": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "piercing": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "bludgeoning": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "elemental": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "electricity": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "fire": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      },
+      "ice": {
+        "flat": 0,
+        "multiplication": 1,
+        "applyAP": false
+      }
+    },
+    "lifepathModifiers": {
+      "strongStrikeAttackBonus": 0,
+      "jointStrikeAttackBonus": 0,
+      "shieldParryBonus": 0,
+      "shieldParryThrownBonus": 0,
+      "ignoredArmorEncumbrance": 0,
+      "ignoredEvWhenCasting": 0,
+      "attacks": {}
+    },
+    "lifeEventCounter": 20,
+    "magic": {
+      "magicImprovementPoints": 0
+    },
+    "logs": {
+      "ipLog": [],
+      "currencyLog": []
+    }
   },
   "prototypeToken": {
     "name": "Keira Metz",
@@ -1121,7 +1269,52 @@
           "skillName": "Magical Training",
           "stat": "int",
           "definition": "<p>To qualify as a Mage, a magically adept person must pass through the halls of one of the world&rsquo;s magical academies and learn the fundamentals of the magical arts. A Mage can roll Magical Training whenever they encounter a magical phenomenon, an unknown spell, or a question of magical theory. The DC is set by the GM, and a success allows the Mage to recall everything there is to know about the phenomenon. Magical Training can also be rolled as a form of Awareness that detects magic that is in use, or specters.</p>",
-          "level": 10
+          "level": 10,
+          "skillAttack": {
+            "isAttack": false,
+            "usesWeapon": false,
+            "damageFormulaOverride": "",
+            "attackOptions": [],
+            "spellAttackSkill": "spellcasting",
+            "applyMeleeBonus": false,
+            "applyRangedMeleeBonus": false,
+            "isThrowable": false,
+            "damageProperties": {
+              "armorPiercing": false,
+              "improvedArmorPiercing": false,
+              "ablating": false,
+              "crushingForce": false,
+              "damageIsAblation": false,
+              "damageToAllLocations": false,
+              "bypassesWornArmor": false,
+              "bypassesNaturalArmor": false,
+              "defenseDifferenceMultiplier": false,
+              "defenseMultiplierCap": 5,
+              "variableDamage": false,
+              "effects": [],
+              "oilEffect": "",
+              "silverTrait": false,
+              "silverDamage": "",
+              "isMeteorite": false,
+              "isNonLethal": false
+            },
+            "defenseOptions": [
+              "dodge",
+              "reposition",
+              "block",
+              "parry",
+              "parryThrown",
+              "magicResist"
+            ]
+          },
+          "skillDefense": {
+            "isDefense": false,
+            "defenseProperties": {
+              "parrying": false,
+              "defendsAgainst": [],
+              "modifier": 0
+            }
+          }
         },
         "skillPath1": {
           "pathName": "The Politician",
@@ -1129,19 +1322,154 @@
             "skillName": "Scheming",
             "stat": "int",
             "definition": "<p>A Mage can make a Scheming roll at a DC equal to a target&rsquo;s INTx3. On success the Mage gets a +3 to Deceit, Seduction, Intimidation, or Persuasion against that target from their observations of how the target works. The bonus from this ability applies for a number of days equal to the Mage&rsquo;s Scheming value.</p>",
-            "level": 8
+            "level": 8,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           },
           "skill2": {
             "skillName": "Grape Vine",
             "stat": "int",
             "definition": "<p>A Mage can take 1 hour and make a Grape Vine roll against a target&rsquo;s EMPx3. Success spreads rumors throughout a settlement or city, lowering the target&rsquo;s reputation there by half your Grape Vine value for a number of days equal to your Grape Vine value.</p>",
-            "level": 8
+            "level": 8,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           },
           "skill3": {
             "skillName": "Assets",
             "stat": "int",
             "definition": "<p>Once per game a Mage can make an Assets roll to remember an asset they &lsquo;acquired&rsquo; some time ago. Take the total of your roll and distribute it between the 4 columns on the table in the sidebar to find out who you know. This asset will help you, but how much depends on their relationship with you.</p>\n<p>Your relationship to an asset&nbsp;establishes how willing to help&nbsp;you they are.</p>\n<ul>\n<li>Enthralled assets will help you with absolutely anything.</li>\n<li>Romanced assets will help you with almost anything as long as you reaffirm your romance.</li>\n<li>Friendly assets must be convinced to stick their necks out for you.&nbsp;</li>\n<li>Indebted assets will only do one thing for you.</li>\n<li>Blackmailed assets will do anything for you but there is a 50% chance that they will betray you.</li>\n</ul>",
-            "level": 8
+            "level": 8,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           }
         },
         "skillPath2": {
@@ -1150,19 +1478,154 @@
             "skillName": "Reverse Engineer",
             "stat": "int",
             "definition": "<p>By taking 1 hour to study an alchemical solution a Mage can roll Reverse Engineer at a DC equal to the Crafting DC for the alchemical item +3. Suc- cess allows them to reverse-engineer and write down the item&rsquo;s formula. This formula is 3 points harder to craft, but reliably creates the desired item.</p>",
-            "level": 10
+            "level": 10,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           },
           "skill2": {
             "skillName": "Distillation",
             "stat": "cra",
             "definition": "<p>A Mage can roll Distillation instead of Alchemy when creating an alchemical solution. Success at this roll creates a dose of that solution that has half again the effect that it would normally have, either in duration, damage, or resistance DC (your choice). Always round down when increasing.</p>",
-            "level": 10
+            "level": 10,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           },
           "skill3": {
             "skillName": "Mutate",
             "stat": "int",
             "definition": "<p>A mage can spend all of their stamina and a full day experimenting on a subject to roll Mutate at a DC equal to (28 &ndash; (subject&rsquo;s BODY + WILL)/2) to mutate the subject. Success grants the subject use of the Mutagen with the appropri- ate minor mutation. Failure throws the subject into Death State and inflicts the larger mutation.</p>\n<p>An individual can only be&nbsp;mutated twice. Further mutations&nbsp;will replace existing&nbsp;ones.</p>",
-            "level": 7
+            "level": 7,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           }
         },
         "skillPath3": {
@@ -1171,19 +1634,154 @@
             "skillName": "In Touch",
             "stat": "none",
             "definition": "As a Mage utilizes magic more and more, their body becomes more used to the flow. Every point a Mage has in In Touch grants +2 points to Vigor threshold. When this ability reaches level 10 your maximum Vigor threshold becomes 25. This skill can be trained, like other skills.",
-            "level": 8
+            "level": 8,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           },
           "skill2": {
             "skillName": "Immutable",
             "stat": "will",
             "definition": "<p>A Mage can roll Immutable at DC:16 whenever they would normally be affected by dimeritium. Success means that the Mage mostly shrugs off the dimeritium. They are still somewhat dizzy and uncomfortable but retain half of their total Vigor threshold and can perform magic.</p>",
-            "level": 8
+            "level": 8,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           },
           "skill3": {
             "skillName": "Expanded Magic",
             "stat": "will",
             "definition": "<p>By channelling magic through various magical foci a Mage can wield incredible power. A Mage can roll Expanded Magic before attempting to cast a spell or ritual, at a DC of 16. On success the mage can channel the spell or ritual through any 2 of their foci that they choose, reducing the Stamina cost twice.</p>",
-            "level": 6
+            "level": 6,
+            "skillAttack": {
+              "isAttack": false,
+              "usesWeapon": false,
+              "damageFormulaOverride": "",
+              "attackOptions": [],
+              "spellAttackSkill": "spellcasting",
+              "applyMeleeBonus": false,
+              "applyRangedMeleeBonus": false,
+              "isThrowable": false,
+              "damageProperties": {
+                "armorPiercing": false,
+                "improvedArmorPiercing": false,
+                "ablating": false,
+                "crushingForce": false,
+                "damageIsAblation": false,
+                "damageToAllLocations": false,
+                "bypassesWornArmor": false,
+                "bypassesNaturalArmor": false,
+                "defenseDifferenceMultiplier": false,
+                "defenseMultiplierCap": 5,
+                "variableDamage": false,
+                "effects": [],
+                "oilEffect": "",
+                "silverTrait": false,
+                "silverDamage": "",
+                "isMeteorite": false,
+                "isNonLethal": false
+              },
+              "defenseOptions": [
+                "dodge",
+                "reposition",
+                "block",
+                "parry",
+                "parryThrown",
+                "magicResist"
+              ]
+            },
+            "skillDefense": {
+              "isDefense": false,
+              "defenseProperties": {
+                "parrying": false,
+                "defendsAgainst": [],
+                "modifier": 0
+              }
+            }
           }
         },
         "quantity": "1",
@@ -1191,13 +1789,14 @@
         "weight": 0,
         "cost": 0,
         "isHidden": false,
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "professionSkills": []
       },
       "sort": 600000,
       "ownership": {
-        "default": 0,
-        "QXnUaFjEzgosKVQr": 3,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1257,13 +1856,13 @@
         "weight": 0,
         "cost": 0,
         "isHidden": false,
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true
       },
       "sort": 250000,
       "ownership": {
-        "default": 0,
-        "QXnUaFjEzgosKVQr": 3,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1299,12 +1898,25 @@
         "effect": "",
         "conceal": "T",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 400000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1340,12 +1952,25 @@
         "effect": "",
         "conceal": "T",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 700000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1381,12 +2006,25 @@
         "effect": "",
         "conceal": "T",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 25000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1422,12 +2060,25 @@
         "effect": "",
         "conceal": "L",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1463,12 +2114,25 @@
         "effect": "",
         "conceal": "L",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1504,12 +2168,25 @@
         "effect": "",
         "conceal": "T",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 187500,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1545,12 +2222,25 @@
         "effect": "",
         "conceal": "T",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 700000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1586,12 +2276,25 @@
         "effect": "",
         "conceal": "L",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 175000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1627,12 +2330,25 @@
         "effect": "Numbing herbs placed in a wound relieve pain, lowering negative from critical injuries by 2. Numbing herbs also lessen the penalties from being near death by 2. Numbing herbs work for 2d10 rounds, and then you can apply another dose.",
         "time": "2d10 Rounds",
         "toxicity": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 2900000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1668,12 +2384,25 @@
         "effect": "Tempest channels the inherent elemental magic around a person. When making an attack or casting a spell that has a chance of inflicting the Fire, Freeze, or Prone effects, the percentage is increased by 10%.",
         "time": "Immediate",
         "toxicity": "50%",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 300000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1707,14 +2436,15 @@
         "type": "alchemical",
         "level": "journeyman",
         "isFormulae": true,
-        "craftingDC": 0,
+        "craftingDC": 15,
         "alchemyDC": 15,
         "craftingTime": "15 Minutes",
         "craftingComponents": [
           {
             "id": "first",
             "quantity": 0,
-            "name": ""
+            "name": "",
+            "uuid": null
           }
         ],
         "investment": 0,
@@ -1731,13 +2461,14 @@
           "fulgur": 0
         },
         "associatedItemUuid": "Compendium.TheWitcherTRPG.gear.Item.5cSWw6Fr2nfSjQCZ",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "resultQuantity": 1
       },
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "JEflPFTBB5wpYRms": 3,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1773,12 +2504,25 @@
         "effect": "Lightning is the result of an attempt to recreate the Witchers' Thunderbolt potion. It grants the drinker a +3 to damage on their next physical attack.",
         "time": "Immediate",
         "toxicity": "75%",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 2200000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1812,14 +2556,15 @@
         "type": "alchemical",
         "level": "journeyman",
         "isFormulae": true,
-        "craftingDC": 0,
+        "craftingDC": 16,
         "alchemyDC": 16,
         "craftingTime": "15 minutes",
         "craftingComponents": [
           {
             "id": "first",
             "quantity": 0,
-            "name": ""
+            "name": "",
+            "uuid": null
           }
         ],
         "investment": 0,
@@ -1836,13 +2581,14 @@
           "fulgur": 0
         },
         "associatedItemUuid": "Compendium.TheWitcherTRPG.gear.Item.V4L6Gfb3ln1tOj3a",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "resultQuantity": 1
       },
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "JEflPFTBB5wpYRms": 3,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1878,12 +2624,25 @@
         "effect": "The drinker forgoes the need for sleep for a 24-hour period. Doses of Strider used to be given to soldiers to allow them to cross more territory without exerting themselves. The cost of this potion quickly made it nonviable for large armies.",
         "time": "24 Hours",
         "toxicity": "50%",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 4100000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1917,14 +2676,15 @@
         "type": "alchemical",
         "level": "journeyman",
         "isFormulae": true,
-        "craftingDC": 0,
+        "craftingDC": 16,
         "alchemyDC": 16,
         "craftingTime": "15 Minutes",
         "craftingComponents": [
           {
             "id": "first",
             "quantity": 0,
-            "name": ""
+            "name": "",
+            "uuid": null
           }
         ],
         "investment": 0,
@@ -1941,13 +2701,14 @@
           "fulgur": 1
         },
         "associatedItemUuid": "Compendium.TheWitcherTRPG.gear.Item.zhfhyjJj840UsjyV",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "resultQuantity": 1
       },
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "JEflPFTBB5wpYRms": 3,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -1983,12 +2744,25 @@
         "effect": "",
         "conceal": "L",
         "quality": "",
-        "isStored": false
+        "isStored": false,
+        "sourcebook": "",
+        "isCarried": true,
+        "isConsumable": false,
+        "consumeProperties": {
+          "doesHeal": false,
+          "heal": "",
+          "addsTempHp": false,
+          "temporaryHp": {
+            "value": "",
+            "duration": 0
+          },
+          "effects": [],
+          "removesEffects": []
+        }
       },
       "sort": 200000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -2062,10 +2836,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2081,7 +2851,8 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": true
+          "isNonLethal": true,
+          "silverTrait": false
         },
         "defenseOptions": [
           "dodge",
@@ -2090,16 +2861,18 @@
           "parry"
         ],
         "defenseProperties": {
-          "parrying": false
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
         },
-        "associatedDiagramUuid": ""
+        "associatedDiagramUuid": "",
+        "spellAttackSkill": "spellcasting"
       },
       "effects": [],
       "folder": "DFlwge2Gda7e5ZNo",
       "sort": 100000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -2170,10 +2943,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2189,7 +2958,8 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": true
+          "isNonLethal": true,
+          "silverTrait": false
         },
         "defenseOptions": [
           "dodge",
@@ -2198,16 +2968,18 @@
           "parry"
         ],
         "defenseProperties": {
-          "parrying": false
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
         },
-        "associatedDiagramUuid": ""
+        "associatedDiagramUuid": "",
+        "spellAttackSkill": "spellcasting"
       },
       "effects": [],
       "folder": "DFlwge2Gda7e5ZNo",
       "sort": 200000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "core": {},
@@ -2278,10 +3050,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2297,7 +3065,8 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "defenseOptions": [
           "dodge",
@@ -2306,16 +3075,18 @@
           "parry"
         ],
         "defenseProperties": {
-          "parrying": false
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
         },
-        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SPz8cIM5OU6Z7fns"
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SPz8cIM5OU6Z7fns",
+        "spellAttackSkill": "spellcasting"
       },
       "effects": [],
       "folder": "1wLnWE2uBTmQgsS8",
       "sort": 325000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -2385,10 +3156,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2396,7 +3163,8 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "defenseOptions": [
           "dodge",
@@ -2406,16 +3174,18 @@
           "parryThrown"
         ],
         "defenseProperties": {
-          "parrying": false
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
         },
-        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.JJC7UmSUj0Za4EoT"
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.JJC7UmSUj0Za4EoT",
+        "spellAttackSkill": "spellcasting"
       },
       "effects": [],
       "folder": "qlH2nWMWutV4oD4E",
       "sort": 250000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -2485,10 +3255,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2518,7 +3284,8 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "defenseOptions": [
           "dodge",
@@ -2527,16 +3294,18 @@
           "parry"
         ],
         "defenseProperties": {
-          "parrying": false
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
         },
-        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.5MxUi7W8kNDOOY5t"
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.5MxUi7W8kNDOOY5t",
+        "spellAttackSkill": "spellcasting"
       },
       "effects": [],
       "folder": "BeMZz917EOy5IF58",
       "sort": 225000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -2600,14 +3369,18 @@
             "varEffect": false
           }
         ],
-        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.cpSc8VaTEBK2405C"
+        "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.crafting.Item.cpSc8VaTEBK2405C",
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "t5QsEWUCWqtolZ7T",
       "sort": -100000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -2655,10 +3428,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": true,
@@ -2673,10 +3446,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2692,26 +3461,38 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
         "defenseOptions": [
           "dodge",
           "reposition"
-        ]
+        ],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "CtVhMF5pHO6lp3qb",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -2759,10 +3540,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": false,
@@ -2777,10 +3558,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2796,25 +3573,37 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
         "defenseOptions": [
           "magicResist"
-        ]
+        ],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "g5XU90wjAHHP2CdX",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -2862,10 +3651,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": false,
@@ -2880,10 +3669,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -2891,16 +3676,29 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
-        "defenseOptions": []
+        "defenseOptions": [],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [
         {
@@ -2965,8 +3763,7 @@
       "folder": "g5XU90wjAHHP2CdX",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3014,10 +3811,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": false,
@@ -3032,10 +3829,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -3051,23 +3844,35 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
-        "defenseOptions": []
+        "defenseOptions": [],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "g5XU90wjAHHP2CdX",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3115,10 +3920,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": true,
@@ -3133,10 +3938,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": true,
           "defenseMultiplierCap": 10,
           "variableDamage": true,
@@ -3152,27 +3953,39 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
         "defenseOptions": [
           "dodge",
           "reposition",
           "block"
-        ]
+        ],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "TczKQfugrDCiebda",
       "sort": 900000,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3220,10 +4033,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": false,
@@ -3238,10 +4051,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -3257,23 +4066,35 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
-        "defenseOptions": []
+        "defenseOptions": [],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "dNEWmbHLX50kbh79",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3321,10 +4142,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": true,
@@ -3339,10 +4160,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": true,
@@ -3358,26 +4175,38 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
         "defenseOptions": [
           "dodge",
           "reposition"
-        ]
+        ],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "n4Q7VyheZk6uK2TL",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3425,10 +4254,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": true,
@@ -3443,10 +4272,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": true,
           "bypassesNaturalArmor": true,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -3462,18 +4287,31 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
         "defenseOptions": [
           "magicResist"
-        ]
+        ],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [
         {
@@ -3519,8 +4357,7 @@
       "folder": "hOg6Gm7BV749KOcO",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3568,10 +4405,10 @@
         "regionProperties": {
           "createRegionFromTemplate": false,
           "behaviours": {
-            "tokenEnter": "",
-            "tokenTurnStart": "",
-            "tokenPreMove": "",
-            "tokenExit": ""
+            "tokenEnter": null,
+            "tokenTurnStart": null,
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "causeDamages": false,
@@ -3586,10 +4423,6 @@
           "damageToAllLocations": false,
           "bypassesWornArmor": false,
           "bypassesNaturalArmor": false,
-          "hitGlobalModifiers": [],
-          "appliesGlobalModifierToHit": false,
-          "appliesGlobalModifierToDamaged": false,
-          "damagedGlobalModifiers": [],
           "defenseDifferenceMultiplier": false,
           "defenseMultiplierCap": 5,
           "variableDamage": false,
@@ -3597,23 +4430,35 @@
           "oilEffect": "",
           "silverDamage": "",
           "isMeteorite": false,
-          "isNonLethal": false
+          "isNonLethal": false,
+          "silverTrait": false
         },
         "createsShield": false,
         "shield": "",
         "doesHeal": false,
         "heal": "",
-        "globalModifiers": [],
         "selfEffects": [],
         "onCastEffects": [],
-        "defenseOptions": []
+        "defenseOptions": [],
+        "sideEffect": "",
+        "attackOptions": [
+          "spell"
+        ],
+        "spellAttackSkill": "spellcasting",
+        "applyMeleeBonus": false,
+        "applyRangedMeleeBonus": false,
+        "isThrowable": false,
+        "defenseProperties": {
+          "parrying": false,
+          "defendsAgainst": [],
+          "modifier": 0
+        }
       },
       "effects": [],
       "folder": "LYUuah2rqlYSyazT",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3665,8 +4510,8 @@
           "behaviours": {
             "tokenEnter": null,
             "tokenTurnStart": null,
-            "tokenPreMove": null,
-            "tokenExit": null
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "defenseOptions": []
@@ -3675,8 +4520,7 @@
       "folder": "ArpxTC5AEesm081W",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3728,8 +4572,8 @@
           "behaviours": {
             "tokenEnter": null,
             "tokenTurnStart": null,
-            "tokenPreMove": null,
-            "tokenExit": null
+            "tokenExit": null,
+            "tokenMoveWithin": null
           }
         },
         "defenseOptions": []
@@ -3738,8 +4582,7 @@
       "folder": "ZrCMFn0LrXOSBynz",
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "dxC9PYhanWf4xPZG": 3
+        "default": 0
       },
       "flags": {
         "scene-packer": {
@@ -3760,8 +4603,7 @@
   "effects": [],
   "folder": "Syb1gKlZmqOzYXpa",
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -3772,8 +4614,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.7.0",
-    "coreVersion": "13.347",
+    "systemVersion": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
