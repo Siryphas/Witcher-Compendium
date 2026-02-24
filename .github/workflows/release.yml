@@ -36,7 +36,7 @@ jobs:
         id: sub_manifest_link_version
         uses: devops-actions/variable-substitution@v1.2
         with:
-          files: module.json
+          files: wtrpg-compendium/module.json
         env:
           version: ${{steps.get-version.outputs.version}}
           manifest: https://github.com/${{ github.repository }}/releases/latest/download/module.json
