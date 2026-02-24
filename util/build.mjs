@@ -5,15 +5,15 @@ import path from "path";
 
 const MODULE_ID = process.cwd();
 
-const compendium = path.resolve(process.cwd(), "wtrpg-compendium/packs");
+const compendium = path.resolve(process.cwd(), "wtrpg-complete-compendium/packs");
 
 console.log("Cleaning packs");
 if (existsSync(compendium)) {
     const packFolder = await fs.readdir(compendium);
     for (const pack of packFolder) {
-        const files = await fs.readdir(`wtrpg-compendium/packs/${pack}`);
+        const files = await fs.readdir(`wtrpg-complete-compendium/packs/${pack}`);
         for (const file of files) {
-            await fs.rm(path.resolve(`wtrpg-compendium/packs/${pack}`, file));
+            await fs.rm(path.resolve(`wtrpg-complete-compendium/packs/${pack}`, file));
         }
     }
 }else {
@@ -24,5 +24,5 @@ const packs = await fs.readdir('./jsonData');
 for (const pack of packs) {
     if (pack === '.gitattributes') continue;
     console.log('Packing ' + pack);
-    await compilePack(`${MODULE_ID}/jsonData/${pack}`, `${MODULE_ID}/wtrpg-compendium/packs/${pack}`, { recursive: true });
+    await compilePack(`${MODULE_ID}/jsonData/${pack}`, `${MODULE_ID}/wtrpg-complete-compendium/packs/${pack}`, { recursive: true });
 }

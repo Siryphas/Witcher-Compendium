@@ -4,7 +4,7 @@ import fs from "fs/promises";
 import path from "path";
 
 const outDir = path.resolve(process.cwd(), "jsonData");
-const compendium = path.resolve(process.cwd(), "wtrpg-compendium/packs");
+const compendium = path.resolve(process.cwd(), "wtrpg-complete-compendium/packs");
 if (!existsSync(outDir)) {
     console.error("Packs directory does not exist in the build");
 }
