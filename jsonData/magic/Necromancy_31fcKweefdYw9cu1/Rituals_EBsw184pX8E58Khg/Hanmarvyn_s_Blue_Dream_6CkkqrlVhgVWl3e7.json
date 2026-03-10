@@ -1,0 +1,105 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Hanmarvyn's Blue Dream",
+  "type": "ritual",
+  "_id": "6CkkqrlVhgVWl3e7",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "level": "master",
+    "stamina": 16,
+    "staminaIsVar": false,
+    "effect": "Hanmarvyn’s Blue Dream allows a single person to witness the last moments of a corpse’s life. \nUpon casting the ritual, choose one person within 4m to receive the memories of the corpse. \nThis person must make a DC:24 Endurance check to withstand the shock of the event. \nIf they succeed, the effects of the ritual begin. \nIf they fail, they are immediately put into Death State but the effects of the ritual still begin. \nFor the duration of the ritual, the affected person falls unconscious and witnesses the last 10 minutes of the corpse’s life. \nThey experience these memories as if they were their own, even feeling that person’s emotions. \nIf under the influence of a Hallucinogen, the duration of this ritual increases to 20 minutes.",
+    "range": "",
+    "duration": "10 Minutes",
+    "defence": "",
+    "components": "A Corpse",
+    "preparationTime": "10 Rounds",
+    "createTemplate": false,
+    "templateSize": null,
+    "templateType": "",
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rtMxjIQhPW1z8rGQ",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6O3Ao6jOFx58vnDG",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Xb6CpnpSky3Di3VP",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.eTl9Q6jXNCVfIXVk",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.dsTZKewbbNoEcZMg",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.ljPHnNFYiDXtmNpv",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.wb8blBlMHWYB4KyE",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.B0F1LPNFD2arwsea",
+        "quantity": 2
+      }
+    ],
+    "alternateRitualComponentUuids": [],
+    "difficultyCheck": "",
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry",
+      "parryThrown",
+      "magicResist"
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dde02d4e9012f14f6f697109b52e28df4de60ee7"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!6CkkqrlVhgVWl3e7"
+}

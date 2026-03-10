@@ -9,49 +9,88 @@
     "level": "novice",
     "source": "druid",
     "domain": "",
-    "stamina": "2",
+    "stamina": 2,
     "staminaIsVar": false,
     "effect": "Web of Roots allows you to take control of the roots of a nearby tree to grapple a target. \nUpon casting this invocation on a tree, you can use its roots to grapple, trip, or disarm a target within 10m of the tree who fails a Defense check against your Spell Casting check. \nEach round that you maintain this invocation you can either maintain your grapple or attempt one of the other options on a target within 10m of the tree. \nA grappled target can escape by succeeding a Dodge/Escape check against a new Spell Casting check or by dealing 15 points of damage to the roots.",
     "range": "10m",
     "duration": "Active (1 STA)",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": true,
-    "templateSize": "10",
+    "templateSize": 10,
     "templateType": "circle",
     "causeDamages": false,
     "damage": "",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Grapple",
-        "statusEffect": "grappled",
-        "percentage": 100
-      }
-    ],
     "defenseOptions": [
       "dodge"
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "aVoreIWKFqmtfFu4": {
+          "name": "Grapple",
+          "statusEffect": "grappled",
+          "percentage": 100,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -60,8 +99,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

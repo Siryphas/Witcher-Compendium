@@ -9,40 +9,79 @@
     "level": "master",
     "source": "preacher",
     "domain": "",
-    "stamina": "12",
+    "stamina": 12,
     "staminaIsVar": false,
     "effect": "Divine Portal creates a standing portal for a brief instant. The portal lasts for just one round and allows you to transport yourself or others anywhere you can recall. \nDivine Portal creates a 1m by 2m floating portal up to 10m from you. Stepping through this portal teleports you anywhere you can recall. The portal can transport anything that fits through it. \nIf you end the portal while something is partially through, the portal slices the object (or creature) in two. The person is counted as being dismembered, as per the Critical Wound. \nYou can create a portal to a location you don’t know as per Teleportation.",
     "range": "N/A",
     "duration": "1 Round",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": false,
     "damage": "",
-    "effects": [],
     "defenseOptions": [],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {},
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -51,8 +90,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

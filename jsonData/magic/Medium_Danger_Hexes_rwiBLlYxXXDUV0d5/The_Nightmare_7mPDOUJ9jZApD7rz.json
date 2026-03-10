@@ -1,41 +1,25 @@
 {
   "folder": "rwiBLlYxXXDUV0d5",
   "name": "The Nightmare",
-  "type": "spell",
+  "type": "hex",
   "_id": "7mPDOUJ9jZApD7rz",
   "img": "icons/magic/symbols/runes-star-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "8",
-    "staminaIsVar": false,
+    "stamina": 8,
     "effect": "The Nightmare forces the subject to relive the same horrifying nightmare. \nEvery night the subject must make a Resist Coercion check at a DC equal to the Hex Weaving roll the caster made to hex them. \nIf they succeed they manage to get a full, though restless, night’s sleep. \nIf they fail, they barely sleep and do not recover STA or HP during the night. \nIf they fail 3 nights in a row they halve their Stamina and take a -2 to all actions until they can get a full night’s rest.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Medium",
     "liftRequirement": "The subject must gather 5 candles, 5 units of beast bones, and 1 unit of glowing ore. \nThe night of the ceremony the subject must arrange the candles in a circle around them, linked by bones, and place the glowing ore under their head. \nIf the subject is able to sleep through the night they will be freed of the hex.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -80,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -90,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

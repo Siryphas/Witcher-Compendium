@@ -9,32 +9,18 @@
     "level": "novice",
     "source": "earth",
     "domain": "",
-    "stamina": "3",
+    "stamina": 3,
     "staminaIsVar": false,
     "effect": "Talfryn’s Prison is named for Talfryn of Nazair, a treacherous knight who was trapped for three days in the garden of the magician Drystan. The spell allows you to bind a target in roots. \nThe roots take 15 points of damage to break. Otherwise a Dodge/Escape check must be made at a DC equal to your original Spell Casting roll to escape.",
     "range": "10m",
     "duration": "Until Destroyed",
     "defence": "Dodge",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": false,
     "damage": "0",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Immobilized",
-        "statusEffect": "grappled",
-        "percentage": 100
-      }
-    ],
     "onCastEffects": [],
     "defenseOptions": [
       "dodge",
@@ -42,11 +28,64 @@
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "KvWv4wkKH52oToWO": {
+          "name": "Immobilized",
+          "statusEffect": "grappled",
+          "percentage": 100,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [
@@ -101,8 +140,7 @@
   ],
   "sort": 400000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -111,8 +149,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

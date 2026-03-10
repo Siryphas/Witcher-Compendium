@@ -1,0 +1,101 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Invaerne",
+  "type": "spell",
+  "_id": "gD4L3GDJRUqkfFfc",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "Water",
+    "domain": "",
+    "stamina": 14,
+    "staminaIsVar": false,
+    "effect": "Invaerne allows you to create a howling snowy gale in an area with a 30m radius. This area has Snow & Ice conditions. If cast in a cold environment, the duration of this spell is increased to one week.",
+    "range": "50m",
+    "duration": "1 Hour",
+    "defence": "None",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": 30,
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {},
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "de933cd6c19b293b2bd6766e65a975008e23a634"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!gD4L3GDJRUqkfFfc"
+}

@@ -1,40 +1,25 @@
 {
   "folder": "rwiBLlYxXXDUV0d5",
   "name": "The Evil Eye",
-  "type": "spell",
+  "type": "hex",
   "_id": "sqLt0ZTmIwQt1d4V",
   "img": "icons/magic/symbols/runes-star-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "8",
-    "staminaIsVar": false,
+    "stamina": 8,
     "effect": "Casting The Evil Eye upon a subject weaves a web of misfortune around them which threatens their every move. Whenever the subject rolls a Fumble, they must roll twice and take the worse outcome. \nAdditionally, the GM is encouraged to choose the subject whenever they would be randomly determining the target of a threat.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Medium",
     "liftRequirement": "The subject must acquire a unit of coral from the Great Sea (50 Crowns) and fashion it into an amulet with a DC:14 Fine Arts check. \nThe amulet must be worn during the entirety of a full moon and will shatter at the sunrise, freeing you of the Hex.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -79,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -89,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

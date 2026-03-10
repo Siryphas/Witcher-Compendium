@@ -1,41 +1,25 @@
 {
   "folder": "rwiBLlYxXXDUV0d5",
   "name": "Unending Need",
-  "type": "spell",
+  "type": "hex",
   "_id": "KKhOjM2yNgkyvOZf",
   "img": "icons/magic/symbols/runes-star-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "8",
-    "staminaIsVar": false,
+    "stamina": 8,
     "effect": "Unending Need causes the subject’s body to be consumed by sloth and gluttony, requiring more sleep and food to function properly. \nThe subject must get 10 hours of uninterrupted sleep each night or take the -3 penalty on rolls for Sleep-Deprivation. \nAdditionally, the subject must eat 5 meals a day or halve their total STA for the next day.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Medium",
     "liftRequirement": "The subject must fast for 3 full days and 3 nights drinking only water and sleeping with sweets underneath their pillow. \nIf the subject is able to perform this fast and not touch the sweets beneath their pillow the hex breaks on the morning of the fourth day.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -80,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -90,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

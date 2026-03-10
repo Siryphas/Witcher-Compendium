@@ -1,49 +1,25 @@
 {
   "folder": "RAdEiJZ8BwxqRAWY",
   "name": "The Eternal Itch",
-  "type": "spell",
+  "type": "hex",
   "_id": "atkKyNVwlgDMkJ8c",
   "img": "icons/magic/symbols/runes-triangle-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "4",
-    "staminaIsVar": false,
+    "stamina": 4,
     "effect": "The Eternal Itch causes enflamed, itchy pustules to grow on the subjects genitals. \nThe itch does no damage but is a constant annoyance, causing a -1 to all tasks. As well as this -1 the target takes a -5 to Seduction once ‘in the bedroom.’",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Low",
     "liftRequirement": "The subject must gather a unit of scleroderm, fool’s parsely, and bryonia. The subject must light a campfire and bundle up the herbs. \nWith everything prepared the subject must light the herbs and crumble the burning ashes onto the afflicted area while reciting a series of magic words.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
-    "regionProperties": {
-      "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -95,8 +71,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -105,8 +80,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

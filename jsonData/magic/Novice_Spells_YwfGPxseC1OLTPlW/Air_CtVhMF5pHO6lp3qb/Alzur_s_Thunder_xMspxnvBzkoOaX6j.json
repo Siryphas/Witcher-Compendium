@@ -1,0 +1,111 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Alzur's Thunder",
+  "type": "spell",
+  "_id": "xMspxnvBzkoOaX6j",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "air",
+    "domain": "",
+    "stamina": 15,
+    "staminaIsVar": false,
+    "effect": "Alzur’s Thunder allows you to shoot a powerful lightning bolt at a target which does 8d6 damage and has a 75% chance of setting the target on fire. \nAlzur’s Thunder can travel in a straight line through targets. For every target it passes through the damage to the next target decreases by 1d6.",
+    "range": "25m",
+    "duration": "Immediate",
+    "defence": "Dodge",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": 25,
+    "templateType": "ray",
+    "causeDamages": true,
+    "damage": "8d6",
+    "visualEffectDuration": null,
+    "damageProperties": {
+      "variableDamage": true,
+      "effects": {
+        "inQHWvtTyHwu4KMT": {
+          "name": "Fire",
+          "statusEffect": "fire",
+          "percentage": 75,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "damageType": "electricity",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "sourcebook": "Corebook",
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8633449f04fe71cfcbb7ced6ca60d8eb03c6007a"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xMspxnvBzkoOaX6j"
+}

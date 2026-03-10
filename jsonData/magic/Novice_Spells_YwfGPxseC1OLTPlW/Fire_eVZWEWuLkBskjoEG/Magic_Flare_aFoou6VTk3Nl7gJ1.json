@@ -1,0 +1,111 @@
+{
+  "folder": "eVZWEWuLkBskjoEG",
+  "name": "Magic Flare",
+  "type": "spell",
+  "_id": "aFoou6VTk3Nl7gJ1",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": 2,
+    "staminaIsVar": false,
+    "effect": "Magic Flare creates a bright flash above you. Everyone within an 8m radius must make a Resist Magic check or be blinded for 1d6 rounds. \nThis flare can be seen for 10 kilometers.",
+    "range": "8m Radius",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": 8,
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "0",
+    "visualEffectDuration": null,
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "effects": {
+        "gEG3IXseuzjbgdPo": {
+          "name": "Blinded",
+          "statusEffect": "blinded",
+          "percentage": 100,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [
+      "dodge",
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4d62dbd4c67179080931fd81231a9af860a0b7ed"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!aFoou6VTk3Nl7gJ1"
+}

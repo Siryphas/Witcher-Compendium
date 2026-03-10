@@ -1,43 +1,69 @@
 {
   "folder": "ArpxTC5AEesm081W",
   "name": "Pyromancy",
-  "type": "spell",
+  "type": "ritual",
   "_id": "KXsh0GUa7AnOJn8v",
   "img": "icons/magic/symbols/runes-triangle-orange.webp",
   "system": {
-    "class": "Rituals",
     "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "5",
+    "stamina": 5,
     "staminaIsVar": false,
     "effect": "Pyromancy allows you to stare into a burning fire and witness events that are currently happening.\nPyromancy is more dangerous than Hydromancy, making it harder to maintain and impossible to peer backwards. However, it is easier to view events that are currently happening. \nA mage you view can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.",
     "range": "",
     "duration": "Active (4 STA)",
     "defence": "",
-    "components": "A Small Fire, Fifth Essence (x2), Ashes (x2), Calcium Equum (x5), Crow’s Eye (x2), Wax (x2)",
-    "alternateComponents": "",
+    "components": "A Small Fire",
     "preparationTime": "5 Rounds",
-    "dificultyCheck": "15",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
     "sourcebook": "Corebook",
     "difficultyCheck": "15",
     "cost": 242,
-    "defenseOptions": []
+    "defenseOptions": [],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.zbdg2s1TraZJsPeB",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4ItCawGKj69xZtEh",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.sJs8YWzc8v4OMrnc",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.LtDJFN7rQlXGDP7W",
+        "quantity": 2
+      }
+    ],
+    "alternateRitualComponentUuids": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -46,8 +72,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

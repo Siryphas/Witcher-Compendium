@@ -1,41 +1,25 @@
 {
   "folder": "RAdEiJZ8BwxqRAWY",
   "name": "Hex of Shadows",
-  "type": "spell",
+  "type": "hex",
   "_id": "7PAkIABLZigjyWWh",
   "img": "icons/magic/symbols/runes-triangle-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "4",
-    "staminaIsVar": false,
+    "stamina": 4,
     "effect": "The Hex of Shadows creates whispers in the shadows, and silhouettes around corners. \nThe subject must make random Awareness checks with an unspecified DC, always almost catching a glimpse of something or someone. The awareness checks are never a real threat, just visions.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Low",
     "liftRequirement": "The subject must bring a bowl of clear water, a branch from a white myrtle bush, and a bottle of ink to a clearing under a crescent moon.\nWhen the moon is at its highest the subject must pour the ink into the water, dip the branch in the mixture, and shake droplets in a circle around themselves while holding their breath.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "1d6+0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -80,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -90,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

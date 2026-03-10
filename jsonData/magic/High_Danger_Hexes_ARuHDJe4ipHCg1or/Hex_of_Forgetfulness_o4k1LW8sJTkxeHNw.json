@@ -1,37 +1,25 @@
 {
   "folder": "ARuHDJe4ipHCg1or",
   "name": "Hex of Forgetfulness",
-  "type": "spell",
+  "type": "hex",
   "_id": "o4k1LW8sJTkxeHNw",
   "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "12",
-    "staminaIsVar": false,
+    "stamina": 12,
     "effect": "The Hex of Forgetfulness submerges the subjects mind in a thick soup of magical obscurement making it difficult for them to retain knowledge and memories. \nThe subject can no longer gain I.P. via being taught or study and practice, can no longer teach someone, and can no longer learn new magic. \nAdditionally, once per day, the GM can call upon the subject to make a Resist Magic roll at a DC:20 or forget a fact, memory, recipe, spell, invocation, ritual, hex, or sign of the GM’s choice until the Hex is removed.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "High",
     "liftRequirement": "The subject must shave their head of all hair and then prepare a paste of 2 units of Essence of Water and 2 units of River Clay. \nThe subject must then inscribe specific sigils on their scalp with the clay and hold a unit of Optima Matter under their tongue. \nThey must wait silently for a full day and night for the clay to dry. \nWhen the clay is removed from the scalp and the Optima Matter is removed from their mouth, the Optima Matter will be ashen gray and the hex will have been removed, returning anything forgotten.\nThe Optima Matter used is permanently grayed and acts as a Focus (2) that can only be used for Hexes, Goetia, and Necromancy.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
-    "globalModifiers": [],
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -76,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -86,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

@@ -1,0 +1,104 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Merigold's Hailstorm",
+  "type": "spell",
+  "_id": "pH5Gzfl8j7nh5REj",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "Water",
+    "domain": "",
+    "stamina": 15,
+    "staminaIsVar": false,
+    "effect": "Named for its creator Triss Merigold, ex-advisor of King Foltest of Temeria, Merigold’s Hailstorm creates a hailstorm encompassing the area of the spell. \nEveryone within the storm must make a Dodge/Escape check at a DC equal to your Spell Casting check each round or take 2d6 damage to a body part.",
+    "range": "30m Radius",
+    "duration": "Active (4 STA)",
+    "defence": "Dodge",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": 30,
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "2d6",
+    "visualEffectDuration": null,
+    "damageType": "ice",
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {},
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aa79577d59483fdf3a64b5d628c4e00897f0fd3e"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!pH5Gzfl8j7nh5REj"
+}

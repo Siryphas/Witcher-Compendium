@@ -1,0 +1,100 @@
+{
+  "folder": "CtVhMF5pHO6lp3qb",
+  "name": "Touch of Lightning",
+  "type": "spell",
+  "_id": "YfQJcP2THIUr56Dx",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Air.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "air",
+    "domain": "",
+    "stamina": 8,
+    "staminaIsVar": false,
+    "effect": "Touch of Lightning allows you to imbue a stationary metal object with a powerful charge of electricity. \nUpon casting this spell, the object becomes an electrical trap which will deal 1d6 damage to the first body location that touches it. \nThis spell can be charged by spending extra rounds focusing on it during the casting. \nFor each round that you continue to hold the object and pay its active cost the trap deals an extra 1D6 of damage (maximum 8D6 total). If the object is moved before it is touched by a body location it loses all charges.\nAdditionally, 24 hours after the spell is cast the object loses all charges. \nIt requires a DC:20 Perception check to determine an object has been affected by this spell.",
+    "range": "2m",
+    "duration": "Active (5 STA)",
+    "defence": "None",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "1d6",
+    "damageProperties": {
+      "variableDamage": true,
+      "bypassesWornArmor": true,
+      "effects": {},
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageType": "electricity",
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2fa6de710744a08eba35615e7fc53e824b3cb3c3"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YfQJcP2THIUr56Dx"
+}

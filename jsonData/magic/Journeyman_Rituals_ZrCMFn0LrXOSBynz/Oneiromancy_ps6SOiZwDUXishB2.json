@@ -1,42 +1,48 @@
 {
   "folder": "ZrCMFn0LrXOSBynz",
   "name": "Oneiromancy",
-  "type": "spell",
+  "type": "ritual",
   "_id": "ps6SOiZwDUXishB2",
   "img": "icons/magic/symbols/runes-star-orange.webp",
   "system": {
-    "class": "Rituals",
     "level": "journeyman",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "8",
+    "stamina": 8,
     "staminaIsVar": false,
     "effect": "Oneiromancy grants the caster a dream which unveils secrets and events of the past and present. A caster can perform the ritual alone.\nIt requires a Ritual Casting check to witness events that have occurred previously and a more difficult DC to witness events that are occurring at the moment. Oneiromancy can be detected by Mages using Magic Training.\nThe Oneiromancer can also guide a number of people equal to their Ritual Crafting skill value to share their enlightening dream. \nTo do this, the oneiromancer must make a bond with the people they want to enlighten. This requires the participants to answer a series of personal questions, as truthfully as possible. \nThe dream lasts for the duration of the ritual.",
     "range": "",
     "duration": "1d10 Rounds",
     "defence": "",
     "components": "A Place to Sleep",
-    "alternateComponents": "",
     "preparationTime": "10 Rounds",
-    "dificultyCheck": "15/18",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
     "sourcebook": "Corebook",
     "difficultyCheck": "15 (18)",
-    "defenseOptions": []
+    "defenseOptions": [],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [],
+    "alternateRitualComponentUuids": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -45,8 +51,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

@@ -1,0 +1,111 @@
+{
+  "folder": "eVZWEWuLkBskjoEG",
+  "name": "Flaming Vortex",
+  "type": "spell",
+  "_id": "8VH8ZV4eycHuP58A",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "fire",
+    "domain": "",
+    "stamina": 15,
+    "staminaIsVar": false,
+    "effect": "Flaming Vortex creates a flaming tornado 2m wide. You can direct the tornado to move a number of meters equal to your Spell Casting skill value per turn. \nIf it runs over or into a target, make a Spell Casting roll versus their Dodge/Escape roll. \nIf they fail, they take 5d6 damage and have a 50% chance of being set on fire.\nThe vortex will not travel beyond the spell’s range.",
+    "range": "10m Radius",
+    "duration": "Active (4 STA)",
+    "defence": "Dodge",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": 2,
+    "templateType": "circle",
+    "causeDamages": true,
+    "damage": "5d6",
+    "visualEffectDuration": null,
+    "damageType": "fire",
+    "damageProperties": {
+      "effects": {
+        "b2gjcwhK08OaQglu": {
+          "name": "Fire",
+          "percentage": 0,
+          "statusEffect": null,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "45ae552e8b09d15fc1a2080d8a566fe67976fdc9"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8VH8ZV4eycHuP58A"
+}

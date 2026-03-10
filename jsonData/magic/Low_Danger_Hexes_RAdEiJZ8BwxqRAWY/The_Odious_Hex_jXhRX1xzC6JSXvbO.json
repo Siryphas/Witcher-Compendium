@@ -1,41 +1,25 @@
 {
   "folder": "RAdEiJZ8BwxqRAWY",
   "name": "The Odious Hex",
-  "type": "spell",
+  "type": "hex",
   "_id": "jXhRX1xzC6JSXvbO",
   "img": "icons/magic/symbols/runes-triangle-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "4",
-    "staminaIsVar": false,
+    "stamina": 4,
     "effect": "The Odious Hex weaves around a subject and makes them repellent. \nWhile hexed, the subject always counts as one level lower on the Social Standing table unless they were already Hated. This affects people of the subject’s own race.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Low",
     "liftRequirement": "The subject must construct an effigy of themselves from a unit each of Han Fiber, Barley, & Fool’s Parsley. \nThey must then insult the effigy as if they were insulting themselves until they can no longer think of insults. \nFinally, the subject must burn the effigy to free themselves of the hex.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -80,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -90,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

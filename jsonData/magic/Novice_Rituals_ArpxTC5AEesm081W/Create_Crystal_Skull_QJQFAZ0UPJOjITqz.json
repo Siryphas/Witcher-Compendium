@@ -1,44 +1,53 @@
 {
   "folder": "ArpxTC5AEesm081W",
   "name": "Create Crystal Skull",
-  "type": "spell",
+  "type": "ritual",
   "_id": "QJQFAZ0UPJOjITqz",
   "img": "icons/magic/symbols/runes-triangle-orange.webp",
   "system": {
-    "class": "Rituals",
     "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "5",
+    "stamina": 5,
     "staminaIsVar": false,
     "effect": "By infusing an existing animal skull from a cat, dog, bird, or serpent with fifth essence you create a crystal skull which can be used to form a single animal of that type as per the Crystal Skull Item.\nIf the animal created by a\nCrystal Skull dies, the Crystal Skull can be recharged by \nperforming this ritual again using only 2 units of Fifth Essence and the inactive skull.",
     "range": "",
     "duration": "Immediate",
     "defence": "",
-    "components": "Animal Skull, Fifth Essence (x5)",
-    "alternateComponents": "",
+    "components": "Animal Skull",
     "preparationTime": "10 Rounds",
-    "dificultyCheck": "14",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
-    "ritualComponentUuids": [],
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 5
+      }
+    ],
     "cost": 410,
     "sourcebook": "A Tome of Chaos",
     "difficultyCheck": "14",
-    "defenseOptions": []
+    "defenseOptions": [],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "alternateRitualComponentUuids": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -47,8 +56,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

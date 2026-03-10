@@ -1,43 +1,61 @@
 {
   "folder": "ZrCMFn0LrXOSBynz",
   "name": "Animate Armor",
-  "type": "spell",
+  "type": "ritual",
   "_id": "JGAfzf3yTRIKJzlD",
   "img": "icons/magic/symbols/runes-star-orange.webp",
   "system": {
-    "class": "Rituals",
     "level": "journeyman",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "14",
+    "stamina": 14,
     "staminaIsVar": false,
     "effect": "By assembling a full suit of armor with a golem heart at its core and infusing the heart with magic you can animate the suit of armor as a loyal servant. \nUpon performing this ritual, the suit of armor you used becomes animate and uses the Living Armor stat block except for its armor Stopping Power which is equal to the armor you used. \nThe living armor is not a sapient creature and is eternally loyal to its creator. \nIt will perform any task given by its creator to the letter.",
     "range": "",
     "duration": "Permanent",
     "defence": "",
-    "components": "Head Armor (x1), Torso Armor (x1), Leg Armor (x1), Fifth Essence (x3), Infused Dust (x3), Golem Heart (x1)",
-    "alternateComponents": "",
+    "components": "Head Armor (x1), Torso Armor (x1), Leg Armor (x1)",
     "preparationTime": "10 Rounds",
-    "dificultyCheck": "18",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
     "sourcebook": "A Tome of Chaos",
     "difficultyCheck": "18",
     "cost": 851,
-    "defenseOptions": []
+    "defenseOptions": [],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.hXzzCRXrLaiz3VSQ",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.qo533J3JFjAJ4y7v",
+        "quantity": 1
+      }
+    ],
+    "alternateRitualComponentUuids": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -46,8 +64,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
