@@ -1,0 +1,107 @@
+{
+  "folder": "LYUuah2rqlYSyazT",
+  "name": "Empower",
+  "type": "spell",
+  "_id": "MknvRZ9lJI1sUQi1",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": 12,
+    "staminaIsVar": false,
+    "effect": "Empower allows you to weave additional magic into your Spellcasting to create a dangerous convergence of chaos. \nThe next spell you cast gains one of the following benefits of your choice:\n\nThe percentage chance of any effects caused by the spell raised to 100%,\nthe roll to cast the spell is made at a +2 bonus, \nor an already damaging spell deals an additional 2d6 damage.\n \nHowever, if you roll a 1 when making the Spell Casting check you automatically suffer from a Magical Fumble as though you had rolled a 10.",
+    "range": "Self",
+    "duration": "1 Minute",
+    "defence": "None",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "dbkXqLEOagpjsg1G": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d4391d8a12f54a59c5d173db79388351ea85e133"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MknvRZ9lJI1sUQi1"
+}

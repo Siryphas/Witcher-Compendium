@@ -1,0 +1,109 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Anialwch",
+  "type": "spell",
+  "_id": "MNCIBSJGJ0udEQxC",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "Water",
+    "domain": "",
+    "stamina": 8,
+    "staminaIsVar": false,
+    "effect": "Anialwch allows you to suck some of the liquid from a target’s body, damaging and exhausting them. \nThe spell does 4d6 damage which cannot be blocked by armor or shields. \nThe extreme dehydration creates a fatigue which lowers the target’s current STA by 4d6 as well.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "Resist Magic",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "4d6",
+    "damageProperties": {
+      "effects": {
+        "XhU3XU4D9aG8TEPS": {
+          "name": "STA -4d6",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "isNonLethal": true,
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bdddcd1c521eeae48459812d02aeea004d26cb24"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!MNCIBSJGJ0udEQxC"
+}

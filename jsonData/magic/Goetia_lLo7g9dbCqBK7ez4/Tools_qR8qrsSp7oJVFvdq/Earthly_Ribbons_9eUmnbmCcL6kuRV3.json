@@ -6,24 +6,35 @@
   "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/cloth/cloth-bolt-gold-red.webp",
   "system": {
     "description": "A length of beautiful silk ribbon, embroidered with runes made from thread infused with fifth essence. \nWhen a goetic practitioner summons a Mari Lwyd they can present these ribbons among the gifts to the demon. The Mari Lwyd will happily accept the gorgeous gift and allow the practitioner to tie the ribbons around them. \nOnce bound by Earthly Ribbons a Mari Lwyd is incapable of taking other forms. \nOnce tied, the Earthly Ribbons remain active for 1 year. After this year, the ribbons lose their magic. \nBefore that year ends however, the ribbons can be removed by anyone other than the Mari Lwyd.",
-    "quantity": 1,
+    "quantity": "1",
     "weight": 0.1,
     "cost": null,
     "isHidden": false,
-    "associatedDiagram": {},
     "type": "quest-item",
     "avail": "Rare",
     "effect": "",
     "conceal": "S",
     "quality": "",
-    "clickableImage": false,
-    "sourcebook": "A Tome of Chaos"
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true,
+    "isConsumable": false,
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "addsTempHp": false,
+      "temporaryHp": {
+        "value": "",
+        "duration": 0
+      },
+      "effects": [],
+      "removesEffects": []
+    }
   },
   "effects": [],
   "sort": 200000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -32,8 +43,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

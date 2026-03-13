@@ -1,37 +1,25 @@
 {
   "folder": "ARuHDJe4ipHCg1or",
   "name": "Bones of Glass",
-  "type": "spell",
+  "type": "hex",
   "_id": "RCoFt3AS5JLqCfZN",
   "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "12",
-    "staminaIsVar": false,
+    "stamina": 12,
     "effect": "Bones of Glass magically hollows the bones of the subject, making them prone to splintering. \nWhen the subject would suffer the Cracked Ribs Critical Wound, they instead suffer the Broken Ribs Critical Wound. \nWhen they would suffer the Fractured Arm/Leg Critical Wounds they instead suffer the Compound Arm/Leg Fracture Critical Wounds.\nWhen they would suffer the Minor Head Wound Critical Wound, they instead suffer the Skull Fracture Critical Wound. \nAdditionally, rolls made to stabilize or treat these critical wounds are made at a -3 penalty.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "High",
     "liftRequirement": "The subject must acquire a War Horse, a Troll Liver, meat from a Wolf, 3 units of Balisse Leaves, and a bottle of spirits. \nUpon gathering these things, the subject must bleed the war horse, collecting some of the blood in a pot and add the liver, meat, and leaves to form a foul stew which takes 3 hours to cook. \nThe subject must then consume the entire pot of stew within 1 hour and follow it by chugging the bottle of spirits. \nWhen they finish the bottle, the hex will have been lifted.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
-    "globalModifiers": [],
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -76,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -86,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

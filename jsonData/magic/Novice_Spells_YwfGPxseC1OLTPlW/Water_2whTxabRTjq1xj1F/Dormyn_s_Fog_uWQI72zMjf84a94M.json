@@ -1,0 +1,108 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Dormyn's Fog",
+  "type": "spell",
+  "_id": "uWQI72zMjf84a94M",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": 3,
+    "staminaIsVar": false,
+    "effect": "Created by Dormyn of Gemmera, Dormyn’s Fog creates an area with a 10m radius, centered on you, of thick fog which puts anyone in it at a -3 to Awareness and limits vision range to 4m.",
+    "range": "10m Radius",
+    "duration": "Active (2 STA)",
+    "defence": "None",
+    "sideEffect": "",
+    "createTemplate": true,
+    "templateSize": 10,
+    "templateType": "circle",
+    "causeDamages": false,
+    "damage": "",
+    "visualEffectDuration": null,
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "7k6mnOGYnqkplDnL": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "81b83b5b1c2c239ccc924ee7a47a3698e8ce4b04"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!uWQI72zMjf84a94M"
+}

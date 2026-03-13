@@ -1,37 +1,25 @@
 {
   "folder": "ARuHDJe4ipHCg1or",
   "name": "The Hex of the Beast",
-  "type": "spell",
+  "type": "hex",
   "_id": "gA2b2hHxIfDs3PaW",
   "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "12",
-    "staminaIsVar": false,
+    "stamina": 12,
     "effect": "The Hex of the Beast makes the target anathema to animals and beasts. \nAny time the target comes within 10m of an animal that animal will react poorly to the subject, giving them a -3 to Wilderness Survival for handling animals. \nEach time they come within 10m of an animal there is a 50% chance the animal will attack.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "High",
     "liftRequirement": "The subject must gather a small live animal of some sort, 2 units of Mistletoe, 1 unit of Phosphorus, 2 units of Crow’s Eye, 3 units of Mandrake Root. \nUnder a full moon the subject must cut the throat of the animal and consume its blood. \nThen the animal’s body must be wrapped in bundles of Mistletoe, Crow’s Eye, and Mandrake Root and placed in an open fire. \nAs the scales or fur of the animal start to burn away, the phosphorus must be thrown into the fire. \nWhen the fire has burned out the subject must remove the bones of the animal and wear them on their person for a full day.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
-    "globalModifiers": [],
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -76,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -86,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

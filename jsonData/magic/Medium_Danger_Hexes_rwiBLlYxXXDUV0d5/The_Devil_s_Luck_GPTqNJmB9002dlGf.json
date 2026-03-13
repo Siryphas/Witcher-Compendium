@@ -1,41 +1,25 @@
 {
   "folder": "rwiBLlYxXXDUV0d5",
   "name": "The Devil's Luck",
-  "type": "spell",
+  "type": "hex",
   "_id": "GPTqNJmB9002dlGf",
   "img": "icons/magic/symbols/runes-star-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "",
-    "domain": "",
-    "stamina": "8",
-    "staminaIsVar": false,
+    "stamina": 8,
     "effect": "The Devil’s Luck plagues the subject with bouts of bad fortune. \nIn situations of high stress such as combat or when performing any task with a deadline or a DC higher than 15, the subject rolls a fumble on a natural 1 or 2.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Medium",
     "liftRequirement": "The subject must hammer a silver nail into their door frame and hang 2 units of Wolfsbane, tied with a lock of virgin’s hair, from it. \nFinally the subject must stand under the silver nail, set fire to the bundle of Wolfsbane and virgin hair, and breath deeply.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -80,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -90,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

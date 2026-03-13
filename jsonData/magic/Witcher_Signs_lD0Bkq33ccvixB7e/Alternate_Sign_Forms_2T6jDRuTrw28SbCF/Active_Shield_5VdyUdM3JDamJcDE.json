@@ -9,49 +9,86 @@
     "level": "journeyman",
     "source": "earth",
     "domain": "alternate",
-    "stamina": "0",
+    "stamina": 0,
     "staminaIsVar": true,
     "effect": "Quen now creates a glowing shield around you. The shield has 10 HP for every Stamina point spent. \nEach round after the first, you must spend a number of STA points equal to the initial STA cost to maintain the shield. \nActive Shield only covers you, but you can fit one other person into it if you are pressed together. \nWhile in the active shield nothing tangible can pass in or out without destroying the shield first and you must move slowly to keep the shield up, meaning you cannot run. \nWhen the shield is expended or dropped, anything adjacent to you is pushed back 2m and takes 1d6 damage to the torso. \nThis includes objects, furniture, and allies. \nAnything rooted to the ground or heavier than 226kg is not pushed back but still takes damage.",
     "range": "Self",
     "duration": "Active (Initial STA)",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": false,
     "damage": "1d6",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Knockback",
-        "statusEffect": "prone",
-        "percentage": 0
-      }
-    ],
     "createsShield": true,
     "shield": "10/sta",
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
     },
-    "defenseOptions": []
+    "defenseOptions": [],
+    "damageProperties": {
+      "effects": {
+        "1Xr8RSSJCAvgctr8": {
+          "name": "Knockback",
+          "statusEffect": "prone",
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
   },
   "effects": [],
   "sort": 200000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -60,8 +97,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

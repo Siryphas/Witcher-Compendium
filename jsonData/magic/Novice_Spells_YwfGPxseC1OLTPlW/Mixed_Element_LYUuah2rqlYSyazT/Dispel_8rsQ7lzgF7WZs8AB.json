@@ -1,0 +1,109 @@
+{
+  "folder": "LYUuah2rqlYSyazT",
+  "name": "Dispel",
+  "type": "spell",
+  "_id": "8rsQ7lzgF7WZs8AB",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": 0,
+    "staminaIsVar": true,
+    "effect": "Dispel allows you to end a spell/ritual/hex within the range of this spell. \nThis spell can cancel magic with a duration and can be used as a defensive action to block magic attacks with or without physical components. \nTo cancel a magical effect you must spend half as many Stamina points as the caster spent to cast the magic and make a Spell Casting roll that beats their casting roll.",
+    "range": "10m",
+    "duration": "Immediate",
+    "defence": "Spell Casting",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "damageProperties": {
+      "effects": {
+        "nUs6udfczonoP57c": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5d9f4dd01d1fa3dcfc5fb6a2bccee224a36820fd"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8rsQ7lzgF7WZs8AB"
+}

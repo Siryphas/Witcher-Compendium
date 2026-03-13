@@ -1,41 +1,25 @@
 {
   "folder": "RAdEiJZ8BwxqRAWY",
   "name": "Curse of Temperance",
-  "type": "spell",
+  "type": "hex",
   "_id": "AWsqUV5DEG3QTVAw",
   "img": "icons/magic/symbols/runes-triangle-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "4",
-    "staminaIsVar": false,
+    "stamina": 4,
     "effect": "The Curse of Temperance sours the subject’s stomach to alcohol and exacerbates the effects of drunkenness.\nIf the subject consumes anything that would cause them to become intoxicated, they immediately suffer the Intoxication and Nausea effects as their head spins and their stomach churns violently.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "Low",
     "liftRequirement": "The subject must gather 40 Crowns worth of alcohol and find a bucket. \nThey must then fill the bucket with the alcohol and dunk their head. \nTheir head must remain submerged until they suffer the Suffocation effect. \nUpon pulling their head from the bucket the hex will be broken.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "0",
-    "effects": [],
-    "globalModifiers": [],
-    "damageProperties": {
-      "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
-    },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -80,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -90,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

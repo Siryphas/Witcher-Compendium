@@ -6,11 +6,10 @@
   "img": "icons/weapons/daggers/dagger-jeweled-black.webp",
   "system": {
     "description": "A long steel dagger with a flamberge blade inscribed with ancient runes. The most impressive and distinctive aspect of this dagger is a polished bloodstone set into its handle. Bloodstone daggers are carried by cultists of many creeds, but the original bloodstone daggers were created as tools for goetic practitioners. Now a days they are difficult to find and it’s rare to find someone crafting them thanks to their ominous reputation.",
-    "quantity": 1,
+    "quantity": "1",
     "weight": 0.5,
     "cost": null,
     "isHidden": false,
-    "associatedDiagram": {},
     "type": {
       "text": "Slashing, Piercing",
       "slashing": true,
@@ -27,32 +26,37 @@
     "maxReliability": 5,
     "hands": "right",
     "range": "Melee",
-    "equiped": false,
-    "effects": [
-      {
-        "id": "first",
-        "name": "Bleed",
-        "percentage": "25"
-      }
-    ],
     "conceal": "S",
     "enhancements": 1,
-    "enhancementItems": [],
     "rateOfFire": 1,
-    "attackSkill": "smallblades",
     "rollOnlyDmg": false,
     "isThrowable": false,
     "sourcebook": "A Tome of Chaos",
     "damageProperties": {
-      "effects": [
-        {
-          "id": "3APeIdKKKmpTwZDu",
+      "effects": {
+        "37XYP3LHl2Cmd81L": {
           "name": "Bleed",
-          "statusEffect": "bleed",
           "percentage": 25,
+          "statusEffect": null,
           "varEffect": false
         }
-      ]
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "defenseOptions": [
       "dodge",
@@ -60,13 +64,29 @@
       "block",
       "parry"
     ],
-    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.magic.Item.TDjO3YKjC0zwZ7cp"
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.magic.Item.TDjO3YKjC0zwZ7cp",
+    "enhancementItemIds": [],
+    "isStored": false,
+    "isCarried": true,
+    "equipped": false,
+    "attackOptions": [
+      "melee"
+    ],
+    "meleeAttackSkill": "smallblades",
+    "rangedAttackSkill": "smallblades",
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": true,
+    "applyRangedMeleeBonus": true,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
   },
   "effects": [],
   "sort": 150000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -75,8 +95,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

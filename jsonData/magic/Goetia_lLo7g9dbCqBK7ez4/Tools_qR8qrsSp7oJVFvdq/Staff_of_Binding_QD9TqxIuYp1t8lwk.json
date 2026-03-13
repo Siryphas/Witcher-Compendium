@@ -6,11 +6,10 @@
   "img": "https://assets.forge-vtt.com/bazaar/core/icons/weapons/staves/staff-spiked.webp",
   "system": {
     "description": "A sturdy staff of hazel, treated with ester grease, ogre wax, and drake oil, inset with a carved bloodstone.",
-    "quantity": 1,
+    "quantity": "1",
     "weight": 2,
     "cost": null,
     "isHidden": false,
-    "associatedDiagram": {},
     "type": {
       "text": "Bludgeoning",
       "slashing": false,
@@ -27,29 +26,9 @@
     "maxReliability": 5,
     "hands": "both",
     "range": "2m",
-    "equiped": false,
-    "effects": [
-      {
-        "id": "first",
-        "name": "Long Reach",
-        "percentage": ""
-      },
-      {
-        "id": "_345chnt8g",
-        "name": "Focus (3)",
-        "percentage": ""
-      },
-      {
-        "id": "_qnmsnvttd",
-        "name": "Greater Focus",
-        "percentage": ""
-      }
-    ],
     "conceal": "NA",
     "enhancements": 1,
-    "enhancementItems": [],
     "rateOfFire": 1,
-    "attackSkill": "staffspear",
     "rollOnlyDmg": false,
     "isThrowable": false,
     "sourcebook": "A Tome of Chaos",
@@ -59,13 +38,67 @@
       "block",
       "parry"
     ],
-    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.magic.Item.S4c88CnGv0EgMfBm"
+    "associatedDiagramUuid": "Compendium.wtrpg-complete-compendium.magic.Item.S4c88CnGv0EgMfBm",
+    "enhancementItemIds": [],
+    "damageProperties": {
+      "effects": {
+        "d3tLtrbePmUDFvz8": {
+          "name": "Long Reach",
+          "percentage": null,
+          "statusEffect": null,
+          "varEffect": false
+        },
+        "NAuL4dxS71tuh4XD": {
+          "name": "Focus (3)",
+          "percentage": null,
+          "statusEffect": null,
+          "varEffect": false
+        },
+        "f3kMvtzoliduyurM": {
+          "name": "Greater Focus",
+          "percentage": null,
+          "statusEffect": null,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "isStored": false,
+    "isCarried": true,
+    "equipped": false,
+    "attackOptions": [
+      "melee"
+    ],
+    "meleeAttackSkill": "staffspear",
+    "rangedAttackSkill": "staffspear",
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": true,
+    "applyRangedMeleeBonus": true,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
   },
   "effects": [],
   "sort": 400000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -74,8 +107,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

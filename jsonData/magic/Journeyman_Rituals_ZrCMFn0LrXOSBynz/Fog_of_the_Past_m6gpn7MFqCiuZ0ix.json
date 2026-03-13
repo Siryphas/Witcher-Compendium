@@ -1,43 +1,65 @@
 {
   "folder": "ZrCMFn0LrXOSBynz",
   "name": "Fog of the Past",
-  "type": "spell",
+  "type": "ritual",
   "_id": "m6gpn7MFqCiuZ0ix",
   "img": "icons/magic/symbols/runes-star-orange.webp",
   "system": {
-    "class": "Rituals",
     "level": "journeyman",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "10",
+    "stamina": 10,
     "staminaIsVar": false,
     "effect": "By arranging a circle of candles, creating a pyramidal sculpture of glass with a lunar shard in its center, and filling it with essence of wraith you create a magical projector which summons up a vision of the past. \nUpon performing this ritual, the projector shows the most emotionally resonant moment to have ever occurred in the area. \nThis moment can be up to 5 minutes long and plays on repeat until the end of the ritual.",
     "range": "",
     "duration": "20 Minutes",
     "defence": "",
-    "components": "Glass (x5), Lunar Shard (x1), Candles (x5), Essence of Wraith (x2)",
-    "alternateComponents": "",
+    "components": "",
     "preparationTime": "10 Rounds",
-    "dificultyCheck": "18",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
     "sourcebook": "A Tome of Chaos",
     "difficultyCheck": "18",
     "cost": 311,
-    "defenseOptions": []
+    "defenseOptions": [],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.i6OgPLBFP8nA9vNE",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rtMxjIQhPW1z8rGQ",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.0tfqS1HxWqTm0Zlb",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6O3Ao6jOFx58vnDG",
+        "quantity": 2
+      }
+    ],
+    "alternateRitualComponentUuids": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -46,8 +68,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

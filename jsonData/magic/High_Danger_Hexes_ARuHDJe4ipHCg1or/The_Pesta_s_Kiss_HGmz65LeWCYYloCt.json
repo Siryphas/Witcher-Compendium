@@ -1,37 +1,25 @@
 {
   "folder": "ARuHDJe4ipHCg1or",
   "name": "The Pesta's Kiss",
-  "type": "spell",
+  "type": "hex",
   "_id": "HGmz65LeWCYYloCt",
   "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
   "system": {
-    "class": "Hexes",
-    "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "12",
-    "staminaIsVar": false,
+    "stamina": 12,
     "effect": "The Pesta’s Kiss breaks down the subject’s ability to fight illness and resist nausea. \nAnytime the subject comes in contact with a diseased person they have a 75% chance of catching the illness. \nAny time they smell something even slightly nauseating they must succeed at a DC:16 Endurance check or be nauseated.",
-    "range": "",
-    "duration": "",
-    "defence": "",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
     "danger": "High",
     "liftRequirement": "The subject must gather 3 units of River Clay, 1 unit of Coal, 3 units of Resin, and 1 unit of Infused Dust. First the subject must craft a totem from the clay mixed with Infused Dust and coated in resin, with the coal forming its eyes. \nThis takes a DC:14 Fine Arts roll. \nThen the subject must repeat a series of magic words, infusing the totem with power.\nImmediately after, the totem must be smashed and the coal eyes must be powdered and consumed by the subject.",
-    "sideEffect": "",
-    "createTemplate": false,
-    "templateSize": "",
-    "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
-    "globalModifiers": [],
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true
   },
   "effects": [
     {
@@ -76,8 +64,7 @@
   ],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -86,8 +73,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

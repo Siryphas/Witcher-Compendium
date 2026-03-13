@@ -1,0 +1,107 @@
+{
+  "folder": "2whTxabRTjq1xj1F",
+  "name": "Web of Ice",
+  "type": "spell",
+  "_id": "OpVXN6XIiBR80NbZ",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Water.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "Water",
+    "domain": "",
+    "stamina": 2,
+    "staminaIsVar": false,
+    "effect": "Web of Ice allows you to create a delicate structure of ice on a surface which is linked to a duplicate that you possess. The moment a creature interacts with the surface it is placed on, the structure and its duplicate break.\nAlternatively, breaking the duplicate melts the original structure. \nThe ice can be spotted with a DC:18 Awareness check.",
+    "range": "2m",
+    "duration": "1 Day",
+    "defence": "None",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "",
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageType": "ice",
+    "damageProperties": {
+      "effects": {
+        "TjsdyzCaiepHhXHs": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8ad2a097fa75c8f728d6507cbd30b2ae1234e658"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OpVXN6XIiBR80NbZ"
+}

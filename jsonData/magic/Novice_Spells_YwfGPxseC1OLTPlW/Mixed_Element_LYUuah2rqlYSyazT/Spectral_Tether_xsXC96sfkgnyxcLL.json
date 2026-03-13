@@ -1,0 +1,149 @@
+{
+  "folder": "LYUuah2rqlYSyazT",
+  "name": "Spectral Tether",
+  "type": "spell",
+  "_id": "xsXC96sfkgnyxcLL",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+  "system": {
+    "class": "Spells",
+    "level": "journeyman",
+    "source": "mixedElements",
+    "domain": "",
+    "stamina": 8,
+    "staminaIsVar": false,
+    "effect": "Spectral Tether allows you to weave a tether of magic around a target which binds it to it’s physical form. While affected by this spell, a target cannot become incorporeal or invisible and cannot teleport by any means.\nAdditionally, as long as the spell is in effect, the target cannot move more than 10m away from you. \nEach turn, the target can spend their action to attempt another Resist Magic check against a new Spell Casting check to end the effect.",
+    "range": "10m",
+    "duration": "Active (4 STA)",
+    "defence": "Resist Magic",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": true,
+    "damage": "0",
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "bypassesNaturalArmor": true,
+      "effects": {
+        "LEnyUl9stnV93eDO": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "defenseDifferenceMultiplier": false,
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [
+      "magicResist"
+    ],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [
+    {
+      "name": "Spectral Tether",
+      "origin": "Compendium.wtrpg-complete-compendium.magic.Item.xsXC96sfkgnyxcLL",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Mixed.png",
+      "_id": "hMa3fgcMZcFnKGNQ",
+      "type": "base",
+      "system": {
+        "applySelf": true,
+        "applyOnTarget": false,
+        "applyOnHit": true,
+        "applyOnDamage": false
+      },
+      "changes": [],
+      "description": "<p>While affected by this spell, a target cannot become incorporeal or invisible and cannot teleport by any means.</p><p>Additionally, as long as the spell is in effect, the target cannot move more than 10m away from you.</p><p>Each turn, the target can spend their action to attempt another Resist Magic check against a new Spell Casting check to end the effect.</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.347",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v12.10.1",
+        "exportSource": null
+      },
+      "_key": "!items.effects!xsXC96sfkgnyxcLL.hMa3fgcMZcFnKGNQ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "92870b50cf2bdb20eabc5aeee3813fd61a80595d"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xsXC96sfkgnyxcLL"
+}

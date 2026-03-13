@@ -1,0 +1,159 @@
+{
+  "folder": "O3HujJGrLRtLqKMI",
+  "name": "Cadfan's Grasp (Alternate)",
+  "type": "spell",
+  "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+  "system": {
+    "class": "Spells",
+    "level": "novice",
+    "source": "fire",
+    "domain": "",
+    "stamina": 4,
+    "staminaIsVar": false,
+    "effect": "Alternatively, the spell can heat weapons to give +2d6 damage and a 50% chance to ignite a target.",
+    "range": "8m",
+    "duration": "1d6 Rounds",
+    "defence": "None",
+    "sideEffect": "",
+    "createTemplate": false,
+    "templateSize": 0,
+    "templateType": "",
+    "causeDamages": false,
+    "damage": "2d6",
+    "damageType": "fire",
+    "damageProperties": {
+      "bypassesWornArmor": true,
+      "effects": [],
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "defenseOptions": [],
+    "regionProperties": {
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "sourcebook": "Corebook",
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
+  },
+  "effects": [
+    {
+      "type": "temporaryItemImprovement",
+      "name": "Cadfan's Grasp (Alternate)",
+      "origin": "Item.2OIJ9UTmmWT9fu1I",
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "img": "https://assets.forge-vtt.com/652dd4eea9ac2daadb46a415/modules/wtrpg-complete-compendium/packs/images/Magic/Symbol_Fire.png",
+      "_id": "pAOJf9OW7kK8e9Oz",
+      "system": {
+        "applySelf": false,
+        "applyOnTarget": true,
+        "isTransferred": false
+      },
+      "changes": [
+        {
+          "key": "system.damage",
+          "mode": 2,
+          "value": "+2d6",
+          "priority": null
+        },
+        {
+          "key": "system.type.elemental",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.damageProperties.effects.cadfans",
+          "mode": 2,
+          "value": "{\"name\": \"Cadfan`s Grasp\", \"percentage\": 50, \"statusEffect\": \"fire\"}",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "TheWitcherTRPG",
+        "systemVersion": "v13.14.0"
+      },
+      "_key": "!items.effects!qSnebTxjREJAt5AL.pAOJf9OW7kK8e9Oz"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "e0c6f94cd1680d29775b50331e774583880cfeb1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
+  },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "_id": "qSnebTxjREJAt5AL",
+  "sort": 0,
+  "_key": "!items!qSnebTxjREJAt5AL"
+}

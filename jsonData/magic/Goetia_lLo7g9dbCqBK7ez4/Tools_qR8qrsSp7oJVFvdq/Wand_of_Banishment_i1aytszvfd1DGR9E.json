@@ -31,7 +31,6 @@
     "damage": "0",
     "range": "Melee",
     "accuracy": 0,
-    "attackSkill": "melee",
     "rateOfFire": 1,
     "usingAmmo": false,
     "rollOnlyDmg": false,
@@ -46,45 +45,54 @@
       "damageToAllLocations": false,
       "bypassesWornArmor": true,
       "bypassesNaturalArmor": true,
-      "hitGlobalModifiers": [],
-      "appliesGlobalModifierToHit": false,
-      "appliesGlobalModifierToDamaged": false,
-      "damagedGlobalModifiers": [],
       "defenseDifferenceMultiplier": false,
       "defenseMultiplierCap": 5,
       "variableDamage": false,
-      "effects": [
-        {
-          "id": "77m9Vtaj0DvKDzUh",
+      "effects": {
+        "HOyDYRqVM0JroPYr": {
           "name": "Banish",
           "statusEffect": null,
           "percentage": 100,
           "varEffect": false
         },
-        {
-          "id": "ACaRXR3PlAotrbZx",
+        "ACHY50BcgXXwyOOV": {
           "name": "Broken",
           "statusEffect": null,
           "percentage": 50,
           "varEffect": false
         }
-      ]
+      },
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "defenseProperties": {
-      "parrying": false
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     },
     "defenseOptions": [
       "dodge",
       "reposition",
       "block",
       "parry"
-    ]
+    ],
+    "attackOptions": [
+      "melee"
+    ],
+    "meleeAttackSkill": "melee",
+    "rangedAttackSkill": "melee",
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": true,
+    "applyRangedMeleeBonus": true,
+    "associatedDiagramUuid": ""
   },
   "effects": [],
   "sort": 350000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -94,9 +102,9 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.347",
+    "coreVersion": "13.351",
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
+    "systemVersion": "v13.14.0",
     "exportSource": null
   },
   "_key": "!items!i1aytszvfd1DGR9E"

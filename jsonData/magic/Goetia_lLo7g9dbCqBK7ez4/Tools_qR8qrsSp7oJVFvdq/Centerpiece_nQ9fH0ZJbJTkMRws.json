@@ -6,24 +6,35 @@
   "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/treasure/puzzle-cube.webp",
   "system": {
     "description": "purposes of protecting a person from a Casglydd. This item can take many forms and you will never see the same item more than once. \nThis item must be crafted by a skilled artisan and must be incredibly complex.\nThis complexity can come in the form of intricate carvings or embroidery, strange shapes and angles, puzzle elements, hidden compartments, or the like. \nThis item must be wrapped up and presented to the Casglydd when they are summoned. \nUpon giving the Centerpiece to the Casglydd the demon shifts its fascination from you to the Centerpiece.\nThe Casglydd will not attach to you and reoccur even if you sign a contract with it.",
-    "quantity": 1,
+    "quantity": "1",
     "weight": 0,
     "cost": null,
     "isHidden": false,
-    "associatedDiagram": {},
     "type": "quest-item",
     "avail": "Rare",
     "effect": "",
     "conceal": "T",
     "quality": "",
-    "clickableImage": false,
-    "sourcebook": "A Tome of Chaos"
+    "sourcebook": "A Tome of Chaos",
+    "isStored": false,
+    "isCarried": true,
+    "isConsumable": false,
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "addsTempHp": false,
+      "temporaryHp": {
+        "value": "",
+        "duration": 0
+      },
+      "effects": [],
+      "removesEffects": []
+    }
   },
   "effects": [],
   "sort": 275000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -32,8 +43,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

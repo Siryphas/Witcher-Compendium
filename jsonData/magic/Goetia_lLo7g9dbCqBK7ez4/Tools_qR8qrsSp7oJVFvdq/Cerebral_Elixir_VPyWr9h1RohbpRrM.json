@@ -6,18 +6,30 @@
   "img": "https://assets.forge-vtt.com/bazaar/core/icons/consumables/potions/bottle-pear-corked-labeled-ornamental-purple.webp",
   "system": {
     "description": "",
-    "quantity": 1,
+    "quantity": "1",
     "weight": 0.1,
     "cost": null,
     "isHidden": false,
-    "associatedDiagram": {},
     "type": "alchemical",
     "avail": "Rare",
     "effect": "An elixir composed of Hallucinogen infused with Mandrake Root, Hellebore Petals, Crow’s Eye, wolfsbane, and Feline Brain Matter macerated in Alcohest.\nThe concoction must be filtered through Han Fiber and mixed with Silver Shavings. \nThe elixir must be consumed at the beginning of the summoning ritual. \nThe Elixir lasts for 24 hours and while under its effects if you cannot be possessed by a Bes. \nIf you manage to drink this Elixir while possessed by a Bes, the Bes is immediately forced out of your body.",
     "time": "24 Hours",
     "toxicity": "",
     "sourcebook": "A Tome of Chaos",
-    "isConsumable": true
+    "isConsumable": true,
+    "isStored": false,
+    "isCarried": true,
+    "consumeProperties": {
+      "doesHeal": false,
+      "heal": "",
+      "addsTempHp": false,
+      "temporaryHp": {
+        "value": "",
+        "duration": 0
+      },
+      "effects": [],
+      "removesEffects": []
+    }
   },
   "effects": [
     {
@@ -62,8 +74,7 @@
   ],
   "sort": 100000,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -72,8 +83,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.12.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

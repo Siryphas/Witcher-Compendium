@@ -1,43 +1,57 @@
 {
   "folder": "qlsokLd2xO6kWMO0",
   "name": "Enchant Amulet",
-  "type": "spell",
+  "type": "ritual",
   "_id": "jPMfVolrSjdiZewl",
   "img": "icons/magic/symbols/runes-star-pentagon-orange.webp",
   "system": {
-    "class": "Rituals",
     "level": "master",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "Variable",
+    "stamina": 0,
     "staminaIsVar": false,
     "effect": "By inlaying a common amulet with gemstones etched with magic glyphs you create an enchanted amulet that stores the knowledge of casting certain spells/invocations. \nWhen creating a magic amulet, a character must spend the required STA for each spell/invocation cast. If a spell/invocation has an active duration, the caster must also spend enough STA to sustain it for 4 rounds.\nWhen creating an amulet, the caster may not use a magical focus. \nEvery spell/invocation to be imbued in the amulet must be cast quickly in succession, without taking any other action in-between, otherwise the Crafting process fails.",
     "range": "",
     "duration": "Permanent",
     "defence": "",
-    "components": "Simple Amulet (x1), Perfect Gemstone (1 Per Spell/Invocation), Fifth Essence (x2), Runewright’s Tools",
-    "alternateComponents": "",
+    "components": "Simple Amulet (x1), Perfect Gemstone (1 Per Spell/Invocation), Runewright’s Tools",
     "preparationTime": "15 Rounds",
-    "dificultyCheck": "18",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [],
     "sourcebook": "A Tome of Chaos",
     "difficultyCheck": "18",
     "cost": 1414,
-    "defenseOptions": []
+    "defenseOptions": [],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.EzQOcExxBDHb9B0n",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 2
+      }
+    ],
+    "alternateRitualComponentUuids": [],
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    }
   },
   "effects": [],
   "sort": 0,
   "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
+    "default": 0
   },
   "flags": {
     "scene-packer": {
@@ -46,8 +60,8 @@
   },
   "_stats": {
     "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null

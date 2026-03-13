@@ -1,0 +1,109 @@
+{
+  "folder": "EBsw184pX8E58Khg",
+  "name": "Cadfan's Synthesis",
+  "type": "ritual",
+  "_id": "sYlOxpw9SRQETBwr",
+  "img": "https://assets.forge-vtt.com/bazaar/core/icons/commodities/bones/skull-hollow-worn-blue.webp",
+  "system": {
+    "level": "master",
+    "stamina": 16,
+    "staminaIsVar": false,
+    "effect": "Cadfan’s Synthesis is a highly complex ritual created by the infamous necromancer Cadfan of Ebbing before his disappearance. \nThe ritual partially animates a great number of corpses, binding them together into a single amalgamated creature that can move and act on your commands. \nThe creature you create is a Corpse Amalgam. \nLike a golem, it will perform any task given by its creator to the letter but is no longer capable of higher thought.",
+    "range": "",
+    "duration": "Permanent",
+    "defence": "",
+    "components": "10 Corpses (from creatures killed within the last 24 hours)",
+    "preparationTime": "15 Rounds",
+    "createTemplate": false,
+    "templateSize": null,
+    "templateType": "",
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.NIbVLQj8z91FPjNI",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.rtMxjIQhPW1z8rGQ",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Bf19LdXrkXInkiFc",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.HejQVkqiphW1qZSx",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.uUKurnxVjyqYsqCY",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.0tfqS1HxWqTm0Zlb",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.sJs8YWzc8v4OMrnc",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.B0F1LPNFD2arwsea",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.6O3Ao6jOFx58vnDG",
+        "quantity": 5
+      }
+    ],
+    "alternateRitualComponentUuids": [],
+    "difficultyCheck": "",
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry",
+      "parryThrown",
+      "magicResist"
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d080f765131ffc05bc27f96c5089a2978c090a3b"
+    }
+  },
+  "_stats": {
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0",
+    "coreVersion": "13.351",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!sYlOxpw9SRQETBwr"
+}
