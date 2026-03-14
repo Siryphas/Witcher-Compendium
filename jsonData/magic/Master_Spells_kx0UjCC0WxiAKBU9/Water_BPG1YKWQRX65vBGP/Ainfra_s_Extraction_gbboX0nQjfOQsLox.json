@@ -9,68 +9,102 @@
     "level": "master",
     "source": "Water",
     "domain": "",
-    "stamina": "22",
+    "stamina": 22,
     "staminaIsVar": false,
     "effect": "Created by the famed Ainfra of Mag Turga, Ainfra’s Extraction allows you to desiccate a target and then utilize their water for your own means. \nUpon casting this spell, a target that fails to defend lowers their current STA by 8d6 and the caster may immediately cast Rhewi, Ice Slick, or Water Jet at no STA cost.",
     "range": "8m",
     "duration": "Immediate",
     "defence": "Resist Magic",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": true,
     "damage": "8d6",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Non-Lethal",
-        "statusEffect": null,
-        "percentage": 0
-      }
-    ],
     "damageProperties": {
       "bypassesNaturalArmor": true,
       "bypassesWornArmor": true,
       "isNonLethal": true,
-      "effects": []
+      "effects": {
+        "pq9lhL874nmSfoqD": {
+          "name": "Non-Lethal",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false
     },
     "defenseOptions": [
       "magicResist"
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "0266c0382820e16731aa2a46fa8102c90542aceb"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!gbboX0nQjfOQsLox"
 }

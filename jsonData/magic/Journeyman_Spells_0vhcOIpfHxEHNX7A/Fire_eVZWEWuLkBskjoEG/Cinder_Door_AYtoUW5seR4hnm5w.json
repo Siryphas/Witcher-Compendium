@@ -9,63 +9,101 @@
     "level": "journeyman",
     "source": "fire",
     "domain": "",
-    "stamina": "12",
+    "stamina": 12,
     "staminaIsVar": false,
     "effect": "Cinder Door allows you to funnel fire magic into a flammable structure to safely and silently consume it from within. \nUpon casting this spell, up to a 2m cubed section of the cover you touch takes 4d6 ablation damage. \nThis spell can be maintained by spending extra rounds focusing on it during the casting. \nFor each round that you continue to maintain the spell and pay its active cost the cover takes 4d6 ablation damage. \nWhen this area of cover no longer has any SP, it crumbles away",
     "range": "2m",
     "duration": "Active (3 STA)",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": true,
-    "templateSize": "2",
+    "templateSize": 2,
     "templateType": "rect",
     "causeDamages": true,
     "damage": "4d6",
-    "effects": [
-      {
-        "id": "first",
-        "name": "effect"
-      }
-    ],
     "visualEffectDuration": null,
     "damageType": "fire",
     "defenseOptions": [],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
     },
     "damageProperties": {
-      "effects": []
+      "effects": {
+        "SxYIowkQRP7p2hhC": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "b825618dba92793f2b4c27f608367b79478bf92d"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!AYtoUW5seR4hnm5w"
 }

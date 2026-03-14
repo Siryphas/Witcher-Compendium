@@ -9,58 +9,100 @@
     "level": "journeyman",
     "source": "mixedElements",
     "domain": "",
-    "stamina": "12",
+    "stamina": 12,
     "staminaIsVar": false,
     "effect": "Trap Portal allows you to place a magical trap inside a portal which redirects the portal’s end point. \nUpon casting the spell, you learn the portal’s end point and can choose a location within 1 mile of that point to be the new end point. \nThis trap makes a notable change to the portal which requires a DC:16 Magic Training check or a DC:20 Education check to spot.\nAnyone with at least 1 point in Magic Training automatically gets to roll a Magic Training check upon seeing the portal to try and spot the trap. \nImmediately after a creature passes through the portal, the trap is dispelled but evidence that the portal was trapped remains for 1 month.",
     "range": "4m",
     "duration": "1 Month",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": false,
     "damage": "",
-    "effects": [
-      {
-        "id": "first",
-        "name": "effect"
-      }
-    ],
     "defenseOptions": [],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "1TsQ7L40KDKMHdeS": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "a515547fe0f8a64ea94e2fa9b3a8a2912890de33"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!nEWUcjLRIjQ1Vx2z"
 }

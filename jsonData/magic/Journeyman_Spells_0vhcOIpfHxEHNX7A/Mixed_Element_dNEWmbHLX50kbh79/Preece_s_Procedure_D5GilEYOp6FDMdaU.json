@@ -9,44 +9,82 @@
     "level": "journeyman",
     "source": "mixedElements",
     "domain": "",
-    "stamina": "10",
+    "stamina": 10,
     "staminaIsVar": false,
     "effect": "Developed by Catrin Preece to navigate the dangerous waters of high society, Preece’s Procedure allows you to temporarily lock away one a target’s emotions. \nWhen the spell is cast, you can choose one of the following Emotions to lock away: \nHatred, Love, Depression, or Euphoria. \nFor the 10 duration of this spell, the target is incapable of having this emotion and is unaware they have been affected with magic. At the end of the spell’s duration, the target’s locked emotion returns but they are still unaware they were affected by magic. \nEach time the spell is cast on a single target that is currently being affected by the spell, the Stamina Cost to cast Preece’s Procedure raises by 2.",
     "range": "3m",
     "duration": "8 Hours",
     "defence": "Resist Magic",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": true,
     "damage": "0",
-    "effects": [
-      {
-        "id": "first",
-        "name": "effect"
-      }
-    ],
     "damageProperties": {
       "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
+      "bypassesNaturalArmor": true,
+      "effects": {
+        "192c12efLHEW4zti": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "defenseOptions": [
       "magicResist"
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [
@@ -82,31 +120,31 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "TheWitcherTRPG",
-        "systemVersion": "v12.10.1",
-        "exportSource": null
+        "systemVersion": "v13.14.0"
       },
       "_key": "!items.effects!D5GilEYOp6FDMdaU.yXxuYo6Gg3AfiLYf"
     }
   ],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "54cd61bea65e4b08488ddbeb4f1bad81e67ab9a7"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!D5GilEYOp6FDMdaU"
 }

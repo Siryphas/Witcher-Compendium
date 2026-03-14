@@ -9,46 +9,83 @@
     "level": "novice",
     "source": "mixedElements",
     "domain": "basic",
-    "stamina": "3",
+    "stamina": 3,
     "staminaIsVar": false,
     "effect": "Mind Manipulation allows you to force one target to feel one of the following emotions for the duration of the spell: hatred, love, depression, or euphoria.",
     "range": "5m",
     "duration": "1d10 Rounds",
     "defence": "Resist Magic",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": true,
     "damage": "0",
-    "effects": [
-      {
-        "id": "first",
-        "name": "effect"
-      }
-    ],
     "damageProperties": {
       "bypassesWornArmor": true,
       "bypassesNaturalArmor": true,
-      "effects": []
+      "effects": {
+        "VtDmBrymcLRxNv3O": {
+          "name": "effect",
+          "statusEffect": null,
+          "percentage": 0,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
     },
     "defenseOptions": [
       "magicResist"
-    ]
+    ],
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
   },
   "effects": [
     {
@@ -83,31 +120,31 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "TheWitcherTRPG",
-        "systemVersion": "v12.12.0",
-        "exportSource": null
+        "systemVersion": "v13.14.0"
       },
       "_key": "!items.effects!JswlKDIRPVEm4whm.3w82wpusFThMMs36"
     }
   ],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "981c1a1ba8d405fe5a4ca5afd81f6a6466e53e7b"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!JswlKDIRPVEm4whm"
 }

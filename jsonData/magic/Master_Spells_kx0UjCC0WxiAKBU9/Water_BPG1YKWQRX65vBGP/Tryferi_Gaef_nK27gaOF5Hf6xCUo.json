@@ -9,51 +9,45 @@
     "level": "master",
     "source": "Water",
     "domain": "",
-    "stamina": "22",
+    "stamina": 22,
     "staminaIsVar": false,
     "effect": "Tryferi Gaeaf allows you to shoot a number of 2m spikes of ice equal to half your Spell Casting skill value at any number of targets within range. \nThese spikes do 5d6 points of damage and, if they do damage through armor, freeze the opponent and do 2 point of damage each round until they are broken off with a DC:20 Physique check or by doing 20 points of damage to them. \nOtherwise, these spikes last for the duration of the spell. \nEach attack resolves separately.",
     "range": "20m",
     "duration": "1d10 Rounds",
     "defence": "Dodge or Block",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "rect",
     "causeDamages": true,
     "damage": "5d6",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Freeze",
-        "statusEffect": "freeze",
-        "percentage": 100
-      }
-    ],
     "visualEffectDuration": null,
     "damageType": "ice",
     "damageProperties": {
-      "effects": [
-        {
-          "id": "first",
+      "effects": {
+        "VtgWAXxYg74nO4lF": {
           "name": "Freeze",
           "statusEffect": "freeze",
           "percentage": 100,
           "varEffect": false
-        },
-        {
-          "id": "cmD33btomAMZUjpI",
-          "name": "Deep Freeze",
-          "statusEffect": "bleed",
-          "percentage": 100,
-          "varEffect": false
         }
-      ]
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "defenseOptions": [
       "dodge",
@@ -62,32 +56,58 @@
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
     },
-    "sourcebook": "Corebook"
+    "sourcebook": "Corebook",
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
+    }
   },
   "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "a716f3ef341c20ae99cfe6278a7eb66f9a75bac7"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.27.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!nK27gaOF5Hf6xCUo"
 }

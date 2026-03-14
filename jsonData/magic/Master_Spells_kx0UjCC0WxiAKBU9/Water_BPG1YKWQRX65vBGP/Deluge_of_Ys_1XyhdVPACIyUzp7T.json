@@ -9,61 +9,101 @@
     "level": "master",
     "source": "Water",
     "domain": "",
-    "stamina": "24",
+    "stamina": 24,
     "staminaIsVar": false,
     "effect": "Deluge of Ys allows you to summon a 20m cubed cube of water which floods out in all directions. Anyone caught in the area takes 5d6 damage to the torso and must make a DC:24 Physique check or be knocked prone as water batters them. \nIf cast in an open area, the water will flood outwards within the same turn it was cast. If cast in an enclosed space, the water fills the space, breaking any non-reinforced barriers and leaves the area entirely submerged.",
     "range": "40m",
     "duration": "Immediate",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": true,
-    "templateSize": "20",
+    "templateSize": 20,
     "templateType": "rect",
     "causeDamages": true,
     "damage": "5d6",
-    "effects": [
-      {
-        "id": "hV7q4CUtPLTKeAYA",
-        "name": "Knockdown",
-        "statusEffect": "prone",
-        "percentage": 100
-      }
-    ],
     "visualEffectDuration": null,
     "defenseOptions": [],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "HHfqa8TDIIAhsyKl": {
+          "name": "Knockdown",
+          "statusEffect": "prone",
+          "percentage": 100,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "2191ab9266f04cf1555dedfb5435e1955a0050e8"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!1XyhdVPACIyUzp7T"
 }

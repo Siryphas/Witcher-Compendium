@@ -9,28 +9,36 @@
     "level": "master",
     "source": "earth",
     "domain": "",
-    "stamina": "25",
+    "stamina": 25,
     "staminaIsVar": false,
     "effect": "Crystal Stasis allows you to cause crystals to grow up around a target and encase them entirely, placing them into an un-aging, coma-like state. These crystals grow rapidly but not instantaneous and the spell must be maintained as per an Active Spell over three rounds. On the target’s next turn, their body becomes sluggish and stiff, imposing a -3 to attack and defense and a -3 to their SPD. \nOn their second turn, their body begins to be consumed by crystal and they additionally cannot move from where they stand. On their third turn, the target is entirely entombed in a pillar of crystal rendering them unconscious. \nIf the mage is forced to stop maintaining this spell before the third round, the spell ends and the effects are reversed. Otherwise, the only way to reverse the effects are the use of the Dispel spell.",
     "range": "6m",
     "duration": "Active (6 STA)",
     "defence": "Resist Magic or Dodge",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": true,
     "damage": "0",
-    "effects": [],
     "damageProperties": {
       "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
+      "bypassesNaturalArmor": true,
+      "effects": {},
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "defenseOptions": [
       "dodge",
@@ -39,11 +47,39 @@
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [
@@ -79,31 +115,31 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "TheWitcherTRPG",
-        "systemVersion": "v12.12.0",
-        "exportSource": null
+        "systemVersion": "v13.14.0"
       },
       "_key": "!items.effects!sS0OWdEPW7lF1mbQ.NdCtqED7vUrF0IHs"
     }
   ],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "d9f55f2e69d80a0ab621659e4eeb63a3da291ea0"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!sS0OWdEPW7lF1mbQ"
 }

@@ -9,36 +9,73 @@
     "level": "journeyman",
     "source": "earth",
     "domain": "",
-    "stamina": "14",
+    "stamina": 14,
     "staminaIsVar": false,
     "effect": "Created by the famed magician Elgan of Verden, Elgan’s Bastion uses trace amounts of metal in stone to magnetically lift a shield of rocks around you to defend yourself from physical attacks and damage. \nThis shield of rocks counts as a Cover with 30 SP and entirely surrounds you.\nWhile surrounded, your SPEED Statistic cannot be higher than 2 and you cannot do anything on your turn but take a single Movement Action.",
     "range": "Self",
     "duration": "Active (4 STA)",
     "defence": "None",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": false,
     "damage": "",
-    "effects": [],
-    "globalModifiers": [],
     "createsShield": true,
     "shield": "30",
     "defenseOptions": [],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {},
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [
@@ -83,31 +120,31 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.347",
+        "exportSource": null,
+        "coreVersion": "13.351",
         "systemId": "TheWitcherTRPG",
-        "systemVersion": "v12.10.1",
-        "exportSource": null
+        "systemVersion": "v13.14.0"
       },
       "_key": "!items.effects!HVNwvLo3fviO77hw.i5rAoafo9CWhTMj7"
     }
   ],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "a42fc50a38bfb9c9e335ba32ce0541e1bead23f5"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!HVNwvLo3fviO77hw"
 }

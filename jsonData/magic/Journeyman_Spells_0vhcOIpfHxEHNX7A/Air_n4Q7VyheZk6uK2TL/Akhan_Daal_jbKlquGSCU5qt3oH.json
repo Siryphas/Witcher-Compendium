@@ -9,32 +9,18 @@
     "level": "journeyman",
     "source": "air",
     "domain": "",
-    "stamina": "12",
+    "stamina": 12,
     "staminaIsVar": false,
     "effect": "A favorite spell of the Witch of Lynx Crag, Akhan Daal allows you to create a small explosion of concussive energy at range. \nAnyone in the area of this spell who fails to defend takes 4d6 Damage to the Torso, is Knocked Down and Knocked Back 4m. \nIf an affected target hits something they take ramming damage.",
     "range": "4m (2m Radius)",
     "duration": "Immediate",
     "defence": "Dodge",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": true,
-    "templateSize": "2",
+    "templateSize": 2,
     "templateType": "circle",
     "causeDamages": true,
     "damage": "4d6",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Knockdown",
-        "statusEffect": "prone",
-        "percentage": 100
-      }
-    ],
     "visualEffectDuration": null,
     "defenseOptions": [
       "dodge",
@@ -42,31 +28,85 @@
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "damageProperties": {
+      "effects": {
+        "bLgBfnh5xe6kTJqN": {
+          "name": "Knockdown",
+          "statusEffect": "prone",
+          "percentage": 100,
+          "varEffect": false
+        }
+      },
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "bypassesWornArmor": false,
+      "bypassesNaturalArmor": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "dc0b87e365acc7cdc0867d69a0b4cb1a2d96c888"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!jbKlquGSCU5qt3oH"
 }

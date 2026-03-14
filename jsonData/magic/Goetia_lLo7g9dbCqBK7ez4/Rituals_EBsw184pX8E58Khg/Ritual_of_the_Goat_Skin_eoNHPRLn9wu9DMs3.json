@@ -1,58 +1,110 @@
 {
   "folder": "EBsw184pX8E58Khg",
   "name": "Ritual of the Goat Skin",
-  "type": "spell",
+  "type": "ritual",
   "_id": "eoNHPRLn9wu9DMs3",
   "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
   "system": {
-    "class": "Rituals",
     "level": "novice",
-    "source": "mixedElements",
-    "domain": "",
-    "stamina": "0",
+    "stamina": 0,
     "staminaIsVar": false,
     "effect": "The Ritual of the Goat Skin is a complex ritual used to create a Goat Skin Mantle which protects goetic practitioners during their rituals. During this ritual, the practitioner, who must have abstained from all pleasures of the flesh and fasted for a fortnight beforehand, must anoint a goat with oil infused with ginatia and hellebore petals and place a wreath of verbena and silk on its head. As the ritual begins, the practitioner must kill the goat, skin its body, and cast the body into a burning bonfire of timber and animal bones.. While the goat burns the practitioner must recite an unbroken series of protective prayers. When the fire burns down, the practitioner must take the ashes of the bonfire and rub it into the pelt of the goat and then tan it and attach toggles made from the goat’s bones.",
     "range": "",
     "duration": "Permanent",
     "defence": "",
-    "components": "Investment: 400\nGoat (x1), Oil (x5), Coal (x1), Bloodstone Dagger, Ginitia Petals (x2), Hellebore Petals (x3), Tanning Herbs (x3), Verbena (x4), Timber (x10), Beast Bones (x3), Silk (x1)",
-    "alternateComponents": "",
+    "components": "Investment: 400\nGoat (x1)",
     "preparationTime": "30 Rounds",
-    "dificultyCheck": "16",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
       {
-        "id": "first",
-        "name": "effect"
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.BE0jTSVpel4zsATp",
+        "quantity": 5
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.0T5Hakf12eEtR5Hc",
+        "quantity": 1
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Xb6CpnpSky3Di3VP",
+        "quantity": 2
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.Bf19LdXrkXInkiFc",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.4GnR3sbkzjkTDemj",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.cDzL5c3xOpKWD6vj",
+        "quantity": 4
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.nG3UurdfnfwSQaIL",
+        "quantity": 10
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.TezyBoumFnLexvZQ",
+        "quantity": 3
+      },
+      {
+        "uuid": "Compendium.wtrpg-complete-compendium.crafting.Item.SsSrrXXt2RaAUfNy",
+        "quantity": 1
+      },
+      {
+        "uuid": "Item.cruklKIn1C4BaSa7",
+        "quantity": 1
       }
+    ],
+    "alternateRitualComponentUuids": [],
+    "difficultyCheck": "",
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry",
+      "parryThrown",
+      "magicResist"
     ]
   },
   "effects": [],
-  "sort": 150000,
-  "ownership": {
-    "default": 0,
-    "JEflPFTBB5wpYRms": 3,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "b5d11ab172c8afc5a62a3c86d240801d43ad7139"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "1.038",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!eoNHPRLn9wu9DMs3"
 }
