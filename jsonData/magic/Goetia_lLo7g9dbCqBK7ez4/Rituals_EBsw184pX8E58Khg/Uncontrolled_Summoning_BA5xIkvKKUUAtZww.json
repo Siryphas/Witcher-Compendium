@@ -1,57 +1,74 @@
 {
   "folder": "EBsw184pX8E58Khg",
   "name": "Uncontrolled Summoning",
-  "type": "spell",
+  "type": "ritual",
   "_id": "BA5xIkvKKUUAtZww",
   "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
   "system": {
-    "class": "Rituals",
     "level": "novice",
-    "source": "",
-    "domain": "",
-    "stamina": "0",
+    "stamina": 0,
     "staminaIsVar": false,
     "effect": "Process: \nDesignate a chief summoner, to lead the chant. Have them stand forward, with the rest of your group behind them in a semicircle. Scribe a chalk circle into the ground before you, to guide the demon to your ritual. \nPick three syllables from your heart (roll on the Demon True Name Generator) at random, and chant them while visualizing your heart’s desire, one syllable at a time, without ceasing, until a demon appears to you.\n\nEffect: \nThis summoning ritual is incredibly dangerous. The demon that is summoned is not bound by any sort of code of conduct, and is not controlled by the players. \nIt may attack them, or go back on any deal made with them, with no consequences. \nFurthermore, a demon of any species may show up in the summoning, including greater demons. \nThis ritual is responsible for most of the deaths associated with goetia.",
     "range": "",
     "duration": "Instant",
     "defence": "",
-    "components": "Investment: 2\n\nChalk x1",
-    "alternateComponents": "",
+    "components": "",
     "preparationTime": "10 Rounds",
-    "dificultyCheck": "10",
-    "danger": "",
-    "liftRequirement": "",
-    "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": null,
     "templateType": "",
-    "causeDamages": false,
-    "damage": "",
-    "effects": [
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "ritualComponentUuids": [
       {
-        "id": "first",
-        "name": "effect"
+        "uuid": "Compendium.wtrpg-complete-compendium.gear.Item.NIbVLQj8z91FPjNI",
+        "quantity": 1
       }
+    ],
+    "alternateRitualComponentUuids": [],
+    "difficultyCheck": "",
+    "regionProperties": {
+      "createRegionFromTemplate": false,
+      "behaviours": {
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenMoveWithin": null,
+        "tokenExit": null
+      }
+    },
+    "defenseOptions": [
+      "dodge",
+      "reposition",
+      "block",
+      "parry",
+      "parryThrown",
+      "magicResist"
     ]
   },
   "effects": [],
-  "sort": 100000,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "c6019af038d56debd76e27e16f0c848db6cca420"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "1.038",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!BA5xIkvKKUUAtZww"
 }

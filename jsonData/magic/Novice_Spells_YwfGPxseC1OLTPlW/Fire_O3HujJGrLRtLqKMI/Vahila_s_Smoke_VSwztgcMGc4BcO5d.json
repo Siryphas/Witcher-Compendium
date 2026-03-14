@@ -9,57 +9,49 @@
     "level": "novice",
     "source": "fire",
     "domain": "",
-    "stamina": "3",
+    "stamina": 3,
     "staminaIsVar": false,
     "effect": "Created by the feared Etolian assassin Vahila, this spell transforms a wisp of smoke into a choking veil. \nUpon casting this spell, you can engulf a single target’s head in thick smoke.\nIf this target fails to defend they are immersed in smoke and considered Blinded and Suffocating. \nEach turn, the target can spend their action to attempt another defense check against a new Spell Casting check to end the effect.",
     "range": "10m",
     "duration": "Active (2 STA)",
     "defence": "Dodge",
-    "components": "",
-    "alternateComponents": "",
-    "preparationTime": "",
-    "dificultyCheck": "",
-    "danger": "",
-    "liftRequirement": "",
     "sideEffect": "",
     "createTemplate": false,
-    "templateSize": "",
+    "templateSize": 0,
     "templateType": "",
     "causeDamages": true,
     "damage": "0",
-    "effects": [
-      {
-        "id": "first",
-        "name": "Blinded",
-        "statusEffect": "blinded",
-        "percentage": 100
-      },
-      {
-        "id": "_szyp1bx7g",
-        "name": "Suffocate",
-        "statusEffect": null,
-        "percentage": 0
-      }
-    ],
     "damageProperties": {
-      "effects": [
-        {
-          "id": "first",
+      "effects": {
+        "1wnnP9gvp4uKZ6o1": {
           "name": "Blinded",
           "statusEffect": "blinded",
           "percentage": 100,
           "varEffect": false
         },
-        {
-          "id": "_szyp1bx7g",
+        "wdqnG6EbtNf2ACUg": {
           "name": "Suffocate",
-          "statusEffect": "suffocation",
-          "percentage": 100,
+          "statusEffect": null,
+          "percentage": 0,
           "varEffect": false
         }
-      ],
+      },
       "bypassesWornArmor": true,
-      "bypassesNaturalArmor": true
+      "bypassesNaturalArmor": true,
+      "armorPiercing": false,
+      "improvedArmorPiercing": false,
+      "ablating": false,
+      "crushingForce": false,
+      "damageIsAblation": false,
+      "damageToAllLocations": false,
+      "defenseDifferenceMultiplier": false,
+      "defenseMultiplierCap": 5,
+      "variableDamage": false,
+      "oilEffect": "",
+      "silverTrait": false,
+      "silverDamage": "",
+      "isMeteorite": false,
+      "isNonLethal": false
     },
     "defenseOptions": [
       "dodge",
@@ -67,31 +59,59 @@
     ],
     "regionProperties": {
       "behaviours": {
-        "tokenEnter": "",
-        "tokenTurnStart": "",
-        "tokenPreMove": "",
-        "tokenExit": ""
-      }
+        "tokenEnter": null,
+        "tokenTurnStart": null,
+        "tokenExit": null,
+        "tokenMoveWithin": null
+      },
+      "createRegionFromTemplate": false
+    },
+    "description": "",
+    "quantity": "1",
+    "weight": 0,
+    "cost": 0,
+    "sourcebook": "",
+    "isHidden": false,
+    "isStored": false,
+    "isCarried": true,
+    "damageType": "elemental",
+    "createsShield": false,
+    "shield": "",
+    "doesHeal": false,
+    "heal": "",
+    "selfEffects": [],
+    "onCastEffects": [],
+    "attackOptions": [
+      "spell"
+    ],
+    "spellAttackSkill": "spellcasting",
+    "applyMeleeBonus": false,
+    "applyRangedMeleeBonus": false,
+    "isThrowable": false,
+    "defenseProperties": {
+      "parrying": false,
+      "defendsAgainst": [],
+      "modifier": 0
     }
   },
   "effects": [],
-  "sort": 600000,
-  "ownership": {
-    "default": 0,
-    "dxC9PYhanWf4xPZG": 3
-  },
   "flags": {
     "scene-packer": {
       "hash": "2a19c7983cac816238559f701c8feceeb6d523da"
     }
   },
   "_stats": {
-    "systemId": "TheWitcherTRPG",
-    "systemVersion": "v12.20.0",
-    "coreVersion": "13.347",
     "compendiumSource": null,
     "duplicateSource": null,
-    "exportSource": null
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "TheWitcherTRPG",
+    "systemVersion": "v13.14.0"
   },
+  "ownership": {
+    "default": 0,
+    "C5Vr3CkGFqAIGkSl": 3
+  },
+  "sort": 0,
   "_key": "!items!VSwztgcMGc4BcO5d"
 }
